@@ -26,10 +26,6 @@ export const RootScreen = ({ navigation }) => {
     return <Text>Loading...</Text>;
   }
 
-  const handleSignUp = () => {
-    navigation.navigate('SignUp');
-  }
-
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
@@ -101,7 +97,7 @@ export const RootScreen = ({ navigation }) => {
         <View style={{ paddingLeft: 33, paddingRight: 33, margin: 5 }}>
           <Button
             title="Login"
-          
+            onPress={() => navigation.navigate('Login')}
           ></Button>
         </View>
         <Text style={styles.quote}>

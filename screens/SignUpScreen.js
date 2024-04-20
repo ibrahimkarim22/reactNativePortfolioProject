@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     alignContent: "center",
     margin: 23,
     top: 155,
-    borderRadius: 22,
+    borderRadius: 33,
   },
   title: {
     color: "white",
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     padding: 22,
     margin: 5,
     borderRadius: 222,
-    shadowColor: 'green',
+    shadowColor: 'steelblue',
     shadowOffset: { width: 1, height: 1 },
     shadowOpacity: 1,
     shadowRadius: 33,
@@ -92,7 +92,6 @@ const styles = StyleSheet.create({
   },
   btn: {
     padding: 22,
-    
   }
 });
 

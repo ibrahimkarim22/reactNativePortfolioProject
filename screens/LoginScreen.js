@@ -2,7 +2,7 @@ import { useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { Card } from "react-native-elements";
 
-const LoginScreen = () => {
+const LoginScreen = ({ navigation }) => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
   
@@ -10,6 +10,7 @@ const LoginScreen = () => {
       console.log("Login:");
       console.log("Username - ", username);
       console.log("Password - ", password);
+      navigation.navigate("SignUp");
     };
   
     return (
@@ -30,6 +31,7 @@ const LoginScreen = () => {
         <View style={styles.btn}>
         <Button
           title="Login"
+          onPress={() => handleLogin()}
         ></Button>
         </View>
         </Card>

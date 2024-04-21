@@ -1,63 +1,48 @@
-import { View, ScrollView, Text, StyleSheet, StatusBar, Image, Button } from "react-native";
-import {
-    createDrawerNavigator,
-    DrawerContentScrollView,
-    DrawerItemList
-} from '@react-navigation/drawer';
-import { useFonts } from "@expo-google-fonts/sora";
-import { createStackNavigator } from "@react-navigation/stack";
+import { useEffect, useState } from "react";
+import { View, Text, TextInput, Button, StyleSheet } from "react-native";
+import { Card } from "react-native-elements";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchFolger } from "../folgerLibrary/folgerSlice";
 
+const HomeScreen = () => {
+    const dispatch = useDispatch();
+    const folgerState = useSelector((state) => state.folger);
 
-const Drawer = createDrawerNavigator();
+    useEffect(() => {
+        dispatch(fetchFolger());
+    }, [dispatch]);
 
-const screenOptions = {
-    headerTransparent: true,
-    headerTintColor: 'white'
-}
-
-const HomeNavigator = () => {
-    const Stack = createStackNavigator();
     return (
-        <Stack.Navigator screenOptions={screenOptions}>
-            <Stack.Screen
-                name="Home"
-                component={HomeScreen}
-                options={({ navigation }) => ({
-                    title: 'Home',
-                })}
-                ></Stack.Screen>
-        </Stack.Navigator>
-    )
+        <View style={styles.container}>
+        <Text style={styles.headerText}>Home Screen</Text>
+        {folgerState.isLoading ? (
+            <Text>Loading...</Text>
+        ) : folgerState.errMess ? (
+            <Text>Error: {folgerState.errMess}</Text>
+        ) : (
+            <View>
+                <Text>Folger Data:</Text>
+                {folgerState.folgerArray.map((item, index) => (
+                    <Text key={index}>{item}</Text>
+                ))}
+            </View>
+        )}
+    </View>
+);
 };
 
-const CustomDrawerContent = (props) => (
-    <DrawerContentScrollView {...props}>
-        <DrawerItemList />
-    </DrawerContentScrollView>
-)
+const styles = StyleSheet.create({
+container: {
+    backgroundColor: "white",
+    flex: 1,
+    padding: 20,
+},
+headerText: {
+    color: "white",
+    fontSize: 24,
+    marginBottom: 10,
+},
+});
 
-const HomeScreen = () => { 
-    const [fontsLoaded] = useFonts({
-        Sora_500Medium,
-      });
-    
-      if (!fontsLoaded) {
-        return <Text>Loading...</Text>;
-      }
-    return(
-        <View>
-            <Drawer.Navigator
-                initialRouteName="Home"
-                drawerContent={CustomDrawerContent}
-            >
-                <Drawer.Screen
-                    name="Home"
-                    component={HomeNavigator}
-                    options={{ title: 'Home' }}
-                />
-            </Drawer.Navigator>
-        </View>
-    )
-}
 
 export default HomeScreen;

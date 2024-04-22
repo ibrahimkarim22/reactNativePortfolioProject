@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import HTMLView from 'react-native-htmlview';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchMIT } from '../completeWorks/MITShakespeareSlice';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
+import { StyleSheet, SafeAreaView, ScrollView, Text } from "react-native";
+import HTMLView from "react-native-htmlview";
 
 const MITScreen = () => {
   const dispatch = useDispatch();
@@ -16,16 +15,12 @@ const MITScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
-        <Text style={styles.headerText}>MIT Shakespeare API Test</Text>
         {MITState.isLoading ? (
           <Text>Loading...</Text>
         ) : MITState.errMess ? (
           <Text>Error: {MITState.errMess}</Text>
         ) : (
-          <HTMLView
-            value={MITState.htmlContent}
-            stylesheet={htmlStyles}
-          />
+          <HTMLView value={MITState.htmlContent} stylesheet={htmlStyles} />
         )}
       </ScrollView>
     </SafeAreaView>
@@ -34,14 +29,14 @@ const MITScreen = () => {
 
 const htmlStyles = StyleSheet.create({
   a: {
-    fontWeight: 'bold',
-    color: 'blue',
+    fontWeight: "bold",
+    color: "blue",
   },
   b: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   p: {
-    color: 'red',
+    color: "red",
   },
 });
 
@@ -49,7 +44,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: 'white',
+    backgroundColor: "white",
   },
   headerText: {
     fontSize: 24,

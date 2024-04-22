@@ -6,7 +6,7 @@ import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
 import { aMidSummerNightsDream, allsWellThatEndsWell, antonyAndCleopatra } from "../shared/folgerUrl";
 
-const HomeScreen = () => {
+const Folger = () => {
     const dispatch = useDispatch();
     const folgerState = useSelector((state) => state.folger);
     const [playNames, setPlayNames] = useState([]);
@@ -72,4 +72,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default HomeScreen;
+export default Folger;

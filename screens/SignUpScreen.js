@@ -48,6 +48,7 @@ const SignUpScreen = () => {
       <Button
         title="Sign Up"
         color="firebrick"
+        onPress={() => handleSignUp()}
       ></Button>
       </View>
       </Card>

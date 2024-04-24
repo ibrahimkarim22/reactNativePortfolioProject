@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createStackNavigator } from "@react-navigation/stack";
 import { RootScreen } from "../screens/RootScreen";
+import HomeScreen from "../screens/HomeScreen";
 import SignUpScreen from "../screens/SignUpScreen";
 import LoginScreen from "../screens/LoginScreen";
 import Folger from "../screens/FolgerAPITest";
@@ -27,7 +28,8 @@ const AppNavigation = () => {
           },
         }}  
       >
-        <Drawer.Screen name="Folger API" component={StackNavigator} />
+        <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="Folger API" component={Folger} />
         <Drawer.Screen name="MIT API" component={TestingMIT} />
         <Drawer.Screen name="Root" component={RootScreen} />
         <Drawer.Screen name="Sign Up" component={SignUpScreen} />
@@ -40,11 +42,15 @@ const AppNavigation = () => {
 const StackNavigator = () => {
   return (
     <Stack.Navigator
-      initialRouteName="FolgerAPI"
+      initialRouteName="Home"
       screenOptions={{ headerShown: false }}
     >
+      <Stack.Screen 
+        name="Home"
+        component={HomeScreen}
+      />
         <Stack.Screen 
-            name="FolgerAPI" 
+            name="Folger API" 
             component={Folger}
         />
           <Stack.Screen 
@@ -58,7 +64,7 @@ const StackNavigator = () => {
 
     />
       <Stack.Screen
-        name="SignUp"
+        name="Sign Up"
         component={SignUpScreen}
         options={{ headerTransparent: true, headerTintColor: "white" }}
       />

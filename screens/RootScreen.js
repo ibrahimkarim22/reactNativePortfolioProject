@@ -11,7 +11,6 @@ export const RootScreen = ({ navigation }) => {
     return <Text>Loading...</Text>;
   }
  
-
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />

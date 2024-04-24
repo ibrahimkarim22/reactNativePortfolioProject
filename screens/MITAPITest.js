@@ -32,9 +32,7 @@ const htmlStyles = StyleSheet.create({
     fontWeight: "bold",
     color: "blue",
   },
-  b: {
-    fontWeight: "bold",
-  },
+ 
   p: {
     color: "red",
   },

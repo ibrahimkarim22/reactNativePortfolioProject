@@ -1,30 +1,16 @@
 import { View, Text, StyleSheet, StatusBar, Image, Button } from "react-native";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 import { ScreenWidth } from "react-native-elements/dist/helpers";
-import {
-  Khand_300Light,
-  Khand_400Regular,
-  Khand_500Medium,
-  Khand_600SemiBold,
-  Khand_700Bold,
-} from "@expo-google-fonts/khand";
-import { Sora_500Medium } from "@expo-google-fonts/sora";
-import { useFonts } from "@expo-google-fonts/khand";
 import { Icon } from "react-native-elements";
+import { Fonts } from "../Componenets/fonts";
 
 export const RootScreen = ({ navigation }) => {
-  const [fontsLoaded] = useFonts({
-    Khand_300Light,
-    Khand_400Regular,
-    Khand_500Medium,
-    Khand_600SemiBold,
-    Khand_700Bold,
-    Sora_500Medium,
-  });
+  const fontsLoaded = Fonts();
 
   if (!fontsLoaded) {
     return <Text>Loading...</Text>;
   }
+ 
 
   return (
     <View style={styles.container}>

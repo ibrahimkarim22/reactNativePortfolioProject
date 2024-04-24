@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { View, Text } from "react-native";
 import { Fonts } from "../Componenets/fonts";
 import UserInfoTab from "../tabs/UserInfoTab";
-import { MedalsTab } from "../tabs/MedalsTab";
+import  MedalsTab  from "../tabs/MedalsTab";
 import { CertificateTab } from "../tabs/CertificateTab";
 
 

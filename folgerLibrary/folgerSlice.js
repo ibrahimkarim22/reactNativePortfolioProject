@@ -1,12 +1,14 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { aMidSummerNightsDream } from "../shared/folgerUrl";
-import HTMLView from "react-native-htmlview";
-
+import { PLAYS } from "../shared/playsRoot";
 
 export const fetchFolger = createAsyncThunk(
     'folger/fetchFolger',
-    async (playName) => {
-            const response = await fetch(`https://www.folgerdigitaltexts.org/${playName}/synopsis/`);
+    async (id) => {
+        const play = PLAYS.find((play) => play.id === 1);
+        if (!play) {
+            throw new Error("Play not found");
+        }
+            const response = await fetch(`https://www.folgerdigitaltexts.org/${play.folgerURL}/synopsis/`);
             if (!response.ok) {
                 throw new Error('Fetch failed with status: ' + response.status);
             }

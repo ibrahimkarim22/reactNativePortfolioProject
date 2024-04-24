@@ -1,20 +1,25 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { PLAYS } from "../shared/playsRoot";
 
 export const fetchMIT = createAsyncThunk(
-    'MIT/fetchMIT',
-    async () => {
-        const response = await fetch("https://raw.githubusercontent.com/TheMITTech/shakespeare/master/allswell/full.html");
-        if (!response.ok) {
-            throw new Error('Fetch failed with status: ' + response.status);
+    "MIT/fetchMIT",
+    async (id) => {
+        const play = PLAYS.find((play) => play.id === 0);
+        if (!play) {
+            throw new Error("Play not found");
         }
-        const htmlText = await response.text(); 
+        const response = await fetch(play.MITURL);
+
+        if (!response.ok) {
+            throw new Error("Fetch failed with status: " + response.status);
+        }
+        const htmlText = await response.text();
         return htmlText;
-    } 
-);
+    });
 
 const MITSlice = createSlice({
-    name: 'MIT',
-    initialState: { isLoading: true, errMess: null, htmlContent: ''},
+    name: "MIT",
+    initialState: { isLoading: true, errMess: null, htmlContent: "" },
     reducers: {},
     extraReducers: (builder) => {
         builder
@@ -28,9 +33,9 @@ const MITSlice = createSlice({
             })
             .addCase(fetchMIT.rejected, (state, action) => {
                 state.isLoading = false;
-                state.errMess = action.error ? action.error.message : 'Fetch failed';
+                state.errMess = action.error ? action.error.message : "Fetch failed";
             });
-    }
+    },
 });
 
 export const MITReducer = MITSlice.reducer;

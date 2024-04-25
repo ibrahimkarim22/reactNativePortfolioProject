@@ -26,7 +26,7 @@ export const PLAYS = [
         difficulty: 5,
         folgerURL: "AYL",
         MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/asyoulikeit/full.html",
-        mainImage: require(""),
+        mainImage: require("../assets/images/AYLimage.jpg"),
         medalImage: require(""),
     },
     {
@@ -36,7 +36,7 @@ export const PLAYS = [
         difficulty: 6,
         folgerURL: "Err",
         MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/comedy_errors/full.html",
-        mainImage: require(""),
+        mainImage: require("../assets/images/Errimage.png"),
         medalImage: require(""),
     },
     {
@@ -46,7 +46,7 @@ export const PLAYS = [
         difficulty: 18,
         folgerURL: "WT",
         MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/winters_tale/full.html",
-        mainImage: require(""),
+        mainImage: require("../assets/images/WTimage.png"),
         medalImage: require(""),
     },
     {

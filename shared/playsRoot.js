@@ -286,7 +286,7 @@ export const PLAYS = [
         difficulty: 23,
         folgerURL: "R3",
         MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/richardiii/full.html",
-        mainImage: require("../assets/images/R3image.jpg"),
+        mainImage: require("../assets/images/R3image.png"),
         medalImage: require("../assets/medalCollection/mR3.png"),
     },
     {

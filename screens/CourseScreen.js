@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   main: {
     backgroundColor: "black",
     flex: 1,
-    padding: 20,
+    padding: 20
   },
   genreColors: {
     margin: 22
@@ -50,26 +50,22 @@ const styles = StyleSheet.create({
     color: "white"
   },
   imageMain: {
-    margin: 2,
-    flexDirection: "column",
-    flexWrap: "wrap",
-    justifyContent: "space-between"
+   
   },
   imageContainer: {
-    width: "100%",
-    aspectRatio: 4 / 3,
-    marginBottom: 20,
+
   },
   mainImage: {
-    flex: 1,
     borderRadius: 10,
-    // width: 200,
-    // height: 150,
-    resizeMode: "stretch"
+    width: 350,
+    height: 250,
+    resizeMode: "cover",
+  
   },
   imageTitle: {
     color: "white",
-    textAlign: "center"
+    textAlign: "center",
+    marginBottom: 22
   }
 });
 

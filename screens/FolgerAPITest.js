@@ -4,72 +4,54 @@ import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
-import { aMidSummerNightsDream, allsWellThatEndsWell, antonyAndCleopatra } from "../shared/folgerUrl";
+import { PLAYS } from "../shared/playsRoot";
 
 const Folger = () => {
-    const dispatch = useDispatch();
-    const folgerState = useSelector((state) => state.folger);
-    const [playNames, setPlayNames] = useState([]);
+  const dispatch = useDispatch();
+  const folger = useSelector((state) => state.folger);
 
-    useEffect(() => {
-        const names = [
-            allsWellThatEndsWell,
-            antonyAndCleopatra,
-            aMidSummerNightsDream,
-        ];
-        setPlayNames(names);
+  useEffect(() => {
+    dispatch(fetchFolger());
+  }, [dispatch]);
 
-        names.forEach((playName) => {
-            dispatch(fetchFolger(playName));
-        });
-    }, [dispatch]);
-
-    return (
-        <ScrollView style={styles.container}>
-            <Text style={styles.headerText}>Home Screen</Text>
-            {folgerState.isLoading ? (
-                <Text>Loading...</Text>
-            ) : folgerState.errMess ? (
-                <Text>Error: {folgerState.errMess}</Text>
-            ) : (
-                <View>
-                    {playNames.map((playName) => (
-                        <HTMLView
-                            key={playName}
-                            value={folgerState.htmlContent[playName]}
-                            stylesheet={htmlStyles}
-                        />
-                    ))}
-                </View>
-            )}
-        </ScrollView>
-    );
+  return (
+    <ScrollView style={styles.container}>
+      <Text style={styles.headerText}>Home Screen</Text>
+      {folger.isLoading ? (
+        <Text>Loading...</Text>
+      ) : folger.errMess ? (
+        <Text>Error: {folger.errMess}</Text>
+      ) : (
+        <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
+      )}
+    </ScrollView>
+  );
 };
 
 const htmlStyles = StyleSheet.create({
-    a: {
-        fontWeight: "bold",
-        color: "blue",
-    },
-    b: {
-        fontWeight: "bold",
-    },
-    p: {
-        color: 'red',
-    }
+  a: {
+    fontWeight: "bold",
+    color: "blue",
+  },
+  b: {
+    fontWeight: "bold",
+  },
+  p: {
+    color: "red",
+  },
 });
 
 const styles = StyleSheet.create({
-    container: {
-        backgroundColor: "white",
-        flex: 1,
-        padding: 20,
-    },
-    headerText: {
-        color: "white",
-        fontSize: 24,
-        marginBottom: 10,
-    },
+  container: {
+    backgroundColor: "white",
+    flex: 1,
+    padding: 20,
+  },
+  headerText: {
+    color: "white",
+    fontSize: 24,
+    marginBottom: 10,
+  },
 });
 
 export default Folger;

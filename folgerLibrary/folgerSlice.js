@@ -19,7 +19,7 @@ export const fetchFolger = createAsyncThunk(
 
 const folgerSlice = createSlice({
     name: 'folger',
-    initialState: { isLoading: true, errMess: null, htmlContent: {} },
+    initialState: { isLoading: true, errMess: null, htmlContent: "" },
     reducers: {},
     extraReducers: (builder) => {
         builder
@@ -29,7 +29,7 @@ const folgerSlice = createSlice({
             .addCase(fetchFolger.fulfilled, (state, action) => {
                 state.isLoading = false;
                 state.errMess = null;
-                state.htmlContent[action.meta.arg] = action.payload;
+                state.htmlContent = action.payload;
             })
             .addCase(fetchFolger.rejected, (state, action) => {
                 state.isLoading = false;

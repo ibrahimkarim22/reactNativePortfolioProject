@@ -6,7 +6,7 @@ import HTMLView from "react-native-htmlview";
 
 const MITScreen = () => {
   const dispatch = useDispatch();
-  const MITState = useSelector((state) => state.MIT);
+  const MIT = useSelector((state) => state.MIT);
 
   useEffect(() => {
     dispatch(fetchMIT());
@@ -15,12 +15,12 @@ const MITScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
-        {MITState.isLoading ? (
+        {MIT.isLoading ? (
           <Text>Loading...</Text>
-        ) : MITState.errMess ? (
-          <Text>Error: {MITState.errMess}</Text>
+        ) : MIT.errMess ? (
+          <Text>Error: {MIT.errMess}</Text>
         ) : (
-          <HTMLView value={MITState.htmlContent} stylesheet={htmlStyles} />
+          <HTMLView value={MIT.htmlContent} stylesheet={htmlStyles} />
         )}
       </ScrollView>
     </SafeAreaView>

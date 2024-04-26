@@ -17,7 +17,7 @@ export const PLAYS = [
         folgerURL: "Ant",
         MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/cleopatra/full.html", 
         mainImage: require("../assets/images/ANTimage.png"),
-        medalImage: require("../assets/medalCollection/mANT.png")
+        medalImage: require("../assets/medalCollection/mAnt.png")
     },
     {
         id: 2,

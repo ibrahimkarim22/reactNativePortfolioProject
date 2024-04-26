@@ -7,8 +7,8 @@ import HomeScreen from "../screens/HomeScreen";
 import SignUpScreen from "../screens/SignUpScreen";
 import LoginScreen from "../screens/LoginScreen";
 import Folger from "../screens/FolgerAPITest";
-import TestingMIT from '../screens/MITAPITest';
-
+import TestingMIT from "../screens/MITAPITest";
+import Course from "../screens/CourseScreen";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -16,19 +16,20 @@ const Stack = createStackNavigator();
 const AppNavigation = () => {
   return (
     <NavigationContainer>
-      <Drawer.Navigator 
+      <Drawer.Navigator
         initialRouteName="Home"
         screenOptions={{
           headerStyle: {
-            backgroundColor: 'black',
+            backgroundColor: "black",
           },
-            headerTintColor: 'white', 
-            headerTitleStyle: {
-            fontWeight: 'bold',
+          headerTintColor: "white",
+          headerTitleStyle: {
+            fontWeight: "bold",
           },
-        }}  
+        }}
       >
         <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="Course" component={Course} />
         <Drawer.Screen name="Folger API" component={Folger} />
         <Drawer.Screen name="MIT API" component={TestingMIT} />
         <Drawer.Screen name="Root" component={RootScreen} />
@@ -45,24 +46,11 @@ const StackNavigator = () => {
       initialRouteName="Home"
       screenOptions={{ headerShown: false }}
     >
-      <Stack.Screen 
-        name="Home"
-        component={HomeScreen}
-      />
-        <Stack.Screen 
-            name="Folger API" 
-            component={Folger}
-        />
-          <Stack.Screen 
-            name="MIT API" 
-            component={TestingMIT}
-        />
-      <Stack.Screen 
-        name="Root" 
-        component={RootScreen} 
-       
-
-    />
+      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Course" component={Course} />
+      <Stack.Screen name="Folger API" component={Folger} />
+      <Stack.Screen name="MIT API" component={TestingMIT} />
+      <Stack.Screen name="Root" component={RootScreen} />
       <Stack.Screen
         name="Sign Up"
         component={SignUpScreen}

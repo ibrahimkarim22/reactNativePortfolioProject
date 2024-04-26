@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Image } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
+import { PLAYS } from "../shared/playsRoot"
 
 const MedalsTab = () => {
   return (
@@ -9,12 +10,16 @@ const MedalsTab = () => {
           <Text style={styles.genreText}>ROMANCES</Text>
         </View>
         <View style={styles.medalContainer}>
+          {PLAYS.map((play, index) => (
+            <View key={index} style={styles.medalItem}>
           <Image
             style={styles.medalImage}
-            source={require("../assets/medalCollection/mAWW.png" )}
+            source={play.medalImage}
           />
-          <Text style={styles.medalTitle}>All's Well {"\n"} ThatEnds Well</Text>
+          <Text style={styles.medalTitle}>{play.name}</Text>
         </View>
+          ))}
+          </View>
     </ScrollView>
   );
 };
@@ -37,12 +42,18 @@ const styles = StyleSheet.create({
     marginTop: 5,
     margin: 28
   },
+  medalItem: {
+    alignItems: "center",
+    margin: 33
+  },
   medalImage: {
-    width: 100,
-    height: 100,
+    width: 248,
+    height: 222,
   },
   medalTitle: {
     color: "white",
+    marginTop: -22,
+    marginBottom: 11
   }
 });
 

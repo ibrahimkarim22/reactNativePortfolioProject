@@ -5,7 +5,7 @@ import { View, Text } from "react-native";
 import { Fonts } from "../Componenets/fonts";
 import UserInfoTab from "../tabs/UserInfoTab";
 import  MedalsTab  from "../tabs/MedalsTab";
-import { CertificateTab } from "../tabs/CertificateTab";
+import  CertificateTab  from "../tabs/CertificateTab";
 
 
 const Tab = createMaterialTopTabNavigator();
@@ -21,7 +21,7 @@ const HomeScreen = ({ navigation }) => {
       <Tab.Navigator>
         <Tab.Screen name="UserInfo" component={UserInfoTab} />
         <Tab.Screen name="Medals" component={MedalsTab} />
-        <Tab.Screen name="Certificates" component={CertificateTab} />
+        <Tab.Screen name="Certificate" component={CertificateTab} />
       </Tab.Navigator>
 
   );

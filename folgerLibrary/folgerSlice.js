@@ -1,10 +1,11 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { PLAYS } from "../shared/playsRoot";
 
+
 export const fetchFolger = createAsyncThunk(
     'folger/fetchFolger',
     async (id) => {
-        const play = PLAYS.find((play) => play.id === 1);
+        const play = PLAYS.find((play) => play.id === id);
         if (!play) {
             throw new Error("Play not found");
         }

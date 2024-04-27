@@ -48,6 +48,7 @@ const StackNavigator = () => {
     >
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Course" component={Course} />
+      <Stack.Screen name="Lesson" component={Folger} />
       <Stack.Screen name="Folger API" component={Folger} />
       <Stack.Screen name="MIT API" component={TestingMIT} />
       <Stack.Screen name="Root" component={RootScreen} />

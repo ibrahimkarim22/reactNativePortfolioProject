@@ -4,13 +4,16 @@ import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot"
 
 const MedalsTab = () => {
+
+  const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
+
   return (
     <ScrollView style={styles.main}> 
         <View style={styles.genreView}>
           <Text style={styles.genreText}>ROMANCES</Text>
         </View>
         <View style={styles.medalContainer}>
-          {PLAYS.map((play, index) => (
+          {plays.map((play, index) => (
             <View key={index} style={styles.medalItem}>
           <Image
             style={styles.medalImage}

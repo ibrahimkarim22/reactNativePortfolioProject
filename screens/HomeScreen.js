@@ -1,7 +1,7 @@
 import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { Fonts } from "../Componenets/fonts";
 import UserInfoTab from "../tabs/UserInfoTab";
 import  MedalsTab  from "../tabs/MedalsTab";
@@ -18,7 +18,14 @@ const HomeScreen = ({ navigation }) => {
   }
   return (
   
-      <Tab.Navigator>
+      <Tab.Navigator 
+        tabBarOptions={{
+          activeTintColor: "white",
+          inactiveTintColor: "gray",
+          labelStyle: { fontSize: 16, fontWeight: "bold"},
+          style: { backgroundColor: "black"}
+        }}
+      >
         <Tab.Screen name="UserInfo" component={UserInfoTab} />
         <Tab.Screen name="Medals" component={MedalsTab} />
         <Tab.Screen name="Certificate" component={CertificateTab} />
@@ -26,5 +33,6 @@ const HomeScreen = ({ navigation }) => {
 
   );
 };
+
 
 export default HomeScreen;

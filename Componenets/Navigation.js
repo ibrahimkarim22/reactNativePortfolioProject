@@ -24,19 +24,20 @@ import { Image } from "react-native-elements";
 const Drawer = createDrawerNavigator();
 
 const screenOptions = {
-    headerTintColor: "black",
-    headerStyle: { backgroundColor: "pink"}
+    headerTintColor: "white",
+    headerStyle: { backgroundColor: "black"}
 }
 
 const HomeNavigator = () => {
     const Stack = createStackNavigator();    
     return (
-      <Stack.Navigator screenOptions={screenOptions}>
+      <Stack.Navigator screenOptions={screenOptions} >
         <Stack.Screen 
             name="Home" 
             component={HomeScreen} 
             options={({ navigation }) => ({
-                title: 'Home',
+                title: "Home",
+                headerShown: false,
                 headerLeft: () => (
                     <Icon 
                         name="home"
@@ -58,6 +59,7 @@ const HomeNavigator = () => {
                     name="Course" 
                     component={Course}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -80,6 +82,7 @@ const HomeNavigator = () => {
                     name="Lesson" 
                     component={Lesson}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -102,6 +105,7 @@ const HomeNavigator = () => {
                     name="Folger API" 
                     component={Folger}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -124,6 +128,7 @@ const HomeNavigator = () => {
                     name="MIT API" 
                     component={TestingMIT}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -146,6 +151,7 @@ const HomeNavigator = () => {
                     name="Root" 
                     component={RootScreen}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -168,6 +174,7 @@ const HomeNavigator = () => {
                     name="Sign Up" 
                     component={SignUpScreen}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -190,6 +197,7 @@ const HomeNavigator = () => {
                     name="Login" 
                     component={LoginScreen}
                     options={({ navigation }) => ({
+                        headerShown: false,
                         headerLeft: () => (
                             <Icon
                             name="info-circle"
@@ -213,7 +221,7 @@ const HomeNavigator = () => {
                     <Text style={styles.drawerHeaderText}>Shakespeare</Text>
                 </View>
             </View>
-            <DrawerItemList {...props} labelStyle={{ fontWeight: 'bold' }} />
+            <DrawerItemList {...props} labelStyle={{ fontWeight: "bold" }} />
         </DrawerContentScrollView>
     );
 
@@ -223,39 +231,44 @@ const HomeNavigator = () => {
             style={{
                 flex: 1,
                 paddingTop:
-                    Platform.OS === 'ios' ? 0 : Constants.statusBarHeight
+                    Platform.OS === "ios" ? 0 : Constants.statusBarHeight
             }}
         >
             <Drawer.Navigator
-                initialRouteName='Home'
+                initialRouteName="Home"
                 drawerContent={CustomDrawerContent}
-                drawerStyle={{ backgroundColor: '#CEC8FF' }}
+                drawerStyle={{ backgroundColor: "black" }}
+                screenOptions={{
+                    headerStyle: { backgroundColor: "black"},
+                    headerTintColor: "white",
+                    
+                }}
             >
                 <Drawer.Screen
-                    name='Home'
+                    name="Home"
                     component={HomeNavigator}
                     options={{
-                        title: 'Home',
-                        drawerIcon: ({ color }) => (
+                        title: "Home",
+                        drawerIcon: ({ focused, size }) => (
                             <Icon
-                                name='home'
-                                type='font-awesome'
+                                name="home"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
-                                color={color}
+                                color={focused ? "red" : "blue"}
                             />
                         )
                     }}
                 />
                 <Drawer.Screen
-                    name='Course'
+                    name="Course"
                     component={CourseNavigator}
                     options={{
-                        title: 'Course',
+                        title: "Course",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='list'
-                                type='font-awesome'
+                                name="list"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -264,14 +277,15 @@ const HomeNavigator = () => {
                     }}
                 />
                 <Drawer.Screen
-                    name='Lesson'
+                    name="Lesson"
                     component={LessonNavigator}
                     options={{
-                        title: 'Lesson',
+                        title: "Lesson",
+               
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='tree'
-                                type='font-awesome'
+                                name="tree"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -280,14 +294,14 @@ const HomeNavigator = () => {
                     }}
                 />
                 <Drawer.Screen
-                    name='Folger'
+                    name="Folger"
                     component={FolgerNavigator}
                     options={{
-                        title: 'Folger API',
+                        title: "Folger API",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='heart'
-                                type='font-awesome'
+                                name="heart"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -296,14 +310,14 @@ const HomeNavigator = () => {
                     }}
                 />
                 <Drawer.Screen
-                    name='MIT'
+                    name="MIT"
                     component={MITNavigator}
                     options={{
-                        title: 'MIT API',
+                        title: "MIT API",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='info-circle'
-                                type='font-awesome'
+                                name="info-circle"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -312,14 +326,14 @@ const HomeNavigator = () => {
                     }}
                 />
                  <Drawer.Screen
-                    name='Root'
+                    name="Root"
                     component={RootNavigator}
                     options={{
-                        title: 'Root Screen',
+                        title: "Root Screen",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='info-circle'
-                                type='font-awesome'
+                                name="info-circle"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -328,15 +342,16 @@ const HomeNavigator = () => {
                     }}
                 />
                 <Drawer.Screen
-                    name='SignUp'
+                    name="SignUp"
                     component={SignUpNavigator}
                     options={{
-                        title: 'Sign Up',
+                        title: "Sign Up",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='address-card'
-                                type='font-awesome'
-                                size={24}
+                                name="address-card"
+                                type="font-awesome"
+                                size={24
+                                }
                                 iconStyle={{ width: 24 }}
                                 color={color}
                             />
@@ -344,14 +359,14 @@ const HomeNavigator = () => {
                     }}
                 />
                   <Drawer.Screen
-                    name='Login'
+                    name="Login"
                     component={LoginNavigator}
                     options={{
-                        title: 'Login',
+                        title: "Login",
                         drawerIcon: ({ color }) => (
                             <Icon
-                                name='address-card'
-                                type='font-awesome'
+                                name="address-card"
+                                type="font-awesome"
                                 size={24}
                                 iconStyle={{ width: 24 }}
                                 color={color}
@@ -366,26 +381,26 @@ const HomeNavigator = () => {
 
 const styles = StyleSheet.create({
     drawerHeader: {
-        backgroundColor: '#5637DD',
-        height: 140,
-        alignItems: 'center',
-        justifyContent: 'center',
+        backgroundColor: "darkred",
+        height: 100,
+        alignItems: "center",
+        justifyContent: "center",
         flex: 1,
-        flexDirection: 'row'
+        flexDirection: "column"
     },
     drawerHeaderText: {
-        color: '#fff',
+        color: "burlywood",
         fontSize: 24,
-        fontWeight: 'bold'
+        fontWeight: "bold"
     },
     drawerImage: {
-        margin: 10,
-        height: 60,
-        width: 60
+        margin: 22,
+        height: 100,
+        width: 150
     },
     stackIcon: {
         marginLeft: 10,
-        color: '#fff',
+        color: "royalblue",
         fontSize: 24
     }
 });

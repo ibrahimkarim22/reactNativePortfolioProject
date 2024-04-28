@@ -11,14 +11,11 @@ const UserInfoTab = () => {
         />
         </View>
         <View style={styles.infoContainer}>
-        <Text style={styles.userNameText}>Cordelia444</Text>
+        <Text style={styles.usernameText}>Username</Text>
         </View>
         <View style={styles.infoTextContainer}>
             <Text style={styles.infoText}>
-                Mary Jane
-            </Text>
-            <Text style={styles.infoText}>
-                Ann Arbor, MI
+                Full Name
             </Text>
         </View>
         <View style={styles.editProfile}>
@@ -45,7 +42,7 @@ const styles = StyleSheet.create({
     infoContainer: {
         marginTop: 10
     },
-    userNameText: {
+    usernameText: {
         color: "white",
         textAlign: "center",
         fontSize: 33

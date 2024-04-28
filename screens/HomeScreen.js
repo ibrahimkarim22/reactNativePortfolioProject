@@ -18,14 +18,14 @@ const HomeScreen = ({ navigation }) => {
   }
   return (
   
-      <Tab.Navigator 
-        tabBarOptions={{
-          activeTintColor: "white",
-          inactiveTintColor: "gray",
-          labelStyle: { fontSize: 16, fontWeight: "bold"},
-          style: { backgroundColor: "black"}
-        }}
-      >
+    <Tab.Navigator
+    screenOptions={{
+      tabBarActiveTintColor: "white",
+      tabBarInactiveTintColor: "gray",
+      tabBarLabelStyle: { fontSize: 16, fontWeight: "bold" },
+      tabBarStyle: { backgroundColor: "black" },
+    }}
+  >
         <Tab.Screen name="UserInfo" component={UserInfoTab} />
         <Tab.Screen name="Medals" component={MedalsTab} />
         <Tab.Screen name="Certificate" component={CertificateTab} />

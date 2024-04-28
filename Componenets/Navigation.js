@@ -19,6 +19,9 @@ import { useDispatch } from "react-redux";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from 'expo-constants';
 import { Image } from "react-native-elements";
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faHouseFlag } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Drawer = createDrawerNavigator();
@@ -212,7 +215,7 @@ const HomeNavigator = () => {
         );
     };
     const CustomDrawerContent = (props) => (
-        <DrawerContentScrollView {...props}>
+        <DrawerContentScrollView {...props} style={styles.sideDrawer}>
             <View style={styles.drawerHeader}>
                 <View style={{ flex: 1 }}>
                     <Image source={require("../assets/splash.png")} style={styles.drawerImage} />
@@ -237,11 +240,9 @@ const HomeNavigator = () => {
             <Drawer.Navigator
                 initialRouteName="Home"
                 drawerContent={CustomDrawerContent}
-                drawerStyle={{ backgroundColor: "black" }}
                 screenOptions={{
                     headerStyle: { backgroundColor: "black"},
                     headerTintColor: "white",
-                    
                 }}
             >
                 <Drawer.Screen
@@ -249,13 +250,12 @@ const HomeNavigator = () => {
                     component={HomeNavigator}
                     options={{
                         title: "Home",
-                        drawerIcon: ({ focused, size }) => (
-                            <Icon
-                                name="home"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={focused ? "red" : "blue"}
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                                style={styles.drawerIcon}
+                                size={28}            
+                                color={focused ? "peru" : "gray"}
                             />
                         )
                     }}
@@ -265,14 +265,13 @@ const HomeNavigator = () => {
                     component={CourseNavigator}
                     options={{
                         title: "Course",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="list"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -281,14 +280,12 @@ const HomeNavigator = () => {
                     component={LessonNavigator}
                     options={{
                         title: "Lesson",
-               
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="tree"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                                style={styles.drawerIcon}
+                                size={28}            
+                                color={focused ? "peru" : "gray"}
                             />
                         )
                     }}
@@ -298,14 +295,13 @@ const HomeNavigator = () => {
                     component={FolgerNavigator}
                     options={{
                         title: "Folger API",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="heart"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -314,14 +310,13 @@ const HomeNavigator = () => {
                     component={MITNavigator}
                     options={{
                         title: "MIT API",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="info-circle"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -330,14 +325,13 @@ const HomeNavigator = () => {
                     component={RootNavigator}
                     options={{
                         title: "Root Screen",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="info-circle"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -346,15 +340,13 @@ const HomeNavigator = () => {
                     component={SignUpNavigator}
                     options={{
                         title: "Sign Up",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="address-card"
-                                type="font-awesome"
-                                size={24
-                                }
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -363,14 +355,13 @@ const HomeNavigator = () => {
                     component={LoginNavigator}
                     options={{
                         title: "Login",
-                        drawerIcon: ({ color }) => (
-                            <Icon
-                                name="address-card"
-                                type="font-awesome"
-                                size={24}
-                                iconStyle={{ width: 24 }}
-                                color={color}
-                            />
+                        drawerLabelStyle: { color: "white"},
+                        drawerIcon: ({ focused }) => (
+                            <FontAwesomeIcon icon={faHouseFlag} 
+                            style={styles.drawerIcon}
+                            size={28}            
+                            color={focused ? "peru" : "gray"}
+                        />
                         )
                     }}
                 />
@@ -381,7 +372,7 @@ const HomeNavigator = () => {
 
 const styles = StyleSheet.create({
     drawerHeader: {
-        backgroundColor: "darkred",
+        backgroundColor: "maroon",
         height: 100,
         alignItems: "center",
         justifyContent: "center",
@@ -393,6 +384,9 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: "bold"
     },
+    sideDrawer: {
+        backgroundColor: "black"
+    },
     drawerImage: {
         margin: 22,
         height: 100,
@@ -402,7 +396,15 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         color: "royalblue",
         fontSize: 24
-    }
+    },
+    
+ drawerIcon: {
+    width: 55,  
+    borderRadius: 5,
+    padding: 4,
+    textAlign: "center"
+    },
+    
 });
 
 export default Main;

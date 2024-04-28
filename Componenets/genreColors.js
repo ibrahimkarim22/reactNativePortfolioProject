@@ -1,13 +1,13 @@
 const genreColors = (genre) => {
   switch (genre) {
     case "Romance":
-      return "#FF4081";
+      return "deeppink";
     case "Comedy":
-      return "#FFD700";
+      return "gold";
     case "History":
       return "steelblue";
       case "Tragedy":
-        return "#FF6347"
+        return "darkred"
     default:
       return "transparent";
   }

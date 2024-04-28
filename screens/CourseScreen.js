@@ -63,16 +63,20 @@ const styles = StyleSheet.create({
     margin: 22,
   },
   romanceText: {
-    backgroundColor: "#FF4081",
+    backgroundColor: "deeppink",
+    color: "navy"
   },
   comedyText: {
-    backgroundColor: "#FFD700",
+    backgroundColor: "gold",
+    color: "navy"
   },
   historyText: {
     backgroundColor: "steelblue",
+    color: "navy"
   },
   tragedyText: {
-    backgroundColor: "#FF6347",
+    backgroundColor: "darkred",
+    color: "navy"
   },
   icons: {
     margin: 11,

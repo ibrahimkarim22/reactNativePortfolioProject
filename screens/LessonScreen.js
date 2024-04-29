@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigation } from "@react-navigation/native";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
+import TestingMIT from "../screens/MITAPITest";
+import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
 import { useRoute } from "@react-navigation/native";
@@ -11,9 +14,15 @@ import { Button } from "react-native-elements";
 
 const Lesson = () => {
   const route = useRoute();
+  const navigation = useNavigation();
   const { id } = route.params;
   const dispatch = useDispatch();
   const folger = useSelector((state) => state.folger);
+
+  const handleReadPlay = () => {
+    dispatch(fetchMIT(id));
+    navigation.navigate("MIT");
+  }
 
   useEffect(() => {
     dispatch(fetchFolger(id));
@@ -37,11 +46,13 @@ const Lesson = () => {
       <View style={styles.readPlayBtn}>
       <Button 
         title="Read Play"
+        onPress={handleReadPlay}
       />
       </View>
       <View style={styles.quizBtn}>
       <Button 
         title="Quiz"
+      
       />
       </View>
     </ScrollView>

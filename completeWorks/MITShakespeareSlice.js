@@ -4,7 +4,7 @@ import { PLAYS } from "../shared/playsRoot";
 export const fetchMIT = createAsyncThunk(
     "MIT/fetchMIT",
     async (id) => {
-        const play = PLAYS.find((play) => play.id === 0);
+        const play = PLAYS.find((play) => play.id === id);
         if (!play) {
             throw new Error("Play not found");
         }

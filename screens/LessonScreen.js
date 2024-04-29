@@ -6,6 +6,8 @@ import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
 import { useRoute } from "@react-navigation/native";
+import { Fonts } from "../Componenets/fonts";
+import { Button } from "react-native-elements";
 
 const Lesson = () => {
   const route = useRoute();
@@ -17,9 +19,14 @@ const Lesson = () => {
     dispatch(fetchFolger(id));
   }, [dispatch, id]);
 
+  const fontsLoaded = Fonts();
+
+  if (!fontsLoaded) {
+    return <Text>Loading...</Text>;
+  }
+
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.headerText}>Home Screen</Text>
       {folger.isLoading ? (
         <Text>Loading...</Text>
       ) : folger.errMess ? (
@@ -27,34 +34,54 @@ const Lesson = () => {
       ) : (
         <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
       )}
+      <View style={styles.readPlayBtn}>
+      <Button 
+        title="Read Play"
+      />
+      </View>
+      <View style={styles.quizBtn}>
+      <Button 
+        title="Quiz"
+      />
+      </View>
     </ScrollView>
   );
 };
 
 const htmlStyles = StyleSheet.create({
-  a: {
-    fontWeight: "bold",
-    color: "blue",
+  h2: {
+    color: "steelblue",
+    fontSize: 22,
+    fontFamily: "Khand_700Bold",
+    marginTop: 12
   },
-  b: {
-    fontWeight: "bold",
+  i: {
+    fontFamily: "Khand_400Regular"
   },
   p: {
-    color: "red",
+    color: "snow",
+    margin: 3,
+    paddingBottom: 0,
+    marginBottom: -88,
+    fontFamily: "Sora_500Medium",
+    fontSize: 22
   },
 });
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    backgroundColor: "black",
     flex: 1,
     padding: 20,
   },
-  headerText: {
-    color: "white",
-    fontSize: 24,
-    marginBottom: 10,
+  readPlayBtn: {
+    marginBottom: 11,
+    marginTop: 22
   },
+  quizBtn: {
+    marginBottom: 122,
+    marginTop: 11
+  }
 });
 
 export default Lesson;

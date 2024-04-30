@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
-import { PLAYS } from "../shared/playsRoot";
+
 
 const Folger = () => {
   const dispatch = useDispatch();

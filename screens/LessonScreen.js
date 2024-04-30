@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
-import MITFullPlayScreen from "./MITFullPlayScreen";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { ScrollView } from "react-native-gesture-handler";
-import { PLAYS } from "../shared/playsRoot";
 import { useRoute } from "@react-navigation/native";
 import { Fonts } from "../Componenets/fonts";
 import { Button } from "react-native-elements";

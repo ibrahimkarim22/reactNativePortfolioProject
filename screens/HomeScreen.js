@@ -1,6 +1,5 @@
 import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import { NavigationContainer } from "@react-navigation/native";
 import { View, Text, StyleSheet } from "react-native";
 import { Fonts } from "../Componenets/fonts";
 import UserInfoTab from "../tabs/UserInfoTab";

@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { StyleSheet, SafeAreaView, ScrollView, Text, View } from "react-native";
 import HTMLView from "react-native-htmlview";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
-import { color } from "react-native-elements/dist/helpers";
 import { Button } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 

@@ -4,8 +4,9 @@ import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
-import TestingMIT from "../screens/MITAPITest";
+import MITFullPlayScreen from "./MITFullPlayScreen";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
+import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
 import { useRoute } from "@react-navigation/native";
@@ -21,7 +22,8 @@ const Lesson = () => {
 
   const handleReadPlay = () => {
     dispatch(fetchMIT(id));
-    navigation.navigate("MIT");
+    dispatch(fetchFolgerCharacter(id))
+    navigation.navigate("MITFullPlay");
   }
 
   useEffect(() => {

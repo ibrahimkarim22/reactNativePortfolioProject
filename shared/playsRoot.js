@@ -75,7 +75,7 @@ export const PLAYS = [
         genre: "Tragedy",
         difficulty: 31,
         folgerURL: "Ham",
-        MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/1henryiv/index.html",
+        MITURL: "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/hamlet/hamlet.html",
         mainImage: require("../assets/images/Hamimage.png"),
         medalImage: require("../assets/medalCollection/mHam.png"),
     },

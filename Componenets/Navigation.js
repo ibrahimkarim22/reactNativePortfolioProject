@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import {
     createDrawerNavigator,
@@ -11,17 +9,15 @@ import HomeScreen from "../screens/HomeScreen";
 import SignUpScreen from "../screens/SignUpScreen";
 import LoginScreen from "../screens/LoginScreen";
 import Folger from "../screens/FolgerAPITest";
-import TestingMIT from "../screens/MITAPITest";
+import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import Course from "../screens/CourseScreen";
 import { Icon } from "react-native-elements";
 import Lesson from "../screens/LessonScreen";
-import { useDispatch } from "react-redux";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from 'expo-constants';
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faHouseFlag } from '@fortawesome/free-solid-svg-icons';
-
 
 
 const Drawer = createDrawerNavigator();
@@ -128,8 +124,8 @@ const HomeNavigator = () => {
         return(
             <Stack.Navigator screenOptions={screenOptions}>
                 <Stack.Screen 
-                    name="MIT API" 
-                    component={TestingMIT}
+                    name="MIT Full Play" 
+                    component={MITFullPlayScreen}
                     options={({ navigation }) => ({
                         headerShown: false,
                         headerLeft: () => (
@@ -306,10 +302,10 @@ const HomeNavigator = () => {
                     }}
                 />
                 <Drawer.Screen
-                    name="MIT"
+                    name="MITFullPlay"
                     component={MITNavigator}
                     options={{
-                        title: "MIT API",
+                        title: "MIT Full Play",
                         drawerLabelStyle: { color: "white"},
                         drawerIcon: ({ focused }) => (
                             <FontAwesomeIcon icon={faHouseFlag} 

@@ -18,6 +18,7 @@ import Constants from 'expo-constants';
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faHouseFlag } from '@fortawesome/free-solid-svg-icons';
+import { useNavigation, useRoute } from "@react-navigation/native";
 
 
 const Drawer = createDrawerNavigator();
@@ -74,6 +75,7 @@ const HomeNavigator = () => {
     };
 
     const LessonNavigator = () => {
+        
         const Stack = createStackNavigator();
         return(
             <Stack.Navigator screenOptions={screenOptions}>
@@ -304,6 +306,7 @@ const HomeNavigator = () => {
                 <Drawer.Screen
                     name="MITFullPlay"
                     component={MITNavigator}
+                    
                     options={{
                         title: "MIT Full Play",
                         drawerLabelStyle: { color: "white"},

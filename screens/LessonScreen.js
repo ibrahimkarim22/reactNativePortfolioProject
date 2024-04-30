@@ -22,9 +22,9 @@ const Lesson = () => {
 
   const handleReadPlay = () => {
     dispatch(fetchMIT(id));
-    dispatch(fetchFolgerCharacter(id))
+    dispatch(fetchFolgerCharacter(id));
     navigation.navigate("MITFullPlay");
-  }
+  };
 
   useEffect(() => {
     dispatch(fetchFolger(id));
@@ -46,16 +46,16 @@ const Lesson = () => {
         <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
       )}
       <View style={styles.readPlayBtn}>
-      <Button 
-        title="Read Play"
-        onPress={handleReadPlay}
-      />
+        <Button title="Read Play" onPress={handleReadPlay} />
       </View>
       <View style={styles.quizBtn}>
-      <Button 
-        title="Quiz"
-      
-      />
+        <Button title="Quiz" />
+        <View style={styles.menuBtn}>
+          <Button
+            title="Course Menu"
+            onPress={() => navigation.navigate("Course")}
+          />
+        </View>
       </View>
     </ScrollView>
   );
@@ -66,10 +66,10 @@ const htmlStyles = StyleSheet.create({
     color: "steelblue",
     fontSize: 22,
     fontFamily: "Khand_700Bold",
-    marginTop: 12
+    marginTop: 12,
   },
   i: {
-    fontFamily: "Khand_400Regular"
+    fontFamily: "Khand_400Regular",
   },
   p: {
     color: "snow",
@@ -77,7 +77,7 @@ const htmlStyles = StyleSheet.create({
     paddingBottom: 0,
     marginBottom: -88,
     fontFamily: "Sora_500Medium",
-    fontSize: 22
+    fontSize: 22,
   },
 });
 
@@ -89,11 +89,15 @@ const styles = StyleSheet.create({
   },
   readPlayBtn: {
     marginBottom: 11,
-    marginTop: 22
+    marginTop: 22,
   },
   quizBtn: {
+    marginBottom: 11,
+    marginTop: 11,
+  },
+  menuBtn: {
     marginBottom: 122,
-    marginTop: 11
+    marginTop: 22,
   }
 });
 

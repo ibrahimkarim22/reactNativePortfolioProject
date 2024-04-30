@@ -1,7 +1,7 @@
-import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { StyleSheet, SafeAreaView, ScrollView, Text, View } from "react-native";
+import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { Button } from "react-native-elements";

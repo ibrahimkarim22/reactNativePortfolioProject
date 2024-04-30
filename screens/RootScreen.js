@@ -10,7 +10,7 @@ export const RootScreen = ({ navigation }) => {
   if (!fontsLoaded) {
     return <Text>Loading...</Text>;
   }
- 
+
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
@@ -65,11 +65,18 @@ export const RootScreen = ({ navigation }) => {
         </Text>
       </View>
       <View>
-        <View style={{ paddingLeft: 33, paddingRight: 33, margin: 5, marginTop: -11 }}>
-          <Button 
-            title="Sign Up" 
+        <View
+          style={{
+            paddingLeft: 33,
+            paddingRight: 33,
+            margin: 5,
+            marginTop: -11,
+          }}
+        >
+          <Button
+            title="Sign Up"
             color="firebrick"
-            onPress={() => navigation.navigate('SignUp')}
+            onPress={() => navigation.navigate("SignUp")}
           ></Button>
         </View>
         <Text style={styles.quote}>
@@ -82,7 +89,7 @@ export const RootScreen = ({ navigation }) => {
         <View style={{ paddingLeft: 33, paddingRight: 33, margin: 5 }}>
           <Button
             title="Login"
-            onPress={() => navigation.navigate('Login')}
+            onPress={() => navigation.navigate("Login")}
           ></Button>
         </View>
         <Text style={styles.quote}>
@@ -139,6 +146,6 @@ const styles = StyleSheet.create({
     color: "silver",
     fontFamily: "Sora_500Medium",
     textAlign: "center",
-    marginTop: -4
-  }
+    marginTop: -4,
+  },
 });

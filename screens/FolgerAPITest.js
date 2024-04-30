@@ -1,10 +1,9 @@
-import { useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
+import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
-
 
 const Folger = () => {
   const dispatch = useDispatch();

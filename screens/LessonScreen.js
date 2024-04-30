@@ -1,6 +1,6 @@
-import { useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import HTMLView from "react-native-htmlview";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   menuBtn: {
     marginBottom: 122,
     marginTop: 22,
-  }
+  },
 });
 
 export default Lesson;

@@ -24,15 +24,14 @@ const Lesson = () => {
     navigation.navigate("MITFullPlay");
   };
 
+  const handleQuiz = () => {
+    navigation.navigate('Quiz', { screen: 'Quiz', params: { id: id } });
+  };
+
   useEffect(() => {
     dispatch(fetchFolger(id));
   }, [dispatch, id]);
 
-  const fontsLoaded = Fonts();
-
-  if (!fontsLoaded) {
-    return <Text>Loading...</Text>;
-  }
 
   return (
     <ScrollView style={styles.container}>
@@ -47,7 +46,10 @@ const Lesson = () => {
         <Button title="Read Play" onPress={handleReadPlay} />
       </View>
       <View style={styles.quizBtn}>
-        <Button title="Quiz" />
+        <Button
+        title="Quiz"
+        onPress={handleQuiz}
+        />
         <View style={styles.menuBtn}>
           <Button
             title="Course Menu"

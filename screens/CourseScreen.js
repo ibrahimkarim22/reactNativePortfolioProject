@@ -11,10 +11,8 @@ const CourseScreen = () => {
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
 
   const handleImageClick = (id) => {
-    navigation.navigate("Lesson", { screen: "Lesson", params: { id: id } });
-
-  }
-
+    navigation.navigate('Lesson', { id: id });
+  };
   return (
     <ScrollView style={styles.main}>
       <View style={styles.genreColors}>

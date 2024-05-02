@@ -20,12 +20,7 @@ const MITFullPlayScreen = () => {
 
   return (
     <ScrollView style={styles.container}>
-      <View>
-        <Button
-          title="Go Back to Lesson"
-          onPress={() => navigation.navigate("Lesson")}
-        />
-      </View>
+      
       {MIT.isLoading && FolgerCharacter.isLoading ? (
         <Text style={styles.message}>Loading...</Text>
       ) : MIT.errMess && FolgerCharacter.errMess ? (

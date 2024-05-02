@@ -1,7 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
-import { Image } from "react-native-elements";
+import { Button, Image } from "react-native-elements";
+import { useNavigation } from "@react-navigation/native";
 
 const UserInfoTab = () => {
+
+    const navigation = useNavigation();
     return (
     <View style={styles.main}>
         <View> 
@@ -22,6 +25,9 @@ const UserInfoTab = () => {
             <Text style={styles.editProfileText}>
                 Edit Profile
             </Text>
+            <Button title="Course"
+            onPress={() => navigation.navigate("Courses")}
+            />
         </View>
     </View>
     );

@@ -19,19 +19,19 @@ import Constants from "expo-constants";
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import { faHouseFlag } from "@fortawesome/free-solid-svg-icons";
-import { useNavigation, useRoute } from "@react-navigation/native";
+import {
+  NavigationContainer,
+  useNavigation,
+  useRoute,
+} from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
-const screenOptions = {
-  headerTintColor: "white",
-  headerStyle: { backgroundColor: "black" },
-};
 
 const CustomDrawerContent = (props) => (
   <DrawerContentScrollView {...props} style={styles.sideDrawer}>
-    <View style={styles.drawerHeader}>
+    <View style={styles.drawerSideLogo}>
       <View style={{ flex: 1 }}>
         <Image
           source={require("../assets/splash.png")}
@@ -39,7 +39,7 @@ const CustomDrawerContent = (props) => (
         />
       </View>
       <View style={{ flex: 1 }}>
-        <Text style={styles.drawerHeaderText}>Shakespeare</Text>
+        <Text style={styles.drawerLogoText}>Shakespeare</Text>
       </View>
     </View>
     <DrawerItemList {...props} labelStyle={{ fontWeight: "bold" }} />
@@ -48,14 +48,16 @@ const CustomDrawerContent = (props) => (
 
 const Main = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.drawerContainer}>
       <Drawer.Navigator
+      
         initialRouteName="Login"
         drawerContent={CustomDrawerContent}
         screenOptions={{
           headerStyle: { backgroundColor: "black" },
           headerTintColor: "white",
         }}
+
       >
         <Drawer.Screen
           name="Home"
@@ -88,68 +90,7 @@ const Main = () => {
             ),
           }}
         />
-        <Drawer.Screen
-          name="Folger"
-          component={Folger}
-          options={{
-            title: "Folger API",
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
-        <Drawer.Screen
-          name="MITFullPlay"
-          component={MITFullPlayScreen}
-          options={{
-            title: "MIT Full Play",
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
-        <Drawer.Screen
-          name="Quiz"
-          component={QuizScreen}
-          options={{
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
-        <Drawer.Screen
-          name="Root"
-          component={RootScreen}
-          options={{
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
+
         <Drawer.Screen
           name="SignUp"
           component={SignUpScreen}
@@ -186,22 +127,65 @@ const Main = () => {
     </SafeAreaView>
   );
 };
-const Stacks = () => {
-  <Stack.Navigator screenOptions={screenOptions}>
-    <Stack.Screen
-      name="Lesson"
-      component={Lesson}
-      options={{ headerShown: true}}
-    />
-  </Stack.Navigator>;
+
+const stacks = () => {
+  const screenOptions = {
+    headerTintColor: "white",
+    headerStyle: { backgroundColor: "black" },
+  };
+  
+  return (
+    <NavigationContainer style={styles.stackContainer}>
+      
+      <Stack.Navigator screenOptions={screenOptions} >
+        <Stack.Screen
+          name="Main"
+          component={Main}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Lesson"
+          component={Lesson}
+          options={{ headerShown: true }}
+        />
+        <Stack.Screen
+          name="Quiz"
+          component={QuizScreen}
+          options={{ headerShown: false }}
+        />
+
+        <Stack.Screen
+          name="Folger"
+          component={Folger}
+          options={{ headerShown: false }}
+        />
+         <Stack.Screen
+          name="MIT"
+          component={MITFullPlayScreen}
+          options={{ headerShown: false }}
+        />
+          <Stack.Screen
+          name="Courses"
+          component={CourseScreen}
+          options={{ headerShown: true }}
+        />
+      </Stack.Navigator>
+      
+    </NavigationContainer>
+  );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  drawerContainer: {
+    flex: 1,
+    paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
+    marginTop: -55
+  },
+  stackContainer: {
     flex: 1,
     paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
   },
-  drawerHeader: {
+  drawerSideLogo: {
     backgroundColor: "maroon",
     height: 100,
     alignItems: "center",
@@ -209,7 +193,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
   },
-  drawerHeaderText: {
+  drawerLogoText: {
     color: "burlywood",
     fontSize: 24,
     fontWeight: "bold",
@@ -236,4 +220,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Main;
+export default stacks;

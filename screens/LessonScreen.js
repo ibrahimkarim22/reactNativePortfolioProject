@@ -21,11 +21,11 @@ const Lesson = () => {
   const handleReadPlay = () => {
     dispatch(fetchMIT(id));
     dispatch(fetchFolgerCharacter(id));
-    navigation.navigate("MITFullPlay");
+    navigation.navigate("MIT");
   };
 
   const handleQuiz = () => {
-    navigation.navigate('Quiz', { screen: 'Quiz', params: { id: id } });
+    navigation.navigate("Quiz", { id: id });
   };
 
   useEffect(() => {

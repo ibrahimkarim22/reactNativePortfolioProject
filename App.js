@@ -5,6 +5,7 @@ import { store } from "./redux/store";
 import Main from "./Componenets/Navigation";
 import { initializeApp } from "@react-native-firebase/app"
 import { useEffect } from "react";
+import Stacks from "./Componenets/Navigation";
 
 
 const App = () => {
@@ -13,9 +14,9 @@ const App = () => {
   })
   return (
     <Provider store={store}>
-      <NavigationContainer>
+     
       <Main />
-      </NavigationContainer>
+   
     </Provider>
   );
 };

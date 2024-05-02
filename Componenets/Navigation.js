@@ -11,7 +11,7 @@ import LoginScreen from "../screens/LoginScreen";
 import QuizScreen from "../screens/QuizScreen";
 import Folger from "../screens/FolgerAPITest";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
-import Course from "../screens/CourseScreen";
+import CourseScreen from "../screens/CourseScreen";
 import { Icon } from "react-native-elements";
 import Lesson from "../screens/LessonScreen";
 import { StyleSheet, View, Text, Platform } from "react-native";
@@ -20,218 +20,15 @@ import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import { faHouseFlag } from "@fortawesome/free-solid-svg-icons";
 import { useNavigation, useRoute } from "@react-navigation/native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Drawer = createDrawerNavigator();
-
+const Stack = createStackNavigator();
 const screenOptions = {
   headerTintColor: "white",
   headerStyle: { backgroundColor: "black" },
 };
 
-const HomeNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions} initialRouteName="Login">
-      <Stack.Screen
-        name="Home"
-        component={HomeScreen}
-        options={({ navigation }) => ({
-          title: "Home",
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="home"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-const CourseNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Course"
-        component={Course}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-
-const LessonNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Lesson"
-        component={Lesson}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-
-const FolgerNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Folger API"
-        component={Folger}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-
-const MITNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="MIT Full Play"
-        component={MITFullPlayScreen}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-const QuizNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Quiz"
-        component={QuizScreen}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-const RootNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Root"
-        component={RootScreen}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-
-const SignUpNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Sign Up"
-        component={SignUpScreen}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
-
-const LoginNavigator = () => {
-  const Stack = createStackNavigator();
-  return (
-    <Stack.Navigator screenOptions={screenOptions}>
-      <Stack.Screen
-        name="Login"
-        component={LoginScreen}
-        options={({ navigation }) => ({
-          headerShown: false,
-          headerLeft: () => (
-            <Icon
-              name="info-circle"
-              type="font-awesome"
-              iconStyle={styles.stackIcon}
-              onPress={() => navigation.toggleDrawer()}
-            />
-          ),
-        })}
-      />
-    </Stack.Navigator>
-  );
-};
 const CustomDrawerContent = (props) => (
   <DrawerContentScrollView {...props} style={styles.sideDrawer}>
     <View style={styles.drawerHeader}>
@@ -241,7 +38,7 @@ const CustomDrawerContent = (props) => (
           style={styles.drawerImage}
         />
       </View>
-      <View style={{ flex: 2 }}>
+      <View style={{ flex: 1 }}>
         <Text style={styles.drawerHeaderText}>Shakespeare</Text>
       </View>
     </View>
@@ -251,12 +48,7 @@ const CustomDrawerContent = (props) => (
 
 const Main = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        paddingTop: Platform.OS === "ios" ? 0 : Constants.statusBarHeight,
-      }}
-    >
+    <SafeAreaView style={styles.container}>
       <Drawer.Navigator
         initialRouteName="Login"
         drawerContent={CustomDrawerContent}
@@ -267,7 +59,7 @@ const Main = () => {
       >
         <Drawer.Screen
           name="Home"
-          component={HomeNavigator}
+          component={HomeScreen}
           options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
@@ -282,7 +74,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="Course"
-          component={CourseNavigator}
+          component={CourseScreen}
           options={{
             title: "Course",
             drawerLabelStyle: { color: "white" },
@@ -296,18 +88,9 @@ const Main = () => {
             ),
           }}
         />
-        {/* <Drawer.Screen
-          name="Lesson"
-          component={LessonNavigator}
-          
-          options={{
-            drawerLabel: "",
-            
-          }}
-        /> */}
         <Drawer.Screen
           name="Folger"
-          component={FolgerNavigator}
+          component={Folger}
           options={{
             title: "Folger API",
             drawerLabelStyle: { color: "white" },
@@ -323,7 +106,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="MITFullPlay"
-          component={MITNavigator}
+          component={MITFullPlayScreen}
           options={{
             title: "MIT Full Play",
             drawerLabelStyle: { color: "white" },
@@ -339,7 +122,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="Quiz"
-          component={QuizNavigator}
+          component={QuizScreen}
           options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
@@ -354,7 +137,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="Root"
-          component={RootNavigator}
+          component={RootScreen}
           options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
@@ -369,7 +152,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="SignUp"
-          component={SignUpNavigator}
+          component={SignUpScreen}
           options={{
             title: "Sign Up",
             drawerLabelStyle: { color: "white" },
@@ -385,7 +168,7 @@ const Main = () => {
         />
         <Drawer.Screen
           name="Login"
-          component={LoginNavigator}
+          component={LoginScreen}
           options={{
             headerShown: true,
             drawerLabelStyle: { color: "white" },
@@ -400,11 +183,24 @@ const Main = () => {
           }}
         />
       </Drawer.Navigator>
-    </View>
+    </SafeAreaView>
   );
+};
+const Stacks = () => {
+  <Stack.Navigator screenOptions={screenOptions}>
+    <Stack.Screen
+      name="Lesson"
+      component={Lesson}
+      options={{ headerShown: true}}
+    />
+  </Stack.Navigator>;
 };
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
+  },
   drawerHeader: {
     backgroundColor: "maroon",
     height: 100,

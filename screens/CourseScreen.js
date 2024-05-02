@@ -5,7 +5,7 @@ import { Image } from "react-native-elements";
 import genreColors from "../Componenets/genreColors";
 import { useNavigation } from "@react-navigation/native";
 
-const Course = () => {
+const CourseScreen = () => {
   const navigation = useNavigation();
 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
@@ -95,4 +95,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Course;
+export default CourseScreen;

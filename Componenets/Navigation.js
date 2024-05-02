@@ -31,7 +31,7 @@ const screenOptions = {
 const HomeNavigator = () => {
   const Stack = createStackNavigator();
   return (
-    <Stack.Navigator screenOptions={screenOptions}>
+    <Stack.Navigator screenOptions={screenOptions} initialRouteName="Login">
       <Stack.Screen
         name="Home"
         component={HomeScreen}
@@ -258,7 +258,7 @@ const Main = () => {
       }}
     >
       <Drawer.Navigator
-        initialRouteName="Home"
+        initialRouteName="Login"
         drawerContent={CustomDrawerContent}
         screenOptions={{
           headerStyle: { backgroundColor: "black" },
@@ -296,22 +296,15 @@ const Main = () => {
             ),
           }}
         />
-        <Drawer.Screen
+        {/* <Drawer.Screen
           name="Lesson"
           component={LessonNavigator}
+          
           options={{
-            title: "Lesson",
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
+            drawerLabel: "",
+            
           }}
-        />
+        /> */}
         <Drawer.Screen
           name="Folger"
           component={FolgerNavigator}
@@ -394,6 +387,7 @@ const Main = () => {
           name="Login"
           component={LoginNavigator}
           options={{
+            headerShown: true,
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon

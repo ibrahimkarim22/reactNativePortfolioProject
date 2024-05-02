@@ -1,6 +1,7 @@
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { Card } from "react-native-elements";
 import { useState } from "react";
+import auth from "@react-native-firebase/auth";
 
 const SignUpScreen = () => {
   const [fullName, setFullName] = useState("");
@@ -8,12 +9,13 @@ const SignUpScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSignUp = () => {
-    console.log("Sign up:");
-    console.log("Username - ", fullName);
-    console.log("Username - ", username);
-    console.log("Email - ", email);
-    console.log("Password - ", password);
+  const handleSignUp = async () => {
+    try {
+      const userCredentials = await auth().createUserWithEmailAndPassword(email, password)
+      console.log("User signed up successfully: ", userCredentials.user)
+    } catch (error) {
+      console.error("Error signing up:", error);
+    }
   };
 
   return (
@@ -47,8 +49,8 @@ const SignUpScreen = () => {
           <Button
             title="Sign Up"
             color="firebrick"
-            onPress={() => handleSignUp()}
-          ></Button>
+            onPress={handleSignUp}
+          />
         </View>
       </Card>
     </View>

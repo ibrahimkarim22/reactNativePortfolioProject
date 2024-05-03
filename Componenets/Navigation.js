@@ -146,7 +146,7 @@ const Main = () => {
   );
 };
 
-const stacks = () => {
+const Stacks = () => {
   
 
   const screenOptions = {
@@ -155,7 +155,7 @@ const stacks = () => {
   };
 
   return (
-    <NavigationContainer style={styles.stackContainer}>
+    <View style={styles.stackContainer}>
       <Stack.Navigator screenOptions={screenOptions} initialRouteName="Home">
         <Stack.Screen
           name="Main"
@@ -207,7 +207,7 @@ const stacks = () => {
           options={{ headerShown: true }}
         />
       </Stack.Navigator>
-    </NavigationContainer>
+    </View>
   );
 };
 
@@ -255,4 +255,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default stacks;
+export default Stacks;

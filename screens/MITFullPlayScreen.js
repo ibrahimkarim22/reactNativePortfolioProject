@@ -32,12 +32,6 @@ const MITFullPlayScreen = () => {
             stylesheet={htmlStyles}
           />
           <HTMLView value={MIT.htmlContent} stylesheet={htmlStyles} />
-          <View>
-            <Button
-              title="Go Back to Lesson"
-              onPress={() => navigation.navigate("Lesson")}
-            />
-          </View>
         </>
       )}
     </ScrollView>
@@ -52,6 +46,7 @@ const htmlStyles = StyleSheet.create({
   a: {
     fontWeight: "bold",
     color: "white",
+    fontFamily: "Sora_500Medium"
   },
 
   p: {

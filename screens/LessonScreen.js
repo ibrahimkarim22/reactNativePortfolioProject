@@ -8,10 +8,12 @@ import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { ScrollView } from "react-native-gesture-handler";
 import { useRoute } from "@react-navigation/native";
-import { Fonts } from "../Componenets/fonts";
 import { Button } from "react-native-elements";
 
+
+
 const Lesson = () => {
+
   const route = useRoute();
   const navigation = useNavigation();
   const { id } = route.params;
@@ -77,7 +79,7 @@ const htmlStyles = StyleSheet.create({
     paddingBottom: 0,
     marginBottom: -88,
     fontFamily: "Sora_500Medium",
-    fontSize: 22,
+    fontSize: 22
   },
 });
 

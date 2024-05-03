@@ -25,6 +25,10 @@ import {
   useRoute,
 } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { onAuthStateChanged, User } from "firebase/auth";
+import { useEffect, useState } from "react";
+import { FIREBASE_AUTH } from "../firebaseConfig";
+import { auth } from "../firebaseConfig";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -47,22 +51,33 @@ const CustomDrawerContent = (props) => (
 );
 
 const Main = () => {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(FIREBASE_AUTH, (user) => {
+      console.log("user", user);
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+    return () => unsubscribe();
+  }, []);
   return (
     <SafeAreaView style={styles.drawerContainer}>
       <Drawer.Navigator
-      
-        initialRouteName="Login"
         drawerContent={CustomDrawerContent}
         screenOptions={{
           headerStyle: { backgroundColor: "black" },
           headerTintColor: "white",
         }}
-
       >
         <Drawer.Screen
           name="Home"
           component={HomeScreen}
           options={{
+            headerShown: true,
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
@@ -90,54 +105,58 @@ const Main = () => {
             ),
           }}
         />
-
-        <Drawer.Screen
-          name="SignUp"
-          component={SignUpScreen}
-          options={{
-            title: "Sign Up",
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
-        <Drawer.Screen
-          name="Login"
-          component={LoginScreen}
-          options={{
-            headerShown: true,
-            drawerLabelStyle: { color: "white" },
-            drawerIcon: ({ focused }) => (
-              <FontAwesomeIcon
-                icon={faHouseFlag}
-                style={styles.drawerIcon}
-                size={28}
-                color={focused ? "peru" : "gray"}
-              />
-            ),
-          }}
-        />
+        {!user && (
+          <>
+            <Drawer.Screen
+              name="SignUp"
+              component={SignUpScreen}
+              options={{
+                title: "Sign Up",
+                drawerLabelStyle: { color: "white" },
+                drawerIcon: ({ focused }) => (
+                  <FontAwesomeIcon
+                    icon={faHouseFlag}
+                    style={styles.drawerIcon}
+                    size={28}
+                    color={focused ? "peru" : "gray"}
+                  />
+                ),
+              }}
+            />
+            <Drawer.Screen
+              name="Login"
+              component={LoginScreen}
+              options={{
+                headerShown: true,
+                drawerLabelStyle: { color: "white" },
+                drawerIcon: ({ focused }) => (
+                  <FontAwesomeIcon
+                    icon={faHouseFlag}
+                    style={styles.drawerIcon}
+                    size={28}
+                    color={focused ? "peru" : "gray"}
+                  />
+                ),
+              }}
+            />
+          </>
+        )}
       </Drawer.Navigator>
     </SafeAreaView>
   );
 };
 
 const stacks = () => {
+  
+
   const screenOptions = {
     headerTintColor: "white",
     headerStyle: { backgroundColor: "black" },
   };
-  
+
   return (
     <NavigationContainer style={styles.stackContainer}>
-      
-      <Stack.Navigator screenOptions={screenOptions} >
+      <Stack.Navigator screenOptions={screenOptions} initialRouteName="Home">
         <Stack.Screen
           name="Main"
           component={Main}
@@ -151,7 +170,7 @@ const stacks = () => {
         <Stack.Screen
           name="Quiz"
           component={QuizScreen}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
 
         <Stack.Screen
@@ -159,18 +178,35 @@ const stacks = () => {
           component={Folger}
           options={{ headerShown: false }}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="MIT"
           component={MITFullPlayScreen}
-          options={{ headerShown: false }}
+          options={{
+            title: "Play from MIT",
+            headerShown: true,
+          }}
         />
-          <Stack.Screen
+        <Stack.Screen
           name="Courses"
           component={CourseScreen}
           options={{ headerShown: true }}
         />
+        <Stack.Screen
+          name="Root"
+          component={RootScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Login"
+          component={LoginScreen}
+          options={{ headerShown: true }}
+        />
+        <Stack.Screen
+          name="SignUp"
+          component={SignUpScreen}
+          options={{ headerShown: true }}
+        />
       </Stack.Navigator>
-      
     </NavigationContainer>
   );
 };
@@ -179,7 +215,6 @@ const styles = StyleSheet.create({
   drawerContainer: {
     flex: 1,
     paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
-    marginTop: -55
   },
   stackContainer: {
     flex: 1,

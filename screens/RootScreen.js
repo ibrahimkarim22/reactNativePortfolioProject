@@ -2,14 +2,9 @@ import { View, Text, StyleSheet, StatusBar, Image, Button } from "react-native";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 import { ScreenWidth } from "react-native-elements/dist/helpers";
 import { Icon } from "react-native-elements";
-import { Fonts } from "../Componenets/fonts";
+
 
 export const RootScreen = ({ navigation }) => {
-  const fontsLoaded = Fonts();
-
-  if (!fontsLoaded) {
-    return <Text>Loading...</Text>;
-  }
 
   return (
     <View style={styles.container}>

@@ -3,36 +3,25 @@ import { useState } from "react";
 import { Card } from "react-native-elements";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
-
+// import { useNavigation } from "@react-navigation/native";
 
 const LoginScreen = ({ navigation }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
     const auth = FIREBASE_AUTH;
-   
+    // const navigation = useNavigation();
+
     const Login = async () => {
       setLoading(true);
       try {
         const response = await signInWithEmailAndPassword(auth, email, password);
         console.log(response);
+        navigation.navigate("Home")
+        
       } catch (error) {
         console.error(error);
         alert("Login failed " + error.message)
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    const SignUp = async () => {
-      setLoading(true);
-      try {
-        const response = await createUserWithEmailAndPassword(auth, email, password);
-        console.log(response);
-        alert("Check Email")
-      } catch (error) {
-        console.error(error);
-        alert("SignUp failed " + error.message)
       } finally {
         setLoading(false);
       }
@@ -64,10 +53,6 @@ const LoginScreen = ({ navigation }) => {
            <Button
           title="Login"
           onPress={Login}
-        />
-           <Button
-          title="Create account"
-          onPress={SignUp}
         />
         </>
         )}

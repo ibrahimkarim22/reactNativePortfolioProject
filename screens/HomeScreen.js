@@ -5,7 +5,9 @@ import UserInfoTab from "../tabs/UserInfoTab";
 import MedalsTab from "../tabs/MedalsTab";
 import CertificateTab from "../tabs/CertificateTab";
 
+
 const Tab = createMaterialTopTabNavigator();
+
 
 const HomeScreen = ({ navigation }) => {
   const fontsLoaded = Fonts();
@@ -26,6 +28,7 @@ const HomeScreen = ({ navigation }) => {
       <Tab.Screen name="Medals" component={MedalsTab} />
       <Tab.Screen name="Certificate" component={CertificateTab} />
     </Tab.Navigator>
+  
   );
 };
 

@@ -44,7 +44,7 @@ const UserInfoTab = () => {
       <View>
       <Image
             source={{ uri: imageUrl }}
-            // loadingIndicatorSource={}
+            
             style={styles.image}
           />
           <Button title="Camera" onPress={getImageFromCamera} />

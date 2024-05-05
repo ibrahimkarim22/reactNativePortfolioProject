@@ -1,8 +1,5 @@
 
 import { createSlice } from "@reduxjs/toolkit";
-import { FIRESTORE_DB, FIREBASE_AUTH } from "../firebaseConfig";
-import { useSelector, useDispatch } from "react-redux";
-import { addQuiz } from "../Progress/CourseSlice";
 
 const initialState = {
   quizzes: [],

@@ -3,20 +3,30 @@ import { useState } from "react";
 import { Card } from "react-native-elements";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
-// import { useNavigation } from "@react-navigation/native";
+import { getFirestore, collection, doc, setDoc, updateDoc, getDoc } from "firebase/firestore";
+import { useDispatch } from "react-redux";
+import { setQuizzes } from "../Progress/CourseSlice";
 
 const LoginScreen = ({ navigation }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
+    const dispatch = useDispatch();
     const auth = FIREBASE_AUTH;
-    // const navigation = useNavigation();
 
     const Login = async () => {
       setLoading(true);
       try {
         const response = await signInWithEmailAndPassword(auth, email, password);
         console.log(response);
+        const db = getFirestore();
+        const userRef = doc(db, "users", response.user.uid);
+        const userSnap = await getDoc(userRef);
+        const userData = userSnap.data();
+        const quizzesData = userData.quizzes || [];
+        console.log("quizzes data fetched from firestore:", quizzesData);
+        dispatch(setQuizzes(quizzesData));
+        console.log("quizzes data dispatched to redux state.");
         navigation.navigate("Home")
         
       } catch (error) {

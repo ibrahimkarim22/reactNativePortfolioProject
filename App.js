@@ -17,7 +17,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 const App = () => {
   useEffect(() => {
-    initializeApp();
+    initializeApp(firebaseConfig);
     // initializeAuth(firebaseConfig, {
     //   persistence: getReactNativePersistence(AsyncStorage)
     // });

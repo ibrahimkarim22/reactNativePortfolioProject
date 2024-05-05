@@ -11,6 +11,7 @@ import { Card } from "react-native-elements";
 import { useState } from "react";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { getFirestore, collection, doc, setDoc } from "firebase/firestore";
 
 const SignUpScreen = () => {
   const [firstName, setFirstName] = useState("");
@@ -28,16 +29,27 @@ const SignUpScreen = () => {
         email,
         password
       );
+
       console.log(response);
       await updateProfile(response.user, {
-        displayName: `${firstName} ${lastName}`
-      })
+        displayName: `${firstName} ${lastName}`,
+      });
+
+      const db = getFirestore();
+      const userRef = doc(db, "users", response.user.uid); 
+      await setDoc(userRef, {
+        userId: response.user.uid,
+        quizzes: [],
+      });
+      const userDocId = userRef.id; 
+      console.log("User created:", userDocId);
+
       alert("Check Email");
     } catch (error) {
       console.error(error);
       alert("SignUp failed " + error.message);
 
-      await updateProfileWithNames
+      await updateProfileWithNames;
     } finally {
       setLoading(false);
     }

@@ -2,6 +2,8 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { folgerReducer } from "../folgerLibrary/folgerSlice";
 import { MITReducer } from "../completeWorks/MITShakespeareSlice";
 import { FolgerCharacterReducer } from "../charactersList/FolgerCharacterList";
+import { courseReducer } from "../Progress/CourseSlice";
+
 import {
   persistStore,
   persistCombineReducers,
@@ -19,6 +21,7 @@ const rootReducer = combineReducers({
   folger: folgerReducer,
   MIT: MITReducer,
   FolgerCharacter: FolgerCharacterReducer,
+  course: courseReducer,
 });
 
 const config = {

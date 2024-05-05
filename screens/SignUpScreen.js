@@ -36,12 +36,12 @@ const SignUpScreen = () => {
       });
 
       const db = getFirestore();
-      const userRef = doc(db, "users", response.user.uid); 
+      const userRef = doc(db, "users", response.user.uid);
       await setDoc(userRef, {
         userId: response.user.uid,
         quizzes: [],
       });
-      const userDocId = userRef.id; 
+      const userDocId = userRef.id;
       console.log("User created:", userDocId);
 
       alert("Check Email");

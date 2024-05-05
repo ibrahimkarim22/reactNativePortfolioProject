@@ -9,10 +9,12 @@ import {
 } from "react-native";
 import { useEffect, useState } from "react";
 import { Card, CheckBox } from "react-native-elements";
-import { FIREBASE_AUTH } from "../firebaseConfig";
+import { FIREBASE_APP, FIREBASE_AUTH } from "../firebaseConfig";
 import {
   signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
+  getAuth,
+  browserLocalPersistence,
+  setPersistence
 } from "firebase/auth";
 import {
   getFirestore,
@@ -25,14 +27,17 @@ import {
 import { useDispatch } from "react-redux";
 import { setQuizzes } from "../Progress/CourseSlice";
 import * as SecureStore from "expo-secure-store";
+import { FIRESTORE_DB } from "../firebaseConfig";
+
+const auth = FIREBASE_AUTH;
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [remember, setRemember] = useState(false);
+
   const dispatch = useDispatch();
-  const auth = FIREBASE_AUTH;
 
   useEffect(() => {
     SecureStore.getItemAsync("userinfo").then((userdata) => {
@@ -76,7 +81,7 @@ const LoginScreen = ({ navigation }) => {
     try {
       const response = await signInWithEmailAndPassword(auth, email, password);
       console.log(response);
-      const db = getFirestore();
+      const db = FIRESTORE_DB;
       const userRef = doc(db, "users", response.user.uid);
       const userSnap = await getDoc(userRef);
       const userData = userSnap.data();
@@ -84,7 +89,7 @@ const LoginScreen = ({ navigation }) => {
       console.log("quizzes data fetched from firestore:", quizzesData);
       dispatch(setQuizzes(quizzesData));
       console.log("quizzes data dispatched to redux state.");
-      navigation.navigate("Home");
+      navigation.navigate("Main");
     } catch (error) {
       console.error(error);
       alert("Login failed " + error.message);
@@ -92,6 +97,7 @@ const LoginScreen = ({ navigation }) => {
       setLoading(false);
     }
   };
+
 
   return (
     <View style={styles.mainContainer}>

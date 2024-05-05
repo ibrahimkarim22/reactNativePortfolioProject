@@ -2,7 +2,9 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Button, Image, Overlay } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 import { FIREBASE_AUTH } from "../firebaseConfig";
-import { useState } from "react";
+import { FIRESTORE_DB } from "../firebaseConfig";
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { useState, useEffect } from "react";
 import * as ImagePicker from "expo-image-picker";
 import * as ImageManipulator from "expo-image-manipulator";
 import * as MediaLibrary from "expo-media-library";
@@ -15,11 +17,36 @@ const UserInfoTab = () => {
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
   const [imageUrl, setImageUrl] = useState(
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s"
+    ""
   );
+  
+  
   const [overlayVisible, setOverlayVisible] = useState(false);
 
   const currentUser = auth.currentUser;
+
+  useEffect(() => {
+    const fetchProfileImage = async () => {
+      try {
+        const db = FIRESTORE_DB;
+        const userRef = doc(db, "users", auth.currentUser.uid);
+        const userSnapshot = await getDoc(userRef);
+
+        if (userSnapshot.exists()) {
+          const userData = userSnapshot.data();
+          if (userData.profileImage) {
+            setImageUrl(userData.profileImage); 
+          } else {
+            setImageUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s")
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching profile image:", error);
+      }
+    };
+
+    fetchProfileImage();
+  }, []);
 
   const getImageFromCamera = async () => {
     const cameraPermission = await ImagePicker.requestCameraPermissionsAsync();
@@ -62,16 +89,27 @@ const UserInfoTab = () => {
   };
 
   const processImage = async (imgUri) => {
-    const processedImage = await ImageManipulator.manipulateAsync(
-      imgUri,
-      [{ resize: { width: 400 } }],
-      { format: "png" }
-    );
-    console.log(processedImage);
-    setImageUrl(processedImage.uri);
-    await MediaLibrary.saveToLibraryAsync(processedImage.uri);
+    try {
+      const processedImage = await ImageManipulator.manipulateAsync(
+        imgUri,
+        [{ resize: { width: 400 } }],
+        { format: "png" }
+      );
+      console.log(processedImage);
+      setImageUrl(processedImage.uri);
+      await MediaLibrary.saveToLibraryAsync(processedImage.uri);
+  
+      const db = FIRESTORE_DB;
+      const userRef = doc(db, "users", FIREBASE_AUTH.currentUser.uid); 
+      await setDoc(userRef, {
+        profileImage: processedImage.uri,
+      });
+      console.log("Profile image updated successfully:", processedImage.uri);
+    } catch (error) {
+      console.error("Error processing or saving image:", error);
+    }
   };
-
+  
   const Logout = (navigation) => {
     auth
       .signOut()
@@ -86,7 +124,14 @@ const UserInfoTab = () => {
     <View style={styles.main}>
       <View>
         <View style={{ alignContent: "center", alignItems: "center" }}>
-          <Image source={{ uri: imageUrl }} style={styles.image} />
+          {imageUrl ? (
+
+            <Image source={{ uri: imageUrl }} style={styles.image} />
+          ) : (
+            <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s" }} 
+              style={styles.image} 
+              />
+          )}
         </View>
         <View style={styles.editButtons}>
         <Button title="Edit" onPress={() => setOverlayVisible(true)} />

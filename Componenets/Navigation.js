@@ -156,7 +156,7 @@ const Stacks = () => {
 
   return (
     <View style={styles.stackContainer}>
-      <Stack.Navigator screenOptions={screenOptions} initialRouteName="Home">
+      <Stack.Navigator screenOptions={screenOptions} initialRouteName="Root">
         <Stack.Screen
           name="Main"
           component={Main}

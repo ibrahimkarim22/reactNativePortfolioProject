@@ -7,22 +7,13 @@ import Main from "./Componenets/Navigation";
 import Stacks from "./Componenets/Navigation";
 import { initializeApp } from "@react-native-firebase/app";
 import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
-import { FIREBASE_AUTH, firebaseConfig } from "./firebaseConfig";
+import { FIREBASE_APP, FIREBASE_AUTH, firebaseConfig } from "./firebaseConfig";
 import { PersistGate } from "redux-persist/integration/react";
 import { Text } from "react-native-elements";
 import { NavigationContainer } from "@react-navigation/native";
 
 
-
-
 const App = () => {
-  useEffect(() => {
-    initializeApp(firebaseConfig);
-    // initializeAuth(firebaseConfig, {
-    //   persistence: getReactNativePersistence(AsyncStorage)
-    // });
-  }, []);
-
   return (
     <Provider store={store}>
       <PersistGate loading={<Text>Loading...</Text>} persistor={persistor}>

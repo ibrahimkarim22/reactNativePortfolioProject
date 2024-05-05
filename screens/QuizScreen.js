@@ -5,11 +5,17 @@ import { Card, Button, Overlay } from "react-native-elements";
 import { useRoute } from "@react-navigation/native";
 import { useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { completedQuizesArr, setQuizzes } from "../Progress/CourseSlice";
-import { addQuiz } from "../Progress/CourseSlice";
-import { getFirestore, collection, doc, setDoc, updateDoc } from "firebase/firestore";
+import { setCompletedQuizzes, setQuizzes } from "../Progress/CourseSlice";
+import {
+  getFirestore,
+  collection,
+  doc,
+  setDoc,
+  updateDoc,
+  arrayUnion
+} from "firebase/firestore";
 import { FIRESTORE_DB, FIREBASE_AUTH } from "../firebaseConfig";
-
+;
 const total = 7;
 
 const QuizScreen = () => {
@@ -26,7 +32,7 @@ const QuizScreen = () => {
 
   const handleAnswer = (questionId, selectedOption) => {
     if (answer[questionId]) {
-      console.log("id is matching you cant select it twice")
+      console.log("id is matching you cant select it twice");
       return;
     }
 
@@ -35,17 +41,12 @@ const QuizScreen = () => {
     const isCorrect = selectedOption === question.correctAnswer;
     console.log(isCorrect);
 
-    const prevStatus = () => {
-      
-    }
-
     setAnswer((prevStatus) => ({
       ...prevStatus,
       [questionId]: isCorrect ? "correct" : "wrong",
     }));
     if (isCorrect) {
       setCorrectAnswers((prevAnswers) => [...prevAnswers, questionId]);
-
     }
   };
 
@@ -53,33 +54,35 @@ const QuizScreen = () => {
 
   console.log("Answer:", answer);
 
-
   const submitQuiz = async () => {
     if (Object.keys(answer).length < total) {
       Alert.alert("Please answer all questions before submitting");
     } else {
       const totalCorrect = correctAnswers.length;
+      setResults(true);
       if (totalCorrect === total) {
         console.log("all questions answered correctly. submitting quiz...");
-        setResults(true);
-        dispatch(setQuizzes(play.difficulty)); 
         
+        dispatch(setQuizzes(play.difficulty));
+        dispatch(setCompletedQuizzes({ difficulty: play.difficulty }));
+
         try {
-          const db = getFirestore();
-    
-          const userRef = doc(FIRESTORE_DB, "users", FIREBASE_AUTH.currentUser.uid); 
+          const userRef = doc(FIRESTORE_DB, "users", FIREBASE_AUTH.currentUser.uid);
           await updateDoc(userRef, {
-            quizzes: play.difficulty, 
+            quizzes: play.difficulty,
+            CompletedQuizzes: arrayUnion(play.difficulty),
           });
           console.log("user data updated successfully with quiz difficulty.");
         } catch (error) {
           console.error("error updating user data:", error);
         }
-        
+
         console.log("quiz submitted successfully!");
       } else {
         console.log("not all questions answered correctly quiz not submitted.");
-        Alert.alert("please answer all questions correctly to submit the quiz.");
+        // Alert.alert(
+        //   "please answer all questions correctly to unlock next play."
+        // );
       }
     }
   };
@@ -126,6 +129,9 @@ const QuizScreen = () => {
             <Text>{`${totalCorrectAnswers}/${total}`}</Text>
             {totalCorrectAnswers === total && (
               <Text>Congradulations! You can proceed to the next play.</Text>
+            )}
+            {totalCorrectAnswers !== total && (
+              <Text>Answer all Questions correctly to unlock next play.</Text>
             )}
           </View>
           <View>

@@ -25,7 +25,7 @@ import {
   getDoc,
 } from "firebase/firestore";
 import { useDispatch } from "react-redux";
-import { setQuizzes } from "../Progress/CourseSlice";
+import { setQuizzes, setCompletedQuizzes } from "../Progress/CourseSlice";
 import * as SecureStore from "expo-secure-store";
 import { FIRESTORE_DB } from "../firebaseConfig";
 
@@ -85,10 +85,18 @@ const LoginScreen = ({ navigation }) => {
       const userRef = doc(db, "users", response.user.uid);
       const userSnap = await getDoc(userRef);
       const userData = userSnap.data();
+      console.log("user data fetched from firestore:", userData);
+
       const quizzesData = userData.quizzes || [];
       console.log("quizzes data fetched from firestore:", quizzesData);
       dispatch(setQuizzes(quizzesData));
-      console.log("quizzes data dispatched to redux state.");
+
+      const completedQuizzes = userData.CompletedQuizzes || [];
+      console.log("completed quizzes data fetched from firestore:", completedQuizzes);
+
+      dispatch(setCompletedQuizzes(completedQuizzes))
+      console.log("completed quizzes data dispatched to redux state.");
+
       navigation.navigate("Main");
     } catch (error) {
       console.error(error);

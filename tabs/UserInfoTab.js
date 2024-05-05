@@ -3,7 +3,7 @@ import { Button, Image, Overlay } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { FIRESTORE_DB } from "../firebaseConfig";
-import { doc, setDoc, getDoc } from "firebase/firestore";
+import { doc, setDoc, getDoc, updateDoc } from "firebase/firestore";
 import { useState, useEffect } from "react";
 import * as ImagePicker from "expo-image-picker";
 import * as ImageManipulator from "expo-image-manipulator";
@@ -28,17 +28,11 @@ const UserInfoTab = () => {
   useEffect(() => {
     const fetchProfileImage = async () => {
       try {
-        const db = FIRESTORE_DB;
-        const userRef = doc(db, "users", auth.currentUser.uid);
-        const userSnapshot = await getDoc(userRef);
-
-        if (userSnapshot.exists()) {
-          const userData = userSnapshot.data();
-          if (userData.profileImage) {
-            setImageUrl(userData.profileImage); 
-          } else {
-            setImageUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s")
-          }
+        const user = auth.currentUser;
+        if (user && user.photoURL) {
+          setImageUrl(user.photoURL);
+        } else {
+          setImageUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s");
         }
       } catch (error) {
         console.error("Error fetching profile image:", error);
@@ -101,7 +95,7 @@ const UserInfoTab = () => {
   
       const db = FIRESTORE_DB;
       const userRef = doc(db, "users", FIREBASE_AUTH.currentUser.uid); 
-      await setDoc(userRef, {
+      await updateDoc(userRef, {
         profileImage: processedImage.uri,
       });
       console.log("Profile image updated successfully:", processedImage.uri);

@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { Card } from "react-native-elements";
 import { useState } from "react";
-import { FIREBASE_AUTH } from "../firebaseConfig";
+import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { getFirestore, collection, doc, setDoc } from "firebase/firestore";
 
@@ -33,13 +33,17 @@ const SignUpScreen = () => {
       console.log(response);
       await updateProfile(response.user, {
         displayName: `${firstName} ${lastName}`,
+        photoURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
+
       });
 
-      const db = getFirestore();
+      const db = FIRESTORE_DB;
       const userRef = doc(db, "users", response.user.uid);
       await setDoc(userRef, {
         userId: response.user.uid,
         quizzes: [],
+        // completedQuizzes: [],
+        profileImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s"
       });
       const userDocId = userRef.id;
       console.log("User created:", userDocId);

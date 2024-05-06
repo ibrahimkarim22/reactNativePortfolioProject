@@ -12,6 +12,8 @@ import { useState } from "react";
 import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { getFirestore, collection, doc, setDoc } from "firebase/firestore";
+import { completedLevel } from "../Progress/CourseSlice";
+import { useNavigation } from "@react-navigation/native";
 
 const SignUpScreen = () => {
   const [firstName, setFirstName] = useState("");
@@ -20,7 +22,7 @@ const SignUpScreen = () => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const auth = FIREBASE_AUTH;
-
+const navigation = useNavigation();
   const SignUp = async () => {
     setLoading(true);
     try {
@@ -41,8 +43,7 @@ const SignUpScreen = () => {
       const userRef = doc(db, "users", response.user.uid);
       await setDoc(userRef, {
         userId: response.user.uid,
-        quizzes: [],
-        // completedQuizzes: [],
+        completedLevel: 1,
         profileImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s"
       });
       const userDocId = userRef.id;
@@ -56,6 +57,7 @@ const SignUpScreen = () => {
       await updateProfileWithNames;
     } finally {
       setLoading(false);
+      // navigation.navigate("Home")
     }
   };
 

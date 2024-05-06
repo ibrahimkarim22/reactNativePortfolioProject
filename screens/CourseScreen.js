@@ -1,20 +1,34 @@
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
-import { Image } from "react-native-elements";
 import genreColors from "../Componenets/genreColors";
 import { useNavigation } from "@react-navigation/native";
+import lock from "../assets/images/lock.jpg";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+;
 
 const CourseScreen = () => {
   const navigation = useNavigation();
 
+  const completed = useSelector((state) => state.course.completedLevel)
+ 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
 
+  useEffect(() => {
+    console.log("COMPLETED LEVEL FROM REDUX " +  completed)
+  }, [])
+
+
   const handleImageClick = (id) => {
-    navigation.navigate('Lesson', { id: id });
+    navigation.navigate("Lesson", { id: id });
   };
+  
+
+
   return (
     <ScrollView style={styles.main}>
+      
       <View style={styles.genreColors}>
         <Text style={styles.romanceText}>ROMANCE</Text>
         <Text style={styles.comedyText}>COMDEY</Text>
@@ -26,12 +40,23 @@ const CourseScreen = () => {
       </View>
       <View style={styles.imageMain}>
         {plays.map((play, index) => (
-          <TouchableOpacity 
-            key={index} 
+          <TouchableOpacity
+            key={index}
             style={styles.imageContainer}
-            onPress={() => handleImageClick(play.id)}
+            onPress={() => handleImageClick(play.id, completed)}
+            disabled={play.difficulty > completed}
             >
+              {play.difficulty > completed && (
+              <Image
+                source={require("../assets/images/lock.jpg")}
+                style={styles.lockImage}
+                onError={(error) => console.log("Image loading error:", error)}
+             
+              />
+            )}
             <Image source={play.mainImage} style={styles.mainImage} />
+
+
             <Text
               style={[
                 styles.playTitle,
@@ -42,6 +67,7 @@ const CourseScreen = () => {
             </Text>
           </TouchableOpacity>
         ))}
+        
       </View>
     </ScrollView>
   );
@@ -58,19 +84,19 @@ const styles = StyleSheet.create({
   },
   romanceText: {
     backgroundColor: "deeppink",
-    color: "navy"
+    color: "navy",
   },
   comedyText: {
     backgroundColor: "gold",
-    color: "navy"
+    color: "navy",
   },
   historyText: {
     backgroundColor: "steelblue",
-    color: "navy"
+    color: "navy",
   },
   tragedyText: {
     backgroundColor: "darkred",
-    color: "navy"
+    color: "navy",
   },
   icons: {
     margin: 11,
@@ -90,6 +116,14 @@ const styles = StyleSheet.create({
     color: "black",
     textAlign: "center",
     marginBottom: 22,
+  },
+  lockImage: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: 350,
+    height: 250,
+    zIndex: 1,
   },
 });
 

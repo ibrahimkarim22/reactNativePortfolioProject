@@ -9,9 +9,13 @@ import * as ImagePicker from "expo-image-picker";
 import * as ImageManipulator from "expo-image-manipulator";
 import * as MediaLibrary from "expo-media-library";
 import { updateProfile } from "firebase/auth";
+import { useDispatch } from "react-redux";
+import { resetState } from "../Progress/CourseSlice";
 
 
 const auth = FIREBASE_AUTH;
+
+
 
 const UserInfoTab = () => {
   const navigation = useNavigation();
@@ -103,8 +107,9 @@ const UserInfoTab = () => {
       console.error("Error processing or saving image:", error);
     }
   };
-  
+  const dispatch = useDispatch();
   const Logout = (navigation) => {
+    dispatch(resetState());
     auth
       .signOut()
       .then(() => {

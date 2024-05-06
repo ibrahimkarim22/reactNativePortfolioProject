@@ -3,7 +3,7 @@ import { Image } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot"
 import { useSelector } from "react-redux";
-import { BlurView } from 'expo-blur';
+
 
 const MedalsTab = () => {
 

@@ -10,6 +10,8 @@ import SignUpScreen from "../screens/SignUpScreen";
 import LoginScreen from "../screens/LoginScreen";
 import QuizScreen from "../screens/QuizScreen";
 import Folger from "../screens/FolgerAPITest";
+import FreeFolger from "../screens/Folger";
+import ReadFolger from "../screens/Read";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
 import { Icon } from "react-native-elements";
@@ -94,6 +96,22 @@ const Main = () => {
           component={CourseScreen}
           options={{
             title: "Course",
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faHouseFlag}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+          <Drawer.Screen
+          name="FreeFolger"
+          component={FreeFolger}
+          options={{
+            title: "Free Folger",
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
@@ -204,6 +222,11 @@ const Stacks = () => {
         <Stack.Screen
           name="SignUp"
           component={SignUpScreen}
+          options={{ headerShown: true }}
+        />
+          <Stack.Screen
+          name="ReadFolger"
+          component={ReadFolger}
           options={{ headerShown: true }}
         />
       </Stack.Navigator>

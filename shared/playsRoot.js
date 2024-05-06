@@ -501,7 +501,7 @@ export const PLAYS = [
     difficulty: 12,
     folgerURL: "1H4",
     MITURL:
-      "https://github.com/TheMITTech/shakespeare/blob/master/1henryiv/index.html",
+      "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/1henryiv/full.html",
     mainImage: require("../assets/images/1H4image.png"),
     medalImage: require("../assets/medalCollection/m1H4.png"),
     quiz: [

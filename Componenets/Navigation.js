@@ -14,7 +14,7 @@ import FreeFolger from "../screens/Folger";
 import ReadFolger from "../screens/Read";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
-import { Icon } from "react-native-elements";
+import AboutScreen from "../screens/About";
 import Lesson from "../screens/LessonScreen";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from "expo-constants";
@@ -31,6 +31,7 @@ import { onAuthStateChanged, User } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { auth } from "../firebaseConfig";
+
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -112,6 +113,21 @@ const Main = () => {
           component={FreeFolger}
           options={{
             title: "Free Folger",
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faHouseFlag}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+              <Drawer.Screen
+          name="About"
+          component={AboutScreen}
+          options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon

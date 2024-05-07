@@ -1,5 +1,4 @@
 import { View, Text, StyleSheet } from "react-native";
-import { Fonts } from "../Componenets/fonts";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import UserInfoTab from "../tabs/UserInfoTab";
 import MedalsTab from "../tabs/MedalsTab";
@@ -10,11 +9,7 @@ const Tab = createMaterialTopTabNavigator();
 
 
 const HomeScreen = ({ navigation }) => {
-  const fontsLoaded = Fonts();
 
-  if (!fontsLoaded) {
-    return <Text>Loading...</Text>;
-  }
   return (
     <Tab.Navigator
       screenOptions={{

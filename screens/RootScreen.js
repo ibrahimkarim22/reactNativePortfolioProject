@@ -4,6 +4,7 @@ import { ScreenWidth } from "react-native-elements/dist/helpers";
 import { Icon } from "react-native-elements";
 
 
+
 export const RootScreen = ({ navigation }) => {
 
   return (
@@ -135,11 +136,11 @@ const styles = StyleSheet.create({
   infoText: {
     color: "white",
     fontSize: 15,
-    fontFamily: "Sora_500Medium",
+    fontFamily: "Sora Medium",
   },
   quote: {
     color: "silver",
-    fontFamily: "Sora_500Medium",
+    fontFamily: "Sora Medium",
     textAlign: "center",
     marginTop: -4,
   },

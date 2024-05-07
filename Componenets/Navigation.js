@@ -15,12 +15,15 @@ import ReadFolger from "../screens/Read";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
 import AboutScreen from "../screens/About";
+import ContactScreen from "../screens/Contact";
 import Lesson from "../screens/LessonScreen";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from "expo-constants";
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-import { faHouseFlag } from "@fortawesome/free-solid-svg-icons";
+import { faFeather, faHouseFlag, faUmbrella, faWalkieTalkie } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+
 import {
   NavigationContainer,
   useNavigation,
@@ -46,7 +49,7 @@ const CustomDrawerContent = (props) => (
         />
       </View>
       <View style={{ flex: 1 }}>
-        <Text style={styles.drawerLogoText}>Shakespeare</Text>
+        <Text style={styles.drawerLogoText}>BARD</Text>
       </View>
     </View>
     <DrawerItemList {...props} labelStyle={{ fontWeight: "bold" }} />
@@ -100,7 +103,7 @@ const Main = () => {
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faHouseFlag}
+                icon={faStar}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -116,7 +119,7 @@ const Main = () => {
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faHouseFlag}
+                icon={faFeather}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -131,7 +134,22 @@ const Main = () => {
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faHouseFlag}
+                icon={faUmbrella}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+             <Drawer.Screen
+          name="Contact"
+          component={ContactScreen}
+          options={{
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faWalkieTalkie}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -260,25 +278,32 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
   },
   drawerSideLogo: {
-    backgroundColor: "maroon",
+    backgroundColor: "rgba(128, 0, 0, .2)",
     height: 100,
-    alignItems: "center",
-    justifyContent: "center",
     flex: 1,
-    flexDirection: "column",
+    flexDirection: "row",
+    alignContent: "center",
+    alignItems: "center"
   },
   drawerLogoText: {
-    color: "burlywood",
-    fontSize: 24,
+    color: "rgba(255, 250, 250, .7)",
+    fontSize: 55,
     fontWeight: "bold",
+    marginLeft: -70,
+    textShadowColor: 'rgba(255, 255, 255, .4)',
+    textShadowOffset: {width: .2, height: .2},
+    textShadowRadius: 33,
+    
   },
   sideDrawer: {
     backgroundColor: "black",
   },
   drawerImage: {
     margin: 22,
-    height: 100,
-    width: 150,
+    height: 122,
+    width: 200,
+    marginLeft: 7,
+    
   },
   stackIcon: {
     marginLeft: 10,

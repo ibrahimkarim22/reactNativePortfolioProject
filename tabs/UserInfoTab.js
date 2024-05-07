@@ -15,16 +15,11 @@ import { resetState } from "../Progress/CourseSlice";
 
 const auth = FIREBASE_AUTH;
 
-
-
 const UserInfoTab = () => {
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
-  const [imageUrl, setImageUrl] = useState(
-    ""
-  );
-  
-  
+  const [imageUrl, setImageUrl] = useState("");
+
   const [overlayVisible, setOverlayVisible] = useState(false);
 
   const currentUser = auth.currentUser;
@@ -36,7 +31,9 @@ const UserInfoTab = () => {
         if (user && user.photoURL) {
           setImageUrl(user.photoURL);
         } else {
-          setImageUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s");
+          setImageUrl(
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s"
+          );
         }
       } catch (error) {
         console.error("Error fetching profile image:", error);
@@ -46,10 +43,11 @@ const UserInfoTab = () => {
     fetchProfileImage();
   }, []);
 
+
   const getImageFromCamera = async () => {
     const cameraPermission = await ImagePicker.requestCameraPermissionsAsync();
     if (cameraPermission.status === "granted") {
-      setOverlayVisible(false)
+      setOverlayVisible(false);
       const capturedImage = await ImagePicker.launchCameraAsync({
         allowsEditing: true,
         aspect: [1, 1],
@@ -70,7 +68,7 @@ const UserInfoTab = () => {
       await ImagePicker.requestMediaLibraryPermissionsAsync();
 
     if (mediaLibraryPermissions.status === "granted") {
-      setOverlayVisible(false)
+      setOverlayVisible(false);
       const capturedImage = await ImagePicker.launchImageLibraryAsync({
         allowsEditing: true,
         aspect: [1, 1],
@@ -81,7 +79,6 @@ const UserInfoTab = () => {
         await updateProfile(auth.currentUser, {
           photoURL: capturedImage.assets[0].uri,
         });
-        
       }
     }
   };
@@ -96,9 +93,9 @@ const UserInfoTab = () => {
       console.log(processedImage);
       setImageUrl(processedImage.uri);
       await MediaLibrary.saveToLibraryAsync(processedImage.uri);
-  
+
       const db = FIRESTORE_DB;
-      const userRef = doc(db, "users", FIREBASE_AUTH.currentUser.uid); 
+      const userRef = doc(db, "users", FIREBASE_AUTH.currentUser.uid);
       await updateDoc(userRef, {
         profileImage: processedImage.uri,
       });
@@ -119,33 +116,34 @@ const UserInfoTab = () => {
         console.error("Error logging out: ", error);
       });
   };
+
   return (
     <View style={styles.main}>
       <View>
         <View style={{ alignContent: "center", alignItems: "center" }}>
           {imageUrl ? (
-
             <Image source={{ uri: imageUrl }} style={styles.image} />
           ) : (
-            <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s" }} 
-              style={styles.image} 
-              />
+            <Image
+              source={{
+                uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
+              }}
+              style={styles.image}
+            />
           )}
         </View>
         <View style={styles.editButtons}>
-        <Button title="Edit" onPress={() => setOverlayVisible(true)} />
-      </View>
+          <Button title="Edit" onPress={() => setOverlayVisible(true)} />
+        </View>
       </View>
       <View style={styles.infoContainer}>
         <Text style={styles.usernameText}>
           {" "}
-          {currentUser ?.displayName || "loading"}
+          {currentUser?.displayName || "loading"}
         </Text>
       </View>
       <View style={styles.infoTextContainer}>
-        <Text style={styles.infoText}>
-          {currentUser ?.email || "loading"}
-        </Text>
+        <Text style={styles.infoText}>{currentUser?.email || "loading"}</Text>
       </View>
       <View style={styles.editProfile}>
         <Button title="Logout" onPress={() => Logout(navigation)} />
@@ -156,13 +154,22 @@ const UserInfoTab = () => {
         overlayStyle={styles.overlay}
       >
         <View>
-          <TouchableOpacity style={styles.overlayButton} onPress={getImageFromCamera}>
+          <TouchableOpacity
+            style={styles.overlayButton}
+            onPress={getImageFromCamera}
+          >
             <Text>Take Photo</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.overlayButton} onPress={getImageFromGallery}>
+          <TouchableOpacity
+            style={styles.overlayButton}
+            onPress={getImageFromGallery}
+          >
             <Text>Choose from Library</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.overlayButton} onPress={() => setOverlayVisible(false)}>
+          <TouchableOpacity
+            style={styles.overlayButton}
+            onPress={() => setOverlayVisible(false)}
+          >
             <Text>Cancel</Text>
           </TouchableOpacity>
         </View>
@@ -207,15 +214,15 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   overlay: {
-    backgroundColor: 'white',
+    backgroundColor: "white",
     padding: 20,
     borderRadius: 10,
-    width: '80%',
+    width: "80%",
   },
   overlayButton: {
     paddingVertical: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: "#ccc",
   },
 });
 

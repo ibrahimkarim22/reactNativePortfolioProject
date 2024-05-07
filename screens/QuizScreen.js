@@ -1,17 +1,20 @@
 import { View, Text, StyleSheet, Alert } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
-import { Card, Button, Overlay } from "react-native-elements";
+import { Card, Button, Overlay, Image } from "react-native-elements";
 import { useRoute } from "@react-navigation/native";
 import { useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setLevel } from "../Progress/CourseSlice";
 import { doc, updateDoc } from "firebase/firestore";
 import { FIRESTORE_DB, FIREBASE_AUTH } from "../firebaseConfig";
+import { useNavigation } from "@react-navigation/native";
+
 const total = 7;
 
 const QuizScreen = () => {
   const dispatch = useDispatch();
+  const navigation = useNavigation();
   const route = useRoute();
   const { id } = route.params;
   const play = PLAYS.find((play) => play.id === id);
@@ -65,7 +68,6 @@ const QuizScreen = () => {
           "ALL ANSWERS WERE ANSWERED CORRECTLY ... SUBMMITING QUIZ ..."
         );
 
-      
         const currentPlay = PLAYS.find((p) => p.id === id);
 
         if (!currentPlay) {
@@ -146,12 +148,16 @@ const QuizScreen = () => {
     }
     return styles.btn;
   };
+
+  const medalImage = play.medalImage;
+  console.log("MEDAL IMAGE -----", medalImage);
+
   return (
     <ScrollView style={styles.main} ref={scroll}>
       <View>
         {play.quiz.map((question, index) => (
-          <Card key={index}>
-            <Card.Title>{question.question}</Card.Title>
+          <Card key={index} containerStyle={styles.card}>
+            <Card.Title style={styles.question}>{question.question}</Card.Title>
             {question.options.map((option, optionIndex) => (
               <Button
                 key={optionIndex}
@@ -162,24 +168,39 @@ const QuizScreen = () => {
             ))}
           </Card>
         ))}
-        <View>
+        <View style={styles.submitBtnContainer}>
           <Button title="Submit" onPress={submitQuiz} />
         </View>
-        <Overlay isVisible={results}>
+        <Overlay overlayStyle={styles.overlay} isVisible={results}>
           <View>
-            <Text>{`${totalCorrectAnswers}/${total}`}</Text>
+            <Text
+              style={styles.totalCorrect}
+            >{`${totalCorrectAnswers}/${total}`}</Text>
             {totalCorrectAnswers === total && (
-              <Text>Congradulations! You can proceed to the next play.</Text>
+              <>
+                <Text style={styles.message}>
+                  You've earned a medal! {"\n"} Next Level Unlocked.
+                </Text>
+                <Image source={medalImage} style={styles.medalImage} />
+              </>
             )}
             {totalCorrectAnswers !== total && (
               <Text>Answer all Questions correctly to unlock next play.</Text>
             )}
           </View>
-          <View>
-            <Button title="Retake Quiz" onPress={handleRetakeQuiz} />
+          <View style={styles.retakeBtn}>
+            <Button
+              buttonStyle={{ backgroundColor: "green" }}
+              title="Retake Quiz"
+              onPress={handleRetakeQuiz}
+            />
           </View>
-          <View>
-            <Button title="Course Menu" onPress={() => setResults(false)} />
+          <View style={styles.retakeBtn}>
+            <Button
+              buttonStyle={{ backgroundColor: "darkred" }}
+              title="Course Menu"
+              onPress={() => navigation.navigate("Course")}
+            />
           </View>
         </Overlay>
       </View>
@@ -191,16 +212,54 @@ const styles = StyleSheet.create({
   main: {
     backgroundColor: "black",
   },
+  card: {
+    backgroundColor: "rgba(0, 191, 255, .5)",
+    borderRadius: 22,
+  },
+  question: {
+    color: "rgba(255, 250, 240, 1)",
+    fontFamily: "sans-serif-light",
+    fontSize: 18,
+  },
   btn: {
     margin: 8,
   },
   wrongButton: {
     margin: 8,
-    backgroundColor: "red",
+    backgroundColor: "rgba(139, 0, 0, .9)",
   },
   correctButton: {
     margin: 8,
-    backgroundColor: "green",
+    backgroundColor: "rgba(127, 255, 0, .6)",
+  },
+  submitBtnContainer: {
+    margin: 44,
+    top: -22,
+  },
+  overlay: {
+    backgroundColor: "black",
+    padding: 22,
+    borderRadius: 22,
+  },
+  retakeBtn: {
+    margin: 10,
+  },
+  totalCorrect: {
+    fontFamily: "monospace",
+    fontSize: 38,
+    color: "white",
+    textAlign: "center",
+    backgroundColor: "gold",
+  },
+  medalImage: {
+    width: 255,
+    height: 200,
+  },
+  message: {
+    color: "snow",
+    textAlign: "center",
+    fontSize: 22,
+    fontFamily: "sans-serif-light",
   },
 });
 export default QuizScreen;

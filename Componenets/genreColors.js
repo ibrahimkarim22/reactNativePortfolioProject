@@ -3,11 +3,11 @@ const genreColors = (genre) => {
     case "Romance":
       return "deeppink";
     case "Comedy":
-      return "gold";
+      return "green";
     case "History":
       return "steelblue";
-      case "Tragedy":
-        return "darkred"
+    case "Tragedy":
+      return "darkred";
     default:
       return "transparent";
   }

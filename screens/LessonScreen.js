@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 import HTMLView from "react-native-htmlview";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,12 +8,8 @@ import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { ScrollView } from "react-native-gesture-handler";
 import { useRoute } from "@react-navigation/native";
-import { Button } from "react-native-elements";
-
-
 
 const Lesson = () => {
-
   const route = useRoute();
   const navigation = useNavigation();
   const { id } = route.params;
@@ -34,7 +30,6 @@ const Lesson = () => {
     dispatch(fetchFolger(id));
   }, [dispatch, id]);
 
-
   return (
     <ScrollView style={styles.container}>
       {folger.isLoading ? (
@@ -45,17 +40,23 @@ const Lesson = () => {
         <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
       )}
       <View style={styles.readPlayBtn}>
-        <Button title="Read Play" onPress={handleReadPlay} />
+        <Button
+          title="Read Play"
+          onPress={handleReadPlay}
+          color={"rgba(124, 252, 0, .7)"}
+        />
       </View>
       <View style={styles.quizBtn}>
         <Button
-        title="Quiz"
-        onPress={handleQuiz}
+          title="Quiz"
+          onPress={handleQuiz}
+          color={"rgba(75, 0, 130, .9)"}
         />
         <View style={styles.menuBtn}>
           <Button
             title="Course Menu"
             onPress={() => navigation.navigate("Course")}
+            color={"rgba(255, 192, 283, .7)"}
           />
         </View>
       </View>
@@ -67,19 +68,19 @@ const htmlStyles = StyleSheet.create({
   h2: {
     color: "steelblue",
     fontSize: 22,
-    fontFamily: "Khand_700Bold",
+    fontFamily: "sans-serif-light",
     marginTop: 12,
   },
   i: {
-    fontFamily: "Khand_400Regular",
+    fontFamily: "sans-serif-light",
   },
   p: {
     color: "snow",
     margin: 3,
     paddingBottom: 0,
     marginBottom: -88,
-    fontFamily: "Sora_500Medium",
-    fontSize: 22
+    fontFamily: "sans-serif-light",
+    fontSize: 22,
   },
 });
 

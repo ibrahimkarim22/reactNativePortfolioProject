@@ -1,43 +1,37 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Image } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
-import { PLAYS } from "../shared/playsRoot"
+import { PLAYS } from "../shared/playsRoot";
 import { useSelector } from "react-redux";
 
-
 const MedalsTab = () => {
-
   const completedLevel = useSelector((state) => state.course.completedLevel);
 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
 
   return (
-    <ScrollView style={styles.main}> 
-        <View style={styles.genreView}>
-          <Text style={styles.genreText}>ROMANCES</Text>
-        </View>
-        <View style={styles.medalContainer}>
-          {plays.map((play, index) => (
-            <View key={index} style={styles.medalItem}>
-              <View style={styles.imageContainer}>
-                <Image
-                  source={play.medalImage}
-                  style={styles.medalImage}
-                />
-                {play.difficulty > completedLevel && (
-                  <View style={styles.blurContainer}>
-                   <Image
-                   source={require("../assets/images/lock.jpg")}
-                   style={styles.lock}
-                   onError={(error) => console.log("Image loading error:", error)}
-                 />
-                 </View>
-                )}
-              </View>
-              <Text style={styles.medalTitle}>{play.name}</Text>
+    <ScrollView style={styles.main}>
+      <View style={styles.medalContainer}>
+        {plays.map((play, index) => (
+          <View key={index} style={styles.medalItem}>
+            <View style={styles.imageContainer}>
+              <Image source={play.medalImage} style={styles.medalImage} />
+              {play.difficulty > completedLevel && (
+                <View style={styles.blurContainer}>
+                  <Image
+                    source={require("../assets/images/lock.png")}
+                    style={styles.lock}
+                    onError={(error) =>
+                      console.log("Image loading error:", error)
+                    }
+                  />
+                </View>
+              )}
             </View>
-          ))}
-        </View>
+            <Text style={styles.medalTitle}>{play.name}</Text>
+          </View>
+        ))}
+      </View>
     </ScrollView>
   );
 };
@@ -47,26 +41,16 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "black",
   },
-  genreView: {
-    marginTop: 11,
-  },
-  genreText: {
-    color: "white",
-    fontSize: 22,
-    textAlign: "center",
-    marginTop: 22
-  },
   medalContainer: {
-    marginTop: 5,
-    margin: 28
+    padding: 2,
   },
   medalItem: {
     alignItems: "center",
-    margin: 33,
+    marginBottom: 22,
   },
   medalImage: {
-    width: 248,
-    height: 222,
+    width: 333,
+    padding: 200,
   },
   imageContainer: {
     position: "relative",
@@ -74,21 +58,25 @@ const styles = StyleSheet.create({
   blurContainer: {
     position: "absolute",
     top: 0,
-    left: 0,
-    width: 248,
+    left: 38,
+    width: 333,
     height: 222,
     zIndex: 1,
   },
   medalTitle: {
-    color: "white",
-    marginTop: -22,
-    marginBottom: 11
+    color: "rgba(255, 255, 255, .6)",
+    fontFamily: "serif",
+    fontSize: 22,
+    textShadowColor: "rgba(255, 250, 250, 1)",
+    textShadowOffset: { width: 0.8, height: 0.8 },
+    textShadowRadius: 10,
+    marginTop: -55,
   },
   lock: {
-    width: 234,
-    height: 234
-  }
+    width: 444,
+    height: 322,
+    left: -59,
+  },
 });
-
 
 export default MedalsTab;

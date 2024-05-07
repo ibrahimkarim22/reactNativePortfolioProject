@@ -10,20 +10,8 @@ import {
 import { useEffect, useState } from "react";
 import { Card, CheckBox } from "react-native-elements";
 import { FIREBASE_APP, FIREBASE_AUTH } from "../firebaseConfig";
-import {
-  signInWithEmailAndPassword,
-  getAuth,
-  browserLocalPersistence,
-  setPersistence
-} from "firebase/auth";
-import {
-  getFirestore,
-  collection,
-  doc,
-  setDoc,
-  updateDoc,
-  getDoc,
-} from "firebase/firestore";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { doc, getDoc } from "firebase/firestore";
 import { useDispatch } from "react-redux";
 import { setLevel } from "../Progress/CourseSlice";
 import * as SecureStore from "expo-secure-store";
@@ -88,9 +76,11 @@ const LoginScreen = ({ navigation }) => {
       console.log("user data fetched from firestore:", userData);
 
       const completedLevel = userData.completedLevel;
-      console.log("completedLevel data fetched from firestore:", completedLevel);
+      console.log(
+        "completedLevel data fetched from firestore:",
+        completedLevel
+      );
       dispatch(setLevel(completedLevel));
-
 
       navigation.navigate("Main");
     } catch (error) {
@@ -100,7 +90,6 @@ const LoginScreen = ({ navigation }) => {
       setLoading(false);
     }
   };
-
 
   return (
     <View style={styles.mainContainer}>
@@ -122,7 +111,7 @@ const LoginScreen = ({ navigation }) => {
             secureTextEntry={true}
           />
           {loading ? (
-            <ActivityIndicator size="large" color="steelblue" />
+            <ActivityIndicator size="large" color="hotpink" />
           ) : (
             <>
               <CheckBox
@@ -132,10 +121,15 @@ const LoginScreen = ({ navigation }) => {
                 onPress={() => setRemember(!remember)}
                 containerStyle={styles.formCheckbox}
               />
-              <Button title="Login" onPress={Login} />
             </>
           )}
-          <View style={styles.btn}></View>
+          <View style={styles.btnContainer}>
+            <Button
+              color={"rgba(124, 252, 0, .7)"}
+              title="Login"
+              onPress={Login}
+            />
+          </View>
         </Card>
       </KeyboardAvoidingView>
     </View>
@@ -148,11 +142,10 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   card: {
-    backgroundColor: "silver",
+    backgroundColor: "rgba(245, 245, 220, .5)",
     alignContent: "center",
     margin: 23,
-    top: 222,
-    borderRadius: 33,
+    borderRadius: 22,
   },
   title: {
     color: "white",
@@ -171,14 +164,19 @@ const styles = StyleSheet.create({
     padding: 22,
     margin: 5,
     borderRadius: 222,
-    shadowColor: "steelblue",
-    shadowOffset: { width: 1, height: 1 },
-    shadowOpacity: 1,
+    shadowColor: "rgba(125, 0, 0, .9)",
+    shadowOffset: { width: 3, height: 3 },
     shadowRadius: 33,
-    elevation: 5,
+    elevation: 3,
   },
-  btn: {
-    padding: 22,
+  btnContainer: {
+    margin: -7,
+    padding: 16,
+    color: "rgba(240, 255, 240, .3)",
+  },
+  formCheckbox: {
+    padding: 2,
+    backgroundColor: "rgba(240, 255, 240, .3)",
   },
 });
 

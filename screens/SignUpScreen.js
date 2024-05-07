@@ -11,18 +11,18 @@ import { Card } from "react-native-elements";
 import { useState } from "react";
 import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { getFirestore, collection, doc, setDoc } from "firebase/firestore";
-import { completedLevel } from "../Progress/CourseSlice";
+import { doc, setDoc } from "firebase/firestore";
 import { useNavigation } from "@react-navigation/native";
 
 const SignUpScreen = () => {
+  const navigation = useNavigation();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const auth = FIREBASE_AUTH;
-const navigation = useNavigation();
+
   const SignUp = async () => {
     setLoading(true);
     try {
@@ -35,8 +35,8 @@ const navigation = useNavigation();
       console.log(response);
       await updateProfile(response.user, {
         displayName: `${firstName} ${lastName}`,
-        photoURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
-
+        photoURL:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
       });
 
       const db = FIRESTORE_DB;
@@ -44,7 +44,8 @@ const navigation = useNavigation();
       await setDoc(userRef, {
         userId: response.user.uid,
         completedLevel: 1,
-        profileImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s"
+        profileImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
       });
       const userDocId = userRef.id;
       console.log("User created:", userDocId);
@@ -57,7 +58,7 @@ const navigation = useNavigation();
       await updateProfileWithNames;
     } finally {
       setLoading(false);
-      // navigation.navigate("Home")
+      navigation.navigate("Main");
     }
   };
 
@@ -97,7 +98,11 @@ const navigation = useNavigation();
           ) : (
             <>
               <View style={styles.btn}>
-                <Button title="SignUp" color="firebrick" onPress={SignUp} />
+                <Button
+                  title="SignUp"
+                  color={"rgba(130, 0, 0, .7)"}
+                  onPress={SignUp}
+                />
               </View>
             </>
           )}
@@ -116,8 +121,7 @@ const styles = StyleSheet.create({
     backgroundColor: "silver",
     alignContent: "center",
     margin: 23,
-    top: 155,
-    borderRadius: 33,
+    borderRadius: 22,
   },
   title: {
     color: "white",
@@ -136,14 +140,14 @@ const styles = StyleSheet.create({
     padding: 22,
     margin: 5,
     borderRadius: 222,
-    shadowColor: "steelblue",
-    shadowOffset: { width: 1, height: 1 },
-    shadowOpacity: 1,
+    shadowColor: "rgba(125, 0, 0, .9)",
+    shadowOffset: { width: 3, height: 3 },
     shadowRadius: 33,
-    elevation: 5,
+    elevation: 3,
   },
   btn: {
-    padding: 22,
+    margin: -7,
+    padding: 16,
   },
 });
 

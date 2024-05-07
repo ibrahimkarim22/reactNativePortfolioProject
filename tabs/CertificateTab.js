@@ -1,9 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 import { LinearProgress, Image } from "react-native-elements";
 import { useEffect, useState } from "react";
-import { FIREBASE_AUTH } from "../firebaseConfig";
-import { FIRESTORE_DB } from "../firebaseConfig";
-import { doc, getDoc } from "firebase/firestore";
 import { useSelector } from "react-redux";
 
 const CertificateTab = () => {
@@ -29,16 +26,16 @@ const CertificateTab = () => {
         />
         <Text style={styles.lpText}>{progress.toFixed(0)} %</Text>
         {progress < 100 ? (
-    <>
-        <Text style={styles.lpStatus}>Course is still in progress</Text>
-        <Image
-            source={require("../assets/images/lock.jpg")}
-            style={styles.lock}
-        />
-    </>
-) : (
-    <Text style={styles.lpStatus}>Course is completed!</Text>
-)}
+          <>
+            <Text style={styles.lpStatus}>Course is still in progress</Text>
+            <Image
+              source={require("../assets/images/lock.png")}
+              style={styles.lock}
+            />
+          </>
+        ) : (
+          <Text style={styles.lpStatus}>Course is completed!</Text>
+        )}
       </View>
     </View>
   );
@@ -58,14 +55,20 @@ const styles = StyleSheet.create({
   lpText: {
     color: "white",
     fontSize: 18,
+    fontFamily: "serif",
+    marginTop: 8,
   },
   lpStatus: {
     color: "red",
     textAlign: "center",
+    fontFamily: "sans-serif-medium",
+    fontSize: 18,
   },
   lock: {
     width: 222,
     height: 222,
+    left: 50,
+    marginTop: 22,
   },
 });
 

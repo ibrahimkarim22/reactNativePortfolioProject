@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
-import { Button, Image, Overlay } from "react-native-elements";
+import { View, Text, StyleSheet, TouchableOpacity, Button } from "react-native";
+import { Image, Overlay } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 import { FIREBASE_AUTH } from "../firebaseConfig";
 import { FIRESTORE_DB } from "../firebaseConfig";
@@ -11,7 +11,6 @@ import * as MediaLibrary from "expo-media-library";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { resetState } from "../Progress/CourseSlice";
-
 
 const auth = FIREBASE_AUTH;
 
@@ -42,7 +41,6 @@ const UserInfoTab = () => {
 
     fetchProfileImage();
   }, []);
-
 
   const getImageFromCamera = async () => {
     const cameraPermission = await ImagePicker.requestCameraPermissionsAsync();
@@ -132,8 +130,13 @@ const UserInfoTab = () => {
             />
           )}
         </View>
-        <View style={styles.editButtons}>
-          <Button title="Edit" onPress={() => setOverlayVisible(true)} />
+        <View style={styles.editContainer}>
+          <Button
+            color={"cadetblue"}
+            style={styles.editBtn}
+            title="Edit Picture"
+            onPress={() => setOverlayVisible(true)}
+          />
         </View>
       </View>
       <View style={styles.infoContainer}>
@@ -145,8 +148,12 @@ const UserInfoTab = () => {
       <View style={styles.infoTextContainer}>
         <Text style={styles.infoText}>{currentUser?.email || "loading"}</Text>
       </View>
-      <View style={styles.editProfile}>
-        <Button title="Logout" onPress={() => Logout(navigation)} />
+      <View style={styles.logoutBtn}>
+        <Button
+          color={"darkred"}
+          title="Logout"
+          onPress={() => Logout(navigation)}
+        />
       </View>
       <Overlay
         isVisible={overlayVisible}
@@ -196,22 +203,26 @@ const styles = StyleSheet.create({
   usernameText: {
     color: "white",
     textAlign: "center",
-    fontSize: 18,
+    fontSize: 22,
+    fontFamily: "sans-serif-medium",
   },
   infoTextContainer: {
-    marginTop: 10,
+    marginTop: 16,
   },
   infoText: {
     color: "white",
     textAlign: "center",
     fontSize: 22,
+    fontFamily: "sans-serif-medium",
   },
-  editProfile: {
+  editContainer: {
+    padding: 33,
+  },
+  editBtn: {
+    margin: 22,
+  },
+  logoutBtn: {
     marginTop: 22,
-  },
-  editProfileText: {
-    color: "white",
-    fontSize: 18,
   },
   overlay: {
     backgroundColor: "white",

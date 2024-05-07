@@ -3,10 +3,7 @@ import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 import { ScreenWidth } from "react-native-elements/dist/helpers";
 import { Icon } from "react-native-elements";
 
-
-
 export const RootScreen = ({ navigation }) => {
-
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
@@ -71,9 +68,9 @@ export const RootScreen = ({ navigation }) => {
         >
           <Button
             title="Sign Up"
-            color="firebrick"
+            color={"rgba(139, 0, 0, .7)"}
             onPress={() => navigation.navigate("SignUp")}
-          ></Button>
+          />
         </View>
         <Text style={styles.quote}>
           {" "}
@@ -86,7 +83,8 @@ export const RootScreen = ({ navigation }) => {
           <Button
             title="Login"
             onPress={() => navigation.navigate("Login")}
-          ></Button>
+            color={"rgba(124, 252, 0, .7)"}
+          />
         </View>
         <Text style={styles.quote}>
           {" "}
@@ -114,14 +112,14 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 24,
     textAlign: "center",
-    fontFamily: "Khand_400Regular",
+    fontFamily: "serif",
     marginTop: 11,
   },
   promoTextTwo: {
     color: "white",
     fontSize: 24,
     textAlign: "center",
-    fontFamily: "Khand_400Regular",
+    fontFamily: "serif",
     marginTop: -3,
   },
   infoContainer: {
@@ -131,16 +129,16 @@ const styles = StyleSheet.create({
   infoTextHeader: {
     color: "silver",
     fontSize: 20,
-    fontFamily: "Khand_700Bold",
+    fontFamily: "serif",
   },
   infoText: {
     color: "white",
     fontSize: 15,
-    fontFamily: "Sora Medium",
+    fontFamily: "normal",
   },
   quote: {
     color: "silver",
-    fontFamily: "Sora Medium",
+    fontFamily: "serif",
     textAlign: "center",
     marginTop: -4,
   },

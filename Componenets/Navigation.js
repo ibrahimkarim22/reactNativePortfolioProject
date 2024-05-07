@@ -21,20 +21,17 @@ import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from "expo-constants";
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-import { faFeather, faHouseFlag, faUmbrella, faWalkieTalkie } from "@fortawesome/free-solid-svg-icons";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-
 import {
-  NavigationContainer,
-  useNavigation,
-  useRoute,
-} from "@react-navigation/native";
+  faFeather,
+  faHouseFlag,
+  faUmbrella,
+  faWalkieTalkie,
+} from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { onAuthStateChanged, User } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { FIREBASE_AUTH } from "../firebaseConfig";
-import { auth } from "../firebaseConfig";
-
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -111,7 +108,7 @@ const Main = () => {
             ),
           }}
         />
-          <Drawer.Screen
+        <Drawer.Screen
           name="FreeFolger"
           component={FreeFolger}
           options={{
@@ -127,7 +124,7 @@ const Main = () => {
             ),
           }}
         />
-              <Drawer.Screen
+        <Drawer.Screen
           name="About"
           component={AboutScreen}
           options={{
@@ -142,7 +139,7 @@ const Main = () => {
             ),
           }}
         />
-             <Drawer.Screen
+        <Drawer.Screen
           name="Contact"
           component={ContactScreen}
           options={{
@@ -199,8 +196,6 @@ const Main = () => {
 };
 
 const Stacks = () => {
-  
-
   const screenOptions = {
     headerTintColor: "white",
     headerStyle: { backgroundColor: "black" },
@@ -258,7 +253,7 @@ const Stacks = () => {
           component={SignUpScreen}
           options={{ headerShown: true }}
         />
-          <Stack.Screen
+        <Stack.Screen
           name="ReadFolger"
           component={ReadFolger}
           options={{ headerShown: true }}
@@ -283,17 +278,16 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     alignContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   drawerLogoText: {
     color: "rgba(255, 250, 250, .7)",
     fontSize: 55,
     fontWeight: "bold",
     marginLeft: -70,
-    textShadowColor: 'rgba(255, 255, 255, .4)',
-    textShadowOffset: {width: .2, height: .2},
+    textShadowColor: "rgba(255, 255, 255, .4)",
+    textShadowOffset: { width: 0.2, height: 0.2 },
     textShadowRadius: 33,
-    
   },
   sideDrawer: {
     backgroundColor: "black",
@@ -303,7 +297,6 @@ const styles = StyleSheet.create({
     height: 122,
     width: 200,
     marginLeft: 7,
-    
   },
   stackIcon: {
     marginLeft: 10,

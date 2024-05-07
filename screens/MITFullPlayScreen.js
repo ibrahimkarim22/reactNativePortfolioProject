@@ -1,17 +1,14 @@
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
-import { StyleSheet, SafeAreaView, ScrollView, Text, View } from "react-native";
+import { StyleSheet, ScrollView, Text, ActivityIndicator } from "react-native";
 import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
-import { Button } from "react-native-elements";
-import { useNavigation } from "@react-navigation/native";
 
 const MITFullPlayScreen = () => {
   const dispatch = useDispatch();
   const MIT = useSelector((state) => state.MIT);
   const FolgerCharacter = useSelector((state) => state.FolgerCharacter);
-  const navigation = useNavigation();
 
   useEffect(() => {
     dispatch(fetchMIT());
@@ -20,11 +17,20 @@ const MITFullPlayScreen = () => {
 
   return (
     <ScrollView style={styles.container}>
-      
       {MIT.isLoading && FolgerCharacter.isLoading ? (
-        <Text style={styles.message}>Loading...</Text>
+        <>
+          <ActivityIndicator size="large" color="hotpink" />
+          <Text style={styles.loadingMsg}>
+            Fetching from Folger.. please wait..
+          </Text>
+        </>
       ) : MIT.errMess && FolgerCharacter.errMess ? (
-        <Text style={styles.message}>Error: {MIT.errMess}</Text>
+        <>
+          <ActivityIndicator size="large" color="hotpink" />
+          <Text style={styles.loadingMsg}>
+            Fetching from Folger.. please wait..
+          </Text>
+        </>
       ) : (
         <>
           <HTMLView
@@ -46,7 +52,8 @@ const htmlStyles = StyleSheet.create({
   a: {
     fontWeight: "bold",
     color: "white",
-    fontFamily: "Sora_500Medium"
+    fontFamily: "sans-serif-light",
+    fontSize: 15,
   },
 
   p: {
@@ -55,8 +62,10 @@ const htmlStyles = StyleSheet.create({
 });
 
 const styles = StyleSheet.create({
-  message: {
-    color: "red",
+  loadingMsg: {
+    color: "hotpink",
+    fontFamily: "monospace",
+    textAlign: "center",
   },
   container: {
     flex: 1,

@@ -19,6 +19,7 @@ import ContactScreen from "../screens/Contact";
 import Lesson from "../screens/LessonScreen";
 import Synopsis from "../screens/JustSynopsis";
 import SynopsisList from "../screens/SynopsisList";
+import Performances from "../screens/Performances";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from "expo-constants";
 import { Image } from "react-native-elements";
@@ -130,6 +131,21 @@ const Main = () => {
           component={FreeFolger}
           options={{
             title: "Free Folger",
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faFeather}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+         <Drawer.Screen
+          name="Performances"
+          component={Performances}
+          options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon

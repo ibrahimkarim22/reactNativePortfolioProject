@@ -141,38 +141,38 @@ export const PLAYS = [
       {
         id: 116,
         question: "What is the setting of most of the play's action?",
-        options: ["Forest of Arden", "London", "Paris", "Rome"],
+        options: ["Paris", "Forest of Arden", "London", "Rome"],
         correctAnswer: "Forest of Arden",
       },
       {
         id: 117,
         question: "Who disguises herself as a man named Ganymede?",
-        options: ["Rosalind", "Celia", "Audrey", "Phoebe"],
+        options: ["Celia", "Audrey", "Rosalind", "Phoebe"],
         correctAnswer: "Rosalind",
       },
       {
         id: 118,
         question: "Who is Orlando's older brother?",
-        options: ["Oliver", "Jacques", "Adam", "Touchstone"],
+        options: ["Jacques", "Adam", "Oliver", "Touchstone"],
         correctAnswer: "Oliver",
       },
       {
         id: 119,
         question:
           "Which character says the famous line 'All the world's a stage'?",
-        options: ["Jaques", "Duke Senior", "Orlando", "Rosalind"],
+        options: ["Duke Senior", "Jaques", "Orlando", "Rosalind"],
         correctAnswer: "Jaques",
       },
       {
         id: 120,
         question: "Who is the court jester in the play?",
-        options: ["Touchstone", "Silvius", "Adam", "Corin"],
+        options: ["Silvius", "Adam", "Touchstone", "Corin"],
         correctAnswer: "Touchstone",
       },
       {
         id: 121,
         question: "Who ends up marrying Rosalind in the end?",
-        options: ["Orlando", "Oliver", "Jaques", "Duke Senior"],
+        options: ["Oliver", "Orlando", "Jaques", "Duke Senior"],
         correctAnswer: "Orlando",
       },
     ],
@@ -191,7 +191,7 @@ export const PLAYS = [
       {
         id: 122,
         question: "What is the setting of the play?",
-        options: ["Ephesus", "Athens", "Rome", "Syracuse"],
+        options: ["Athens", "Rome", "Ephesus", "Syracuse"],
         correctAnswer: "Ephesus",
       },
       {
@@ -209,10 +209,10 @@ export const PLAYS = [
         id: 124,
         question: "Who is married to Adriana?",
         options: [
-          "Antipholus of Ephesus",
           "Antipholus of Syracuse",
           "Dromio of Ephesus",
           "Dromio of Syracuse",
+          "Antipholus of Ephesus",
         ],
         correctAnswer: "Antipholus of Ephesus",
       },
@@ -220,10 +220,10 @@ export const PLAYS = [
         id: 125,
         question: "Who is Egeon searching for throughout most of the play?",
         options: [
-          "His long-lost son",
           "His missing wife",
           "His stolen money",
           "His lost ring",
+          "His long-lost son",
         ],
         correctAnswer: "His long-lost son",
       },
@@ -231,7 +231,7 @@ export const PLAYS = [
         id: 126,
         question:
           "Which character is frequently mistaken for one of the twin brothers?",
-        options: ["Dromio of Ephesus", "Adriana", "Luciana", "Egeon"],
+        options: ["Adriana", "Dromio of Ephesus", "Luciana", "Egeon"],
         correctAnswer: "Dromio of Ephesus",
       },
       {
@@ -263,13 +263,13 @@ export const PLAYS = [
       {
         id: 129,
         question: "Who is the King of Sicilia at the beginning of the play?",
-        options: ["Leontes", "Polixenes", "Camillo", "Antigonus"],
+        options: ["Polixenes", "Leontes", "Camillo", "Antigonus"],
         correctAnswer: "Leontes",
       },
       {
         id: 130,
         question: "Who is Hermione accused of having an affair with?",
-        options: ["Polixenes", "Florizel", "Antigonus", "Camillo"],
+        options: ["Florizel", "Polixenes", "Antigonus", "Camillo"],
         correctAnswer: "Polixenes",
       },
       {
@@ -286,30 +286,30 @@ export const PLAYS = [
       {
         id: 132,
         question: "Who takes care of Perdita after she is abandoned?",
-        options: ["Shepherds", "Antigonus", "Paulina", "Florizel"],
+        options: ["Antigonus", "Paulina", "Shepherds", "Florizel"],
         correctAnswer: "Shepherds",
       },
       {
         id: 133,
         question: "What happens to Antigonus after leaving Perdita?",
         options: [
-          "He is killed by a bear",
           "He becomes a king",
           "He joins a circus",
           "He returns to Sicilia",
+          "He is killed by a bear",
         ],
         correctAnswer: "He is killed by a bear",
       },
       {
         id: 134,
         question: "Who is Perdita's love interest?",
-        options: ["Florizel", "Polixenes", "Leontes", "Antigonus"],
+        options: ["Polixenes", "Florizel", "Leontes", "Antigonus"],
         correctAnswer: "Florizel",
       },
       {
         id: 135,
         question: "Who reveals the truth about Hermione?",
-        options: ["Paulina", "Camillo", "Leontes", "Polixenes"],
+        options: ["Camillo", "Leontes", "Polixenes", "Paulina"],
         correctAnswer: "Paulina",
       },
     ],
@@ -328,19 +328,19 @@ export const PLAYS = [
       {
         id: 136,
         question: "Who is the protagonist of the play?",
-        options: ["Coriolanus", "Brutus", "Cominius", "Aufidius"],
+        options: ["Brutus", "Cominius", "Coriolanus", "Aufidius"],
         correctAnswer: "Coriolanus",
       },
       {
         id: 137,
         question: "What is Coriolanus' first name?",
-        options: ["Caius", "Lucius", "Marcus", "Titus"],
+        options: ["Lucius", "Marcus", "Caius", "Titus"],
         correctAnswer: "Caius",
       },
       {
         id: 138,
         question: "Which city is under siege in the play?",
-        options: ["Rome", "Athens", "Carthage", "Antium"],
+        options: ["Athens", "Carthage", "Rome", "Antium"],
         correctAnswer: "Rome",
       },
       {
@@ -352,7 +352,7 @@ export const PLAYS = [
       {
         id: 140,
         question: "Who betrays Coriolanus to the Volscians?",
-        options: ["Aufidius", "Cominius", "Brutus", "Sicinius"],
+        options: ["Cominius", "Brutus", "Sicinius", "Aufidius"],
         correctAnswer: "Aufidius",
       },
       {
@@ -369,7 +369,7 @@ export const PLAYS = [
       {
         id: 142,
         question: "Who orchestrates Coriolanus' downfall in Rome?",
-        options: ["Sicinius", "Cominius", "Brutus", "Volumnia"],
+        options: ["Cominius", "Sicinius", "Brutus", "Volumnia"],
         correctAnswer: "Sicinius",
       },
     ],
@@ -388,13 +388,13 @@ export const PLAYS = [
       {
         id: 143,
         question: "Who is the king of Britain in the play?",
-        options: ["Cymbeline", "Cloten", "Belarius", "Posthumus"],
+        options: ["Belarius", "Cymbeline", "Cloten", "Posthumus"],
         correctAnswer: "Cymbeline",
       },
       {
         id: 144,
         question: "What is Imogen's relationship to Cymbeline?",
-        options: ["Daughter", "Wife", "Sister", "Niece"],
+        options: ["Sister", "Daughter", "Wife", "Niece"],
         correctAnswer: "Daughter",
       },
       {
@@ -406,13 +406,13 @@ export const PLAYS = [
       {
         id: 146,
         question: "Who attempts to rape Imogen?",
-        options: ["Iachimo", "Posthumus", "Belarius", "Cloten"],
+        options: ["Posthumus", "Belarius", "Cloten", "Iachimo"],
         correctAnswer: "Iachimo",
       },
       {
         id: 147,
         question: "What disguise does Imogen take on while fleeing?",
-        options: ["Fidele", "Celia", "Innogen", "Rosamund"],
+        options: ["Celia", "Fidele", "Innogen", "Rosamund"],
         correctAnswer: "Fidele",
       },
       {
@@ -443,16 +443,16 @@ export const PLAYS = [
       {
         id: 150,
         question: "Who is the ghost that appears to Hamlet?",
-        options: ["King Hamlet", "King Claudius", "Polonius", "Laertes"],
+        options: ["King Claudius", "King Hamlet", "Polonius", "Laertes"],
         correctAnswer: "King Hamlet",
       },
       {
         id: 151,
         question: "What does the ghost reveal to Hamlet?",
         options: [
-          "That he was murdered",
           "That he died of natural causes",
           "That he is not really dead",
+          "That he was murdered",
           "That he is Hamlet's real father",
         ],
         correctAnswer: "That he was murdered",
@@ -460,7 +460,7 @@ export const PLAYS = [
       {
         id: 152,
         question: "Who is Hamlet's love interest?",
-        options: ["Ophelia", "Gertrude", "Rosencrantz", "Guildenstern"],
+        options: ["Gertrude", "Ophelia", "Rosencrantz", "Guildenstern"],
         correctAnswer: "Ophelia",
       },
       {
@@ -508,7 +508,7 @@ export const PLAYS = [
       {
         id: 157,
         question: "Who is the king of England in the play?",
-        options: ["Henry IV", "Henry V", "Richard II", "Edward IV"],
+        options: [, "Henry V", "Richard II", "Edward IV", "Henry IV"],
         correctAnswer: "Henry IV",
       },
       {
@@ -520,25 +520,25 @@ export const PLAYS = [
       {
         id: 159,
         question: "Which character is known for his wit and humor?",
-        options: ["Falstaff", "Hotspur", "Worcester", "Glendower"],
+        options: ["Hotspur", "Falstaff", "Worcester", "Glendower"],
         correctAnswer: "Falstaff",
       },
       {
         id: 160,
         question: "Who is the rebel leader against King Henry IV?",
-        options: ["Hotspur", "Falstaff", "Worcester", "Glendower"],
+        options: ["Falstaff", "Worcester", "Hotspur", "Glendower"],
         correctAnswer: "Hotspur",
       },
       {
         id: 161,
         question: "What is the name of Henry IV's son and heir?",
-        options: ["Prince Hal", "Hotspur", "Worcester", "Glendower"],
+        options: ["Hotspur", "Worcester", "Prince Hal", "Glendower"],
         correctAnswer: "Prince Hal",
       },
       {
         id: 162,
         question: "Who kills Hotspur in battle?",
-        options: ["Prince Hal", "Falstaff", "Worcester", "Glendower"],
+        options: ["Falstaff", "Prince Hal", "Worcester", "Glendower"],
         correctAnswer: "Prince Hal",
       },
       {
@@ -574,16 +574,16 @@ export const PLAYS = [
       {
         id: 165,
         question: "Which character is known for his cowardice and deceit?",
-        options: ["Falstaff", "Prince Hal", "Hotspur", "Glendower"],
+        options: ["Prince Hal", "Falstaff", "Hotspur", "Glendower"],
         correctAnswer: "Falstaff",
       },
       {
         id: 166,
         question: "What is Falstaff's famous quote about honor?",
         options: [
-          "'What is honor? A word.'",
           "'I do not wish to be honorable.'",
           "'Honors thrive when one is dead.'",
+          "'What is honor? A word.'",
           "'Honor is a mere scutcheon.'",
         ],
         correctAnswer: "'What is honor? A word.'",
@@ -591,7 +591,7 @@ export const PLAYS = [
       {
         id: 167,
         question: "Who conspires to overthrow King Henry IV?",
-        options: ["Northumberland", "Falstaff", "Prince Hal", "Hotspur"],
+        options: ["Hotspur", "Northumberland", "Falstaff", "Prince Hal"],
         correctAnswer: "Northumberland",
       },
       {
@@ -617,8 +617,8 @@ export const PLAYS = [
         options: [
           "Prince Hal's speech",
           "Falstaff's soliloquy",
-          "King Henry IV's funeral",
           "Battle of Shrewsbury",
+          "King Henry IV's funeral",
         ],
         correctAnswer: "Prince Hal's speech",
       },
@@ -645,10 +645,10 @@ export const PLAYS = [
         id: 172,
         question: "What is the name of the famous battle in the play?",
         options: [
-          "Battle of Agincourt",
           "Battle of Bosworth",
           "Battle of Shrewsbury",
           "Battle of Hastings",
+          "Battle of Agincourt",
         ],
         correctAnswer: "Battle of Agincourt",
       },
@@ -656,23 +656,23 @@ export const PLAYS = [
         id: 173,
         question: "What is Henry V's famous rallying speech called?",
         options: [
-          "St. Crispin's Day Speech",
           "The Battle Cry",
           "The King's Call",
           "The Warrior's Oath",
+          "St. Crispin's Day Speech",
         ],
         correctAnswer: "St. Crispin's Day Speech",
       },
       {
         id: 174,
         question: "Who is Henry V's trusted friend and advisor?",
-        options: ["Exeter", "Canterbury", "Fluellen", "Westmorland"],
+        options: ["Canterbury", "Fluellen", "Exeter", "Westmorland"],
         correctAnswer: "Exeter",
       },
       {
         id: 175,
         question: "Who is the Dauphin of France that Henry V confronts?",
-        options: ["Charles", "Louis", "Philip", "Louis"],
+        options: ["Louis", "Philip", "Charles", "Louis"],
         correctAnswer: "Charles",
       },
       {
@@ -703,7 +703,7 @@ export const PLAYS = [
       {
         id: 178,
         question: "Who becomes king at the beginning of the play?",
-        options: ["Henry VI", "Henry V", "Henry IV", "Richard II"],
+        options: ["Henry V", "Henry VI", "Henry IV", "Richard II"],
         correctAnswer: "Henry VI",
       },
       {
@@ -720,13 +720,13 @@ export const PLAYS = [
       {
         id: 180,
         question: "What famous weapon is associated with Joan of Arc?",
-        options: ["Sword", "Bow and Arrow", "Lance", "Staff"],
+        options: ["Bow and Arrow", "Lance", "Staff", "Sword"],
         correctAnswer: "Sword",
       },
       {
         id: 181,
         question: "Who is Henry VI's queen?",
-        options: ["Margaret", "Anne", "Eleanor", "Isabella"],
+        options: ["Anne", "Margaret", "Eleanor", "Isabella"],
         correctAnswer: "Margaret",
       },
       {
@@ -738,14 +738,14 @@ export const PLAYS = [
       {
         id: 183,
         question: "Who kills Talbot in battle?",
-        options: ["Joan of Arc", "York", "Suffolk", "Warwick"],
+        options: ["York", "Suffolk", "Joan of Arc", "Warwick"],
         correctAnswer: "Joan of Arc",
       },
       {
         id: 184,
         question:
           "What is the name of the French city that falls to the English?",
-        options: ["Orléans", "Paris", "Rouen", "Calais"],
+        options: ["Paris", "Orléans", "Rouen", "Calais"],
         correctAnswer: "Orléans",
       },
     ],
@@ -764,17 +764,17 @@ export const PLAYS = [
       {
         id: 185,
         question: "Who becomes king after Henry VI in the play?",
-        options: ["Edward IV", "Richard III", "Henry VII", "Edward V"],
+        options: ["Richard III", "Edward IV", "Henry VII", "Edward V"],
         correctAnswer: "Edward IV",
       },
       {
         id: 186,
         question: "Who is the main antagonist of the play?",
         options: [
-          "Richard, Duke of York",
           "Margaret of Anjou",
           "Edward IV",
           "Warwick",
+          "Richard, Duke of York",
         ],
         correctAnswer: "Richard, Duke of York",
       },
@@ -799,17 +799,17 @@ export const PLAYS = [
       {
         id: 190,
         question: "Who is killed by a mob in the streets?",
-        options: ["Suffolk", "Cade", "Richard, Duke of York", "Warwick"],
+        options: ["Cade", "Richard, Duke of York", "Suffolk", "Warwick"],
         correctAnswer: "Suffolk",
       },
       {
         id: 191,
         question: "What is the name of the rebellion led by Jack Cade?",
         options: [
-          "Cade's Rebellion",
           "The Yorkist Uprising",
           "The War of the Roses",
           "The Peasants' Revolt",
+          "Cade's Rebellion",
         ],
         correctAnswer: "Cade's Rebellion",
       },
@@ -836,29 +836,29 @@ export const PLAYS = [
         id: 193,
         question: "Who is the main antagonist of the play?",
         options: [
-          "Richard, Duke of York",
           "Margaret of Anjou",
           "Edward IV",
           "Warwick",
+          "Richard, Duke of York",
         ],
         correctAnswer: "Richard, Duke of York",
       },
       {
         id: 194,
         question: "Which character is known for his ambition and cunning?",
-        options: ["Richard, Duke of York", "Henry VI", "Edward IV", "Warwick"],
+        options: ["Henry VI", "Richard, Duke of York", "Edward IV", "Warwick"],
         correctAnswer: "Richard, Duke of York",
       },
       {
         id: 195,
         question: "Who is responsible for the death of the Duke of Suffolk?",
-        options: ["Margaret", "Richard, Duke of York", "Henry VI", "Edward IV"],
+        options: ["Richard, Duke of York", "Margaret", "Henry VI", "Edward IV"],
         correctAnswer: "Margaret",
       },
       {
         id: 196,
         question: "Which character manipulates events behind the scenes?",
-        options: ["Warwick", "Edward IV", "Henry VI", "Margaret"],
+        options: ["Edward IV", "Henry VI", "Margaret", "Warwick"],
         correctAnswer: "Warwick",
       },
       {
@@ -871,9 +871,9 @@ export const PLAYS = [
         id: 198,
         question: "What is the name of the rebellion led by Jack Cade?",
         options: [
-          "Cade's Rebellion",
           "The Yorkist Uprising",
           "The War of the Roses",
+          "Cade's Rebellion",
           "The Peasants' Revolt",
         ],
         correctAnswer: "Cade's Rebellion",
@@ -893,16 +893,16 @@ export const PLAYS = [
       {
         id: 199,
         question: "Who is the king of England in the play?",
-        options: ["Henry VII", "Henry VIII", "Edward VI", "Richard III"],
+        options: ["Henry VIII", "Henry VII", "Edward VI", "Richard III"],
         correctAnswer: "Henry VIII",
       },
       {
         id: 200,
         question: "Which queen is Henry VIII's first wife in the play?",
         options: [
-          "Catherine of Aragon",
           "Anne Boleyn",
           "Jane Seymour",
+          "Catherine of Aragon",
           "Anne of Cleves",
         ],
         correctAnswer: "Catherine of Aragon",
@@ -934,8 +934,8 @@ export const PLAYS = [
         id: 204,
         question: "Who is the mother of Elizabeth I?",
         options: [
-          "Anne Boleyn",
           "Catherine of Aragon",
+          "Anne Boleyn",
           "Jane Seymour",
           "Anne of Cleves",
         ],
@@ -1048,7 +1048,7 @@ export const PLAYS = [
       {
         id: 216,
         question: "What is the name of King John's nephew?",
-        options: ["Arthur", "Hubert", "Faulconbridge", "Pandulph"],
+        options: ["Hubert", "Faulconbridge", "Arthur", "Pandulph"],
         correctAnswer: "Arthur",
       },
       {
@@ -1061,10 +1061,10 @@ export const PLAYS = [
         id: 218,
         question: "What event sparks the conflict in the play?",
         options: [
-          "John's refusal to accept the pope's choice for archbishop",
           "The death of King Richard",
           "The invasion of England by France",
           "The rebellion of English nobles",
+          "John's refusal to accept the pope's choice for archbishop",
         ],
         correctAnswer:
           "John's refusal to accept the pope's choice for archbishop",
@@ -1092,19 +1092,19 @@ export const PLAYS = [
       {
         id: 220,
         question: "Who is the king of Britain in the play?",
-        options: ["King Lear", "King Duncan", "King Arthur", "King Richard"],
+        options: ["King Lear", "King Arthur", "King Duncan", "King Richard"],
         correctAnswer: "King Lear",
       },
       {
         id: 221,
         question: "Which of Lear's daughters betrays him?",
-        options: ["Goneril", "Regan", "Cordelia", "Goneril and Regan"],
+        options: ["Goneril", "Cordelia", "Regan", "Goneril and Regan"],
         correctAnswer: "Goneril and Regan",
       },
       {
         id: 222,
         question: "Who is the loyal servant to King Lear?",
-        options: ["Kent", "Gloucester", "Edgar", "Albany"],
+        options: ["Gloucester", "Kent", "Edgar", "Albany"],
         correctAnswer: "Kent",
       },
       {
@@ -1134,7 +1134,7 @@ export const PLAYS = [
       {
         id: 226,
         question: "What is the setting of the play?",
-        options: ["Britain", "France", "Italy", "Greece"],
+        options: ["France", "Italy", "Britain", "Greece"],
         correctAnswer: "Britain",
       },
     ],
@@ -1153,13 +1153,13 @@ export const PLAYS = [
       {
         id: 227,
         question: "Where is the play set?",
-        options: ["Navarre", "Italy", "France", "England"],
+        options: ["Italy", "Navarre", "France", "England"],
         correctAnswer: "Navarre",
       },
       {
         id: 228,
         question: "Who is the King of Navarre?",
-        options: ["Ferdinand", "Berowne", "Longaville", "Dumaine"],
+        options: ["Berowne", "Ferdinand", "Longaville", "Dumaine"],
         correctAnswer: "Ferdinand",
       },
       {
@@ -1195,7 +1195,7 @@ export const PLAYS = [
       {
         id: 233,
         question: "Who delivers the longest speech in the play?",
-        options: ["Berowne", "Ferdinand", "Armado", "Holofernes"],
+        options: ["Ferdinand", "Armado", "Berowne", "Holofernes"],
         correctAnswer: "Berowne",
       },
     ],
@@ -1214,7 +1214,7 @@ export const PLAYS = [
       {
         id: 234,
         question: "Who is the main protagonist of the play?",
-        options: ["Macbeth", "Lady Macbeth", "Duncan", "Malcolm"],
+        options: ["Lady Macbeth", "Macbeth", "Duncan", "Malcolm"],
         correctAnswer: "Macbeth",
       },
       {
@@ -1250,10 +1250,10 @@ export const PLAYS = [
         id: 239,
         question: "What is Lady Macbeth's famous sleepwalking speech about?",
         options: [
-          "Blood on her hands",
           "The death of Duncan",
           "The prophecy",
           "The future of Scotland",
+          "Blood on her hands",
         ],
         correctAnswer: "Blood on her hands",
       },
@@ -1279,7 +1279,7 @@ export const PLAYS = [
       {
         id: 241,
         question: "Who is the Duke disguised as for most of the play?",
-        options: ["Friar", "Soldier", "Merchant", "Priest"],
+        options: ["Soldier", "Friar", "Merchant", "Priest"],
         correctAnswer: "Friar",
       },
       {
@@ -1311,16 +1311,16 @@ export const PLAYS = [
         id: 246,
         question:
           "Who is the character known for his witty banter and double entendres?",
-        options: ["Lucio", "Claudio", "Escalus", "Pompey"],
+        options: ["Claudio", "Escalus", "Pompey", "Lucio"],
         correctAnswer: "Lucio",
       },
       {
         id: 247,
         question: "What is the main theme of 'Measure for Measure'?",
         options: [
-          "Justice and Mercy",
           "Love and Betrayal",
           "Ambition and Power",
+          "Justice and Mercy",
           "Revenge and Forgiveness",
         ],
         correctAnswer: "Justice and Mercy",
@@ -1341,7 +1341,7 @@ export const PLAYS = [
       {
         id: 248,
         question: "Who is the merchant in the play?",
-        options: ["Antonio", "Bassanio", "Shylock", "Gratiano"],
+        options: ["Bassanio", "Antonio", "Shylock", "Gratiano"],
         correctAnswer: "Antonio",
       },
       {
@@ -1373,9 +1373,9 @@ export const PLAYS = [
         question:
           "What is the penalty for failing to repay the loan in 'The Merchant of Venice'?",
         options: [
-          "Lose a pound of flesh",
           "Pay double the amount",
           "Lose all possessions",
+          "Lose a pound of flesh",
           "Imprisonment",
         ],
         correctAnswer: "Lose a pound of flesh",
@@ -1426,22 +1426,22 @@ export const PLAYS = [
       {
         id: 257,
         question: "Who is Master Ford's jealous alter ego?",
-        options: ["Brook", "Shallow", "Slender", "Caius"],
+        options: ["Shallow", "Slender", "Caius", "Brook"],
         correctAnswer: "Brook",
       },
       {
         id: 258,
         question:
           "Which character disguises themselves as a fairy to trick Falstaff?",
-        options: ["Anne Page", "Mrs. Ford", "Mrs. Page", "Fenton"],
+        options: ["Mrs. Ford", "Anne Page", "Mrs. Page", "Fenton"],
         correctAnswer: "Anne Page",
       },
       {
         id: 259,
         question: "Who organizes the final prank on Falstaff?",
         options: [
-          "Mistress Quickly",
           "Mistress Meg",
+          "Mistress Quickly",
           "Mistress Slender",
           "Mistress Caius",
         ],
@@ -1486,7 +1486,7 @@ export const PLAYS = [
       {
         id: 263,
         question: "Who is the Queen of the Fairies?",
-        options: ["Titania", "Hermia", "Helena", "Titania"],
+        options: ["Bottom", "Hermia", "Helena", "Titania"],
         correctAnswer: "Titania",
       },
       {
@@ -1499,13 +1499,13 @@ export const PLAYS = [
       {
         id: 265,
         question: "Which character is in love with Lysander?",
-        options: ["Hermia", "Helena", "Titania", "Puck"],
+        options: ["Helena", "Hermia", "Titania", "Puck"],
         correctAnswer: "Hermia",
       },
       {
         id: 266,
         question: "Who is the character transformed into an ass by Puck?",
-        options: ["Bottom", "Oberon", "Titania", "Hermia"],
+        options: ["Oberon", "Titania", "Bottom", "Hermia"],
         correctAnswer: "Bottom",
       },
       {
@@ -1543,13 +1543,13 @@ export const PLAYS = [
         id: 269,
         question:
           "Who is the witty and sharp-tongued character known for his wordplay?",
-        options: ["Benedick", "Claudio", "Don Pedro", "Leonato"],
+        options: ["Claudio", "Benedick", "Don Pedro", "Leonato"],
         correctAnswer: "Benedick",
       },
       {
         id: 270,
         question: "Who is Benedick's love interest?",
-        options: ["Hero", "Beatrice", "Margaret", "Ursula"],
+        options: ["Beatrice", "Hero", "Margaret", "Ursula"],
         correctAnswer: "Beatrice",
       },
       {
@@ -1640,13 +1640,13 @@ export const PLAYS = [
       {
         id: 281,
         question: "How does Othello kill Desdemona?",
-        options: ["Strangles her", "Stabs her", "Poisons her", "Shoots her"],
+        options: ["Stabs her", "Strangles her", "Poisons her", "Shoots her"],
         correctAnswer: "Strangles her",
       },
       {
         id: 282,
         question: "What motivates Iago's deceit and manipulation?",
-        options: ["Jealousy", "Revenge", "Ambition", "Greed"],
+        options: ["Revenge", "Ambition", "Greed", "Jealousy"],
         correctAnswer: "Jealousy",
       },
     ],
@@ -1671,7 +1671,7 @@ export const PLAYS = [
       {
         id: 284,
         question: "Which character is the daughter of King Antiochus?",
-        options: ["Marina", "Thaisa", "Cleon", "Dionyza"],
+        options: ["Thaisa", "Marina", "Cleon", "Dionyza"],
         correctAnswer: "Thaisa",
       },
       {
@@ -1683,13 +1683,13 @@ export const PLAYS = [
       {
         id: 286,
         question: "Who raises Pericles' daughter Marina?",
-        options: ["Cleon", "Dionyza", "Helicanus", "Thaliard"],
+        options: ["Dionyza", "Helicanus", "Cleon", "Thaliard"],
         correctAnswer: "Cleon",
       },
       {
         id: 287,
         question: "What is the name of Pericles' wife?",
-        options: ["Thaisa", "Marina", "Dionyza", "Helicanus"],
+        options: ["Marina", "Dionyza", "Helicanus", "Thaisa"],
         correctAnswer: "Thaisa",
       },
       {
@@ -1734,9 +1734,9 @@ export const PLAYS = [
         question:
           "Who is Richard II's cousin and eventual successor to the throne?",
         options: [
-          "Henry Bolingbroke",
           "John of Gaunt",
           "Thomas Mowbray",
+          "Henry Bolingbroke",
           "Duke of York",
         ],
         correctAnswer: "Henry Bolingbroke",
@@ -1756,9 +1756,9 @@ export const PLAYS = [
         id: 293,
         question: "Who is Richard II's uncle and a prominent nobleman?",
         options: [
-          "John of Gaunt",
           "Thomas Mowbray",
           "Duke of York",
+          "John of Gaunt",
           "Henry Bolingbroke",
         ],
         correctAnswer: "John of Gaunt",
@@ -1768,10 +1768,10 @@ export const PLAYS = [
         question:
           "What is the conflict that leads to Henry Bolingbroke's banishment?",
         options: [
-          "Accusations of treason",
           "A land dispute",
           "A duel challenge",
           "A political betrayal",
+          "Accusations of treason",
         ],
         correctAnswer: "Accusations of treason",
       },
@@ -1780,8 +1780,8 @@ export const PLAYS = [
         question:
           "Which character ultimately becomes the new king after Richard II is deposed?",
         options: [
-          "Henry Bolingbroke",
           "John of Gaunt",
+          "Henry Bolingbroke",
           "Duke of York",
           "Thomas Mowbray",
         ],
@@ -1815,10 +1815,10 @@ export const PLAYS = [
         id: 297,
         question: "Who is the main antagonist and title character of the play?",
         options: [
-          "Richard III",
           "King Edward IV",
           "Duke of Buckingham",
           "Henry Tudor",
+          "Richard III",
         ],
         correctAnswer: "Richard III",
       },
@@ -1826,9 +1826,9 @@ export const PLAYS = [
         id: 298,
         question: "What is Richard III's famous opening line in the play?",
         options: [
-          "Now is the winter of our discontent",
           "To be, or not to be",
           "Once more unto the breach, dear friends",
+          "Now is the winter of our discontent",
           "All the world's a stage",
         ],
         correctAnswer: "Now is the winter of our discontent",
@@ -1877,10 +1877,10 @@ export const PLAYS = [
         question:
           "What famous quote does Richard III utter before his final battle?",
         options: [
-          "A horse! A horse! My kingdom for a horse!",
           "To be, or not to be",
           "All the world's a stage",
           "Once more unto the breach, dear friends",
+          "A horse! A horse! My kingdom for a horse!",
         ],
         correctAnswer: "A horse! A horse! My kingdom for a horse!",
       },
@@ -1901,8 +1901,8 @@ export const PLAYS = [
         id: 304,
         question: "Which two families are feuding in the play?",
         options: [
-          "Capulet and Montague",
           "Capulet and Verona",
+          "Capulet and Montague",
           "Montague and Verona",
           "Verona and Escalus",
         ],
@@ -1936,8 +1936,8 @@ export const PLAYS = [
         id: 309,
         question: "What plan do Romeo and Juliet devise to be together?",
         options: [
-          "Fake their deaths",
           "Run away to another city",
+          "Fake their deaths",
           "Pretend to hate each other",
           "Get their families to reconcile",
         ],
@@ -1949,7 +1949,7 @@ export const PLAYS = [
         options: [
           "Drinking poison",
           "Stabbing themselves",
-          "Jumping off a balcony",
+          "Weeping",
           "All of the above",
         ],
         correctAnswer: "All of the above",
@@ -1970,26 +1970,26 @@ export const PLAYS = [
       {
         id: 311,
         question: "Who is the shrewish woman that Petruchio marries?",
-        options: ["Katherine", "Bianca", "Gremio", "Lucentio"],
+        options: ["Bianca", "Gremio", "Katherine", "Lucentio"],
         correctAnswer: "Katherine",
       },
       {
         id: 312,
         question: "Who is Katherine's younger sister?",
-        options: ["Bianca", "Katherine", "Hortensio", "Grumio"],
+        options: ["Katherine", "Bianca", "Hortensio", "Grumio"],
         correctAnswer: "Bianca",
       },
       {
         id: 313,
         question: "What is the name of the man who sets out to tame Katherine?",
-        options: ["Petruchio", "Lucentio", "Gremio", "Hortensio"],
+        options: ["Lucentio", "Gremio", "Petruchio", "Hortensio"],
         correctAnswer: "Petruchio",
       },
       {
         id: 314,
         question:
           "Which character disguises himself as a Latin tutor to woo Bianca?",
-        options: ["Lucentio", "Gremio", "Hortensio", "Grumio"],
+        options: ["Gremio", "Hortensio", "Grumio", "Lucentio"],
         correctAnswer: "Lucentio",
       },
       {
@@ -1997,8 +1997,8 @@ export const PLAYS = [
         question:
           "What is the bet made regarding which sister will marry first?",
         options: [
-          "Whoever is wooed first",
           "Whoever has the most money",
+          "Whoever is wooed first",
           "Whoever is the youngest",
           "Whoever is the prettiest",
         ],
@@ -2008,9 +2008,9 @@ export const PLAYS = [
         id: 316,
         question: "How does Petruchio attempt to tame Katherine?",
         options: [
-          "By being harsh and abusive",
           "By being kind and patient",
           "By ignoring her",
+          "By being harsh and abusive",
           "By threatening to leave her",
         ],
         correctAnswer: "By being harsh and abusive",
@@ -2020,10 +2020,10 @@ export const PLAYS = [
         question:
           "What is the outcome of Petruchio's efforts to tame Katherine?",
         options: [
-          "She becomes submissive",
           "She runs away",
           "She remains unchanged",
           "She becomes even more defiant",
+          "She becomes submissive",
         ],
         correctAnswer: "She becomes submissive",
       },
@@ -2049,19 +2049,19 @@ export const PLAYS = [
       {
         id: 319,
         question: "What magical creature serves Prospero on the island?",
-        options: ["Ariel", "Caliban", "Ferdinand", "Trinculo"],
+        options: ["Caliban", "Ariel", "Ferdinand", "Trinculo"],
         correctAnswer: "Ariel",
       },
       {
         id: 320,
         question: "Who is Miranda in relation to Prospero?",
-        options: ["Daughter", "Sister", "Niece", "Wife"],
+        options: ["Sister", "Daughter", "Niece", "Wife"],
         correctAnswer: "Daughter",
       },
       {
         id: 321,
         question: "Who usurped Prospero's position as Duke of Milan?",
-        options: ["Antonio", "Alonso", "Gonzalo", "Sebastian"],
+        options: ["Alonso", "Gonzalo", "Antonio", "Sebastian"],
         correctAnswer: "Antonio",
       },
       {
@@ -2069,10 +2069,10 @@ export const PLAYS = [
         question:
           "What does Prospero use to create the storm at the beginning of the play?",
         options: [
-          "Magic",
           "Wind machine",
           "Natural phenomenon",
           "Angry spirits",
+          "Magic",
         ],
         correctAnswer: "Magic",
       },
@@ -2080,16 +2080,16 @@ export const PLAYS = [
         id: 323,
         question:
           "What is the name of Alonso's son who falls in love with Miranda?",
-        options: ["Ferdinand", "Sebastian", "Antonio", "Gonzalo"],
+        options: ["Sebastian", "Antonio", "Gonzalo", "Ferdinand"],
         correctAnswer: "Ferdinand",
       },
       {
         id: 324,
         question: "How does Prospero regain his position as Duke of Milan?",
         options: [
-          "Through forgiveness and reconciliation",
           "By force and violence",
           "By tricking Antonio",
+          "Through forgiveness and reconciliation",
           "By marrying Miranda to Alonso's son",
         ],
         correctAnswer: "Through forgiveness and reconciliation",
@@ -2111,10 +2111,10 @@ export const PLAYS = [
         id: 325,
         question: "What is Timon's occupation at the beginning of the play?",
         options: [
-          "A wealthy nobleman",
           "A merchant",
           "A philosopher",
           "A soldier",
+          "A wealthy nobleman",
         ],
         correctAnswer: "A wealthy nobleman",
       },
@@ -2140,9 +2140,9 @@ export const PLAYS = [
         id: 328,
         question: "What causes Timon's downfall and descent into misanthropy?",
         options: [
-          "Betrayal and ingratitude from his friends",
           "Financial ruin",
           "Illness",
+          "Betrayal and ingratitude from his friends",
           "Loss of his title",
         ],
         correctAnswer: "Betrayal and ingratitude from his friends",
@@ -2150,7 +2150,7 @@ export const PLAYS = [
       {
         id: 329,
         question: "Which character mocks Timon for his newfound poverty?",
-        options: ["Apemantus", "Alcibiades", "Lucius", "Flavius"],
+        options: ["Alcibiades", "Apemantus", "Lucius", "Flavius"],
         correctAnswer: "Apemantus",
       },
       {
@@ -2158,10 +2158,10 @@ export const PLAYS = [
         question:
           "What does Timon do after discovering a hidden treasure in the wilderness?",
         options: [
-          "He uses it to exact revenge on his enemies",
           "He gives it away to the poor",
           "He keeps it for himself",
           "He buries it again",
+          "He uses it to exact revenge on his enemies",
         ],
         correctAnswer: "He uses it to exact revenge on his enemies",
       },
@@ -2169,9 +2169,9 @@ export const PLAYS = [
         id: 331,
         question: "What is the tragic outcome of Timon's story?",
         options: [
-          "He dies alone and bitter",
           "He reconciles with his friends",
           "He regains his wealth and title",
+          "He dies alone and bitter",
           "He becomes a philosopher",
         ],
         correctAnswer: "He dies alone and bitter",
@@ -2198,13 +2198,13 @@ export const PLAYS = [
       {
         id: 333,
         question: "Who is Titus Andronicus' most bitter enemy?",
-        options: ["Tamora", "Saturninus", "Marcus", "Aaron"],
+        options: ["Saturninus", "Marcus", "Tamora", "Aaron"],
         correctAnswer: "Tamora",
       },
       {
         id: 334,
         question: "What is the central theme of 'Titus Andronicus'?",
-        options: ["Revenge", "Love", "Justice", "Forgiveness"],
+        options: ["Love", "Justice", "Forgiveness", "Revenge"],
         correctAnswer: "Revenge",
       },
       {
@@ -2212,9 +2212,9 @@ export const PLAYS = [
         question:
           "What horrifying act occurs in the play involving Titus Andronicus' daughter Lavinia?",
         options: [
-          "Her tongue is cut out and hands are chopped off",
           "She is banished from Rome",
           "She is married against her will",
+          "Her tongue is cut out and hands are chopped off",
           "She is poisoned",
         ],
         correctAnswer: "Her tongue is cut out and hands are chopped off",
@@ -2223,15 +2223,15 @@ export const PLAYS = [
         id: 336,
         question:
           "Who is the villainous Moor who plays a pivotal role in the play's events?",
-        options: ["Aaron", "Tamora", "Saturninus", "Chiron"],
+        options: ["Tamora", "Saturninus", "Aaron", "Chiron"],
         correctAnswer: "Aaron",
       },
       {
         id: 337,
         question: "What is the final fate of Tamora in the play?",
         options: [
-          "She is fed her own sons in a pie",
           "She is crowned Empress of Rome",
+          "She is fed her own sons in a pie",
           "She commits suicide",
           "She is banished from Rome",
         ],
@@ -2242,9 +2242,9 @@ export const PLAYS = [
         question:
           "How does Titus Andronicus seek revenge for the wrongs done to his family?",
         options: [
-          "He stages a bloody spectacle at a banquet",
           "He becomes a recluse",
           "He forgives everyone",
+          "He stages a bloody spectacle at a banquet",
           "He leaves Rome",
         ],
         correctAnswer: "He stages a bloody spectacle at a banquet",
@@ -2266,9 +2266,9 @@ export const PLAYS = [
         id: 339,
         question: "Which mythical Greek war is the backdrop for the play?",
         options: [
-          "Trojan War",
           "Persian War",
           "Peloponnesian War",
+          "Trojan War",
           "Punic War",
         ],
         correctAnswer: "Trojan War",
@@ -2276,7 +2276,7 @@ export const PLAYS = [
       {
         id: 340,
         question: "Who is the Trojan prince who falls in love with Cressida?",
-        options: ["Troilus", "Hector", "Paris", "Achilles"],
+        options: ["Troilus", "Paris", "Hector", "Achilles"],
         correctAnswer: "Troilus",
       },
       {
@@ -2304,9 +2304,9 @@ export const PLAYS = [
         id: 344,
         question: "What is the outcome of Troilus and Cressida's love story?",
         options: [
-          "Cressida betrays Troilus for Diomedes",
           "They are separated by the war and never reunite",
           "They marry and live happily ever after",
+          "Cressida betrays Troilus for Diomedes",
           "Troilus dies in battle",
         ],
         correctAnswer: "Cressida betrays Troilus for Diomedes",
@@ -2315,8 +2315,8 @@ export const PLAYS = [
         id: 345,
         question: "What is the play's commentary on war and honor?",
         options: [
-          "It criticizes the glorification of war and exposes its brutality",
           "It celebrates heroic deeds and valor",
+          "It criticizes the glorification of war and exposes its brutality",
           "It portrays war as necessary for honor and glory",
           "It presents war as a romantic adventure",
         ],
@@ -2339,13 +2339,13 @@ export const PLAYS = [
       {
         id: 346,
         question: "What is the primary setting of the play?",
-        options: ["Illyria", "Vienna", "Verona", "Athens"],
+        options: ["Vienna", "Verona", "Illyria", "Athens"],
         correctAnswer: "Illyria",
       },
       {
         id: 347,
         question: "Who is the shipwrecked twin who disguises herself as a man?",
-        options: ["Viola", "Olivia", "Maria", "Antonia"],
+        options: ["Olivia", "Maria", "Antonia", "Viola"],
         correctAnswer: "Viola",
       },
       {
@@ -2358,7 +2358,7 @@ export const PLAYS = [
         id: 349,
         question:
           "What does Olivia send to Cesario as a token of her affection?",
-        options: ["A ring", "A letter", "A flower", "A lock of hair"],
+        options: ["A letter", "A flower", "A lock of hair", "A ring"],
         correctAnswer: "A ring",
       },
       {
@@ -2370,7 +2370,7 @@ export const PLAYS = [
       {
         id: 351,
         question: "What role does the character Feste play in the play?",
-        options: ["A fool or jester", "A captain", "A priest", "A servant"],
+        options: ["A captain", "A priest", "A fool or jester", "A servant"],
         correctAnswer: "A fool or jester",
       },
       {
@@ -2378,8 +2378,8 @@ export const PLAYS = [
         question:
           "What is the final resolution of the mistaken identity and romantic entanglements?",
         options: [
-          "Multiple marriages",
           "A duel",
+          "Multiple marriages",
           "An apology",
           "A reconciliation",
         ],
@@ -2403,9 +2403,9 @@ export const PLAYS = [
         question:
           "Who are the two gentlemen referred to in the title of the play?",
         options: [
-          "Valentine and Proteus",
           "Antonio and Lucio",
           "Benedick and Claudio",
+          "Valentine and Proteus",
           "Lysander and Demetrius",
         ],
         correctAnswer: "Valentine and Proteus",
@@ -2428,7 +2428,7 @@ export const PLAYS = [
         id: 356,
         question:
           "What is the name of the dog belonging to Launce, Proteus' servant?",
-        options: ["Crab", "Spot", "Rover", "Fido"],
+        options: ["Spot", "Rover", "Fido", "Crab"],
         correctAnswer: "Crab",
       },
       {
@@ -2441,7 +2441,7 @@ export const PLAYS = [
       {
         id: 358,
         question: "Who is the wealthy suitor competing for Silvia's hand?",
-        options: ["Thurio", "Proteus", "Launce", "Antonio"],
+        options: ["Proteus", "Launce", "Thurio", "Antonio"],
         correctAnswer: "Thurio",
       },
       {
@@ -2472,9 +2472,9 @@ export const PLAYS = [
         id: 360,
         question: "Who are the two noble kinsmen in the play's title?",
         options: [
-          "Palamon and Arcite",
           "Theseus and Pirithous",
           "Perithous and Hippolyta",
+          "Palamon and Arcite",
           "Thesus and Arcite",
         ],
         correctAnswer: "Palamon and Arcite",
@@ -2483,8 +2483,8 @@ export const PLAYS = [
         id: 361,
         question: "What event prompts Palamon and Arcite's rivalry?",
         options: [
-          "They both fall in love with the same woman",
           "They compete in a tournament",
+          "They both fall in love with the same woman",
           "They have a disagreement over inheritance",
           "They are betrayed by a friend",
         ],
@@ -2493,17 +2493,17 @@ export const PLAYS = [
       {
         id: 362,
         question: "Who is the object of Palamon and Arcite's affections?",
-        options: ["Emilia", "Hippolyta", "Isabella", "Perithous"],
+        options: ["Hippolyta", "Emilia", "Isabella", "Perithous"],
         correctAnswer: "Emilia",
       },
       {
         id: 363,
         question: "What role does Theseus, Duke of Athens, play in the story?",
         options: [
-          "He is a ruler and judge",
           "He is a warrior",
           "He is a jester",
           "He is a prisoner",
+          "He is a ruler and judge",
         ],
         correctAnswer: "He is a ruler and judge",
       },
@@ -2517,9 +2517,9 @@ export const PLAYS = [
         id: 365,
         question: "What is the final outcome of Palamon and Arcite's rivalry?",
         options: [
-          "They reconcile and both marry Emilia",
           "They duel to the death",
           "Emilia chooses neither and becomes a nun",
+          "They reconcile and both marry Emilia",
           "They both leave Athens",
         ],
         correctAnswer: "They reconcile and both marry Emilia",

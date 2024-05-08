@@ -18,7 +18,6 @@ const QuizScreen = () => {
   const route = useRoute();
   const { id } = route.params;
   const play = PLAYS.find((play) => play.id === id);
-  const difficulty = play ? play.difficulty : null;
   console.log(play);
 
   const [answer, setAnswer] = useState({});
@@ -75,14 +74,14 @@ const QuizScreen = () => {
           return;
         }
 
-        // if quiz1 scored perfectly 1 + 1 = 2. 2 is next level so its fetching everything from that array including difficulty
+    
         const nextPlay = PLAYS.find(
           (p) => p.difficulty === currentPlay.difficulty + 1
         );
 
         if (nextPlay) {
           console.log("nextPlay:-------------", nextPlay);
-          //if the play exist make a new variable to hold the difficulty of the next level play that was found in nextPlay
+       
           const newCompletedLevel = nextPlay.difficulty;
           console.log(
             "REDUX STATE FOR currentCompletedLevel:---------",
@@ -93,9 +92,9 @@ const QuizScreen = () => {
             newCompletedLevel
           );
 
-          // if next level difficulty 2 is higher than current completed level 1 which is fetched for new users proceed to update store and firestore
+      
           if (newCompletedLevel > currentCompletedLevel) {
-            //store and firestore for the user so completedLevel becomes 2 and next play is unlocked
+ 
             dispatch(setLevel(newCompletedLevel));
             console.log("setLevel DISPATCHED TO REDUX");
             try {

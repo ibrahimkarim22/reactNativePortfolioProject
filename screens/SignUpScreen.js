@@ -50,7 +50,7 @@ const SignUpScreen = () => {
       const userDocId = userRef.id;
       console.log("User created:", userDocId);
 
-      alert("Check Email");
+      alert("Welcom to the BARD, enjoy the journey!");
     } catch (error) {
       console.error(error);
       alert("SignUp failed " + error.message);

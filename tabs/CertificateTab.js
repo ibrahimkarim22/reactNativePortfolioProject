@@ -34,7 +34,12 @@ const CertificateTab = () => {
             />
           </>
         ) : (
+          <>
           <Text style={styles.lpStatus}>Course is completed!</Text>
+          <Image 
+            source={"https://i.etsystatic.com/23383377/r/il/75866d/3370476901/il_fullxfull.3370476901_ewz1.jpg"}
+          />
+          </>
         )}
       </View>
     </View>

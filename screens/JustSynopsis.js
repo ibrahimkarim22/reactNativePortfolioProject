@@ -1,43 +1,43 @@
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { StyleSheet, ScrollView, Text, ActivityIndicator } from "react-native";
 import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
-import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { fetchFolger } from "../folgerLibrary/folgerSlice";
 
-const MITFullPlayScreen = () => {
+const Synopsis = () => {
+  const route = useRoute();
   const dispatch = useDispatch();
-  const MIT = useSelector((state) => state.MIT);
-  const FolgerCharacter = useSelector((state) => state.FolgerCharacter);
+  const { id } = route.params;
+  const synopsis = useSelector((state) => state.folger);
+  const navigation = useNavigation();
 
   useEffect(() => {
-    dispatch(fetchMIT());
-    dispatch(fetchFolgerCharacter());
-  }, [dispatch]);
+    dispatch(fetchFolger(id));
+  }, [dispatch, id]);
 
   return (
     <ScrollView style={styles.container}>
-      {MIT.isLoading && FolgerCharacter.isLoading ? (
+      {synopsis.isLoading ? (
         <>
           <ActivityIndicator size="large" color="hotpink" />
           <Text style={styles.loadingMsg}>
             Fetching from Folger.. please wait..
           </Text>
         </>
-      ) : MIT.errMess && FolgerCharacter.errMess ? (
+      ) : synopsis.errMess ? (
         <>
           <ActivityIndicator size="large" color="hotpink" />
           <Text style={styles.loadingMsg}>
-            Error Fetching.. please reload..
+            Please Reload..
           </Text>
         </>
       ) : (
         <>
           <HTMLView
-            value={FolgerCharacter.htmlContent}
+            value={synopsis.htmlContent}
             stylesheet={htmlStyles}
           />
-          <HTMLView value={MIT.htmlContent} stylesheet={htmlStyles} />
         </>
       )}
     </ScrollView>
@@ -45,20 +45,23 @@ const MITFullPlayScreen = () => {
 };
 
 const htmlStyles = StyleSheet.create({
-  title: {
-    color: "darkred",
-    margin: 0,
-  },
-  a: {
-    fontWeight: "bold",
-    color: "white",
-    fontFamily: "sans-serif-light",
-    fontSize: 15,
-  },
-
-  p: {
-    color: "red",
-  },
+    h2: {
+        color: "steelblue",
+        fontSize: 22,
+        fontFamily: "sans-serif-light",
+        marginTop: 12,
+      },
+      i: {
+        fontFamily: "sans-serif-light",
+      },
+      p: {
+        color: "snow",
+        margin: 3,
+        paddingBottom: 0,
+        marginBottom: -88,
+        fontFamily: "sans-serif-light",
+        fontSize: 22,
+      },
 });
 
 const styles = StyleSheet.create({
@@ -78,4 +81,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MITFullPlayScreen;
+export default Synopsis;

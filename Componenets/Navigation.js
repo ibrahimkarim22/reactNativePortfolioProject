@@ -17,6 +17,8 @@ import CourseScreen from "../screens/CourseScreen";
 import AboutScreen from "../screens/About";
 import ContactScreen from "../screens/Contact";
 import Lesson from "../screens/LessonScreen";
+import Synopsis from "../screens/JustSynopsis";
+import SynopsisList from "../screens/SynopsisList";
 import { StyleSheet, View, Text, Platform } from "react-native";
 import Constants from "expo-constants";
 import { Image } from "react-native-elements";
@@ -96,11 +98,26 @@ const Main = () => {
           name="Course"
           component={CourseScreen}
           options={{
-            title: "Course",
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
                 icon={faStar}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+           <Drawer.Screen
+          name="SynopsisList"
+          component={SynopsisList}
+          options={{
+            title: "Synopsis",
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faFeather}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -256,6 +273,11 @@ const Stacks = () => {
         <Stack.Screen
           name="ReadFolger"
           component={ReadFolger}
+          options={{ headerShown: true }}
+        />
+         <Stack.Screen
+          name="Synopsis"
+          component={Synopsis}
           options={{ headerShown: true }}
         />
       </Stack.Navigator>

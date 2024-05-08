@@ -16,6 +16,7 @@ import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
 import AboutScreen from "../screens/About";
 import ContactScreen from "../screens/Contact";
+import HowTo from "../screens/HowTo";
 import Lesson from "../screens/LessonScreen";
 import Synopsis from "../screens/JustSynopsis";
 import SynopsisList from "../screens/SynopsisList";
@@ -25,8 +26,12 @@ import Constants from "expo-constants";
 import { Image } from "react-native-elements";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import {
+  faBarcode,
+  faCrown,
+  faEye,
   faFeather,
   faHouseFlag,
+  faLightbulb,
   faUmbrella,
   faWalkieTalkie,
 } from "@fortawesome/free-solid-svg-icons";
@@ -102,7 +107,7 @@ const Main = () => {
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faStar}
+                icon={faCrown}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -110,7 +115,7 @@ const Main = () => {
             ),
           }}
         />
-           <Drawer.Screen
+        <Drawer.Screen
           name="SynopsisList"
           component={SynopsisList}
           options={{
@@ -118,7 +123,7 @@ const Main = () => {
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faFeather}
+                icon={faBarcode}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -142,14 +147,30 @@ const Main = () => {
             ),
           }}
         />
-         <Drawer.Screen
+        <Drawer.Screen
           name="Performances"
           component={Performances}
           options={{
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon
-                icon={faFeather}
+                icon={faStar}
+                style={styles.drawerIcon}
+                size={28}
+                color={focused ? "peru" : "gray"}
+              />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="HowTo"
+          component={HowTo}
+          options={{
+            title: "How To",
+            drawerLabelStyle: { color: "white" },
+            drawerIcon: ({ focused }) => (
+              <FontAwesomeIcon
+                icon={faLightbulb}
                 style={styles.drawerIcon}
                 size={28}
                 color={focused ? "peru" : "gray"}
@@ -291,7 +312,7 @@ const Stacks = () => {
           component={ReadFolger}
           options={{ headerShown: true }}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="Synopsis"
           component={Synopsis}
           options={{ headerShown: true }}

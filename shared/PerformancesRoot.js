@@ -12,6 +12,10 @@ export const PerformanceVideos = [
         Title: "Shakespeare's King Lear. James Earl Jones, NYC Shakespeare Festival, 1974"
     },
     {
+        id: "G-epojal7nE",
+        Title: "Riz Ahmed as Edmund in King Lear: 'Now, gods, stand up for bastards' | Shakespeare Solos"
+    },
+    {
         id: "lW9tu1i1UgA",
         Title: "2014 Tony Awards Show Clip: Richard III"
     },
@@ -28,6 +32,10 @@ export const PerformanceVideos = [
         Title: "Henry V - Speech - Eve of Saint Crispin's Day - HD"
     },
     {
+        id: "V7gfSgd39H0",
+        Title: "'I'll not endure it' | Act III Scene 3 | Othello (2024) | Shakespeare's Globe"
+    },
+    {
         id: "NfVcqswZmDw",
         Title: "Richard II 3.2 from Shakespeare's Globe"
     },
@@ -42,6 +50,11 @@ export const PerformanceVideos = [
     {
         id: "-5JF9Gq5tL4",
         Title: "Now is the winter of our discontent Soliloquy - Laurence Olivier"
+
+    },
+    {
+        id: "v6ji07tsI2M",
+        Title: "Ralph Fiennes plays Richard III: 'I can add colours to the chameleon"
 
     },
 

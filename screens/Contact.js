@@ -8,8 +8,8 @@ const ContactScreen = () => {
       <View style={styles.btn}>
         <Button
           buttonStyle={styles.btn}
-          onPress={() => Linking.openURL("mailto:fr2993@wayne.edu")}
-          title="fr2993@wayne.edu"
+          onPress={() => Linking.openURL("mailto:test@yahoo.com")}
+          title="mail"
         />
       </View>
       <Text style={styles.text}>Ibrahim Karim</Text>

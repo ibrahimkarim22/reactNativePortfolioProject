@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ReactNativeAsyncStorage from "@react-native-async-storage/async-storage";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Provider } from "react-redux";
 import { store, persistor } from "./redux/store";
-import Main from "./Componenets/Navigation";
 import Stacks from "./Componenets/Navigation";
 import { initializeApp } from "@react-native-firebase/app";
 import { initializeAuth, getReactNativePersistence } from "firebase/auth";

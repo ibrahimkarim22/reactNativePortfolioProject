@@ -145,9 +145,9 @@ const UserInfoTab = () => {
           {currentUser?.displayName || "loading"}
         </Text>
       </View>
-      <View style={styles.infoTextContainer}>
+      {/* <View style={styles.infoTextContainer}>
         <Text style={styles.infoText}>{currentUser?.email || "loading"}</Text>
-      </View>
+      </View> */}
       <View style={styles.logoutBtn}>
         <Button
           color={"darkred"}

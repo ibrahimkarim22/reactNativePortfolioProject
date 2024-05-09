@@ -16,7 +16,7 @@ const MedalsTab = () => {
           <View key={index} style={styles.medalItem}>
             <View style={styles.imageContainer}>
               <Image source={play.medalImage} style={styles.medalImage} />
-              {play.difficulty > completedLevel && (
+              {play.difficulty > completedLevel - 1 && (
                 <View style={styles.blurContainer}>
                   <Image
                     source={require("../assets/images/lock.png")}

@@ -37,7 +37,7 @@ const Lesson = () => {
       ) : folger.errMess ? (
         <Text>Error: {folger.errMess}</Text>
       ) : (
-        <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
+        <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} style={{ marginBottom: 122 }} />
       )}
       <View style={styles.readPlayBtn}>
         <Button

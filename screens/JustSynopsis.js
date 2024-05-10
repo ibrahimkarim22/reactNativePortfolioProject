@@ -37,6 +37,7 @@ const Synopsis = () => {
           <HTMLView
             value={synopsis.htmlContent}
             stylesheet={htmlStyles}
+            style={{ marginBottom: 122 }}
           />
         </>
       )}

@@ -36,6 +36,7 @@ const MITFullPlayScreen = () => {
           <HTMLView
             value={FolgerCharacter.htmlContent}
             stylesheet={htmlStyles}
+            style={{ marginBottom: 122 }}
           />
           <HTMLView value={MIT.htmlContent} stylesheet={htmlStyles} />
         </>

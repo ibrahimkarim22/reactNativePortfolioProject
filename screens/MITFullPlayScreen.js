@@ -17,18 +17,18 @@ const MITFullPlayScreen = () => {
 
   return (
     <ScrollView style={styles.container}>
-      {MIT.isLoading && FolgerCharacter.isLoading ? (
+      {MIT.isLoading ? (
         <>
           <ActivityIndicator size="large" color="hotpink" />
           <Text style={styles.loadingMsg}>
-            Fetching from Folger.. please wait..
+            Fetching from Folger.. please wait.. Retry after 1 min
           </Text>
         </>
-      ) : MIT.errMess && FolgerCharacter.errMess ? (
+      ) : MIT.errMess ? (
         <>
           <ActivityIndicator size="large" color="hotpink" />
           <Text style={styles.loadingMsg}>
-            Error Fetching.. please reload..
+          Fetching from Folger.. please wait.. Retry after 1 min
           </Text>
         </>
       ) : (

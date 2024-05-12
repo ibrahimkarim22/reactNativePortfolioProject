@@ -884,6 +884,7 @@ export const PLAYS = [
     id: 14,
     name: "Henry VIII",
     genre: "History",
+    difficulty: 39,
     folgerURL: "H8",
     MITURL:
       "https://raw.githubusercontent.com/TheMITTech/shakespeare/master/henryviii/full.html",

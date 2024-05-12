@@ -1,4 +1,5 @@
 import React from "react";
+import { StatusBar } from "react-native";
 import ReactNativeAsyncStorage from "@react-native-async-storage/async-storage";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Provider } from "react-redux";
@@ -16,6 +17,7 @@ const App = () => {
     <Provider store={store}>
       <PersistGate loading={<Text>Loading...</Text>} persistor={persistor}>
         <NavigationContainer>
+          <StatusBar backgroundColor="black" barStyle="light-content" />
           <Stacks />
         </NavigationContainer>
       </PersistGate>

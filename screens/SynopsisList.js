@@ -3,9 +3,7 @@ import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/playsRoot";
 import genreColors from "../Componenets/genreColors";
 import { useNavigation } from "@react-navigation/native";
-import lock from "../assets/images/lock.png";
-import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+
 
 const SynopsisList = () => {
   const navigation = useNavigation();

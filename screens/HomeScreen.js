@@ -2,6 +2,7 @@ import { createMaterialTopTabNavigator } from "@react-navigation/material-top-ta
 import UserInfoTab from "../tabs/UserInfoTab";
 import MedalsTab from "../tabs/MedalsTab";
 import CertificateTab from "../tabs/CertificateTab";
+import { lazy } from "react";
 
 const Tab = createMaterialTopTabNavigator();
 

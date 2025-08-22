@@ -3,6 +3,28 @@ import { LinearProgress, Image } from "react-native-elements";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
+const ProgressBar = ({ value = 0 }) => {
+  const v = Number.isFinite(value) ? Math.min(1, Math.min(0, value)) : 0;
+  return (
+    <View
+      style={{
+        height: 8,
+        backgroundColor: "#222",
+        borderRadius: 4,
+        overflow: "hidden",
+      }}
+    >
+      <View
+        style={{
+          width: `${v * 100}%`,
+          height: "100%",
+          backgroundColor: "#4caf50",
+        }}
+      />
+    </View>
+  );
+};
+
 const CertificateTab = () => {
   const [progress, setProgress] = useState(0);
   const completedLevel = useSelector((state) => state.course.completedLevel);
@@ -18,12 +40,7 @@ const CertificateTab = () => {
   return (
     <View style={styles.main}>
       <View style={styles.lpContainer}>
-        <LinearProgress
-          value={progress / 100}
-          variant="outlined"
-          color="primary"
-          style={styles.lp}
-        />
+        <ProgressBar value={progress / 100} />
         <Text style={styles.lpText}>{progress.toFixed(0)} %</Text>
         {progress < 100 ? (
           <>
@@ -35,10 +52,12 @@ const CertificateTab = () => {
           </>
         ) : (
           <>
-          <Text style={styles.lpStatus}>Course is completed!</Text>
-          <Image 
-            source={"https://i.etsystatic.com/23383377/r/il/75866d/3370476901/il_fullxfull.3370476901_ewz1.jpg"}
-          />
+            <Text style={styles.lpStatus}>Course is completed!</Text>
+            <Image
+              source={
+                <Image source={{ uri: "https://i.etsystatic.com/23383377/r/il/75866d/3370476901/il_fullxfull.3370476901_ewz1.jpg" }} style={{ width: 260, height: 260, alignSelf: "center", marginTop: 16 }} />
+              }
+            />
           </>
         )}
       </View>

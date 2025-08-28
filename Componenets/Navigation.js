@@ -14,7 +14,7 @@ import FreeFolger from "../screens/Folger";
 import ReadFolger from "../screens/Read";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
-import AboutScreen from "../screens/About";
+import AboutScreen from "../screens/AboutScreen";
 import ContactScreen from "../screens/Contact";
 import HowTo from "../screens/HowTo";
 import Lesson from "../screens/LessonScreen";

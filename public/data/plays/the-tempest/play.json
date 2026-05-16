@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "the-tempest",
+  "title": "The Tempest",
+  "fullTitle": "The Tempest",
+  "author": "William Shakespeare",
+  "genre": "Romance",
+  "source": {
+    "name": "Project Gutenberg",
+    "ebookNumber": 100,
+    "rights": "Public domain in the USA",
+    "sourceFile": "pg100-images.html"
+  },
+  "paths": {
+    "characters": "./characters.json",
+    "synopsis": "./synopsis.json",
+    "quiz": "./quiz.json",
+    "scenes": "./scenes/"
+  },
+  "acts": [
+    {
+      "act": 1,
+      "scenes": [
+        {
+          "scene": 1,
+          "id": "the-tempest-1-1",
+          "label": "Act 1, Scene 1",
+          "title": "On a ship at sea; a tempestuous noise of thunder and lightning heard.",
+          "path": "./scenes/act-1-scene-1.json",
+          "lineCount": 34
+        },
+        {
+          "scene": 2,
+          "id": "the-tempest-1-2",
+          "label": "Act 1, Scene 2",
+          "title": "The Island. Before the cell of Prospero.",
+          "path": "./scenes/act-1-scene-2.json",
+          "lineCount": 567
+        }
+      ]
+    },
+    {
+      "act": 2,
+      "scenes": [
+        {
+          "scene": 1,
+          "id": "the-tempest-2-1",
+          "label": "Act 2, Scene 1",
+          "title": "Another part of the island.",
+          "path": "./scenes/act-2-scene-1.json",
+          "lineCount": 331
+        },
+        {
+          "scene": 2,
+          "id": "the-tempest-2-2",
+          "label": "Act 2, Scene 2",
+          "title": "Another part of the island.",
+          "path": "./scenes/act-2-scene-2.json",
+          "lineCount": 82
+        }
+      ]
+    },
+    {
+      "act": 3,
+      "scenes": [
+        {
+          "scene": 1,
+          "id": "the-tempest-3-1",
+          "label": "Act 3, Scene 1",
+          "title": "Before Prospero's cell.",
+          "path": "./scenes/act-3-scene-1.json",
+          "lineCount": 114
+        },
+        {
+          "scene": 2,
+          "id": "the-tempest-3-2",
+          "label": "Act 3, Scene 2",
+          "title": "Another part of the island.",
+          "path": "./scenes/act-3-scene-2.json",
+          "lineCount": 105
+        },
+        {
+          "scene": 3,
+          "id": "the-tempest-3-3",
+          "label": "Act 3, Scene 3",
+          "title": "Another part of the island.",
+          "path": "./scenes/act-3-scene-3.json",
+          "lineCount": 104
+        }
+      ]
+    },
+    {
+      "act": 4,
+      "scenes": [
+        {
+          "scene": 1,
+          "id": "the-tempest-4-1",
+          "label": "Act 4, Scene 1",
+          "title": "Before Prospero's cell.",
+          "path": "./scenes/act-4-scene-1.json",
+          "lineCount": 256
+        }
+      ]
+    },
+    {
+      "act": 5,
+      "scenes": [
+        {
+          "scene": 1,
+          "id": "the-tempest-5-1",
+          "label": "Act 5, Scene 1",
+          "title": "Before the cell of Prospero.",
+          "path": "./scenes/act-5-scene-1.json",
+          "lineCount": 318
+        }
+      ]
+    }
+  ]
+}

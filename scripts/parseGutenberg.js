@@ -170,12 +170,30 @@ function parseSceneHeading(text) {
 }
 
 function detectLineType(lines) {
-  if (lines.length <= 1) return "prose";
+  if (lines.length <= 1) {
+    return {
+      type: "prose",
+      confidence: "medium",
+      reason: "single-line speech block"
+    };
+  }
 
   const avgLength =
     lines.reduce((sum, line) => sum + line.length, 0) / lines.length;
 
-  return avgLength <= 75 ? "verse" : "prose";
+  if (avgLength <= 75) {
+    return {
+      type: "verse",
+      confidence: "medium",
+      reason: "multiple short line breaks"
+    };
+  }
+
+  return {
+    type: "prose",
+    confidence: "medium",
+    reason: "long average line length"
+  };
 }
 
 function cleanSpeakerName(text) {
@@ -191,14 +209,6 @@ function looksLikeSpeakerName(text) {
 
   if (!cleaned) return false;
 
-  // Examples this should accept:
-  // KING.
-  // FIRST LORD.
-  // KING RICHARD III.
-  // ALL.
-  // BOTH.
-  // 1 GENTLEMAN.
-  // SECOND MURDERER.
   return /^[A-Z0-9][A-Z0-9\s.'’\-&]+$/.test(cleaned);
 }
 
@@ -245,7 +255,7 @@ function parseDramaParagraph($, element, sceneId, counters) {
 
   counters.speech += 1;
 
-  const lineType = detectLineType(rawLines);
+  const lineTypeResult = detectLineType(rawLines);
 
   const lines = rawLines.map((lineText, index) => {
     counters.line += 1;
@@ -256,7 +266,10 @@ function parseDramaParagraph($, element, sceneId, counters) {
       speechLineNumber: index + 1,
       text: lineText,
       plainText: makePlainText(lineText),
-      lineType
+      lineType: lineTypeResult.type,
+      lineTypeDetection: "auto",
+      lineTypeConfidence: lineTypeResult.confidence,
+      lineTypeReason: lineTypeResult.reason
     };
   });
 
@@ -302,9 +315,6 @@ function getPlaySections($) {
 function collectElementsUntilNextPlay($, startH2) {
   const elements = [];
 
-  // The play heading usually lives inside a div.chapter.
-  // The actual content continues in following sibling div.chapter blocks
-  // until the next play chapter starts.
   let currentBlock = $(startH2).closest("div.chapter").next();
 
   while (currentBlock.length) {

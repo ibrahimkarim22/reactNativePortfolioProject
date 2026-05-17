@@ -27,7 +27,7 @@ const SOURCE_INFO = {
 };
 
 const PLAY_GENRES = {
-  "ALL’S WELL THAT ENDS WELL": "Comedy",
+  "ALL'S WELL THAT ENDS WELL": "Comedy",
   "THE TRAGEDY OF ANTONY AND CLEOPATRA": "Tragedy",
   "AS YOU LIKE IT": "Comedy",
   "THE COMEDY OF ERRORS": "Comedy",
@@ -44,16 +44,16 @@ const PLAY_GENRES = {
   "THE LIFE AND DEATH OF KING JOHN": "History",
   "THE TRAGEDY OF JULIUS CAESAR": "Tragedy",
   "THE TRAGEDY OF KING LEAR": "Tragedy",
-  "LOVE’S LABOUR’S LOST": "Comedy",
+  "LOVE'S LABOUR'S LOST": "Comedy",
   "THE TRAGEDY OF MACBETH": "Tragedy",
-  "MEASURE FOR MEASURE": "Comedy",
+  "MEASURE FOR MEASURE": "Problem Play",
   "THE MERCHANT OF VENICE": "Comedy",
   "THE MERRY WIVES OF WINDSOR": "Comedy",
-  "A MIDSUMMER NIGHT’S DREAM": "Comedy",
+  "A MIDSUMMER NIGHT'S DREAM": "Comedy",
   "MUCH ADO ABOUT NOTHING": "Comedy",
   "THE TRAGEDY OF OTHELLO, THE MOOR OF VENICE": "Tragedy",
   "PERICLES, PRINCE OF TYRE": "Romance",
-  "KING RICHARD THE SECOND": "History",
+  "THE LIFE AND DEATH OF KING RICHARD THE SECOND": "History",
   "KING RICHARD THE THIRD": "History",
   "THE TRAGEDY OF ROMEO AND JULIET": "Tragedy",
   "THE TAMING OF THE SHREW": "Comedy",
@@ -64,11 +64,11 @@ const PLAY_GENRES = {
   "TWELFTH NIGHT; OR, WHAT YOU WILL": "Comedy",
   "THE TWO GENTLEMEN OF VERONA": "Comedy",
   "THE TWO NOBLE KINSMEN": "Romance",
-  "THE WINTER’S TALE": "Romance"
+  "THE WINTER'S TALE": "Romance"
 };
 
 function normalizeText(text) {
-  return text
+  return String(text || "")
     .replace(/\u00a0/g, " ")
     .replace(/[“”]/g, '"')
     .replace(/[‘’]/g, "'")
@@ -76,6 +76,21 @@ function normalizeText(text) {
     .replace(/\s+([,.;:!?])/g, "$1")
     .trim();
 }
+
+function normalizeTitleKey(title) {
+  return normalizeText(title)
+    .toUpperCase()
+    .replace(/[’]/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+const NORMALIZED_PLAY_GENRES = Object.fromEntries(
+  Object.entries(PLAY_GENRES).map(([title, genre]) => [
+    normalizeTitleKey(title),
+    genre
+  ])
+);
 
 function makePlainText(text) {
   return normalizeText(text)
@@ -87,11 +102,10 @@ function makePlainText(text) {
 function slugify(text) {
   return normalizeText(text)
     .toLowerCase()
-    .replace(/the tragedy of /g, "")
-    .replace(/the comedy of /g, "")
-    .replace(/the life of /g, "")
-    .replace(/the life and death of /g, "")
-    .replace(/king /g, "king-")
+    .replace(/^the tragedy of /g, "")
+    .replace(/^the comedy of /g, "")
+    .replace(/^the life of /g, "")
+    .replace(/^the life and death of /g, "")
     .replace(/[’']/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
@@ -111,17 +125,33 @@ function romanToNumber(roman) {
 
   for (let i = roman.length - 1; i >= 0; i--) {
     const value = values[roman[i]] || 0;
+
     if (value < previous) total -= value;
     else total += value;
+
     previous = value;
   }
 
   return total;
 }
 
+function titleCasePlay(title) {
+  return normalizeText(title)
+    .toLowerCase()
+    .replace(/\b\w/g, char => char.toUpperCase())
+    .replace(/\bOf\b/g, "of")
+    .replace(/\bAnd\b/g, "and")
+    .replace(/\bOr\b/g, "or")
+    .replace(/\bThe\b/g, "the")
+    .replace(/^the\b/i, "The")
+    .replace(/\bIi\b/g, "II")
+    .replace(/\bIii\b/g, "III")
+    .replace(/\bIv\b/g, "IV")
+    .replace(/\bVi\b/g, "VI");
+}
+
 function parseSceneHeading(text) {
   const clean = normalizeText(text);
-
   const match = clean.match(/^SCENE\s+([IVX]+)\.\s*(.*)$/i);
 
   if (!match) {
@@ -148,6 +178,41 @@ function detectLineType(lines) {
   return avgLength <= 75 ? "verse" : "prose";
 }
 
+function cleanSpeakerName(text) {
+  return normalizeText(text)
+    .replace(/\.$/, "")
+    .replace(/^\[/, "")
+    .replace(/\]$/, "")
+    .trim();
+}
+
+function looksLikeSpeakerName(text) {
+  const cleaned = cleanSpeakerName(text);
+
+  if (!cleaned) return false;
+
+  // Examples this should accept:
+  // KING.
+  // FIRST LORD.
+  // KING RICHARD III.
+  // ALL.
+  // BOTH.
+  // 1 GENTLEMAN.
+  // SECOND MURDERER.
+  return /^[A-Z0-9][A-Z0-9\s.'’\-&]+$/.test(cleaned);
+}
+
+function splitParagraphIntoParts($, element) {
+  const html = $(element).html();
+
+  if (!html) return [];
+
+  return html
+    .split(/<br\s*\/?>/i)
+    .map(part => normalizeText($(`<div>${part}</div>`).text()))
+    .filter(Boolean);
+}
+
 function parseStageDirection($, element, sceneId, counters) {
   const text = normalizeText($(element).text());
 
@@ -163,27 +228,18 @@ function parseStageDirection($, element, sceneId, counters) {
 }
 
 function parseDramaParagraph($, element, sceneId, counters) {
-  const html = $(element).html();
-
-  if (!html) return null;
-
-  const parts = html
-    .split(/<br\s*\/?>/i)
-    .map(part => normalizeText($(`<div>${part}</div>`).text()))
-    .filter(Boolean);
+  const parts = splitParagraphIntoParts($, element);
 
   if (parts.length === 0) return null;
 
-  const firstPart = parts[0].replace(/\.$/, "");
+  const firstPart = cleanSpeakerName(parts[0]);
 
-  const looksLikeSpeaker = /^[A-Z][A-Z\s.'-]+$/.test(firstPart);
-
-  if (!looksLikeSpeaker) {
+  if (!looksLikeSpeakerName(firstPart)) {
     return null;
   }
 
   const speakerName = firstPart;
-  const rawLines = parts.slice(1).filter(Boolean);
+  const rawLines = parts.slice(1).map(normalizeText).filter(Boolean);
 
   if (rawLines.length === 0) return null;
 
@@ -226,14 +282,16 @@ function getPlaySections($) {
 
     const chapterId = anchor.attr("id");
     const title = normalizeText($(h2).text());
+    const titleKey = normalizeTitleKey(title);
+    const genre = NORMALIZED_PLAY_GENRES[titleKey];
 
-    if (!PLAY_GENRES[title]) return;
+    if (!genre) return;
 
     sections.push({
       chapterId,
       title,
       id: slugify(title),
-      genre: PLAY_GENRES[title],
+      genre,
       h2
     });
   });
@@ -243,33 +301,58 @@ function getPlaySections($) {
 
 function collectElementsUntilNextPlay($, startH2) {
   const elements = [];
-  let current = $(startH2).parent().next();
 
-  while (current.length) {
-    const nextPlayHeading = current.find("h2 a[id^='chap']").first();
+  // The play heading usually lives inside a div.chapter.
+  // The actual content continues in following sibling div.chapter blocks
+  // until the next play chapter starts.
+  let currentBlock = $(startH2).closest("div.chapter").next();
+
+  while (currentBlock.length) {
+    const nextPlayHeading = currentBlock.find("h2 a[id^='chap']").first();
 
     if (nextPlayHeading.length) break;
 
-    elements.push(current);
-    current = current.next();
+    elements.push(currentBlock);
+    currentBlock = currentBlock.next();
   }
 
   return elements;
 }
 
+function shouldTryAsSpeechParagraph($, element) {
+  if (!element || !element.length) return false;
+  if (!element.is("p")) return false;
+
+  if (element.is(".scenedesc")) return false;
+  if (element.is(".right")) return false;
+  if (element.is(".center")) return false;
+  if (element.is(".left")) return false;
+  if (element.is(".letter")) return false;
+  if (element.is(".noindent")) return false;
+
+  const parts = splitParagraphIntoParts($, element);
+  if (parts.length < 2) return false;
+
+  return looksLikeSpeakerName(parts[0]);
+}
+
 function extractScenesFromPlay($, play) {
-  const elements = collectElementsUntilNextPlay($, play.h2);
+  const blocks = collectElementsUntilNextPlay($, play.h2);
 
   const scenes = [];
   let currentAct = null;
   let orderInPlay = 0;
 
-  for (const block of elements) {
-    const h2Text = normalizeText(block.find("h2").first().text());
-    const actMatch = h2Text.match(/ACT\s+([IVX]+)/i);
+  for (const block of blocks) {
+    const h2 = block.find("h2").first();
 
-    if (actMatch) {
-      currentAct = romanToNumber(actMatch[1].toUpperCase());
+    if (h2.length) {
+      const h2Text = normalizeText(h2.text());
+      const actMatch = h2Text.match(/ACT\s+([IVX]+)/i);
+
+      if (actMatch) {
+        currentAct = romanToNumber(actMatch[1].toUpperCase());
+      }
     }
 
     block.find("h3").each((_, h3) => {
@@ -284,8 +367,8 @@ function extractScenesFromPlay($, play) {
       orderInPlay += 1;
 
       const sceneId = `${play.id}-${currentAct}-${sceneData.sceneNumber}`;
-      const content = [];
 
+      const content = [];
       const counters = {
         stage: 0,
         speech: 0,
@@ -300,9 +383,7 @@ function extractScenesFromPlay($, play) {
         if (current.is("p.scenedesc") || current.is("p.right")) {
           const stage = parseStageDirection($, current, sceneId, counters);
           if (stage) content.push(stage);
-        }
-
-        if (current.is("p.drama")) {
+        } else if (current.is("p.drama") || shouldTryAsSpeechParagraph($, current)) {
           const speech = parseDramaParagraph($, current, sceneId, counters);
           if (speech) content.push(speech);
         }
@@ -336,18 +417,11 @@ function extractScenesFromPlay($, play) {
   return scenes;
 }
 
-function titleCasePlay(title) {
-  return title
-    .toLowerCase()
-    .replace(/\b\w/g, char => char.toUpperCase())
-    .replace(/\bOf\b/g, "of")
-    .replace(/\bAnd\b/g, "and")
-    .replace(/\bThe\b/g, "the")
-    .replace(/^the\b/i, "The")
-    .replace(/\bIi\b/g, "II")
-    .replace(/\bIii\b/g, "III")
-    .replace(/\bIv\b/g, "IV")
-    .replace(/\bVi\b/g, "VI");
+function getLineCount(sceneJson) {
+  return sceneJson.content.reduce((count, item) => {
+    if (item.type !== "speech") return count;
+    return count + item.lines.length;
+  }, 0);
 }
 
 function writeSceneFile(playId, sceneJson) {
@@ -369,10 +443,7 @@ function writeSceneFile(playId, sceneJson) {
     label: sceneJson.scene.label,
     title: sceneJson.scene.location,
     path: `./scenes/${fileName}`,
-    lineCount: sceneJson.content.reduce((count, item) => {
-      if (item.type !== "speech") return count;
-      return count + item.lines.length;
-    }, 0)
+    lineCount: getLineCount(sceneJson)
   };
 }
 
@@ -380,7 +451,10 @@ function writePlayFile(play, sceneRefs) {
   const actsMap = new Map();
 
   for (const sceneRef of sceneRefs) {
-    const actNumber = Number(sceneRef.id.match(/-(\d+)-\d+$/)?.[1]);
+    const match = sceneRef.id.match(/-(\d+)-\d+$/);
+    const actNumber = match ? Number(match[1]) : null;
+
+    if (!actNumber) continue;
 
     if (!actsMap.has(actNumber)) {
       actsMap.set(actNumber, []);
@@ -389,10 +463,12 @@ function writePlayFile(play, sceneRefs) {
     actsMap.get(actNumber).push(sceneRef);
   }
 
-  const acts = Array.from(actsMap.entries()).map(([act, scenes]) => ({
-    act,
-    scenes
-  }));
+  const acts = Array.from(actsMap.entries())
+    .sort(([a], [b]) => a - b)
+    .map(([act, scenes]) => ({
+      act,
+      scenes: scenes.sort((a, b) => a.scene - b.scene)
+    }));
 
   const playJson = {
     schemaVersion: "1.0.0",
@@ -417,6 +493,35 @@ function writePlayFile(play, sceneRefs) {
   fs.writeFileSync(outputFile, JSON.stringify(playJson, null, 2), "utf8");
 }
 
+function writeEmptySupportFiles(playId) {
+  const playFolder = path.join(OUTPUT_ROOT, playId);
+
+  const supportFiles = {
+    "characters.json": {
+      schemaVersion: "1.0.0",
+      characters: []
+    },
+    "synopsis.json": {
+      schemaVersion: "1.0.0",
+      playSummary: "",
+      acts: [],
+      scenes: []
+    },
+    "quiz.json": {
+      schemaVersion: "1.0.0",
+      questions: []
+    }
+  };
+
+  for (const [fileName, content] of Object.entries(supportFiles)) {
+    const outputFile = path.join(playFolder, fileName);
+
+    if (!fs.existsSync(outputFile)) {
+      fs.writeFileSync(outputFile, JSON.stringify(content, null, 2), "utf8");
+    }
+  }
+}
+
 function main() {
   const html = fs.readFileSync(SOURCE_FILE, "utf8");
   const $ = cheerio.load(html);
@@ -425,27 +530,39 @@ function main() {
 
   console.log(`Found ${plays.length} plays.`);
 
+  const suspicious = [];
+
   for (const play of plays) {
     const scenes = extractScenesFromPlay($, play);
 
     if (scenes.length === 0) {
       console.log(`Skipped ${play.title}: no scenes found.`);
+      suspicious.push(`${play.id}: no scenes found`);
       continue;
     }
 
     const sceneRefs = scenes.map(sceneJson => writeSceneFile(play.id, sceneJson));
 
     writePlayFile(play, sceneRefs);
+    writeEmptySupportFiles(play.id);
+
+    const totalLines = sceneRefs.reduce((sum, scene) => sum + scene.lineCount, 0);
 
     console.log(
-      `Created ${play.id}: ${scenes.length} scenes, ${sceneRefs.reduce(
-        (sum, scene) => sum + scene.lineCount,
-        0
-      )} lines.`
+      `Created ${play.id}: ${scenes.length} scenes, ${totalLines} lines.`
     );
+
+    if (totalLines < 1000) {
+      suspicious.push(`${play.id}: suspiciously low line count (${totalLines})`);
+    }
   }
 
-  console.log("Done.");
+  if (suspicious.length > 0) {
+    console.log("\nReview these outputs:");
+    suspicious.forEach(item => console.log(`- ${item}`));
+  }
+
+  console.log("\nDone.");
 }
 
 main();

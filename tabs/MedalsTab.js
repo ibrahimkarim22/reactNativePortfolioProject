@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Image } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
-import { PLAYS } from "../shared/playsRoot";
+import { PLAYS } from "../shared/localPlayService";
 import { useSelector } from "react-redux";
 
 const MedalsTab = () => {

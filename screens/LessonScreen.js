@@ -19,7 +19,7 @@ const Lesson = () => {
   const handleReadPlay = () => {
     dispatch(fetchMIT(id));
     dispatch(fetchFolgerCharacter(id));
-    navigation.navigate("MIT");
+    navigation.navigate("MIT", { id: id });
   };
 
   const handleQuiz = () => {

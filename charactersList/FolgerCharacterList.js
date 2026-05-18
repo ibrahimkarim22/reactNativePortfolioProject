@@ -1,22 +1,10 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { PLAYS } from "../shared/playsRoot";
+import { getCharactersHtml } from "../shared/localPlayService";
 
 export const fetchFolgerCharacter = createAsyncThunk(
   "FolgerCharacter/fetchFolgerCharacter",
   async (id) => {
-    const play = PLAYS.find((play) => play.id === id);
-    if (!play) {
-      throw new Error("Play not found");
-    }
-    const response = await fetch(
-      `https://www.folgerdigitaltexts.org/${play.folgerURL}/parts/`
-    );
-
-    if (!response.ok) {
-      throw new Error("Fetch failed with status: " + response.status);
-    }
-    const htmlTextCharacters = await response.text();
-    return htmlTextCharacters;
+    return getCharactersHtml(id);
   }
 );
 

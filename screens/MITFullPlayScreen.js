@@ -4,16 +4,19 @@ import { StyleSheet, ScrollView, Text, ActivityIndicator } from "react-native";
 import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
+import { useRoute } from "@react-navigation/native";
 
 const MITFullPlayScreen = () => {
+  const route = useRoute();
+  const { id } = route.params || {};
   const dispatch = useDispatch();
   const MIT = useSelector((state) => state.MIT);
   const FolgerCharacter = useSelector((state) => state.FolgerCharacter);
 
   useEffect(() => {
-    dispatch(fetchMIT());
-    dispatch(fetchFolgerCharacter());
-  }, [dispatch]);
+    dispatch(fetchMIT(id));
+    dispatch(fetchFolgerCharacter(id));
+  }, [dispatch, id]);
 
   return (
     <ScrollView style={styles.container}>

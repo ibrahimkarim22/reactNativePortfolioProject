@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Alert } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
-import { PLAYS } from "../shared/playsRoot";
+import { PLAYS } from "../shared/localPlayService";
 import { Card, Button, Overlay, Image } from "react-native-elements";
 import { useRoute } from "@react-navigation/native";
 import { useRef, useState } from "react";

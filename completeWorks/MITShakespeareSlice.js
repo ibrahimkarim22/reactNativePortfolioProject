@@ -1,18 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { PLAYS } from "../shared/playsRoot";
+import { getFullPlayHtml } from "../shared/localPlayService";
 
 export const fetchMIT = createAsyncThunk("MIT/fetchMIT", async (id) => {
-  const play = PLAYS.find((play) => play.id === id);
-  if (!play) {
-    throw new Error("Play not found");
-  }
-  const response = await fetch(play.MITURL);
-
-  if (!response.ok) {
-    throw new Error("Fetch failed with status: " + response.status);
-  }
-  const htmlText = await response.text();
-  return htmlText;
+  return getFullPlayHtml(id);
 });
 
 const MITSlice = createSlice({

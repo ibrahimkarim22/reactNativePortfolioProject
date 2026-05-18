@@ -5,7 +5,6 @@ const cheerio = require("cheerio");
 const SOURCE_FILE = path.join(
   __dirname,
   "..",
-  "public",
   "data",
   "source",
   "pg100-images.html"
@@ -14,7 +13,6 @@ const SOURCE_FILE = path.join(
 const OUTPUT_ROOT = path.join(
   __dirname,
   "..",
-  "public",
   "data",
   "plays"
 );

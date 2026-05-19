@@ -7,7 +7,7 @@ import {
 import { RootScreen } from "../screens/RootScreen";
 import HomeScreen from "../screens/HomeScreen";
 import SignUpScreen from "../screens/SignUpScreen";
-import LoginScreen from "../screens/LoginScreen";
+import LoginScreen from "../screens/AuthLoginScreen";
 import QuizScreen from "../screens/QuizScreen";
 import Folger from "../screens/FolgerAPITest";
 import FreeFolger from "../screens/Folger";

@@ -1,145 +1,278 @@
-import { View, Text, StyleSheet, StatusBar, Image, Button } from "react-native";
+import {
+  ImageBackground,
+  Pressable,
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
+import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
+import {
+  faArrowRight,
+  faAward,
+  faBookOpen,
+  faCertificate,
+  faCrown,
+  faRightToBracket,
+  faUserPlus,
+} from "@fortawesome/free-solid-svg-icons";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
-import { ScreenWidth } from "react-native-elements/dist/helpers";
-import { Icon } from "react-native-elements";
+import { PLAYS } from "../shared/localPlayService";
+
+const features = [
+  {
+    icon: faBookOpen,
+    value: `${PLAYS.length}`,
+    label: "complete plays",
+  },
+  {
+    icon: faCrown,
+    value: `${PLAYS.length}`,
+    label: "guided quizzes",
+  },
+  {
+    icon: faAward,
+    value: `${PLAYS.length}`,
+    label: "earned medals",
+  },
+  {
+    icon: faCertificate,
+    value: "1",
+    label: "final certificate",
+  },
+];
+
+const ActionButton = ({ icon, label, onPress, variant = "primary" }) => (
+  <Pressable
+    onPress={onPress}
+    style={({ pressed }) => [
+      styles.actionButton,
+      variant === "secondary" && styles.secondaryButton,
+      pressed && styles.actionButtonPressed,
+    ]}
+  >
+    <View style={styles.actionLeft}>
+      <FontAwesomeIcon
+        icon={icon}
+        size={17}
+        color={variant === "secondary" ? "#f4efe7" : "#130f0b"}
+      />
+      <Text
+        style={[
+          styles.actionText,
+          variant === "secondary" && styles.secondaryActionText,
+        ]}
+      >
+        {label}
+      </Text>
+    </View>
+    <FontAwesomeIcon
+      icon={faArrowRight}
+      size={15}
+      color={variant === "secondary" ? "#c9b06a" : "#130f0b"}
+    />
+  </Pressable>
+);
 
 export const RootScreen = ({ navigation }) => {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <View>
-        <Image style={styles.welcomeImage} source={FolgerMidsummer} />
-      </View>
-      <View>
-        <Text style={styles.promoText}>
-          Embark on a journey {"\n"} through the timelss world of Shakespeare
-        </Text>
-        <View>
-          <Icon
-            name="minus"
-            type="font-awesome"
-            color="white"
-            style={{ marginTop: -4 }}
-          />
-        </View>
-      </View>
-      <Text style={styles.promoTextTwo}>
-        Immerse yourself {"\n"} in the beauty of classic literature
-      </Text>
-      <Icon
-        name="minus"
-        type="font-awesome"
-        color="white"
-        style={{ marginTop: -4 }}
-      />
+    <SafeAreaView style={styles.safeArea}>
+      <StatusBar barStyle="light-content" backgroundColor="#050505" />
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={false}
+      >
+        <ImageBackground source={FolgerMidsummer} style={styles.hero}>
+          <View style={styles.heroShade} />
+          <View style={styles.topBar}>
+            <View>
+              <Text style={styles.brand}>BARD</Text>
+              <Text style={styles.brandMeta}>Shakespeare, rebuilt for mobile</Text>
+            </View>
+          </View>
+          <View style={styles.heroCopy}>
+            <Text style={styles.kicker}>The complete Shakespeare companion</Text>
+            <Text style={styles.headline}>
+              Read, learn, and master every play.
+            </Text>
+            <Text style={styles.subhead}>
+              A focused course experience with local texts, progress, medals,
+              and a certificate path.
+            </Text>
+          </View>
+        </ImageBackground>
 
-      <View style={styles.infoContainer}>
-        <Text style={styles.infoTextHeader}>
-          38 Plays{" "}
-          <Text style={styles.infoText}>
-            ~ Explore the entire collection from the Bard of Avon.
-          </Text>
-        </Text>
-        <Text style={styles.infoTextHeader}>
-          38 Quizes <Text style={styles.infoText}>~ Test your knowledge.</Text>
-        </Text>
-        <Text style={styles.infoTextHeader}>
-          38 Medals{" "}
-          <Text style={styles.infoText}>
-            ~ Earn Medals as you progress, showcasing your mastery.
-          </Text>
-        </Text>
-        <Text style={styles.infoTextHeader}>
-          Certificate{" "}
-          <Text style={styles.infoText}>
-            ~ Complete the course and earn a certificate to highlight your
-            experience with all 38 plays. 100% free.
-          </Text>
-        </Text>
-      </View>
-      <View>
-        <View
-          style={{
-            paddingLeft: 33,
-            paddingRight: 33,
-            margin: 5,
-            marginTop: -11,
-          }}
-        >
-          <Button
-            title="Sign Up"
-            color={"rgba(139, 0, 0, .7)"}
-            onPress={() => navigation.navigate("SignUp")}
-          />
+        <View style={styles.body}>
+          <View style={styles.statsGrid}>
+            {features.map((feature) => (
+              <View key={feature.label} style={styles.statItem}>
+                <View style={styles.statIcon}>
+                  <FontAwesomeIcon icon={feature.icon} size={15} color="#d8bd73" />
+                </View>
+                <Text style={styles.statValue}>{feature.value}</Text>
+                <Text style={styles.statLabel}>{feature.label}</Text>
+              </View>
+            ))}
+          </View>
+
+          <View style={styles.ctaGroup}>
+            <ActionButton
+              icon={faUserPlus}
+              label="Create account"
+              onPress={() => navigation.navigate("SignUp")}
+            />
+            <ActionButton
+              icon={faRightToBracket}
+              label="Log in"
+              variant="secondary"
+              onPress={() => navigation.navigate("Login")}
+            />
+          </View>
+
         </View>
-        <Text style={styles.quote}>
-          {" "}
-          "How far that little candle throws its beams! {"\n"}
-          So shines a good deed in a weary world."{" "}
-        </Text>
-      </View>
-      <View style={{ marginTop: 7 }}>
-        <View style={{ paddingLeft: 33, paddingRight: 33, margin: 5 }}>
-          <Button
-            title="Login"
-            onPress={() => navigation.navigate("Login")}
-            color={"rgba(124, 252, 0, .7)"}
-          />
-        </View>
-        <Text style={styles.quote}>
-          {" "}
-          "Give me my robe, put on my crown;{"\n"}I have Immortal longings in
-          me."{" "}
-        </Text>
-      </View>
-    </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: "#050505",
+  },
   container: {
     flex: 1,
-    backgroundColor: "black",
+    backgroundColor: "#050505",
   },
-  welcomeImage: {
-    resizeMode: "cover",
-    height: 122,
-    width: ScreenWidth,
-    borderRadius: 11,
-    marginTop: 22,
+  content: {
+    flexGrow: 1,
+    backgroundColor: "#050505",
   },
-  promoText: {
-    color: "white",
-    fontSize: 24,
-    textAlign: "center",
-    fontFamily: "serif",
-    marginTop: 11,
+  hero: {
+    minHeight: 470,
+    justifyContent: "space-between",
+    overflow: "hidden",
   },
-  promoTextTwo: {
-    color: "white",
-    fontSize: 24,
-    textAlign: "center",
-    fontFamily: "serif",
-    marginTop: -3,
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(3, 4, 4, 0.58)",
   },
-  infoContainer: {
-    padding: 22,
-    marginTop: -28,
+  topBar: {
+    alignItems: "center",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    paddingHorizontal: 22,
+    paddingTop: 18,
   },
-  infoTextHeader: {
-    color: "silver",
-    fontSize: 20,
-    fontFamily: "serif",
+  brand: {
+    color: "#f7f0e5",
+    fontSize: 18,
+    fontWeight: "800",
   },
-  infoText: {
-    color: "white",
-    fontSize: 15,
-    fontFamily: "normal",
+  brandMeta: {
+    color: "#d8d0c4",
+    fontSize: 12,
+    marginTop: 3,
   },
-  quote: {
-    color: "silver",
-    fontFamily: "serif",
-    textAlign: "center",
-    marginTop: -4,
+  heroCopy: {
+    paddingBottom: 38,
+    paddingHorizontal: 22,
+  },
+  kicker: {
+    color: "#d8bd73",
+    fontSize: 13,
+    fontWeight: "700",
+    marginBottom: 12,
+    textTransform: "uppercase",
+  },
+  headline: {
+    color: "#fff8ef",
+    fontSize: 44,
+    fontWeight: "800",
+    lineHeight: 48,
+    maxWidth: 350,
+  },
+  subhead: {
+    color: "#e4ddd1",
+    fontSize: 16,
+    lineHeight: 23,
+    marginTop: 16,
+    maxWidth: 340,
+  },
+  body: {
+    paddingHorizontal: 18,
+    paddingTop: 18,
+    paddingBottom: 28,
+  },
+  statsGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+  },
+  statItem: {
+    backgroundColor: "#131313",
+    borderColor: "#292826",
+    borderRadius: 8,
+    borderWidth: 1,
+    minHeight: 104,
+    padding: 13,
+    width: "48.5%",
+  },
+  statIcon: {
+    alignItems: "center",
+    backgroundColor: "#211c12",
+    borderRadius: 8,
+    height: 30,
+    justifyContent: "center",
+    marginBottom: 12,
+    width: 30,
+  },
+  statValue: {
+    color: "#fff8ef",
+    fontSize: 25,
+    fontWeight: "800",
+  },
+  statLabel: {
+    color: "#bcb4a8",
+    fontSize: 13,
+    marginTop: 3,
+  },
+  ctaGroup: {
+    gap: 12,
+    marginTop: 18,
+  },
+  actionButton: {
+    alignItems: "center",
+    backgroundColor: "#d8bd73",
+    borderRadius: 8,
+    flexDirection: "row",
+    height: 56,
+    justifyContent: "space-between",
+    paddingHorizontal: 18,
+  },
+  secondaryButton: {
+    backgroundColor: "#141414",
+    borderColor: "#34302a",
+    borderWidth: 1,
+  },
+  actionButtonPressed: {
+    opacity: 0.82,
+    transform: [{ scale: 0.99 }],
+  },
+  actionLeft: {
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 10,
+  },
+  actionText: {
+    color: "#130f0b",
+    fontSize: 16,
+    fontWeight: "800",
+  },
+  secondaryActionText: {
+    color: "#f4efe7",
   },
 });

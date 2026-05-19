@@ -11,19 +11,23 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import {
+  faCheck,
   faEnvelope,
   faLock,
-  faUser,
-  faUserPlus,
+  faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { doc, setDoc } from "firebase/firestore";
-import { useNavigation } from "@react-navigation/native";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { doc, getDoc } from "firebase/firestore";
+import { useDispatch } from "react-redux";
+import { setLevel } from "../Progress/CourseSlice";
+import * as SecureStore from "expo-secure-store";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
+
+const auth = FIREBASE_AUTH;
 
 const AuthInput = ({ icon, ...props }) => (
   <View style={styles.inputWrap}>
@@ -36,43 +40,61 @@ const AuthInput = ({ icon, ...props }) => (
   </View>
 );
 
-const SignUpScreen = () => {
-  const navigation = useNavigation();
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
+const AuthLoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const auth = FIREBASE_AUTH;
+  const [remember, setRemember] = useState(false);
 
-  const SignUp = async () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    SecureStore.getItemAsync("userinfo").then((userdata) => {
+      const userInfo = userdata ? JSON.parse(userdata) : null;
+      if (userInfo) {
+        setEmail(userInfo.email);
+        setPassword(userInfo.password);
+        setRemember(true);
+      }
+    });
+  }, []);
+
+  const Login = async () => {
+    if (remember) {
+      try {
+        await SecureStore.setItemAsync(
+          "userinfo",
+          JSON.stringify({
+            email,
+            password,
+          })
+        );
+      } catch (error) {
+        console.log("Could not save user info", error);
+      }
+    } else {
+      try {
+        await SecureStore.deleteItemAsync("userinfo");
+      } catch (error) {
+        console.log("Could not delete user info", error);
+      }
+    }
+
     setLoading(true);
     try {
-      const response = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-
-      await updateProfile(response.user, {
-        displayName: `${firstName} ${lastName}`.trim(),
-        photoURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
-      });
-
+      const response = await signInWithEmailAndPassword(auth, email, password);
       const userRef = doc(FIRESTORE_DB, "users", response.user.uid);
-      await setDoc(userRef, {
-        userId: response.user.uid,
-        completedLevel: 1,
-        profileImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
-      });
+      const userSnap = await getDoc(userRef);
+      const userData = userSnap.data();
 
-      alert("Welcome to BARD. Enjoy the journey.");
+      if (userData?.completedLevel) {
+        dispatch(setLevel(userData.completedLevel));
+      }
+
       navigation.navigate("Main");
     } catch (error) {
       console.error(error);
-      alert("Sign up failed " + error.message);
+      alert("Login failed " + error.message);
     } finally {
       setLoading(false);
     }
@@ -92,34 +114,14 @@ const SignUpScreen = () => {
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.header}>
-            <Text style={styles.eyebrow}>Start the course</Text>
-            <Text style={styles.title}>Create your BARD account.</Text>
+            <Text style={styles.eyebrow}>Welcome back</Text>
+            <Text style={styles.title}>Continue your course.</Text>
             <Text style={styles.subtitle}>
-              Save progress, unlock medals, and build toward your certificate.
+              Pick up your progress, medals, and reading path.
             </Text>
           </View>
 
           <View style={styles.card}>
-            <View style={styles.nameRow}>
-              <View style={styles.nameField}>
-                <AuthInput
-                  icon={faUser}
-                  placeholder="First"
-                  value={firstName}
-                  textContentType="givenName"
-                  onChangeText={setFirstName}
-                />
-              </View>
-              <View style={styles.nameField}>
-                <AuthInput
-                  icon={faUser}
-                  placeholder="Last"
-                  value={lastName}
-                  textContentType="familyName"
-                  onChangeText={setLastName}
-                />
-              </View>
-            </View>
             <AuthInput
               icon={faEnvelope}
               placeholder="Email"
@@ -136,13 +138,25 @@ const SignUpScreen = () => {
               value={password}
               autoCapitalize="none"
               autoCorrect={false}
-              textContentType="newPassword"
+              textContentType="password"
               onChangeText={setPassword}
               secureTextEntry
             />
 
             <Pressable
-              onPress={SignUp}
+              onPress={() => setRemember(!remember)}
+              style={styles.rememberRow}
+            >
+              <View style={[styles.checkbox, remember && styles.checkboxOn]}>
+                {remember && (
+                  <FontAwesomeIcon icon={faCheck} size={11} color="#120f0a" />
+                )}
+              </View>
+              <Text style={styles.rememberText}>Remember me</Text>
+            </Pressable>
+
+            <Pressable
+              onPress={Login}
               disabled={loading}
               style={({ pressed }) => [
                 styles.primaryButton,
@@ -154,8 +168,12 @@ const SignUpScreen = () => {
                 <ActivityIndicator size="small" color="#130f0b" />
               ) : (
                 <>
-                  <FontAwesomeIcon icon={faUserPlus} size={16} color="#130f0b" />
-                  <Text style={styles.primaryButtonText}>Create account</Text>
+                  <FontAwesomeIcon
+                    icon={faRightToBracket}
+                    size={16}
+                    color="#130f0b"
+                  />
+                  <Text style={styles.primaryButtonText}>Log in</Text>
                 </>
               )}
             </Pressable>
@@ -214,13 +232,6 @@ const styles = StyleSheet.create({
     gap: 13,
     padding: 18,
   },
-  nameRow: {
-    flexDirection: "row",
-    gap: 10,
-  },
-  nameField: {
-    flex: 1,
-  },
   inputWrap: {
     alignItems: "center",
     backgroundColor: "#f1ece3",
@@ -234,6 +245,30 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     marginLeft: 11,
+  },
+  rememberRow: {
+    alignItems: "center",
+    flexDirection: "row",
+    minHeight: 34,
+  },
+  checkbox: {
+    alignItems: "center",
+    borderColor: "#6b6257",
+    borderRadius: 5,
+    borderWidth: 1,
+    height: 22,
+    justifyContent: "center",
+    marginRight: 10,
+    width: 22,
+  },
+  checkboxOn: {
+    backgroundColor: "#d8bd73",
+    borderColor: "#d8bd73",
+  },
+  rememberText: {
+    color: "#ded6c9",
+    fontSize: 14,
+    fontWeight: "600",
   },
   primaryButton: {
     alignItems: "center",
@@ -258,4 +293,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SignUpScreen;
+export default AuthLoginScreen;

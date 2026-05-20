@@ -325,10 +325,12 @@ const Stacks = () => {
 const styles = StyleSheet.create({
   drawerContainer: {
     flex: 1,
+    backgroundColor: "black",
     paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
   },
   stackContainer: {
     flex: 1,
+    backgroundColor: "black",
     paddingTop: Platform.OS === "android" ? 0 : Constants.statusBarHeight,
   },
   drawerSideLogo: {

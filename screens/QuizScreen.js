@@ -10,14 +10,13 @@ import { doc, updateDoc } from "firebase/firestore";
 import { FIRESTORE_DB, FIREBASE_AUTH } from "../firebaseConfig";
 import { useNavigation } from "@react-navigation/native";
 
-const total = 7;
-
 const QuizScreen = () => {
   const dispatch = useDispatch();
   const navigation = useNavigation();
   const route = useRoute();
   const { id } = route.params;
   const play = PLAYS.find((play) => play.id === id);
+  const total = play?.quiz?.length || 0;
   console.log(play);
 
   const [answer, setAnswer] = useState({});
@@ -74,52 +73,39 @@ const QuizScreen = () => {
           return;
         }
 
-    
-        const nextPlay = PLAYS.find(
-          (p) => p.difficulty === currentPlay.difficulty + 1
+        const newCompletedLevel = currentPlay.difficulty;
+        console.log(
+          "REDUX STATE FOR currentCompletedLevel:---------",
+          currentCompletedLevel
+        );
+        console.log(
+          "newCompletedLevel = currentPlay.difficulty; ----------",
+          newCompletedLevel
         );
 
-        if (nextPlay) {
-          console.log("nextPlay:-------------", nextPlay);
-       
-          const newCompletedLevel = nextPlay.difficulty;
-          console.log(
-            "REDUX STATE FOR currentCompletedLevel:---------",
-            currentCompletedLevel
-          );
-          console.log(
-            "newCompletedLevel = nextPlay.difficulty; ----------",
-            newCompletedLevel
-          );
-
-      
-          if (newCompletedLevel > currentCompletedLevel) {
- 
-            dispatch(setLevel(newCompletedLevel));
-            console.log("setLevel DISPATCHED TO REDUX");
-            try {
-              const userRef = doc(
-                FIRESTORE_DB,
-                "users",
-                FIREBASE_AUTH.currentUser.uid
-              );
-              await updateDoc(userRef, {
-                completedLevel: newCompletedLevel,
-              });
-              console.log(
-                "UPDATED THE completedLevel in FIRESTORE ",
-                newCompletedLevel
-              );
-            } catch (error) {
-              console.error("ERROR UPDATIG TO FIRESTORE:", error);
-            }
-          } else {
-            console.log(
-              "QUIZ FROM PREVIOUS LEVEL WAS RETAKEN completedLevel WILL NOT BE UPDATED IN STORE OR FIRESTORE"
+        if (newCompletedLevel > (Number(currentCompletedLevel) || 0)) {
+          dispatch(setLevel(newCompletedLevel));
+          console.log("setLevel DISPATCHED TO REDUX");
+          try {
+            const userRef = doc(
+              FIRESTORE_DB,
+              "users",
+              FIREBASE_AUTH.currentUser.uid
             );
+            await updateDoc(userRef, {
+              completedLevel: newCompletedLevel,
+            });
+            console.log(
+              "UPDATED THE completedLevel in FIRESTORE ",
+              newCompletedLevel
+            );
+          } catch (error) {
+            console.error("ERROR UPDATIG TO FIRESTORE:", error);
           }
         } else {
-          console.log("nextPlay NOT FOUND");
+          console.log(
+            "QUIZ FROM PREVIOUS LEVEL WAS RETAKEN completedLevel WILL NOT BE UPDATED IN STORE OR FIRESTORE"
+          );
         }
 
         console.log("QUIZ SUBMMITTED");

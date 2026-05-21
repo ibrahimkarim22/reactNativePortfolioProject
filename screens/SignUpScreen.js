@@ -23,6 +23,8 @@ import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigation } from "@react-navigation/native";
+import { useDispatch } from "react-redux";
+import { setLevel } from "../Progress/CourseSlice";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 
 const AuthInput = ({ icon, ...props }) => (
@@ -38,6 +40,7 @@ const AuthInput = ({ icon, ...props }) => (
 
 const SignUpScreen = () => {
   const navigation = useNavigation();
+  const dispatch = useDispatch();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -63,10 +66,11 @@ const SignUpScreen = () => {
       const userRef = doc(FIRESTORE_DB, "users", response.user.uid);
       await setDoc(userRef, {
         userId: response.user.uid,
-        completedLevel: 1,
+        completedLevel: 0,
         profileImage:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqyKSgl0SqQ6kxcklpXJgijs3B_E212kVuvKxG-OeGQ&s",
       });
+      dispatch(setLevel(0));
 
       alert("Welcome to BARD. Enjoy the journey.");
       navigation.navigate("Main");

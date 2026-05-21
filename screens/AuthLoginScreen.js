@@ -86,10 +86,9 @@ const AuthLoginScreen = ({ navigation }) => {
       const userRef = doc(FIRESTORE_DB, "users", response.user.uid);
       const userSnap = await getDoc(userRef);
       const userData = userSnap.data();
+      const savedCompletedLevel = Number(userData?.completedLevel ?? 0);
 
-      if (userData?.completedLevel) {
-        dispatch(setLevel(userData.completedLevel));
-      }
+      dispatch(setLevel(Number.isFinite(savedCompletedLevel) ? savedCompletedLevel : 0));
 
       navigation.navigate("Main");
     } catch (error) {

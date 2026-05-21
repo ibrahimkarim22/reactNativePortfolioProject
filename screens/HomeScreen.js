@@ -58,11 +58,15 @@ const HomeScreen = ({ navigation }) => {
   );
 
   const totalPlays = plays.length;
-  const courseLevel = Math.max(1, completedLevel || 1);
-  const medalCount = Math.max(0, Math.min(totalPlays, courseLevel - 1));
-  const progress = Math.min(1, courseLevel / totalPlays);
+  const completedPlays = Math.max(
+    0,
+    Math.min(totalPlays, Number(completedLevel) || 0)
+  );
+  const nextUnlockedLevel = Math.min(totalPlays, completedPlays + 1);
+  const medalCount = completedPlays;
+  const progress = totalPlays ? Math.min(1, completedPlays / totalPlays) : 0;
   const nextPlay =
-    plays.find((play) => play.difficulty === courseLevel) || plays[0];
+    plays.find((play) => play.difficulty === nextUnlockedLevel) || plays[0];
   const isCompact = width < 360;
   const horizontalPadding = isCompact ? 14 : 18;
   const avatarSize = isCompact ? 78 : 94;
@@ -149,18 +153,22 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.coursePanel}>
         <View style={styles.panelHeader}>
           <View>
-            <Text style={styles.panelEyebrow}>Current play</Text>
-            <Text style={styles.panelTitle}>{nextPlay?.name || "BARD"}</Text>
+            <Text style={styles.panelEyebrow}>
+              {progress >= 1 ? "Course complete" : "Current play"}
+            </Text>
+            <Text style={styles.panelTitle}>
+              {progress >= 1 ? "All plays completed" : nextPlay?.name || "BARD"}
+            </Text>
           </View>
           <View style={styles.levelBadge}>
-            <Text style={styles.levelBadgeText}>{courseLevel}</Text>
+            <Text style={styles.levelBadgeText}>{nextUnlockedLevel}</Text>
           </View>
         </View>
         <View style={styles.progressTrack}>
           <View style={[styles.progressFill, { width: `${progress * 100}%` }]} />
         </View>
         <Text style={styles.progressText}>
-          {Math.round(progress * 100)}% of the course path unlocked
+          {Math.round(progress * 100)}% complete
         </Text>
       </View>
 
@@ -276,7 +284,7 @@ const HomeScreen = ({ navigation }) => {
           </View>
 
           <View style={styles.metricsRow}>
-            <Metric value={courseLevel} label="level" />
+            <Metric value={completedPlays} label="completed" />
             <Metric value={medalCount} label="medals" />
             <Metric value={`${Math.round(progress * 100)}%`} label="course" />
           </View>

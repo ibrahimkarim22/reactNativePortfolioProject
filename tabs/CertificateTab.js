@@ -2,9 +2,10 @@ import { View, Text, StyleSheet } from "react-native";
 import { LinearProgress, Image } from "react-native-elements";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { PLAYS } from "../shared/localPlayService";
 
 const ProgressBar = ({ value = 0 }) => {
-  const v = Number.isFinite(value) ? Math.min(1, Math.min(0, value)) : 0;
+  const v = Number.isFinite(value) ? Math.min(1, Math.max(0, value)) : 0;
   return (
     <View
       style={{
@@ -31,8 +32,9 @@ const CertificateTab = () => {
 
   useEffect(() => {
     const calculateProgress = () => {
-      const maxLevel = 38;
-      const currentProgress = (completedLevel / maxLevel) * 100;
+      const maxLevel = PLAYS.length || 38;
+      const completedCount = Math.max(0, Number(completedLevel) || 0);
+      const currentProgress = (completedCount / maxLevel) * 100;
       setProgress(Math.min(currentProgress, 100));
     };
     calculateProgress();

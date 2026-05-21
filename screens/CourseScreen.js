@@ -10,6 +10,7 @@ const CourseScreen = () => {
   const navigation = useNavigation();
 
   const completed = useSelector((state) => state.course.completedLevel);
+  const completedCount = Math.max(0, Number(completed) || 0);
 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
 
@@ -35,9 +36,9 @@ const CourseScreen = () => {
             key={index}
             style={styles.imageContainer}
             onPress={() => handleImageClick(play.id, completed)}
-            disabled={play.difficulty > completed}
+            disabled={play.difficulty > completedCount + 1}
           >
-            {play.difficulty > completed && (
+            {play.difficulty > completedCount + 1 && (
               <Image
                 source={require("../assets/images/lock.png")}
                 style={styles.lockImage}

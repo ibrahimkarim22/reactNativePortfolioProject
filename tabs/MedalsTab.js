@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 
 const MedalsTab = () => {
   const completedLevel = useSelector((state) => state.course.completedLevel);
+  const completedCount = Math.max(0, Number(completedLevel) || 0);
 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
 
@@ -16,7 +17,7 @@ const MedalsTab = () => {
           <View key={index} style={styles.medalItem}>
             <View style={styles.imageContainer}>
               <Image source={play.medalImage} style={styles.medalImage} />
-              {play.difficulty > completedLevel - 1 && (
+              {play.difficulty > completedCount && (
                 <View style={styles.blurContainer}>
                   <Image
                     source={require("../assets/images/lock.png")}

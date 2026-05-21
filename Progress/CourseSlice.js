@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  completedLevel: 1,
+  completedLevel: 0,
 };
 
 const courseSlice = createSlice({

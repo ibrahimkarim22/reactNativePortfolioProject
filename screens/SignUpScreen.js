@@ -15,6 +15,8 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import {
   faEnvelope,
+  faEye,
+  faEyeSlash,
   faLock,
   faUser,
   faUserPlus,
@@ -27,7 +29,7 @@ import { useDispatch } from "react-redux";
 import { setLevel } from "../Progress/CourseSlice";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 
-const AuthInput = ({ icon, ...props }) => (
+const AuthInput = ({ icon, rightElement, ...props }) => (
   <View style={styles.inputWrap}>
     <FontAwesomeIcon icon={icon} size={15} color="#8f8474" />
     <TextInput
@@ -35,6 +37,7 @@ const AuthInput = ({ icon, ...props }) => (
       placeholderTextColor="#8f8474"
       style={styles.input}
     />
+    {rightElement}
   </View>
 );
 
@@ -45,6 +48,7 @@ const SignUpScreen = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const auth = FIREBASE_AUTH;
 
@@ -142,7 +146,23 @@ const SignUpScreen = () => {
               autoCorrect={false}
               textContentType="newPassword"
               onChangeText={setPassword}
-              secureTextEntry
+              secureTextEntry={!showPassword}
+              rightElement={
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={
+                    showPassword ? "Hide password" : "Show password"
+                  }
+                  onPress={() => setShowPassword((visible) => !visible)}
+                  style={styles.visibilityButton}
+                >
+                  <FontAwesomeIcon
+                    icon={showPassword ? faEyeSlash : faEye}
+                    size={16}
+                    color="#6f665c"
+                  />
+                </Pressable>
+              }
             />
 
             <Pressable
@@ -238,6 +258,13 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     marginLeft: 11,
+  },
+  visibilityButton: {
+    alignItems: "center",
+    height: 40,
+    justifyContent: "center",
+    marginLeft: 8,
+    width: 40,
   },
   primaryButton: {
     alignItems: "center",

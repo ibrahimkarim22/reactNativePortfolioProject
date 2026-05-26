@@ -16,6 +16,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import {
   faCheck,
   faEnvelope,
+  faEye,
+  faEyeSlash,
   faLock,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
@@ -29,7 +31,7 @@ import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 
 const auth = FIREBASE_AUTH;
 
-const AuthInput = ({ icon, ...props }) => (
+const AuthInput = ({ icon, rightElement, ...props }) => (
   <View style={styles.inputWrap}>
     <FontAwesomeIcon icon={icon} size={15} color="#8f8474" />
     <TextInput
@@ -37,6 +39,7 @@ const AuthInput = ({ icon, ...props }) => (
       placeholderTextColor="#8f8474"
       style={styles.input}
     />
+    {rightElement}
   </View>
 );
 
@@ -45,6 +48,7 @@ const AuthLoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [remember, setRemember] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const dispatch = useDispatch();
 
@@ -139,7 +143,23 @@ const AuthLoginScreen = ({ navigation }) => {
               autoCorrect={false}
               textContentType="password"
               onChangeText={setPassword}
-              secureTextEntry
+              secureTextEntry={!showPassword}
+              rightElement={
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={
+                    showPassword ? "Hide password" : "Show password"
+                  }
+                  onPress={() => setShowPassword((visible) => !visible)}
+                  style={styles.visibilityButton}
+                >
+                  <FontAwesomeIcon
+                    icon={showPassword ? faEyeSlash : faEye}
+                    size={16}
+                    color="#6f665c"
+                  />
+                </Pressable>
+              }
             />
 
             <Pressable
@@ -244,6 +264,13 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     marginLeft: 11,
+  },
+  visibilityButton: {
+    alignItems: "center",
+    height: 40,
+    justifyContent: "center",
+    marginLeft: 8,
+    width: 40,
   },
   rememberRow: {
     alignItems: "center",

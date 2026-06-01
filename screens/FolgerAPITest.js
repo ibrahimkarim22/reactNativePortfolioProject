@@ -4,6 +4,7 @@ import HTMLView from "react-native-htmlview";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
 import { ScrollView } from "react-native-gesture-handler";
+import Loader from "../Componenets/Loader";
 
 const Folger = () => {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const Folger = () => {
     <ScrollView style={styles.container}>
       <Text style={styles.headerText}>Home Screen</Text>
       {folger.isLoading ? (
-        <Text>Loading...</Text>
+        <Loader label="Loading BARD" detail="Preparing the library" />
       ) : folger.errMess ? (
         <Text>Error: {folger.errMess}</Text>
       ) : (

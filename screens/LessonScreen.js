@@ -8,6 +8,7 @@ import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { ScrollView } from "react-native-gesture-handler";
 import { useRoute } from "@react-navigation/native";
+import Loader from "../Componenets/Loader";
 
 const Lesson = () => {
   const route = useRoute();
@@ -33,7 +34,10 @@ const Lesson = () => {
   return (
     <ScrollView style={styles.container}>
       {folger.isLoading ? (
-        <Text>Loading...</Text>
+        <Loader
+          label="Opening lesson"
+          detail="Preparing the synopsis and course activity"
+        />
       ) : folger.errMess ? (
         <Text>Error: {folger.errMess}</Text>
       ) : (

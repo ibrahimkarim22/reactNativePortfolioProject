@@ -8,7 +8,7 @@ import {
   useWindowDimensions,
   View,
 } from "react-native";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import {
   faCheck,
@@ -21,6 +21,7 @@ import {
 import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
 import { PLAYS } from "../shared/localPlayService";
+import Loader from "../Componenets/Loader";
 
 const genres = ["All", "Comedy", "Tragedy", "History", "Romance"];
 
@@ -70,6 +71,7 @@ const CourseScreen = () => {
   const navigation = useNavigation();
   const { width } = useWindowDimensions();
   const [selectedGenre, setSelectedGenre] = useState("All");
+  const [heroLoaded, setHeroLoaded] = useState(false);
 
   const completed = useSelector((state) => state.course.completedLevel);
   const plays = useMemo(
@@ -92,6 +94,12 @@ const CourseScreen = () => {
   );
   const isCompact = width < 360;
 
+  useEffect(() => {
+    setHeroLoaded(false);
+    const fallback = setTimeout(() => setHeroLoaded(true), 1200);
+    return () => clearTimeout(fallback);
+  }, [activePlay?.id]);
+
   const handlePlayPress = (play) => {
     if (play.difficulty > completedCount + 1) return;
     navigation.navigate("Lesson", { id: play.id });
@@ -110,7 +118,14 @@ const CourseScreen = () => {
             source={activePlay?.mainImage}
             style={styles.heroImage}
             imageStyle={styles.heroImageStyle}
+            onLoadStart={() => setHeroLoaded(false)}
+            onLoad={() => setHeroLoaded(true)}
+            onLoadEnd={() => setHeroLoaded(true)}
+            onError={() => setHeroLoaded(true)}
           >
+            {!heroLoaded && (
+              <Loader label="Preparing poster" compact overlay />
+            )}
             <View style={styles.heroShade} />
             <View style={styles.heroContent}>
               <View style={styles.heroKickerRow}>
@@ -214,11 +229,18 @@ const Metric = ({ value, label }) => (
 );
 
 const CourseCard = ({ play, status, isCompact, onPress }) => {
+  const [artLoaded, setArtLoaded] = useState(false);
   const tone = getGenreTone(play.genre);
   const locked = status === "locked";
   const completed = status === "completed";
   const active = status === "active";
   const statusIcon = completed ? faCheck : active ? faPlay : faLock;
+
+  useEffect(() => {
+    setArtLoaded(false);
+    const fallback = setTimeout(() => setArtLoaded(true), 1000);
+    return () => clearTimeout(fallback);
+  }, [play.id]);
 
   return (
     <Pressable
@@ -235,7 +257,12 @@ const CourseCard = ({ play, status, isCompact, onPress }) => {
         source={play.mainImage}
         style={[styles.cardArt, isCompact && styles.compactCardArt]}
         imageStyle={styles.cardArtImage}
+        onLoadStart={() => setArtLoaded(false)}
+        onLoad={() => setArtLoaded(true)}
+        onLoadEnd={() => setArtLoaded(true)}
+        onError={() => setArtLoaded(true)}
       >
+        {!artLoaded && <Loader label="Poster" compact overlay />}
         <View style={[styles.cardArtShade, locked && styles.lockedArtShade]} />
       </ImageBackground>
 

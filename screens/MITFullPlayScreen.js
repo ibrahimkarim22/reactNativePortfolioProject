@@ -1,10 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
-import { StyleSheet, ScrollView, Text, ActivityIndicator } from "react-native";
+import { StyleSheet, ScrollView, Text } from "react-native";
 import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
 import { useRoute } from "@react-navigation/native";
+import Loader from "../Componenets/Loader";
 
 const MITFullPlayScreen = () => {
   const route = useRoute();
@@ -20,20 +21,13 @@ const MITFullPlayScreen = () => {
 
   return (
     <ScrollView style={styles.container}>
-      {MIT.isLoading ? (
-        <>
-          <ActivityIndicator size="large" color="hotpink" />
-          <Text style={styles.loadingMsg}>
-            Fetching from Folger.. please wait.. Retry after 1 min
-          </Text>
-        </>
+      {MIT.isLoading || FolgerCharacter.isLoading ? (
+        <Loader
+          label="Opening play"
+          detail="Preparing the full text and dramatis personae"
+        />
       ) : MIT.errMess ? (
-        <>
-          <ActivityIndicator size="large" color="hotpink" />
-          <Text style={styles.loadingMsg}>
-          Fetching from Folger.. please wait.. Retry after 1 min
-          </Text>
-        </>
+        <Text style={styles.loadingMsg}>Unable to load this play.</Text>
       ) : (
         <>
           <HTMLView

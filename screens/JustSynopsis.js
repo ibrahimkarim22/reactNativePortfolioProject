@@ -1,9 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
-import { StyleSheet, ScrollView, Text, ActivityIndicator } from "react-native";
+import { StyleSheet, ScrollView, Text } from "react-native";
 import { useEffect } from "react";
 import HTMLView from "react-native-htmlview";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { fetchFolger } from "../folgerLibrary/folgerSlice";
+import Loader from "../Componenets/Loader";
 
 const Synopsis = () => {
   const route = useRoute();
@@ -19,19 +20,12 @@ const Synopsis = () => {
   return (
     <ScrollView style={styles.container}>
       {synopsis.isLoading ? (
-        <>
-          <ActivityIndicator size="large" color="hotpink" />
-          <Text style={styles.loadingMsg}>
-            Fetching from Folger.. please wait..
-          </Text>
-        </>
+        <Loader
+          label="Opening synopsis"
+          detail="Preparing the story notes"
+        />
       ) : synopsis.errMess ? (
-        <>
-          <ActivityIndicator size="large" color="hotpink" />
-          <Text style={styles.loadingMsg}>
-            Please Reload..
-          </Text>
-        </>
+        <Text style={styles.loadingMsg}>Please reload.</Text>
       ) : (
         <>
           <HTMLView

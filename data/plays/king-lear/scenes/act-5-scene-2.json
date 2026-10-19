@@ -1,260 +1,553 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-5-2",
+    "kind": "scene",
+    "heading": "SCENE II. A field between the two Camps",
     "act": 5,
     "scene": 2,
-    "label": "Act 5, Scene 2",
-    "title": "SCENE II. A field between the two Camps",
-    "location": "A field between the two Camps",
-    "orderInPlay": 25
+    "parentSectionId": "king-lear-act-184786",
+    "orderInPlay": 34,
+    "sourceRef": {
+      "start": 3363603,
+      "end": 3363683,
+      "line": 122950,
+      "column": 1,
+      "path": "chap18/h3@190148",
+      "anchor": "sceneV_18.2"
+    }
   },
   "content": [
     {
-      "id": "king-lear-5-2-stage-001",
+      "id": "king-lear/sceneV_18.2/h3@190148",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. A field between the two Camps",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/h3@190148/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3363603,
+        "end": 3363683,
+        "line": 122950,
+        "column": 1,
+        "path": "chap18/h3@190148",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneV_18.2/p@190232",
       "type": "stage",
-      "text": "Alarum within. Enter with drum and colours, Lear, Cordelia and their Forces, and exeunt."
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum within. Enter with drum and colours, Lear, Cordelia and their Forces, and exeunt.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 44,
+          "end": 58,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@190232/line-1",
+          "start": 0,
+          "end": 88,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3363687,
+        "end": 3363830,
+        "line": 122952,
+        "column": 1,
+        "path": "chap18/p@190232",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-5-2-stage-002",
+      "id": "king-lear/sceneV_18.2/p@190379",
       "type": "stage",
-      "text": "Enter Edgar and Gloucester."
-    },
-    {
-      "id": "king-lear-5-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "edgar",
-        "name": "EDGAR",
-        "displayName": "Edgar"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Edgar and Gloucester.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 26,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-5-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Here, father, take the shadow of this tree",
-          "plainText": "Here father take the shadow of this tree",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-5-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "For your good host; pray that the right may thrive:",
-          "plainText": "For your good host pray that the right may thrive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-5-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "If ever I return to you again,",
-          "plainText": "If ever I return to you again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-5-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "I'll bring you comfort.",
-          "plainText": "I'll bring you comfort",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneV_18.2/p@190379/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3363834,
+        "end": 3363946,
+        "line": 122954,
+        "column": 1,
+        "path": "chap18/p@190379",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-5-2-speech-002",
+      "id": "king-lear/sceneV_18.2/p@190495",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDGAR.\nHere, father, take the shadow of this tree\nFor your good host; pray that the right may thrive:\nIf ever I return to you again,\nI’ll bring you comfort.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-5-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Grace go with you, sir!",
-          "plainText": "Grace go with you sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneV_18.2/p@190495/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190495/line-2",
+          "start": 7,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190495/line-3",
+          "start": 50,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190495/line-4",
+          "start": 102,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190495/line-5",
+          "start": 133,
+          "end": 156,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3363950,
+        "end": 3364151,
+        "line": 122956,
+        "column": 1,
+        "path": "chap18/p@190495",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "EDGAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "king-lear-5-2-stage-003",
+      "id": "king-lear/sceneV_18.2/p@190700",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nGrace go with you, sir!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@190700/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190700/line-2",
+          "start": 12,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3364155,
+        "end": 3364220,
+        "line": 122964,
+        "column": 1,
+        "path": "chap18/p@190700",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "king-lear/sceneV_18.2/p@190769",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Edgar.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@190769/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3364224,
+        "end": 3364295,
+        "line": 122969,
+        "column": 1,
+        "path": "chap18/p@190769",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneV_18.2/p@190844",
       "type": "stage",
-      "text": "[Exit Edgar.]"
-    },
-    {
-      "id": "king-lear-5-2-stage-004",
-      "type": "stage",
-      "text": "Alarum and retreat within. Enter Edgar."
-    },
-    {
-      "id": "king-lear-5-2-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "edgar",
-        "name": "EDGAR",
-        "displayName": "Edgar"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum and retreat within. Enter Edgar.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 33,
+          "end": 38,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-5-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Away, old man, give me thy hand, away!",
-          "plainText": "Away old man give me thy hand away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-5-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "King Lear hath lost, he and his daughter ta'en:",
-          "plainText": "King Lear hath lost he and his daughter ta'en",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-5-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "Give me thy hand; come on!",
-          "plainText": "Give me thy hand come on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneV_18.2/p@190844/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3364299,
+        "end": 3364393,
+        "line": 122971,
+        "column": 1,
+        "path": "chap18/p@190844",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-5-2-speech-004",
+      "id": "king-lear/sceneV_18.2/p@190942",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDGAR.\nAway, old man, give me thy hand, away!\nKing Lear hath lost, he and his daughter ta’en:\nGive me thy hand; come on!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-5-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "No further, sir; a man may rot even here.",
-          "plainText": "No further sir a man may rot even here",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-5-2-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "edgar",
-        "name": "EDGAR",
-        "displayName": "Edgar"
-      },
-      "lines": [
-        {
-          "id": "king-lear-5-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "What, in ill thoughts again? Men must endure",
-          "plainText": "What in ill thoughts again Men must endure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneV_18.2/p@190942/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-5-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "Their going hence, even as their coming hither;",
-          "plainText": "Their going hence even as their coming hither",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneV_18.2/p@190942/line-2",
+          "start": 7,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-5-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "Ripeness is all. Come on.",
-          "plainText": "Ripeness is all Come on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneV_18.2/p@190942/line-3",
+          "start": 46,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@190942/line-4",
+          "start": 94,
+          "end": 120,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3364397,
+        "end": 3364557,
+        "line": 122973,
+        "column": 1,
+        "path": "chap18/p@190942",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "EDGAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "king-lear-5-2-speech-006",
+      "id": "king-lear/sceneV_18.2/p@191106",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nNo further, sir; a man may rot even here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-5-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "And that's true too.",
-          "plainText": "And that's true too",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneV_18.2/p@191106/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@191106/line-2",
+          "start": 12,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3364561,
+        "end": 3364644,
+        "line": 122980,
+        "column": 1,
+        "path": "chap18/p@191106",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "king-lear-5-2-stage-005",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "king-lear/sceneV_18.2/p@191193",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDGAR.\nWhat, in ill thoughts again? Men must endure\nTheir going hence, even as their coming hither;\nRipeness is all. Come on.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@191193/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@191193/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@191193/line-3",
+          "start": 52,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@191193/line-4",
+          "start": 100,
+          "end": 125,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3364648,
+        "end": 3364813,
+        "line": 122985,
+        "column": 1,
+        "path": "chap18/p@191193",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "EDGAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "king-lear/sceneV_18.2/p@191362",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nAnd that’s true too.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@191362/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneV_18.2/p@191362/line-2",
+          "start": 12,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3364817,
+        "end": 3364879,
+        "line": 122992,
+        "column": 1,
+        "path": "chap18/p@191362",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "king-lear/sceneV_18.2/p@191428",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneV_18.2/p@191428/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3364883,
+        "end": 3364920,
+        "line": 122997,
+        "column": 1,
+        "path": "chap18/p@191428",
+        "anchor": "sceneV_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

@@ -1,1951 +1,4010 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "much-ado-about-nothing",
-    "title": "Much Ado About Nothing",
+    "title": "MUCH ADO ABOUT NOTHING",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap25"
   },
-  "scene": {
+  "section": {
     "id": "much-ado-about-nothing-2-3",
+    "kind": "scene",
+    "heading": "SCENE III. Leonato’s Garden.",
     "act": 2,
     "scene": 3,
-    "label": "Act 2, Scene 3",
-    "title": "SCENE III. Leonato's Garden.",
-    "location": "Leonato's Garden.",
-    "orderInPlay": 6
+    "parentSectionId": "much-ado-about-nothing-act-27490",
+    "orderInPlay": 12,
+    "sourceRef": {
+      "start": 4408108,
+      "end": 4408179,
+      "line": 163144,
+      "column": 1,
+      "path": "chap25/h3@53027",
+      "anchor": "sceneII_25.3"
+    }
   },
   "content": [
     {
-      "id": "much-ado-about-nothing-2-3-stage-001",
+      "id": "much-ado-about-nothing/sceneII_25.3/h3@53027",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Leonato’s Garden.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/h3@53027/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4408108,
+        "end": 4408179,
+        "line": 163144,
+        "column": 1,
+        "path": "chap25/h3@53027",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53102",
       "type": "stage",
-      "text": "Enter Benedick."
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Benedick.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Boy!",
-          "plainText": "Boy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53102/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4408183,
+        "end": 4408257,
+        "line": 163147,
+        "column": 1,
+        "path": "chap25/p@53102",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-stage-002",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53180",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nBoy!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53180/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53180/line-2",
+          "start": 10,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4408261,
+        "end": 4408305,
+        "line": 163151,
+        "column": 1,
+        "path": "chap25/p@53180",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53228",
       "type": "stage",
-      "text": "Enter a Boy."
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "boy",
-        "name": "BOY",
-        "displayName": "Boy"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Boy.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Signior?",
-          "plainText": "Signior",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53228/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4408309,
+        "end": 4408380,
+        "line": 163156,
+        "column": 1,
+        "path": "chap25/p@53228",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-003",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53303",
       "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BOY.\nSignior?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "In my chamber window lies a book; bring it hither to me in the orchard.",
-          "plainText": "In my chamber window lies a book bring it hither to me in the orchard",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53303/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53303/line-2",
+          "start": 5,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4408384,
+        "end": 4408427,
+        "line": 163160,
+        "column": 1,
+        "path": "chap25/p@53303",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BOY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-004",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53350",
       "type": "speech",
-      "speaker": {
-        "id": "boy",
-        "name": "BOY",
-        "displayName": "Boy"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nIn my chamber window lies a book; bring it hither to me in the orchard.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "I am here already, sir.",
-          "plainText": "I am here already sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53350/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53350/line-2",
+          "start": 10,
+          "end": 81,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4408431,
+        "end": 4408542,
+        "line": 163165,
+        "column": 1,
+        "path": "chap25/p@53350",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-005",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53465",
       "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BOY.\nI am here already, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "I know that; but I would have thee hence, and here again.",
-          "plainText": "I know that but I would have thee hence and here again",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53465/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53465/line-2",
+          "start": 5,
+          "end": 28,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4408546,
+        "end": 4408604,
+        "line": 163170,
+        "column": 1,
+        "path": "chap25/p@53465",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BOY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-stage-003",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53527",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nI know that; but I would have thee hence, and here again.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53527/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53527/line-2",
+          "start": 10,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4408608,
+        "end": 4408705,
+        "line": 163175,
+        "column": 1,
+        "path": "chap25/p@53527",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53628",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Boy.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 9,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 10
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53628/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4408709,
+        "end": 4408782,
+        "line": 163180,
+        "column": 1,
+        "path": "chap25/p@53628",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@53705",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I do much wonder that one man, seeing how much another man is a fool when he dedicates his behaviours to love, will, after he hath laughed at such shallow follies in others, become the argument of his own scorn by falling in love: and such a man is Claudio. I have known, when there was no music with him but the drum and the fife; and now had he rather hear the tabor and the pipe: I have known when he would have walked ten mile afoot to see a good armour; and now will he lie ten nights awake, carving the fashion of a new doublet. He was wont to speak plain and to the purpose, like an honest man and a soldier; and now is he turned orthography; his words are a very fantastical banquet, just so many strange dishes. May I be so converted, and see with these eyes? I cannot tell; I think not: I will not be sworn but love may transform me to an oyster; but I’ll take my oath on it, till he have made an oyster of me, he shall never make me such a fool. One woman is fair, yet I am well; another is wise, yet I am well; another virtuous, yet I am well; but till all graces be in one woman, one woman shall not come in my grace. Rich she shall be, that’s certain; wise, or I’ll none; virtuous, or I’ll never cheapen her; fair, or I’ll never look on her; mild, or come not near me; noble, or not I for an angel; of good discourse, an excellent musician, and her hair shall be of what colour it please God. Ha! the Prince and Monsieur Love! I will hide me in the arbour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@53705/line-1",
+          "start": 0,
+          "end": 1470,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4408786,
+        "end": 4410300,
+        "line": 163184,
+        "column": 1,
+        "path": "chap25/p@53705",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55223",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Withdraws.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55223/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410304,
+        "end": 4410348,
+        "line": 163207,
+        "column": 1,
+        "path": "chap25/p@55223",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55271",
       "type": "stage",
-      "text": "[Exit Boy.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Don Pedro, Leonato and Claudio, followed by Balthasar and Musicians.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 29,
+          "end": 36,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 50,
+          "end": 59,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55271/line-1",
+          "start": 0,
+          "end": 74,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410352,
+        "end": 4410545,
+        "line": 163211,
+        "column": 1,
+        "path": "chap25/p@55271",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-stage-004",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55468",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nCome, shall we hear this music?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55468/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55468/line-2",
+          "start": 11,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410549,
+        "end": 4410621,
+        "line": 163215,
+        "column": 1,
+        "path": "chap25/p@55468",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55544",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nYea, my good lord. How still the evening is,\nAs hush’d on purpose to grace harmony!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55544/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55544/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55544/line-3",
+          "start": 54,
+          "end": 92,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410625,
+        "end": 4410752,
+        "line": 163220,
+        "column": 1,
+        "path": "chap25/p@55544",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55675",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nSee you where Benedick hath hid himself?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55675/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55675/line-2",
+          "start": 11,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410756,
+        "end": 4410837,
+        "line": 163226,
+        "column": 1,
+        "path": "chap25/p@55675",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55760",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nO! very well, my lord: the music ended,\nWe’ll fit the kid-fox with a penny-worth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55760/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55760/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55760/line-3",
+          "start": 49,
+          "end": 90,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410841,
+        "end": 4410966,
+        "line": 163231,
+        "column": 1,
+        "path": "chap25/p@55760",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55889",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nCome, Balthasar, we’ll hear that song again.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55889/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55889/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4410970,
+        "end": 4411055,
+        "line": 163237,
+        "column": 1,
+        "path": "chap25/p@55889",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@55978",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR.\nO! good my lord, tax not so bad a voice\nTo slander music any more than once.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55978/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55978/line-2",
+          "start": 11,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@55978/line-3",
+          "start": 51,
+          "end": 87,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411059,
+        "end": 4411181,
+        "line": 163242,
+        "column": 1,
+        "path": "chap25/p@55978",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56104",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nIt is the witness still of excellency,\nTo put a strange face on his own perfection.\nI pray thee, sing, and let me woo no more.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56104/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56104/line-2",
+          "start": 11,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56104/line-3",
+          "start": 50,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56104/line-4",
+          "start": 95,
+          "end": 137,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411185,
+        "end": 4411362,
+        "line": 163248,
+        "column": 1,
+        "path": "chap25/p@56104",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56285",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR.\nBecause you talk of wooing, I will sing;\nSince many a wooer doth commence his suit\nTo her he thinks not worthy; yet he wooes;\nYet will he swear he loves.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-2",
+          "start": 11,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-3",
+          "start": 52,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-4",
+          "start": 94,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-5",
+          "start": 137,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56285/line-6",
+          "start": 165,
+          "end": 165,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411366,
+        "end": 4411579,
+        "line": 163255,
+        "column": 1,
+        "path": "chap25/p@56285",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56502",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nNay, pray thee come;\nOr if thou wilt hold longer argument,\nDo it in notes.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56502/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56502/line-2",
+          "start": 11,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56502/line-3",
+          "start": 32,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56502/line-4",
+          "start": 70,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56502/line-5",
+          "start": 86,
+          "end": 86,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411583,
+        "end": 4411712,
+        "line": 163263,
+        "column": 1,
+        "path": "chap25/p@56502",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56635",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR.\nNote this before my notes;\nThere’s not a note of mine that’s worth the noting.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56635/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56635/line-2",
+          "start": 11,
+          "end": 37,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56635/line-3",
+          "start": 38,
+          "end": 89,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411716,
+        "end": 4411840,
+        "line": 163270,
+        "column": 1,
+        "path": "chap25/p@56635",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56763",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nWhy these are very crotchets that he speaks;\nNotes, notes, forsooth, and nothing!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56763/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56763/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56763/line-3",
+          "start": 56,
+          "end": 92,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411844,
+        "end": 4411971,
+        "line": 163276,
+        "column": 1,
+        "path": "chap25/p@56763",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56894",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Music.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56894/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4411975,
+        "end": 4412015,
+        "line": 163282,
+        "column": 1,
+        "path": "chap25/p@56894",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@56938",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nNow, divine air! now is his soul ravished! Is it not strange that sheep’s guts should hale souls out of men’s bodies? Well, a horn for my money, when all’s done.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56938/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@56938/line-2",
+          "start": 10,
+          "end": 171,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4412019,
+        "end": 4412222,
+        "line": 163286,
+        "column": 1,
+        "path": "chap25/p@56938",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@57145",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR [sings.]\n   Sigh no more, ladies, sigh no more,\n     Men were deceivers ever;\n   One foot in sea, and one on shore,\n     To one thing constant never.\n       Then sigh not so, but let them go,\n     And be you blithe and bonny,\n   Converting all your sounds of woe\n     Into Hey nonny, nonny.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-2",
+          "start": 19,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-3",
+          "start": 58,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-4",
+          "start": 88,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-5",
+          "start": 126,
+          "end": 159,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-6",
+          "start": 160,
+          "end": 201,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-7",
+          "start": 202,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-8",
+          "start": 236,
+          "end": 272,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57145/line-9",
+          "start": 273,
+          "end": 300,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4412226,
+        "end": 4412598,
+        "line": 163293,
+        "column": 1,
+        "path": "chap25/p@57145",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@57521",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "   Sing no more ditties, sing no mo\n     Of dumps so dull and heavy;\n   The fraud of men was ever so,\n     Since summer first was leavy.\n       Then sigh not so, but let them go,\n     And be you blithe and bonny,\n   Converting all your sounds of woe\n     Into Hey nonny, nonny.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-2",
+          "start": 36,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-3",
+          "start": 69,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-4",
+          "start": 102,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-5",
+          "start": 137,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-6",
+          "start": 179,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-7",
+          "start": 213,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57521/line-8",
+          "start": 250,
+          "end": 277,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4412602,
+        "end": 4412939,
+        "line": 163305,
+        "column": 1,
+        "path": "chap25/p@57521",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@57862",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nBy my troth, a good song.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57862/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57862/line-2",
+          "start": 11,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4412943,
+        "end": 4413009,
+        "line": 163316,
+        "column": 1,
+        "path": "chap25/p@57862",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@57932",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR.\nAnd an ill singer, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57932/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@57932/line-2",
+          "start": 11,
+          "end": 38,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413013,
+        "end": 4413081,
+        "line": 163321,
+        "column": 1,
+        "path": "chap25/p@57932",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58004",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nHa, no, no, faith; thou singest well enough for a shift.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58004/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58004/line-2",
+          "start": 11,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413085,
+        "end": 4413182,
+        "line": 163326,
+        "column": 1,
+        "path": "chap25/p@58004",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58105",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\n[Aside] And he had been a dog that should have howled thus, they would have hanged him; and I pray God his bad voice bode no mischief. I had as lief have heard the night-raven, come what plague could have come after it.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58105/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58105/line-2",
+          "start": 10,
+          "end": 229,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413186,
+        "end": 4413454,
+        "line": 163331,
+        "column": 1,
+        "path": "chap25/p@58105",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58377",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO. Yea, marry; dost thou hear, Balthasar? I pray thee, get us some excellent music, for tomorrow night we would have it at the Lady Hero’s chamber window.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58377/line-1",
+          "start": 0,
+          "end": 162,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413458,
+        "end": 4413647,
+        "line": 163338,
+        "column": 1,
+        "path": "chap25/p@58377",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58570",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BALTHASAR.\nThe best I can, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58570/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58570/line-2",
+          "start": 11,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413651,
+        "end": 4413715,
+        "line": 163344,
+        "column": 1,
+        "path": "chap25/p@58570",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BALTHASAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58638",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nDo so: farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58638/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58638/line-2",
+          "start": 11,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413719,
+        "end": 4413775,
+        "line": 163348,
+        "column": 1,
+        "path": "chap25/p@58638",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58698",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Balthasar and Musicians.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 32
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58698/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413779,
+        "end": 4413874,
+        "line": 163352,
+        "column": 1,
+        "path": "chap25/p@58698",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58797",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Come hither, Leonato: what was it you told me of today, that your niece Beatrice was in love with Signior Benedick?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58797/line-1",
+          "start": 0,
+          "end": 115,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4413878,
+        "end": 4414019,
+        "line": 163356,
+        "column": 1,
+        "path": "chap25/p@58797",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@58942",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nO! ay:—[Aside to Don Pedro] Stalk on, stalk on; the fowl sits. I did never think that lady would have loved any man.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 17,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58942/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@58942/line-2",
+          "start": 9,
+          "end": 125,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414023,
+        "end": 4414186,
+        "line": 163361,
+        "column": 1,
+        "path": "chap25/p@58942",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59109",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nNo, nor I neither; but most wonderful that she should so dote on Signior Benedick, whom she hath in all outward behaviours seemed ever to abhor.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59109/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59109/line-2",
+          "start": 9,
+          "end": 153,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414190,
+        "end": 4414374,
+        "line": 163367,
+        "column": 1,
+        "path": "chap25/p@59109",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59297",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\n[Aside] Is’t possible? Sits the wind in that corner?",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59297/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59297/line-2",
+          "start": 10,
+          "end": 62,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414378,
+        "end": 4414477,
+        "line": 163373,
+        "column": 1,
+        "path": "chap25/p@59297",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59400",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nBy my troth, my lord, I cannot tell what to think of it but that she loves him with an enraged affection: it is past the infinite of thought.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59400/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59400/line-2",
+          "start": 9,
+          "end": 150,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414481,
+        "end": 4414662,
+        "line": 163378,
+        "column": 1,
+        "path": "chap25/p@59400",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59585",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nMaybe she doth but counterfeit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59585/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59585/line-2",
+          "start": 11,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414666,
+        "end": 4414738,
+        "line": 163384,
+        "column": 1,
+        "path": "chap25/p@59585",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59661",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nFaith, like enough.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59661/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59661/line-2",
+          "start": 9,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414742,
+        "end": 4414800,
+        "line": 163389,
+        "column": 1,
+        "path": "chap25/p@59661",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59723",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nO God! counterfeit! There was never counterfeit of passion came so near the life of passion as she discovers it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59723/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59723/line-2",
+          "start": 9,
+          "end": 121,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414804,
+        "end": 4414956,
+        "line": 163394,
+        "column": 1,
+        "path": "chap25/p@59723",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59879",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nWhy, what effects of passion shows she?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59879/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59879/line-2",
+          "start": 11,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4414960,
+        "end": 4415040,
+        "line": 163400,
+        "column": 1,
+        "path": "chap25/p@59879",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@59963",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\n[Aside] Bait the hook well: this fish will bite.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 10,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59963/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@59963/line-2",
+          "start": 9,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415044,
+        "end": 4415137,
+        "line": 163405,
+        "column": 1,
+        "path": "chap25/p@59963",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60060",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nWhat effects, my lord? She will sit you; [To Claudio] You heard my daughter tell you how.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 51,
+          "end": 61
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60060/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60060/line-2",
+          "start": 9,
+          "end": 98,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415141,
+        "end": 4415277,
+        "line": 163409,
+        "column": 1,
+        "path": "chap25/p@60060",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60200",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nShe did, indeed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60200/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60200/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415281,
+        "end": 4415336,
+        "line": 163415,
+        "column": 1,
+        "path": "chap25/p@60200",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60259",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nHow, how, I pray you? You amaze me: I would have thought her spirit had been invincible against all assaults of affection.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60259/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60259/line-2",
+          "start": 11,
+          "end": 133,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415340,
+        "end": 4415504,
+        "line": 163420,
+        "column": 1,
+        "path": "chap25/p@60259",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60427",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nI would have sworn it had, my lord; especially against Benedick.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60427/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60427/line-2",
+          "start": 9,
+          "end": 73,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415508,
+        "end": 4415611,
+        "line": 163426,
+        "column": 1,
+        "path": "chap25/p@60427",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60534",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\n[Aside] I should think this a gull, but that the white-bearded fellow speaks it: knavery cannot, sure, hide itself in such reverence.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60534/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60534/line-2",
+          "start": 10,
+          "end": 143,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415615,
+        "end": 4415796,
+        "line": 163431,
+        "column": 1,
+        "path": "chap25/p@60534",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60719",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\n[Aside] He hath ta’en the infection: hold it up.\n",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 10,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60719/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60719/line-2",
+          "start": 9,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60719/line-3",
+          "start": 58,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415800,
+        "end": 4415898,
+        "line": 163437,
+        "column": 1,
+        "path": "chap25/p@60719",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60821",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nHath she made her affection known to Benedick?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60821/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60821/line-2",
+          "start": 11,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415902,
+        "end": 4415989,
+        "line": 163442,
+        "column": 1,
+        "path": "chap25/p@60821",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@60912",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nNo; and swears she never will: that’s her torment.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60912/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@60912/line-2",
+          "start": 9,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4415993,
+        "end": 4416082,
+        "line": 163447,
+        "column": 1,
+        "path": "chap25/p@60912",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61005",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\n’Tis true, indeed; so your daughter says: ‘Shall I,’ says she, ‘that have so oft encountered him with scorn, write to him that I love him?’",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61005/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61005/line-2",
+          "start": 9,
+          "end": 148,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416086,
+        "end": 4416266,
+        "line": 163452,
+        "column": 1,
+        "path": "chap25/p@61005",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61189",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nThis says she now when she is beginning to write to him; for she’ll be up twenty times a night, and there will she sit in her smock till she have writ a sheet of paper: my daughter tells us all.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61189/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61189/line-2",
+          "start": 9,
+          "end": 203,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416270,
+        "end": 4416505,
+        "line": 163459,
+        "column": 1,
+        "path": "chap25/p@61189",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61428",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nNow you talk of a sheet of paper, I remember a pretty jest your daughter told us of.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61428/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61428/line-2",
+          "start": 9,
+          "end": 93,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416509,
+        "end": 4416633,
+        "line": 163466,
+        "column": 1,
+        "path": "chap25/p@61428",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61556",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nO! when she had writ it, and was reading it over, she found Benedick and Beatrice between the sheet?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61556/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61556/line-2",
+          "start": 9,
+          "end": 109,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416637,
+        "end": 4416777,
+        "line": 163472,
+        "column": 1,
+        "path": "chap25/p@61556",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61700",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nThat.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61700/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61700/line-2",
+          "start": 9,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416781,
+        "end": 4416825,
+        "line": 163478,
+        "column": 1,
+        "path": "chap25/p@61700",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@61748",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nO! she tore the letter into a thousand halfpence; railed at herself, that she should be so immodest to write to one that she knew would flout her: ‘I measure him,’ says she, ‘by my own spirit; for I should flout him, if he writ to me; yea, though I love him, I should.’",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61748/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@61748/line-2",
+          "start": 9,
+          "end": 278,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4416829,
+        "end": 4417140,
+        "line": 163483,
+        "column": 1,
+        "path": "chap25/p@61748",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62063",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nThen down upon her knees she falls, weeps, sobs, beats her heart, tears her hair, prays, curses; ‘O sweet Benedick! God give me patience!’",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62063/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62063/line-2",
+          "start": 9,
+          "end": 147,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417144,
+        "end": 4417322,
+        "line": 163491,
+        "column": 1,
+        "path": "chap25/p@62063",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62245",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nShe doth indeed; my daughter says so; and the ecstasy hath so much overborne her, that my daughter is sometimes afeard she will do a desperate outrage to herself. It is very true.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62245/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62245/line-2",
+          "start": 9,
+          "end": 188,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417326,
+        "end": 4417546,
+        "line": 163497,
+        "column": 1,
+        "path": "chap25/p@62245",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62469",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nIt were good that Benedick knew of it by some other, if she will not discover it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62469/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62469/line-2",
+          "start": 11,
+          "end": 92,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417550,
+        "end": 4417673,
+        "line": 163504,
+        "column": 1,
+        "path": "chap25/p@62469",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62596",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nTo what end? he would make but a sport of it and torment the poor lady worse.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62596/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62596/line-2",
+          "start": 9,
+          "end": 86,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417677,
+        "end": 4417793,
+        "line": 163510,
+        "column": 1,
+        "path": "chap25/p@62596",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62716",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nAnd he should, it were an alms to hang him. She’s an excellent sweet lady, and, out of all suspicion, she is virtuous.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62716/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62716/line-2",
+          "start": 11,
+          "end": 129,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417797,
+        "end": 4417957,
+        "line": 163515,
+        "column": 1,
+        "path": "chap25/p@62716",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62880",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nAnd she is exceeding wise.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62880/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62880/line-2",
+          "start": 9,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4417961,
+        "end": 4418026,
+        "line": 163521,
+        "column": 1,
+        "path": "chap25/p@62880",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@62949",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nIn everything but in loving Benedick.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62949/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@62949/line-2",
+          "start": 11,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418030,
+        "end": 4418108,
+        "line": 163526,
+        "column": 1,
+        "path": "chap25/p@62949",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@63031",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nO! my lord, wisdom and blood combating in so tender a body, we have ten proofs to one that blood hath the victory. I am sorry for her, as I have just cause, being her uncle and her guardian.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63031/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63031/line-2",
+          "start": 9,
+          "end": 199,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418112,
+        "end": 4418343,
+        "line": 163531,
+        "column": 1,
+        "path": "chap25/p@63031",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@63266",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nI would she had bestowed this dotage on me; I would have daffed all other respects and made her half myself. I pray you, tell Benedick of it, and hear what he will say.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63266/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63266/line-2",
+          "start": 11,
+          "end": 179,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418347,
+        "end": 4418558,
+        "line": 163538,
+        "column": 1,
+        "path": "chap25/p@63266",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@63481",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nWere it good, think you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63481/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63481/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418562,
+        "end": 4418625,
+        "line": 163545,
+        "column": 1,
+        "path": "chap25/p@63481",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@63548",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nHero thinks surely she will die; for she says she will die if he love her not, and she will die ere she make her love known, and she will die if he woo her, rather than she will bate one breath of her accustomed crossness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63548/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63548/line-2",
+          "start": 9,
+          "end": 231,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418629,
+        "end": 4418892,
+        "line": 163550,
+        "column": 1,
+        "path": "chap25/p@63548",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@63815",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nShe doth well: if she should make tender of her love, ’tis very possible he’ll scorn it; for the man,—as you know all,—hath a contemptible spirit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63815/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@63815/line-2",
+          "start": 11,
+          "end": 157,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4418896,
+        "end": 4419084,
+        "line": 163557,
+        "column": 1,
+        "path": "chap25/p@63815",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64007",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nHe is a very proper man.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64007/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64007/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419088,
+        "end": 4419151,
+        "line": 163563,
+        "column": 1,
+        "path": "chap25/p@64007",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64074",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nHe hath indeed a good outward happiness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64074/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64074/line-2",
+          "start": 11,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419155,
+        "end": 4419236,
+        "line": 163568,
+        "column": 1,
+        "path": "chap25/p@64074",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64159",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\n’Fore God, and in my mind, very wise.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64159/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64159/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419240,
+        "end": 4419316,
+        "line": 163573,
+        "column": 1,
+        "path": "chap25/p@64159",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64239",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nHe doth indeed show some sparks that are like wit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64239/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64239/line-2",
+          "start": 11,
+          "end": 61,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419320,
+        "end": 4419411,
+        "line": 163578,
+        "column": 1,
+        "path": "chap25/p@64239",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64334",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nAnd I take him to be valiant.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64334/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64334/line-2",
+          "start": 9,
+          "end": 38,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419415,
+        "end": 4419483,
+        "line": 163583,
+        "column": 1,
+        "path": "chap25/p@64334",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64406",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nAs Hector, I assure you: and in the managing of quarrels you may say he is wise; for either he avoids them with great discretion, or undertakes them with a most Christian-like fear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64406/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64406/line-2",
+          "start": 11,
+          "end": 192,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419487,
+        "end": 4419711,
+        "line": 163588,
+        "column": 1,
+        "path": "chap25/p@64406",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64634",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nIf he do fear God, a’ must necessarily keep peace: if he break the peace, he ought to enter into a quarrel with fear and trembling.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64634/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64634/line-2",
+          "start": 9,
+          "end": 140,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419715,
+        "end": 4419886,
+        "line": 163595,
+        "column": 1,
+        "path": "chap25/p@64634",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@64809",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nAnd so will he do; for the man doth fear God, howsoever it seems not in him by some large jests he will make. Well, I am sorry for your niece. Shall we go seek Benedick and tell him of her love?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64809/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@64809/line-2",
+          "start": 11,
+          "end": 205,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4419890,
+        "end": 4420127,
+        "line": 163601,
+        "column": 1,
+        "path": "chap25/p@64809",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65050",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\nNever tell him, my lord: let her wear it out with good counsel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65050/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65050/line-2",
+          "start": 9,
+          "end": 72,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420131,
+        "end": 4420233,
+        "line": 163608,
+        "column": 1,
+        "path": "chap25/p@65050",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65156",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nNay, that’s impossible: she may wear her heart out first.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65156/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65156/line-2",
+          "start": 9,
+          "end": 66,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420237,
+        "end": 4420333,
+        "line": 163613,
+        "column": 1,
+        "path": "chap25/p@65156",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65256",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\nWell, we will hear further of it by your daughter: let it cool the while. I love Benedick well, and I could wish he would modestly examine himself, to see how much he is unworthy so good a lady.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65256/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65256/line-2",
+          "start": 11,
+          "end": 205,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420337,
+        "end": 4420574,
+        "line": 163618,
+        "column": 1,
+        "path": "chap25/p@65256",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65497",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEONATO.\nMy lord, will you walk? dinner is ready.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65497/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65497/line-2",
+          "start": 9,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420578,
+        "end": 4420657,
+        "line": 163625,
+        "column": 1,
+        "path": "chap25/p@65497",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "LEONATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65580",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLAUDIO.\n[Aside] If he do not dote on her upon this, I will never trust my expectation.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 10,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65580/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65580/line-2",
+          "start": 9,
+          "end": 87,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420661,
+        "end": 4420786,
+        "line": 163630,
+        "column": 1,
+        "path": "chap25/p@65580",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "CLAUDIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@65709",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DON PEDRO.\n[Aside] Let there be the same net spread for her; and that must your daughter and her gentlewoman carry. The sport will be, when they hold one an opinion of another’s dotage, and no such matter: that’s the scene that I would see, which will be merely a dumb show. Let us send her to call him in to dinner.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 12,
+          "end": 17
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65709/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@65709/line-2",
+          "start": 11,
+          "end": 316,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4420790,
+        "end": 4421147,
+        "line": 163636,
+        "column": 1,
+        "path": "chap25/p@65709",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "DON PEDRO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@66070",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Don Pedro, Claudio and Leonato.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 26,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 39,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 39
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@66070/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4421151,
+        "end": 4421283,
+        "line": 163645,
+        "column": 1,
+        "path": "chap25/p@66070",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@66206",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\n[Advancing from the arbour.] This can be no trick: the conference was sadly borne. They have the truth of this from Hero. They seem to pity the lady: it seems her affections have their full bent. Love me? why, it must be requited. I hear how I am censured: they say I will bear myself proudly, if I perceive the love come from her; they say too that she will rather die than give any sign of affection. I did never think to marry: I must not seem proud: happy are they that hear their detractions, and can put them to mending. They say the lady is fair: ’tis a truth, I can bear them witness; and virtuous: ’tis so, I cannot reprove it; and wise, but for loving me: by my troth, it is no addition to her wit, nor no great argument of her folly, for I will be horribly in love with her. I may chance have some odd quirks and remnants of wit broken on me, because I have railed so long against marriage; but doth not the appetite alter? A man loves the meat in his youth that he cannot endure in his age. Shall quips and sentences and these paper bullets of the brain awe a man from the career of his humour? No; the world must be peopled. When I said I would die a bachelor, I did not think I should live till I were married. Here comes Beatrice. By this day! she’s a fair lady: I do spy some marks of love in her.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 37
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@66206/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@66206/line-2",
+          "start": 10,
+          "end": 1323,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4421287,
+        "end": 4422664,
+        "line": 163649,
+        "column": 1,
+        "path": "chap25/p@66206",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@67587",
       "type": "stage",
-      "text": "[Withdraws.]"
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-005",
-      "type": "stage",
-      "text": "Enter Don Pedro, Leonato and Claudio, followed by Balthasar and Musicians."
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Beatrice.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Come, shall we hear this music?",
-          "plainText": "Come shall we hear this music",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
+      ],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Yea, my good lord. How still the evening is,",
-          "plainText": "Yea my good lord How still the evening is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67587/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4422668,
+        "end": 4422742,
+        "line": 163671,
+        "column": 1,
+        "path": "chap25/p@67587",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@67665",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BEATRICE.\nAgainst my will I am sent to bid you come in to dinner.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67665/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "As hush'd on purpose to grace harmony!",
-          "plainText": "As hush'd on purpose to grace harmony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67665/line-2",
+          "start": 10,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4422746,
+        "end": 4422841,
+        "line": 163675,
+        "column": 1,
+        "path": "chap25/p@67665",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BEATRICE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-008",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@67764",
       "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nFair Beatrice, I thank you for your pains.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "See you where Benedick hath hid himself?",
-          "plainText": "See you where Benedick hath hid himself",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "O! very well, my lord: the music ended,",
-          "plainText": "O very well my lord the music ended",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67764/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "We'll fit the kid-fox with a penny-worth.",
-          "plainText": "We'll fit the kidfox with a pennyworth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67764/line-2",
+          "start": 10,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4422845,
+        "end": 4422927,
+        "line": 163680,
+        "column": 1,
+        "path": "chap25/p@67764",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-010",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@67850",
       "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BEATRICE.\nI took no more pains for those thanks than you take pains to thank me: if it had been painful, I would not have come.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Come, Balthasar, we'll hear that song again.",
-          "plainText": "Come Balthasar we'll hear that song again",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "balthasar",
-        "name": "BALTHASAR",
-        "displayName": "Balthasar"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "O! good my lord, tax not so bad a voice",
-          "plainText": "O good my lord tax not so bad a voice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67850/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 2,
-          "text": "To slander music any more than once.",
-          "plainText": "To slander music any more than once",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@67850/line-2",
+          "start": 10,
+          "end": 127,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4422931,
+        "end": 4423089,
+        "line": 163685,
+        "column": 1,
+        "path": "chap25/p@67850",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BEATRICE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-012",
+      "id": "much-ado-about-nothing/sceneII_25.3/p@68012",
       "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nYou take pleasure then in the message?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "It is the witness still of excellency,",
-          "plainText": "It is the witness still of excellency",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68012/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "To put a strange face on his own perfection.",
-          "plainText": "To put a strange face on his own perfection",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68012/line-2",
+          "start": 10,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4423093,
+        "end": 4423171,
+        "line": 163691,
+        "column": 1,
+        "path": "chap25/p@68012",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@68094",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BEATRICE.\nYea, just so much as you may take upon a knife’s point, and choke a daw withal. You have no stomach, signior: fare you well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68094/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 3,
-          "text": "I pray thee, sing, and let me woo no more.",
-          "plainText": "I pray thee sing and let me woo no more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68094/line-2",
+          "start": 10,
+          "end": 134,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4423175,
+        "end": 4423340,
+        "line": 163696,
+        "column": 1,
+        "path": "chap25/p@68094",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BEATRICE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "much-ado-about-nothing-2-3-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "balthasar",
-        "name": "BALTHASAR",
-        "displayName": "Balthasar"
-      },
+      "id": "much-ado-about-nothing/sceneII_25.3/p@68263",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
       "lines": [
         {
-          "id": "much-ado-about-nothing-2-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Because you talk of wooing, I will sing;",
-          "plainText": "Because you talk of wooing I will sing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68263/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4423344,
+        "end": 4423383,
+        "line": 163702,
+        "column": 1,
+        "path": "chap25/p@68263",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@68306",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENEDICK.\nHa! ‘Against my will I am sent to bid you come in to dinner,’ there’s a double meaning in that. ‘I took no more pains for those thanks than you took pains to thank me,’ that’s as much as to say, Any pains that I take for you is as easy as thanks. If I do not take pity of her, I am a villain; if I do not love her, I am a Jew. I will go get her picture.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68306/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "much-ado-about-nothing-2-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "Since many a wooer doth commence his suit",
-          "plainText": "Since many a wooer doth commence his suit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "To her he thinks not worthy; yet he wooes;",
-          "plainText": "To her he thinks not worthy yet he wooes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 4,
-          "text": "Yet will he swear he loves.",
-          "plainText": "Yet will he swear he loves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Nay, pray thee come;",
-          "plainText": "Nay pray thee come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "Or if thou wilt hold longer argument,",
-          "plainText": "Or if thou wilt hold longer argument",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "Do it in notes.",
-          "plainText": "Do it in notes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "balthasar",
-        "name": "BALTHASAR",
-        "displayName": "Balthasar"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Note this before my notes;",
-          "plainText": "Note this before my notes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "There's not a note of mine that's worth the noting.",
-          "plainText": "There's not a note of mine that's worth the noting",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Why these are very crotchets that he speaks;",
-          "plainText": "Why these are very crotchets that he speaks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "much-ado-about-nothing-2-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "Notes, notes, forsooth, and nothing!",
-          "plainText": "Notes notes forsooth and nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-006",
-      "type": "stage",
-      "text": "[Music.]"
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Now, divine air! now is his soul ravished! Is it not strange that sheep's guts should hale souls out of men's bodies? Well, a horn for my money, when all's done.",
-          "plainText": "Now divine air now is his soul ravished Is it not strange that sheep's guts should hale souls out of men's bodies Well a horn for my money when all's done",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "By my troth, a good song.",
-          "plainText": "By my troth a good song",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "balthasar",
-        "name": "BALTHASAR",
-        "displayName": "Balthasar"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "And an ill singer, my lord.",
-          "plainText": "And an ill singer my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Ha, no, no, faith; thou singest well enough for a shift.",
-          "plainText": "Ha no no faith thou singest well enough for a shift",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "[Aside] And he had been a dog that should have howled thus, they would have hanged him; and I pray God his bad voice bode no mischief. I had as lief have heard the night-raven, come what plague could have come after it.",
-          "plainText": "Aside And he had been a dog that should have howled thus they would have hanged him and I pray God his bad voice bode no mischief I had as lief have heard the nightraven come what plague could have come after it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "balthasar",
-        "name": "BALTHASAR",
-        "displayName": "Balthasar"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "The best I can, my lord.",
-          "plainText": "The best I can my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Do so: farewell.",
-          "plainText": "Do so farewell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-007",
-      "type": "stage",
-      "text": "[Exeunt Balthasar and Musicians.]"
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "O! ay:—[Aside to Don Pedro] Stalk on, stalk on; the fowl sits. I did never think that lady would have loved any man.",
-          "plainText": "O ayAside to Don Pedro Stalk on stalk on the fowl sits I did never think that lady would have loved any man",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "No, nor I neither; but most wonderful that she should so dote on Signior Benedick, whom she hath in all outward behaviours seemed ever to abhor.",
-          "plainText": "No nor I neither but most wonderful that she should so dote on Signior Benedick whom she hath in all outward behaviours seemed ever to abhor",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "[Aside] Is't possible? Sits the wind in that corner?",
-          "plainText": "Aside Is't possible Sits the wind in that corner",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "By my troth, my lord, I cannot tell what to think of it but that she loves him with an enraged affection: it is past the infinite of thought.",
-          "plainText": "By my troth my lord I cannot tell what to think of it but that she loves him with an enraged affection it is past the infinite of thought",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Maybe she doth but counterfeit.",
-          "plainText": "Maybe she doth but counterfeit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "Faith, like enough.",
-          "plainText": "Faith like enough",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "O God! counterfeit! There was never counterfeit of passion came so near the life of passion as she discovers it.",
-          "plainText": "O God counterfeit There was never counterfeit of passion came so near the life of passion as she discovers it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Why, what effects of passion shows she?",
-          "plainText": "Why what effects of passion shows she",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-032",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "[Aside] Bait the hook well: this fish will bite.",
-          "plainText": "Aside Bait the hook well this fish will bite",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-033",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "What effects, my lord? She will sit you; [To Claudio] You heard my daughter tell you how.",
-          "plainText": "What effects my lord She will sit you To Claudio You heard my daughter tell you how",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-034",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "She did, indeed.",
-          "plainText": "She did indeed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-035",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "How, how, I pray you? You amaze me: I would have thought her spirit had been invincible against all assaults of affection.",
-          "plainText": "How how I pray you You amaze me I would have thought her spirit had been invincible against all assaults of affection",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-036",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "I would have sworn it had, my lord; especially against Benedick.",
-          "plainText": "I would have sworn it had my lord especially against Benedick",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-037",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "[Aside] I should think this a gull, but that the white-bearded fellow speaks it: knavery cannot, sure, hide itself in such reverence.",
-          "plainText": "Aside I should think this a gull but that the whitebearded fellow speaks it knavery cannot sure hide itself in such reverence",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-038",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "[Aside] He hath ta'en the infection: hold it up.",
-          "plainText": "Aside He hath ta'en the infection hold it up",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-039",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Hath she made her affection known to Benedick?",
-          "plainText": "Hath she made her affection known to Benedick",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-040",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "No; and swears she never will: that's her torment.",
-          "plainText": "No and swears she never will that's her torment",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-041",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "'Tis true, indeed; so your daughter says: 'Shall I,' says she, 'that have so oft encountered him with scorn, write to him that I love him?'",
-          "plainText": "'Tis true indeed so your daughter says 'Shall I' says she 'that have so oft encountered him with scorn write to him that I love him'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-042",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "This says she now when she is beginning to write to him; for she'll be up twenty times a night, and there will she sit in her smock till she have writ a sheet of paper: my daughter tells us all.",
-          "plainText": "This says she now when she is beginning to write to him for she'll be up twenty times a night and there will she sit in her smock till she have writ a sheet of paper my daughter tells us all",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-043",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 1,
-          "text": "Now you talk of a sheet of paper, I remember a pretty jest your daughter told us of.",
-          "plainText": "Now you talk of a sheet of paper I remember a pretty jest your daughter told us of",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-044",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "O! when she had writ it, and was reading it over, she found Benedick and Beatrice between the sheet?",
-          "plainText": "O when she had writ it and was reading it over she found Benedick and Beatrice between the sheet",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-045",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "That.",
-          "plainText": "That",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-046",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "O! she tore the letter into a thousand halfpence; railed at herself, that she should be so immodest to write to one that she knew would flout her: 'I measure him,' says she, 'by my own spirit; for I should flout him, if he writ to me; yea, though I love him, I should.'",
-          "plainText": "O she tore the letter into a thousand halfpence railed at herself that she should be so immodest to write to one that she knew would flout her 'I measure him' says she 'by my own spirit for I should flout him if he writ to me yea though I love him I should'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-047",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "Then down upon her knees she falls, weeps, sobs, beats her heart, tears her hair, prays, curses; 'O sweet Benedick! God give me patience!'",
-          "plainText": "Then down upon her knees she falls weeps sobs beats her heart tears her hair prays curses 'O sweet Benedick God give me patience'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-048",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "She doth indeed; my daughter says so; and the ecstasy hath so much overborne her, that my daughter is sometimes afeard she will do a desperate outrage to herself. It is very true.",
-          "plainText": "She doth indeed my daughter says so and the ecstasy hath so much overborne her that my daughter is sometimes afeard she will do a desperate outrage to herself It is very true",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-049",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "It were good that Benedick knew of it by some other, if she will not discover it.",
-          "plainText": "It were good that Benedick knew of it by some other if she will not discover it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-050",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "To what end? he would make but a sport of it and torment the poor lady worse.",
-          "plainText": "To what end he would make but a sport of it and torment the poor lady worse",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-051",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "And he should, it were an alms to hang him. She's an excellent sweet lady, and, out of all suspicion, she is virtuous.",
-          "plainText": "And he should it were an alms to hang him She's an excellent sweet lady and out of all suspicion she is virtuous",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-052",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "And she is exceeding wise.",
-          "plainText": "And she is exceeding wise",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-053",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "In everything but in loving Benedick.",
-          "plainText": "In everything but in loving Benedick",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-054",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "O! my lord, wisdom and blood combating in so tender a body, we have ten proofs to one that blood hath the victory. I am sorry for her, as I have just cause, being her uncle and her guardian.",
-          "plainText": "O my lord wisdom and blood combating in so tender a body we have ten proofs to one that blood hath the victory I am sorry for her as I have just cause being her uncle and her guardian",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-055",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "I would she had bestowed this dotage on me; I would have daffed all other respects and made her half myself. I pray you, tell Benedick of it, and hear what he will say.",
-          "plainText": "I would she had bestowed this dotage on me I would have daffed all other respects and made her half myself I pray you tell Benedick of it and hear what he will say",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-056",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "Were it good, think you?",
-          "plainText": "Were it good think you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-057",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "Hero thinks surely she will die; for she says she will die if he love her not, and she will die ere she make her love known, and she will die if he woo her, rather than she will bate one breath of her accustomed crossness.",
-          "plainText": "Hero thinks surely she will die for she says she will die if he love her not and she will die ere she make her love known and she will die if he woo her rather than she will bate one breath of her accustomed crossness",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-058",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "She doth well: if she should make tender of her love, 'tis very possible he'll scorn it; for the man,—as you know all,—hath a contemptible spirit.",
-          "plainText": "She doth well if she should make tender of her love 'tis very possible he'll scorn it for the manas you know allhath a contemptible spirit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-059",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "He is a very proper man.",
-          "plainText": "He is a very proper man",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-060",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "He hath indeed a good outward happiness.",
-          "plainText": "He hath indeed a good outward happiness",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-061",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0073",
-          "number": 73,
-          "speechLineNumber": 1,
-          "text": "'Fore God, and in my mind, very wise.",
-          "plainText": "'Fore God and in my mind very wise",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-062",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "He doth indeed show some sparks that are like wit.",
-          "plainText": "He doth indeed show some sparks that are like wit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-063",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "And I take him to be valiant.",
-          "plainText": "And I take him to be valiant",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-064",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0076",
-          "number": 76,
-          "speechLineNumber": 1,
-          "text": "As Hector, I assure you: and in the managing of quarrels you may say he is wise; for either he avoids them with great discretion, or undertakes them with a most Christian-like fear.",
-          "plainText": "As Hector I assure you and in the managing of quarrels you may say he is wise for either he avoids them with great discretion or undertakes them with a most Christianlike fear",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-065",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "If he do fear God, a' must necessarily keep peace: if he break the peace, he ought to enter into a quarrel with fear and trembling.",
-          "plainText": "If he do fear God a' must necessarily keep peace if he break the peace he ought to enter into a quarrel with fear and trembling",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-066",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0078",
-          "number": 78,
-          "speechLineNumber": 1,
-          "text": "And so will he do; for the man doth fear God, howsoever it seems not in him by some large jests he will make. Well, I am sorry for your niece. Shall we go seek Benedick and tell him of her love?",
-          "plainText": "And so will he do for the man doth fear God howsoever it seems not in him by some large jests he will make Well I am sorry for your niece Shall we go seek Benedick and tell him of her love",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-067",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0079",
-          "number": 79,
-          "speechLineNumber": 1,
-          "text": "Never tell him, my lord: let her wear it out with good counsel.",
-          "plainText": "Never tell him my lord let her wear it out with good counsel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-068",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0080",
-          "number": 80,
-          "speechLineNumber": 1,
-          "text": "Nay, that's impossible: she may wear her heart out first.",
-          "plainText": "Nay that's impossible she may wear her heart out first",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-069",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0081",
-          "number": 81,
-          "speechLineNumber": 1,
-          "text": "Well, we will hear further of it by your daughter: let it cool the while. I love Benedick well, and I could wish he would modestly examine himself, to see how much he is unworthy so good a lady.",
-          "plainText": "Well we will hear further of it by your daughter let it cool the while I love Benedick well and I could wish he would modestly examine himself to see how much he is unworthy so good a lady",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-070",
-      "type": "speech",
-      "speaker": {
-        "id": "leonato",
-        "name": "LEONATO",
-        "displayName": "Leonato"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "My lord, will you walk? dinner is ready.",
-          "plainText": "My lord will you walk dinner is ready",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-071",
-      "type": "speech",
-      "speaker": {
-        "id": "claudio",
-        "name": "CLAUDIO",
-        "displayName": "Claudio"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0083",
-          "number": 83,
-          "speechLineNumber": 1,
-          "text": "[Aside] If he do not dote on her upon this, I will never trust my expectation.",
-          "plainText": "Aside If he do not dote on her upon this I will never trust my expectation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-072",
-      "type": "speech",
-      "speaker": {
-        "id": "don-pedro",
-        "name": "DON PEDRO",
-        "displayName": "Don Pedro"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "[Aside] Let there be the same net spread for her; and that must your daughter and her gentlewoman carry. The sport will be, when they hold one an opinion of another's dotage, and no such matter: that's the scene that I would see, which will be merely a dumb show. Let us send her to call him in to dinner.",
-          "plainText": "Aside Let there be the same net spread for her and that must your daughter and her gentlewoman carry The sport will be when they hold one an opinion of another's dotage and no such matter that's the scene that I would see which will be merely a dumb show Let us send her to call him in to dinner",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-008",
-      "type": "stage",
-      "text": "[Exeunt Don Pedro, Claudio and Leonato.]"
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-073",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0085",
-          "number": 85,
-          "speechLineNumber": 1,
-          "text": "[Advancing from the arbour.] This can be no trick: the conference was sadly borne. They have the truth of this from Hero. They seem to pity the lady: it seems her affections have their full bent. Love me? why, it must be requited. I hear how I am censured: they say I will bear myself proudly, if I perceive the love come from her; they say too that she will rather die than give any sign of affection. I did never think to marry: I must not seem proud: happy are they that hear their detractions, and can put them to mending. They say the lady is fair: 'tis a truth, I can bear them witness; and virtuous: 'tis so, I cannot reprove it; and wise, but for loving me: by my troth, it is no addition to her wit, nor no great argument of her folly, for I will be horribly in love with her. I may chance have some odd quirks and remnants of wit broken on me, because I have railed so long against marriage; but doth not the appetite alter? A man loves the meat in his youth that he cannot endure in his age. Shall quips and sentences and these paper bullets of the brain awe a man from the career of his humour? No; the world must be peopled. When I said I would die a bachelor, I did not think I should live till I were married. Here comes Beatrice. By this day! she's a fair lady: I do spy some marks of love in her.",
-          "plainText": "Advancing from the arbour This can be no trick the conference was sadly borne They have the truth of this from Hero They seem to pity the lady it seems her affections have their full bent Love me why it must be requited I hear how I am censured they say I will bear myself proudly if I perceive the love come from her they say too that she will rather die than give any sign of affection I did never think to marry I must not seem proud happy are they that hear their detractions and can put them to mending They say the lady is fair 'tis a truth I can bear them witness and virtuous 'tis so I cannot reprove it and wise but for loving me by my troth it is no addition to her wit nor no great argument of her folly for I will be horribly in love with her I may chance have some odd quirks and remnants of wit broken on me because I have railed so long against marriage but doth not the appetite alter A man loves the meat in his youth that he cannot endure in his age Shall quips and sentences and these paper bullets of the brain awe a man from the career of his humour No the world must be peopled When I said I would die a bachelor I did not think I should live till I were married Here comes Beatrice By this day she's a fair lady I do spy some marks of love in her",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-009",
-      "type": "stage",
-      "text": "Enter Beatrice."
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-074",
-      "type": "speech",
-      "speaker": {
-        "id": "beatrice",
-        "name": "BEATRICE",
-        "displayName": "Beatrice"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0086",
-          "number": 86,
-          "speechLineNumber": 1,
-          "text": "Against my will I am sent to bid you come in to dinner.",
-          "plainText": "Against my will I am sent to bid you come in to dinner",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-075",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "Fair Beatrice, I thank you for your pains.",
-          "plainText": "Fair Beatrice I thank you for your pains",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-076",
-      "type": "speech",
-      "speaker": {
-        "id": "beatrice",
-        "name": "BEATRICE",
-        "displayName": "Beatrice"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0088",
-          "number": 88,
-          "speechLineNumber": 1,
-          "text": "I took no more pains for those thanks than you take pains to thank me: if it had been painful, I would not have come.",
-          "plainText": "I took no more pains for those thanks than you take pains to thank me if it had been painful I would not have come",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-077",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "You take pleasure then in the message?",
-          "plainText": "You take pleasure then in the message",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-078",
-      "type": "speech",
-      "speaker": {
-        "id": "beatrice",
-        "name": "BEATRICE",
-        "displayName": "Beatrice"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0090",
-          "number": 90,
-          "speechLineNumber": 1,
-          "text": "Yea, just so much as you may take upon a knife's point, and choke a daw withal. You have no stomach, signior: fare you well.",
-          "plainText": "Yea just so much as you may take upon a knife's point and choke a daw withal You have no stomach signior fare you well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-010",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-speech-079",
-      "type": "speech",
-      "speaker": {
-        "id": "benedick",
-        "name": "BENEDICK",
-        "displayName": "Benedick"
-      },
-      "lines": [
-        {
-          "id": "much-ado-about-nothing-2-3-line-0091",
-          "number": 91,
-          "speechLineNumber": 1,
-          "text": "Ha! 'Against my will I am sent to bid you come in to dinner,' there's a double meaning in that. 'I took no more pains for those thanks than you took pains to thank me,' that's as much as to say, Any pains that I take for you is as easy as thanks. If I do not take pity of her, I am a villain; if I do not love her, I am a Jew. I will go get her picture.",
-          "plainText": "Ha 'Against my will I am sent to bid you come in to dinner' there's a double meaning in that 'I took no more pains for those thanks than you took pains to thank me' that's as much as to say Any pains that I take for you is as easy as thanks If I do not take pity of her I am a villain if I do not love her I am a Jew I will go get her picture",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "much-ado-about-nothing-2-3-stage-011",
-      "type": "stage",
-      "text": "[Exit.]"
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68306/line-2",
+          "start": 10,
+          "end": 363,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4423387,
+        "end": 4423785,
+        "line": 163706,
+        "column": 1,
+        "path": "chap25/p@68306",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": "BENEDICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "much-ado-about-nothing/sceneII_25.3/p@68708",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "much-ado-about-nothing/sceneII_25.3/p@68708/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4423789,
+        "end": 4423828,
+        "line": 163716,
+        "column": 1,
+        "path": "chap25/p@68708",
+        "anchor": "sceneII_25.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "7e76ef5746d773832e1ac4bdfc71c858783af5f02ef2e69addfe074228a7e7df"
 }

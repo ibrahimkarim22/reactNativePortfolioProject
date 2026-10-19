@@ -1,195 +1,367 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-john",
-    "title": "The Life and Death of King John",
+    "title": "THE LIFE AND DEATH OF KING JOHN",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap16"
   },
-  "scene": {
+  "section": {
     "id": "king-john-3-2",
+    "kind": "scene",
+    "heading": "SCENE II. The same. Plains near Angiers",
     "act": 3,
     "scene": 2,
-    "label": "Act 3, Scene 2",
-    "title": "SCENE II. The same. Plains near Angiers",
-    "location": "The same. Plains near Angiers",
-    "orderInPlay": 4
+    "parentSectionId": "king-john-act-55118",
+    "orderInPlay": 11,
+    "sourceRef": {
+      "start": 2927593,
+      "end": 2927675,
+      "line": 106081,
+      "column": 1,
+      "path": "chap16/h3@75312",
+      "anchor": "sceneIII_16.2"
+    }
   },
   "content": [
     {
-      "id": "king-john-3-2-stage-001",
-      "type": "stage",
-      "text": "Alarums. Excursions. Enter the Bastard with Austria's head."
-    },
-    {
-      "id": "king-john-3-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "bastard",
-        "name": "BASTARD",
-        "displayName": "Bastard"
-      },
+      "id": "king-john/sceneIII_16.2/h3@75312",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. The same. Plains near Angiers",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 39
+        }
+      ],
       "lines": [
         {
-          "id": "king-john-3-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Now, by my life, this day grows wondrous hot;",
-          "plainText": "Now by my life this day grows wondrous hot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-john-3-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Some airy devil hovers in the sky",
-          "plainText": "Some airy devil hovers in the sky",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-john-3-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "And pours down mischief. Austria's head lie there,",
-          "plainText": "And pours down mischief Austria's head lie there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-john-3-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "While Philip breathes.",
-          "plainText": "While Philip breathes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/h3@75312/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "king-john-3-2-stage-002",
-      "type": "stage",
-      "text": "Enter King John, Arthur and Hubert."
-    },
-    {
-      "id": "king-john-3-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "king-john",
-        "name": "KING JOHN",
-        "displayName": "King John"
+      ],
+      "sourceRef": {
+        "start": 2927593,
+        "end": 2927675,
+        "line": 106081,
+        "column": 1,
+        "path": "chap16/h3@75312",
+        "anchor": "sceneIII_16.2"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-john/sceneIII_16.2/p@75398",
+      "type": "stage",
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarums. Excursions. Enter the Bastard with Austria’s head.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 38,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 44,
+          "end": 53,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-john-3-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Hubert, keep this boy.—Philip, make up.",
-          "plainText": "Hubert keep this boyPhilip make up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-john-3-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "My mother is assailed in our tent,",
-          "plainText": "My mother is assailed in our tent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-john-3-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 3,
-          "text": "And ta'en, I fear.",
-          "plainText": "And ta'en I fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/p@75398/line-1",
+          "start": 0,
+          "end": 59,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2927679,
+        "end": 2927824,
+        "line": 106083,
+        "column": 1,
+        "path": "chap16/p@75398",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-john-3-2-speech-003",
+      "id": "king-john/sceneIII_16.2/p@75547",
       "type": "speech",
-      "speaker": {
-        "id": "bastard",
-        "name": "BASTARD",
-        "displayName": "Bastard"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASTARD.\nNow, by my life, this day grows wondrous hot;\nSome airy devil hovers in the sky\nAnd pours down mischief. Austria’s head lie there,\nWhile Philip breathes.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-john-3-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "My lord, I rescu'd her;",
-          "plainText": "My lord I rescu'd her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/p@75547/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-john-3-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Her highness is in safety, fear you not.",
-          "plainText": "Her highness is in safety fear you not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/p@75547/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-john-3-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "But on, my liege; for very little pains",
-          "plainText": "But on my liege for very little pains",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/p@75547/line-3",
+          "start": 55,
+          "end": 88,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-john-3-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "Will bring this labour to an happy end.",
-          "plainText": "Will bring this labour to an happy end",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-john/sceneIII_16.2/p@75547/line-4",
+          "start": 89,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@75547/line-5",
+          "start": 140,
+          "end": 162,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2927828,
+        "end": 2928035,
+        "line": 106086,
+        "column": 1,
+        "path": "chap16/p@75547",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": "BASTARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "king-john-3-2-stage-003",
+      "id": "king-john/sceneIII_16.2/p@75758",
       "type": "stage",
-      "text": "[Exeunt.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter King John, Arthur and Hubert.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 23,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 34,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-john/sceneIII_16.2/p@75758/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2928039,
+        "end": 2928160,
+        "line": 106094,
+        "column": 1,
+        "path": "chap16/p@75758",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-john/sceneIII_16.2/p@75883",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING JOHN.\nHubert, keep this boy.—Philip, make up.\nMy mother is assailed in our tent,\nAnd ta’en, I fear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-john/sceneIII_16.2/p@75883/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@75883/line-2",
+          "start": 11,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@75883/line-3",
+          "start": 51,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@75883/line-4",
+          "start": 86,
+          "end": 104,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2928164,
+        "end": 2928308,
+        "line": 106097,
+        "column": 1,
+        "path": "chap16/p@75883",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": "KING JOHN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "king-john/sceneIII_16.2/p@76031",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASTARD.\nMy lord, I rescu’d her;\nHer highness is in safety, fear you not.\nBut on, my liege; for very little pains\nWill bring this labour to an happy end.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-john/sceneIII_16.2/p@76031/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@76031/line-2",
+          "start": 9,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@76031/line-3",
+          "start": 33,
+          "end": 73,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@76031/line-4",
+          "start": 74,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-john/sceneIII_16.2/p@76031/line-5",
+          "start": 114,
+          "end": 153,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2928312,
+        "end": 2928510,
+        "line": 106104,
+        "column": 1,
+        "path": "chap16/p@76031",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": "BASTARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "king-john/sceneIII_16.2/p@76233",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-john/sceneIII_16.2/p@76233/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2928514,
+        "end": 2928551,
+        "line": 106112,
+        "column": 1,
+        "path": "chap16/p@76233",
+        "anchor": "sceneIII_16.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4"
 }

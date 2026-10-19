@@ -1,1667 +1,2063 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "pericles-prince-of-tyre",
-    "title": "Pericles, Prince of Tyre",
+    "title": "PERICLES, PRINCE OF TYRE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap27"
   },
-  "scene": {
+  "section": {
     "id": "pericles-prince-of-tyre-5-3",
+    "kind": "scene",
+    "heading": "SCENE III. The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.",
     "act": 5,
     "scene": 3,
-    "label": "Act 5, Scene 3",
-    "title": "SCENE III. The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.",
-    "location": "The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.",
-    "orderInPlay": 22
+    "parentSectionId": "pericles-prince-of-tyre-act-124376",
+    "orderInPlay": 31,
+    "sourceRef": {
+      "start": 4881109,
+      "end": 4881331,
+      "line": 182185,
+      "column": 1,
+      "path": "chap27/h3@144167",
+      "anchor": "sceneV_27.3"
+    }
   },
   "content": [
     {
-      "id": "pericles-prince-of-tyre-5-3-stage-001",
+      "id": "pericles-prince-of-tyre/sceneV_27.3/h3@144167",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 179
+        }
+      ],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/h3@144167/line-1",
+          "start": 0,
+          "end": 179,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4881109,
+        "end": 4881331,
+        "line": 182185,
+        "column": 1,
+        "path": "chap27/h3@144167",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@144393",
       "type": "stage",
-      "text": "Enter Pericles with his train; Lysimachus, Helicanus, Marina and a Lady."
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Pericles with his train; Lysimachus, Helicanus, Marina and a Lady.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 60,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 67,
+          "end": 71,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Hail, Dian! to perform thy just command,",
-          "plainText": "Hail Dian to perform thy just command",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "I here confess myself the King of Tyre;",
-          "plainText": "I here confess myself the King of Tyre",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Who, frighted from my country, did wed",
-          "plainText": "Who frighted from my country did wed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "At Pentapolis the fair Thaisa.",
-          "plainText": "At Pentapolis the fair Thaisa",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "At sea in childbed died she, but brought forth",
-          "plainText": "At sea in childbed died she but brought forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "A maid child call'd Marina; whom, O goddess,",
-          "plainText": "A maid child call'd Marina whom O goddess",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Wears yet thy silver livery. She at Tarsus",
-          "plainText": "Wears yet thy silver livery She at Tarsus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Was nursed with Cleon; who at fourteen years",
-          "plainText": "Was nursed with Cleon who at fourteen years",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "He sought to murder: but her better stars",
-          "plainText": "He sought to murder but her better stars",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Brought her to Mytilene; 'gainst whose shore",
-          "plainText": "Brought her to Mytilene 'gainst whose shore",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Riding, her fortunes brought the maid aboard us,",
-          "plainText": "Riding her fortunes brought the maid aboard us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "Where by her own most clear remembrance, she",
-          "plainText": "Where by her own most clear remembrance she",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "Made known herself my daughter.",
-          "plainText": "Made known herself my daughter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144393/line-1",
+          "start": 0,
+          "end": 72,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4881335,
+        "end": 4881524,
+        "line": 182189,
+        "column": 1,
+        "path": "chap27/p@144393",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "pericles-prince-of-tyre-5-3-speech-002",
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586",
       "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nHail, Dian! to perform thy just command,\nI here confess myself the King of Tyre;\nWho, frighted from my country, did wed\nAt Pentapolis the fair Thaisa.\nAt sea in childbed died she, but brought forth\nA maid child call’d Marina; whom, O goddess,\nWears yet thy silver livery. She at Tarsus\nWas nursed with Cleon; who at fourteen years\nHe sought to murder: but her better stars\nBrought her to Mytilene; ’gainst whose shore\nRiding, her fortunes brought the maid aboard us,\nWhere by her own most clear remembrance, she\nMade known herself my daughter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Voice and favour!",
-          "plainText": "Voice and favour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "You are, you are—O royal Pericles!",
-          "plainText": "You are you areO royal Pericles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-3",
+          "start": 51,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-4",
+          "start": 91,
+          "end": 129,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-5",
+          "start": 130,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-6",
+          "start": 161,
+          "end": 207,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-7",
+          "start": 208,
+          "end": 252,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-8",
+          "start": 253,
+          "end": 295,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-9",
+          "start": 296,
+          "end": 340,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-10",
+          "start": 341,
+          "end": 382,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-11",
+          "start": 383,
+          "end": 427,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-12",
+          "start": 428,
+          "end": 476,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-13",
+          "start": 477,
+          "end": 521,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@144586/line-14",
+          "start": 522,
+          "end": 553,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4881528,
+        "end": 4882171,
+        "line": 182192,
+        "column": 1,
+        "path": "chap27/p@144586",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "pericles-prince-of-tyre-5-3-stage-002",
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145233",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nVoice and favour!\nYou are, you are—O royal Pericles!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145233/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145233/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145233/line-3",
+          "start": 26,
+          "end": 60,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882175,
+        "end": 4882270,
+        "line": 182209,
+        "column": 1,
+        "path": "chap27/p@145233",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145332",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Faints.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145332/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882274,
+        "end": 4882312,
+        "line": 182215,
+        "column": 1,
+        "path": "chap27/p@145332",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145374",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nWhat means the nun? She dies! help, gentlemen!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145374/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145374/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882316,
+        "end": 4882402,
+        "line": 182217,
+        "column": 1,
+        "path": "chap27/p@145374",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145464",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CERIMON.\nNoble sir,\nIf you have told Diana’s altar true,\nThis is your wife.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145464/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145464/line-2",
+          "start": 9,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145464/line-3",
+          "start": 20,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145464/line-4",
+          "start": 57,
+          "end": 75,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882406,
+        "end": 4882521,
+        "line": 182222,
+        "column": 1,
+        "path": "chap27/p@145464",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "CERIMON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145583",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nReverend appearer, no;\nI threw her overboard with these very arms.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145583/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145583/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145583/line-3",
+          "start": 33,
+          "end": 76,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882525,
+        "end": 4882636,
+        "line": 182229,
+        "column": 1,
+        "path": "chap27/p@145583",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145698",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CERIMON.\nUpon this coast, I warrant you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145698/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145698/line-2",
+          "start": 9,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882640,
+        "end": 4882710,
+        "line": 182235,
+        "column": 1,
+        "path": "chap27/p@145698",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "CERIMON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145772",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\n’Tis most certain.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145772/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145772/line-2",
+          "start": 10,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882714,
+        "end": 4882772,
+        "line": 182240,
+        "column": 1,
+        "path": "chap27/p@145772",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CERIMON.\nLook to the lady; O, she’s but o’er-joy’d.\nEarly in blustering morn this lady was\nThrown upon this shore. I oped the coffin,\nFound there rich jewels; recover’d her, and placed her\nHere in Diana’s temple.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-3",
+          "start": 52,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-4",
+          "start": 91,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-5",
+          "start": 134,
+          "end": 188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@145834/line-6",
+          "start": 189,
+          "end": 212,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4882776,
+        "end": 4883038,
+        "line": 182245,
+        "column": 1,
+        "path": "chap27/p@145834",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "CERIMON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146100",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nMay we see them?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146100/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146100/line-2",
+          "start": 10,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883042,
+        "end": 4883098,
+        "line": 182254,
+        "column": 1,
+        "path": "chap27/p@146100",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146160",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CERIMON.\nGreat sir, they shall be brought you to my house,\nWhither I invite you. Look, Thaisa is\nRecovered.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146160/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146160/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146160/line-3",
+          "start": 59,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146160/line-4",
+          "start": 97,
+          "end": 107,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883102,
+        "end": 4883249,
+        "line": 182259,
+        "column": 1,
+        "path": "chap27/p@146160",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "CERIMON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nO, let me look!\nIf he be none of mine, my sanctity\nWill to my sense bend no licentious ear,\nBut curb it, spite of seeing. O, my lord,\nAre you not Pericles? Like him you spake,\nLike him you are: did you not name a tempest,\nA birth, and death?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-2",
+          "start": 8,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-3",
+          "start": 24,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-4",
+          "start": 59,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-5",
+          "start": 100,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-6",
+          "start": 142,
+          "end": 183,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-7",
+          "start": 184,
+          "end": 229,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146311/line-8",
+          "start": 230,
+          "end": 249,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883253,
+        "end": 4883562,
+        "line": 182266,
+        "column": 1,
+        "path": "chap27/p@146311",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146624",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nThe voice of dead Thaisa!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146624/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146624/line-2",
+          "start": 10,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883566,
+        "end": 4883631,
+        "line": 182277,
+        "column": 1,
+        "path": "chap27/p@146624",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146693",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nThat Thaisa am I, supposed dead\nAnd drown’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146693/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146693/line-2",
+          "start": 8,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146693/line-3",
+          "start": 40,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883635,
+        "end": 4883722,
+        "line": 182282,
+        "column": 1,
+        "path": "chap27/p@146693",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146784",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nImmortal Dian!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146784/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146784/line-2",
+          "start": 10,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883726,
+        "end": 4883780,
+        "line": 182288,
+        "column": 1,
+        "path": "chap27/p@146784",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146842",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nNow I know you better,\nWhen we with tears parted Pentapolis,\nThe king my father gave you such a ring.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146842/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146842/line-2",
+          "start": 8,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146842/line-3",
+          "start": 31,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146842/line-4",
+          "start": 69,
+          "end": 109,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883784,
+        "end": 4883933,
+        "line": 182293,
+        "column": 1,
+        "path": "chap27/p@146842",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@146995",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Shows a ring.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@146995/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883937,
+        "end": 4883981,
+        "line": 182300,
+        "column": 1,
+        "path": "chap27/p@146995",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nThis, this: no more, you gods! your present kindness\nMakes my past miseries sports: you shall do well,\nThat on the touching of her lips I may\nMelt and no more be seen. O, come, be buried\nA second time within these arms.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-2",
+          "start": 10,
+          "end": 62,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-3",
+          "start": 63,
+          "end": 112,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-4",
+          "start": 113,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-5",
+          "start": 152,
+          "end": 196,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147043/line-6",
+          "start": 197,
+          "end": 229,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4883985,
+        "end": 4884264,
+        "line": 182302,
+        "column": 1,
+        "path": "chap27/p@147043",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147326",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARINA.\nMy heart\nLeaps to be gone into my mother’s bosom.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147326/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147326/line-2",
+          "start": 8,
+          "end": 16,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147326/line-3",
+          "start": 17,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884268,
+        "end": 4884360,
+        "line": 182311,
+        "column": 1,
+        "path": "chap27/p@147326",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "MARINA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147422",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Kneels to Thaisa.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147422/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884364,
+        "end": 4884412,
+        "line": 182317,
+        "column": 1,
+        "path": "chap27/p@147422",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147474",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nLook, who kneels here! Flesh of thy flesh, Thaisa;\nThy burden at the sea, and call’d Marina\nFor she was yielded there.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147474/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147474/line-2",
+          "start": 10,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147474/line-3",
+          "start": 61,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147474/line-4",
+          "start": 102,
+          "end": 128,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884416,
+        "end": 4884584,
+        "line": 182319,
+        "column": 1,
+        "path": "chap27/p@147474",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147646",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nBlest, and mine own!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147646/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147646/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884588,
+        "end": 4884646,
+        "line": 182326,
+        "column": 1,
+        "path": "chap27/p@147646",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147708",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELICANUS.\nHail, madam, and my queen!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147708/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147708/line-2",
+          "start": 11,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884650,
+        "end": 4884717,
+        "line": 182331,
+        "column": 1,
+        "path": "chap27/p@147708",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "HELICANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147779",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nI know you not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147779/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147779/line-2",
+          "start": 8,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884721,
+        "end": 4884774,
+        "line": 182336,
+        "column": 1,
+        "path": "chap27/p@147779",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nYou have heard me say, when I did fly from Tyre,\nI left behind an ancient substitute:\nCan you remember what I call’d the man?\nI have named him oft.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836/line-3",
+          "start": 59,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836/line-4",
+          "start": 96,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@147836/line-5",
+          "start": 136,
+          "end": 157,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884778,
+        "end": 4884980,
+        "line": 182341,
+        "column": 1,
+        "path": "chap27/p@147836",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148042",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\n’Twas Helicanus then.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148042/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148042/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4884984,
+        "end": 4885043,
+        "line": 182349,
+        "column": 1,
+        "path": "chap27/p@148042",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nStill confirmation:\nEmbrace him, dear Thaisa; this is he.\nNow do I long to hear how you were found:\nHow possibly preserved; and who to thank,\nBesides the gods, for this great miracle.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-3",
+          "start": 30,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-4",
+          "start": 68,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-5",
+          "start": 110,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148105/line-6",
+          "start": 152,
+          "end": 193,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4885047,
+        "end": 4885290,
+        "line": 182354,
+        "column": 1,
+        "path": "chap27/p@148105",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148352",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nLord Cerimon, my lord; this man,\nThrough whom the gods have shown their power; that can\nFrom first to last resolve you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148352/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148352/line-2",
+          "start": 8,
+          "end": 40,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148352/line-3",
+          "start": 41,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148352/line-4",
+          "start": 96,
+          "end": 127,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4885294,
+        "end": 4885461,
+        "line": 182363,
+        "column": 1,
+        "path": "chap27/p@148352",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nReverend sir,\nThe gods can have no mortal officer\nMore like a god than you. Will you deliver\nHow this dead queen relives?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523/line-2",
+          "start": 10,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523/line-3",
+          "start": 24,
+          "end": 59,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523/line-4",
+          "start": 60,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148523/line-5",
+          "start": 103,
+          "end": 131,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4885465,
+        "end": 4885641,
+        "line": 182370,
+        "column": 1,
+        "path": "chap27/p@148523",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CERIMON.\nI will, my lord.\nBeseech you, first go with me to my house,\nWhere shall be shown you all was found with her;\nHow she came placed here in the temple;\nNo needful thing omitted.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-3",
+          "start": 26,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-4",
+          "start": 69,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-5",
+          "start": 118,
+          "end": 157,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148703/line-6",
+          "start": 158,
+          "end": 183,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4885645,
+        "end": 4885878,
+        "line": 182378,
+        "column": 1,
+        "path": "chap27/p@148703",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "CERIMON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nPure Dian, bless thee for thy vision! I\nWill offer night-oblations to thee. Thaisa,\nThis prince, the fair betrothed of your daughter,\nShall marry her at Pentapolis.\nAnd now this ornament\nMakes me look dismal will I clip to form;\nAnd what this fourteen years no razor touch’d\nTo grace thy marriage-day, I’ll beautify.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-2",
+          "start": 10,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-3",
+          "start": 50,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-4",
+          "start": 94,
+          "end": 143,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-5",
+          "start": 144,
+          "end": 174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-6",
+          "start": 175,
+          "end": 196,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-7",
+          "start": 197,
+          "end": 238,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-8",
+          "start": 239,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@148940/line-9",
+          "start": 285,
+          "end": 326,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4885882,
+        "end": 4886273,
+        "line": 182387,
+        "column": 1,
+        "path": "chap27/p@148940",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@149335",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THAISA.\nLord Cerimon hath letters of good credit, sir,\nMy father’s dead.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149335/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149335/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149335/line-3",
+          "start": 55,
+          "end": 72,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4886277,
+        "end": 4886384,
+        "line": 182399,
+        "column": 1,
+        "path": "chap27/p@149335",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "THAISA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PERICLES.\nHeavens make a star of him! Yet there, my queen,\nWe’ll celebrate their nuptials, and ourselves\nWill in that kingdom spend our following days:\nOur son and daughter shall in Tyrus reign.\nLord Cerimon, we do our longing stay\nTo hear the rest untold. Sir, lead’s the way.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-3",
+          "start": 59,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-4",
+          "start": 105,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-5",
+          "start": 152,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-6",
+          "start": 195,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149446/line-7",
+          "start": 232,
+          "end": 277,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4886388,
+        "end": 4886720,
+        "line": 182405,
+        "column": 1,
+        "path": "chap27/p@149446",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "PERICLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@149782",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149782/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4886724,
+        "end": 4886762,
+        "line": 182415,
+        "column": 1,
+        "path": "chap27/p@149782",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@149824",
       "type": "stage",
-      "text": "[Faints.]"
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Gower.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "What means the nun? She dies! help, gentlemen!",
-          "plainText": "What means the nun She dies help gentlemen",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149824/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4886766,
+        "end": 4886834,
+        "line": 182417,
+        "column": 1,
+        "path": "chap27/p@149824",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "pericles-prince-of-tyre-5-3-speech-004",
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896",
       "type": "speech",
-      "speaker": {
-        "id": "cerimon",
-        "name": "CERIMON",
-        "displayName": "Cerimon"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GOWER.\nIn Antiochus and his daughter you have heard\nOf monstrous lust the due and just reward:\nIn Pericles, his queen and daughter seen,\nAlthough assail’d with Fortune fierce and keen,\nVirtue preserved from fell destruction’s blast,\nLed on by heaven, and crown’d with joy at last.\nIn Helicanus may you well descry\nA figure of truth, of faith, of loyalty:\nIn reverend Cerimon there well appears\nThe worth that learned charity aye wears:\nFor wicked Cleon and his wife, when fame\nHad spread their cursed deed, the honour’d name\nOf Pericles, to rage the city turn,\nThat him and his they in his palace burn.\nThe gods for murder seemed so content\nTo punish, although not done, but meant.\nSo on your patience evermore attending,\nNew joy wait on you! Here our play has ending.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Noble sir,",
-          "plainText": "Noble sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "If you have told Diana's altar true,",
-          "plainText": "If you have told Diana's altar true",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 3,
-          "text": "This is your wife.",
-          "plainText": "This is your wife",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-4",
+          "start": 95,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-5",
+          "start": 137,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-6",
+          "start": 185,
+          "end": 232,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-7",
+          "start": 233,
+          "end": 280,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-8",
+          "start": 281,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-9",
+          "start": 314,
+          "end": 354,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-10",
+          "start": 355,
+          "end": 393,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-11",
+          "start": 394,
+          "end": 435,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-12",
+          "start": 436,
+          "end": 476,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-13",
+          "start": 477,
+          "end": 524,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-14",
+          "start": 525,
+          "end": 560,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-15",
+          "start": 561,
+          "end": 602,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-16",
+          "start": 603,
+          "end": 640,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-17",
+          "start": 641,
+          "end": 681,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-18",
+          "start": 682,
+          "end": 721,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@149896/line-19",
+          "start": 722,
+          "end": 768,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4886838,
+        "end": 4887721,
+        "line": 182419,
+        "column": 1,
+        "path": "chap27/p@149896",
+        "anchor": "sceneV_27.3"
+      },
+      "speakerLabel": "GOWER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "pericles-prince-of-tyre-5-3-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
+      "id": "pericles-prince-of-tyre/sceneV_27.3/p@150783",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
       "lines": [
         {
-          "id": "pericles-prince-of-tyre-5-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Reverend appearer, no;",
-          "plainText": "Reverend appearer no",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "I threw her overboard with these very arms.",
-          "plainText": "I threw her overboard with these very arms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "pericles-prince-of-tyre/sceneV_27.3/p@150783/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "cerimon",
-        "name": "CERIMON",
-        "displayName": "Cerimon"
+      ],
+      "sourceRef": {
+        "start": 4887725,
+        "end": 4887761,
+        "line": 182441,
+        "column": 1,
+        "path": "chap27/p@150783",
+        "anchor": "sceneV_27.3"
       },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Upon this coast, I warrant you.",
-          "plainText": "Upon this coast I warrant you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "'Tis most certain.",
-          "plainText": "'Tis most certain",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "cerimon",
-        "name": "CERIMON",
-        "displayName": "Cerimon"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Look to the lady; O, she's but o'er-joy'd.",
-          "plainText": "Look to the lady O she's but o'erjoy'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "Early in blustering morn this lady was",
-          "plainText": "Early in blustering morn this lady was",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 3,
-          "text": "Thrown upon this shore. I oped the coffin,",
-          "plainText": "Thrown upon this shore I oped the coffin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 4,
-          "text": "Found there rich jewels; recover'd her, and placed her",
-          "plainText": "Found there rich jewels recover'd her and placed her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 5,
-          "text": "Here in Diana's temple.",
-          "plainText": "Here in Diana's temple",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "May we see them?",
-          "plainText": "May we see them",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "cerimon",
-        "name": "CERIMON",
-        "displayName": "Cerimon"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Great sir, they shall be brought you to my house,",
-          "plainText": "Great sir they shall be brought you to my house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "Whither I invite you. Look, Thaisa is",
-          "plainText": "Whither I invite you Look Thaisa is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "Recovered.",
-          "plainText": "Recovered",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "O, let me look!",
-          "plainText": "O let me look",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "If he be none of mine, my sanctity",
-          "plainText": "If he be none of mine my sanctity",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Will to my sense bend no licentious ear,",
-          "plainText": "Will to my sense bend no licentious ear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "But curb it, spite of seeing. O, my lord,",
-          "plainText": "But curb it spite of seeing O my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 5,
-          "text": "Are you not Pericles? Like him you spake,",
-          "plainText": "Are you not Pericles Like him you spake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 6,
-          "text": "Like him you are: did you not name a tempest,",
-          "plainText": "Like him you are did you not name a tempest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 7,
-          "text": "A birth, and death?",
-          "plainText": "A birth and death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "The voice of dead Thaisa!",
-          "plainText": "The voice of dead Thaisa",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "That Thaisa am I, supposed dead",
-          "plainText": "That Thaisa am I supposed dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "And drown'd.",
-          "plainText": "And drown'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Immortal Dian!",
-          "plainText": "Immortal Dian",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Now I know you better,",
-          "plainText": "Now I know you better",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "When we with tears parted Pentapolis,",
-          "plainText": "When we with tears parted Pentapolis",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 3,
-          "text": "The king my father gave you such a ring.",
-          "plainText": "The king my father gave you such a ring",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-stage-003",
-      "type": "stage",
-      "text": "[Shows a ring.]"
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "This, this: no more, you gods! your present kindness",
-          "plainText": "This this no more you gods your present kindness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 2,
-          "text": "Makes my past miseries sports: you shall do well,",
-          "plainText": "Makes my past miseries sports you shall do well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 3,
-          "text": "That on the touching of her lips I may",
-          "plainText": "That on the touching of her lips I may",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 4,
-          "text": "Melt and no more be seen. O, come, be buried",
-          "plainText": "Melt and no more be seen O come be buried",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 5,
-          "text": "A second time within these arms.",
-          "plainText": "A second time within these arms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "marina",
-        "name": "MARINA",
-        "displayName": "Marina"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "My heart",
-          "plainText": "My heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Leaps to be gone into my mother's bosom.",
-          "plainText": "Leaps to be gone into my mother's bosom",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-stage-004",
-      "type": "stage",
-      "text": "[Kneels to Thaisa.]"
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Look, who kneels here! Flesh of thy flesh, Thaisa;",
-          "plainText": "Look who kneels here Flesh of thy flesh Thaisa",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 2,
-          "text": "Thy burden at the sea, and call'd Marina",
-          "plainText": "Thy burden at the sea and call'd Marina",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 3,
-          "text": "For she was yielded there.",
-          "plainText": "For she was yielded there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "Blest, and mine own!",
-          "plainText": "Blest and mine own",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "helicanus",
-        "name": "HELICANUS",
-        "displayName": "Helicanus"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Hail, madam, and my queen!",
-          "plainText": "Hail madam and my queen",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "I know you not.",
-          "plainText": "I know you not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "You have heard me say, when I did fly from Tyre,",
-          "plainText": "You have heard me say when I did fly from Tyre",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0061",
-          "number": 61,
-          "speechLineNumber": 2,
-          "text": "I left behind an ancient substitute:",
-          "plainText": "I left behind an ancient substitute",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0062",
-          "number": 62,
-          "speechLineNumber": 3,
-          "text": "Can you remember what I call'd the man?",
-          "plainText": "Can you remember what I call'd the man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0063",
-          "number": 63,
-          "speechLineNumber": 4,
-          "text": "I have named him oft.",
-          "plainText": "I have named him oft",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "'Twas Helicanus then.",
-          "plainText": "'Twas Helicanus then",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "Still confirmation:",
-          "plainText": "Still confirmation",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0066",
-          "number": 66,
-          "speechLineNumber": 2,
-          "text": "Embrace him, dear Thaisa; this is he.",
-          "plainText": "Embrace him dear Thaisa this is he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0067",
-          "number": 67,
-          "speechLineNumber": 3,
-          "text": "Now do I long to hear how you were found:",
-          "plainText": "Now do I long to hear how you were found",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0068",
-          "number": 68,
-          "speechLineNumber": 4,
-          "text": "How possibly preserved; and who to thank,",
-          "plainText": "How possibly preserved and who to thank",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0069",
-          "number": 69,
-          "speechLineNumber": 5,
-          "text": "Besides the gods, for this great miracle.",
-          "plainText": "Besides the gods for this great miracle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "Lord Cerimon, my lord; this man,",
-          "plainText": "Lord Cerimon my lord this man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0071",
-          "number": 71,
-          "speechLineNumber": 2,
-          "text": "Through whom the gods have shown their power; that can",
-          "plainText": "Through whom the gods have shown their power that can",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0072",
-          "number": 72,
-          "speechLineNumber": 3,
-          "text": "From first to last resolve you.",
-          "plainText": "From first to last resolve you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0073",
-          "number": 73,
-          "speechLineNumber": 1,
-          "text": "Reverend sir,",
-          "plainText": "Reverend sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0074",
-          "number": 74,
-          "speechLineNumber": 2,
-          "text": "The gods can have no mortal officer",
-          "plainText": "The gods can have no mortal officer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0075",
-          "number": 75,
-          "speechLineNumber": 3,
-          "text": "More like a god than you. Will you deliver",
-          "plainText": "More like a god than you Will you deliver",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0076",
-          "number": 76,
-          "speechLineNumber": 4,
-          "text": "How this dead queen relives?",
-          "plainText": "How this dead queen relives",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "cerimon",
-        "name": "CERIMON",
-        "displayName": "Cerimon"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "I will, my lord.",
-          "plainText": "I will my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0078",
-          "number": 78,
-          "speechLineNumber": 2,
-          "text": "Beseech you, first go with me to my house,",
-          "plainText": "Beseech you first go with me to my house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0079",
-          "number": 79,
-          "speechLineNumber": 3,
-          "text": "Where shall be shown you all was found with her;",
-          "plainText": "Where shall be shown you all was found with her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0080",
-          "number": 80,
-          "speechLineNumber": 4,
-          "text": "How she came placed here in the temple;",
-          "plainText": "How she came placed here in the temple",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0081",
-          "number": 81,
-          "speechLineNumber": 5,
-          "text": "No needful thing omitted.",
-          "plainText": "No needful thing omitted",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "Pure Dian, bless thee for thy vision! I",
-          "plainText": "Pure Dian bless thee for thy vision I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0083",
-          "number": 83,
-          "speechLineNumber": 2,
-          "text": "Will offer night-oblations to thee. Thaisa,",
-          "plainText": "Will offer nightoblations to thee Thaisa",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0084",
-          "number": 84,
-          "speechLineNumber": 3,
-          "text": "This prince, the fair betrothed of your daughter,",
-          "plainText": "This prince the fair betrothed of your daughter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0085",
-          "number": 85,
-          "speechLineNumber": 4,
-          "text": "Shall marry her at Pentapolis.",
-          "plainText": "Shall marry her at Pentapolis",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0086",
-          "number": 86,
-          "speechLineNumber": 5,
-          "text": "And now this ornament",
-          "plainText": "And now this ornament",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0087",
-          "number": 87,
-          "speechLineNumber": 6,
-          "text": "Makes me look dismal will I clip to form;",
-          "plainText": "Makes me look dismal will I clip to form",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0088",
-          "number": 88,
-          "speechLineNumber": 7,
-          "text": "And what this fourteen years no razor touch'd",
-          "plainText": "And what this fourteen years no razor touch'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0089",
-          "number": 89,
-          "speechLineNumber": 8,
-          "text": "To grace thy marriage-day, I'll beautify.",
-          "plainText": "To grace thy marriageday I'll beautify",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "thaisa",
-        "name": "THAISA",
-        "displayName": "Thaisa"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0090",
-          "number": 90,
-          "speechLineNumber": 1,
-          "text": "Lord Cerimon hath letters of good credit, sir,",
-          "plainText": "Lord Cerimon hath letters of good credit sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0091",
-          "number": 91,
-          "speechLineNumber": 2,
-          "text": "My father's dead.",
-          "plainText": "My father's dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "pericles",
-        "name": "PERICLES",
-        "displayName": "Pericles"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0092",
-          "number": 92,
-          "speechLineNumber": 1,
-          "text": "Heavens make a star of him! Yet there, my queen,",
-          "plainText": "Heavens make a star of him Yet there my queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0093",
-          "number": 93,
-          "speechLineNumber": 2,
-          "text": "We'll celebrate their nuptials, and ourselves",
-          "plainText": "We'll celebrate their nuptials and ourselves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0094",
-          "number": 94,
-          "speechLineNumber": 3,
-          "text": "Will in that kingdom spend our following days:",
-          "plainText": "Will in that kingdom spend our following days",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0095",
-          "number": 95,
-          "speechLineNumber": 4,
-          "text": "Our son and daughter shall in Tyrus reign.",
-          "plainText": "Our son and daughter shall in Tyrus reign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0096",
-          "number": 96,
-          "speechLineNumber": 5,
-          "text": "Lord Cerimon, we do our longing stay",
-          "plainText": "Lord Cerimon we do our longing stay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0097",
-          "number": 97,
-          "speechLineNumber": 6,
-          "text": "To hear the rest untold. Sir, lead's the way.",
-          "plainText": "To hear the rest untold Sir lead's the way",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-stage-005",
-      "type": "stage",
-      "text": "[Exeunt.]"
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-stage-006",
-      "type": "stage",
-      "text": "Enter Gower."
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "gower",
-        "name": "GOWER",
-        "displayName": "Gower"
-      },
-      "lines": [
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0098",
-          "number": 98,
-          "speechLineNumber": 1,
-          "text": "In Antiochus and his daughter you have heard",
-          "plainText": "In Antiochus and his daughter you have heard",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0099",
-          "number": 99,
-          "speechLineNumber": 2,
-          "text": "Of monstrous lust the due and just reward:",
-          "plainText": "Of monstrous lust the due and just reward",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0100",
-          "number": 100,
-          "speechLineNumber": 3,
-          "text": "In Pericles, his queen and daughter seen,",
-          "plainText": "In Pericles his queen and daughter seen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0101",
-          "number": 101,
-          "speechLineNumber": 4,
-          "text": "Although assail'd with Fortune fierce and keen,",
-          "plainText": "Although assail'd with Fortune fierce and keen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0102",
-          "number": 102,
-          "speechLineNumber": 5,
-          "text": "Virtue preserved from fell destruction's blast,",
-          "plainText": "Virtue preserved from fell destruction's blast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0103",
-          "number": 103,
-          "speechLineNumber": 6,
-          "text": "Led on by heaven, and crown'd with joy at last.",
-          "plainText": "Led on by heaven and crown'd with joy at last",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0104",
-          "number": 104,
-          "speechLineNumber": 7,
-          "text": "In Helicanus may you well descry",
-          "plainText": "In Helicanus may you well descry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0105",
-          "number": 105,
-          "speechLineNumber": 8,
-          "text": "A figure of truth, of faith, of loyalty:",
-          "plainText": "A figure of truth of faith of loyalty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0106",
-          "number": 106,
-          "speechLineNumber": 9,
-          "text": "In reverend Cerimon there well appears",
-          "plainText": "In reverend Cerimon there well appears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0107",
-          "number": 107,
-          "speechLineNumber": 10,
-          "text": "The worth that learned charity aye wears:",
-          "plainText": "The worth that learned charity aye wears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0108",
-          "number": 108,
-          "speechLineNumber": 11,
-          "text": "For wicked Cleon and his wife, when fame",
-          "plainText": "For wicked Cleon and his wife when fame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0109",
-          "number": 109,
-          "speechLineNumber": 12,
-          "text": "Had spread their cursed deed, the honour'd name",
-          "plainText": "Had spread their cursed deed the honour'd name",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0110",
-          "number": 110,
-          "speechLineNumber": 13,
-          "text": "Of Pericles, to rage the city turn,",
-          "plainText": "Of Pericles to rage the city turn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0111",
-          "number": 111,
-          "speechLineNumber": 14,
-          "text": "That him and his they in his palace burn.",
-          "plainText": "That him and his they in his palace burn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0112",
-          "number": 112,
-          "speechLineNumber": 15,
-          "text": "The gods for murder seemed so content",
-          "plainText": "The gods for murder seemed so content",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0113",
-          "number": 113,
-          "speechLineNumber": 16,
-          "text": "To punish, although not done, but meant.",
-          "plainText": "To punish although not done but meant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0114",
-          "number": 114,
-          "speechLineNumber": 17,
-          "text": "So on your patience evermore attending,",
-          "plainText": "So on your patience evermore attending",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "pericles-prince-of-tyre-5-3-line-0115",
-          "number": 115,
-          "speechLineNumber": 18,
-          "text": "New joy wait on you! Here our play has ending.",
-          "plainText": "New joy wait on you Here our play has ending",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "pericles-prince-of-tyre-5-3-stage-007",
-      "type": "stage",
-      "text": "[Exit.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "b56209d981728f7b6e186e2e33ba0d826f70dfb949622a0fffff1a1439414293"
 }

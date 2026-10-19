@@ -1,529 +1,951 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "julius-caesar",
-    "title": "The Tragedy of Julius Caesar",
+    "title": "THE TRAGEDY OF JULIUS CAESAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap17"
   },
-  "scene": {
+  "section": {
     "id": "julius-caesar-5-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Another part of the field.",
     "act": 5,
     "scene": 4,
-    "label": "Act 5, Scene 4",
-    "title": "SCENE IV. Another part of the field.",
-    "location": "Another part of the field.",
-    "orderInPlay": 17
+    "parentSectionId": "julius-caesar-act-137868",
+    "orderInPlay": 26,
+    "sourceRef": {
+      "start": 3164798,
+      "end": 3164875,
+      "line": 115205,
+      "column": 1,
+      "path": "chap17/h3@154401",
+      "anchor": "sceneV_17.4"
+    }
   },
   "content": [
     {
-      "id": "julius-caesar-5-4-stage-001",
+      "id": "julius-caesar/sceneV_17.4/h3@154401",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Another part of the field.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/h3@154401/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3164798,
+        "end": 3164875,
+        "line": 115205,
+        "column": 1,
+        "path": "chap17/h3@154401",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@154482",
       "type": "stage",
-      "text": "Alarum. Enter fighting soldiers of both armies; then Brutus, Messala, young Cato, Lucilius, Flavius and others."
-    },
-    {
-      "id": "julius-caesar-5-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum. Enter fighting soldiers of both armies; then Brutus, Messala, young Cato, Lucilius, Flavius and others.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 53,
+          "end": 99,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Yet, countrymen, O, yet hold up your heads!",
-          "plainText": "Yet countrymen O yet hold up your heads",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.4/p@154482/line-1",
+          "start": 0,
+          "end": 111,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3164879,
+        "end": 3165050,
+        "line": 115207,
+        "column": 1,
+        "path": "chap17/p@154482",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-5-4-speech-002",
+      "id": "julius-caesar/sceneV_17.4/p@154657",
       "type": "speech",
-      "speaker": {
-        "id": "cato",
-        "name": "CATO",
-        "displayName": "Cato"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nYet, countrymen, O, yet hold up your heads!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "What bastard doth not? Who will go with me?",
-          "plainText": "What bastard doth not Who will go with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@154657/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 2,
-          "text": "I will proclaim my name about the field.",
-          "plainText": "I will proclaim my name about the field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 3,
-          "text": "I am the son of Marcus Cato, ho!",
-          "plainText": "I am the son of Marcus Cato ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 4,
-          "text": "A foe to tyrants, and my country's friend.",
-          "plainText": "A foe to tyrants and my country's friend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 5,
-          "text": "I am the son of Marcus Cato, ho!",
-          "plainText": "I am the son of Marcus Cato ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@154657/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3165054,
+        "end": 3165135,
+        "line": 115212,
+        "column": 1,
+        "path": "chap17/p@154657",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-4-stage-002",
+      "id": "julius-caesar/sceneV_17.4/p@154742",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CATO.\nWhat bastard doth not? Who will go with me?\nI will proclaim my name about the field.\nI am the son of Marcus Cato, ho!\nA foe to tyrants, and my country’s friend.\nI am the son of Marcus Cato, ho!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-2",
+          "start": 6,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-3",
+          "start": 50,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-4",
+          "start": 91,
+          "end": 123,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-5",
+          "start": 124,
+          "end": 166,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154742/line-6",
+          "start": 167,
+          "end": 199,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165139,
+        "end": 3165388,
+        "line": 115217,
+        "column": 1,
+        "path": "chap17/p@154742",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "CATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@154995",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Charges the enemy.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@154995/line-1",
+          "start": 0,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165392,
+        "end": 3165444,
+        "line": 115226,
+        "column": 1,
+        "path": "chap17/p@154995",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155051",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nAnd I am Brutus, Marcus Brutus, I;\nBrutus, my country’s friend; know me for Brutus!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155051/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155051/line-2",
+          "start": 10,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155051/line-3",
+          "start": 45,
+          "end": 93,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165448,
+        "end": 3165576,
+        "line": 115230,
+        "column": 1,
+        "path": "chap17/p@155051",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155183",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit, charging the enemy. Cato is overpowered, and falls.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 27,
+          "end": 31,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 58
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155183/line-1",
+          "start": 0,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165580,
+        "end": 3165702,
+        "line": 115236,
+        "column": 1,
+        "path": "chap17/p@155183",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155309",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nO young and noble Cato, art thou down?\nWhy, now thou diest as bravely as Titinius,\nAnd mayst be honour’d, being Cato’s son.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155309/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155309/line-2",
+          "start": 10,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155309/line-3",
+          "start": 49,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155309/line-4",
+          "start": 93,
+          "end": 133,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165706,
+        "end": 3165879,
+        "line": 115241,
+        "column": 1,
+        "path": "chap17/p@155309",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155486",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SOLDIER.\nYield, or thou diest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155486/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155486/line-2",
+          "start": 15,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165883,
+        "end": 3165949,
+        "line": 115248,
+        "column": 1,
+        "path": "chap17/p@155486",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "FIRST SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155556",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nOnly I yield to die:\nThere is so much that thou wilt kill me straight;",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155556/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155556/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155556/line-3",
+          "start": 31,
+          "end": 80,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3165953,
+        "end": 3166068,
+        "line": 115253,
+        "column": 1,
+        "path": "chap17/p@155556",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155675",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Offering money]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155675/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3166072,
+        "end": 3166120,
+        "line": 115259,
+        "column": 1,
+        "path": "chap17/p@155675",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155727",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Kill Brutus, and be honour’d in his death.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155727/line-1",
+          "start": 0,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3166124,
+        "end": 3166191,
+        "line": 115263,
+        "column": 1,
+        "path": "chap17/p@155727",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155798",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SOLDIER.\nWe must not. A noble prisoner!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155798/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155798/line-2",
+          "start": 15,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3166195,
+        "end": 3166270,
+        "line": 115267,
+        "column": 1,
+        "path": "chap17/p@155798",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "FIRST SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155877",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND SOLDIER.\nRoom, ho! Tell Antony, Brutus is ta’en.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155877/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155877/line-2",
+          "start": 16,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3166274,
+        "end": 3166359,
+        "line": 115272,
+        "column": 1,
+        "path": "chap17/p@155877",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "SECOND SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@155966",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SOLDIER.\nI’ll tell the news. Here comes the General.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155966/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@155966/line-2",
+          "start": 15,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3166363,
+        "end": 3166451,
+        "line": 115277,
+        "column": 1,
+        "path": "chap17/p@155966",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "FIRST SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@156058",
       "type": "stage",
-      "text": "[Charges the enemy.]"
-    },
-    {
-      "id": "julius-caesar-5-4-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Antony.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "And I am Brutus, Marcus Brutus, I;",
-          "plainText": "And I am Brutus Marcus Brutus I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "Brutus, my country's friend; know me for Brutus!",
-          "plainText": "Brutus my country's friend know me for Brutus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@156058/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-stage-003",
-      "type": "stage",
-      "text": "[Exit, charging the enemy. Cato is overpowered, and falls.]"
-    },
-    {
-      "id": "julius-caesar-5-4-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
+      ],
+      "sourceRef": {
+        "start": 3166455,
+        "end": 3166527,
+        "line": 115282,
+        "column": 1,
+        "path": "chap17/p@156058",
+        "anchor": "sceneV_17.4"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@156134",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Brutus is ta’en, Brutus is ta’en, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "O young and noble Cato, art thou down?",
-          "plainText": "O young and noble Cato art thou down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "Why, now thou diest as bravely as Titinius,",
-          "plainText": "Why now thou diest as bravely as Titinius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "And mayst be honour'd, being Cato's son.",
-          "plainText": "And mayst be honour'd being Cato's son",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@156134/line-1",
+          "start": 0,
+          "end": 42,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3166531,
+        "end": 3166598,
+        "line": 115286,
+        "column": 1,
+        "path": "chap17/p@156134",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "julius-caesar-5-4-speech-005",
+      "id": "julius-caesar/sceneV_17.4/p@156205",
       "type": "speech",
-      "speaker": {
-        "id": "first-soldier",
-        "name": "FIRST SOLDIER",
-        "displayName": "First Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONY.\nWhere is he?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Yield, or thou diest.",
-          "plainText": "Yield or thou diest",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.4/p@156205/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156205/line-2",
+          "start": 8,
+          "end": 20,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3166602,
+        "end": 3166652,
+        "line": 115290,
+        "column": 1,
+        "path": "chap17/p@156205",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "ANTONY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-4-speech-006",
+      "id": "julius-caesar/sceneV_17.4/p@156259",
       "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nSafe, Antony; Brutus is safe enough.\nI dare assure thee that no enemy\nShall ever take alive the noble Brutus.\nThe gods defend him from so great a shame!\nWhen you do find him, or alive or dead,\nHe will be found like Brutus, like himself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Only I yield to die:",
-          "plainText": "Only I yield to die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 2,
-          "text": "There is so much that thou wilt kill me straight;",
-          "plainText": "There is so much that thou wilt kill me straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-2",
+          "start": 10,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-3",
+          "start": 47,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-4",
+          "start": 80,
+          "end": 119,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-5",
+          "start": 120,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-6",
+          "start": 163,
+          "end": 202,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156259/line-7",
+          "start": 203,
+          "end": 246,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-stage-004",
-      "type": "stage",
-      "text": "[Offering money]"
-    },
-    {
-      "id": "julius-caesar-5-4-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "first-soldier",
-        "name": "FIRST SOLDIER",
-        "displayName": "First Soldier"
+      ],
+      "sourceRef": {
+        "start": 3166656,
+        "end": 3166957,
+        "line": 115295,
+        "column": 1,
+        "path": "chap17/p@156259",
+        "anchor": "sceneV_17.4"
       },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.4/p@156564",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONY.\nThis is not Brutus, friend; but, I assure you,\nA prize no less in worth. Keep this man safe,\nGive him all kindness. I had rather have\nSuch men my friends than enemies. Go on,\nAnd see whether Brutus be alive or dead;\nAnd bring us word unto Octavius’ tent\nHow everything is chanc’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "We must not. A noble prisoner!",
-          "plainText": "We must not A noble prisoner",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-3",
+          "start": 55,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-4",
+          "start": 101,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-5",
+          "start": 142,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-6",
+          "start": 183,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-7",
+          "start": 224,
+          "end": 261,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.4/p@156564/line-8",
+          "start": 262,
+          "end": 288,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3166961,
+        "end": 3167309,
+        "line": 115305,
+        "column": 1,
+        "path": "chap17/p@156564",
+        "anchor": "sceneV_17.4"
+      },
+      "speakerLabel": "ANTONY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-4-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "second-soldier",
-        "name": "SECOND SOLDIER",
-        "displayName": "Second Soldier"
-      },
+      "id": "julius-caesar/sceneV_17.4/p@156916",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Room, ho! Tell Antony, Brutus is ta'en.",
-          "plainText": "Room ho Tell Antony Brutus is ta'en",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.4/p@156916/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "first-soldier",
-        "name": "FIRST SOLDIER",
-        "displayName": "First Soldier"
+      ],
+      "sourceRef": {
+        "start": 3167313,
+        "end": 3167354,
+        "line": 115316,
+        "column": 1,
+        "path": "chap17/p@156916",
+        "anchor": "sceneV_17.4"
       },
-      "lines": [
-        {
-          "id": "julius-caesar-5-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "I'll tell the news. Here comes the General.",
-          "plainText": "I'll tell the news Here comes the General",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-stage-005",
-      "type": "stage",
-      "text": "Enter Antony."
-    },
-    {
-      "id": "julius-caesar-5-4-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "antony",
-        "name": "ANTONY",
-        "displayName": "Antony"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Where is he?",
-          "plainText": "Where is he",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Safe, Antony; Brutus is safe enough.",
-          "plainText": "Safe Antony Brutus is safe enough",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "I dare assure thee that no enemy",
-          "plainText": "I dare assure thee that no enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "Shall ever take alive the noble Brutus.",
-          "plainText": "Shall ever take alive the noble Brutus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 4,
-          "text": "The gods defend him from so great a shame!",
-          "plainText": "The gods defend him from so great a shame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 5,
-          "text": "When you do find him, or alive or dead,",
-          "plainText": "When you do find him or alive or dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 6,
-          "text": "He will be found like Brutus, like himself.",
-          "plainText": "He will be found like Brutus like himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "antony",
-        "name": "ANTONY",
-        "displayName": "Antony"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "This is not Brutus, friend; but, I assure you,",
-          "plainText": "This is not Brutus friend but I assure you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "A prize no less in worth. Keep this man safe,",
-          "plainText": "A prize no less in worth Keep this man safe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Give him all kindness. I had rather have",
-          "plainText": "Give him all kindness I had rather have",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 4,
-          "text": "Such men my friends than enemies. Go on,",
-          "plainText": "Such men my friends than enemies Go on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 5,
-          "text": "And see whether Brutus be alive or dead;",
-          "plainText": "And see whether Brutus be alive or dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 6,
-          "text": "And bring us word unto Octavius' tent",
-          "plainText": "And bring us word unto Octavius' tent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 7,
-          "text": "How everything is chanc'd.",
-          "plainText": "How everything is chanc'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-4-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "1cf51df3eb2e8e6722750509336e211f0990b92999ea104fb68c92da0277edf1"
 }

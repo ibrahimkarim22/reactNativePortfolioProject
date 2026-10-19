@@ -1,1190 +1,2316 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "cymbeline",
-    "title": "Cymbeline",
+    "title": "CYMBELINE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap07"
   },
-  "scene": {
+  "section": {
     "id": "cymbeline-1-5",
+    "kind": "scene",
+    "heading": "SCENE V. Rome. Philario’s house.",
     "act": 1,
     "scene": 5,
-    "label": "Act 1, Scene 5",
-    "title": "SCENE V. Rome. Philario's house.",
-    "location": "Rome. Philario's house.",
-    "orderInPlay": 5
+    "parentSectionId": "cymbeline-act-4903",
+    "orderInPlay": 10,
+    "sourceRef": {
+      "start": 1071530,
+      "end": 1071602,
+      "line": 40819,
+      "column": 1,
+      "path": "chap07/h3@22691",
+      "anchor": "sceneI_7.5"
+    }
   },
   "content": [
     {
-      "id": "cymbeline-1-5-stage-001",
+      "id": "cymbeline/sceneI_7.5/h3@22691",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Rome. Philario’s house.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 32
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/h3@22691/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1071530,
+        "end": 1071602,
+        "line": 40819,
+        "column": 1,
+        "path": "chap07/h3@22691",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@22767",
       "type": "stage",
-      "text": "Enter Philario, Iachimo, a Frenchman, a Dutchman and a Spaniard."
-    },
-    {
-      "id": "cymbeline-1-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Philario, Iachimo, a Frenchman, a Dutchman and a Spaniard.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 27,
+          "end": 36,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 40,
+          "end": 48,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 55,
+          "end": 63,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Believe it, sir, I have seen him in Britain. He was then of a crescent note, expected to prove so worthy as since he hath been allowed the name of. But I could then have look'd on him without the help of admiration, though the catalogue of his endowments had been tabled by his side, and I to peruse him by items.",
-          "plainText": "Believe it sir I have seen him in Britain He was then of a crescent note expected to prove so worthy as since he hath been allowed the name of But I could then have look'd on him without the help of admiration though the catalogue of his endowments had been tabled by his side and I to peruse him by items",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@22767/line-1",
+          "start": 0,
+          "end": 64,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1071606,
+        "end": 1071818,
+        "line": 40821,
+        "column": 1,
+        "path": "chap07/p@22767",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-002",
+      "id": "cymbeline/sceneI_7.5/p@22983",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nBelieve it, sir, I have seen him in Britain. He was then of a crescent note, expected to prove so worthy as since he hath been allowed the name of. But I could then have look’d on him without the help of admiration, though the catalogue of his endowments had been tabled by his side, and I to peruse him by items.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "You speak of him when he was less furnish'd than now he is with that which makes him both without and within.",
-          "plainText": "You speak of him when he was less furnish'd than now he is with that which makes him both without and within",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@22983/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@22983/line-2",
+          "start": 9,
+          "end": 322,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1071822,
+        "end": 1072178,
+        "line": 40825,
+        "column": 1,
+        "path": "chap07/p@22983",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-003",
+      "id": "cymbeline/sceneI_7.5/p@23343",
       "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nYou speak of him when he was less furnish’d than now he is with that which makes him both without and within.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "I have seen him in France; we had very many there could behold the sun with as firm eyes as he.",
-          "plainText": "I have seen him in France we had very many there could behold the sun with as firm eyes as he",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@23343/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@23343/line-2",
+          "start": 10,
+          "end": 119,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1072182,
+        "end": 1072332,
+        "line": 40834,
+        "column": 1,
+        "path": "chap07/p@23343",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-004",
+      "id": "cymbeline/sceneI_7.5/p@23497",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nI have seen him in France; we had very many there could behold the sun with as firm eyes as he.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "This matter of marrying his king's daughter, wherein he must be weighed rather by her value than his own, words him, I doubt not, a great deal from the matter.",
-          "plainText": "This matter of marrying his king's daughter wherein he must be weighed rather by her value than his own words him I doubt not a great deal from the matter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@23497/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@23497/line-2",
+          "start": 11,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1072336,
+        "end": 1072473,
+        "line": 40840,
+        "column": 1,
+        "path": "chap07/p@23497",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-005",
+      "id": "cymbeline/sceneI_7.5/p@23638",
       "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nThis matter of marrying his king’s daughter, wherein he must be weighed rather by her value than his own, words him, I doubt not, a great deal from the matter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "And then his banishment.",
-          "plainText": "And then his banishment",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@23638/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@23638/line-2",
+          "start": 9,
+          "end": 168,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1072477,
+        "end": 1072677,
+        "line": 40846,
+        "column": 1,
+        "path": "chap07/p@23638",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-006",
+      "id": "cymbeline/sceneI_7.5/p@23842",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nAnd then his banishment.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Ay, and the approbation of those that weep this lamentable divorce under her colours are wonderfully to extend him, be it but to fortify her judgement, which else an easy battery might lay flat, for taking a beggar, without less quality. But how comes it he is to sojourn with you? How creeps acquaintance?",
-          "plainText": "Ay and the approbation of those that weep this lamentable divorce under her colours are wonderfully to extend him be it but to fortify her judgement which else an easy battery might lay flat for taking a beggar without less quality But how comes it he is to sojourn with you How creeps acquaintance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@23842/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@23842/line-2",
+          "start": 11,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1072681,
+        "end": 1072746,
+        "line": 40853,
+        "column": 1,
+        "path": "chap07/p@23842",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-007",
+      "id": "cymbeline/sceneI_7.5/p@23911",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nAy, and the approbation of those that weep this lamentable divorce under her colours are wonderfully to extend him, be it but to fortify her judgement, which else an easy battery might lay flat, for taking a beggar, without less quality. But how comes it he is to sojourn with you? How creeps acquaintance?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "His father and I were soldiers together, to whom I have been often bound for no less than my life.",
-          "plainText": "His father and I were soldiers together to whom I have been often bound for no less than my life",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@23911/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@23911/line-2",
+          "start": 9,
+          "end": 315,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1072750,
+        "end": 1073099,
+        "line": 40858,
+        "column": 1,
+        "path": "chap07/p@23911",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-stage-002",
+      "id": "cymbeline/sceneI_7.5/p@24264",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nHis father and I were soldiers together, to whom I have been often bound for no less than my life.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/p@24264/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@24264/line-2",
+          "start": 10,
+          "end": 108,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1073103,
+        "end": 1073242,
+        "line": 40867,
+        "column": 1,
+        "path": "chap07/p@24264",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@24407",
       "type": "stage",
-      "text": "Enter Posthumus."
-    },
-    {
-      "id": "cymbeline-1-5-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Posthumus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 15,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Sir, we have known together in Orleans.",
-          "plainText": "Sir we have known together in Orleans",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@24407/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1073246,
+        "end": 1073318,
+        "line": 40873,
+        "column": 1,
+        "path": "chap07/p@24407",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "id": "cymbeline/sceneI_7.5/p@24483",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Here comes the Briton. Let him be so entertained amongst you as suits with gentlemen of your knowing to a stranger of his quality. I beseech you all be better known to this gentleman, whom I commend to you as a noble friend of mine. How worthy he is I will leave to appear hereafter, rather than story him in his own hearing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Since when I have been debtor to you for courtesies, which I will be ever to pay and yet pay still.",
-          "plainText": "Since when I have been debtor to you for courtesies which I will be ever to pay and yet pay still",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@24483/line-1",
+          "start": 0,
+          "end": 325,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1073322,
+        "end": 1073676,
+        "line": 40875,
+        "column": 1,
+        "path": "chap07/p@24483",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-010",
+      "id": "cymbeline/sceneI_7.5/p@24841",
       "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nSir, we have known together in Orleans.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Sir, you o'errate my poor kindness. I was glad I did atone my countryman and you; it had been pity you should have been put together with so mortal a purpose as then each bore, upon importance of so slight and trivial a nature.",
-          "plainText": "Sir you o'errate my poor kindness I was glad I did atone my countryman and you it had been pity you should have been put together with so mortal a purpose as then each bore upon importance of so slight and trivial a nature",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@24841/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@24841/line-2",
+          "start": 11,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1073680,
+        "end": 1073760,
+        "line": 40883,
+        "column": 1,
+        "path": "chap07/p@24841",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-011",
+      "id": "cymbeline/sceneI_7.5/p@24925",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nSince when I have been debtor to you for courtesies, which I will be ever to pay and yet pay still.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "By your pardon, sir. I was then a young traveller; rather shunn'd to go even with what I heard than in my every action to be guided by others' experiences; but upon my mended judgement (if I offend not to say it is mended) my quarrel was not altogether slight.",
-          "plainText": "By your pardon sir I was then a young traveller rather shunn'd to go even with what I heard than in my every action to be guided by others' experiences but upon my mended judgement if I offend not to say it is mended my quarrel was not altogether slight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@24925/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@24925/line-2",
+          "start": 11,
+          "end": 110,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1073764,
+        "end": 1073905,
+        "line": 40888,
+        "column": 1,
+        "path": "chap07/p@24925",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-012",
+      "id": "cymbeline/sceneI_7.5/p@25070",
       "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nSir, you o’errate my poor kindness. I was glad I did atone my countryman and you; it had been pity you should have been put together with so mortal a purpose as then each bore, upon importance of so slight and trivial a nature.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Faith, yes, to be put to the arbitrement of swords, and by such two that would by all likelihood have confounded one the other or have fall'n both.",
-          "plainText": "Faith yes to be put to the arbitrement of swords and by such two that would by all likelihood have confounded one the other or have fall'n both",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@25070/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@25070/line-2",
+          "start": 11,
+          "end": 238,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1073909,
+        "end": 1074179,
+        "line": 40894,
+        "column": 1,
+        "path": "chap07/p@25070",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-013",
+      "id": "cymbeline/sceneI_7.5/p@25344",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nBy your pardon, sir. I was then a young traveller; rather shunn’d to go even with what I heard than in my every action to be guided by others’ experiences; but upon my mended judgement (if I offend not to say it is mended) my quarrel was not altogether slight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Can we, with manners, ask what was the difference?",
-          "plainText": "Can we with manners ask what was the difference",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@25344/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@25344/line-2",
+          "start": 11,
+          "end": 271,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1074183,
+        "end": 1074487,
+        "line": 40901,
+        "column": 1,
+        "path": "chap07/p@25344",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-014",
+      "id": "cymbeline/sceneI_7.5/p@25652",
       "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nFaith, yes, to be put to the arbitrement of swords, and by such two that would by all likelihood have confounded one the other or have fall’n both.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Safely, I think. 'Twas a contention in public, which may, without contradiction, suffer the report. It was much like an argument that fell out last night, where each of us fell in praise of our country mistresses; this gentleman at that time vouching (and upon warrant of bloody affirmation) his to be more fair, virtuous, wise, chaste, constant, qualified, and less attemptable, than any the rarest of our ladies in France.",
-          "plainText": "Safely I think 'Twas a contention in public which may without contradiction suffer the report It was much like an argument that fell out last night where each of us fell in praise of our country mistresses this gentleman at that time vouching and upon warrant of bloody affirmation his to be more fair virtuous wise chaste constant qualified and less attemptable than any the rarest of our ladies in France",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@25652/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@25652/line-2",
+          "start": 11,
+          "end": 158,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1074491,
+        "end": 1074680,
+        "line": 40909,
+        "column": 1,
+        "path": "chap07/p@25652",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-015",
+      "id": "cymbeline/sceneI_7.5/p@25845",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nCan we, with manners, ask what was the difference?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "That lady is not now living, or this gentleman's opinion, by this, worn out.",
-          "plainText": "That lady is not now living or this gentleman's opinion by this worn out",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@25845/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@25845/line-2",
+          "start": 9,
+          "end": 59,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1074684,
+        "end": 1074773,
+        "line": 40915,
+        "column": 1,
+        "path": "chap07/p@25845",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-016",
+      "id": "cymbeline/sceneI_7.5/p@25938",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nSafely, I think. ’Twas a contention in public, which may, without contradiction, suffer the report. It was much like an argument that fell out last night, where each of us fell in praise of our country mistresses; this gentleman at that time vouching (and upon warrant of bloody affirmation) his to be more fair, virtuous, wise, chaste, constant, qualified, and less attemptable, than any the rarest of our ladies in France.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "She holds her virtue still, and I my mind.",
-          "plainText": "She holds her virtue still and I my mind",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@25938/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@25938/line-2",
+          "start": 11,
+          "end": 435,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1074777,
+        "end": 1075247,
+        "line": 40920,
+        "column": 1,
+        "path": "chap07/p@25938",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-017",
+      "id": "cymbeline/sceneI_7.5/p@26412",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nThat lady is not now living, or this gentleman’s opinion, by this, worn out.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "You must not so far prefer her 'fore ours of Italy.",
-          "plainText": "You must not so far prefer her 'fore ours of Italy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@26412/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@26412/line-2",
+          "start": 9,
+          "end": 85,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1075251,
+        "end": 1075367,
+        "line": 40930,
+        "column": 1,
+        "path": "chap07/p@26412",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-018",
+      "id": "cymbeline/sceneI_7.5/p@26532",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nShe holds her virtue still, and I my mind.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Being so far provok'd as I was in France, I would abate her nothing, though I profess myself her adorer, not her friend.",
-          "plainText": "Being so far provok'd as I was in France I would abate her nothing though I profess myself her adorer not her friend",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@26532/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@26532/line-2",
+          "start": 11,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1075371,
+        "end": 1075454,
+        "line": 40936,
+        "column": 1,
+        "path": "chap07/p@26532",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-019",
+      "id": "cymbeline/sceneI_7.5/p@26619",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nYou must not so far prefer her ’fore ours of Italy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "As fair and as good—a kind of hand-in-hand comparison—had been something too fair and too good for any lady in Britain. If she went before others I have seen as that diamond of yours outlustres many I have beheld, I could not but believe she excelled many; but I have not seen the most precious diamond that is, nor you the lady.",
-          "plainText": "As fair and as gooda kind of handinhand comparisonhad been something too fair and too good for any lady in Britain If she went before others I have seen as that diamond of yours outlustres many I have beheld I could not but believe she excelled many but I have not seen the most precious diamond that is nor you the lady",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@26619/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@26619/line-2",
+          "start": 9,
+          "end": 60,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1075458,
+        "end": 1075548,
+        "line": 40941,
+        "column": 1,
+        "path": "chap07/p@26619",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-020",
+      "id": "cymbeline/sceneI_7.5/p@26713",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nBeing so far provok’d as I was in France, I would abate her nothing, though I profess myself her adorer, not her friend.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "I prais'd her as I rated her. So do I my stone.",
-          "plainText": "I prais'd her as I rated her So do I my stone",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@26713/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@26713/line-2",
+          "start": 11,
+          "end": 131,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1075552,
+        "end": 1075714,
+        "line": 40946,
+        "column": 1,
+        "path": "chap07/p@26713",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-021",
+      "id": "cymbeline/sceneI_7.5/p@26879",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nAs fair and as good—a kind of hand-in-hand comparison—had been something too fair and too good for any lady in Britain. If she went before others I have seen as that diamond of yours outlustres many I have beheld, I could not but believe she excelled many; but I have not seen the most precious diamond that is, nor you the lady.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "What do you esteem it at?",
-          "plainText": "What do you esteem it at",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@26879/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@26879/line-2",
+          "start": 9,
+          "end": 338,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1075718,
+        "end": 1076090,
+        "line": 40952,
+        "column": 1,
+        "path": "chap07/p@26879",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-022",
+      "id": "cymbeline/sceneI_7.5/p@27255",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nI prais’d her as I rated her. So do I my stone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "More than the world enjoys.",
-          "plainText": "More than the world enjoys",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27255/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27255/line-2",
+          "start": 11,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076094,
+        "end": 1076182,
+        "line": 40961,
+        "column": 1,
+        "path": "chap07/p@27255",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-023",
+      "id": "cymbeline/sceneI_7.5/p@27347",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nWhat do you esteem it at?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Either your unparagon'd mistress is dead, or she's outpriz'd by a trifle.",
-          "plainText": "Either your unparagon'd mistress is dead or she's outpriz'd by a trifle",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27347/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27347/line-2",
+          "start": 9,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076186,
+        "end": 1076250,
+        "line": 40966,
+        "column": 1,
+        "path": "chap07/p@27347",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-024",
+      "id": "cymbeline/sceneI_7.5/p@27415",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nMore than the world enjoys.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "You are mistaken: the one may be sold or given, if there were wealth enough for the purchase or merit for the gift; the other is not a thing for sale, and only the gift of the gods.",
-          "plainText": "You are mistaken the one may be sold or given if there were wealth enough for the purchase or merit for the gift the other is not a thing for sale and only the gift of the gods",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27415/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27415/line-2",
+          "start": 11,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076254,
+        "end": 1076322,
+        "line": 40971,
+        "column": 1,
+        "path": "chap07/p@27415",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-025",
+      "id": "cymbeline/sceneI_7.5/p@27487",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nEither your unparagon’d mistress is dead, or she’s outpriz’d by a trifle.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Which the gods have given you?",
-          "plainText": "Which the gods have given you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27487/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27487/line-2",
+          "start": 9,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076326,
+        "end": 1076439,
+        "line": 40976,
+        "column": 1,
+        "path": "chap07/p@27487",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-026",
+      "id": "cymbeline/sceneI_7.5/p@27604",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nYou are mistaken: the one may be sold or given, if there were wealth enough for the purchase or merit for the gift; the other is not a thing for sale, and only the gift of the gods.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Which by their graces I will keep.",
-          "plainText": "Which by their graces I will keep",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27604/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27604/line-2",
+          "start": 11,
+          "end": 192,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076443,
+        "end": 1076667,
+        "line": 40982,
+        "column": 1,
+        "path": "chap07/p@27604",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-027",
+      "id": "cymbeline/sceneI_7.5/p@27832",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nWhich the gods have given you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "You may wear her in title yours; but you know strange fowl light upon neighbouring ponds. Your ring may be stol'n too. So your brace of unprizable estimations, the one is but frail and the other casual; a cunning thief, or a that-way-accomplish'd courtier, would hazard the winning both of first and last.",
-          "plainText": "You may wear her in title yours but you know strange fowl light upon neighbouring ponds Your ring may be stol'n too So your brace of unprizable estimations the one is but frail and the other casual a cunning thief or a thatwayaccomplish'd courtier would hazard the winning both of first and last",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27832/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27832/line-2",
+          "start": 9,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076671,
+        "end": 1076740,
+        "line": 40989,
+        "column": 1,
+        "path": "chap07/p@27832",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-028",
+      "id": "cymbeline/sceneI_7.5/p@27905",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nWhich by their graces I will keep.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "Your Italy contains none so accomplish'd a courtier to convince the honour of my mistress, if in the holding or loss of that you term her frail. I do nothing doubt you have store of thieves; notwithstanding, I fear not my ring.",
-          "plainText": "Your Italy contains none so accomplish'd a courtier to convince the honour of my mistress if in the holding or loss of that you term her frail I do nothing doubt you have store of thieves notwithstanding I fear not my ring",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27905/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27905/line-2",
+          "start": 11,
+          "end": 45,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076744,
+        "end": 1076819,
+        "line": 40994,
+        "column": 1,
+        "path": "chap07/p@27905",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-029",
+      "id": "cymbeline/sceneI_7.5/p@27984",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nYou may wear her in title yours; but you know strange fowl light upon neighbouring ponds. Your ring may be stol’n too. So your brace of unprizable estimations, the one is but frail and the other casual; a cunning thief, or a that-way-accomplish’d courtier, would hazard the winning both of first and last.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Let us leave here, gentlemen.",
-          "plainText": "Let us leave here gentlemen",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@27984/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@27984/line-2",
+          "start": 9,
+          "end": 314,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1076823,
+        "end": 1077171,
+        "line": 40999,
+        "column": 1,
+        "path": "chap07/p@27984",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-030",
+      "id": "cymbeline/sceneI_7.5/p@28336",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nYour Italy contains none so accomplish’d a courtier to convince the honour of my mistress, if in the holding or loss of that you term her frail. I do nothing doubt you have store of thieves; notwithstanding, I fear not my ring.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Sir, with all my heart. This worthy signior, I thank him, makes no stranger of me; we are familiar at first.",
-          "plainText": "Sir with all my heart This worthy signior I thank him makes no stranger of me we are familiar at first",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@28336/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@28336/line-2",
+          "start": 11,
+          "end": 238,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077175,
+        "end": 1077445,
+        "line": 41008,
+        "column": 1,
+        "path": "chap07/p@28336",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-031",
+      "id": "cymbeline/sceneI_7.5/p@28610",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nLet us leave here, gentlemen.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "With five times so much conversation I should get ground of your fair mistress; make her go back even to the yielding, had I admittance and opportunity to friend.",
-          "plainText": "With five times so much conversation I should get ground of your fair mistress make her go back even to the yielding had I admittance and opportunity to friend",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@28610/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@28610/line-2",
+          "start": 10,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077449,
+        "end": 1077518,
+        "line": 41015,
+        "column": 1,
+        "path": "chap07/p@28610",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-032",
+      "id": "cymbeline/sceneI_7.5/p@28683",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nSir, with all my heart. This worthy signior, I thank him, makes no stranger of me; we are familiar at first.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "No, no.",
-          "plainText": "No no",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@28683/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@28683/line-2",
+          "start": 11,
+          "end": 119,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077522,
+        "end": 1077672,
+        "line": 41020,
+        "column": 1,
+        "path": "chap07/p@28683",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-033",
+      "id": "cymbeline/sceneI_7.5/p@28837",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nWith five times so much conversation I should get ground of your fair mistress; make her go back even to the yielding, had I admittance and opportunity to friend.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "I dare thereupon pawn the moiety of my estate to your ring, which, in my opinion, o'ervalues it something. But I make my wager rather against your confidence than her reputation; and, to bar your offence herein too, I durst attempt it against any lady in the world.",
-          "plainText": "I dare thereupon pawn the moiety of my estate to your ring which in my opinion o'ervalues it something But I make my wager rather against your confidence than her reputation and to bar your offence herein too I durst attempt it against any lady in the world",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@28837/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@28837/line-2",
+          "start": 9,
+          "end": 171,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077676,
+        "end": 1077879,
+        "line": 41026,
+        "column": 1,
+        "path": "chap07/p@28837",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-034",
+      "id": "cymbeline/sceneI_7.5/p@29044",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nNo, no.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "You are a great deal abus'd in too bold a persuasion, and I doubt not you sustain what y'are worthy of by your attempt.",
-          "plainText": "You are a great deal abus'd in too bold a persuasion and I doubt not you sustain what y'are worthy of by your attempt",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29044/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29044/line-2",
+          "start": 11,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077883,
+        "end": 1077931,
+        "line": 41033,
+        "column": 1,
+        "path": "chap07/p@29044",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-035",
+      "id": "cymbeline/sceneI_7.5/p@29096",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nI dare thereupon pawn the moiety of my estate to your ring, which, in my opinion, o’ervalues it something. But I make my wager rather against your confidence than her reputation; and, to bar your offence herein too, I durst attempt it against any lady in the world.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "What's that?",
-          "plainText": "What's that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29096/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29096/line-2",
+          "start": 9,
+          "end": 274,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1077935,
+        "end": 1078242,
+        "line": 41038,
+        "column": 1,
+        "path": "chap07/p@29096",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-036",
+      "id": "cymbeline/sceneI_7.5/p@29407",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nYou are a great deal abus’d in too bold a persuasion, and I doubt not you sustain what y’are worthy of by your attempt.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "A repulse; though your attempt, as you call it, deserve more; a punishment too.",
-          "plainText": "A repulse though your attempt as you call it deserve more a punishment too",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29407/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29407/line-2",
+          "start": 11,
+          "end": 130,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078246,
+        "end": 1078407,
+        "line": 41046,
+        "column": 1,
+        "path": "chap07/p@29407",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-037",
+      "id": "cymbeline/sceneI_7.5/p@29572",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nWhat’s that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Gentlemen, enough of this. It came in too suddenly; let it die as it was born, and I pray you be better acquainted.",
-          "plainText": "Gentlemen enough of this It came in too suddenly let it die as it was born and I pray you be better acquainted",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29572/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29572/line-2",
+          "start": 9,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078411,
+        "end": 1078462,
+        "line": 41052,
+        "column": 1,
+        "path": "chap07/p@29572",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-038",
+      "id": "cymbeline/sceneI_7.5/p@29627",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nA repulse; though your attempt, as you call it, deserve more; a punishment too.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Would I had put my estate and my neighbour's on th' approbation of what I have spoke!",
-          "plainText": "Would I had put my estate and my neighbour's on th' approbation of what I have spoke",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29627/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29627/line-2",
+          "start": 11,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078466,
+        "end": 1078586,
+        "line": 41057,
+        "column": 1,
+        "path": "chap07/p@29627",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-039",
+      "id": "cymbeline/sceneI_7.5/p@29751",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nGentlemen, enough of this. It came in too suddenly; let it die as it was born, and I pray you be better acquainted.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "What lady would you choose to assail?",
-          "plainText": "What lady would you choose to assail",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29751/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29751/line-2",
+          "start": 10,
+          "end": 125,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078590,
+        "end": 1078746,
+        "line": 41062,
+        "column": 1,
+        "path": "chap07/p@29751",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-040",
+      "id": "cymbeline/sceneI_7.5/p@29911",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nWould I had put my estate and my neighbour’s on th’ approbation of what I have spoke!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Yours, whom in constancy you think stands so safe. I will lay you ten thousand ducats to your ring that, commend me to the court where your lady is, with no more advantage than the opportunity of a second conference, and I will bring from thence that honour of hers which you imagine so reserv'd.",
-          "plainText": "Yours whom in constancy you think stands so safe I will lay you ten thousand ducats to your ring that commend me to the court where your lady is with no more advantage than the opportunity of a second conference and I will bring from thence that honour of hers which you imagine so reserv'd",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@29911/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@29911/line-2",
+          "start": 9,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078750,
+        "end": 1078875,
+        "line": 41068,
+        "column": 1,
+        "path": "chap07/p@29911",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-041",
+      "id": "cymbeline/sceneI_7.5/p@30040",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nWhat lady would you choose to assail?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "I will wage against your gold, gold to it. My ring I hold dear as my finger; 'tis part of it.",
-          "plainText": "I will wage against your gold gold to it My ring I hold dear as my finger 'tis part of it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30040/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30040/line-2",
+          "start": 11,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078879,
+        "end": 1078957,
+        "line": 41074,
+        "column": 1,
+        "path": "chap07/p@30040",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-042",
+      "id": "cymbeline/sceneI_7.5/p@30122",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nYours, whom in constancy you think stands so safe. I will lay you ten thousand ducats to your ring that, commend me to the court where your lady is, with no more advantage than the opportunity of a second conference, and I will bring from thence that honour of hers which you imagine so reserv’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "You are a friend, and therein the wiser. If you buy ladies' flesh at a million a dram, you cannot preserve it from tainting. But I see you have some religion in you, that you fear.",
-          "plainText": "You are a friend and therein the wiser If you buy ladies' flesh at a million a dram you cannot preserve it from tainting But I see you have some religion in you that you fear",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30122/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30122/line-2",
+          "start": 9,
+          "end": 305,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1078961,
+        "end": 1079299,
+        "line": 41079,
+        "column": 1,
+        "path": "chap07/p@30122",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-043",
+      "id": "cymbeline/sceneI_7.5/p@30464",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nI will wage against your gold, gold to it. My ring I hold dear as my finger; ’tis part of it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "This is but a custom in your tongue; you bear a graver purpose, I hope.",
-          "plainText": "This is but a custom in your tongue you bear a graver purpose I hope",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30464/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30464/line-2",
+          "start": 11,
+          "end": 104,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1079303,
+        "end": 1079438,
+        "line": 41087,
+        "column": 1,
+        "path": "chap07/p@30464",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-044",
+      "id": "cymbeline/sceneI_7.5/p@30603",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nYou are a friend, and therein the wiser. If you buy ladies’ flesh at a million a dram, you cannot preserve it from tainting. But I see you have some religion in you, that you fear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "I am the master of my speeches, and would undergo what's spoken, I swear.",
-          "plainText": "I am the master of my speeches and would undergo what's spoken I swear",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30603/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30603/line-2",
+          "start": 9,
+          "end": 189,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1079442,
+        "end": 1079663,
+        "line": 41093,
+        "column": 1,
+        "path": "chap07/p@30603",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-045",
+      "id": "cymbeline/sceneI_7.5/p@30828",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nThis is but a custom in your tongue; you bear a graver purpose, I hope.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Will you? I shall but lend my diamond till your return. Let there be covenants drawn between's. My mistress exceeds in goodness the hugeness of your unworthy thinking. I dare you to this match: here's my ring.",
-          "plainText": "Will you I shall but lend my diamond till your return Let there be covenants drawn between's My mistress exceeds in goodness the hugeness of your unworthy thinking I dare you to this match here's my ring",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30828/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30828/line-2",
+          "start": 11,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1079667,
+        "end": 1079779,
+        "line": 41100,
+        "column": 1,
+        "path": "chap07/p@30828",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-046",
+      "id": "cymbeline/sceneI_7.5/p@30944",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nI am the master of my speeches, and would undergo what’s spoken, I swear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "I will have it no lay.",
-          "plainText": "I will have it no lay",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@30944/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@30944/line-2",
+          "start": 9,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1079783,
+        "end": 1079895,
+        "line": 41105,
+        "column": 1,
+        "path": "chap07/p@30944",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-047",
+      "id": "cymbeline/sceneI_7.5/p@31060",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nWill you? I shall but lend my diamond till your return. Let there be covenants drawn between’s. My mistress exceeds in goodness the hugeness of your unworthy thinking. I dare you to this match: here’s my ring.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "By the gods, it is one. If I bring you no sufficient testimony that I have enjoy'd the dearest bodily part of your mistress, my ten thousand ducats are yours; so is your diamond too. If I come off, and leave her in such honour as you have trust in, she your jewel, this your jewel, and my gold are yours: provided I have your commendation for my more free entertainment.",
-          "plainText": "By the gods it is one If I bring you no sufficient testimony that I have enjoy'd the dearest bodily part of your mistress my ten thousand ducats are yours so is your diamond too If I come off and leave her in such honour as you have trust in she your jewel this your jewel and my gold are yours provided I have your commendation for my more free entertainment",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@31060/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@31060/line-2",
+          "start": 11,
+          "end": 220,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1079899,
+        "end": 1080151,
+        "line": 41110,
+        "column": 1,
+        "path": "chap07/p@31060",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-048",
+      "id": "cymbeline/sceneI_7.5/p@31316",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nI will have it no lay.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "I embrace these conditions; let us have articles betwixt us. Only, thus far you shall answer: if you make your voyage upon her, and give me directly to understand you have prevail'd, I am no further your enemy; she is not worth our debate; if she remain unseduc'd, you not making it appear otherwise, for your ill opinion and th' assault you have made to her chastity you shall answer me with your sword.",
-          "plainText": "I embrace these conditions let us have articles betwixt us Only thus far you shall answer if you make your voyage upon her and give me directly to understand you have prevail'd I am no further your enemy she is not worth our debate if she remain unseduc'd you not making it appear otherwise for your ill opinion and th' assault you have made to her chastity you shall answer me with your sword",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@31316/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@31316/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1080155,
+        "end": 1080217,
+        "line": 41117,
+        "column": 1,
+        "path": "chap07/p@31316",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-049",
+      "id": "cymbeline/sceneI_7.5/p@31382",
       "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nBy the gods, it is one. If I bring you no sufficient testimony that I have enjoy’d the dearest bodily part of your mistress, my ten thousand ducats are yours; so is your diamond too. If I come off, and leave her in such honour as you have trust in, she your jewel, this your jewel, and my gold are yours: provided I have your commendation for my more free entertainment.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Your hand, a covenant! We will have these things set down by lawful counsel, and straight away for Britain, lest the bargain should catch cold and starve. I will fetch my gold and have our two wagers recorded.",
-          "plainText": "Your hand a covenant We will have these things set down by lawful counsel and straight away for Britain lest the bargain should catch cold and starve I will fetch my gold and have our two wagers recorded",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@31382/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@31382/line-2",
+          "start": 9,
+          "end": 379,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1080221,
+        "end": 1080634,
+        "line": 41122,
+        "column": 1,
+        "path": "chap07/p@31382",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-050",
+      "id": "cymbeline/sceneI_7.5/p@31799",
       "type": "speech",
-      "speaker": {
-        "id": "posthumus",
-        "name": "POSTHUMUS",
-        "displayName": "Posthumus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nI embrace these conditions; let us have articles betwixt us. Only, thus far you shall answer: if you make your voyage upon her, and give me directly to understand you have prevail’d, I am no further your enemy; she is not worth our debate; if she remain unseduc’d, you not making it appear otherwise, for your ill opinion and th’ assault you have made to her chastity you shall answer me with your sword.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "Agreed.",
-          "plainText": "Agreed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@31799/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@31799/line-2",
+          "start": 11,
+          "end": 415,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "cymbeline-1-5-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Posthumus and Iachimo.]"
-    },
-    {
-      "id": "cymbeline-1-5-speech-051",
-      "type": "speech",
-      "speaker": {
-        "id": "frenchman",
-        "name": "FRENCHMAN",
-        "displayName": "Frenchman"
+      ],
+      "sourceRef": {
+        "start": 1080638,
+        "end": 1081088,
+        "line": 41131,
+        "column": 1,
+        "path": "chap07/p@31799",
+        "anchor": "sceneI_7.5"
       },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@32253",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nYour hand, a covenant! We will have these things set down by lawful counsel, and straight away for Britain, lest the bargain should catch cold and starve. I will fetch my gold and have our two wagers recorded.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Will this hold, think you?",
-          "plainText": "Will this hold think you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@32253/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@32253/line-2",
+          "start": 9,
+          "end": 218,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1081092,
+        "end": 1081342,
+        "line": 41141,
+        "column": 1,
+        "path": "chap07/p@32253",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "cymbeline-1-5-speech-052",
+      "id": "cymbeline/sceneI_7.5/p@32507",
       "type": "speech",
-      "speaker": {
-        "id": "philario",
-        "name": "PHILARIO",
-        "displayName": "Philario"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POSTHUMUS.\nAgreed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-1-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "Signior Iachimo will not from it. Pray let us follow 'em.",
-          "plainText": "Signior Iachimo will not from it Pray let us follow 'em",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneI_7.5/p@32507/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@32507/line-2",
+          "start": 11,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1081346,
+        "end": 1081394,
+        "line": 41148,
+        "column": 1,
+        "path": "chap07/p@32507",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "POSTHUMUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-1-5-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "cymbeline/sceneI_7.5/p@32559",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Posthumus and Iachimo.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 22,
+          "end": 29,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 30
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/p@32559/line-1",
+          "start": 0,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1081398,
+        "end": 1081519,
+        "line": 41153,
+        "column": 1,
+        "path": "chap07/p@32559",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@32684",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRENCHMAN.\nWill this hold, think you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/p@32684/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@32684/line-2",
+          "start": 11,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1081523,
+        "end": 1081590,
+        "line": 41156,
+        "column": 1,
+        "path": "chap07/p@32684",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "FRENCHMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@32755",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHILARIO.\nSignior Iachimo will not from it. Pray let us follow ’em.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/p@32755/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneI_7.5/p@32755/line-2",
+          "start": 10,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1081594,
+        "end": 1081691,
+        "line": 41161,
+        "column": 1,
+        "path": "chap07/p@32755",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": "PHILARIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "cymbeline/sceneI_7.5/p@32856",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneI_7.5/p@32856/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1081695,
+        "end": 1081733,
+        "line": 41166,
+        "column": 1,
+        "path": "chap07/p@32856",
+        "anchor": "sceneI_7.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75"
 }

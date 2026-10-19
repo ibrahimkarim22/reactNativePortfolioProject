@@ -1,1377 +1,1327 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-first-part-of-henry-the-sixth",
-    "title": "The First Part of Henry the Sixth",
+    "title": "THE FIRST PART OF HENRY THE SIXTH",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap12"
   },
-  "scene": {
+  "section": {
     "id": "the-first-part-of-henry-the-sixth-5-5",
+    "kind": "scene",
+    "heading": "SCENE V. London. The royal palace.",
     "act": 5,
     "scene": 5,
-    "label": "Act 5, Scene 5",
-    "title": "SCENE V. London. The royal palace.",
-    "location": "London. The royal palace.",
-    "orderInPlay": 27
+    "parentSectionId": "the-first-part-of-henry-the-sixth-act-141968",
+    "orderInPlay": 36,
+    "sourceRef": {
+      "start": 2256841,
+      "end": 2256916,
+      "line": 82768,
+      "column": 1,
+      "path": "chap12/h3@171154",
+      "anchor": "sceneV_12.5"
+    }
   },
   "content": [
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-stage-001",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/h3@171154",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. London. The royal palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 34
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/h3@171154/line-1",
+          "start": 0,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2256841,
+        "end": 2256916,
+        "line": 82768,
+        "column": 1,
+        "path": "chap12/h3@171154",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171233",
       "type": "stage",
-      "text": "Enter Suffolk in conference with the King, Gloucester and Exeter."
-    },
-    {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Suffolk in conference with the King, Gloucester and Exeter.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 37,
+          "end": 53,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 58,
+          "end": 64,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Your wondrous rare description, noble earl,",
-          "plainText": "Your wondrous rare description noble earl",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Of beauteous Margaret hath astonish'd me.",
-          "plainText": "Of beauteous Margaret hath astonish'd me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Her virtues graced with external gifts",
-          "plainText": "Her virtues graced with external gifts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Do breed love's settled passions in my heart,",
-          "plainText": "Do breed love's settled passions in my heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "And like as rigor of tempestuous gusts",
-          "plainText": "And like as rigor of tempestuous gusts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Provokes the mightiest hulk against the tide,",
-          "plainText": "Provokes the mightiest hulk against the tide",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "So am I driven by breath of her renown",
-          "plainText": "So am I driven by breath of her renown",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Either to suffer shipwreck or arrive",
-          "plainText": "Either to suffer shipwreck or arrive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Where I may have fruition of her love.",
-          "plainText": "Where I may have fruition of her love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171233/line-1",
+          "start": 0,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2256920,
+        "end": 2257101,
+        "line": 82770,
+        "column": 1,
+        "path": "chap12/p@171233",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-002",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418",
       "type": "speech",
-      "speaker": {
-        "id": "suffolk",
-        "name": "SUFFOLK",
-        "displayName": "Suffolk"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nYour wondrous rare description, noble earl,\nOf beauteous Margaret hath astonish’d me.\nHer virtues graced with external gifts\nDo breed love’s settled passions in my heart,\nAnd like as rigor of tempestuous gusts\nProvokes the mightiest hulk against the tide,\nSo am I driven by breath of her renown\nEither to suffer shipwreck or arrive\nWhere I may have fruition of her love.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Tush, my good lord, this superficial tale",
-          "plainText": "Tush my good lord this superficial tale",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "Is but a preface of her worthy praise;",
-          "plainText": "Is but a preface of her worthy praise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-2",
+          "start": 12,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "The chief perfections of that lovely dame,",
-          "plainText": "The chief perfections of that lovely dame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-3",
+          "start": 56,
+          "end": 97,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "Had I sufficient skill to utter them,",
-          "plainText": "Had I sufficient skill to utter them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-4",
+          "start": 98,
+          "end": 136,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 5,
-          "text": "Would make a volume of enticing lines,",
-          "plainText": "Would make a volume of enticing lines",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-5",
+          "start": 137,
+          "end": 182,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 6,
-          "text": "Able to ravish any dull conceit;",
-          "plainText": "Able to ravish any dull conceit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-6",
+          "start": 183,
+          "end": 221,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 7,
-          "text": "And, which is more, she is not so divine,",
-          "plainText": "And which is more she is not so divine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-7",
+          "start": 222,
+          "end": 267,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 8,
-          "text": "So full replete with choice of all delights,",
-          "plainText": "So full replete with choice of all delights",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-8",
+          "start": 268,
+          "end": 306,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 9,
-          "text": "But with as humble lowliness of mind",
-          "plainText": "But with as humble lowliness of mind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-9",
+          "start": 307,
+          "end": 343,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 10,
-          "text": "She is content to be at your command;",
-          "plainText": "She is content to be at your command",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 11,
-          "text": "Command, I mean, of virtuous chaste intents,",
-          "plainText": "Command I mean of virtuous chaste intents",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 12,
-          "text": "To love and honour Henry as her lord.",
-          "plainText": "To love and honour Henry as her lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171418/line-10",
+          "start": 344,
+          "end": 382,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2257105,
+        "end": 2257557,
+        "line": 82773,
+        "column": 1,
+        "path": "chap12/p@171418",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-003",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874",
       "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SUFFOLK.\nTush, my good lord, this superficial tale\nIs but a preface of her worthy praise;\nThe chief perfections of that lovely dame,\nHad I sufficient skill to utter them,\nWould make a volume of enticing lines,\nAble to ravish any dull conceit;\nAnd, which is more, she is not so divine,\nSo full replete with choice of all delights,\nBut with as humble lowliness of mind\nShe is content to be at your command;\nCommand, I mean, of virtuous chaste intents,\nTo love and honour Henry as her lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "And otherwise will Henry ne'er presume.",
-          "plainText": "And otherwise will Henry ne'er presume",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "Therefore, my Lord Protector, give consent",
-          "plainText": "Therefore my Lord Protector give consent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "That Margaret may be England's royal queen.",
-          "plainText": "That Margaret may be England's royal queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-3",
+          "start": 51,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-4",
+          "start": 90,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-5",
+          "start": 133,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-6",
+          "start": 171,
+          "end": 209,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-7",
+          "start": 210,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-8",
+          "start": 243,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-9",
+          "start": 285,
+          "end": 329,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-10",
+          "start": 330,
+          "end": 366,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-11",
+          "start": 367,
+          "end": 404,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-12",
+          "start": 405,
+          "end": 449,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@171874/line-13",
+          "start": 450,
+          "end": 487,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2257561,
+        "end": 2258133,
+        "line": 82786,
+        "column": 1,
+        "path": "chap12/p@171874",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "SUFFOLK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-004",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172450",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nAnd otherwise will Henry ne’er presume.\nTherefore, my Lord Protector, give consent\nThat Margaret may be England’s royal queen.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "So should I give consent to flatter sin.",
-          "plainText": "So should I give consent to flatter sin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172450/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "You know, my lord, your Highness is betroth'd",
-          "plainText": "You know my lord your Highness is betroth'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172450/line-2",
+          "start": 12,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Unto another lady of esteem.",
-          "plainText": "Unto another lady of esteem",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172450/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 4,
-          "text": "How shall we then dispense with that contract,",
-          "plainText": "How shall we then dispense with that contract",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 5,
-          "text": "And not deface your honour with reproach?",
-          "plainText": "And not deface your honour with reproach",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172450/line-4",
+          "start": 95,
+          "end": 138,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2258137,
+        "end": 2258315,
+        "line": 82802,
+        "column": 1,
+        "path": "chap12/p@172450",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-005",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632",
       "type": "speech",
-      "speaker": {
-        "id": "suffolk",
-        "name": "SUFFOLK",
-        "displayName": "Suffolk"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nSo should I give consent to flatter sin.\nYou know, my lord, your Highness is betroth’d\nUnto another lady of esteem.\nHow shall we then dispense with that contract,\nAnd not deface your honour with reproach?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "As doth a ruler with unlawful oaths;",
-          "plainText": "As doth a ruler with unlawful oaths",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "Or one that, at a triumph having vow'd",
-          "plainText": "Or one that at a triumph having vow'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-2",
+          "start": 12,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "To try his strength, forsaketh yet the lists",
-          "plainText": "To try his strength forsaketh yet the lists",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-3",
+          "start": 53,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 4,
-          "text": "By reason of his adversary's odds.",
-          "plainText": "By reason of his adversary's odds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-4",
+          "start": 99,
+          "end": 127,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 5,
-          "text": "A poor earl's daughter is unequal odds,",
-          "plainText": "A poor earl's daughter is unequal odds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-5",
+          "start": 128,
+          "end": 174,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 6,
-          "text": "And therefore may be broke without offence.",
-          "plainText": "And therefore may be broke without offence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172632/line-6",
+          "start": 175,
+          "end": 216,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2258319,
+        "end": 2258585,
+        "line": 82809,
+        "column": 1,
+        "path": "chap12/p@172632",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-006",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SUFFOLK.\nAs doth a ruler with unlawful oaths;\nOr one that, at a triumph having vow’d\nTo try his strength, forsaketh yet the lists\nBy reason of his adversary’s odds.\nA poor earl’s daughter is unequal odds,\nAnd therefore may be broke without offence.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Why, what, I pray, is Margaret more than that?",
-          "plainText": "Why what I pray is Margaret more than that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "Her father is no better than an earl,",
-          "plainText": "Her father is no better than an earl",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-2",
+          "start": 9,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 3,
-          "text": "Although in glorious titles he excel.",
-          "plainText": "Although in glorious titles he excel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-3",
+          "start": 46,
+          "end": 84,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-4",
+          "start": 85,
+          "end": 129,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-5",
+          "start": 130,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-6",
+          "start": 165,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@172902/line-7",
+          "start": 205,
+          "end": 248,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2258589,
+        "end": 2258892,
+        "line": 82818,
+        "column": 1,
+        "path": "chap12/p@172902",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "SUFFOLK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-007",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173209",
       "type": "speech",
-      "speaker": {
-        "id": "suffolk",
-        "name": "SUFFOLK",
-        "displayName": "Suffolk"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nWhy, what, I pray, is Margaret more than that?\nHer father is no better than an earl,\nAlthough in glorious titles he excel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "Yes, my lord, her father is a king,",
-          "plainText": "Yes my lord her father is a king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173209/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "The King of Naples and Jerusalem;",
-          "plainText": "The King of Naples and Jerusalem",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173209/line-2",
+          "start": 12,
+          "end": 58,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "And of such great authority in France",
-          "plainText": "And of such great authority in France",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173209/line-3",
+          "start": 59,
+          "end": 96,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 4,
-          "text": "As his alliance will confirm our peace,",
-          "plainText": "As his alliance will confirm our peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 5,
-          "text": "And keep the Frenchmen in allegiance.",
-          "plainText": "And keep the Frenchmen in allegiance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173209/line-4",
+          "start": 97,
+          "end": 134,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2258896,
+        "end": 2259070,
+        "line": 82828,
+        "column": 1,
+        "path": "chap12/p@173209",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-008",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387",
       "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SUFFOLK.\nYes, my lord, her father is a king,\nThe King of Naples and Jerusalem;\nAnd of such great authority in France\nAs his alliance will confirm our peace,\nAnd keep the Frenchmen in allegiance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "And so the Earl of Armagnac may do,",
-          "plainText": "And so the Earl of Armagnac may do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "Because he is near kinsman unto Charles.",
-          "plainText": "Because he is near kinsman unto Charles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-2",
+          "start": 9,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-3",
+          "start": 45,
+          "end": 78,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-4",
+          "start": 79,
+          "end": 116,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-5",
+          "start": 117,
+          "end": 156,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173387/line-6",
+          "start": 157,
+          "end": 194,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2259074,
+        "end": 2259318,
+        "line": 82835,
+        "column": 1,
+        "path": "chap12/p@173387",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "SUFFOLK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-009",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173635",
       "type": "speech",
-      "speaker": {
-        "id": "exeter",
-        "name": "EXETER",
-        "displayName": "Exeter"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nAnd so the Earl of Armagnac may do,\nBecause he is near kinsman unto Charles.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Beside, his wealth doth warrant a liberal dower,",
-          "plainText": "Beside his wealth doth warrant a liberal dower",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173635/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Where Reignier sooner will receive than give.",
-          "plainText": "Where Reignier sooner will receive than give",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173635/line-2",
+          "start": 12,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173635/line-3",
+          "start": 48,
+          "end": 88,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2259322,
+        "end": 2259445,
+        "line": 82844,
+        "column": 1,
+        "path": "chap12/p@173635",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-010",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173762",
       "type": "speech",
-      "speaker": {
-        "id": "suffolk",
-        "name": "SUFFOLK",
-        "displayName": "Suffolk"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EXETER.\nBeside, his wealth doth warrant a liberal dower,\nWhere Reignier sooner will receive than give.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "A dower, my lords? Disgrace not so your king,",
-          "plainText": "A dower my lords Disgrace not so your king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173762/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "That he should be so abject, base, and poor,",
-          "plainText": "That he should be so abject base and poor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173762/line-2",
+          "start": 8,
+          "end": 56,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 3,
-          "text": "To choose for wealth and not for perfect love.",
-          "plainText": "To choose for wealth and not for perfect love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 4,
-          "text": "Henry is able to enrich his queen,",
-          "plainText": "Henry is able to enrich his queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 5,
-          "text": "And not to seek a queen to make him rich;",
-          "plainText": "And not to seek a queen to make him rich",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 6,
-          "text": "So worthless peasants bargain for their wives,",
-          "plainText": "So worthless peasants bargain for their wives",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 7,
-          "text": "As market-men for oxen, sheep, or horse.",
-          "plainText": "As marketmen for oxen sheep or horse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0055",
-          "number": 55,
-          "speechLineNumber": 8,
-          "text": "Marriage is a matter of more worth",
-          "plainText": "Marriage is a matter of more worth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0056",
-          "number": 56,
-          "speechLineNumber": 9,
-          "text": "Than to be dealt in by attorneyship;",
-          "plainText": "Than to be dealt in by attorneyship",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0057",
-          "number": 57,
-          "speechLineNumber": 10,
-          "text": "Not whom we will, but whom his Grace affects,",
-          "plainText": "Not whom we will but whom his Grace affects",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0058",
-          "number": 58,
-          "speechLineNumber": 11,
-          "text": "Must be companion of his nuptial bed.",
-          "plainText": "Must be companion of his nuptial bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0059",
-          "number": 59,
-          "speechLineNumber": 12,
-          "text": "And therefore, lords, since he affects her most,",
-          "plainText": "And therefore lords since he affects her most",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0060",
-          "number": 60,
-          "speechLineNumber": 13,
-          "text": "Most of all these reasons bindeth us",
-          "plainText": "Most of all these reasons bindeth us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0061",
-          "number": 61,
-          "speechLineNumber": 14,
-          "text": "In our opinions she should be preferr'd.",
-          "plainText": "In our opinions she should be preferr'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0062",
-          "number": 62,
-          "speechLineNumber": 15,
-          "text": "For what is wedlock forced but a hell,",
-          "plainText": "For what is wedlock forced but a hell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0063",
-          "number": 63,
-          "speechLineNumber": 16,
-          "text": "An age of discord and continual strife?",
-          "plainText": "An age of discord and continual strife",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0064",
-          "number": 64,
-          "speechLineNumber": 17,
-          "text": "Whereas the contrary bringeth bliss,",
-          "plainText": "Whereas the contrary bringeth bliss",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0065",
-          "number": 65,
-          "speechLineNumber": 18,
-          "text": "And is a pattern of celestial peace.",
-          "plainText": "And is a pattern of celestial peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0066",
-          "number": 66,
-          "speechLineNumber": 19,
-          "text": "Whom should we match with Henry, being a king,",
-          "plainText": "Whom should we match with Henry being a king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0067",
-          "number": 67,
-          "speechLineNumber": 20,
-          "text": "But Margaret, that is daughter to a king?",
-          "plainText": "But Margaret that is daughter to a king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0068",
-          "number": 68,
-          "speechLineNumber": 21,
-          "text": "Her peerless feature, joined with her birth,",
-          "plainText": "Her peerless feature joined with her birth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0069",
-          "number": 69,
-          "speechLineNumber": 22,
-          "text": "Approves her fit for none but for a king;",
-          "plainText": "Approves her fit for none but for a king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0070",
-          "number": 70,
-          "speechLineNumber": 23,
-          "text": "Her valiant courage and undaunted spirit,",
-          "plainText": "Her valiant courage and undaunted spirit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0071",
-          "number": 71,
-          "speechLineNumber": 24,
-          "text": "More than in women commonly is seen,",
-          "plainText": "More than in women commonly is seen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0072",
-          "number": 72,
-          "speechLineNumber": 25,
-          "text": "Will answer our hope in issue of a king;",
-          "plainText": "Will answer our hope in issue of a king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0073",
-          "number": 73,
-          "speechLineNumber": 26,
-          "text": "For Henry, son unto a conqueror,",
-          "plainText": "For Henry son unto a conqueror",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0074",
-          "number": 74,
-          "speechLineNumber": 27,
-          "text": "Is likely to beget more conquerors,",
-          "plainText": "Is likely to beget more conquerors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0075",
-          "number": 75,
-          "speechLineNumber": 28,
-          "text": "If with a lady of so high resolve",
-          "plainText": "If with a lady of so high resolve",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0076",
-          "number": 76,
-          "speechLineNumber": 29,
-          "text": "As is fair Margaret he be link'd in love.",
-          "plainText": "As is fair Margaret he be link'd in love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0077",
-          "number": 77,
-          "speechLineNumber": 30,
-          "text": "Then yield, my lords; and here conclude with me",
-          "plainText": "Then yield my lords and here conclude with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0078",
-          "number": 78,
-          "speechLineNumber": 31,
-          "text": "That Margaret shall be queen, and none but she.",
-          "plainText": "That Margaret shall be queen and none but she",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173762/line-3",
+          "start": 57,
+          "end": 102,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2259449,
+        "end": 2259586,
+        "line": 82850,
+        "column": 1,
+        "path": "chap12/p@173762",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "EXETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-011",
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903",
       "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SUFFOLK.\nA dower, my lords? Disgrace not so your king,\nThat he should be so abject, base, and poor,\nTo choose for wealth and not for perfect love.\nHenry is able to enrich his queen,\nAnd not to seek a queen to make him rich;\nSo worthless peasants bargain for their wives,\nAs market-men for oxen, sheep, or horse.\nMarriage is a matter of more worth\nThan to be dealt in by attorneyship;\nNot whom we will, but whom his Grace affects,\nMust be companion of his nuptial bed.\nAnd therefore, lords, since he affects her most,\nMost of all these reasons bindeth us\nIn our opinions she should be preferr’d.\nFor what is wedlock forced but a hell,\nAn age of discord and continual strife?\nWhereas the contrary bringeth bliss,\nAnd is a pattern of celestial peace.\nWhom should we match with Henry, being a king,\nBut Margaret, that is daughter to a king?\nHer peerless feature, joined with her birth,\nApproves her fit for none but for a king;\nHer valiant courage and undaunted spirit,\nMore than in women commonly is seen,\nWill answer our hope in issue of a king;\nFor Henry, son unto a conqueror,\nIs likely to beget more conquerors,\nIf with a lady of so high resolve\nAs is fair Margaret he be link’d in love.\nThen yield, my lords; and here conclude with me\nThat Margaret shall be queen, and none but she.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0079",
-          "number": 79,
-          "speechLineNumber": 1,
-          "text": "Whether it be through force of your report,",
-          "plainText": "Whether it be through force of your report",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0080",
-          "number": 80,
-          "speechLineNumber": 2,
-          "text": "My noble Lord of Suffolk, or for that",
-          "plainText": "My noble Lord of Suffolk or for that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0081",
-          "number": 81,
-          "speechLineNumber": 3,
-          "text": "My tender youth was never yet attaint",
-          "plainText": "My tender youth was never yet attaint",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-3",
+          "start": 55,
+          "end": 99,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0082",
-          "number": 82,
-          "speechLineNumber": 4,
-          "text": "With any passion of inflaming love,",
-          "plainText": "With any passion of inflaming love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-4",
+          "start": 100,
+          "end": 146,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0083",
-          "number": 83,
-          "speechLineNumber": 5,
-          "text": "I cannot tell; but this I am assured,",
-          "plainText": "I cannot tell but this I am assured",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-5",
+          "start": 147,
+          "end": 181,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0084",
-          "number": 84,
-          "speechLineNumber": 6,
-          "text": "I feel such sharp dissension in my breast,",
-          "plainText": "I feel such sharp dissension in my breast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-6",
+          "start": 182,
+          "end": 223,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0085",
-          "number": 85,
-          "speechLineNumber": 7,
-          "text": "Such fierce alarums both of hope and fear,",
-          "plainText": "Such fierce alarums both of hope and fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-7",
+          "start": 224,
+          "end": 270,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0086",
-          "number": 86,
-          "speechLineNumber": 8,
-          "text": "As I am sick with working of my thoughts.",
-          "plainText": "As I am sick with working of my thoughts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-8",
+          "start": 271,
+          "end": 311,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0087",
-          "number": 87,
-          "speechLineNumber": 9,
-          "text": "Take therefore shipping; post, my lord, to France;",
-          "plainText": "Take therefore shipping post my lord to France",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-9",
+          "start": 312,
+          "end": 346,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0088",
-          "number": 88,
-          "speechLineNumber": 10,
-          "text": "Agree to any covenants, and procure",
-          "plainText": "Agree to any covenants and procure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-10",
+          "start": 347,
+          "end": 383,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0089",
-          "number": 89,
-          "speechLineNumber": 11,
-          "text": "That Lady Margaret do vouchsafe to come",
-          "plainText": "That Lady Margaret do vouchsafe to come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-11",
+          "start": 384,
+          "end": 429,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0090",
-          "number": 90,
-          "speechLineNumber": 12,
-          "text": "To cross the seas to England and be crown'd",
-          "plainText": "To cross the seas to England and be crown'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-12",
+          "start": 430,
+          "end": 467,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0091",
-          "number": 91,
-          "speechLineNumber": 13,
-          "text": "King Henry's faithful and anointed queen.",
-          "plainText": "King Henry's faithful and anointed queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-13",
+          "start": 468,
+          "end": 516,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0092",
-          "number": 92,
-          "speechLineNumber": 14,
-          "text": "For your expenses and sufficient charge,",
-          "plainText": "For your expenses and sufficient charge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-14",
+          "start": 517,
+          "end": 553,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0093",
-          "number": 93,
-          "speechLineNumber": 15,
-          "text": "Among the people gather up a tenth.",
-          "plainText": "Among the people gather up a tenth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-15",
+          "start": 554,
+          "end": 594,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0094",
-          "number": 94,
-          "speechLineNumber": 16,
-          "text": "Be gone, I say; for till you do return,",
-          "plainText": "Be gone I say for till you do return",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-16",
+          "start": 595,
+          "end": 633,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0095",
-          "number": 95,
-          "speechLineNumber": 17,
-          "text": "I rest perplexed with a thousand cares.",
-          "plainText": "I rest perplexed with a thousand cares",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-17",
+          "start": 634,
+          "end": 673,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0096",
-          "number": 96,
-          "speechLineNumber": 18,
-          "text": "And you, good uncle, banish all offence.",
-          "plainText": "And you good uncle banish all offence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-18",
+          "start": 674,
+          "end": 710,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0097",
-          "number": 97,
-          "speechLineNumber": 19,
-          "text": "If you do censure me by what you were,",
-          "plainText": "If you do censure me by what you were",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-19",
+          "start": 711,
+          "end": 747,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0098",
-          "number": 98,
-          "speechLineNumber": 20,
-          "text": "Not what you are, I know it will excuse",
-          "plainText": "Not what you are I know it will excuse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-20",
+          "start": 748,
+          "end": 794,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0099",
-          "number": 99,
-          "speechLineNumber": 21,
-          "text": "This sudden execution of my will.",
-          "plainText": "This sudden execution of my will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-21",
+          "start": 795,
+          "end": 836,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0100",
-          "number": 100,
-          "speechLineNumber": 22,
-          "text": "And so conduct me where, from company,",
-          "plainText": "And so conduct me where from company",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-22",
+          "start": 837,
+          "end": 881,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0101",
-          "number": 101,
-          "speechLineNumber": 23,
-          "text": "I may revolve and ruminate my grief.",
-          "plainText": "I may revolve and ruminate my grief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-23",
+          "start": 882,
+          "end": 923,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-24",
+          "start": 924,
+          "end": 965,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-25",
+          "start": 966,
+          "end": 1002,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-26",
+          "start": 1003,
+          "end": 1043,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-27",
+          "start": 1044,
+          "end": 1076,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-28",
+          "start": 1077,
+          "end": 1112,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-29",
+          "start": 1113,
+          "end": 1146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-30",
+          "start": 1147,
+          "end": 1188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-31",
+          "start": 1189,
+          "end": 1236,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@173903/line-32",
+          "start": 1237,
+          "end": 1284,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-first-part-of-henry-the-sixth-5-5-stage-002",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
+      ],
+      "sourceRef": {
+        "start": 2259590,
+        "end": 2261054,
+        "line": 82856,
+        "column": 1,
+        "path": "chap12/p@173903",
+        "anchor": "sceneV_12.5"
       },
+      "speakerLabel": "SUFFOLK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nWhether it be through force of your report,\nMy noble Lord of Suffolk, or for that\nMy tender youth was never yet attaint\nWith any passion of inflaming love,\nI cannot tell; but this I am assured,\nI feel such sharp dissension in my breast,\nSuch fierce alarums both of hope and fear,\nAs I am sick with working of my thoughts.\nTake therefore shipping; post, my lord, to France;\nAgree to any covenants, and procure\nThat Lady Margaret do vouchsafe to come\nTo cross the seas to England and be crown’d\nKing Henry’s faithful and anointed queen.\nFor your expenses and sufficient charge,\nAmong the people gather up a tenth.\nBe gone, I say; for till you do return,\nI rest perplexed with a thousand cares.\nAnd you, good uncle, banish all offence.\nIf you do censure me by what you were,\nNot what you are, I know it will excuse\nThis sudden execution of my will.\nAnd so conduct me where, from company,\nI may revolve and ruminate my grief.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0102",
-          "number": 102,
-          "speechLineNumber": 1,
-          "text": "Ay, grief, I fear me, both at first and last.",
-          "plainText": "Ay grief I fear me both at first and last",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-2",
+          "start": 12,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-3",
+          "start": 56,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-4",
+          "start": 94,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-5",
+          "start": 132,
+          "end": 167,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-6",
+          "start": 168,
+          "end": 205,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-7",
+          "start": 206,
+          "end": 248,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-8",
+          "start": 249,
+          "end": 291,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-9",
+          "start": 292,
+          "end": 333,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-10",
+          "start": 334,
+          "end": 384,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-11",
+          "start": 385,
+          "end": 420,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-12",
+          "start": 421,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-13",
+          "start": 461,
+          "end": 504,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-14",
+          "start": 505,
+          "end": 546,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-15",
+          "start": 547,
+          "end": 587,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-16",
+          "start": 588,
+          "end": 623,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-17",
+          "start": 624,
+          "end": 663,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-18",
+          "start": 664,
+          "end": 703,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-19",
+          "start": 704,
+          "end": 744,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-20",
+          "start": 745,
+          "end": 783,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-21",
+          "start": 784,
+          "end": 823,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-22",
+          "start": 824,
+          "end": 857,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-23",
+          "start": 858,
+          "end": 896,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@175371/line-24",
+          "start": 897,
+          "end": 933,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-first-part-of-henry-the-sixth-5-5-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Gloucester and Exeter.]"
-    },
-    {
-      "id": "the-first-part-of-henry-the-sixth-5-5-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "suffolk",
-        "name": "SUFFOLK",
-        "displayName": "Suffolk"
+      ],
+      "sourceRef": {
+        "start": 2261058,
+        "end": 2262131,
+        "line": 82891,
+        "column": 1,
+        "path": "chap12/p@175371",
+        "anchor": "sceneV_12.5"
       },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176448",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
       "lines": [
         {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0103",
-          "number": 103,
-          "speechLineNumber": 1,
-          "text": "Thus Suffolk hath prevail'd; and thus he goes,",
-          "plainText": "Thus Suffolk hath prevail'd and thus he goes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0104",
-          "number": 104,
-          "speechLineNumber": 2,
-          "text": "As did the youthful Paris once to Greece,",
-          "plainText": "As did the youthful Paris once to Greece",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0105",
-          "number": 105,
-          "speechLineNumber": 3,
-          "text": "With hope to find the like event in love,",
-          "plainText": "With hope to find the like event in love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0106",
-          "number": 106,
-          "speechLineNumber": 4,
-          "text": "But prosper better than the Troyan did.",
-          "plainText": "But prosper better than the Troyan did",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0107",
-          "number": 107,
-          "speechLineNumber": 5,
-          "text": "Margaret shall now be queen, and rule the King;",
-          "plainText": "Margaret shall now be queen and rule the King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-henry-the-sixth-5-5-line-0108",
-          "number": 108,
-          "speechLineNumber": 6,
-          "text": "But I will rule both her, the King, and realm.",
-          "plainText": "But I will rule both her the King and realm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176448/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2262135,
+        "end": 2262170,
+        "line": 82918,
+        "column": 1,
+        "path": "chap12/p@176448",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "the-first-part-of-henry-the-sixth-5-5-stage-004",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176487",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nAy, grief, I fear me, both at first and last.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176487/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176487/line-2",
+          "start": 12,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2262174,
+        "end": 2262261,
+        "line": 82920,
+        "column": 1,
+        "path": "chap12/p@176487",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176578",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Gloucester and Exeter.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 18,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 23,
+          "end": 29,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 30
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176578/line-1",
+          "start": 0,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2262265,
+        "end": 2262385,
+        "line": 82925,
+        "column": 1,
+        "path": "chap12/p@176578",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SUFFOLK.\nThus Suffolk hath prevail’d; and thus he goes,\nAs did the youthful Paris once to Greece,\nWith hope to find the like event in love,\nBut prosper better than the Troyan did.\nMargaret shall now be queen, and rule the King;\nBut I will rule both her, the King, and realm.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-3",
+          "start": 56,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-4",
+          "start": 98,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-5",
+          "start": 140,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-6",
+          "start": 180,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@176702/line-7",
+          "start": 228,
+          "end": 274,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2262389,
+        "end": 2262718,
+        "line": 82928,
+        "column": 1,
+        "path": "chap12/p@176702",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": "SUFFOLK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@177035",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-first-part-of-henry-the-sixth/sceneV_12.5/p@177035/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2262722,
+        "end": 2262757,
+        "line": 82938,
+        "column": 1,
+        "path": "chap12/p@177035",
+        "anchor": "sceneV_12.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "cd380638952fe3be26873e0d757dd7bf6934b7ea258562fedb95b7bcdbae74b8"
 }

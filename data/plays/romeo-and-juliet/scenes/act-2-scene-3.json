@@ -1,1229 +1,1430 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-2-3",
+    "kind": "scene",
+    "heading": "SCENE III. Friar Lawrence’s Cell.",
     "act": 2,
     "scene": 3,
-    "label": "Act 2, Scene 3",
-    "title": "SCENE III. Friar Lawrence's Cell.",
-    "location": "Friar Lawrence's Cell.",
-    "orderInPlay": 8
+    "parentSectionId": "romeo-and-juliet-act-50512",
+    "orderInPlay": 15,
+    "sourceRef": {
+      "start": 5364982,
+      "end": 5365057,
+      "line": 199463,
+      "column": 1,
+      "path": "chap30/h3@65982",
+      "anchor": "sceneII_30.3"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-2-3-stage-001",
+      "id": "romeo-and-juliet/sceneII_30.3/h3@65982",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Friar Lawrence’s Cell.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/h3@65982/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5364982,
+        "end": 5365057,
+        "line": 199463,
+        "column": 1,
+        "path": "chap30/h3@65982",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.3/p@66061",
       "type": "stage",
-      "text": "Enter Friar Lawrence with a basket."
-    },
-    {
-      "id": "romeo-and-juliet-2-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Friar Lawrence with a basket.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "The grey-ey'd morn smiles on the frowning night,",
-          "plainText": "The greyey'd morn smiles on the frowning night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Chequering the eastern clouds with streaks of light;",
-          "plainText": "Chequering the eastern clouds with streaks of light",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "And fleckled darkness like a drunkard reels",
-          "plainText": "And fleckled darkness like a drunkard reels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "From forth day's pathway, made by Titan's fiery wheels",
-          "plainText": "From forth day's pathway made by Titan's fiery wheels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Now, ere the sun advance his burning eye,",
-          "plainText": "Now ere the sun advance his burning eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "The day to cheer, and night's dank dew to dry,",
-          "plainText": "The day to cheer and night's dank dew to dry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "I must upfill this osier cage of ours",
-          "plainText": "I must upfill this osier cage of ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "With baleful weeds and precious-juiced flowers.",
-          "plainText": "With baleful weeds and preciousjuiced flowers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "The earth that's nature's mother, is her tomb;",
-          "plainText": "The earth that's nature's mother is her tomb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "What is her burying grave, that is her womb:",
-          "plainText": "What is her burying grave that is her womb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "And from her womb children of divers kind",
-          "plainText": "And from her womb children of divers kind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "We sucking on her natural bosom find.",
-          "plainText": "We sucking on her natural bosom find",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "Many for many virtues excellent,",
-          "plainText": "Many for many virtues excellent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "None but for some, and yet all different.",
-          "plainText": "None but for some and yet all different",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "O, mickle is the powerful grace that lies",
-          "plainText": "O mickle is the powerful grace that lies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "In plants, herbs, stones, and their true qualities.",
-          "plainText": "In plants herbs stones and their true qualities",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "For naught so vile that on the earth doth live",
-          "plainText": "For naught so vile that on the earth doth live",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "But to the earth some special good doth give;",
-          "plainText": "But to the earth some special good doth give",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "Nor aught so good but, strain'd from that fair use,",
-          "plainText": "Nor aught so good but strain'd from that fair use",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "Revolts from true birth, stumbling on abuse.",
-          "plainText": "Revolts from true birth stumbling on abuse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "Virtue itself turns vice being misapplied,",
-          "plainText": "Virtue itself turns vice being misapplied",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 22,
-          "text": "And vice sometime's by action dignified.",
-          "plainText": "And vice sometime's by action dignified",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@66061/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5365061,
+        "end": 5365152,
+        "line": 199465,
+        "column": 1,
+        "path": "chap30/p@66061",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-stage-002",
+      "id": "romeo-and-juliet/sceneII_30.3/p@66156",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nThe grey-ey’d morn smiles on the frowning night,\nChequering the eastern clouds with streaks of light;\nAnd fleckled darkness like a drunkard reels\nFrom forth day’s pathway, made by Titan’s fiery wheels\nNow, ere the sun advance his burning eye,\nThe day to cheer, and night’s dank dew to dry,\nI must upfill this osier cage of ours\nWith baleful weeds and precious-juiced flowers.\nThe earth that’s nature’s mother, is her tomb;\nWhat is her burying grave, that is her womb:\nAnd from her womb children of divers kind\nWe sucking on her natural bosom find.\nMany for many virtues excellent,\nNone but for some, and yet all different.\nO, mickle is the powerful grace that lies\nIn plants, herbs, stones, and their true qualities.\nFor naught so vile that on the earth doth live\nBut to the earth some special good doth give;\nNor aught so good but, strain’d from that fair use,\nRevolts from true birth, stumbling on abuse.\nVirtue itself turns vice being misapplied,\nAnd vice sometime’s by action dignified.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-2",
+          "start": 16,
+          "end": 64,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-3",
+          "start": 65,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-4",
+          "start": 118,
+          "end": 161,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-5",
+          "start": 162,
+          "end": 216,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-6",
+          "start": 217,
+          "end": 258,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-7",
+          "start": 259,
+          "end": 305,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-8",
+          "start": 306,
+          "end": 343,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-9",
+          "start": 344,
+          "end": 391,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-10",
+          "start": 392,
+          "end": 438,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-11",
+          "start": 439,
+          "end": 483,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-12",
+          "start": 484,
+          "end": 525,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-13",
+          "start": 526,
+          "end": 563,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-14",
+          "start": 564,
+          "end": 596,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-15",
+          "start": 597,
+          "end": 638,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-16",
+          "start": 639,
+          "end": 680,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-17",
+          "start": 681,
+          "end": 732,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-18",
+          "start": 733,
+          "end": 779,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-19",
+          "start": 780,
+          "end": 825,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-20",
+          "start": 826,
+          "end": 877,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-21",
+          "start": 878,
+          "end": 922,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-22",
+          "start": 923,
+          "end": 965,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-23",
+          "start": 966,
+          "end": 1006,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@66156/line-24",
+          "start": 1007,
+          "end": 1007,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5365156,
+        "end": 5366301,
+        "line": 199468,
+        "column": 1,
+        "path": "chap30/p@66156",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.3/p@67305",
       "type": "stage",
-      "text": "Enter Romeo."
-    },
-    {
-      "id": "romeo-and-juliet-2-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Romeo.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Good morrow, father.",
-          "plainText": "Good morrow father",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67305/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5366305,
+        "end": 5366372,
+        "line": 199494,
+        "column": 1,
+        "path": "chap30/p@67305",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "id": "romeo-and-juliet/sceneII_30.3/p@67376",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Within the infant rind of this weak flower\nPoison hath residence, and medicine power:\nFor this, being smelt, with that part cheers each part;\nBeing tasted, slays all senses with the heart.\nTwo such opposed kings encamp them still\nIn man as well as herbs,—grace and rude will;\nAnd where the worser is predominant,\nFull soon the canker death eats up that plant.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Benedicite!",
-          "plainText": "Benedicite",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-1",
+          "start": 0,
+          "end": 42,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "What early tongue so sweet saluteth me?",
-          "plainText": "What early tongue so sweet saluteth me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-2",
+          "start": 43,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 3,
-          "text": "Young son, it argues a distemper'd head",
-          "plainText": "Young son it argues a distemper'd head",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-3",
+          "start": 86,
+          "end": 141,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 4,
-          "text": "So soon to bid good morrow to thy bed.",
-          "plainText": "So soon to bid good morrow to thy bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-4",
+          "start": 142,
+          "end": 188,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 5,
-          "text": "Care keeps his watch in every old man's eye,",
-          "plainText": "Care keeps his watch in every old man's eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-5",
+          "start": 189,
+          "end": 229,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 6,
-          "text": "And where care lodges sleep will never lie;",
-          "plainText": "And where care lodges sleep will never lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-6",
+          "start": 230,
+          "end": 275,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 7,
-          "text": "But where unbruised youth with unstuff'd brain",
-          "plainText": "But where unbruised youth with unstuff'd brain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-7",
+          "start": 276,
+          "end": 312,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 8,
-          "text": "Doth couch his limbs, there golden sleep doth reign.",
-          "plainText": "Doth couch his limbs there golden sleep doth reign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 9,
-          "text": "Therefore thy earliness doth me assure",
-          "plainText": "Therefore thy earliness doth me assure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 10,
-          "text": "Thou art uprous'd with some distemperature;",
-          "plainText": "Thou art uprous'd with some distemperature",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 11,
-          "text": "Or if not so, then here I hit it right,",
-          "plainText": "Or if not so then here I hit it right",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 12,
-          "text": "Our Romeo hath not been in bed tonight.",
-          "plainText": "Our Romeo hath not been in bed tonight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67376/line-8",
+          "start": 313,
+          "end": 359,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5366376,
+        "end": 5366795,
+        "line": 199496,
+        "column": 1,
+        "path": "chap30/p@67376",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-004",
+      "id": "romeo-and-juliet/sceneII_30.3/p@67799",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nGood morrow, father.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "That last is true; the sweeter rest was mine.",
-          "plainText": "That last is true the sweeter rest was mine",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67799/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67799/line-2",
+          "start": 7,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5366799,
+        "end": 5366856,
+        "line": 199507,
+        "column": 1,
+        "path": "chap30/p@67799",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-005",
+      "id": "romeo-and-juliet/sceneII_30.3/p@67860",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nBenedicite!\nWhat early tongue so sweet saluteth me?\nYoung son, it argues a distemper’d head\nSo soon to bid good morrow to thy bed.\nCare keeps his watch in every old man’s eye,\nAnd where care lodges sleep will never lie;\nBut where unbruised youth with unstuff’d brain\nDoth couch his limbs, there golden sleep doth reign.\nTherefore thy earliness doth me assure\nThou art uprous’d with some distemperature;\nOr if not so, then here I hit it right,\nOur Romeo hath not been in bed tonight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "God pardon sin. Wast thou with Rosaline?",
-          "plainText": "God pardon sin Wast thou with Rosaline",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-2",
+          "start": 16,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-3",
+          "start": 28,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-4",
+          "start": 68,
+          "end": 107,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-5",
+          "start": 108,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-6",
+          "start": 147,
+          "end": 191,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-7",
+          "start": 192,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-8",
+          "start": 236,
+          "end": 282,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-9",
+          "start": 283,
+          "end": 335,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-10",
+          "start": 336,
+          "end": 374,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-11",
+          "start": 375,
+          "end": 418,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-12",
+          "start": 419,
+          "end": 458,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@67860/line-13",
+          "start": 459,
+          "end": 498,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5366860,
+        "end": 5367443,
+        "line": 199512,
+        "column": 1,
+        "path": "chap30/p@67860",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-006",
+      "id": "romeo-and-juliet/sceneII_30.3/p@68447",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nThat last is true; the sweeter rest was mine.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "With Rosaline, my ghostly father? No.",
-          "plainText": "With Rosaline my ghostly father No",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68447/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 2,
-          "text": "I have forgot that name, and that name's woe.",
-          "plainText": "I have forgot that name and that name's woe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68447/line-2",
+          "start": 7,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5367447,
+        "end": 5367529,
+        "line": 199528,
+        "column": 1,
+        "path": "chap30/p@68447",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-007",
+      "id": "romeo-and-juliet/sceneII_30.3/p@68533",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nGod pardon sin. Wast thou with Rosaline?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "That's my good son. But where hast thou been then?",
-          "plainText": "That's my good son But where hast thou been then",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68533/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@68533/line-2",
+          "start": 16,
+          "end": 56,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5367533,
+        "end": 5367619,
+        "line": 199533,
+        "column": 1,
+        "path": "chap30/p@68533",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-008",
+      "id": "romeo-and-juliet/sceneII_30.3/p@68623",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWith Rosaline, my ghostly father? No.\nI have forgot that name, and that name’s woe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "I'll tell thee ere thou ask it me again.",
-          "plainText": "I'll tell thee ere thou ask it me again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68623/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "I have been feasting with mine enemy,",
-          "plainText": "I have been feasting with mine enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68623/line-2",
+          "start": 7,
+          "end": 44,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 3,
-          "text": "Where on a sudden one hath wounded me",
-          "plainText": "Where on a sudden one hath wounded me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 4,
-          "text": "That's by me wounded. Both our remedies",
-          "plainText": "That's by me wounded Both our remedies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 5,
-          "text": "Within thy help and holy physic lies.",
-          "plainText": "Within thy help and holy physic lies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 6,
-          "text": "I bear no hatred, blessed man; for lo,",
-          "plainText": "I bear no hatred blessed man for lo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 7,
-          "text": "My intercession likewise steads my foe.",
-          "plainText": "My intercession likewise steads my foe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68623/line-3",
+          "start": 45,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5367623,
+        "end": 5367748,
+        "line": 199538,
+        "column": 1,
+        "path": "chap30/p@68623",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-009",
+      "id": "romeo-and-juliet/sceneII_30.3/p@68752",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nThat’s my good son. But where hast thou been then?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Be plain, good son, and homely in thy drift;",
-          "plainText": "Be plain good son and homely in thy drift",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68752/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "Riddling confession finds but riddling shrift.",
-          "plainText": "Riddling confession finds but riddling shrift",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68752/line-2",
+          "start": 16,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5367752,
+        "end": 5367848,
+        "line": 199544,
+        "column": 1,
+        "path": "chap30/p@68752",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-010",
+      "id": "romeo-and-juliet/sceneII_30.3/p@68852",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI’ll tell thee ere thou ask it me again.\nI have been feasting with mine enemy,\nWhere on a sudden one hath wounded me\nThat’s by me wounded. Both our remedies\nWithin thy help and holy physic lies.\nI bear no hatred, blessed man; for lo,\nMy intercession likewise steads my foe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "Then plainly know my heart's dear love is set",
-          "plainText": "Then plainly know my heart's dear love is set",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 2,
-          "text": "On the fair daughter of rich Capulet.",
-          "plainText": "On the fair daughter of rich Capulet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 3,
-          "text": "As mine on hers, so hers is set on mine;",
-          "plainText": "As mine on hers so hers is set on mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-3",
+          "start": 48,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 4,
-          "text": "And all combin'd, save what thou must combine",
-          "plainText": "And all combin'd save what thou must combine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-4",
+          "start": 86,
+          "end": 123,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 5,
-          "text": "By holy marriage. When, and where, and how",
-          "plainText": "By holy marriage When and where and how",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-5",
+          "start": 124,
+          "end": 163,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 6,
-          "text": "We met, we woo'd, and made exchange of vow,",
-          "plainText": "We met we woo'd and made exchange of vow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-6",
+          "start": 164,
+          "end": 201,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 7,
-          "text": "I'll tell thee as we pass; but this I pray,",
-          "plainText": "I'll tell thee as we pass but this I pray",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-7",
+          "start": 202,
+          "end": 240,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 8,
-          "text": "That thou consent to marry us today.",
-          "plainText": "That thou consent to marry us today",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@68852/line-8",
+          "start": 241,
+          "end": 280,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5367852,
+        "end": 5368192,
+        "line": 199549,
+        "column": 1,
+        "path": "chap30/p@68852",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-011",
+      "id": "romeo-and-juliet/sceneII_30.3/p@69196",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nBe plain, good son, and homely in thy drift;\nRiddling confession finds but riddling shrift.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Holy Saint Francis! What a change is here!",
-          "plainText": "Holy Saint Francis What a change is here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@69196/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0059",
-          "number": 59,
-          "speechLineNumber": 2,
-          "text": "Is Rosaline, that thou didst love so dear,",
-          "plainText": "Is Rosaline that thou didst love so dear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@69196/line-2",
+          "start": 16,
+          "end": 60,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0060",
-          "number": 60,
-          "speechLineNumber": 3,
-          "text": "So soon forsaken? Young men's love then lies",
-          "plainText": "So soon forsaken Young men's love then lies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0061",
-          "number": 61,
-          "speechLineNumber": 4,
-          "text": "Not truly in their hearts, but in their eyes.",
-          "plainText": "Not truly in their hearts but in their eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0062",
-          "number": 62,
-          "speechLineNumber": 5,
-          "text": "Jesu Maria, what a deal of brine",
-          "plainText": "Jesu Maria what a deal of brine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0063",
-          "number": 63,
-          "speechLineNumber": 6,
-          "text": "Hath wash'd thy sallow cheeks for Rosaline!",
-          "plainText": "Hath wash'd thy sallow cheeks for Rosaline",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0064",
-          "number": 64,
-          "speechLineNumber": 7,
-          "text": "How much salt water thrown away in waste,",
-          "plainText": "How much salt water thrown away in waste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0065",
-          "number": 65,
-          "speechLineNumber": 8,
-          "text": "To season love, that of it doth not taste.",
-          "plainText": "To season love that of it doth not taste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0066",
-          "number": 66,
-          "speechLineNumber": 9,
-          "text": "The sun not yet thy sighs from heaven clears,",
-          "plainText": "The sun not yet thy sighs from heaven clears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0067",
-          "number": 67,
-          "speechLineNumber": 10,
-          "text": "Thy old groans yet ring in mine ancient ears.",
-          "plainText": "Thy old groans yet ring in mine ancient ears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0068",
-          "number": 68,
-          "speechLineNumber": 11,
-          "text": "Lo here upon thy cheek the stain doth sit",
-          "plainText": "Lo here upon thy cheek the stain doth sit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0069",
-          "number": 69,
-          "speechLineNumber": 12,
-          "text": "Of an old tear that is not wash'd off yet.",
-          "plainText": "Of an old tear that is not wash'd off yet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0070",
-          "number": 70,
-          "speechLineNumber": 13,
-          "text": "If ere thou wast thyself, and these woes thine,",
-          "plainText": "If ere thou wast thyself and these woes thine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0071",
-          "number": 71,
-          "speechLineNumber": 14,
-          "text": "Thou and these woes were all for Rosaline,",
-          "plainText": "Thou and these woes were all for Rosaline",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0072",
-          "number": 72,
-          "speechLineNumber": 15,
-          "text": "And art thou chang'd? Pronounce this sentence then,",
-          "plainText": "And art thou chang'd Pronounce this sentence then",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0073",
-          "number": 73,
-          "speechLineNumber": 16,
-          "text": "Women may fall, when there's no strength in men.",
-          "plainText": "Women may fall when there's no strength in men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@69196/line-3",
+          "start": 61,
+          "end": 107,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5368196,
+        "end": 5368338,
+        "line": 199560,
+        "column": 1,
+        "path": "chap30/p@69196",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-012",
+      "id": "romeo-and-juliet/sceneII_30.3/p@69342",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nThen plainly know my heart’s dear love is set\nOn the fair daughter of rich Capulet.\nAs mine on hers, so hers is set on mine;\nAnd all combin’d, save what thou must combine\nBy holy marriage. When, and where, and how\nWe met, we woo’d, and made exchange of vow,\nI’ll tell thee as we pass; but this I pray,\nThat thou consent to marry us today.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "Thou chidd'st me oft for loving Rosaline.",
-          "plainText": "Thou chidd'st me oft for loving Rosaline",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-2",
+          "start": 7,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-3",
+          "start": 53,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-4",
+          "start": 91,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-5",
+          "start": 132,
+          "end": 177,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-6",
+          "start": 178,
+          "end": 220,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-7",
+          "start": 221,
+          "end": 264,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-8",
+          "start": 265,
+          "end": 308,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69342/line-9",
+          "start": 309,
+          "end": 345,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5368342,
+        "end": 5368752,
+        "line": 199566,
+        "column": 1,
+        "path": "chap30/p@69342",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-013",
+      "id": "romeo-and-juliet/sceneII_30.3/p@69756",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nHoly Saint Francis! What a change is here!\nIs Rosaline, that thou didst love so dear,\nSo soon forsaken? Young men’s love then lies\nNot truly in their hearts, but in their eyes.\nJesu Maria, what a deal of brine\nHath wash’d thy sallow cheeks for Rosaline!\nHow much salt water thrown away in waste,\nTo season love, that of it doth not taste.\nThe sun not yet thy sighs from heaven clears,\nThy old groans yet ring in mine ancient ears.\nLo here upon thy cheek the stain doth sit\nOf an old tear that is not wash’d off yet.\nIf ere thou wast thyself, and these woes thine,\nThou and these woes were all for Rosaline,\nAnd art thou chang’d? Pronounce this sentence then,\nWomen may fall, when there’s no strength in men.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "For doting, not for loving, pupil mine.",
-          "plainText": "For doting not for loving pupil mine",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-2",
+          "start": 16,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-3",
+          "start": 59,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-4",
+          "start": 102,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-5",
+          "start": 147,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-6",
+          "start": 193,
+          "end": 225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-7",
+          "start": 226,
+          "end": 269,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-8",
+          "start": 270,
+          "end": 311,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-9",
+          "start": 312,
+          "end": 354,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-10",
+          "start": 355,
+          "end": 400,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-11",
+          "start": 401,
+          "end": 446,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-12",
+          "start": 447,
+          "end": 488,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-13",
+          "start": 489,
+          "end": 531,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-14",
+          "start": 532,
+          "end": 579,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-15",
+          "start": 580,
+          "end": 622,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-16",
+          "start": 623,
+          "end": 674,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@69756/line-17",
+          "start": 675,
+          "end": 723,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5368756,
+        "end": 5369584,
+        "line": 199578,
+        "column": 1,
+        "path": "chap30/p@69756",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-014",
+      "id": "romeo-and-juliet/sceneII_30.3/p@70588",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nThou chidd’st me oft for loving Rosaline.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0076",
-          "number": 76,
-          "speechLineNumber": 1,
-          "text": "And bad'st me bury love.",
-          "plainText": "And bad'st me bury love",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70588/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@70588/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5369588,
+        "end": 5369666,
+        "line": 199598,
+        "column": 1,
+        "path": "chap30/p@70588",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-015",
+      "id": "romeo-and-juliet/sceneII_30.3/p@70670",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nFor doting, not for loving, pupil mine.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "Not in a grave",
-          "plainText": "Not in a grave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70670/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0078",
-          "number": 78,
-          "speechLineNumber": 2,
-          "text": "To lay one in, another out to have.",
-          "plainText": "To lay one in another out to have",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70670/line-2",
+          "start": 16,
+          "end": 55,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5369670,
+        "end": 5369755,
+        "line": 199603,
+        "column": 1,
+        "path": "chap30/p@70670",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-016",
+      "id": "romeo-and-juliet/sceneII_30.3/p@70759",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nAnd bad’st me bury love.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0079",
-          "number": 79,
-          "speechLineNumber": 1,
-          "text": "I pray thee chide me not, her I love now",
-          "plainText": "I pray thee chide me not her I love now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70759/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0080",
-          "number": 80,
-          "speechLineNumber": 2,
-          "text": "Doth grace for grace and love for love allow.",
-          "plainText": "Doth grace for grace and love for love allow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0081",
-          "number": 81,
-          "speechLineNumber": 3,
-          "text": "The other did not so.",
-          "plainText": "The other did not so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70759/line-2",
+          "start": 7,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5369759,
+        "end": 5369820,
+        "line": 199608,
+        "column": 1,
+        "path": "chap30/p@70759",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-017",
+      "id": "romeo-and-juliet/sceneII_30.3/p@70824",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nNot in a grave\nTo lay one in, another out to have.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "O, she knew well",
-          "plainText": "O she knew well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70824/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0083",
-          "number": 83,
-          "speechLineNumber": 2,
-          "text": "Thy love did read by rote, that could not spell.",
-          "plainText": "Thy love did read by rote that could not spell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70824/line-2",
+          "start": 16,
+          "end": 30,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-3-line-0084",
-          "number": 84,
-          "speechLineNumber": 3,
-          "text": "But come young waverer, come go with me,",
-          "plainText": "But come young waverer come go with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0085",
-          "number": 85,
-          "speechLineNumber": 4,
-          "text": "In one respect I'll thy assistant be;",
-          "plainText": "In one respect I'll thy assistant be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0086",
-          "number": 86,
-          "speechLineNumber": 5,
-          "text": "For this alliance may so happy prove,",
-          "plainText": "For this alliance may so happy prove",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-3-line-0087",
-          "number": 87,
-          "speechLineNumber": 6,
-          "text": "To turn your households' rancour to pure love.",
-          "plainText": "To turn your households' rancour to pure love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70824/line-3",
+          "start": 31,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5369824,
+        "end": 5369925,
+        "line": 199613,
+        "column": 1,
+        "path": "chap30/p@70824",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-018",
+      "id": "romeo-and-juliet/sceneII_30.3/p@70929",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI pray thee chide me not, her I love now\nDoth grace for grace and love for love allow.\nThe other did not so.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0088",
-          "number": 88,
-          "speechLineNumber": 1,
-          "text": "O let us hence; I stand on sudden haste.",
-          "plainText": "O let us hence I stand on sudden haste",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@70929/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@70929/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@70929/line-3",
+          "start": 48,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@70929/line-4",
+          "start": 94,
+          "end": 115,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5369929,
+        "end": 5370084,
+        "line": 199619,
+        "column": 1,
+        "path": "chap30/p@70929",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-speech-019",
+      "id": "romeo-and-juliet/sceneII_30.3/p@71088",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nO, she knew well\nThy love did read by rote, that could not spell.\nBut come young waverer, come go with me,\nIn one respect I’ll thy assistant be;\nFor this alliance may so happy prove,\nTo turn your households’ rancour to pure love.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-3-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "Wisely and slow; they stumble that run fast.",
-          "plainText": "Wisely and slow they stumble that run fast",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-2",
+          "start": 16,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-3",
+          "start": 33,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-4",
+          "start": 82,
+          "end": 122,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-5",
+          "start": 123,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-6",
+          "start": 161,
+          "end": 198,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71088/line-7",
+          "start": 199,
+          "end": 245,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5370088,
+        "end": 5370388,
+        "line": 199626,
+        "column": 1,
+        "path": "chap30/p@71088",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-2-3-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneII_30.3/p@71392",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nO let us hence; I stand on sudden haste.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71392/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71392/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5370392,
+        "end": 5370469,
+        "line": 199636,
+        "column": 1,
+        "path": "chap30/p@71392",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.3/p@71473",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nWisely and slow; they stumble that run fast.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71473/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71473/line-2",
+          "start": 16,
+          "end": 60,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5370473,
+        "end": 5370563,
+        "line": 199641,
+        "column": 1,
+        "path": "chap30/p@71473",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.3/p@71567",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.3/p@71567/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5370567,
+        "end": 5370604,
+        "line": 199646,
+        "column": 1,
+        "path": "chap30/p@71567",
+        "anchor": "sceneII_30.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

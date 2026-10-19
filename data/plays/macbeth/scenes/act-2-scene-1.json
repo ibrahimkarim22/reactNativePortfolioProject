@@ -1,650 +1,1354 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. Inverness. Court within the Castle.",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. Inverness. Court within the Castle.",
-    "location": "Inverness. Court within the Castle.",
-    "orderInPlay": 8
+    "parentSectionId": "macbeth-act-35624",
+    "orderInPlay": 14,
+    "sourceRef": {
+      "start": 3599869,
+      "end": 3599930,
+      "line": 132522,
+      "column": 1,
+      "path": "chap20/h3@35677",
+      "anchor": "sceneII_20.1"
+    }
   },
   "content": [
     {
-      "id": "macbeth-2-1-stage-001",
+      "id": "macbeth/sceneII_20.1/h3@35677",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Inverness. Court within the Castle.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 44
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/h3@35677/line-1",
+          "start": 0,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3599869,
+        "end": 3599930,
+        "line": 132522,
+        "column": 1,
+        "path": "chap20/h3@35677",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@35742",
       "type": "stage",
-      "text": "Enter Banquo and Fleance with a torch before him."
-    },
-    {
-      "id": "macbeth-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Banquo and Fleance with a torch before him.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "macbeth-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "How goes the night, boy?",
-          "plainText": "How goes the night boy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "fleance",
-        "name": "FLEANCE",
-        "displayName": "Fleance"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "The moon is down; I have not heard the clock.",
-          "plainText": "The moon is down I have not heard the clock",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "And she goes down at twelve.",
-          "plainText": "And she goes down at twelve",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "fleance",
-        "name": "FLEANCE",
-        "displayName": "Fleance"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "I take't, 'tis later, sir.",
-          "plainText": "I take't 'tis later sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Hold, take my sword.—There's husbandry in heaven;",
-          "plainText": "Hold take my swordThere's husbandry in heaven",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
         },
         {
-          "id": "macbeth-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "Their candles are all out. Take thee that too.",
-          "plainText": "Their candles are all out Take thee that too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 3,
-          "text": "A heavy summons lies like lead upon me,",
-          "plainText": "A heavy summons lies like lead upon me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 4,
-          "text": "And yet I would not sleep. Merciful powers,",
-          "plainText": "And yet I would not sleep Merciful powers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 5,
-          "text": "Restrain in me the cursed thoughts that nature",
-          "plainText": "Restrain in me the cursed thoughts that nature",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 6,
-          "text": "Gives way to in repose!",
-          "plainText": "Gives way to in repose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 17,
+          "end": 24,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@35742/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3599934,
+        "end": 3600069,
+        "line": 132524,
+        "column": 1,
+        "path": "chap20/p@35742",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-2-1-stage-002",
+      "id": "macbeth/sceneII_20.1/p@35881",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nHow goes the night, boy?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@35881/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@35881/line-2",
+          "start": 8,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3600073,
+        "end": 3600135,
+        "line": 132527,
+        "column": 1,
+        "path": "chap20/p@35881",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@35947",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FLEANCE.\nThe moon is down; I have not heard the clock.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@35947/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@35947/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3600139,
+        "end": 3600223,
+        "line": 132532,
+        "column": 1,
+        "path": "chap20/p@35947",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "FLEANCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@36035",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nAnd she goes down at twelve.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@36035/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36035/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3600227,
+        "end": 3600293,
+        "line": 132537,
+        "column": 1,
+        "path": "chap20/p@36035",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@36105",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FLEANCE.\nI take’t, ’tis later, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@36105/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36105/line-2",
+          "start": 9,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3600297,
+        "end": 3600362,
+        "line": 132542,
+        "column": 1,
+        "path": "chap20/p@36105",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "FLEANCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@36174",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nHold, take my sword.—There’s husbandry in heaven;\nTheir candles are all out. Take thee that too.\nA heavy summons lies like lead upon me,\nAnd yet I would not sleep. Merciful powers,\nRestrain in me the cursed thoughts that nature\nGives way to in repose!\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-3",
+          "start": 58,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-4",
+          "start": 105,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-5",
+          "start": 145,
+          "end": 188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-6",
+          "start": 189,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-7",
+          "start": 236,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36174/line-8",
+          "start": 260,
+          "end": 260,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3600366,
+        "end": 3600684,
+        "line": 132547,
+        "column": 1,
+        "path": "chap20/p@36174",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@36496",
       "type": "stage",
-      "text": "Enter Macbeth and a Servant with a torch."
-    },
-    {
-      "id": "macbeth-2-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Macbeth and a Servant with a torch.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "A friend.",
-          "plainText": "A friend",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.1/p@36496/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3600688,
+        "end": 3600785,
+        "line": 132557,
+        "column": 1,
+        "path": "chap20/p@36496",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-2-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
+      "id": "macbeth/sceneII_20.1/p@36597",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Give me my sword.—Who’s there?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "What, sir, not yet at rest? The King's abed:",
-          "plainText": "What sir not yet at rest The King's abed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "He hath been in unusual pleasure and",
-          "plainText": "He hath been in unusual pleasure and",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "Sent forth great largess to your offices.",
-          "plainText": "Sent forth great largess to your offices",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 4,
-          "text": "This diamond he greets your wife withal,",
-          "plainText": "This diamond he greets your wife withal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 5,
-          "text": "By the name of most kind hostess, and shut up",
-          "plainText": "By the name of most kind hostess and shut up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 6,
-          "text": "In measureless content.",
-          "plainText": "In measureless content",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36597/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3600789,
+        "end": 3600844,
+        "line": 132560,
+        "column": 1,
+        "path": "chap20/p@36597",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-2-1-speech-008",
+      "id": "macbeth/sceneII_20.1/p@36656",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nA friend.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Being unprepar'd,",
-          "plainText": "Being unprepar'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36656/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "Our will became the servant to defect,",
-          "plainText": "Our will became the servant to defect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "Which else should free have wrought.",
-          "plainText": "Which else should free have wrought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36656/line-2",
+          "start": 9,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3600848,
+        "end": 3600896,
+        "line": 132564,
+        "column": 1,
+        "path": "chap20/p@36656",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-1-speech-009",
+      "id": "macbeth/sceneII_20.1/p@36708",
       "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nWhat, sir, not yet at rest? The King’s abed:\nHe hath been in unusual pleasure and\nSent forth great largess to your offices.\nThis diamond he greets your wife withal,\nBy the name of most kind hostess, and shut up\nIn measureless content.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "All's well.",
-          "plainText": "All's well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36708/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 2,
-          "text": "I dreamt last night of the three Weird Sisters:",
-          "plainText": "I dreamt last night of the three Weird Sisters",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36708/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 3,
-          "text": "To you they have show'd some truth.",
-          "plainText": "To you they have show'd some truth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@36708/line-3",
+          "start": 53,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36708/line-4",
+          "start": 90,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36708/line-5",
+          "start": 132,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36708/line-6",
+          "start": 173,
+          "end": 218,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@36708/line-7",
+          "start": 219,
+          "end": 242,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3600900,
+        "end": 3601197,
+        "line": 132569,
+        "column": 1,
+        "path": "chap20/p@36708",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-2-1-speech-010",
+      "id": "macbeth/sceneII_20.1/p@37009",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nBeing unprepar’d,\nOur will became the servant to defect,\nWhich else should free have wrought.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "I think not of them:",
-          "plainText": "I think not of them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37009/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "Yet, when we can entreat an hour to serve,",
-          "plainText": "Yet when we can entreat an hour to serve",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37009/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 3,
-          "text": "We would spend it in some words upon that business,",
-          "plainText": "We would spend it in some words upon that business",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37009/line-3",
+          "start": 27,
+          "end": 65,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 4,
-          "text": "If you would grant the time.",
-          "plainText": "If you would grant the time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37009/line-4",
+          "start": 66,
+          "end": 102,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3601201,
+        "end": 3601343,
+        "line": 132579,
+        "column": 1,
+        "path": "chap20/p@37009",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-1-speech-011",
+      "id": "macbeth/sceneII_20.1/p@37155",
       "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nAll’s well.\nI dreamt last night of the three Weird Sisters:\nTo you they have show’d some truth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "At your kind'st leisure.",
-          "plainText": "At your kind'st leisure",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "If you shall cleave to my consent, when 'tis,",
-          "plainText": "If you shall cleave to my consent when 'tis",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37155/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 2,
-          "text": "It shall make honour for you.",
-          "plainText": "It shall make honour for you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "So I lose none",
-          "plainText": "So I lose none",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37155/line-2",
+          "start": 8,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 2,
-          "text": "In seeking to augment it, but still keep",
-          "plainText": "In seeking to augment it but still keep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37155/line-3",
+          "start": 20,
+          "end": 67,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 3,
-          "text": "My bosom franchis'd, and allegiance clear,",
-          "plainText": "My bosom franchis'd and allegiance clear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37155/line-4",
+          "start": 68,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3601347,
+        "end": 3601490,
+        "line": 132586,
+        "column": 1,
+        "path": "chap20/p@37155",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@37302",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI think not of them:\nYet, when we can entreat an hour to serve,\nWe would spend it in some words upon that business,\nIf you would grant the time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37302/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 4,
-          "text": "I shall be counsell'd.",
-          "plainText": "I shall be counsell'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Good repose the while!",
-          "plainText": "Good repose the while",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "banquo",
-        "name": "BANQUO",
-        "displayName": "Banquo"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Thanks, sir: the like to you.",
-          "plainText": "Thanks sir the like to you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-1-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Banquo and Fleance.]"
-    },
-    {
-      "id": "macbeth-2-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Go bid thy mistress, when my drink is ready,",
-          "plainText": "Go bid thy mistress when my drink is ready",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37302/line-2",
+          "start": 9,
+          "end": 29,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "She strike upon the bell. Get thee to bed.",
-          "plainText": "She strike upon the bell Get thee to bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.1/p@37302/line-3",
+          "start": 30,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37302/line-4",
+          "start": 73,
+          "end": 124,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37302/line-5",
+          "start": 125,
+          "end": 153,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3601494,
+        "end": 3601692,
+        "line": 132593,
+        "column": 1,
+        "path": "chap20/p@37302",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-1-stage-004",
-      "type": "stage",
-      "text": "[Exit Servant.]"
+      "id": "macbeth/sceneII_20.1/p@37504",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nAt your kind’st leisure.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37504/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37504/line-2",
+          "start": 8,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3601696,
+        "end": 3601758,
+        "line": 132601,
+        "column": 1,
+        "path": "chap20/p@37504",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-2-1-stage-005",
-      "type": "stage",
-      "text": "[A bell rings.]"
+      "id": "macbeth/sceneII_20.1/p@37570",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nIf you shall cleave to my consent, when ’tis,\nIt shall make honour for you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37570/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37570/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37570/line-3",
+          "start": 55,
+          "end": 84,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3601762,
+        "end": 3601881,
+        "line": 132606,
+        "column": 1,
+        "path": "chap20/p@37570",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-1-stage-006",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "macbeth/sceneII_20.1/p@37693",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nSo I lose none\nIn seeking to augment it, but still keep\nMy bosom franchis’d, and allegiance clear,\nI shall be counsell’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37693/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37693/line-2",
+          "start": 8,
+          "end": 22,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37693/line-3",
+          "start": 23,
+          "end": 63,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37693/line-4",
+          "start": 64,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37693/line-5",
+          "start": 107,
+          "end": 129,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3601885,
+        "end": 3602059,
+        "line": 132612,
+        "column": 1,
+        "path": "chap20/p@37693",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@37871",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nGood repose the while!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37871/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37871/line-2",
+          "start": 9,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602063,
+        "end": 3602124,
+        "line": 132620,
+        "column": 1,
+        "path": "chap20/p@37871",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@37936",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BANQUO.\nThanks, sir: the like to you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@37936/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@37936/line-2",
+          "start": 8,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602128,
+        "end": 3602195,
+        "line": 132625,
+        "column": 1,
+        "path": "chap20/p@37936",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "BANQUO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@38007",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Banquo and Fleance.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 26,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 27
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@38007/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602199,
+        "end": 3602316,
+        "line": 132630,
+        "column": 1,
+        "path": "chap20/p@38007",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@38128",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nGo bid thy mistress, when my drink is ready,\nShe strike upon the bell. Get thee to bed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@38128/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38128/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38128/line-3",
+          "start": 54,
+          "end": 96,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602320,
+        "end": 3602451,
+        "line": 132633,
+        "column": 1,
+        "path": "chap20/p@38128",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@38263",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Servant.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@38263/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602455,
+        "end": 3602498,
+        "line": 132639,
+        "column": 1,
+        "path": "chap20/p@38263",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@38310",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Is this a dagger which I see before me,\nThe handle toward my hand? Come, let me clutch thee:—\nI have thee not, and yet I see thee still.\nArt thou not, fatal vision, sensible\nTo feeling as to sight? or art thou but\nA dagger of the mind, a false creation,\nProceeding from the heat-oppressed brain?\nI see thee yet, in form as palpable\nAs this which now I draw.\nThou marshall’st me the way that I was going;\nAnd such an instrument I was to use.\nMine eyes are made the fools o’ the other senses,\nOr else worth all the rest: I see thee still;\nAnd on thy blade and dudgeon, gouts of blood,\nWhich was not so before.—There’s no such thing.\nIt is the bloody business which informs\nThus to mine eyes.—Now o’er the one half-world\nNature seems dead, and wicked dreams abuse\nThe curtain’d sleep. Witchcraft celebrates\nPale Hecate’s off’rings; and wither’d murder,\nAlarum’d by his sentinel, the wolf,\nWhose howl’s his watch, thus with his stealthy pace,\nWith Tarquin’s ravishing strides, towards his design\nMoves like a ghost.—Thou sure and firm-set earth,\nHear not my steps, which way they walk, for fear\nThy very stones prate of my whereabout,\nAnd take the present horror from the time,\nWhich now suits with it.—Whiles I threat, he lives.\nWords to the heat of deeds too cold breath gives.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-2",
+          "start": 40,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-3",
+          "start": 94,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-4",
+          "start": 137,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-5",
+          "start": 174,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-6",
+          "start": 214,
+          "end": 253,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-7",
+          "start": 254,
+          "end": 295,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-8",
+          "start": 296,
+          "end": 331,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-9",
+          "start": 332,
+          "end": 357,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-10",
+          "start": 358,
+          "end": 403,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-11",
+          "start": 404,
+          "end": 440,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-12",
+          "start": 441,
+          "end": 490,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-13",
+          "start": 491,
+          "end": 536,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-14",
+          "start": 537,
+          "end": 582,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-15",
+          "start": 583,
+          "end": 630,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-16",
+          "start": 631,
+          "end": 670,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-17",
+          "start": 671,
+          "end": 717,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-18",
+          "start": 718,
+          "end": 760,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-19",
+          "start": 761,
+          "end": 803,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-20",
+          "start": 804,
+          "end": 849,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-21",
+          "start": 850,
+          "end": 885,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-22",
+          "start": 886,
+          "end": 938,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-23",
+          "start": 939,
+          "end": 991,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-24",
+          "start": 992,
+          "end": 1041,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-25",
+          "start": 1042,
+          "end": 1090,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-26",
+          "start": 1091,
+          "end": 1130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-27",
+          "start": 1131,
+          "end": 1173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-28",
+          "start": 1174,
+          "end": 1225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@38310/line-29",
+          "start": 1226,
+          "end": 1275,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3602502,
+        "end": 3603942,
+        "line": 132641,
+        "column": 1,
+        "path": "chap20/p@38310",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@39754",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[A bell rings.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@39754/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3603946,
+        "end": 3603989,
+        "line": 132673,
+        "column": 1,
+        "path": "chap20/p@39754",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@39801",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I go, and it is done. The bell invites me.\nHear it not, Duncan, for it is a knell\nThat summons thee to heaven or to hell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@39801/line-1",
+          "start": 0,
+          "end": 42,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@39801/line-2",
+          "start": 43,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.1/p@39801/line-3",
+          "start": 82,
+          "end": 121,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3603993,
+        "end": 3604149,
+        "line": 132675,
+        "column": 1,
+        "path": "chap20/p@39801",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.1/p@39961",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.1/p@39961/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3604153,
+        "end": 3604188,
+        "line": 132681,
+        "column": 1,
+        "path": "chap20/p@39961",
+        "anchor": "sceneII_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

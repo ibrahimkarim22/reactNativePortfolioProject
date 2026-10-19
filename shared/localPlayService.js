@@ -72,6 +72,8 @@ export const getCharactersHtml = (id) => {
     throw new Error(`Play not found: ${id}`);
   }
 
+  if (String(entry.play?.schemaVersion).startsWith("2.")) return "";
+
   const generatedCharacters = entry.characters?.characters || [];
   const characterNames =
     generatedCharacters.length > 0
@@ -142,11 +144,56 @@ const renderScene = (scene) => {
   return lines.join("");
 };
 
+const inlineTags = new Set(["b", "i", "em", "strong", "u", "s", "sup", "sub", "small", "span", "code"]);
+const blockTags = new Set(["p", "h1", "h2", "h3", "h4", "h5", "h6", "pre", "blockquote"]);
+
+const renderInlineText = (block) => {
+  const text = String(block.text ?? "");
+  const spans = (block.spans || []).filter(span =>
+    inlineTags.has(span.tag) && Number.isInteger(span.start) && Number.isInteger(span.end) &&
+    span.start >= 0 && span.end <= text.length && span.start < span.end
+  ).map((span, index) => ({ ...span, index }));
+  const boundaries = [...new Set([0, text.length, ...spans.flatMap(span => [span.start, span.end])])].sort((a, b) => a - b);
+  let active = [];
+  let html = "";
+  for (let index = 0; index < boundaries.length - 1; index += 1) {
+    const start = boundaries[index];
+    const end = boundaries[index + 1];
+    const next = spans.filter(span => span.start <= start && span.end >= end)
+      .sort((a, b) => a.start - b.start || b.end - a.end || a.index - b.index);
+    let shared = 0;
+    while (shared < active.length && shared < next.length && active[shared].index === next[shared].index) shared += 1;
+    for (let closing = active.length - 1; closing >= shared; closing -= 1) html += `</${active[closing].tag}>`;
+    for (let opening = shared; opening < next.length; opening += 1) {
+      const span = next[opening];
+      const classes = (Array.isArray(span.classes) ? span.classes : String(span.className || "").split(/\s+/))
+        .filter(value => typeof value === "string" && /^[a-zA-Z0-9_-]+$/.test(value));
+      html += `<${span.tag}${classes.length ? ` class="${classes.join(" ")}"` : ""}>`;
+    }
+    html += htmlEscape(text.slice(start, end)).replace(/\n/g, "<br>");
+    active = next;
+  }
+  for (let closing = active.length - 1; closing >= 0; closing -= 1) html += `</${active[closing].tag}>`;
+  return html;
+};
+
+const renderSection = (section) => (section.content || []).map(block => {
+  const tag = blockTags.has(block.tag) ? block.tag : (block.tag === "td" || block.tag === "th" ? "span" : "p");
+  const separator = tag === "span"
+    ? htmlEscape(block.separatorAfter || "").replace(/\n/g, "<br>")
+    : block.separatorAfter === "\t" ? "\t" : block.separatorAfter === "\n" ? "<br>" : "";
+  return `<${tag}>${renderInlineText(block)}</${tag}>${separator}`;
+}).join("");
+
 export const getFullPlayHtml = (id) => {
   const entry = getLocalPlayEntry(id);
 
   if (!entry) {
     throw new Error(`Play not found: ${id}`);
+  }
+
+  if (String(entry.play?.schemaVersion).startsWith("2.")) {
+    return (entry.sections || []).map(renderSection).join("");
   }
 
   return [

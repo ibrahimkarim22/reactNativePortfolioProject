@@ -1,2101 +1,3275 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "alls-well-that-ends-well",
-    "title": "All'S Well That Ends Well",
+    "title": "ALL’S WELL THAT ENDS WELL",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap02"
   },
-  "scene": {
+  "section": {
     "id": "alls-well-that-ends-well-1-1",
+    "kind": "scene",
+    "heading": "SCENE I. Rossillon. A room in the Countess’s palace.",
     "act": 1,
     "scene": 1,
-    "label": "Act 1, Scene 1",
-    "title": "SCENE I. Rossillon. A room in the Countess's palace.",
-    "location": "Rossillon. A room in the Countess's palace.",
-    "orderInPlay": 1
+    "parentSectionId": "alls-well-that-ends-well-act-4054",
+    "orderInPlay": 6,
+    "sourceRef": {
+      "start": 129218,
+      "end": 129287,
+      "line": 3224,
+      "column": 1,
+      "path": "chap02/h3@4103",
+      "anchor": "sceneI_2.1"
+    }
   },
   "content": [
     {
-      "id": "alls-well-that-ends-well-1-1-stage-001",
+      "id": "alls-well-that-ends-well/sceneI_2.1/h3@4103",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Rossillon. A room in the Countess’s palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/h3@4103/line-1",
+          "start": 0,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 129218,
+        "end": 129287,
+        "line": 3224,
+        "column": 1,
+        "path": "chap02/h3@4103",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@4176",
       "type": "stage",
-      "text": "Enter Bertram, the Countess of Rossillon, Helena, and Lafew, all in black."
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Bertram, the Countess of Rossillon, Helena, and Lafew, all in black.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "In delivering my son from me, I bury a second husband.",
-          "plainText": "In delivering my son from me I bury a second husband",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "bertram",
-        "name": "BERTRAM",
-        "displayName": "Bertram"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "And I in going, madam, weep o'er my father's death anew; but I must attend his majesty's command, to whom I am now in ward, evermore in subjection.",
-          "plainText": "And I in going madam weep o'er my father's death anew but I must attend his majesty's command to whom I am now in ward evermore in subjection",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "You shall find of the king a husband, madam; you, sir, a father. He that so generally is at all times good, must of necessity hold his virtue to you, whose worthiness would stir it up where it wanted, rather than lack it where there is such abundance.",
-          "plainText": "You shall find of the king a husband madam you sir a father He that so generally is at all times good must of necessity hold his virtue to you whose worthiness would stir it up where it wanted rather than lack it where there is such abundance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "What hope is there of his majesty's amendment?",
-          "plainText": "What hope is there of his majesty's amendment",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "He hath abandon'd his physicians, madam; under whose practices he hath persecuted time with hope, and finds no other advantage in the process but only the losing of hope by time.",
-          "plainText": "He hath abandon'd his physicians madam under whose practices he hath persecuted time with hope and finds no other advantage in the process but only the losing of hope by time",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "This young gentlewoman had a father—O that \"had!\", how sad a passage 'tis!—whose skill was almost as great as his honesty; had it stretch'd so far, would have made nature immortal, and death should have play for lack of work. Would for the king's sake he were living! I think it would be the death of the king's disease.",
-          "plainText": "This young gentlewoman had a fatherO that had how sad a passage 'tiswhose skill was almost as great as his honesty had it stretch'd so far would have made nature immortal and death should have play for lack of work Would for the king's sake he were living I think it would be the death of the king's disease",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "How called you the man you speak of, madam?",
-          "plainText": "How called you the man you speak of madam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "He was famous, sir, in his profession, and it was his great right to be so: Gerard de Narbon.",
-          "plainText": "He was famous sir in his profession and it was his great right to be so Gerard de Narbon",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "He was excellent indeed, madam; the king very lately spoke of him admiringly, and mourningly; he was skilful enough to have liv'd still, if knowledge could be set up against mortality.",
-          "plainText": "He was excellent indeed madam the king very lately spoke of him admiringly and mourningly he was skilful enough to have liv'd still if knowledge could be set up against mortality",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "bertram",
-        "name": "BERTRAM",
-        "displayName": "Bertram"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "What is it, my good lord, the king languishes of?",
-          "plainText": "What is it my good lord the king languishes of",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "A fistula, my lord.",
-          "plainText": "A fistula my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "bertram",
-        "name": "BERTRAM",
-        "displayName": "Bertram"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "I heard not of it before.",
-          "plainText": "I heard not of it before",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "I would it were not notorious. Was this gentlewoman the daughter of Gerard de Narbon?",
-          "plainText": "I would it were not notorious Was this gentlewoman the daughter of Gerard de Narbon",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "His sole child, my lord, and bequeathed to my overlooking. I have those hopes of her good that her education promises her dispositions she inherits, which makes fair gifts fairer; for where an unclean mind carries virtuous qualities, there commendations go with pity, they are virtues and traitors too. In her they are the better for their simpleness; she derives her honesty, and achieves her goodness.",
-          "plainText": "His sole child my lord and bequeathed to my overlooking I have those hopes of her good that her education promises her dispositions she inherits which makes fair gifts fairer for where an unclean mind carries virtuous qualities there commendations go with pity they are virtues and traitors too In her they are the better for their simpleness she derives her honesty and achieves her goodness",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Your commendations, madam, get from her tears.",
-          "plainText": "Your commendations madam get from her tears",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "'Tis the best brine a maiden can season her praise in. The remembrance of her father never approaches her heart but the tyranny of her sorrows takes all livelihood from her cheek. No more of this, Helena; go to, no more, lest it be rather thought you affect a sorrow than to have.",
-          "plainText": "'Tis the best brine a maiden can season her praise in The remembrance of her father never approaches her heart but the tyranny of her sorrows takes all livelihood from her cheek No more of this Helena go to no more lest it be rather thought you affect a sorrow than to have",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "I do affect a sorrow indeed, but I have it too.",
-          "plainText": "I do affect a sorrow indeed but I have it too",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Moderate lamentation is the right of the dead; excessive grief the enemy to the living.",
-          "plainText": "Moderate lamentation is the right of the dead excessive grief the enemy to the living",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "If the living be enemy to the grief, the excess makes it soon mortal.",
-          "plainText": "If the living be enemy to the grief the excess makes it soon mortal",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "bertram",
-        "name": "BERTRAM",
-        "displayName": "Bertram"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Madam, I desire your holy wishes.",
-          "plainText": "Madam I desire your holy wishes",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "How understand we that?",
-          "plainText": "How understand we that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Be thou blest, Bertram, and succeed thy father",
-          "plainText": "Be thou blest Bertram and succeed thy father",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
         },
         {
-          "id": "alls-well-that-ends-well-1-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "In manners, as in shape! Thy blood and virtue",
-          "plainText": "In manners as in shape Thy blood and virtue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 19,
+          "end": 49,
+          "className": "charname"
         },
         {
-          "id": "alls-well-that-ends-well-1-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "Contend for empire in thee, and thy goodness",
-          "plainText": "Contend for empire in thee and thy goodness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "Share with thy birthright! Love all, trust a few,",
-          "plainText": "Share with thy birthright Love all trust a few",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "Do wrong to none. Be able for thine enemy",
-          "plainText": "Do wrong to none Be able for thine enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 6,
-          "text": "Rather in power than use; and keep thy friend",
-          "plainText": "Rather in power than use and keep thy friend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 7,
-          "text": "Under thy own life's key. Be check'd for silence,",
-          "plainText": "Under thy own life's key Be check'd for silence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 8,
-          "text": "But never tax'd for speech. What heaven more will,",
-          "plainText": "But never tax'd for speech What heaven more will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 9,
-          "text": "That thee may furnish and my prayers pluck down,",
-          "plainText": "That thee may furnish and my prayers pluck down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 10,
-          "text": "Fall on thy head! Farewell. My lord,",
-          "plainText": "Fall on thy head Farewell My lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 11,
-          "text": "'Tis an unseason'd courtier; good my lord,",
-          "plainText": "'Tis an unseason'd courtier good my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 12,
-          "text": "Advise him.",
-          "plainText": "Advise him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 54,
+          "end": 60,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
+      ],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "He cannot want the best",
-          "plainText": "He cannot want the best",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 2,
-          "text": "That shall attend his love.",
-          "plainText": "That shall attend his love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4176/line-1",
+          "start": 0,
+          "end": 74,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 129291,
+        "end": 129484,
+        "line": 3226,
+        "column": 1,
+        "path": "chap02/p@4176",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-024",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@4373",
       "type": "speech",
-      "speaker": {
-        "id": "countess",
-        "name": "COUNTESS",
-        "displayName": "Countess"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nIn delivering my son from me, I bury a second husband.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Heaven bless him! Farewell, Bertram.",
-          "plainText": "Heaven bless him Farewell Bertram",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4373/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4373/line-2",
+          "start": 10,
+          "end": 64,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 129488,
+        "end": 129582,
+        "line": 3230,
+        "column": 1,
+        "path": "chap02/p@4373",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-stage-002",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@4471",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BERTRAM.\nAnd I in going, madam, weep o’er my father’s death anew; but I must attend his majesty’s command, to whom I am now in ward, evermore in subjection.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4471/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4471/line-2",
+          "start": 9,
+          "end": 156,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 129586,
+        "end": 129773,
+        "line": 3235,
+        "column": 1,
+        "path": "chap02/p@4471",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "BERTRAM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@4662",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nYou shall find of the king a husband, madam; you, sir, a father. He that so generally is at all times good, must of necessity hold his virtue to you, whose worthiness would stir it up where it wanted, rather than lack it where there is such abundance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4662/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4662/line-2",
+          "start": 7,
+          "end": 258,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 129777,
+        "end": 130068,
+        "line": 3241,
+        "column": 1,
+        "path": "chap02/p@4662",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@4957",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nWhat hope is there of his majesty’s amendment?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4957/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@4957/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130072,
+        "end": 130158,
+        "line": 3249,
+        "column": 1,
+        "path": "chap02/p@4957",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@5047",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nHe hath abandon’d his physicians, madam; under whose practices he hath persecuted time with hope, and finds no other advantage in the process but only the losing of hope by time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5047/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5047/line-2",
+          "start": 7,
+          "end": 185,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130162,
+        "end": 130379,
+        "line": 3254,
+        "column": 1,
+        "path": "chap02/p@5047",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@5268",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nThis young gentlewoman had a father—O that “had!”, how sad a passage ’tis!—whose skill was almost as great as his honesty; had it stretch’d so far, would have made nature immortal, and death should have play for lack of work. Would for the king’s sake he were living! I think it would be the death of the king’s disease.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5268/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5268/line-2",
+          "start": 10,
+          "end": 330,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130383,
+        "end": 130747,
+        "line": 3261,
+        "column": 1,
+        "path": "chap02/p@5268",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@5636",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nHow called you the man you speak of, madam?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5636/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5636/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130751,
+        "end": 130831,
+        "line": 3270,
+        "column": 1,
+        "path": "chap02/p@5636",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@5720",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nHe was famous, sir, in his profession, and it was his great right to be so: Gerard de Narbon.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5720/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5720/line-2",
+          "start": 10,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130835,
+        "end": 130969,
+        "line": 3275,
+        "column": 1,
+        "path": "chap02/p@5720",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@5858",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nHe was excellent indeed, madam; the king very lately spoke of him admiringly, and mourningly; he was skilful enough to have liv’d still, if knowledge could be set up against mortality.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5858/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@5858/line-2",
+          "start": 7,
+          "end": 191,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 130973,
+        "end": 131196,
+        "line": 3281,
+        "column": 1,
+        "path": "chap02/p@5858",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6085",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BERTRAM.\nWhat is it, my good lord, the king languishes of?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6085/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6085/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131200,
+        "end": 131288,
+        "line": 3288,
+        "column": 1,
+        "path": "chap02/p@6085",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "BERTRAM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6177",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nA fistula, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6177/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6177/line-2",
+          "start": 7,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131292,
+        "end": 131348,
+        "line": 3293,
+        "column": 1,
+        "path": "chap02/p@6177",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6237",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BERTRAM.\nI heard not of it before.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6237/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6237/line-2",
+          "start": 9,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131352,
+        "end": 131416,
+        "line": 3298,
+        "column": 1,
+        "path": "chap02/p@6237",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "BERTRAM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6305",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nI would it were not notorious. Was this gentlewoman the daughter of Gerard de Narbon?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6305/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6305/line-2",
+          "start": 7,
+          "end": 92,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131420,
+        "end": 131543,
+        "line": 3303,
+        "column": 1,
+        "path": "chap02/p@6305",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6432",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nHis sole child, my lord, and bequeathed to my overlooking. I have those hopes of her good that her education promises her dispositions she inherits, which makes fair gifts fairer; for where an unclean mind carries virtuous qualities, there commendations go with pity, they are virtues and traitors too. In her they are the better for their simpleness; she derives her honesty, and achieves her goodness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6432/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6432/line-2",
+          "start": 10,
+          "end": 413,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131547,
+        "end": 131995,
+        "line": 3309,
+        "column": 1,
+        "path": "chap02/p@6432",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6884",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nYour commendations, madam, get from her tears.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6884/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6884/line-2",
+          "start": 7,
+          "end": 53,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 131999,
+        "end": 132082,
+        "line": 3319,
+        "column": 1,
+        "path": "chap02/p@6884",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@6971",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\n’Tis the best brine a maiden can season her praise in. The remembrance of her father never approaches her heart but the tyranny of her sorrows takes all livelihood from her cheek. No more of this, Helena; go to, no more, lest it be rather thought you affect a sorrow than to have.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6971/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@6971/line-2",
+          "start": 10,
+          "end": 290,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132086,
+        "end": 132409,
+        "line": 3324,
+        "column": 1,
+        "path": "chap02/p@6971",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7298",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nI do affect a sorrow indeed, but I have it too.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7298/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7298/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132413,
+        "end": 132498,
+        "line": 3332,
+        "column": 1,
+        "path": "chap02/p@7298",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7387",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nModerate lamentation is the right of the dead; excessive grief the enemy to the living.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7387/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7387/line-2",
+          "start": 7,
+          "end": 94,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132502,
+        "end": 132627,
+        "line": 3337,
+        "column": 1,
+        "path": "chap02/p@7387",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7516",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nIf the living be enemy to the grief, the excess makes it soon mortal.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7516/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7516/line-2",
+          "start": 10,
+          "end": 79,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132631,
+        "end": 132740,
+        "line": 3343,
+        "column": 1,
+        "path": "chap02/p@7516",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7629",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BERTRAM.\nMadam, I desire your holy wishes.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7629/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7629/line-2",
+          "start": 9,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132744,
+        "end": 132816,
+        "line": 3348,
+        "column": 1,
+        "path": "chap02/p@7629",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "BERTRAM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7705",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nHow understand we that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7705/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7705/line-2",
+          "start": 7,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132820,
+        "end": 132880,
+        "line": 3353,
+        "column": 1,
+        "path": "chap02/p@7705",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@7769",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nBe thou blest, Bertram, and succeed thy father\nIn manners, as in shape! Thy blood and virtue\nContend for empire in thee, and thy goodness\nShare with thy birthright! Love all, trust a few,\nDo wrong to none. Be able for thine enemy\nRather in power than use; and keep thy friend\nUnder thy own life’s key. Be check’d for silence,\nBut never tax’d for speech. What heaven more will,\nThat thee may furnish and my prayers pluck down,\nFall on thy head! Farewell. My lord,\n’Tis an unseason’d courtier; good my lord,\nAdvise him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-3",
+          "start": 57,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-4",
+          "start": 103,
+          "end": 147,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-5",
+          "start": 148,
+          "end": 197,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-6",
+          "start": 198,
+          "end": 239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-7",
+          "start": 240,
+          "end": 285,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-8",
+          "start": 286,
+          "end": 335,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-9",
+          "start": 336,
+          "end": 386,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-10",
+          "start": 387,
+          "end": 435,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-11",
+          "start": 436,
+          "end": 472,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-12",
+          "start": 473,
+          "end": 515,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@7769/line-13",
+          "start": 516,
+          "end": 527,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 132884,
+        "end": 133496,
+        "line": 3358,
+        "column": 1,
+        "path": "chap02/p@7769",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8385",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nHe cannot want the best\nThat shall attend his love.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8385/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8385/line-2",
+          "start": 7,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8385/line-3",
+          "start": 31,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 133500,
+        "end": 133593,
+        "line": 3374,
+        "column": 1,
+        "path": "chap02/p@8385",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8482",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COUNTESS.\nHeaven bless him! Farewell, Bertram.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8482/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8482/line-2",
+          "start": 10,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 133597,
+        "end": 133673,
+        "line": 3380,
+        "column": 1,
+        "path": "chap02/p@8482",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "COUNTESS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8562",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Countess.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8562/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 133677,
+        "end": 133755,
+        "line": 3385,
+        "column": 1,
+        "path": "chap02/p@8562",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8644",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BERTRAM.\nThe best wishes that can be forg’d in your thoughts be servants to you! [To Helena.] Be comfortable to my mother, your mistress, and make much of her.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 82,
+          "end": 92
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8644/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8644/line-2",
+          "start": 9,
+          "end": 159,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 133759,
+        "end": 133956,
+        "line": 3389,
+        "column": 1,
+        "path": "chap02/p@8644",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "BERTRAM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8845",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAFEW.\nFarewell, pretty lady, you must hold the credit of your father.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8845/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8845/line-2",
+          "start": 7,
+          "end": 70,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 133960,
+        "end": 134060,
+        "line": 3395,
+        "column": 1,
+        "path": "chap02/p@8845",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "LAFEW.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@8949",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Bertram and Lafew.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 20,
+          "end": 25,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@8949/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 134064,
+        "end": 134183,
+        "line": 3400,
+        "column": 1,
+        "path": "chap02/p@8949",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@9072",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nO, were that all! I think not on my father,\nAnd these great tears grace his remembrance more\nThan those I shed for him. What was he like?\nI have forgot him; my imagination\nCarries no favour in’t but Bertram’s.\nI am undone: there is no living, none,\nIf Bertram be away. ’Twere all one\nThat I should love a bright particular star,\nAnd think to wed it, he is so above me.\nIn his bright radiance and collateral light\nMust I be comforted, not in his sphere.\nTh’ambition in my love thus plagues itself:\nThe hind that would be mated by the lion\nMust die for love. ’Twas pretty, though a plague,\nTo see him every hour; to sit and draw\nHis arched brows, his hawking eye, his curls,\nIn our heart’s table,—heart too capable\nOf every line and trick of his sweet favour.\nBut now he’s gone, and my idolatrous fancy\nMust sanctify his relics. Who comes here?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-3",
+          "start": 52,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-4",
+          "start": 101,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-5",
+          "start": 146,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-6",
+          "start": 180,
+          "end": 217,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-7",
+          "start": 218,
+          "end": 256,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-8",
+          "start": 257,
+          "end": 291,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-9",
+          "start": 292,
+          "end": 336,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-10",
+          "start": 337,
+          "end": 376,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-11",
+          "start": 377,
+          "end": 420,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-12",
+          "start": 421,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-13",
+          "start": 461,
+          "end": 504,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-14",
+          "start": 505,
+          "end": 545,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-15",
+          "start": 546,
+          "end": 595,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-16",
+          "start": 596,
+          "end": 634,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-17",
+          "start": 635,
+          "end": 680,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-18",
+          "start": 681,
+          "end": 720,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-19",
+          "start": 721,
+          "end": 765,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-20",
+          "start": 766,
+          "end": 808,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-21",
+          "start": 809,
+          "end": 850,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@9072/line-22",
+          "start": 851,
+          "end": 851,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 134187,
+        "end": 135166,
+        "line": 3404,
+        "column": 1,
+        "path": "chap02/p@9072",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10055",
       "type": "stage",
-      "text": "[Exit Countess.]"
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "bertram",
-        "name": "BERTRAM",
-        "displayName": "Bertram"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Parolles.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "The best wishes that can be forg'd in your thoughts be servants to you! [To Helena.] Be comfortable to my mother, your mistress, and make much of her.",
-          "plainText": "The best wishes that can be forg'd in your thoughts be servants to you To Helena Be comfortable to my mother your mistress and make much of her",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10055/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 135170,
+        "end": 135244,
+        "line": 3428,
+        "column": 1,
+        "path": "chap02/p@10055",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "lafew",
-        "name": "LAFEW",
-        "displayName": "Lafew"
-      },
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10133",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "One that goes with him: I love him for his sake,\nAnd yet I know him a notorious liar,\nThink him a great way fool, solely a coward;\nYet these fix’d evils sit so fit in him\nThat they take place when virtue’s steely bones\nLooks bleak i’ th’ cold wind: withal, full oft we see\nCold wisdom waiting on superfluous folly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Farewell, pretty lady, you must hold the credit of your father.",
-          "plainText": "Farewell pretty lady you must hold the credit of your father",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-2",
+          "start": 49,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-3",
+          "start": 86,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-4",
+          "start": 131,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-5",
+          "start": 171,
+          "end": 218,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-6",
+          "start": 219,
+          "end": 272,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10133/line-7",
+          "start": 273,
+          "end": 314,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 135248,
+        "end": 135617,
+        "line": 3432,
+        "column": 1,
+        "path": "chap02/p@10133",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-stage-003",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10506",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nSave you, fair queen!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10506/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10506/line-2",
+          "start": 10,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135621,
+        "end": 135682,
+        "line": 3442,
+        "column": 1,
+        "path": "chap02/p@10506",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10571",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nAnd you, monarch!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10571/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10571/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135686,
+        "end": 135741,
+        "line": 3447,
+        "column": 1,
+        "path": "chap02/p@10571",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10630",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nNo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10630/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10630/line-2",
+          "start": 10,
+          "end": 13,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135745,
+        "end": 135788,
+        "line": 3452,
+        "column": 1,
+        "path": "chap02/p@10630",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10677",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nAnd no.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10677/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10677/line-2",
+          "start": 8,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135792,
+        "end": 135837,
+        "line": 3457,
+        "column": 1,
+        "path": "chap02/p@10677",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10726",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nAre you meditating on virginity?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10726/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10726/line-2",
+          "start": 10,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135841,
+        "end": 135913,
+        "line": 3462,
+        "column": 1,
+        "path": "chap02/p@10726",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10802",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nAy. You have some stain of soldier in you; let me ask you a question. Man is enemy to virginity; how may we barricado it against him?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10802/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10802/line-2",
+          "start": 8,
+          "end": 141,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 135917,
+        "end": 136089,
+        "line": 3467,
+        "column": 1,
+        "path": "chap02/p@10802",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@10978",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nKeep him out.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10978/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@10978/line-2",
+          "start": 10,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 136093,
+        "end": 136146,
+        "line": 3473,
+        "column": 1,
+        "path": "chap02/p@10978",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@11035",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nBut he assails; and our virginity, though valiant, in the defence, yet is weak. Unfold to us some warlike resistance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11035/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11035/line-2",
+          "start": 8,
+          "end": 125,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 136150,
+        "end": 136306,
+        "line": 3478,
+        "column": 1,
+        "path": "chap02/p@11035",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@11195",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nThere is none. Man setting down before you will undermine you and blow you up.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11195/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11195/line-2",
+          "start": 10,
+          "end": 88,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 136310,
+        "end": 136428,
+        "line": 3484,
+        "column": 1,
+        "path": "chap02/p@11195",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@11317",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nBless our poor virginity from underminers and blowers-up! Is there no military policy how virgins might blow up men?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11317/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11317/line-2",
+          "start": 8,
+          "end": 124,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 136432,
+        "end": 136587,
+        "line": 3489,
+        "column": 1,
+        "path": "chap02/p@11317",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@11476",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nVirginity being blown down, man will quicklier be blown up; marry, in blowing him down again, with the breach yourselves made, you lose your city. It is not politic in the commonwealth of nature to preserve virginity. Loss of virginity is rational increase, and there was never virgin got till virginity was first lost. That you were made of is metal to make virgins. Virginity, by being once lost, may be ten times found; by being ever kept, it is ever lost. ’Tis too cold a companion. Away with it!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11476/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@11476/line-2",
+          "start": 10,
+          "end": 510,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 136591,
+        "end": 137137,
+        "line": 3495,
+        "column": 1,
+        "path": "chap02/p@11476",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@12026",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nI will stand for’t a little, though therefore I die a virgin.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12026/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12026/line-2",
+          "start": 8,
+          "end": 69,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 137141,
+        "end": 137240,
+        "line": 3506,
+        "column": 1,
+        "path": "chap02/p@12026",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@12129",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nThere’s little can be said in’t; ’tis against the rule of nature. To speak on the part of virginity is to accuse your mothers; which is most infallible disobedience. He that hangs himself is a virgin: virginity murders itself, and should be buried in highways out of all sanctified limit, as a desperate offendress against nature. Virginity breeds mites, much like a cheese; consumes itself to the very paring, and so dies with feeding his own stomach. Besides, virginity is peevish, proud, idle, made of self-love, which is the most inhibited sin in the canon. Keep it not; you cannot choose but lose by’t. Out with’t! Within the year it will make itself two, which is a goodly increase, and the principal itself not much the worse. Away with it!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12129/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12129/line-2",
+          "start": 10,
+          "end": 757,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 137244,
+        "end": 138040,
+        "line": 3511,
+        "column": 1,
+        "path": "chap02/p@12129",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@12929",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nHow might one do, sir, to lose it to her own liking?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12929/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@12929/line-2",
+          "start": 8,
+          "end": 60,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 138044,
+        "end": 138134,
+        "line": 3525,
+        "column": 1,
+        "path": "chap02/p@12929",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@13023",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nLet me see. Marry, ill, to like him that ne’er it likes. ’Tis a commodity will lose the gloss with lying; the longer kept, the less worth. Off with’t while ’tis vendible; answer the time of request. Virginity, like an old courtier, wears her cap out of fashion, richly suited, but unsuitable, just like the brooch and the toothpick, which wear not now. Your date is better in your pie and your porridge than in your cheek. And your virginity, your old virginity, is like one of our French wither’d pears; it looks ill, it eats drily; marry, ’tis a wither’d pear; it was formerly better; marry, yet ’tis a wither’d pear. Will you anything with it?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13023/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13023/line-2",
+          "start": 10,
+          "end": 656,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 138138,
+        "end": 138832,
+        "line": 3530,
+        "column": 1,
+        "path": "chap02/p@13023",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@13721",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nNot my virginity yet.\nThere shall your master have a thousand loves,\nA mother, and a mistress, and a friend,\nA phoenix, captain, and an enemy,\nA guide, a goddess, and a sovereign,\nA counsellor, a traitress, and a dear:\nHis humble ambition, proud humility,\nHis jarring concord, and his discord dulcet,\nHis faith, his sweet disaster; with a world\nOf pretty, fond, adoptious christendoms\nThat blinking Cupid gossips. Now shall he—\nI know not what he shall. God send him well!\nThe court’s a learning-place; and he is one.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-3",
+          "start": 30,
+          "end": 76,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-4",
+          "start": 77,
+          "end": 116,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-5",
+          "start": 117,
+          "end": 150,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-6",
+          "start": 151,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-7",
+          "start": 188,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-8",
+          "start": 227,
+          "end": 263,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-9",
+          "start": 264,
+          "end": 308,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-10",
+          "start": 309,
+          "end": 352,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-11",
+          "start": 353,
+          "end": 392,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-12",
+          "start": 393,
+          "end": 435,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-13",
+          "start": 436,
+          "end": 480,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@13721/line-14",
+          "start": 481,
+          "end": 525,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 138836,
+        "end": 139451,
+        "line": 3543,
+        "column": 1,
+        "path": "chap02/p@13721",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14340",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nWhat one, i’ faith?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14340/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14340/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 139455,
+        "end": 139514,
+        "line": 3560,
+        "column": 1,
+        "path": "chap02/p@14340",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14403",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nThat I wish well. ’Tis pity—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14403/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14403/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 139518,
+        "end": 139584,
+        "line": 3565,
+        "column": 1,
+        "path": "chap02/p@14403",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14473",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nWhat’s pity?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14473/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14473/line-2",
+          "start": 10,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 139588,
+        "end": 139640,
+        "line": 3570,
+        "column": 1,
+        "path": "chap02/p@14473",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14529",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nThat wishing well had not a body in’t\nWhich might be felt, that we, the poorer born,\nWhose baser stars do shut us up in wishes,\nMight with effects of them follow our friends,\nAnd show what we alone must think, which never\nReturns us thanks.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-3",
+          "start": 46,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-4",
+          "start": 93,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-5",
+          "start": 136,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-6",
+          "start": 183,
+          "end": 229,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14529/line-7",
+          "start": 230,
+          "end": 248,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 139644,
+        "end": 139947,
+        "line": 3575,
+        "column": 1,
+        "path": "chap02/p@14529",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14836",
       "type": "stage",
-      "text": "[Exeunt Bertram and Lafew.]"
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Page.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "O, were that all! I think not on my father,",
-          "plainText": "O were that all I think not on my father",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "And these great tears grace his remembrance more",
-          "plainText": "And these great tears grace his remembrance more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "Than those I shed for him. What was he like?",
-          "plainText": "Than those I shed for him What was he like",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 4,
-          "text": "I have forgot him; my imagination",
-          "plainText": "I have forgot him my imagination",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 5,
-          "text": "Carries no favour in't but Bertram's.",
-          "plainText": "Carries no favour in't but Bertram's",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 6,
-          "text": "I am undone: there is no living, none,",
-          "plainText": "I am undone there is no living none",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 7,
-          "text": "If Bertram be away. 'Twere all one",
-          "plainText": "If Bertram be away 'Twere all one",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 8,
-          "text": "That I should love a bright particular star,",
-          "plainText": "That I should love a bright particular star",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 9,
-          "text": "And think to wed it, he is so above me.",
-          "plainText": "And think to wed it he is so above me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 10,
-          "text": "In his bright radiance and collateral light",
-          "plainText": "In his bright radiance and collateral light",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 11,
-          "text": "Must I be comforted, not in his sphere.",
-          "plainText": "Must I be comforted not in his sphere",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 12,
-          "text": "Th'ambition in my love thus plagues itself:",
-          "plainText": "Th'ambition in my love thus plagues itself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 13,
-          "text": "The hind that would be mated by the lion",
-          "plainText": "The hind that would be mated by the lion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 14,
-          "text": "Must die for love. 'Twas pretty, though a plague,",
-          "plainText": "Must die for love 'Twas pretty though a plague",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 15,
-          "text": "To see him every hour; to sit and draw",
-          "plainText": "To see him every hour to sit and draw",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 16,
-          "text": "His arched brows, his hawking eye, his curls,",
-          "plainText": "His arched brows his hawking eye his curls",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 17,
-          "text": "In our heart's table,—heart too capable",
-          "plainText": "In our heart's tableheart too capable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 18,
-          "text": "Of every line and trick of his sweet favour.",
-          "plainText": "Of every line and trick of his sweet favour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 19,
-          "text": "But now he's gone, and my idolatrous fancy",
-          "plainText": "But now he's gone and my idolatrous fancy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 20,
-          "text": "Must sanctify his relics. Who comes here?",
-          "plainText": "Must sanctify his relics Who comes here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14836/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-stage-004",
-      "type": "stage",
-      "text": "Enter Parolles."
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
+      ],
+      "sourceRef": {
+        "start": 139951,
+        "end": 140023,
+        "line": 3585,
+        "column": 1,
+        "path": "chap02/p@14836",
+        "anchor": "sceneI_2.1"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14912",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAGE.\nMonsieur Parolles, my lord calls for you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "Save you, fair queen!",
-          "plainText": "Save you fair queen",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "And you, monarch!",
-          "plainText": "And you monarch",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "No.",
-          "plainText": "No",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "And no.",
-          "plainText": "And no",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-032",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "Are you meditating on virginity?",
-          "plainText": "Are you meditating on virginity",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-033",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "Ay. You have some stain of soldier in you; let me ask you a question. Man is enemy to virginity; how may we barricado it against him?",
-          "plainText": "Ay You have some stain of soldier in you let me ask you a question Man is enemy to virginity how may we barricado it against him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-034",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "Keep him out.",
-          "plainText": "Keep him out",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-035",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "But he assails; and our virginity, though valiant, in the defence, yet is weak. Unfold to us some warlike resistance.",
-          "plainText": "But he assails and our virginity though valiant in the defence yet is weak Unfold to us some warlike resistance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-036",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "There is none. Man setting down before you will undermine you and blow you up.",
-          "plainText": "There is none Man setting down before you will undermine you and blow you up",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-037",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "Bless our poor virginity from underminers and blowers-up! Is there no military policy how virgins might blow up men?",
-          "plainText": "Bless our poor virginity from underminers and blowersup Is there no military policy how virgins might blow up men",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-038",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "Virginity being blown down, man will quicklier be blown up; marry, in blowing him down again, with the breach yourselves made, you lose your city. It is not politic in the commonwealth of nature to preserve virginity. Loss of virginity is rational increase, and there was never virgin got till virginity was first lost. That you were made of is metal to make virgins. Virginity, by being once lost, may be ten times found; by being ever kept, it is ever lost. 'Tis too cold a companion. Away with it!",
-          "plainText": "Virginity being blown down man will quicklier be blown up marry in blowing him down again with the breach yourselves made you lose your city It is not politic in the commonwealth of nature to preserve virginity Loss of virginity is rational increase and there was never virgin got till virginity was first lost That you were made of is metal to make virgins Virginity by being once lost may be ten times found by being ever kept it is ever lost 'Tis too cold a companion Away with it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-039",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "I will stand for't a little, though therefore I die a virgin.",
-          "plainText": "I will stand for't a little though therefore I die a virgin",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-040",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "There's little can be said in't; 'tis against the rule of nature. To speak on the part of virginity is to accuse your mothers; which is most infallible disobedience. He that hangs himself is a virgin: virginity murders itself, and should be buried in highways out of all sanctified limit, as a desperate offendress against nature. Virginity breeds mites, much like a cheese; consumes itself to the very paring, and so dies with feeding his own stomach. Besides, virginity is peevish, proud, idle, made of self-love, which is the most inhibited sin in the canon. Keep it not; you cannot choose but lose by't. Out with't! Within the year it will make itself two, which is a goodly increase, and the principal itself not much the worse. Away with it!",
-          "plainText": "There's little can be said in't 'tis against the rule of nature To speak on the part of virginity is to accuse your mothers which is most infallible disobedience He that hangs himself is a virgin virginity murders itself and should be buried in highways out of all sanctified limit as a desperate offendress against nature Virginity breeds mites much like a cheese consumes itself to the very paring and so dies with feeding his own stomach Besides virginity is peevish proud idle made of selflove which is the most inhibited sin in the canon Keep it not you cannot choose but lose by't Out with't Within the year it will make itself two which is a goodly increase and the principal itself not much the worse Away with it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-041",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "How might one do, sir, to lose it to her own liking?",
-          "plainText": "How might one do sir to lose it to her own liking",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-042",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0073",
-          "number": 73,
-          "speechLineNumber": 1,
-          "text": "Let me see. Marry, ill, to like him that ne'er it likes. 'Tis a commodity will lose the gloss with lying; the longer kept, the less worth. Off with't while 'tis vendible; answer the time of request. Virginity, like an old courtier, wears her cap out of fashion, richly suited, but unsuitable, just like the brooch and the toothpick, which wear not now. Your date is better in your pie and your porridge than in your cheek. And your virginity, your old virginity, is like one of our French wither'd pears; it looks ill, it eats drily; marry, 'tis a wither'd pear; it was formerly better; marry, yet 'tis a wither'd pear. Will you anything with it?",
-          "plainText": "Let me see Marry ill to like him that ne'er it likes 'Tis a commodity will lose the gloss with lying the longer kept the less worth Off with't while 'tis vendible answer the time of request Virginity like an old courtier wears her cap out of fashion richly suited but unsuitable just like the brooch and the toothpick which wear not now Your date is better in your pie and your porridge than in your cheek And your virginity your old virginity is like one of our French wither'd pears it looks ill it eats drily marry 'tis a wither'd pear it was formerly better marry yet 'tis a wither'd pear Will you anything with it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-043",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "Not my virginity yet.",
-          "plainText": "Not my virginity yet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14912/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "alls-well-that-ends-well-1-1-line-0075",
-          "number": 75,
-          "speechLineNumber": 2,
-          "text": "There shall your master have a thousand loves,",
-          "plainText": "There shall your master have a thousand loves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0076",
-          "number": 76,
-          "speechLineNumber": 3,
-          "text": "A mother, and a mistress, and a friend,",
-          "plainText": "A mother and a mistress and a friend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0077",
-          "number": 77,
-          "speechLineNumber": 4,
-          "text": "A phoenix, captain, and an enemy,",
-          "plainText": "A phoenix captain and an enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0078",
-          "number": 78,
-          "speechLineNumber": 5,
-          "text": "A guide, a goddess, and a sovereign,",
-          "plainText": "A guide a goddess and a sovereign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0079",
-          "number": 79,
-          "speechLineNumber": 6,
-          "text": "A counsellor, a traitress, and a dear:",
-          "plainText": "A counsellor a traitress and a dear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0080",
-          "number": 80,
-          "speechLineNumber": 7,
-          "text": "His humble ambition, proud humility,",
-          "plainText": "His humble ambition proud humility",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0081",
-          "number": 81,
-          "speechLineNumber": 8,
-          "text": "His jarring concord, and his discord dulcet,",
-          "plainText": "His jarring concord and his discord dulcet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0082",
-          "number": 82,
-          "speechLineNumber": 9,
-          "text": "His faith, his sweet disaster; with a world",
-          "plainText": "His faith his sweet disaster with a world",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0083",
-          "number": 83,
-          "speechLineNumber": 10,
-          "text": "Of pretty, fond, adoptious christendoms",
-          "plainText": "Of pretty fond adoptious christendoms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0084",
-          "number": 84,
-          "speechLineNumber": 11,
-          "text": "That blinking Cupid gossips. Now shall he—",
-          "plainText": "That blinking Cupid gossips Now shall he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0085",
-          "number": 85,
-          "speechLineNumber": 12,
-          "text": "I know not what he shall. God send him well!",
-          "plainText": "I know not what he shall God send him well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0086",
-          "number": 86,
-          "speechLineNumber": 13,
-          "text": "The court's a learning-place; and he is one.",
-          "plainText": "The court's a learningplace and he is one",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14912/line-2",
+          "start": 6,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 140027,
+        "end": 140104,
+        "line": 3589,
+        "column": 1,
+        "path": "chap02/p@14912",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAGE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-044",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@14993",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Page.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 11
+        }
+      ],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "What one, i' faith?",
-          "plainText": "What one i' faith",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@14993/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 140108,
+        "end": 140182,
+        "line": 3594,
+        "column": 1,
+        "path": "chap02/p@14993",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-045",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15071",
       "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nLittle Helen, farewell. If I can remember thee, I will think of thee at court.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0088",
-          "number": 88,
-          "speechLineNumber": 1,
-          "text": "That I wish well. 'Tis pity—",
-          "plainText": "That I wish well 'Tis pity",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15071/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15071/line-2",
+          "start": 10,
+          "end": 88,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 140186,
+        "end": 140304,
+        "line": 3598,
+        "column": 1,
+        "path": "chap02/p@15071",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-046",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15193",
       "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nMonsieur Parolles, you were born under a charitable star.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "What's pity?",
-          "plainText": "What's pity",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15193/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15193/line-2",
+          "start": 8,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 140308,
+        "end": 140403,
+        "line": 3603,
+        "column": 1,
+        "path": "chap02/p@15193",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-speech-047",
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15292",
       "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nUnder Mars, I.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0090",
-          "number": 90,
-          "speechLineNumber": 1,
-          "text": "That wishing well had not a body in't",
-          "plainText": "That wishing well had not a body in't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15292/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "alls-well-that-ends-well-1-1-line-0091",
-          "number": 91,
-          "speechLineNumber": 2,
-          "text": "Which might be felt, that we, the poorer born,",
-          "plainText": "Which might be felt that we the poorer born",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0092",
-          "number": 92,
-          "speechLineNumber": 3,
-          "text": "Whose baser stars do shut us up in wishes,",
-          "plainText": "Whose baser stars do shut us up in wishes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0093",
-          "number": 93,
-          "speechLineNumber": 4,
-          "text": "Might with effects of them follow our friends,",
-          "plainText": "Might with effects of them follow our friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0094",
-          "number": 94,
-          "speechLineNumber": 5,
-          "text": "And show what we alone must think, which never",
-          "plainText": "And show what we alone must think which never",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0095",
-          "number": 95,
-          "speechLineNumber": 6,
-          "text": "Returns us thanks.",
-          "plainText": "Returns us thanks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15292/line-2",
+          "start": 10,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-stage-005",
-      "type": "stage",
-      "text": "Enter a Page."
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-048",
-      "type": "speech",
-      "speaker": {
-        "id": "page",
-        "name": "PAGE",
-        "displayName": "Page"
+      ],
+      "sourceRef": {
+        "start": 140407,
+        "end": 140461,
+        "line": 3608,
+        "column": 1,
+        "path": "chap02/p@15292",
+        "anchor": "sceneI_2.1"
       },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15350",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nI especially think, under Mars.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "alls-well-that-ends-well-1-1-line-0096",
-          "number": 96,
-          "speechLineNumber": 1,
-          "text": "Monsieur Parolles, my lord calls for you.",
-          "plainText": "Monsieur Parolles my lord calls for you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-stage-006",
-      "type": "stage",
-      "text": "[Exit Page.]"
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-049",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0097",
-          "number": 97,
-          "speechLineNumber": 1,
-          "text": "Little Helen, farewell. If I can remember thee, I will think of thee at court.",
-          "plainText": "Little Helen farewell If I can remember thee I will think of thee at court",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-050",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0098",
-          "number": 98,
-          "speechLineNumber": 1,
-          "text": "Monsieur Parolles, you were born under a charitable star.",
-          "plainText": "Monsieur Parolles you were born under a charitable star",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-051",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0099",
-          "number": 99,
-          "speechLineNumber": 1,
-          "text": "Under Mars, I.",
-          "plainText": "Under Mars I",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-052",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0100",
-          "number": 100,
-          "speechLineNumber": 1,
-          "text": "I especially think, under Mars.",
-          "plainText": "I especially think under Mars",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-053",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0101",
-          "number": 101,
-          "speechLineNumber": 1,
-          "text": "Why under Mars?",
-          "plainText": "Why under Mars",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-054",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0102",
-          "number": 102,
-          "speechLineNumber": 1,
-          "text": "The wars hath so kept you under, that you must needs be born under Mars.",
-          "plainText": "The wars hath so kept you under that you must needs be born under Mars",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-055",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0103",
-          "number": 103,
-          "speechLineNumber": 1,
-          "text": "When he was predominant.",
-          "plainText": "When he was predominant",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-056",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0104",
-          "number": 104,
-          "speechLineNumber": 1,
-          "text": "When he was retrograde, I think rather.",
-          "plainText": "When he was retrograde I think rather",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-057",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0105",
-          "number": 105,
-          "speechLineNumber": 1,
-          "text": "Why think you so?",
-          "plainText": "Why think you so",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-058",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0106",
-          "number": 106,
-          "speechLineNumber": 1,
-          "text": "You go so much backward when you fight.",
-          "plainText": "You go so much backward when you fight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-059",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0107",
-          "number": 107,
-          "speechLineNumber": 1,
-          "text": "That's for advantage.",
-          "plainText": "That's for advantage",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-060",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0108",
-          "number": 108,
-          "speechLineNumber": 1,
-          "text": "So is running away, when fear proposes the safety: but the composition that your valour and fear makes in you is a virtue of a good wing, and I like the wear well.",
-          "plainText": "So is running away when fear proposes the safety but the composition that your valour and fear makes in you is a virtue of a good wing and I like the wear well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-061",
-      "type": "speech",
-      "speaker": {
-        "id": "parolles",
-        "name": "PAROLLES",
-        "displayName": "Parolles"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0109",
-          "number": 109,
-          "speechLineNumber": 1,
-          "text": "I am so full of business I cannot answer thee acutely. I will return perfect courtier; in the which my instruction shall serve to naturalize thee, so thou wilt be capable of a courtier's counsel, and understand what advice shall thrust upon thee; else thou diest in thine unthankfulness, and thine ignorance makes thee away. Farewell. When thou hast leisure, say thy prayers; when thou hast none, remember thy friends. Get thee a good husband, and use him as he uses thee. So, farewell.",
-          "plainText": "I am so full of business I cannot answer thee acutely I will return perfect courtier in the which my instruction shall serve to naturalize thee so thou wilt be capable of a courtier's counsel and understand what advice shall thrust upon thee else thou diest in thine unthankfulness and thine ignorance makes thee away Farewell When thou hast leisure say thy prayers when thou hast none remember thy friends Get thee a good husband and use him as he uses thee So farewell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-stage-007",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "alls-well-that-ends-well-1-1-speech-062",
-      "type": "speech",
-      "speaker": {
-        "id": "helena",
-        "name": "HELENA",
-        "displayName": "Helena"
-      },
-      "lines": [
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0110",
-          "number": 110,
-          "speechLineNumber": 1,
-          "text": "Our remedies oft in ourselves do lie,",
-          "plainText": "Our remedies oft in ourselves do lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15350/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "alls-well-that-ends-well-1-1-line-0111",
-          "number": 111,
-          "speechLineNumber": 2,
-          "text": "Which we ascribe to heaven: the fated sky",
-          "plainText": "Which we ascribe to heaven the fated sky",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0112",
-          "number": 112,
-          "speechLineNumber": 3,
-          "text": "Gives us free scope; only doth backward pull",
-          "plainText": "Gives us free scope only doth backward pull",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0113",
-          "number": 113,
-          "speechLineNumber": 4,
-          "text": "Our slow designs when we ourselves are dull.",
-          "plainText": "Our slow designs when we ourselves are dull",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0114",
-          "number": 114,
-          "speechLineNumber": 5,
-          "text": "What power is it which mounts my love so high,",
-          "plainText": "What power is it which mounts my love so high",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0115",
-          "number": 115,
-          "speechLineNumber": 6,
-          "text": "That makes me see, and cannot feed mine eye?",
-          "plainText": "That makes me see and cannot feed mine eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0116",
-          "number": 116,
-          "speechLineNumber": 7,
-          "text": "The mightiest space in fortune nature brings",
-          "plainText": "The mightiest space in fortune nature brings",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0117",
-          "number": 117,
-          "speechLineNumber": 8,
-          "text": "To join like likes, and kiss like native things.",
-          "plainText": "To join like likes and kiss like native things",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0118",
-          "number": 118,
-          "speechLineNumber": 9,
-          "text": "Impossible be strange attempts to those",
-          "plainText": "Impossible be strange attempts to those",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0119",
-          "number": 119,
-          "speechLineNumber": 10,
-          "text": "That weigh their pains in sense, and do suppose",
-          "plainText": "That weigh their pains in sense and do suppose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0120",
-          "number": 120,
-          "speechLineNumber": 11,
-          "text": "What hath been cannot be. Who ever strove",
-          "plainText": "What hath been cannot be Who ever strove",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0121",
-          "number": 121,
-          "speechLineNumber": 12,
-          "text": "To show her merit that did miss her love?",
-          "plainText": "To show her merit that did miss her love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0122",
-          "number": 122,
-          "speechLineNumber": 13,
-          "text": "The king's disease,—my project may deceive me,",
-          "plainText": "The king's diseasemy project may deceive me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "alls-well-that-ends-well-1-1-line-0123",
-          "number": 123,
-          "speechLineNumber": 14,
-          "text": "But my intents are fix'd, and will not leave me.",
-          "plainText": "But my intents are fix'd and will not leave me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15350/line-2",
+          "start": 8,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 140465,
+        "end": 140534,
+        "line": 3613,
+        "column": 1,
+        "path": "chap02/p@15350",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "alls-well-that-ends-well-1-1-stage-008",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15423",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nWhy under Mars?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15423/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15423/line-2",
+          "start": 10,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140538,
+        "end": 140593,
+        "line": 3618,
+        "column": 1,
+        "path": "chap02/p@15423",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15482",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nThe wars hath so kept you under, that you must needs be born under Mars.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15482/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15482/line-2",
+          "start": 8,
+          "end": 80,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140597,
+        "end": 140707,
+        "line": 3623,
+        "column": 1,
+        "path": "chap02/p@15482",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15596",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nWhen he was predominant.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15596/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15596/line-2",
+          "start": 10,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140711,
+        "end": 140775,
+        "line": 3628,
+        "column": 1,
+        "path": "chap02/p@15596",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15664",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nWhen he was retrograde, I think rather.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15664/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15664/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140779,
+        "end": 140856,
+        "line": 3633,
+        "column": 1,
+        "path": "chap02/p@15664",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15745",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nWhy think you so?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15745/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15745/line-2",
+          "start": 10,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140860,
+        "end": 140917,
+        "line": 3638,
+        "column": 1,
+        "path": "chap02/p@15745",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15806",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nYou go so much backward when you fight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15806/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15806/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 140921,
+        "end": 140998,
+        "line": 3643,
+        "column": 1,
+        "path": "chap02/p@15806",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15887",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nThat’s for advantage.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15887/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15887/line-2",
+          "start": 10,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 141002,
+        "end": 141063,
+        "line": 3648,
+        "column": 1,
+        "path": "chap02/p@15887",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@15952",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nSo is running away, when fear proposes the safety: but the composition that your valour and fear makes in you is a virtue of a good wing, and I like the wear well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15952/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@15952/line-2",
+          "start": 8,
+          "end": 171,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 141067,
+        "end": 141270,
+        "line": 3653,
+        "column": 1,
+        "path": "chap02/p@15952",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@16159",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PAROLLES.\nI am so full of business I cannot answer thee acutely. I will return perfect courtier; in the which my instruction shall serve to naturalize thee, so thou wilt be capable of a courtier’s counsel, and understand what advice shall thrust upon thee; else thou diest in thine unthankfulness, and thine ignorance makes thee away. Farewell. When thou hast leisure, say thy prayers; when thou hast none, remember thy friends. Get thee a good husband, and use him as he uses thee. So, farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16159/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16159/line-2",
+          "start": 10,
+          "end": 496,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 141274,
+        "end": 141806,
+        "line": 3660,
+        "column": 1,
+        "path": "chap02/p@16159",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "PAROLLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@16695",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16695/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 141810,
+        "end": 141849,
+        "line": 3671,
+        "column": 1,
+        "path": "chap02/p@16695",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@16738",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HELENA.\nOur remedies oft in ourselves do lie,\nWhich we ascribe to heaven: the fated sky\nGives us free scope; only doth backward pull\nOur slow designs when we ourselves are dull.\nWhat power is it which mounts my love so high,\nThat makes me see, and cannot feed mine eye?\nThe mightiest space in fortune nature brings\nTo join like likes, and kiss like native things.\nImpossible be strange attempts to those\nThat weigh their pains in sense, and do suppose\nWhat hath been cannot be. Who ever strove\nTo show her merit that did miss her love?\nThe king’s disease,—my project may deceive me,\nBut my intents are fix’d, and will not leave me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-3",
+          "start": 46,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-4",
+          "start": 88,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-5",
+          "start": 133,
+          "end": 177,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-6",
+          "start": 178,
+          "end": 224,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-7",
+          "start": 225,
+          "end": 269,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-8",
+          "start": 270,
+          "end": 314,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-9",
+          "start": 315,
+          "end": 363,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-10",
+          "start": 364,
+          "end": 403,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-11",
+          "start": 404,
+          "end": 451,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-12",
+          "start": 452,
+          "end": 493,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-13",
+          "start": 494,
+          "end": 535,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-14",
+          "start": 536,
+          "end": 582,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@16738/line-15",
+          "start": 583,
+          "end": 631,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 141853,
+        "end": 142579,
+        "line": 3675,
+        "column": 1,
+        "path": "chap02/p@16738",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": "HELENA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "alls-well-that-ends-well/sceneI_2.1/p@17468",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "alls-well-that-ends-well/sceneI_2.1/p@17468/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 142583,
+        "end": 142622,
+        "line": 3693,
+        "column": 1,
+        "path": "chap02/p@17468",
+        "anchor": "sceneI_2.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "e9a0c9282544ce0e5b9606d3119ae16fc891d7930b2d570a936170d0703ce7ba"
 }

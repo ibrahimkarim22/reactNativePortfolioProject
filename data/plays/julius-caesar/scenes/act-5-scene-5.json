@@ -1,1319 +1,2254 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "julius-caesar",
-    "title": "The Tragedy of Julius Caesar",
+    "title": "THE TRAGEDY OF JULIUS CAESAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap17"
   },
-  "scene": {
+  "section": {
     "id": "julius-caesar-5-5",
+    "kind": "scene",
+    "heading": "SCENE V. Another part of the field.",
     "act": 5,
     "scene": 5,
-    "label": "Act 5, Scene 5",
-    "title": "SCENE V. Another part of the field.",
-    "location": "Another part of the field.",
-    "orderInPlay": 18
+    "parentSectionId": "julius-caesar-act-137868",
+    "orderInPlay": 27,
+    "sourceRef": {
+      "start": 3167358,
+      "end": 3167434,
+      "line": 115320,
+      "column": 1,
+      "path": "chap17/h3@156961",
+      "anchor": "sceneV_17.5"
+    }
   },
   "content": [
     {
-      "id": "julius-caesar-5-5-stage-001",
+      "id": "julius-caesar/sceneV_17.5/h3@156961",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Another part of the field.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/h3@156961/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167358,
+        "end": 3167434,
+        "line": 115320,
+        "column": 1,
+        "path": "chap17/h3@156961",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157041",
       "type": "stage",
-      "text": "Enter Brutus, Dardanius, Clitus, Strato and Volumnius."
-    },
-    {
-      "id": "julius-caesar-5-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Brutus, Dardanius, Clitus, Strato and Volumnius.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "julius-caesar-5-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Come, poor remains of friends, rest on this rock.",
-          "plainText": "Come poor remains of friends rest on this rock",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Statilius show'd the torch-light; but, my lord,",
-          "plainText": "Statilius show'd the torchlight but my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 39,
+          "className": "charname"
         },
         {
-          "id": "julius-caesar-5-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 2,
-          "text": "He came not back: he is or ta'en or slain.",
-          "plainText": "He came not back he is or ta'en or slain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 44,
+          "end": 53,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Sit thee down, Clitus. Slaying is the word;",
-          "plainText": "Sit thee down Clitus Slaying is the word",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "It is a deed in fashion. Hark thee, Clitus.",
-          "plainText": "It is a deed in fashion Hark thee Clitus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@157041/line-1",
+          "start": 0,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3167438,
+        "end": 3167581,
+        "line": 115322,
+        "column": 1,
+        "path": "chap17/p@157041",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-5-5-stage-002",
+      "id": "julius-caesar/sceneV_17.5/p@157188",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nCome, poor remains of friends, rest on this rock.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157188/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157188/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167585,
+        "end": 3167672,
+        "line": 115326,
+        "column": 1,
+        "path": "chap17/p@157188",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157279",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nStatilius show’d the torch-light; but, my lord,\nHe came not back: he is or ta’en or slain.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157279/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157279/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157279/line-3",
+          "start": 56,
+          "end": 98,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167676,
+        "end": 3167809,
+        "line": 115331,
+        "column": 1,
+        "path": "chap17/p@157279",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157416",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nSit thee down, Clitus. Slaying is the word;\nIt is a deed in fashion. Hark thee, Clitus.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157416/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157416/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157416/line-3",
+          "start": 52,
+          "end": 95,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167813,
+        "end": 3167943,
+        "line": 115337,
+        "column": 1,
+        "path": "chap17/p@157416",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157550",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Whispering.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157550/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167947,
+        "end": 3167992,
+        "line": 115343,
+        "column": 1,
+        "path": "chap17/p@157550",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157599",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nWhat, I, my lord? No, not for all the world.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157599/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157599/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3167996,
+        "end": 3168078,
+        "line": 115347,
+        "column": 1,
+        "path": "chap17/p@157599",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157685",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nPeace then, no words.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157685/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157685/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168082,
+        "end": 3168141,
+        "line": 115352,
+        "column": 1,
+        "path": "chap17/p@157685",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157748",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nI’ll rather kill myself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157748/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157748/line-2",
+          "start": 8,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168145,
+        "end": 3168207,
+        "line": 115357,
+        "column": 1,
+        "path": "chap17/p@157748",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157814",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nHark thee, Dardanius.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157814/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157814/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168211,
+        "end": 3168270,
+        "line": 115362,
+        "column": 1,
+        "path": "chap17/p@157814",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157877",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Whispers him.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157877/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168274,
+        "end": 3168321,
+        "line": 115367,
+        "column": 1,
+        "path": "chap17/p@157877",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157928",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DARDANIUS.\nShall I do such a deed?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157928/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157928/line-2",
+          "start": 11,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168325,
+        "end": 3168389,
+        "line": 115371,
+        "column": 1,
+        "path": "chap17/p@157928",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "DARDANIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@157996",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nO Dardanius!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157996/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@157996/line-2",
+          "start": 8,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168393,
+        "end": 3168443,
+        "line": 115376,
+        "column": 1,
+        "path": "chap17/p@157996",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158050",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DARDANIUS.\nO Clitus!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158050/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158050/line-2",
+          "start": 11,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168447,
+        "end": 3168497,
+        "line": 115381,
+        "column": 1,
+        "path": "chap17/p@158050",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "DARDANIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158104",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nWhat ill request did Brutus make to thee?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158104/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158104/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168501,
+        "end": 3168580,
+        "line": 115386,
+        "column": 1,
+        "path": "chap17/p@158104",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158187",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DARDANIUS.\nTo kill him, Clitus. Look, he meditates.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158187/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158187/line-2",
+          "start": 11,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168584,
+        "end": 3168665,
+        "line": 115391,
+        "column": 1,
+        "path": "chap17/p@158187",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "DARDANIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158272",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nNow is that noble vessel full of grief,\nThat it runs over even at his eyes.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158272/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158272/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158272/line-3",
+          "start": 48,
+          "end": 83,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168669,
+        "end": 3168787,
+        "line": 115396,
+        "column": 1,
+        "path": "chap17/p@158272",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158394",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nCome hither, good Volumnius; list a word.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158394/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158394/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168791,
+        "end": 3168870,
+        "line": 115402,
+        "column": 1,
+        "path": "chap17/p@158394",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158477",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VOLUMNIUS.\nWhat says my lord?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158477/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158477/line-2",
+          "start": 11,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168874,
+        "end": 3168933,
+        "line": 115407,
+        "column": 1,
+        "path": "chap17/p@158477",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "VOLUMNIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158540",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nWhy, this, Volumnius:\nThe ghost of Caesar hath appear’d to me\nTwo several times by night; at Sardis once,\nAnd this last night here in Philippi fields.\nI know my hour is come.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-3",
+          "start": 30,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-4",
+          "start": 70,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-5",
+          "start": 114,
+          "end": 158,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158540/line-6",
+          "start": 159,
+          "end": 182,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3168937,
+        "end": 3169169,
+        "line": 115412,
+        "column": 1,
+        "path": "chap17/p@158540",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158776",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VOLUMNIUS.\nNot so, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158776/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158776/line-2",
+          "start": 11,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169173,
+        "end": 3169230,
+        "line": 115421,
+        "column": 1,
+        "path": "chap17/p@158776",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "VOLUMNIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@158837",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nNay I am sure it is, Volumnius.\nThou seest the world, Volumnius, how it goes;\nOur enemies have beat us to the pit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158837/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158837/line-2",
+          "start": 8,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158837/line-3",
+          "start": 40,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@158837/line-4",
+          "start": 86,
+          "end": 122,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169234,
+        "end": 3169396,
+        "line": 115426,
+        "column": 1,
+        "path": "chap17/p@158837",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159003",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Low alarums.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 13
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159003/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169400,
+        "end": 3169446,
+        "line": 115433,
+        "column": 1,
+        "path": "chap17/p@159003",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159053",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "It is more worthy to leap in ourselves\nThan tarry till they push us. Good Volumnius,\nThou know’st that we two went to school together;\nEven for that our love of old, I pr’ythee\nHold thou my sword-hilts, whilst I run on it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159053/line-1",
+          "start": 0,
+          "end": 38,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159053/line-2",
+          "start": 39,
+          "end": 84,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159053/line-3",
+          "start": 85,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159053/line-4",
+          "start": 135,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159053/line-5",
+          "start": 177,
+          "end": 222,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169450,
+        "end": 3169717,
+        "line": 115437,
+        "column": 1,
+        "path": "chap17/p@159053",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159324",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VOLUMNIUS.\nThat’s not an office for a friend, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159324/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159324/line-2",
+          "start": 11,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169721,
+        "end": 3169805,
+        "line": 115445,
+        "column": 1,
+        "path": "chap17/p@159324",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "VOLUMNIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159412",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Alarums still.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159412/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169809,
+        "end": 3169857,
+        "line": 115450,
+        "column": 1,
+        "path": "chap17/p@159412",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159464",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nFly, fly, my lord! there is no tarrying here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159464/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159464/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169861,
+        "end": 3169944,
+        "line": 115454,
+        "column": 1,
+        "path": "chap17/p@159464",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@159551",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nFarewell to you; and you; and you, Volumnius.\nStrato, thou hast been all this while asleep;\nFarewell to thee too, Strato.—Countrymen,\nMy heart doth joy, that yet in all my life\nI found no man but he was true to me.\nI shall have glory by this losing day\nMore than Octavius and Mark Antony\nBy this vile conquest shall attain unto.\nSo fare you well at once; for Brutus’ tongue\nHath almost ended his life’s history.\nNight hangs upon mine eyes; my bones would rest,\nThat have but labour’d to attain this hour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-3",
+          "start": 54,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-4",
+          "start": 100,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-5",
+          "start": 142,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-6",
+          "start": 185,
+          "end": 222,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-7",
+          "start": 223,
+          "end": 260,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-8",
+          "start": 261,
+          "end": 295,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-9",
+          "start": 296,
+          "end": 336,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-10",
+          "start": 337,
+          "end": 381,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-11",
+          "start": 382,
+          "end": 419,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-12",
+          "start": 420,
+          "end": 468,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@159551/line-13",
+          "start": 469,
+          "end": 512,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3169948,
+        "end": 3170545,
+        "line": 115459,
+        "column": 1,
+        "path": "chap17/p@159551",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160152",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Alarums. Cry within, “Fly, fly, fly!”.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 39
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160152/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3170549,
+        "end": 3170621,
+        "line": 115475,
+        "column": 1,
+        "path": "chap17/p@160152",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160228",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLITUS.\nFly, my lord, fly!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160228/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160228/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3170625,
+        "end": 3170681,
+        "line": 115479,
+        "column": 1,
+        "path": "chap17/p@160228",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "CLITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160288",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nHence! I will follow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160288/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160288/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3170685,
+        "end": 3170744,
+        "line": 115484,
+        "column": 1,
+        "path": "chap17/p@160288",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160351",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Clitus, Dardanius and Volumnius.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 25,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 30,
+          "end": 39,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 40
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160351/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3170748,
+        "end": 3170881,
+        "line": 115489,
+        "column": 1,
+        "path": "chap17/p@160351",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160488",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I pr’ythee, Strato, stay thou by thy lord.\nThou art a fellow of a good respect;\nThy life hath had some smatch of honour in it.\nHold then my sword, and turn away thy face,\nWhile I do run upon it. Wilt thou, Strato?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160488/line-1",
+          "start": 0,
+          "end": 42,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160488/line-2",
+          "start": 43,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160488/line-3",
+          "start": 80,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160488/line-4",
+          "start": 127,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160488/line-5",
+          "start": 171,
+          "end": 213,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3170885,
+        "end": 3171143,
+        "line": 115493,
+        "column": 1,
+        "path": "chap17/p@160488",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160750",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "STRATO.\nGive me your hand first. Fare you well, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160750/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160750/line-2",
+          "start": 8,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3171147,
+        "end": 3171233,
+        "line": 115501,
+        "column": 1,
+        "path": "chap17/p@160750",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "STRATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160840",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nFarewell, good Strato.—Caesar, now be still:\nI kill’d not thee with half so good a will.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160840/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160840/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160840/line-3",
+          "start": 53,
+          "end": 96,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3171237,
+        "end": 3171368,
+        "line": 115506,
+        "column": 1,
+        "path": "chap17/p@160840",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@160975",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[He runs on his sword, and dies.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 32
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneV_17.5/p@160975/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3171372,
+        "end": 3171437,
+        "line": 115512,
+        "column": 1,
+        "path": "chap17/p@160975",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@161044",
       "type": "stage",
-      "text": "[Whispering.]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum. Retreat. Enter Antony, Octavius, Messala, Lucilius and the Army.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 23,
+          "end": 58,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "What, I, my lord? No, not for all the world.",
-          "plainText": "What I my lord No not for all the world",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161044/line-1",
+          "start": 0,
+          "end": 72,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3171441,
+        "end": 3171573,
+        "line": 115516,
+        "column": 1,
+        "path": "chap17/p@161044",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-005",
+      "id": "julius-caesar/sceneV_17.5/p@161180",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "OCTAVIUS.\nWhat man is that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Peace then, no words.",
-          "plainText": "Peace then no words",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161180/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161180/line-2",
+          "start": 10,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3171577,
+        "end": 3171634,
+        "line": 115521,
+        "column": 1,
+        "path": "chap17/p@161180",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "OCTAVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-006",
+      "id": "julius-caesar/sceneV_17.5/p@161241",
       "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSALA.\nMy master’s man. Strato, where is thy master?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "I'll rather kill myself.",
-          "plainText": "I'll rather kill myself",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161241/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161241/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3171638,
+        "end": 3171722,
+        "line": 115526,
+        "column": 1,
+        "path": "chap17/p@161241",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "MESSALA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-007",
+      "id": "julius-caesar/sceneV_17.5/p@161329",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "STRATO.\nFree from the bondage you are in, Messala.\nThe conquerors can but make a fire of him;\nFor Brutus only overcame himself,\nAnd no man else hath honour by his death.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Hark thee, Dardanius.",
-          "plainText": "Hark thee Dardanius",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161329/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161329/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161329/line-3",
+          "start": 51,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161329/line-4",
+          "start": 94,
+          "end": 127,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161329/line-5",
+          "start": 128,
+          "end": 169,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-003",
-      "type": "stage",
-      "text": "[Whispers him.]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "dardanius",
-        "name": "DARDANIUS",
-        "displayName": "Dardanius"
+      ],
+      "sourceRef": {
+        "start": 3171726,
+        "end": 3171940,
+        "line": 115531,
+        "column": 1,
+        "path": "chap17/p@161329",
+        "anchor": "sceneV_17.5"
       },
+      "speakerLabel": "STRATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneV_17.5/p@161547",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nSo Brutus should be found. I thank thee, Brutus,\nThat thou hast prov’d Lucilius’ saying true.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Shall I do such a deed?",
-          "plainText": "Shall I do such a deed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161547/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161547/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161547/line-3",
+          "start": 59,
+          "end": 103,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3171944,
+        "end": 3172082,
+        "line": 115539,
+        "column": 1,
+        "path": "chap17/p@161547",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-009",
+      "id": "julius-caesar/sceneV_17.5/p@161689",
       "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "OCTAVIUS.\nAll that serv’d Brutus, I will entertain them.\nFellow, wilt thou bestow thy time with me?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "O Dardanius!",
-          "plainText": "O Dardanius",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161689/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161689/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161689/line-3",
+          "start": 57,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172086,
+        "end": 3172220,
+        "line": 115545,
+        "column": 1,
+        "path": "chap17/p@161689",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "OCTAVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-010",
+      "id": "julius-caesar/sceneV_17.5/p@161827",
       "type": "speech",
-      "speaker": {
-        "id": "dardanius",
-        "name": "DARDANIUS",
-        "displayName": "Dardanius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "STRATO.\nAy, if Messala will prefer me to you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "O Clitus!",
-          "plainText": "O Clitus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161827/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161827/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172224,
+        "end": 3172299,
+        "line": 115551,
+        "column": 1,
+        "path": "chap17/p@161827",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "STRATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-011",
+      "id": "julius-caesar/sceneV_17.5/p@161906",
       "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "OCTAVIUS.\nDo so, good Messala.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "What ill request did Brutus make to thee?",
-          "plainText": "What ill request did Brutus make to thee",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161906/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161906/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172303,
+        "end": 3172363,
+        "line": 115556,
+        "column": 1,
+        "path": "chap17/p@161906",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "OCTAVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-012",
+      "id": "julius-caesar/sceneV_17.5/p@161970",
       "type": "speech",
-      "speaker": {
-        "id": "dardanius",
-        "name": "DARDANIUS",
-        "displayName": "Dardanius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSALA.\nHow died my master, Strato?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "To kill him, Clitus. Look, he meditates.",
-          "plainText": "To kill him Clitus Look he meditates",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@161970/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@161970/line-2",
+          "start": 9,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172367,
+        "end": 3172433,
+        "line": 115561,
+        "column": 1,
+        "path": "chap17/p@161970",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "MESSALA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-013",
+      "id": "julius-caesar/sceneV_17.5/p@162040",
       "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "STRATO.\nI held the sword, and he did run on it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Now is that noble vessel full of grief,",
-          "plainText": "Now is that noble vessel full of grief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162040/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "That it runs over even at his eyes.",
-          "plainText": "That it runs over even at his eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162040/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172437,
+        "end": 3172514,
+        "line": 115566,
+        "column": 1,
+        "path": "chap17/p@162040",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "STRATO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-014",
+      "id": "julius-caesar/sceneV_17.5/p@162121",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSALA.\nOctavius, then take him to follow thee,\nThat did the latest service to my master.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Come hither, good Volumnius; list a word.",
-          "plainText": "Come hither good Volumnius list a word",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@162121/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162121/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162121/line-3",
+          "start": 49,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172518,
+        "end": 3172643,
+        "line": 115571,
+        "column": 1,
+        "path": "chap17/p@162121",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "MESSALA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-015",
+      "id": "julius-caesar/sceneV_17.5/p@162250",
       "type": "speech",
-      "speaker": {
-        "id": "volumnius",
-        "name": "VOLUMNIUS",
-        "displayName": "Volumnius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONY.\nThis was the noblest Roman of them all.\nAll the conspirators save only he,\nDid that they did in envy of great Caesar;\nHe only, in a general honest thought\nAnd common good to all, made one of them.\nHis life was gentle, and the elements\nSo mix’d in him that Nature might stand up\nAnd say to all the world, “This was a man!”",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "What says my lord?",
-          "plainText": "What says my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-3",
+          "start": 48,
+          "end": 82,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-4",
+          "start": 83,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-5",
+          "start": 126,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-6",
+          "start": 163,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-7",
+          "start": 205,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-8",
+          "start": 243,
+          "end": 285,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162250/line-9",
+          "start": 286,
+          "end": 329,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3172647,
+        "end": 3173041,
+        "line": 115577,
+        "column": 1,
+        "path": "chap17/p@162250",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "ANTONY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-016",
+      "id": "julius-caesar/sceneV_17.5/p@162648",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "OCTAVIUS.\nAccording to his virtue let us use him\nWith all respect and rites of burial.\nWithin my tent his bones tonight shall lie,\nMost like a soldier, order’d honourably.\nSo call the field to rest, and let’s away,\nTo part the glories of this happy day.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Why, this, Volumnius:",
-          "plainText": "Why this Volumnius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "The ghost of Caesar hath appear'd to me",
-          "plainText": "The ghost of Caesar hath appear'd to me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-2",
+          "start": 10,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "Two several times by night; at Sardis once,",
-          "plainText": "Two several times by night at Sardis once",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-3",
+          "start": 49,
+          "end": 86,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 4,
-          "text": "And this last night here in Philippi fields.",
-          "plainText": "And this last night here in Philippi fields",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-4",
+          "start": 87,
+          "end": 130,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-5-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 5,
-          "text": "I know my hour is come.",
-          "plainText": "I know my hour is come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-5",
+          "start": 131,
+          "end": 171,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-6",
+          "start": 172,
+          "end": 214,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneV_17.5/p@162648/line-7",
+          "start": 215,
+          "end": 253,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3173045,
+        "end": 3173353,
+        "line": 115589,
+        "column": 1,
+        "path": "chap17/p@162648",
+        "anchor": "sceneV_17.5"
+      },
+      "speakerLabel": "OCTAVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "julius-caesar-5-5-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "volumnius",
-        "name": "VOLUMNIUS",
-        "displayName": "Volumnius"
-      },
+      "id": "julius-caesar/sceneV_17.5/p@162960",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-5-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Not so, my lord.",
-          "plainText": "Not so my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneV_17.5/p@162960/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
+      ],
+      "sourceRef": {
+        "start": 3173357,
+        "end": 3173398,
+        "line": 115599,
+        "column": 1,
+        "path": "chap17/p@162960",
+        "anchor": "sceneV_17.5"
       },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Nay I am sure it is, Volumnius.",
-          "plainText": "Nay I am sure it is Volumnius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "Thou seest the world, Volumnius, how it goes;",
-          "plainText": "Thou seest the world Volumnius how it goes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Our enemies have beat us to the pit.",
-          "plainText": "Our enemies have beat us to the pit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-004",
-      "type": "stage",
-      "text": "[Low alarums.]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "volumnius",
-        "name": "VOLUMNIUS",
-        "displayName": "Volumnius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "That's not an office for a friend, my lord.",
-          "plainText": "That's not an office for a friend my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-005",
-      "type": "stage",
-      "text": "[Alarums still.]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Fly, fly, my lord! there is no tarrying here.",
-          "plainText": "Fly fly my lord there is no tarrying here",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Farewell to you; and you; and you, Volumnius.",
-          "plainText": "Farewell to you and you and you Volumnius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "Strato, thou hast been all this while asleep;",
-          "plainText": "Strato thou hast been all this while asleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "Farewell to thee too, Strato.—Countrymen,",
-          "plainText": "Farewell to thee too StratoCountrymen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 4,
-          "text": "My heart doth joy, that yet in all my life",
-          "plainText": "My heart doth joy that yet in all my life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 5,
-          "text": "I found no man but he was true to me.",
-          "plainText": "I found no man but he was true to me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 6,
-          "text": "I shall have glory by this losing day",
-          "plainText": "I shall have glory by this losing day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 7,
-          "text": "More than Octavius and Mark Antony",
-          "plainText": "More than Octavius and Mark Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 8,
-          "text": "By this vile conquest shall attain unto.",
-          "plainText": "By this vile conquest shall attain unto",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 9,
-          "text": "So fare you well at once; for Brutus' tongue",
-          "plainText": "So fare you well at once for Brutus' tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 10,
-          "text": "Hath almost ended his life's history.",
-          "plainText": "Hath almost ended his life's history",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 11,
-          "text": "Night hangs upon mine eyes; my bones would rest,",
-          "plainText": "Night hangs upon mine eyes my bones would rest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 12,
-          "text": "That have but labour'd to attain this hour.",
-          "plainText": "That have but labour'd to attain this hour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-006",
-      "type": "stage",
-      "text": "[Alarums. Cry within, \"Fly, fly, fly!\".]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "clitus",
-        "name": "CLITUS",
-        "displayName": "Clitus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "Fly, my lord, fly!",
-          "plainText": "Fly my lord fly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Hence! I will follow.",
-          "plainText": "Hence I will follow",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-007",
-      "type": "stage",
-      "text": "[Exeunt Clitus, Dardanius and Volumnius.]"
-    },
-    {
-      "id": "julius-caesar-5-5-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "strato",
-        "name": "STRATO",
-        "displayName": "Strato"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Give me your hand first. Fare you well, my lord.",
-          "plainText": "Give me your hand first Fare you well my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Farewell, good Strato.—Caesar, now be still:",
-          "plainText": "Farewell good StratoCaesar now be still",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 2,
-          "text": "I kill'd not thee with half so good a will.",
-          "plainText": "I kill'd not thee with half so good a will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-008",
-      "type": "stage",
-      "text": "[He runs on his sword, and dies.]"
-    },
-    {
-      "id": "julius-caesar-5-5-stage-009",
-      "type": "stage",
-      "text": "Alarum. Retreat. Enter Antony, Octavius, Messala, Lucilius and the Army."
-    },
-    {
-      "id": "julius-caesar-5-5-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "octavius",
-        "name": "OCTAVIUS",
-        "displayName": "Octavius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "What man is that?",
-          "plainText": "What man is that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "messala",
-        "name": "MESSALA",
-        "displayName": "Messala"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "My master's man. Strato, where is thy master?",
-          "plainText": "My master's man Strato where is thy master",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "strato",
-        "name": "STRATO",
-        "displayName": "Strato"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Free from the bondage you are in, Messala.",
-          "plainText": "Free from the bondage you are in Messala",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "The conquerors can but make a fire of him;",
-          "plainText": "The conquerors can but make a fire of him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 3,
-          "text": "For Brutus only overcame himself,",
-          "plainText": "For Brutus only overcame himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 4,
-          "text": "And no man else hath honour by his death.",
-          "plainText": "And no man else hath honour by his death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "So Brutus should be found. I thank thee, Brutus,",
-          "plainText": "So Brutus should be found I thank thee Brutus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 2,
-          "text": "That thou hast prov'd Lucilius' saying true.",
-          "plainText": "That thou hast prov'd Lucilius' saying true",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "octavius",
-        "name": "OCTAVIUS",
-        "displayName": "Octavius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0055",
-          "number": 55,
-          "speechLineNumber": 1,
-          "text": "All that serv'd Brutus, I will entertain them.",
-          "plainText": "All that serv'd Brutus I will entertain them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0056",
-          "number": 56,
-          "speechLineNumber": 2,
-          "text": "Fellow, wilt thou bestow thy time with me?",
-          "plainText": "Fellow wilt thou bestow thy time with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "strato",
-        "name": "STRATO",
-        "displayName": "Strato"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "Ay, if Messala will prefer me to you.",
-          "plainText": "Ay if Messala will prefer me to you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-032",
-      "type": "speech",
-      "speaker": {
-        "id": "octavius",
-        "name": "OCTAVIUS",
-        "displayName": "Octavius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Do so, good Messala.",
-          "plainText": "Do so good Messala",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-033",
-      "type": "speech",
-      "speaker": {
-        "id": "messala",
-        "name": "MESSALA",
-        "displayName": "Messala"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "How died my master, Strato?",
-          "plainText": "How died my master Strato",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-034",
-      "type": "speech",
-      "speaker": {
-        "id": "strato",
-        "name": "STRATO",
-        "displayName": "Strato"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "I held the sword, and he did run on it.",
-          "plainText": "I held the sword and he did run on it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-035",
-      "type": "speech",
-      "speaker": {
-        "id": "messala",
-        "name": "MESSALA",
-        "displayName": "Messala"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "Octavius, then take him to follow thee,",
-          "plainText": "Octavius then take him to follow thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0062",
-          "number": 62,
-          "speechLineNumber": 2,
-          "text": "That did the latest service to my master.",
-          "plainText": "That did the latest service to my master",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-036",
-      "type": "speech",
-      "speaker": {
-        "id": "antony",
-        "name": "ANTONY",
-        "displayName": "Antony"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "This was the noblest Roman of them all.",
-          "plainText": "This was the noblest Roman of them all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0064",
-          "number": 64,
-          "speechLineNumber": 2,
-          "text": "All the conspirators save only he,",
-          "plainText": "All the conspirators save only he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0065",
-          "number": 65,
-          "speechLineNumber": 3,
-          "text": "Did that they did in envy of great Caesar;",
-          "plainText": "Did that they did in envy of great Caesar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0066",
-          "number": 66,
-          "speechLineNumber": 4,
-          "text": "He only, in a general honest thought",
-          "plainText": "He only in a general honest thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0067",
-          "number": 67,
-          "speechLineNumber": 5,
-          "text": "And common good to all, made one of them.",
-          "plainText": "And common good to all made one of them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0068",
-          "number": 68,
-          "speechLineNumber": 6,
-          "text": "His life was gentle, and the elements",
-          "plainText": "His life was gentle and the elements",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0069",
-          "number": 69,
-          "speechLineNumber": 7,
-          "text": "So mix'd in him that Nature might stand up",
-          "plainText": "So mix'd in him that Nature might stand up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0070",
-          "number": 70,
-          "speechLineNumber": 8,
-          "text": "And say to all the world, \"This was a man!\"",
-          "plainText": "And say to all the world This was a man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-speech-037",
-      "type": "speech",
-      "speaker": {
-        "id": "octavius",
-        "name": "OCTAVIUS",
-        "displayName": "Octavius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-5-5-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "According to his virtue let us use him",
-          "plainText": "According to his virtue let us use him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0072",
-          "number": 72,
-          "speechLineNumber": 2,
-          "text": "With all respect and rites of burial.",
-          "plainText": "With all respect and rites of burial",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0073",
-          "number": 73,
-          "speechLineNumber": 3,
-          "text": "Within my tent his bones tonight shall lie,",
-          "plainText": "Within my tent his bones tonight shall lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0074",
-          "number": 74,
-          "speechLineNumber": 4,
-          "text": "Most like a soldier, order'd honourably.",
-          "plainText": "Most like a soldier order'd honourably",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0075",
-          "number": 75,
-          "speechLineNumber": 5,
-          "text": "So call the field to rest, and let's away,",
-          "plainText": "So call the field to rest and let's away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-5-5-line-0076",
-          "number": 76,
-          "speechLineNumber": 6,
-          "text": "To part the glories of this happy day.",
-          "plainText": "To part the glories of this happy day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-5-5-stage-010",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "1cf51df3eb2e8e6722750509336e211f0990b92999ea104fb68c92da0277edf1"
 }

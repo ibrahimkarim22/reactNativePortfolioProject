@@ -1,91 +1,215 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "antony-and-cleopatra",
-    "title": "The Tragedy of Antony and Cleopatra",
+    "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
-  "scene": {
+  "section": {
     "id": "antony-and-cleopatra-3-9",
+    "kind": "scene",
+    "heading": "SCENE IX. Another part of the Plain.",
     "act": 3,
     "scene": 9,
-    "label": "Act 3, Scene 9",
-    "title": "SCENE IX. Another part of the Plain.",
-    "location": "Another part of the Plain.",
-    "orderInPlay": 21
+    "parentSectionId": "antony-and-cleopatra-act-93812",
+    "orderInPlay": 28,
+    "sourceRef": {
+      "start": 430670,
+      "end": 430748,
+      "line": 15641,
+      "column": 1,
+      "path": "chap03/h3@122931",
+      "anchor": "sceneIII_3.9"
+    }
   },
   "content": [
     {
-      "id": "antony-and-cleopatra-3-9-stage-001",
-      "type": "stage",
-      "text": "Enter Antony and Enobarbus."
-    },
-    {
-      "id": "antony-and-cleopatra-3-9-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "antony",
-        "name": "ANTONY",
-        "displayName": "Antony"
-      },
+      "id": "antony-and-cleopatra/sceneIII_3.9/h3@122931",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IX. Another part of the Plain.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 36
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-9-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Set we our squadrons on yon side o' th' hill",
-          "plainText": "Set we our squadrons on yon side o' th' hill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-9-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "In eye of Caesar's battle, from which place",
-          "plainText": "In eye of Caesar's battle from which place",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-9-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "We may the number of the ships behold",
-          "plainText": "We may the number of the ships behold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-9-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And so proceed accordingly.",
-          "plainText": "And so proceed accordingly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.9/h3@122931/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 430670,
+        "end": 430748,
+        "line": 15641,
+        "column": 1,
+        "path": "chap03/h3@122931",
+        "anchor": "sceneIII_3.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-9-stage-002",
+      "id": "antony-and-cleopatra/sceneIII_3.9/p@123013",
       "type": "stage",
-      "text": "[Exeunt.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Antony and Enobarbus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 17,
+          "end": 26,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123013/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430752,
+        "end": 430868,
+        "line": 15643,
+        "column": 1,
+        "path": "chap03/p@123013",
+        "anchor": "sceneIII_3.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.9/p@123133",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONY.\nSet we our squadrons on yon side o’ th’ hill\nIn eye of Caesar’s battle, from which place\nWe may the number of the ships behold\nAnd so proceed accordingly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123133/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123133/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123133/line-3",
+          "start": 53,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123133/line-4",
+          "start": 97,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123133/line-5",
+          "start": 135,
+          "end": 162,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430872,
+        "end": 431079,
+        "line": 15647,
+        "column": 1,
+        "path": "chap03/p@123133",
+        "anchor": "sceneIII_3.9"
+      },
+      "speakerLabel": "ANTONY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.9/p@123344",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.9/p@123344/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 431083,
+        "end": 431124,
+        "line": 15655,
+        "column": 1,
+        "path": "chap03/p@123344",
+        "anchor": "sceneIII_3.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

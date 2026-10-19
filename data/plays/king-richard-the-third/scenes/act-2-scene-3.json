@@ -1,822 +1,1216 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-richard-the-third",
-    "title": "King Richard the Third",
+    "title": "KING RICHARD THE THIRD",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap29"
   },
-  "scene": {
+  "section": {
     "id": "king-richard-the-third-2-3",
+    "kind": "scene",
+    "heading": "SCENE III. London. A street",
     "act": 2,
     "scene": 3,
-    "label": "Act 2, Scene 3",
-    "title": "SCENE III. London. A street",
-    "location": "London. A street",
-    "orderInPlay": 7
+    "parentSectionId": "king-richard-the-third-act-71722",
+    "orderInPlay": 13,
+    "sourceRef": {
+      "start": 5148388,
+      "end": 5148457,
+      "line": 191389,
+      "column": 1,
+      "path": "chap29/h3@90124",
+      "anchor": "sceneII_29.3"
+    }
   },
   "content": [
     {
-      "id": "king-richard-the-third-2-3-stage-001",
+      "id": "king-richard-the-third/sceneII_29.3/h3@90124",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. London. A street",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/h3@90124/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5148388,
+        "end": 5148457,
+        "line": 191389,
+        "column": 1,
+        "path": "chap29/h3@90124",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-richard-the-third/sceneII_29.3/p@90197",
       "type": "stage",
-      "text": "Enter one Citizen at one door, and Another at the other."
-    },
-    {
-      "id": "king-richard-the-third-2-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter one Citizen at one door, and Another at the other.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "king-richard-the-third-2-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Good morrow, neighbour, whither away so fast?",
-          "plainText": "Good morrow neighbour whither away so fast",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-richard-the-third-2-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
-      "lines": [
-        {
-          "id": "king-richard-the-third-2-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "I promise you, I scarcely know myself.",
-          "plainText": "I promise you I scarcely know myself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 10,
+          "end": 17,
+          "className": "charname"
         },
         {
-          "id": "king-richard-the-third-2-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 2,
-          "text": "Hear you the news abroad?",
-          "plainText": "Hear you the news abroad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 35,
+          "end": 42,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "king-richard-the-third-2-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      ],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Yes, that the King is dead.",
-          "plainText": "Yes that the King is dead",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@90197/line-1",
+          "start": 0,
+          "end": 56,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5148461,
+        "end": 5148603,
+        "line": 191391,
+        "column": 1,
+        "path": "chap29/p@90197",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-004",
+      "id": "king-richard-the-third/sceneII_29.3/p@90343",
       "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nGood morrow, neighbour, whither away so fast?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Ill news, by'r Lady; seldom comes the better.",
-          "plainText": "Ill news by'r Lady seldom comes the better",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@90343/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "I fear, I fear 'twill prove a giddy world.",
-          "plainText": "I fear I fear 'twill prove a giddy world",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@90343/line-2",
+          "start": 15,
+          "end": 60,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5148607,
+        "end": 5148697,
+        "line": 191394,
+        "column": 1,
+        "path": "chap29/p@90343",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-stage-002",
+      "id": "king-richard-the-third/sceneII_29.3/p@90437",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nI promise you, I scarcely know myself.\nHear you the news abroad?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90437/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90437/line-2",
+          "start": 16,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90437/line-3",
+          "start": 55,
+          "end": 80,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5148701,
+        "end": 5148816,
+        "line": 191399,
+        "column": 1,
+        "path": "chap29/p@90437",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "king-richard-the-third/sceneII_29.3/p@90556",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nYes, that the King is dead.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90556/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90556/line-2",
+          "start": 15,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5148820,
+        "end": 5148892,
+        "line": 191405,
+        "column": 1,
+        "path": "chap29/p@90556",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "king-richard-the-third/sceneII_29.3/p@90632",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nIll news, by’r Lady; seldom comes the better.\nI fear, I fear ’twill prove a giddy world.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90632/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90632/line-2",
+          "start": 16,
+          "end": 61,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90632/line-3",
+          "start": 62,
+          "end": 104,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5148896,
+        "end": 5149035,
+        "line": 191410,
+        "column": 1,
+        "path": "chap29/p@90632",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "king-richard-the-third/sceneII_29.3/p@90775",
       "type": "stage",
-      "text": "Enter another Citizen."
-    },
-    {
-      "id": "king-richard-the-third-2-3-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter another Citizen.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 14,
+          "end": 21,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Neighbours, God speed.",
-          "plainText": "Neighbours God speed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@90775/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149039,
+        "end": 5149116,
+        "line": 191416,
+        "column": 1,
+        "path": "chap29/p@90775",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-006",
+      "id": "king-richard-the-third/sceneII_29.3/p@90856",
       "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nNeighbours, God speed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Give you good morrow, sir.",
-          "plainText": "Give you good morrow sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@90856/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90856/line-2",
+          "start": 15,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149120,
+        "end": 5149187,
+        "line": 191418,
+        "column": 1,
+        "path": "chap29/p@90856",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-007",
+      "id": "king-richard-the-third/sceneII_29.3/p@90927",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nGive you good morrow, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Doth the news hold of good King Edward's death?",
-          "plainText": "Doth the news hold of good King Edward's death",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@90927/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@90927/line-2",
+          "start": 15,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149191,
+        "end": 5149262,
+        "line": 191423,
+        "column": 1,
+        "path": "chap29/p@90927",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-008",
+      "id": "king-richard-the-third/sceneII_29.3/p@91002",
       "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nDoth the news hold of good King Edward’s death?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Ay, sir, it is too true, God help the while.",
-          "plainText": "Ay sir it is too true God help the while",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@91002/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91002/line-2",
+          "start": 15,
+          "end": 62,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149266,
+        "end": 5149358,
+        "line": 191428,
+        "column": 1,
+        "path": "chap29/p@91002",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-009",
+      "id": "king-richard-the-third/sceneII_29.3/p@91098",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nAy, sir, it is too true, God help the while.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Then, masters, look to see a troublous world.",
-          "plainText": "Then masters look to see a troublous world",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@91098/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91098/line-2",
+          "start": 16,
+          "end": 60,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149362,
+        "end": 5149452,
+        "line": 191433,
+        "column": 1,
+        "path": "chap29/p@91098",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-010",
+      "id": "king-richard-the-third/sceneII_29.3/p@91192",
       "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nThen, masters, look to see a troublous world.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "No, no; by God's good grace, his son shall reign.",
-          "plainText": "No no by God's good grace his son shall reign",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@91192/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91192/line-2",
+          "start": 15,
+          "end": 60,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149456,
+        "end": 5149546,
+        "line": 191438,
+        "column": 1,
+        "path": "chap29/p@91192",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-011",
+      "id": "king-richard-the-third/sceneII_29.3/p@91286",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nNo, no; by God’s good grace, his son shall reign.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Woe to that land that's governed by a child.",
-          "plainText": "Woe to that land that's governed by a child",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@91286/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91286/line-2",
+          "start": 15,
+          "end": 64,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149550,
+        "end": 5149644,
+        "line": 191443,
+        "column": 1,
+        "path": "chap29/p@91286",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-012",
+      "id": "king-richard-the-third/sceneII_29.3/p@91384",
       "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nWoe to that land that’s governed by a child.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "In him there is a hope of government,",
-          "plainText": "In him there is a hope of government",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91384/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "Which, in his nonage, council under him,",
-          "plainText": "Which in his nonage council under him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "And, in his full and ripened years, himself,",
-          "plainText": "And in his full and ripened years himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "No doubt shall then, and till then, govern well.",
-          "plainText": "No doubt shall then and till then govern well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91384/line-2",
+          "start": 15,
+          "end": 59,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149648,
+        "end": 5149737,
+        "line": 191448,
+        "column": 1,
+        "path": "chap29/p@91384",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-013",
+      "id": "king-richard-the-third/sceneII_29.3/p@91477",
       "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nIn him there is a hope of government,\nWhich, in his nonage, council under him,\nAnd, in his full and ripened years, himself,\nNo doubt shall then, and till then, govern well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "So stood the state when Henry the Sixth",
-          "plainText": "So stood the state when Henry the Sixth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91477/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "Was crowned in Paris but at nine months old.",
-          "plainText": "Was crowned in Paris but at nine months old",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91477/line-2",
+          "start": 16,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91477/line-3",
+          "start": 54,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91477/line-4",
+          "start": 95,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91477/line-5",
+          "start": 140,
+          "end": 188,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149741,
+        "end": 5149974,
+        "line": 191453,
+        "column": 1,
+        "path": "chap29/p@91477",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-014",
+      "id": "king-richard-the-third/sceneII_29.3/p@91714",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nSo stood the state when Henry the Sixth\nWas crowned in Paris but at nine months old.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Stood the state so? No, no, good friends, God wot.",
-          "plainText": "Stood the state so No no good friends God wot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91714/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "For then this land was famously enriched",
-          "plainText": "For then this land was famously enriched",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91714/line-2",
+          "start": 15,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 3,
-          "text": "With politic grave counsel; then the King",
-          "plainText": "With politic grave counsel then the King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 4,
-          "text": "Had virtuous uncles to protect his Grace.",
-          "plainText": "Had virtuous uncles to protect his Grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@91714/line-3",
+          "start": 55,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5149978,
+        "end": 5150112,
+        "line": 191461,
+        "column": 1,
+        "path": "chap29/p@91714",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-015",
+      "id": "king-richard-the-third/sceneII_29.3/p@91852",
       "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nStood the state so? No, no, good friends, God wot.\nFor then this land was famously enriched\nWith politic grave counsel; then the King\nHad virtuous uncles to protect his Grace.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Why, so hath this, both by his father and mother.",
-          "plainText": "Why so hath this both by his father and mother",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@91852/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91852/line-2",
+          "start": 15,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91852/line-3",
+          "start": 66,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91852/line-4",
+          "start": 107,
+          "end": 148,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@91852/line-5",
+          "start": 149,
+          "end": 190,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5150116,
+        "end": 5150351,
+        "line": 191467,
+        "column": 1,
+        "path": "chap29/p@91852",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-016",
+      "id": "king-richard-the-third/sceneII_29.3/p@92091",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nWhy, so hath this, both by his father and mother.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Better it were they all came by his father,",
-          "plainText": "Better it were they all came by his father",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92091/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "Or by his father there were none at all,",
-          "plainText": "Or by his father there were none at all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "For emulation who shall now be nearest",
-          "plainText": "For emulation who shall now be nearest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 4,
-          "text": "Will touch us all too near, if God prevent not.",
-          "plainText": "Will touch us all too near if God prevent not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 5,
-          "text": "O, full of danger is the Duke of Gloucester,",
-          "plainText": "O full of danger is the Duke of Gloucester",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 6,
-          "text": "And the Queen's sons and brothers haught and proud;",
-          "plainText": "And the Queen's sons and brothers haught and proud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 7,
-          "text": "And were they to be ruled, and not to rule,",
-          "plainText": "And were they to be ruled and not to rule",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 8,
-          "text": "This sickly land might solace as before.",
-          "plainText": "This sickly land might solace as before",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92091/line-2",
+          "start": 15,
+          "end": 64,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5150355,
+        "end": 5150449,
+        "line": 191475,
+        "column": 1,
+        "path": "chap29/p@92091",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-017",
+      "id": "king-richard-the-third/sceneII_29.3/p@92189",
       "type": "speech",
-      "speaker": {
-        "id": "first-citizen",
-        "name": "FIRST CITIZEN",
-        "displayName": "First Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nBetter it were they all came by his father,\nOr by his father there were none at all,\nFor emulation who shall now be nearest\nWill touch us all too near, if God prevent not.\nO, full of danger is the Duke of Gloucester,\nAnd the Queen’s sons and brothers haught and proud;\nAnd were they to be ruled, and not to rule,\nThis sickly land might solace as before.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Come, come, we fear the worst; all will be well.",
-          "plainText": "Come come we fear the worst all will be well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-2",
+          "start": 15,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-3",
+          "start": 59,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-4",
+          "start": 100,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-5",
+          "start": 139,
+          "end": 186,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-6",
+          "start": 187,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-7",
+          "start": 232,
+          "end": 283,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-8",
+          "start": 284,
+          "end": 327,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92189/line-9",
+          "start": 328,
+          "end": 368,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5150453,
+        "end": 5150886,
+        "line": 191480,
+        "column": 1,
+        "path": "chap29/p@92189",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-018",
+      "id": "king-richard-the-third/sceneII_29.3/p@92626",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST CITIZEN.\nCome, come, we fear the worst; all will be well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "When clouds are seen, wise men put on their cloaks;",
-          "plainText": "When clouds are seen wise men put on their cloaks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92626/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 2,
-          "text": "When great leaves fall, then winter is at hand;",
-          "plainText": "When great leaves fall then winter is at hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 3,
-          "text": "When the sun sets, who doth not look for night?",
-          "plainText": "When the sun sets who doth not look for night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 4,
-          "text": "Untimely storms make men expect a dearth.",
-          "plainText": "Untimely storms make men expect a dearth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 5,
-          "text": "All may be well; but, if God sort it so,",
-          "plainText": "All may be well but if God sort it so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 6,
-          "text": "'Tis more than we deserve or I expect.",
-          "plainText": "'Tis more than we deserve or I expect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92626/line-2",
+          "start": 15,
+          "end": 63,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5150890,
+        "end": 5150983,
+        "line": 191492,
+        "column": 1,
+        "path": "chap29/p@92626",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "FIRST CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-019",
+      "id": "king-richard-the-third/sceneII_29.3/p@92723",
       "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nWhen clouds are seen, wise men put on their cloaks;\nWhen great leaves fall, then winter is at hand;\nWhen the sun sets, who doth not look for night?\nUntimely storms make men expect a dearth.\nAll may be well; but, if God sort it so,\n’Tis more than we deserve or I expect.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Truly, the hearts of men are full of fear.",
-          "plainText": "Truly the hearts of men are full of fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "You cannot reason almost with a man",
-          "plainText": "You cannot reason almost with a man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-2",
+          "start": 15,
+          "end": 66,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 3,
-          "text": "That looks not heavily and full of dread.",
-          "plainText": "That looks not heavily and full of dread",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-3",
+          "start": 67,
+          "end": 114,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-4",
+          "start": 115,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-5",
+          "start": 163,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-6",
+          "start": 205,
+          "end": 245,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@92723/line-7",
+          "start": 246,
+          "end": 284,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5150987,
+        "end": 5151326,
+        "line": 191497,
+        "column": 1,
+        "path": "chap29/p@92723",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-020",
+      "id": "king-richard-the-third/sceneII_29.3/p@93066",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nTruly, the hearts of men are full of fear.\nYou cannot reason almost with a man\nThat looks not heavily and full of dread.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Before the days of change, still is it so.",
-          "plainText": "Before the days of change still is it so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@93066/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "By a divine instinct men's minds mistrust",
-          "plainText": "By a divine instinct men's minds mistrust",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@93066/line-2",
+          "start": 16,
+          "end": 58,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 3,
-          "text": "Ensuing danger, as by proof we see",
-          "plainText": "Ensuing danger as by proof we see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@93066/line-3",
+          "start": 59,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-richard-the-third-2-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 4,
-          "text": "The water swell before a boist'rous storm.",
-          "plainText": "The water swell before a boist'rous storm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-richard-the-third-2-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 5,
-          "text": "But leave it all to God. Whither away?",
-          "plainText": "But leave it all to God Whither away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-richard-the-third/sceneII_29.3/p@93066/line-4",
+          "start": 95,
+          "end": 136,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5151330,
+        "end": 5151506,
+        "line": 191507,
+        "column": 1,
+        "path": "chap29/p@93066",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-021",
+      "id": "king-richard-the-third/sceneII_29.3/p@93246",
       "type": "speech",
-      "speaker": {
-        "id": "second-citizen",
-        "name": "SECOND CITIZEN",
-        "displayName": "Second Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nBefore the days of change, still is it so.\nBy a divine instinct men’s minds mistrust\nEnsuing danger, as by proof we see\nThe water swell before a boist’rous storm.\nBut leave it all to God. Whither away?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Marry, we were sent for to the Justices.",
-          "plainText": "Marry we were sent for to the Justices",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-2",
+          "start": 15,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-3",
+          "start": 58,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-4",
+          "start": 100,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-5",
+          "start": 135,
+          "end": 177,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93246/line-6",
+          "start": 178,
+          "end": 216,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5151510,
+        "end": 5151776,
+        "line": 191514,
+        "column": 1,
+        "path": "chap29/p@93246",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-speech-022",
+      "id": "king-richard-the-third/sceneII_29.3/p@93516",
       "type": "speech",
-      "speaker": {
-        "id": "third-citizen",
-        "name": "THIRD CITIZEN",
-        "displayName": "Third Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND CITIZEN.\nMarry, we were sent for to the Justices.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-richard-the-third-2-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "And so was I. I'll bear you company.",
-          "plainText": "And so was I I'll bear you company",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-richard-the-third/sceneII_29.3/p@93516/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93516/line-2",
+          "start": 16,
+          "end": 56,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5151780,
+        "end": 5151866,
+        "line": 191523,
+        "column": 1,
+        "path": "chap29/p@93516",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "SECOND CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "king-richard-the-third-2-3-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "king-richard-the-third/sceneII_29.3/p@93606",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD CITIZEN.\nAnd so was I. I’ll bear you company.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93606/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93606/line-2",
+          "start": 15,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5151870,
+        "end": 5151951,
+        "line": 191528,
+        "column": 1,
+        "path": "chap29/p@93606",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": "THIRD CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "king-richard-the-third/sceneII_29.3/p@93691",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-richard-the-third/sceneII_29.3/p@93691/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5151955,
+        "end": 5151992,
+        "line": 191533,
+        "column": 1,
+        "path": "chap29/p@93691",
+        "anchor": "sceneII_29.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "be979b8f94e78043c2822dc649b3a278d17fb84cae164ebac8898979bc430787"
 }

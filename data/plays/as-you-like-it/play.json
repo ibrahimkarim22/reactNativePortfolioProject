@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "as-you-like-it",
-  "title": "As You Like It",
-  "fullTitle": "As You Like It",
+  "title": "AS YOU LIKE IT",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "AS YOU LIKE IT",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap04"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,25 +33,25 @@
           "scene": 1,
           "id": "as-you-like-it-1-1",
           "label": "Act 1, Scene 1",
-          "title": "An Orchard near Oliver's house",
+          "title": "SCENE I. An Orchard near Oliver’s house",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 41
+          "lineCount": 93
         },
         {
           "scene": 2,
           "id": "as-you-like-it-1-2",
           "label": "Act 1, Scene 2",
-          "title": "A Lawn before the Duke's Palace",
+          "title": "SCENE II. A Lawn before the Duke’s Palace",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 159
+          "lineCount": 291
         },
         {
           "scene": 3,
           "id": "as-you-like-it-1-3",
           "label": "Act 1, Scene 3",
-          "title": "A Room in the Palace",
+          "title": "SCENE III. A Room in the Palace",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 124
+          "lineCount": 177
         }
       ]
     },
@@ -54,57 +62,57 @@
           "scene": 1,
           "id": "as-you-like-it-2-1",
           "label": "Act 2, Scene 1",
-          "title": "The Forest of Arden",
+          "title": "SCENE I. The Forest of Arden",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 72
+          "lineCount": 85
         },
         {
           "scene": 2,
           "id": "as-you-like-it-2-2",
           "label": "Act 2, Scene 2",
-          "title": "A Room in the Palace",
+          "title": "SCENE II. A Room in the Palace",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 21
+          "lineCount": 28
         },
         {
           "scene": 3,
           "id": "as-you-like-it-2-3",
           "label": "Act 2, Scene 3",
-          "title": "Before Oliver's House",
+          "title": "SCENE III. Before Oliver’s House",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 77
+          "lineCount": 90
         },
         {
           "scene": 4,
           "id": "as-you-like-it-2-4",
           "label": "Act 2, Scene 4",
-          "title": "The Forest of Arden",
+          "title": "SCENE IV. The Forest of Arden",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 79
+          "lineCount": 119
         },
         {
           "scene": 5,
           "id": "as-you-like-it-2-5",
           "label": "Act 2, Scene 5",
-          "title": "Another part of the Forest",
+          "title": "SCENE V. Another part of the Forest",
           "path": "./scenes/act-2-scene-5.json",
-          "lineCount": 19
+          "lineCount": 65
         },
         {
           "scene": 6,
           "id": "as-you-like-it-2-6",
           "label": "Act 2, Scene 6",
-          "title": "Another part of the Forest",
+          "title": "SCENE VI. Another part of the Forest",
           "path": "./scenes/act-2-scene-6.json",
-          "lineCount": 2
+          "lineCount": 7
         },
         {
           "scene": 7,
           "id": "as-you-like-it-2-7",
           "label": "Act 2, Scene 7",
-          "title": "Another part of the Forest",
+          "title": "SCENE VII. Another part of the Forest",
           "path": "./scenes/act-2-scene-7.json",
-          "lineCount": 187
+          "lineCount": 252
         }
       ]
     },
@@ -115,41 +123,41 @@
           "scene": 1,
           "id": "as-you-like-it-3-1",
           "label": "Act 3, Scene 1",
-          "title": "A Room in the Palace",
+          "title": "SCENE I. A Room in the Palace",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 18
+          "lineCount": 24
         },
         {
           "scene": 2,
           "id": "as-you-like-it-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The Forest of Arden",
+          "title": "SCENE II. The Forest of Arden",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 205
+          "lineCount": 360
         },
         {
           "scene": 3,
           "id": "as-you-like-it-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Another part of the Forest",
+          "title": "SCENE III. Another part of the Forest",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 39
+          "lineCount": 76
         },
         {
           "scene": 4,
           "id": "as-you-like-it-3-4",
           "label": "Act 3, Scene 4",
-          "title": "Another part of the Forest. Before a Cottage",
+          "title": "SCENE IV. Another part of the Forest. Before a Cottage",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 35
+          "lineCount": 63
         },
         {
           "scene": 5,
           "id": "as-you-like-it-3-5",
           "label": "Act 3, Scene 5",
-          "title": "Another part of the Forest",
+          "title": "SCENE V. Another part of the Forest",
           "path": "./scenes/act-3-scene-5.json",
-          "lineCount": 140
+          "lineCount": 169
         }
       ]
     },
@@ -160,25 +168,25 @@
           "scene": 1,
           "id": "as-you-like-it-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The Forest of Arden",
+          "title": "SCENE I. The Forest of Arden",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 82
+          "lineCount": 171
         },
         {
           "scene": 2,
           "id": "as-you-like-it-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Another part of the Forest",
+          "title": "SCENE II. Another part of the Forest",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 16
+          "lineCount": 26
         },
         {
           "scene": 3,
           "id": "as-you-like-it-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Another part of the Forest",
+          "title": "SCENE III. Another part of the Forest",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 159
+          "lineCount": 226
         }
       ]
     },
@@ -189,35 +197,348 @@
           "scene": 1,
           "id": "as-you-like-it-5-1",
           "label": "Act 5, Scene 1",
-          "title": "The Forest of Arden",
+          "title": "SCENE I. The Forest of Arden",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 29
+          "lineCount": 65
         },
         {
           "scene": 2,
           "id": "as-you-like-it-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Another part of the Forest",
+          "title": "SCENE II. Another part of the Forest",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 60
+          "lineCount": 109
         },
         {
           "scene": 3,
           "id": "as-you-like-it-5-3",
           "label": "Act 5, Scene 3",
-          "title": "Another part of the Forest",
+          "title": "SCENE III. Another part of the Forest",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 35
+          "lineCount": 55
         },
         {
           "scene": 4,
           "id": "as-you-like-it-5-4",
           "label": "Act 5, Scene 4",
-          "title": "Another part of the Forest",
+          "title": "SCENE IV. Another part of the Forest",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 145
+          "lineCount": 206
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "as-you-like-it-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "AS YOU LIKE IT"
+    },
+    {
+      "id": "as-you-like-it-contents-107",
+      "kind": "contents",
+      "path": "./sections/contents-107.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "as-you-like-it-cast-2808",
+      "kind": "cast",
+      "path": "./sections/cast-2808.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "as-you-like-it-act-4113",
+      "kind": "act",
+      "path": "./sections/act-4113.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "ACT I"
+    },
+    {
+      "id": "as-you-like-it-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "as-you-like-it-act-4113",
+      "orderInPlay": 5,
+      "heading": "SCENE I. An Orchard near Oliver’s house"
+    },
+    {
+      "id": "as-you-like-it-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "as-you-like-it-act-4113",
+      "orderInPlay": 6,
+      "heading": "SCENE II. A Lawn before the Duke’s Palace"
+    },
+    {
+      "id": "as-you-like-it-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "as-you-like-it-act-4113",
+      "orderInPlay": 7,
+      "heading": "SCENE III. A Room in the Palace"
+    },
+    {
+      "id": "as-you-like-it-act-40370",
+      "kind": "act",
+      "path": "./sections/act-40370.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "as-you-like-it-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 9,
+      "heading": "SCENE I. The Forest of Arden"
+    },
+    {
+      "id": "as-you-like-it-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 10,
+      "heading": "SCENE II. A Room in the Palace"
+    },
+    {
+      "id": "as-you-like-it-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 11,
+      "heading": "SCENE III. Before Oliver’s House"
+    },
+    {
+      "id": "as-you-like-it-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 12,
+      "heading": "SCENE IV. The Forest of Arden"
+    },
+    {
+      "id": "as-you-like-it-2-5",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-5.json",
+      "act": 2,
+      "scene": 5,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 13,
+      "heading": "SCENE V. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-2-6",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-6.json",
+      "act": 2,
+      "scene": 6,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 14,
+      "heading": "SCENE VI. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-2-7",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-7.json",
+      "act": 2,
+      "scene": 7,
+      "parentSectionId": "as-you-like-it-act-40370",
+      "orderInPlay": 15,
+      "heading": "SCENE VII. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-act-72251",
+      "kind": "act",
+      "path": "./sections/act-72251.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 16,
+      "heading": "ACT III"
+    },
+    {
+      "id": "as-you-like-it-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "as-you-like-it-act-72251",
+      "orderInPlay": 17,
+      "heading": "SCENE I. A Room in the Palace"
+    },
+    {
+      "id": "as-you-like-it-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "as-you-like-it-act-72251",
+      "orderInPlay": 18,
+      "heading": "SCENE II. The Forest of Arden"
+    },
+    {
+      "id": "as-you-like-it-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "as-you-like-it-act-72251",
+      "orderInPlay": 19,
+      "heading": "SCENE III. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "as-you-like-it-act-72251",
+      "orderInPlay": 20,
+      "heading": "SCENE IV. Another part of the Forest. Before a Cottage"
+    },
+    {
+      "id": "as-you-like-it-3-5",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-5.json",
+      "act": 3,
+      "scene": 5,
+      "parentSectionId": "as-you-like-it-act-72251",
+      "orderInPlay": 21,
+      "heading": "SCENE V. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-act-116293",
+      "kind": "act",
+      "path": "./sections/act-116293.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 22,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "as-you-like-it-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "as-you-like-it-act-116293",
+      "orderInPlay": 23,
+      "heading": "SCENE I. The Forest of Arden"
+    },
+    {
+      "id": "as-you-like-it-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "as-you-like-it-act-116293",
+      "orderInPlay": 24,
+      "heading": "SCENE II. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "as-you-like-it-act-116293",
+      "orderInPlay": 25,
+      "heading": "SCENE III. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-act-141120",
+      "kind": "act",
+      "path": "./sections/act-141120.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 26,
+      "heading": "ACT V"
+    },
+    {
+      "id": "as-you-like-it-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "as-you-like-it-act-141120",
+      "orderInPlay": 27,
+      "heading": "SCENE I. The Forest of Arden"
+    },
+    {
+      "id": "as-you-like-it-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "as-you-like-it-act-141120",
+      "orderInPlay": 28,
+      "heading": "SCENE II. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "as-you-like-it-act-141120",
+      "orderInPlay": 29,
+      "heading": "SCENE III. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "as-you-like-it-act-141120",
+      "orderInPlay": 30,
+      "heading": "SCENE IV. Another part of the Forest"
+    },
+    {
+      "id": "as-you-like-it-epilogue-168174",
+      "kind": "epilogue",
+      "path": "./sections/epilogue-168174.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": "as-you-like-it-act-141120",
+      "orderInPlay": 31,
+      "heading": "EPILOGUE"
+    }
+  ],
+  "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540"
 }

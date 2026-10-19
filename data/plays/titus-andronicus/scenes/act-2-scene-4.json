@@ -1,761 +1,857 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "titus-andronicus",
-    "title": "The Tragedy of Titus Andronicus",
+    "title": "THE TRAGEDY OF TITUS ANDRONICUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap34"
   },
-  "scene": {
+  "section": {
     "id": "titus-andronicus-2-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Another part of the Forest",
     "act": 2,
     "scene": 4,
-    "label": "Act 2, Scene 4",
-    "title": "SCENE IV. Another part of the Forest",
-    "location": "Another part of the Forest",
-    "orderInPlay": 5
+    "parentSectionId": "titus-andronicus-act-34748",
+    "orderInPlay": 11,
+    "sourceRef": {
+      "start": 6005304,
+      "end": 6005382,
+      "line": 223677,
+      "column": 1,
+      "path": "chap34/h3@63945",
+      "anchor": "sceneII_34.4"
+    }
   },
   "content": [
     {
-      "id": "titus-andronicus-2-4-stage-001",
+      "id": "titus-andronicus/sceneII_34.4/h3@63945",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Another part of the Forest",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/h3@63945/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6005304,
+        "end": 6005382,
+        "line": 223677,
+        "column": 1,
+        "path": "chap34/h3@63945",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@64027",
       "type": "stage",
-      "text": "Enter the empress' sons, Demetrius and Chiron with Lavinia, her hands cut off, and her tongue cut out, and ravished."
-    },
-    {
-      "id": "titus-andronicus-2-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "demetrius",
-        "name": "DEMETRIUS",
-        "displayName": "Demetrius"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter the empress’ sons, Demetrius and Chiron with Lavinia, her hands cut off, and her tongue cut out, and ravished.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "titus-andronicus-2-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "So, now go tell, an if thy tongue can speak,",
-          "plainText": "So now go tell an if thy tongue can speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 25,
+          "end": 34,
+          "className": "charname"
         },
         {
-          "id": "titus-andronicus-2-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Who 'twas that cut thy tongue and ravished thee.",
-          "plainText": "Who 'twas that cut thy tongue and ravished thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "titus-andronicus-2-4-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "chiron",
-        "name": "CHIRON",
-        "displayName": "Chiron"
-      },
-      "lines": [
-        {
-          "id": "titus-andronicus-2-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Write down thy mind, bewray thy meaning so,",
-          "plainText": "Write down thy mind bewray thy meaning so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 39,
+          "end": 45,
+          "className": "charname"
         },
         {
-          "id": "titus-andronicus-2-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "An if thy stumps will let thee play the scribe.",
-          "plainText": "An if thy stumps will let thee play the scribe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 51,
+          "end": 59,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "titus-andronicus-2-4-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "demetrius",
-        "name": "DEMETRIUS",
-        "displayName": "Demetrius"
-      },
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-2-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "See how with signs and tokens she can scrowl.",
-          "plainText": "See how with signs and tokens she can scrowl",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneII_34.4/p@64027/line-1",
+          "start": 0,
+          "end": 116,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6005386,
+        "end": 6005622,
+        "line": 223679,
+        "column": 1,
+        "path": "chap34/p@64027",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "titus-andronicus-2-4-speech-004",
+      "id": "titus-andronicus/sceneII_34.4/p@64267",
       "type": "speech",
-      "speaker": {
-        "id": "chiron",
-        "name": "CHIRON",
-        "displayName": "Chiron"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DEMETRIUS.\nSo, now go tell, an if thy tongue can speak,\nWho ’twas that cut thy tongue and ravished thee.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Go home, call for sweet water, wash thy hands.",
-          "plainText": "Go home call for sweet water wash thy hands",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "titus-andronicus-2-4-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "demetrius",
-        "name": "DEMETRIUS",
-        "displayName": "Demetrius"
-      },
-      "lines": [
-        {
-          "id": "titus-andronicus-2-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "She hath no tongue to call, nor hands to wash;",
-          "plainText": "She hath no tongue to call nor hands to wash",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.4/p@64267/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "And so let's leave her to her silent walks.",
-          "plainText": "And so let's leave her to her silent walks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.4/p@64267/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64267/line-3",
+          "start": 56,
+          "end": 104,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6005626,
+        "end": 6005765,
+        "line": 223684,
+        "column": 1,
+        "path": "chap34/p@64267",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "DEMETRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "titus-andronicus-2-4-speech-006",
+      "id": "titus-andronicus/sceneII_34.4/p@64410",
       "type": "speech",
-      "speaker": {
-        "id": "chiron",
-        "name": "CHIRON",
-        "displayName": "Chiron"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CHIRON.\nWrite down thy mind, bewray thy meaning so,\nAn if thy stumps will let thee play the scribe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "An 'twere my cause, I should go hang myself.",
-          "plainText": "An 'twere my cause I should go hang myself",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneII_34.4/p@64410/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64410/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64410/line-3",
+          "start": 52,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6005769,
+        "end": 6005903,
+        "line": 223690,
+        "column": 1,
+        "path": "chap34/p@64410",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "CHIRON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-2-4-speech-007",
+      "id": "titus-andronicus/sceneII_34.4/p@64548",
       "type": "speech",
-      "speaker": {
-        "id": "demetrius",
-        "name": "DEMETRIUS",
-        "displayName": "Demetrius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DEMETRIUS.\nSee how with signs and tokens she can scrowl.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "If thou hadst hands to help thee knit the cord.",
-          "plainText": "If thou hadst hands to help thee knit the cord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneII_34.4/p@64548/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64548/line-2",
+          "start": 11,
+          "end": 56,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6005907,
+        "end": 6005993,
+        "line": 223696,
+        "column": 1,
+        "path": "chap34/p@64548",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "DEMETRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "titus-andronicus-2-4-stage-002",
+      "id": "titus-andronicus/sceneII_34.4/p@64638",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CHIRON.\nGo home, call for sweet water, wash thy hands.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64638/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64638/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6005997,
+        "end": 6006081,
+        "line": 223701,
+        "column": 1,
+        "path": "chap34/p@64638",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "CHIRON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@64726",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DEMETRIUS.\nShe hath no tongue to call, nor hands to wash;\nAnd so let’s leave her to her silent walks.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64726/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64726/line-2",
+          "start": 11,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64726/line-3",
+          "start": 58,
+          "end": 101,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6006085,
+        "end": 6006221,
+        "line": 223706,
+        "column": 1,
+        "path": "chap34/p@64726",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "DEMETRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@64866",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CHIRON.\nAn ’twere my cause, I should go hang myself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64866/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64866/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6006225,
+        "end": 6006307,
+        "line": 223712,
+        "column": 1,
+        "path": "chap34/p@64866",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "CHIRON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@64952",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DEMETRIUS.\nIf thou hadst hands to help thee knit the cord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64952/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@64952/line-2",
+          "start": 11,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6006311,
+        "end": 6006399,
+        "line": 223717,
+        "column": 1,
+        "path": "chap34/p@64952",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "DEMETRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@65044",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Chiron and Demetrius.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 29
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65044/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6006403,
+        "end": 6006526,
+        "line": 223722,
+        "column": 1,
+        "path": "chap34/p@65044",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@65171",
       "type": "stage",
-      "text": "[Exeunt Chiron and Demetrius.]"
-    },
-    {
-      "id": "titus-andronicus-2-4-stage-003",
-      "type": "stage",
-      "text": "Enter Marcus, from hunting."
-    },
-    {
-      "id": "titus-andronicus-2-4-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Marcus, from hunting.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-2-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Who is this? My niece, that flies away so fast?",
-          "plainText": "Who is this My niece that flies away so fast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Cousin, a word; where is your husband?",
-          "plainText": "Cousin a word where is your husband",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "If I do dream, would all my wealth would wake me!",
-          "plainText": "If I do dream would all my wealth would wake me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 4,
-          "text": "If I do wake, some planet strike me down,",
-          "plainText": "If I do wake some planet strike me down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 5,
-          "text": "That I may slumber an eternal sleep!",
-          "plainText": "That I may slumber an eternal sleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 6,
-          "text": "Speak, gentle niece, what stern ungentle hands",
-          "plainText": "Speak gentle niece what stern ungentle hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 7,
-          "text": "Hath lopped and hewed and made thy body bare",
-          "plainText": "Hath lopped and hewed and made thy body bare",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 8,
-          "text": "Of her two branches, those sweet ornaments",
-          "plainText": "Of her two branches those sweet ornaments",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 9,
-          "text": "Whose circling shadows kings have sought to sleep in,",
-          "plainText": "Whose circling shadows kings have sought to sleep in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 10,
-          "text": "And might not gain so great a happiness",
-          "plainText": "And might not gain so great a happiness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 11,
-          "text": "As half thy love? Why dost not speak to me?",
-          "plainText": "As half thy love Why dost not speak to me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 12,
-          "text": "Alas, a crimson river of warm blood,",
-          "plainText": "Alas a crimson river of warm blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 13,
-          "text": "Like to a bubbling fountain stirred with wind,",
-          "plainText": "Like to a bubbling fountain stirred with wind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 14,
-          "text": "Doth rise and fall between thy rosed lips,",
-          "plainText": "Doth rise and fall between thy rosed lips",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 15,
-          "text": "Coming and going with thy honey breath.",
-          "plainText": "Coming and going with thy honey breath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 16,
-          "text": "But sure some Tereus hath deflowered thee,",
-          "plainText": "But sure some Tereus hath deflowered thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 17,
-          "text": "And, lest thou shouldst detect him, cut thy tongue.",
-          "plainText": "And lest thou shouldst detect him cut thy tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 18,
-          "text": "Ah, now thou turn'st away thy face for shame,",
-          "plainText": "Ah now thou turn'st away thy face for shame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 19,
-          "text": "And notwithstanding all this loss of blood,",
-          "plainText": "And notwithstanding all this loss of blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 20,
-          "text": "As from a conduit with three issuing spouts,",
-          "plainText": "As from a conduit with three issuing spouts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 21,
-          "text": "Yet do thy cheeks look red as Titan's face",
-          "plainText": "Yet do thy cheeks look red as Titan's face",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 22,
-          "text": "Blushing to be encountered with a cloud.",
-          "plainText": "Blushing to be encountered with a cloud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 23,
-          "text": "Shall I speak for thee, shall I say 'tis so?",
-          "plainText": "Shall I speak for thee shall I say 'tis so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 24,
-          "text": "O, that I knew thy heart, and knew the beast,",
-          "plainText": "O that I knew thy heart and knew the beast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 25,
-          "text": "That I might rail at him to ease my mind.",
-          "plainText": "That I might rail at him to ease my mind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 26,
-          "text": "Sorrow concealed, like an oven stopped,",
-          "plainText": "Sorrow concealed like an oven stopped",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 27,
-          "text": "Doth burn the heart to cinders where it is.",
-          "plainText": "Doth burn the heart to cinders where it is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 28,
-          "text": "Fair Philomela, why she but lost her tongue,",
-          "plainText": "Fair Philomela why she but lost her tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 29,
-          "text": "And in a tedious sampler sewed her mind;",
-          "plainText": "And in a tedious sampler sewed her mind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 30,
-          "text": "But, lovely niece, that mean is cut from thee;",
-          "plainText": "But lovely niece that mean is cut from thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 31,
-          "text": "A craftier Tereus, cousin, hast thou met,",
-          "plainText": "A craftier Tereus cousin hast thou met",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 32,
-          "text": "And he hath cut those pretty fingers off",
-          "plainText": "And he hath cut those pretty fingers off",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0043",
-          "number": 43,
-          "speechLineNumber": 33,
-          "text": "That could have better sewed than Philomel.",
-          "plainText": "That could have better sewed than Philomel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0044",
-          "number": 44,
-          "speechLineNumber": 34,
-          "text": "O, had the monster seen those lily hands",
-          "plainText": "O had the monster seen those lily hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0045",
-          "number": 45,
-          "speechLineNumber": 35,
-          "text": "Tremble like aspen leaves upon a lute,",
-          "plainText": "Tremble like aspen leaves upon a lute",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0046",
-          "number": 46,
-          "speechLineNumber": 36,
-          "text": "And make the silken strings delight to kiss them,",
-          "plainText": "And make the silken strings delight to kiss them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0047",
-          "number": 47,
-          "speechLineNumber": 37,
-          "text": "He would not then have touched them for his life.",
-          "plainText": "He would not then have touched them for his life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0048",
-          "number": 48,
-          "speechLineNumber": 38,
-          "text": "Or had he heard the heavenly harmony",
-          "plainText": "Or had he heard the heavenly harmony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0049",
-          "number": 49,
-          "speechLineNumber": 39,
-          "text": "Which that sweet tongue hath made,",
-          "plainText": "Which that sweet tongue hath made",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0050",
-          "number": 50,
-          "speechLineNumber": 40,
-          "text": "He would have dropped his knife, and fell asleep,",
-          "plainText": "He would have dropped his knife and fell asleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0051",
-          "number": 51,
-          "speechLineNumber": 41,
-          "text": "As Cerberus at the Thracian poet's feet.",
-          "plainText": "As Cerberus at the Thracian poet's feet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0052",
-          "number": 52,
-          "speechLineNumber": 42,
-          "text": "Come, let us go, and make thy father blind,",
-          "plainText": "Come let us go and make thy father blind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0053",
-          "number": 53,
-          "speechLineNumber": 43,
-          "text": "For such a sight will blind a father's eye.",
-          "plainText": "For such a sight will blind a father's eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0054",
-          "number": 54,
-          "speechLineNumber": 44,
-          "text": "One hour's storm will drown the fragrant meads;",
-          "plainText": "One hour's storm will drown the fragrant meads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0055",
-          "number": 55,
-          "speechLineNumber": 45,
-          "text": "What will whole months of tears thy father's eyes?",
-          "plainText": "What will whole months of tears thy father's eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0056",
-          "number": 56,
-          "speechLineNumber": 46,
-          "text": "Do not draw back, for we will mourn with thee.",
-          "plainText": "Do not draw back for we will mourn with thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-4-line-0057",
-          "number": 57,
-          "speechLineNumber": 47,
-          "text": "O, could our mourning ease thy misery!",
-          "plainText": "O could our mourning ease thy misery",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.4/p@65171/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6006530,
+        "end": 6006616,
+        "line": 223727,
+        "column": 1,
+        "path": "chap34/p@65171",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "titus-andronicus-2-4-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "titus-andronicus/sceneII_34.4/p@65261",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nWho is this? My niece, that flies away so fast?\nCousin, a word; where is your husband?\nIf I do dream, would all my wealth would wake me!\nIf I do wake, some planet strike me down,\nThat I may slumber an eternal sleep!\nSpeak, gentle niece, what stern ungentle hands\nHath lopped and hewed and made thy body bare\nOf her two branches, those sweet ornaments\nWhose circling shadows kings have sought to sleep in,\nAnd might not gain so great a happiness\nAs half thy love? Why dost not speak to me?\nAlas, a crimson river of warm blood,\nLike to a bubbling fountain stirred with wind,\nDoth rise and fall between thy rosed lips,\nComing and going with thy honey breath.\nBut sure some Tereus hath deflowered thee,\nAnd, lest thou shouldst detect him, cut thy tongue.\nAh, now thou turn’st away thy face for shame,\nAnd notwithstanding all this loss of blood,\nAs from a conduit with three issuing spouts,\nYet do thy cheeks look red as Titan’s face\nBlushing to be encountered with a cloud.\nShall I speak for thee, shall I say ’tis so?\nO, that I knew thy heart, and knew the beast,\nThat I might rail at him to ease my mind.\nSorrow concealed, like an oven stopped,\nDoth burn the heart to cinders where it is.\nFair Philomela, why she but lost her tongue,\nAnd in a tedious sampler sewed her mind;\nBut, lovely niece, that mean is cut from thee;\nA craftier Tereus, cousin, hast thou met,\nAnd he hath cut those pretty fingers off\nThat could have better sewed than Philomel.\nO, had the monster seen those lily hands\nTremble like aspen leaves upon a lute,\nAnd make the silken strings delight to kiss them,\nHe would not then have touched them for his life.\nOr had he heard the heavenly harmony\nWhich that sweet tongue hath made,\nHe would have dropped his knife, and fell asleep,\nAs Cerberus at the Thracian poet’s feet.\nCome, let us go, and make thy father blind,\nFor such a sight will blind a father’s eye.\nOne hour’s storm will drown the fragrant meads;\nWhat will whole months of tears thy father’s eyes?\nDo not draw back, for we will mourn with thee.\nO, could our mourning ease thy misery!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-3",
+          "start": 56,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-4",
+          "start": 95,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-5",
+          "start": 145,
+          "end": 186,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-6",
+          "start": 187,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-7",
+          "start": 224,
+          "end": 270,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-8",
+          "start": 271,
+          "end": 315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-9",
+          "start": 316,
+          "end": 358,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-10",
+          "start": 359,
+          "end": 412,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-11",
+          "start": 413,
+          "end": 452,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-12",
+          "start": 453,
+          "end": 496,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-13",
+          "start": 497,
+          "end": 533,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-14",
+          "start": 534,
+          "end": 580,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-15",
+          "start": 581,
+          "end": 623,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-16",
+          "start": 624,
+          "end": 663,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-17",
+          "start": 664,
+          "end": 706,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-18",
+          "start": 707,
+          "end": 758,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-19",
+          "start": 759,
+          "end": 804,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-20",
+          "start": 805,
+          "end": 848,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-21",
+          "start": 849,
+          "end": 893,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-22",
+          "start": 894,
+          "end": 936,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-23",
+          "start": 937,
+          "end": 977,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-24",
+          "start": 978,
+          "end": 1022,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-25",
+          "start": 1023,
+          "end": 1068,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-26",
+          "start": 1069,
+          "end": 1110,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-27",
+          "start": 1111,
+          "end": 1150,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-28",
+          "start": 1151,
+          "end": 1194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-29",
+          "start": 1195,
+          "end": 1239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-30",
+          "start": 1240,
+          "end": 1280,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-31",
+          "start": 1281,
+          "end": 1327,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-32",
+          "start": 1328,
+          "end": 1369,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-33",
+          "start": 1370,
+          "end": 1410,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-34",
+          "start": 1411,
+          "end": 1454,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-35",
+          "start": 1455,
+          "end": 1495,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-36",
+          "start": 1496,
+          "end": 1534,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-37",
+          "start": 1535,
+          "end": 1584,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-38",
+          "start": 1585,
+          "end": 1634,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-39",
+          "start": 1635,
+          "end": 1671,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-40",
+          "start": 1672,
+          "end": 1706,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-41",
+          "start": 1707,
+          "end": 1756,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-42",
+          "start": 1757,
+          "end": 1797,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-43",
+          "start": 1798,
+          "end": 1841,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-44",
+          "start": 1842,
+          "end": 1885,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-45",
+          "start": 1886,
+          "end": 1933,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-46",
+          "start": 1934,
+          "end": 1984,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-47",
+          "start": 1985,
+          "end": 2031,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@65261/line-48",
+          "start": 2032,
+          "end": 2070,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6006620,
+        "end": 6008950,
+        "line": 223731,
+        "column": 1,
+        "path": "chap34/p@65261",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.4/p@67595",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.4/p@67595/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6008954,
+        "end": 6008991,
+        "line": 223782,
+        "column": 1,
+        "path": "chap34/p@67595",
+        "anchor": "sceneII_34.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74"
 }

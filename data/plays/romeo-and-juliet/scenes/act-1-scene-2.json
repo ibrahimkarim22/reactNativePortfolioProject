@@ -1,1310 +1,1926 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-1-2",
+    "kind": "scene",
+    "heading": "SCENE II. A Street.",
     "act": 1,
     "scene": 2,
-    "label": "Act 1, Scene 2",
-    "title": "SCENE II. A Street.",
-    "location": "A Street.",
-    "orderInPlay": 2
+    "parentSectionId": "romeo-and-juliet-act-5424",
+    "orderInPlay": 8,
+    "sourceRef": {
+      "start": 5320062,
+      "end": 5320122,
+      "line": 197788,
+      "column": 1,
+      "path": "chap30/h3@21062",
+      "anchor": "sceneI_30.2"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-1-2-stage-001",
+      "id": "romeo-and-juliet/sceneI_30.2/h3@21062",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. A Street.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/h3@21062/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5320062,
+        "end": 5320122,
+        "line": 197788,
+        "column": 1,
+        "path": "chap30/h3@21062",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@21126",
       "type": "stage",
-      "text": "Enter Capulet, Paris and Servant."
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Capulet, Paris and Servant.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 25,
+          "end": 32,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "But Montague is bound as well as I,",
-          "plainText": "But Montague is bound as well as I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "In penalty alike; and 'tis not hard, I think,",
-          "plainText": "In penalty alike and 'tis not hard I think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "For men so old as we to keep the peace.",
-          "plainText": "For men so old as we to keep the peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21126/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5320126,
+        "end": 5320245,
+        "line": 197790,
+        "column": 1,
+        "path": "chap30/p@21126",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-002",
+      "id": "romeo-and-juliet/sceneI_30.2/p@21249",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nBut Montague is bound as well as I,\nIn penalty alike; and ’tis not hard, I think,\nFor men so old as we to keep the peace.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Of honourable reckoning are you both,",
-          "plainText": "Of honourable reckoning are you both",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21249/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "And pity 'tis you liv'd at odds so long.",
-          "plainText": "And pity 'tis you liv'd at odds so long",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21249/line-2",
+          "start": 9,
+          "end": 44,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 3,
-          "text": "But now my lord, what say you to my suit?",
-          "plainText": "But now my lord what say you to my suit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21249/line-3",
+          "start": 45,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21249/line-4",
+          "start": 91,
+          "end": 130,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5320249,
+        "end": 5320419,
+        "line": 197793,
+        "column": 1,
+        "path": "chap30/p@21249",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-003",
+      "id": "romeo-and-juliet/sceneI_30.2/p@21423",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nOf honourable reckoning are you both,\nAnd pity ’tis you liv’d at odds so long.\nBut now my lord, what say you to my suit?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "But saying o'er what I have said before.",
-          "plainText": "But saying o'er what I have said before",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21423/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "My child is yet a stranger in the world,",
-          "plainText": "My child is yet a stranger in the world",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21423/line-2",
+          "start": 7,
+          "end": 44,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 3,
-          "text": "She hath not seen the change of fourteen years;",
-          "plainText": "She hath not seen the change of fourteen years",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21423/line-3",
+          "start": 45,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 4,
-          "text": "Let two more summers wither in their pride",
-          "plainText": "Let two more summers wither in their pride",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 5,
-          "text": "Ere we may think her ripe to be a bride.",
-          "plainText": "Ere we may think her ripe to be a bride",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21423/line-4",
+          "start": 86,
+          "end": 127,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5320423,
+        "end": 5320590,
+        "line": 197800,
+        "column": 1,
+        "path": "chap30/p@21423",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-004",
+      "id": "romeo-and-juliet/sceneI_30.2/p@21594",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nBut saying o’er what I have said before.\nMy child is yet a stranger in the world,\nShe hath not seen the change of fourteen years;\nLet two more summers wither in their pride\nEre we may think her ripe to be a bride.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Younger than she are happy mothers made.",
-          "plainText": "Younger than she are happy mothers made",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-2",
+          "start": 9,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-3",
+          "start": 50,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-4",
+          "start": 91,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-5",
+          "start": 139,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21594/line-6",
+          "start": 182,
+          "end": 222,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5320594,
+        "end": 5320866,
+        "line": 197807,
+        "column": 1,
+        "path": "chap30/p@21594",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-005",
+      "id": "romeo-and-juliet/sceneI_30.2/p@21870",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nYounger than she are happy mothers made.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "And too soon marr'd are those so early made.",
-          "plainText": "And too soon marr'd are those so early made",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21870/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 2,
-          "text": "The earth hath swallowed all my hopes but she,",
-          "plainText": "The earth hath swallowed all my hopes but she",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 3,
-          "text": "She is the hopeful lady of my earth:",
-          "plainText": "She is the hopeful lady of my earth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 4,
-          "text": "But woo her, gentle Paris, get her heart,",
-          "plainText": "But woo her gentle Paris get her heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 5,
-          "text": "My will to her consent is but a part;",
-          "plainText": "My will to her consent is but a part",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 6,
-          "text": "And she agree, within her scope of choice",
-          "plainText": "And she agree within her scope of choice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 7,
-          "text": "Lies my consent and fair according voice.",
-          "plainText": "Lies my consent and fair according voice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 8,
-          "text": "This night I hold an old accustom'd feast,",
-          "plainText": "This night I hold an old accustom'd feast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 9,
-          "text": "Whereto I have invited many a guest,",
-          "plainText": "Whereto I have invited many a guest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 10,
-          "text": "Such as I love, and you among the store,",
-          "plainText": "Such as I love and you among the store",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 11,
-          "text": "One more, most welcome, makes my number more.",
-          "plainText": "One more most welcome makes my number more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 12,
-          "text": "At my poor house look to behold this night",
-          "plainText": "At my poor house look to behold this night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 13,
-          "text": "Earth-treading stars that make dark heaven light:",
-          "plainText": "Earthtreading stars that make dark heaven light",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 14,
-          "text": "Such comfort as do lusty young men feel",
-          "plainText": "Such comfort as do lusty young men feel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 15,
-          "text": "When well apparell'd April on the heel",
-          "plainText": "When well apparell'd April on the heel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 16,
-          "text": "Of limping winter treads, even such delight",
-          "plainText": "Of limping winter treads even such delight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 17,
-          "text": "Among fresh female buds shall you this night",
-          "plainText": "Among fresh female buds shall you this night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 18,
-          "text": "Inherit at my house. Hear all, all see,",
-          "plainText": "Inherit at my house Hear all all see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 19,
-          "text": "And like her most whose merit most shall be:",
-          "plainText": "And like her most whose merit most shall be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 20,
-          "text": "Which, on more view of many, mine, being one,",
-          "plainText": "Which on more view of many mine being one",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 21,
-          "text": "May stand in number, though in reckoning none.",
-          "plainText": "May stand in number though in reckoning none",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 22,
-          "text": "Come, go with me. Go, sirrah, trudge about",
-          "plainText": "Come go with me Go sirrah trudge about",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 23,
-          "text": "Through fair Verona; find those persons out",
-          "plainText": "Through fair Verona find those persons out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 24,
-          "text": "Whose names are written there, [gives a paper] and to them say,",
-          "plainText": "Whose names are written there gives a paper and to them say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 25,
-          "text": "My house and welcome on their pleasure stay.",
-          "plainText": "My house and welcome on their pleasure stay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@21870/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5320870,
+        "end": 5320947,
+        "line": 197816,
+        "column": 1,
+        "path": "chap30/p@21870",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-stage-002",
+      "id": "romeo-and-juliet/sceneI_30.2/p@21951",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nAnd too soon marr’d are those so early made.\nThe earth hath swallowed all my hopes but she,\nShe is the hopeful lady of my earth:\nBut woo her, gentle Paris, get her heart,\nMy will to her consent is but a part;\nAnd she agree, within her scope of choice\nLies my consent and fair according voice.\nThis night I hold an old accustom’d feast,\nWhereto I have invited many a guest,\nSuch as I love, and you among the store,\nOne more, most welcome, makes my number more.\nAt my poor house look to behold this night\nEarth-treading stars that make dark heaven light:\nSuch comfort as do lusty young men feel\nWhen well apparell’d April on the heel\nOf limping winter treads, even such delight\nAmong fresh female buds shall you this night\nInherit at my house. Hear all, all see,\nAnd like her most whose merit most shall be:\nWhich, on more view of many, mine, being one,\nMay stand in number, though in reckoning none.\nCome, go with me. Go, sirrah, trudge about\nThrough fair Verona; find those persons out\nWhose names are written there, [gives a paper] and to them say,\nMy house and welcome on their pleasure stay.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1027,
+          "end": 1040
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-3",
+          "start": 54,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-4",
+          "start": 101,
+          "end": 137,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-5",
+          "start": 138,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-6",
+          "start": 180,
+          "end": 217,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-7",
+          "start": 218,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-8",
+          "start": 260,
+          "end": 301,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-9",
+          "start": 302,
+          "end": 344,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-10",
+          "start": 345,
+          "end": 381,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-11",
+          "start": 382,
+          "end": 422,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-12",
+          "start": 423,
+          "end": 468,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-13",
+          "start": 469,
+          "end": 511,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-14",
+          "start": 512,
+          "end": 561,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-15",
+          "start": 562,
+          "end": 601,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-16",
+          "start": 602,
+          "end": 640,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-17",
+          "start": 641,
+          "end": 684,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-18",
+          "start": 685,
+          "end": 729,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-19",
+          "start": 730,
+          "end": 769,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-20",
+          "start": 770,
+          "end": 814,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-21",
+          "start": 815,
+          "end": 860,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-22",
+          "start": 861,
+          "end": 907,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-23",
+          "start": 908,
+          "end": 950,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-24",
+          "start": 951,
+          "end": 994,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-25",
+          "start": 995,
+          "end": 1058,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@21951/line-26",
+          "start": 1059,
+          "end": 1103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5320951,
+        "end": 5322211,
+        "line": 197821,
+        "column": 1,
+        "path": "chap30/p@21951",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@23215",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Capulet and Paris.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 20,
+          "end": 25,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23215/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5322215,
+        "end": 5322331,
+        "line": 197850,
+        "column": 1,
+        "path": "chap30/p@23215",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@23335",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nFind them out whose names are written here! It is written that the shoemaker should meddle with his yard and the tailor with his last, the fisher with his pencil, and the painter with his nets; but I am sent to find those persons whose names are here writ, and can never find what names the writing person hath here writ. I must to the learned. In good time!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23335/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23335/line-2",
+          "start": 9,
+          "end": 367,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5322335,
+        "end": 5322738,
+        "line": 197853,
+        "column": 1,
+        "path": "chap30/p@23335",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@23742",
       "type": "stage",
-      "text": "[Exeunt Capulet and Paris.]"
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Benvolio and Romeo.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "romeo-and-juliet-1-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Find them out whose names are written here! It is written that the shoemaker should meddle with his yard and the tailor with his last, the fisher with his pencil, and the painter with his nets; but I am sent to find those persons whose names are here writ, and can never find what names the writing person hath here writ. I must to the learned. In good time!",
-          "plainText": "Find them out whose names are written here It is written that the shoemaker should meddle with his yard and the tailor with his last the fisher with his pencil and the painter with his nets but I am sent to find those persons whose names are here writ and can never find what names the writing person hath here writ I must to the learned In good time",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-stage-003",
-      "type": "stage",
-      "text": "Enter Benvolio and Romeo."
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-1-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "Tut, man, one fire burns out another's burning,",
-          "plainText": "Tut man one fire burns out another's burning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "One pain is lessen'd by another's anguish;",
-          "plainText": "One pain is lessen'd by another's anguish",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "Turn giddy, and be holp by backward turning;",
-          "plainText": "Turn giddy and be holp by backward turning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 4,
-          "text": "One desperate grief cures with another's languish:",
-          "plainText": "One desperate grief cures with another's languish",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 5,
-          "text": "Take thou some new infection to thy eye,",
-          "plainText": "Take thou some new infection to thy eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 6,
-          "text": "And the rank poison of the old will die.",
-          "plainText": "And the rank poison of the old will die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 19,
+          "end": 24,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Your plantain leaf is excellent for that.",
-          "plainText": "Your plantain leaf is excellent for that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@23742/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5322742,
+        "end": 5322853,
+        "line": 197864,
+        "column": 1,
+        "path": "chap30/p@23742",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-009",
+      "id": "romeo-and-juliet/sceneI_30.2/p@23857",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nTut, man, one fire burns out another’s burning,\nOne pain is lessen’d by another’s anguish;\nTurn giddy, and be holp by backward turning;\nOne desperate grief cures with another’s languish:\nTake thou some new infection to thy eye,\nAnd the rank poison of the old will die.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "For what, I pray thee?",
-          "plainText": "For what I pray thee",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-1-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "For your broken shin.",
-          "plainText": "For your broken shin",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-1-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Why, Romeo, art thou mad?",
-          "plainText": "Why Romeo art thou mad",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-1-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Not mad, but bound more than a madman is:",
-          "plainText": "Not mad but bound more than a madman is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "Shut up in prison, kept without my food,",
-          "plainText": "Shut up in prison kept without my food",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-2",
+          "start": 10,
+          "end": 57,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 3,
-          "text": "Whipp'd and tormented and—God-den, good fellow.",
-          "plainText": "Whipp'd and tormented andGodden good fellow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-3",
+          "start": 58,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-4",
+          "start": 101,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-5",
+          "start": 146,
+          "end": 196,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-6",
+          "start": 197,
+          "end": 237,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@23857/line-7",
+          "start": 238,
+          "end": 278,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5322857,
+        "end": 5323190,
+        "line": 197867,
+        "column": 1,
+        "path": "chap30/p@23857",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-013",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24194",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nYour plantain leaf is excellent for that.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "God gi' go-den. I pray, sir, can you read?",
-          "plainText": "God gi' goden I pray sir can you read",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24194/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24194/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323194,
+        "end": 5323272,
+        "line": 197877,
+        "column": 1,
+        "path": "chap30/p@24194",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-014",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24276",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nFor what, I pray thee?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "Ay, mine own fortune in my misery.",
-          "plainText": "Ay mine own fortune in my misery",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24276/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24276/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323276,
+        "end": 5323338,
+        "line": 197882,
+        "column": 1,
+        "path": "chap30/p@24276",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-015",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24342",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nFor your broken shin.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Perhaps you have learned it without book.",
-          "plainText": "Perhaps you have learned it without book",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24342/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 2,
-          "text": "But I pray, can you read anything you see?",
-          "plainText": "But I pray can you read anything you see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24342/line-2",
+          "start": 7,
+          "end": 28,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323342,
+        "end": 5323400,
+        "line": 197887,
+        "column": 1,
+        "path": "chap30/p@24342",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-016",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24404",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nWhy, Romeo, art thou mad?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "Ay, If I know the letters and the language.",
-          "plainText": "Ay If I know the letters and the language",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24404/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24404/line-2",
+          "start": 10,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323404,
+        "end": 5323469,
+        "line": 197892,
+        "column": 1,
+        "path": "chap30/p@24404",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-017",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24473",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nNot mad, but bound more than a madman is:\nShut up in prison, kept without my food,\nWhipp’d and tormented and—God-den, good fellow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "Ye say honestly, rest you merry!",
-          "plainText": "Ye say honestly rest you merry",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24473/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24473/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24473/line-3",
+          "start": 49,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24473/line-4",
+          "start": 90,
+          "end": 137,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323473,
+        "end": 5323650,
+        "line": 197897,
+        "column": 1,
+        "path": "chap30/p@24473",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-018",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24654",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nGod gi’ go-den. I pray, sir, can you read?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Stay, fellow; I can read.",
-          "plainText": "Stay fellow I can read",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24654/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24654/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-stage-004",
-      "type": "stage",
-      "text": "[He reads the letter.]"
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
+      ],
+      "sourceRef": {
+        "start": 5323654,
+        "end": 5323735,
+        "line": 197904,
+        "column": 1,
+        "path": "chap30/p@24654",
+        "anchor": "sceneI_30.2"
       },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@24739",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nAy, mine own fortune in my misery.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "Up.",
-          "plainText": "Up",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24739/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24739/line-2",
+          "start": 7,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323739,
+        "end": 5323810,
+        "line": 197909,
+        "column": 1,
+        "path": "chap30/p@24739",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-020",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24814",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nPerhaps you have learned it without book.\nBut I pray, can you read anything you see?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "Whither to supper?",
-          "plainText": "Whither to supper",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24814/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24814/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24814/line-3",
+          "start": 51,
+          "end": 93,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323814,
+        "end": 5323940,
+        "line": 197914,
+        "column": 1,
+        "path": "chap30/p@24814",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-021",
+      "id": "romeo-and-juliet/sceneI_30.2/p@24944",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nAy, If I know the letters and the language.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "To our house.",
-          "plainText": "To our house",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@24944/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@24944/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5323944,
+        "end": 5324024,
+        "line": 197919,
+        "column": 1,
+        "path": "chap30/p@24944",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-022",
+      "id": "romeo-and-juliet/sceneI_30.2/p@25028",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nYe say honestly, rest you merry!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "Whose house?",
-          "plainText": "Whose house",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25028/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25028/line-2",
+          "start": 9,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324028,
+        "end": 5324099,
+        "line": 197924,
+        "column": 1,
+        "path": "chap30/p@25028",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-023",
+      "id": "romeo-and-juliet/sceneI_30.2/p@25103",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nStay, fellow; I can read.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "My master's.",
-          "plainText": "My master's",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25103/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25103/line-2",
+          "start": 7,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324103,
+        "end": 5324165,
+        "line": 197929,
+        "column": 1,
+        "path": "chap30/p@25103",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "id": "romeo-and-juliet/sceneI_30.2/p@25169",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[He reads the letter.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 21
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "Indeed I should have ask'd you that before.",
-          "plainText": "Indeed I should have ask'd you that before",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25169/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324169,
+        "end": 5324219,
+        "line": 197934,
+        "column": 1,
+        "path": "chap30/p@25169",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "id": "romeo-and-juliet/sceneI_30.2/p@25223",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "letter"
+      ],
+      "text": "Signior Martino and his wife and daughters;\nCounty Anselmo and his beauteous sisters;\nThe lady widow of Utruvio;\nSignior Placentio and his lovely nieces;\nMercutio and his brother Valentine;\nMine uncle Capulet, his wife, and daughters;\nMy fair niece Rosaline and Livia;\nSignior Valentio and his cousin Tybalt;\nLucio and the lively Helena.\n",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 0,
+          "end": 338
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "Now I'll tell you without asking. My master is the great rich Capulet, and if you be not of the house of Montagues, I pray come and crush a cup of wine. Rest you merry.",
-          "plainText": "Now I'll tell you without asking My master is the great rich Capulet and if you be not of the house of Montagues I pray come and crush a cup of wine Rest you merry",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-2",
+          "start": 44,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-3",
+          "start": 86,
+          "end": 112,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-4",
+          "start": 113,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-5",
+          "start": 154,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-6",
+          "start": 190,
+          "end": 234,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-7",
+          "start": 235,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-8",
+          "start": 269,
+          "end": 308,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-9",
+          "start": 309,
+          "end": 337,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25223/line-10",
+          "start": 338,
+          "end": 338,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-1-2-stage-005",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "romeo-and-juliet-1-2-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
+      ],
+      "sourceRef": {
+        "start": 5324223,
+        "end": 5324637,
+        "line": 197936,
+        "column": 1,
+        "path": "chap30/p@25223",
+        "anchor": "sceneI_30.2"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@25641",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "A fair assembly. [Gives back the paper] Whither should they come?",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 18,
+          "end": 38
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "At this same ancient feast of Capulet's",
-          "plainText": "At this same ancient feast of Capulet's",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0067",
-          "number": 67,
-          "speechLineNumber": 2,
-          "text": "Sups the fair Rosaline whom thou so lov'st;",
-          "plainText": "Sups the fair Rosaline whom thou so lov'st",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0068",
-          "number": 68,
-          "speechLineNumber": 3,
-          "text": "With all the admired beauties of Verona.",
-          "plainText": "With all the admired beauties of Verona",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0069",
-          "number": 69,
-          "speechLineNumber": 4,
-          "text": "Go thither and with unattainted eye,",
-          "plainText": "Go thither and with unattainted eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0070",
-          "number": 70,
-          "speechLineNumber": 5,
-          "text": "Compare her face with some that I shall show,",
-          "plainText": "Compare her face with some that I shall show",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0071",
-          "number": 71,
-          "speechLineNumber": 6,
-          "text": "And I will make thee think thy swan a crow.",
-          "plainText": "And I will make thee think thy swan a crow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25641/line-1",
+          "start": 0,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324641,
+        "end": 5324737,
+        "line": 197948,
+        "column": 1,
+        "path": "chap30/p@25641",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-027",
+      "id": "romeo-and-juliet/sceneI_30.2/p@25741",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nUp.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "When the devout religion of mine eye",
-          "plainText": "When the devout religion of mine eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25741/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0073",
-          "number": 73,
-          "speechLineNumber": 2,
-          "text": "Maintains such falsehood, then turn tears to fire;",
-          "plainText": "Maintains such falsehood then turn tears to fire",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0074",
-          "number": 74,
-          "speechLineNumber": 3,
-          "text": "And these who, often drown'd, could never die,",
-          "plainText": "And these who often drown'd could never die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0075",
-          "number": 75,
-          "speechLineNumber": 4,
-          "text": "Transparent heretics, be burnt for liars.",
-          "plainText": "Transparent heretics be burnt for liars",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0076",
-          "number": 76,
-          "speechLineNumber": 5,
-          "text": "One fairer than my love? The all-seeing sun",
-          "plainText": "One fairer than my love The allseeing sun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0077",
-          "number": 77,
-          "speechLineNumber": 6,
-          "text": "Ne'er saw her match since first the world begun.",
-          "plainText": "Ne'er saw her match since first the world begun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25741/line-2",
+          "start": 9,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324741,
+        "end": 5324783,
+        "line": 197952,
+        "column": 1,
+        "path": "chap30/p@25741",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-028",
+      "id": "romeo-and-juliet/sceneI_30.2/p@25787",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWhither to supper?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0078",
-          "number": 78,
-          "speechLineNumber": 1,
-          "text": "Tut, you saw her fair, none else being by,",
-          "plainText": "Tut you saw her fair none else being by",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25787/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0079",
-          "number": 79,
-          "speechLineNumber": 2,
-          "text": "Herself pois'd with herself in either eye:",
-          "plainText": "Herself pois'd with herself in either eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0080",
-          "number": 80,
-          "speechLineNumber": 3,
-          "text": "But in that crystal scales let there be weigh'd",
-          "plainText": "But in that crystal scales let there be weigh'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0081",
-          "number": 81,
-          "speechLineNumber": 4,
-          "text": "Your lady's love against some other maid",
-          "plainText": "Your lady's love against some other maid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0082",
-          "number": 82,
-          "speechLineNumber": 5,
-          "text": "That I will show you shining at this feast,",
-          "plainText": "That I will show you shining at this feast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-2-line-0083",
-          "number": 83,
-          "speechLineNumber": 6,
-          "text": "And she shall scant show well that now shows best.",
-          "plainText": "And she shall scant show well that now shows best",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25787/line-2",
+          "start": 7,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324787,
+        "end": 5324842,
+        "line": 197957,
+        "column": 1,
+        "path": "chap30/p@25787",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-speech-029",
+      "id": "romeo-and-juliet/sceneI_30.2/p@25846",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nTo our house.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-2-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "I'll go along, no such sight to be shown,",
-          "plainText": "I'll go along no such sight to be shown",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25846/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-2-line-0085",
-          "number": 85,
-          "speechLineNumber": 2,
-          "text": "But to rejoice in splendour of my own.",
-          "plainText": "But to rejoice in splendour of my own",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.2/p@25846/line-2",
+          "start": 9,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5324846,
+        "end": 5324898,
+        "line": 197962,
+        "column": 1,
+        "path": "chap30/p@25846",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-1-2-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneI_30.2/p@25902",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWhose house?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25902/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25902/line-2",
+          "start": 7,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5324902,
+        "end": 5324951,
+        "line": 197967,
+        "column": 1,
+        "path": "chap30/p@25902",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@25955",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nMy master’s.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25955/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@25955/line-2",
+          "start": 9,
+          "end": 21,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5324955,
+        "end": 5325006,
+        "line": 197972,
+        "column": 1,
+        "path": "chap30/p@25955",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@26010",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nIndeed I should have ask’d you that before.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26010/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26010/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5325010,
+        "end": 5325090,
+        "line": 197977,
+        "column": 1,
+        "path": "chap30/p@26010",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@26094",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nNow I’ll tell you without asking. My master is the great rich Capulet, and if you be not of the house of Montagues, I pray come and crush a cup of wine. Rest you merry.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26094/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26094/line-2",
+          "start": 9,
+          "end": 177,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5325094,
+        "end": 5325303,
+        "line": 197982,
+        "column": 1,
+        "path": "chap30/p@26094",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@26307",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26307/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5325307,
+        "end": 5325342,
+        "line": 197989,
+        "column": 1,
+        "path": "chap30/p@26307",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@26346",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nAt this same ancient feast of Capulet’s\nSups the fair Rosaline whom thou so lov’st;\nWith all the admired beauties of Verona.\nGo thither and with unattainted eye,\nCompare her face with some that I shall show,\nAnd I will make thee think thy swan a crow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-2",
+          "start": 10,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-3",
+          "start": 50,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-4",
+          "start": 94,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-5",
+          "start": 135,
+          "end": 171,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-6",
+          "start": 172,
+          "end": 217,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26346/line-7",
+          "start": 218,
+          "end": 261,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5325346,
+        "end": 5325662,
+        "line": 197991,
+        "column": 1,
+        "path": "chap30/p@26346",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@26666",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWhen the devout religion of mine eye\nMaintains such falsehood, then turn tears to fire;\nAnd these who, often drown’d, could never die,\nTransparent heretics, be burnt for liars.\nOne fairer than my love? The all-seeing sun\nNe’er saw her match since first the world begun.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-2",
+          "start": 7,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-3",
+          "start": 44,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-4",
+          "start": 95,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-5",
+          "start": 142,
+          "end": 183,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-6",
+          "start": 184,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@26666/line-7",
+          "start": 228,
+          "end": 276,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5325666,
+        "end": 5325997,
+        "line": 198001,
+        "column": 1,
+        "path": "chap30/p@26666",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@27001",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nTut, you saw her fair, none else being by,\nHerself pois’d with herself in either eye:\nBut in that crystal scales let there be weigh’d\nYour lady’s love against some other maid\nThat I will show you shining at this feast,\nAnd she shall scant show well that now shows best.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-2",
+          "start": 10,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-3",
+          "start": 53,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-4",
+          "start": 96,
+          "end": 143,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-5",
+          "start": 144,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-6",
+          "start": 185,
+          "end": 228,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27001/line-7",
+          "start": 229,
+          "end": 279,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5326001,
+        "end": 5326335,
+        "line": 198011,
+        "column": 1,
+        "path": "chap30/p@27001",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@27339",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI’ll go along, no such sight to be shown,\nBut to rejoice in splendour of my own.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27339/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27339/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27339/line-3",
+          "start": 49,
+          "end": 87,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5326339,
+        "end": 5326461,
+        "line": 198021,
+        "column": 1,
+        "path": "chap30/p@27339",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.2/p@27465",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.2/p@27465/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5326465,
+        "end": 5326502,
+        "line": 198027,
+        "column": 1,
+        "path": "chap30/p@27465",
+        "anchor": "sceneI_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

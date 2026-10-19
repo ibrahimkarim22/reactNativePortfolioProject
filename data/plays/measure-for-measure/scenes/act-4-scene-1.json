@@ -1,1116 +1,1784 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "measure-for-measure",
-    "title": "Measure For Measure",
+    "title": "MEASURE FOR MEASURE",
     "author": "William Shakespeare",
     "genre": "Problem Play"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap21"
   },
-  "scene": {
+  "section": {
     "id": "measure-for-measure-4-1",
+    "kind": "scene",
+    "heading": "SCENE I. A room in Mariana’s house.",
     "act": 4,
     "scene": 1,
-    "label": "Act 4, Scene 1",
-    "title": "SCENE I. A room in Mariana's house.",
-    "location": "A room in Mariana's house.",
-    "orderInPlay": 11
+    "parentSectionId": "measure-for-measure-act-105265",
+    "orderInPlay": 19,
+    "sourceRef": {
+      "start": 3815709,
+      "end": 3815761,
+      "line": 141055,
+      "column": 1,
+      "path": "chap21/h3@105317",
+      "anchor": "sceneIV_21.1"
+    }
   },
   "content": [
     {
-      "id": "measure-for-measure-4-1-stage-001",
+      "id": "measure-for-measure/sceneIV_21.1/h3@105317",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. A room in Mariana’s house.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/h3@105317/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3815709,
+        "end": 3815761,
+        "line": 141055,
+        "column": 1,
+        "path": "chap21/h3@105317",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@105373",
       "type": "stage",
-      "text": "Enter Mariana and a Boy singing."
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "song",
-        "name": "SONG",
-        "displayName": "Song"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Mariana and a Boy singing.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 20,
+          "end": 23,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Take, O take those lips away,",
-          "plainText": "Take O take those lips away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "That so sweetly were forsworn,",
-          "plainText": "That so sweetly were forsworn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "And those eyes, the break of day,",
-          "plainText": "And those eyes the break of day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Lights that do mislead the morn.",
-          "plainText": "Lights that do mislead the morn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "But my kisses bring again,",
-          "plainText": "But my kisses bring again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Bring again;",
-          "plainText": "Bring again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Seals of love, but sealed in vain,",
-          "plainText": "Seals of love but sealed in vain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Sealed in vain.",
-          "plainText": "Sealed in vain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@105373/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3815765,
+        "end": 3815887,
+        "line": 141057,
+        "column": 1,
+        "path": "chap21/p@105373",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-stage-002",
+      "id": "measure-for-measure/sceneIV_21.1/p@105499",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "                SONG\n  Take, O take those lips away,\n      That so sweetly were forsworn,\n  And those eyes, the break of day,\n      Lights that do mislead the morn.\n  But my kisses bring again,\n                Bring again;\n  Seals of love, but sealed in vain,\n                Sealed in vain.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 21,
+          "end": 291
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-1",
+          "start": 0,
+          "end": 20,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-2",
+          "start": 21,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-3",
+          "start": 53,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-4",
+          "start": 90,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-5",
+          "start": 126,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-6",
+          "start": 165,
+          "end": 193,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-7",
+          "start": 194,
+          "end": 222,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-8",
+          "start": 223,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105499/line-9",
+          "start": 260,
+          "end": 291,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3815891,
+        "end": 3816254,
+        "line": 141062,
+        "column": 1,
+        "path": "chap21/p@105499",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@105866",
       "type": "stage",
-      "text": "Enter Duke as a Friar."
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Duke as a Friar.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Break off thy song, and haste thee quick away;",
-          "plainText": "Break off thy song and haste thee quick away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "Here comes a man of comfort, whose advice",
-          "plainText": "Here comes a man of comfort whose advice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "Hath often stilled my brawling discontent.",
-          "plainText": "Hath often stilled my brawling discontent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@105866/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3816258,
+        "end": 3816339,
+        "line": 141074,
+        "column": 1,
+        "path": "chap21/p@105866",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-stage-003",
+      "id": "measure-for-measure/sceneIV_21.1/p@105951",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nBreak off thy song, and haste thee quick away;\nHere comes a man of comfort, whose advice\nHath often stilled my brawling discontent.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105951/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105951/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105951/line-3",
+          "start": 56,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@105951/line-4",
+          "start": 98,
+          "end": 140,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3816343,
+        "end": 3816523,
+        "line": 141078,
+        "column": 1,
+        "path": "chap21/p@105951",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@106135",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Boy.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 9,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 10
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106135/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3816527,
+        "end": 3816596,
+        "line": 141085,
+        "column": 1,
+        "path": "chap21/p@106135",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@106208",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I cry you mercy, sir, and well could wish\nYou had not found me here so musical.\nLet me excuse me, and believe me so,\nMy mirth it much displeased, but pleased my woe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106208/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106208/line-2",
+          "start": 42,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106208/line-3",
+          "start": 80,
+          "end": 116,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106208/line-4",
+          "start": 117,
+          "end": 165,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3816600,
+        "end": 3816805,
+        "line": 141087,
+        "column": 1,
+        "path": "chap21/p@106208",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@106417",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\n’Tis good; though music oft hath such a charm\nTo make bad good and good provoke to harm.\nI pray you tell me, hath anybody inquired for me here today? Much upon this time have I promised here to meet.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106417/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106417/line-2",
+          "start": 6,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106417/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106417/line-4",
+          "start": 95,
+          "end": 205,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3816809,
+        "end": 3817055,
+        "line": 141094,
+        "column": 1,
+        "path": "chap21/p@106417",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@106667",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nYou have not been inquired after. I have sat here all day.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106667/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106667/line-2",
+          "start": 9,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3817059,
+        "end": 3817156,
+        "line": 141102,
+        "column": 1,
+        "path": "chap21/p@106667",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@106768",
       "type": "stage",
-      "text": "[Exit Boy.]"
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Isabella.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "'Tis good; though music oft hath such a charm",
-          "plainText": "'Tis good though music oft hath such a charm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "To make bad good and good provoke to harm.",
-          "plainText": "To make bad good and good provoke to harm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "I pray you tell me, hath anybody inquired for me here today? Much upon this time have I promised here to meet.",
-          "plainText": "I pray you tell me hath anybody inquired for me here today Much upon this time have I promised here to meet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@106768/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3817160,
+        "end": 3817234,
+        "line": 141107,
+        "column": 1,
+        "path": "chap21/p@106768",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-004",
+      "id": "measure-for-measure/sceneIV_21.1/p@106846",
       "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nI do constantly believe you. The time is come even now. I shall crave your forbearance a little. Maybe I will call upon you anon for some advantage to yourself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "You have not been inquired after. I have sat here all day.",
-          "plainText": "You have not been inquired after I have sat here all day",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.1/p@106846/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@106846/line-2",
+          "start": 6,
+          "end": 166,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3817238,
+        "end": 3817436,
+        "line": 141111,
+        "column": 1,
+        "path": "chap21/p@106846",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "measure-for-measure-4-1-stage-004",
+      "id": "measure-for-measure/sceneIV_21.1/p@107048",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nI am always bound to you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107048/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107048/line-2",
+          "start": 9,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3817440,
+        "end": 3817504,
+        "line": 141118,
+        "column": 1,
+        "path": "chap21/p@107048",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107116",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107116/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3817508,
+        "end": 3817543,
+        "line": 141123,
+        "column": 1,
+        "path": "chap21/p@107116",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107155",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nVery well met, and welcome.\nWhat is the news from this good deputy?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107155/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107155/line-2",
+          "start": 6,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107155/line-3",
+          "start": 34,
+          "end": 73,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3817547,
+        "end": 3817655,
+        "line": 141125,
+        "column": 1,
+        "path": "chap21/p@107155",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107267",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nHe hath a garden circummured with brick,\nWhose western side is with a vineyard backed;\nAnd to that vineyard is a planched gate\nThat makes his opening with this bigger key.\nThis other doth command a little door\nWhich from the vineyard to the garden leads;\nThere have I made my promise, upon the\nHeavy middle of the night to call on him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-3",
+          "start": 51,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-4",
+          "start": 97,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-5",
+          "start": 137,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-6",
+          "start": 182,
+          "end": 219,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-7",
+          "start": 220,
+          "end": 264,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-8",
+          "start": 265,
+          "end": 303,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107267/line-9",
+          "start": 304,
+          "end": 345,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3817659,
+        "end": 3818069,
+        "line": 141131,
+        "column": 1,
+        "path": "chap21/p@107267",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107681",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nBut shall you on your knowledge find this way?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107681/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107681/line-2",
+          "start": 6,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3818073,
+        "end": 3818155,
+        "line": 141143,
+        "column": 1,
+        "path": "chap21/p@107681",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107767",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nI have ta’en a due and wary note upon’t;\nWith whispering and most guilty diligence,\nIn action all of precept, he did show me\nThe way twice o’er.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107767/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107767/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107767/line-3",
+          "start": 51,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107767/line-4",
+          "start": 94,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107767/line-5",
+          "start": 135,
+          "end": 154,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3818159,
+        "end": 3818358,
+        "line": 141148,
+        "column": 1,
+        "path": "chap21/p@107767",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@107970",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nAre there no other tokens\nBetween you ’greed concerning her observance?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107970/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107970/line-2",
+          "start": 6,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@107970/line-3",
+          "start": 32,
+          "end": 77,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3818362,
+        "end": 3818474,
+        "line": 141156,
+        "column": 1,
+        "path": "chap21/p@107970",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108086",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nNo, none, but only a repair i’ th’ dark,\nAnd that I have possessed him my most stay\nCan be but brief, for I have made him know\nI have a servant comes with me along,\nThat stays upon me; whose persuasion is\nI come about my brother.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-3",
+          "start": 51,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-4",
+          "start": 94,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-5",
+          "start": 137,
+          "end": 174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-6",
+          "start": 175,
+          "end": 214,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108086/line-7",
+          "start": 215,
+          "end": 239,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3818478,
+        "end": 3818772,
+        "line": 141162,
+        "column": 1,
+        "path": "chap21/p@108086",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108384",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\n’Tis well borne up.\nI have not yet made known to Mariana\nA word of this.—What ho, within! Come forth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108384/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108384/line-2",
+          "start": 6,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108384/line-3",
+          "start": 26,
+          "end": 62,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108384/line-4",
+          "start": 63,
+          "end": 107,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3818776,
+        "end": 3818923,
+        "line": 141172,
+        "column": 1,
+        "path": "chap21/p@108384",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108535",
       "type": "stage",
-      "text": "Enter Isabella."
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Mariana.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "I do constantly believe you. The time is come even now. I shall crave your forbearance a little. Maybe I will call upon you anon for some advantage to yourself.",
-          "plainText": "I do constantly believe you The time is come even now I shall crave your forbearance a little Maybe I will call upon you anon for some advantage to yourself",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.1/p@108535/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3818927,
+        "end": 3819000,
+        "line": 141179,
+        "column": 1,
+        "path": "chap21/p@108535",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
+      "id": "measure-for-measure/sceneIV_21.1/p@108612",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I pray you be acquainted with this maid;\nShe comes to do you good.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "I am always bound to you.",
-          "plainText": "I am always bound to you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.1/p@108612/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108612/line-2",
+          "start": 41,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3819004,
+        "end": 3819100,
+        "line": 141183,
+        "column": 1,
+        "path": "chap21/p@108612",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-stage-005",
+      "id": "measure-for-measure/sceneIV_21.1/p@108712",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nI do desire the like.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108712/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108712/line-2",
+          "start": 10,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819104,
+        "end": 3819165,
+        "line": 141188,
+        "column": 1,
+        "path": "chap21/p@108712",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108777",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nDo you persuade yourself that I respect you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108777/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108777/line-2",
+          "start": 6,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819169,
+        "end": 3819249,
+        "line": 141193,
+        "column": 1,
+        "path": "chap21/p@108777",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108861",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nGood friar, I know you do, and have found it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108861/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108861/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819253,
+        "end": 3819337,
+        "line": 141198,
+        "column": 1,
+        "path": "chap21/p@108861",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@108949",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nTake, then, this your companion by the hand,\nWho hath a story ready for your ear.\nI shall attend your leisure; but make haste.\nThe vaporous night approaches.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108949/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108949/line-2",
+          "start": 6,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108949/line-3",
+          "start": 51,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108949/line-4",
+          "start": 88,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@108949/line-5",
+          "start": 133,
+          "end": 163,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819341,
+        "end": 3819549,
+        "line": 141203,
+        "column": 1,
+        "path": "chap21/p@108949",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@109161",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nWill’t please you walk aside?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109161/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109161/line-2",
+          "start": 9,
+          "end": 38,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819553,
+        "end": 3819621,
+        "line": 141211,
+        "column": 1,
+        "path": "chap21/p@109161",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@109233",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Mariana and Isabella.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 20,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 29
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109233/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819625,
+        "end": 3819748,
+        "line": 141216,
+        "column": 1,
+        "path": "chap21/p@109233",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@109360",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nO place and greatness, millions of false eyes\nAre stuck upon thee; volumes of report\nRun with these false, and most contrarious quest\nUpon thy doings; thousand escapes of wit\nMake thee the father of their idle dream\nAnd rack thee in their fancies.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-2",
+          "start": 6,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-3",
+          "start": 52,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-4",
+          "start": 91,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-5",
+          "start": 140,
+          "end": 180,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-6",
+          "start": 181,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109360/line-7",
+          "start": 222,
+          "end": 253,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3819752,
+        "end": 3820060,
+        "line": 141221,
+        "column": 1,
+        "path": "chap21/p@109360",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@109672",
       "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Mariana and Isabella.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 18,
+          "end": 26,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Very well met, and welcome.",
-          "plainText": "Very well met and welcome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "What is the news from this good deputy?",
-          "plainText": "What is the news from this good deputy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@109672/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820064,
+        "end": 3820181,
+        "line": 141231,
+        "column": 1,
+        "path": "chap21/p@109672",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
-      },
+      "id": "measure-for-measure/sceneIV_21.1/p@109793",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Welcome; how agreed?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "He hath a garden circummured with brick,",
-          "plainText": "He hath a garden circummured with brick",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "Whose western side is with a vineyard backed;",
-          "plainText": "Whose western side is with a vineyard backed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 3,
-          "text": "And to that vineyard is a planched gate",
-          "plainText": "And to that vineyard is a planched gate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 4,
-          "text": "That makes his opening with this bigger key.",
-          "plainText": "That makes his opening with this bigger key",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 5,
-          "text": "This other doth command a little door",
-          "plainText": "This other doth command a little door",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 6,
-          "text": "Which from the vineyard to the garden leads;",
-          "plainText": "Which from the vineyard to the garden leads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 7,
-          "text": "There have I made my promise, upon the",
-          "plainText": "There have I made my promise upon the",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 8,
-          "text": "Heavy middle of the night to call on him.",
-          "plainText": "Heavy middle of the night to call on him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@109793/line-1",
+          "start": 0,
+          "end": 20,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820185,
+        "end": 3820230,
+        "line": 141236,
+        "column": 1,
+        "path": "chap21/p@109793",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-009",
+      "id": "measure-for-measure/sceneIV_21.1/p@109842",
       "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nShe’ll take the enterprise upon her, father,\nIf you advise it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "But shall you on your knowledge find this way?",
-          "plainText": "But shall you on your knowledge find this way",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.1/p@109842/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109842/line-2",
+          "start": 10,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@109842/line-3",
+          "start": 55,
+          "end": 72,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820234,
+        "end": 3820341,
+        "line": 141240,
+        "column": 1,
+        "path": "chap21/p@109842",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-010",
+      "id": "measure-for-measure/sceneIV_21.1/p@109953",
       "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nIt is not my consent,\nBut my entreaty too.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "I have ta'en a due and wary note upon't;",
-          "plainText": "I have ta'en a due and wary note upon't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@109953/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 2,
-          "text": "With whispering and most guilty diligence,",
-          "plainText": "With whispering and most guilty diligence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@109953/line-2",
+          "start": 6,
+          "end": 27,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 3,
-          "text": "In action all of precept, he did show me",
-          "plainText": "In action all of precept he did show me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 4,
-          "text": "The way twice o'er.",
-          "plainText": "The way twice o'er",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@109953/line-3",
+          "start": 28,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820345,
+        "end": 3820428,
+        "line": 141246,
+        "column": 1,
+        "path": "chap21/p@109953",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-011",
+      "id": "measure-for-measure/sceneIV_21.1/p@110040",
       "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ISABELLA.\nLittle have you to say\nWhen you depart from him, but, soft and low,\n“Remember now my brother.”",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Are there no other tokens",
-          "plainText": "Are there no other tokens",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110040/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Between you 'greed concerning her observance?",
-          "plainText": "Between you 'greed concerning her observance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110040/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110040/line-3",
+          "start": 33,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110040/line-4",
+          "start": 78,
+          "end": 104,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820432,
+        "end": 3820576,
+        "line": 141252,
+        "column": 1,
+        "path": "chap21/p@110040",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "ISABELLA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-012",
+      "id": "measure-for-measure/sceneIV_21.1/p@110188",
       "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARIANA.\nFear me not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "No, none, but only a repair i' th' dark,",
-          "plainText": "No none but only a repair i' th' dark",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110188/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 2,
-          "text": "And that I have possessed him my most stay",
-          "plainText": "And that I have possessed him my most stay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 3,
-          "text": "Can be but brief, for I have made him know",
-          "plainText": "Can be but brief for I have made him know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 4,
-          "text": "I have a servant comes with me along,",
-          "plainText": "I have a servant comes with me along",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 5,
-          "text": "That stays upon me; whose persuasion is",
-          "plainText": "That stays upon me whose persuasion is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 6,
-          "text": "I come about my brother.",
-          "plainText": "I come about my brother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110188/line-2",
+          "start": 9,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3820580,
+        "end": 3820631,
+        "line": 141259,
+        "column": 1,
+        "path": "chap21/p@110188",
+        "anchor": "sceneIV_21.1"
+      },
+      "speakerLabel": "MARIANA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "measure-for-measure-4-1-speech-013",
+      "id": "measure-for-measure/sceneIV_21.1/p@110243",
       "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nNor, gentle daughter, fear you not at all.\nHe is your husband on a pre-contract.\nTo bring you thus together ’tis no sin,\nSith that the justice of your title to him\nDoth flourish the deceit. Come, let us go;\nOur corn’s to reap, for yet our tithe’s to sow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "'Tis well borne up.",
-          "plainText": "'Tis well borne up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "I have not yet made known to Mariana",
-          "plainText": "I have not yet made known to Mariana",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-2",
+          "start": 6,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 3,
-          "text": "A word of this.—What ho, within! Come forth.",
-          "plainText": "A word of thisWhat ho within Come forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-3",
+          "start": 49,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-4",
+          "start": 87,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-5",
+          "start": 127,
+          "end": 169,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-6",
+          "start": 170,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.1/p@110243/line-7",
+          "start": 213,
+          "end": 260,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-stage-006",
-      "type": "stage",
-      "text": "Enter Mariana."
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
+      ],
+      "sourceRef": {
+        "start": 3820635,
+        "end": 3820950,
+        "line": 141264,
+        "column": 1,
+        "path": "chap21/p@110243",
+        "anchor": "sceneIV_21.1"
       },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.1/p@110562",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "I do desire the like.",
-          "plainText": "I do desire the like",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.1/p@110562/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
+      ],
+      "sourceRef": {
+        "start": 3820954,
+        "end": 3820991,
+        "line": 141274,
+        "column": 1,
+        "path": "chap21/p@110562",
+        "anchor": "sceneIV_21.1"
       },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Do you persuade yourself that I respect you?",
-          "plainText": "Do you persuade yourself that I respect you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Good friar, I know you do, and have found it.",
-          "plainText": "Good friar I know you do and have found it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "Take, then, this your companion by the hand,",
-          "plainText": "Take then this your companion by the hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 2,
-          "text": "Who hath a story ready for your ear.",
-          "plainText": "Who hath a story ready for your ear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 3,
-          "text": "I shall attend your leisure; but make haste.",
-          "plainText": "I shall attend your leisure but make haste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 4,
-          "text": "The vaporous night approaches.",
-          "plainText": "The vaporous night approaches",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Will't please you walk aside?",
-          "plainText": "Will't please you walk aside",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-stage-007",
-      "type": "stage",
-      "text": "[Exeunt Mariana and Isabella.]"
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "O place and greatness, millions of false eyes",
-          "plainText": "O place and greatness millions of false eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Are stuck upon thee; volumes of report",
-          "plainText": "Are stuck upon thee volumes of report",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "Run with these false, and most contrarious quest",
-          "plainText": "Run with these false and most contrarious quest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 4,
-          "text": "Upon thy doings; thousand escapes of wit",
-          "plainText": "Upon thy doings thousand escapes of wit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 5,
-          "text": "Make thee the father of their idle dream",
-          "plainText": "Make thee the father of their idle dream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 6,
-          "text": "And rack thee in their fancies.",
-          "plainText": "And rack thee in their fancies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-stage-008",
-      "type": "stage",
-      "text": "Enter Mariana and Isabella."
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "She'll take the enterprise upon her, father,",
-          "plainText": "She'll take the enterprise upon her father",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 2,
-          "text": "If you advise it.",
-          "plainText": "If you advise it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "It is not my consent,",
-          "plainText": "It is not my consent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0061",
-          "number": 61,
-          "speechLineNumber": 2,
-          "text": "But my entreaty too.",
-          "plainText": "But my entreaty too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "isabella",
-        "name": "ISABELLA",
-        "displayName": "Isabella"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "Little have you to say",
-          "plainText": "Little have you to say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0063",
-          "number": 63,
-          "speechLineNumber": 2,
-          "text": "When you depart from him, but, soft and low,",
-          "plainText": "When you depart from him but soft and low",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0064",
-          "number": 64,
-          "speechLineNumber": 3,
-          "text": "\"Remember now my brother.\"",
-          "plainText": "Remember now my brother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "mariana",
-        "name": "MARIANA",
-        "displayName": "Mariana"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "Fear me not.",
-          "plainText": "Fear me not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
-      "lines": [
-        {
-          "id": "measure-for-measure-4-1-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "Nor, gentle daughter, fear you not at all.",
-          "plainText": "Nor gentle daughter fear you not at all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0067",
-          "number": 67,
-          "speechLineNumber": 2,
-          "text": "He is your husband on a pre-contract.",
-          "plainText": "He is your husband on a precontract",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0068",
-          "number": 68,
-          "speechLineNumber": 3,
-          "text": "To bring you thus together 'tis no sin,",
-          "plainText": "To bring you thus together 'tis no sin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0069",
-          "number": 69,
-          "speechLineNumber": 4,
-          "text": "Sith that the justice of your title to him",
-          "plainText": "Sith that the justice of your title to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0070",
-          "number": 70,
-          "speechLineNumber": 5,
-          "text": "Doth flourish the deceit. Come, let us go;",
-          "plainText": "Doth flourish the deceit Come let us go",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-1-line-0071",
-          "number": 71,
-          "speechLineNumber": 6,
-          "text": "Our corn's to reap, for yet our tithe's to sow.",
-          "plainText": "Our corn's to reap for yet our tithe's to sow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-1-stage-009",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "e7d046d1e7c46c174daaf36c393ed5289ff84f42ff534dc0553d2b3039562f23"
 }

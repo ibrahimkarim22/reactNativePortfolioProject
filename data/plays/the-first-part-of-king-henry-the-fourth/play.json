@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "the-first-part-of-king-henry-the-fourth",
-  "title": "The First Part of King Henry the Fourth",
-  "fullTitle": "The First Part of King Henry the Fourth",
+  "title": "THE FIRST PART OF KING HENRY THE FOURTH",
   "author": "William Shakespeare",
   "genre": "History",
+  "fullTitle": "THE FIRST PART OF KING HENRY THE FOURTH",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap09"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,25 +33,25 @@
           "scene": 1,
           "id": "the-first-part-of-king-henry-the-fourth-1-1",
           "label": "Act 1, Scene 1",
-          "title": "London. A Room in the Palace.",
+          "title": "SCENE I. London. A Room in the Palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 107
+          "lineCount": 120
         },
         {
           "scene": 2,
           "id": "the-first-part-of-king-henry-the-fourth-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The same. An Apartment of Prince Henry's.",
+          "title": "SCENE II. The same. An Apartment of Prince Henry’s.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 84
+          "lineCount": 153
         },
         {
           "scene": 3,
           "id": "the-first-part-of-king-henry-the-fourth-1-3",
           "label": "Act 1, Scene 3",
-          "title": "The Same. A Room in the Palace.",
+          "title": "SCENE III. The Same. A Room in the Palace.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 309
+          "lineCount": 371
         }
       ]
     },
@@ -54,33 +62,33 @@
           "scene": 1,
           "id": "the-first-part-of-king-henry-the-fourth-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Rochester. An Inn-Yard.",
+          "title": "SCENE I. Rochester. An Inn-Yard.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 32
+          "lineCount": 71
         },
         {
           "scene": 2,
           "id": "the-first-part-of-king-henry-the-fourth-2-2",
           "label": "Act 2, Scene 2",
-          "title": "The Road by Gads-hill.",
+          "title": "SCENE II. The Road by Gads-hill.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 53
+          "lineCount": 115
         },
         {
           "scene": 3,
           "id": "the-first-part-of-king-henry-the-fourth-2-3",
           "label": "Act 2, Scene 3",
-          "title": "Warkworth. A Room in the Castle.",
+          "title": "SCENE III. Warkworth. A Room in the Castle.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 84
+          "lineCount": 114
         },
         {
           "scene": 4,
           "id": "the-first-part-of-king-henry-the-fourth-2-4",
           "label": "Act 2, Scene 4",
-          "title": "Eastcheap. A Room in the Boar's Head Tavern.",
+          "title": "SCENE IV. Eastcheap. A Room in the Boar’s Head Tavern.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 214
+          "lineCount": 445
         }
       ]
     },
@@ -91,25 +99,25 @@
           "scene": 1,
           "id": "the-first-part-of-king-henry-the-fourth-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Bangor. A Room in the Archdeacon's House.",
+          "title": "SCENE I. Bangor. A Room in the Archdeacon’s House.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 252
+          "lineCount": 345
         },
         {
           "scene": 2,
           "id": "the-first-part-of-king-henry-the-fourth-3-2",
           "label": "Act 3, Scene 2",
-          "title": "London. A Room in the Palace.",
+          "title": "SCENE II. London. A Room in the Palace.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 166
+          "lineCount": 195
         },
         {
           "scene": 3,
           "id": "the-first-part-of-king-henry-the-fourth-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Eastcheap. A Room in the Boar's Head Tavern.",
+          "title": "SCENE III. Eastcheap. A Room in the Boar’s Head Tavern.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 72
+          "lineCount": 165
         }
       ]
     },
@@ -120,33 +128,33 @@
           "scene": 1,
           "id": "the-first-part-of-king-henry-the-fourth-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The Rebel Camp near Shrewsbury.",
+          "title": "SCENE I. The Rebel Camp near Shrewsbury.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 141
+          "lineCount": 180
         },
         {
           "scene": 2,
           "id": "the-first-part-of-king-henry-the-fourth-4-2",
           "label": "Act 4, Scene 2",
-          "title": "A public Road near Coventry.",
+          "title": "SCENE II. A public Road near Coventry.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 23
+          "lineCount": 51
         },
         {
           "scene": 3,
           "id": "the-first-part-of-king-henry-the-fourth-4-3",
           "label": "Act 4, Scene 3",
-          "title": "The Rebel Camp near Shrewsbury.",
+          "title": "SCENE III. The Rebel Camp near Shrewsbury.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 121
+          "lineCount": 154
         },
         {
           "scene": 4,
           "id": "the-first-part-of-king-henry-the-fourth-4-4",
           "label": "Act 4, Scene 4",
-          "title": "York. A Room in the Archbishop's Palace.",
+          "title": "SCENE IV. York. A Room in the Archbishop’s Palace.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 42
+          "lineCount": 54
         }
       ]
     },
@@ -157,43 +165,326 @@
           "scene": 1,
           "id": "the-first-part-of-king-henry-the-fourth-5-1",
           "label": "Act 5, Scene 1",
-          "title": "The King's Camp near Shrewsbury.",
+          "title": "SCENE I. The King’s Camp near Shrewsbury.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 114
+          "lineCount": 153
         },
         {
           "scene": 2,
           "id": "the-first-part-of-king-henry-the-fourth-5-2",
           "label": "Act 5, Scene 2",
-          "title": "The Rebel Camp.",
+          "title": "SCENE II. The Rebel Camp.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 102
+          "lineCount": 131
         },
         {
           "scene": 3,
           "id": "the-first-part-of-king-henry-the-fourth-5-3",
           "label": "Act 5, Scene 3",
-          "title": "Plain between the Camps.",
+          "title": "SCENE III. Plain between the Camps.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 45
+          "lineCount": 79
         },
         {
           "scene": 4,
           "id": "the-first-part-of-king-henry-the-fourth-5-4",
           "label": "Act 5, Scene 4",
-          "title": "Another Part of the Field.",
+          "title": "SCENE IV. Another Part of the Field.",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 117
+          "lineCount": 190
         },
         {
           "scene": 5,
           "id": "the-first-part-of-king-henry-the-fourth-5-5",
           "label": "Act 5, Scene 5",
-          "title": "Another Part of the Field.",
+          "title": "SCENE V. Another Part of the Field.",
           "path": "./scenes/act-5-scene-5.json",
-          "lineCount": 44
+          "lineCount": 57
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE FIRST PART OF KING HENRY THE FOURTH"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-contents-79",
+      "kind": "contents",
+      "path": "./sections/contents-79.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-cast-2470",
+      "kind": "cast",
+      "path": "./sections/cast-2470.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-setting-3349",
+      "kind": "setting",
+      "path": "./sections/setting-3349.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE. England and Wales."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-act-3448",
+      "kind": "act",
+      "path": "./sections/act-3448.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-3448",
+      "orderInPlay": 6,
+      "heading": "SCENE I. London. A Room in the Palace."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-3448",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The same. An Apartment of Prince Henry’s."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-3448",
+      "orderInPlay": 8,
+      "heading": "SCENE III. The Same. A Room in the Palace."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-act-38277",
+      "kind": "act",
+      "path": "./sections/act-38277.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 9,
+      "heading": "ACT II"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-38277",
+      "orderInPlay": 10,
+      "heading": "SCENE I. Rochester. An Inn-Yard."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-38277",
+      "orderInPlay": 11,
+      "heading": "SCENE II. The Road by Gads-hill."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-38277",
+      "orderInPlay": 12,
+      "heading": "SCENE III. Warkworth. A Room in the Castle."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-38277",
+      "orderInPlay": 13,
+      "heading": "SCENE IV. Eastcheap. A Room in the Boar’s Head Tavern."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-act-93200",
+      "kind": "act",
+      "path": "./sections/act-93200.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT III"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-93200",
+      "orderInPlay": 15,
+      "heading": "SCENE I. Bangor. A Room in the Archdeacon’s House."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-93200",
+      "orderInPlay": 16,
+      "heading": "SCENE II. London. A Room in the Palace."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-93200",
+      "orderInPlay": 17,
+      "heading": "SCENE III. Eastcheap. A Room in the Boar’s Head Tavern."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-act-131403",
+      "kind": "act",
+      "path": "./sections/act-131403.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 18,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-131403",
+      "orderInPlay": 19,
+      "heading": "SCENE I. The Rebel Camp near Shrewsbury."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-131403",
+      "orderInPlay": 20,
+      "heading": "SCENE II. A public Road near Coventry."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-131403",
+      "orderInPlay": 21,
+      "heading": "SCENE III. The Rebel Camp near Shrewsbury."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-131403",
+      "orderInPlay": 22,
+      "heading": "SCENE IV. York. A Room in the Archbishop’s Palace."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "kind": "act",
+      "path": "./sections/act-153811.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 23,
+      "heading": "ACT V"
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "orderInPlay": 24,
+      "heading": "SCENE I. The King’s Camp near Shrewsbury."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "orderInPlay": 25,
+      "heading": "SCENE II. The Rebel Camp."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "orderInPlay": 26,
+      "heading": "SCENE III. Plain between the Camps."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "orderInPlay": 27,
+      "heading": "SCENE IV. Another Part of the Field."
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth-5-5",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-5.json",
+      "act": 5,
+      "scene": 5,
+      "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-153811",
+      "orderInPlay": 28,
+      "heading": "SCENE V. Another Part of the Field."
+    }
+  ],
+  "contentVersion": "077e475bcd5c51971441e2a3fd683e27887022cdeb68b1f9c745d119753e76f4"
 }

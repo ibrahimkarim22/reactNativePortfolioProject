@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "titus-andronicus",
-  "title": "The Tragedy of Titus Andronicus",
-  "fullTitle": "The Tragedy of Titus Andronicus",
+  "title": "THE TRAGEDY OF TITUS ANDRONICUS",
   "author": "William Shakespeare",
   "genre": "Tragedy",
+  "fullTitle": "THE TRAGEDY OF TITUS ANDRONICUS",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap34"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,9 +33,9 @@
           "scene": 1,
           "id": "titus-andronicus-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Rome. Before the Capitol",
+          "title": "SCENE I. Rome. Before the Capitol",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 483
+          "lineCount": 642
         }
       ]
     },
@@ -38,33 +46,33 @@
           "scene": 1,
           "id": "titus-andronicus-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Rome. Before the palace",
+          "title": "SCENE I. Rome. Before the palace",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 142
+          "lineCount": 175
         },
         {
           "scene": 2,
           "id": "titus-andronicus-2-2",
           "label": "Act 2, Scene 2",
-          "title": "A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
+          "title": "SCENE II. A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 25
+          "lineCount": 40
         },
         {
           "scene": 3,
           "id": "titus-andronicus-2-3",
           "label": "Act 2, Scene 3",
-          "title": "A lonely part of the Forest",
+          "title": "SCENE III. A lonely part of the Forest",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 306
+          "lineCount": 403
         },
         {
           "scene": 4,
           "id": "titus-andronicus-2-4",
           "label": "Act 2, Scene 4",
-          "title": "Another part of the Forest",
+          "title": "SCENE IV. Another part of the Forest",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 57
+          "lineCount": 70
         }
       ]
     },
@@ -75,17 +83,17 @@
           "scene": 1,
           "id": "titus-andronicus-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Rome. A street",
+          "title": "SCENE I. Rome. A street",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 287
+          "lineCount": 375
         },
         {
           "scene": 2,
           "id": "titus-andronicus-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Rome. A Room in Titus's House. A banquet set out",
+          "title": "SCENE II. Rome. A Room in Titus’s House. A banquet set out",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 84
+          "lineCount": 103
         }
       ]
     },
@@ -96,33 +104,33 @@
           "scene": 1,
           "id": "titus-andronicus-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Rome. Before Titus's House",
+          "title": "SCENE I. Rome. Before Titus’s House",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 123
+          "lineCount": 169
         },
         {
           "scene": 2,
           "id": "titus-andronicus-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Rome. A Room in the Palace",
+          "title": "SCENE II. Rome. A Room in the Palace",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 158
+          "lineCount": 255
         },
         {
           "scene": 3,
           "id": "titus-andronicus-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Rome. A public Place",
+          "title": "SCENE III. Rome. A public Place",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 94
+          "lineCount": 141
         },
         {
           "scene": 4,
           "id": "titus-andronicus-4-4",
           "label": "Act 4, Scene 4",
-          "title": "Rome. Before the Palace",
+          "title": "SCENE IV. Rome. Before the Palace",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 108
+          "lineCount": 139
         }
       ]
     },
@@ -133,27 +141,260 @@
           "scene": 1,
           "id": "titus-andronicus-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Plains near Rome",
+          "title": "SCENE I. Plains near Rome",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 166
+          "lineCount": 207
         },
         {
           "scene": 2,
           "id": "titus-andronicus-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Rome. Before Titus's House",
+          "title": "SCENE II. Rome. Before Titus’s House",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 188
+          "lineCount": 260
         },
         {
           "scene": 3,
           "id": "titus-andronicus-5-3",
           "label": "Act 5, Scene 3",
-          "title": "Rome. A Pavilion in Titus's Gardens, with tables, &c.",
+          "title": "SCENE III. Rome. A Pavilion in Titus’s Gardens, with tables, &c.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 195
+          "lineCount": 259
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "titus-andronicus-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE TRAGEDY OF TITUS ANDRONICUS"
+    },
+    {
+      "id": "titus-andronicus-contents-116",
+      "kind": "contents",
+      "path": "./sections/contents-116.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "titus-andronicus-cast-1976",
+      "kind": "cast",
+      "path": "./sections/cast-1976.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "titus-andronicus-setting-3165",
+      "kind": "setting",
+      "path": "./sections/setting-3165.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Rome, and the Country near it"
+    },
+    {
+      "id": "titus-andronicus-act-3275",
+      "kind": "act",
+      "path": "./sections/act-3275.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "titus-andronicus-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "titus-andronicus-act-3275",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Rome. Before the Capitol"
+    },
+    {
+      "id": "titus-andronicus-act-34748",
+      "kind": "act",
+      "path": "./sections/act-34748.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 7,
+      "heading": "ACT II"
+    },
+    {
+      "id": "titus-andronicus-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "titus-andronicus-act-34748",
+      "orderInPlay": 8,
+      "heading": "SCENE I. Rome. Before the palace"
+    },
+    {
+      "id": "titus-andronicus-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "titus-andronicus-act-34748",
+      "orderInPlay": 9,
+      "heading": "SCENE II. A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard"
+    },
+    {
+      "id": "titus-andronicus-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "titus-andronicus-act-34748",
+      "orderInPlay": 10,
+      "heading": "SCENE III. A lonely part of the Forest"
+    },
+    {
+      "id": "titus-andronicus-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "titus-andronicus-act-34748",
+      "orderInPlay": 11,
+      "heading": "SCENE IV. Another part of the Forest"
+    },
+    {
+      "id": "titus-andronicus-act-67689",
+      "kind": "act",
+      "path": "./sections/act-67689.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 12,
+      "heading": "ACT III"
+    },
+    {
+      "id": "titus-andronicus-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "titus-andronicus-act-67689",
+      "orderInPlay": 13,
+      "heading": "SCENE I. Rome. A street"
+    },
+    {
+      "id": "titus-andronicus-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "titus-andronicus-act-67689",
+      "orderInPlay": 14,
+      "heading": "SCENE II. Rome. A Room in Titus’s House. A banquet set out"
+    },
+    {
+      "id": "titus-andronicus-act-90901",
+      "kind": "act",
+      "path": "./sections/act-90901.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 15,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "titus-andronicus-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "titus-andronicus-act-90901",
+      "orderInPlay": 16,
+      "heading": "SCENE I. Rome. Before Titus’s House"
+    },
+    {
+      "id": "titus-andronicus-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "titus-andronicus-act-90901",
+      "orderInPlay": 17,
+      "heading": "SCENE II. Rome. A Room in the Palace"
+    },
+    {
+      "id": "titus-andronicus-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "titus-andronicus-act-90901",
+      "orderInPlay": 18,
+      "heading": "SCENE III. Rome. A public Place"
+    },
+    {
+      "id": "titus-andronicus-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "titus-andronicus-act-90901",
+      "orderInPlay": 19,
+      "heading": "SCENE IV. Rome. Before the Palace"
+    },
+    {
+      "id": "titus-andronicus-act-125473",
+      "kind": "act",
+      "path": "./sections/act-125473.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 20,
+      "heading": "ACT V"
+    },
+    {
+      "id": "titus-andronicus-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "titus-andronicus-act-125473",
+      "orderInPlay": 21,
+      "heading": "SCENE I. Plains near Rome"
+    },
+    {
+      "id": "titus-andronicus-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "titus-andronicus-act-125473",
+      "orderInPlay": 22,
+      "heading": "SCENE II. Rome. Before Titus’s House"
+    },
+    {
+      "id": "titus-andronicus-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "titus-andronicus-act-125473",
+      "orderInPlay": 23,
+      "heading": "SCENE III. Rome. A Pavilion in Titus’s Gardens, with tables, &c."
+    }
+  ],
+  "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74"
 }

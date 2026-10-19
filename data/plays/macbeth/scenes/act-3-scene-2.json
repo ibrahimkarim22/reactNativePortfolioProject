@@ -1,827 +1,1092 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-3-2",
+    "kind": "scene",
+    "heading": "SCENE II. The same. Another Room in the Palace.",
     "act": 3,
     "scene": 2,
-    "label": "Act 3, Scene 2",
-    "title": "SCENE II. The same. Another Room in the Palace.",
-    "location": "The same. Another Room in the Palace.",
-    "orderInPlay": 13
+    "parentSectionId": "macbeth-act-59279",
+    "orderInPlay": 20,
+    "sourceRef": {
+      "start": 3632591,
+      "end": 3632682,
+      "line": 133803,
+      "column": 1,
+      "path": "chap20/h3@68399",
+      "anchor": "sceneIII_20.2"
+    }
   },
   "content": [
     {
-      "id": "macbeth-3-2-stage-001",
+      "id": "macbeth/sceneIII_20.2/h3@68399",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. The same. Another Room in the Palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/h3@68399/line-1",
+          "start": 0,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3632591,
+        "end": 3632682,
+        "line": 133803,
+        "column": 1,
+        "path": "chap20/h3@68399",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68494",
       "type": "stage",
-      "text": "Enter Lady Macbeth and a Servant."
-    },
-    {
-      "id": "macbeth-3-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lady Macbeth and a Servant.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "macbeth-3-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Is Banquo gone from court?",
-          "plainText": "Is Banquo gone from court",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-3-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
-      "lines": [
-        {
-          "id": "macbeth-3-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Ay, madam, but returns again tonight.",
-          "plainText": "Ay madam but returns again tonight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-3-2-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-3-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Say to the King, I would attend his leisure",
-          "plainText": "Say to the King I would attend his leisure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
         },
         {
-          "id": "macbeth-3-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "For a few words.",
-          "plainText": "For a few words",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 25,
+          "end": 32,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "macbeth-3-2-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      ],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Madam, I will.",
-          "plainText": "Madam I will",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.2/p@68494/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3632686,
+        "end": 3632805,
+        "line": 133806,
+        "column": 1,
+        "path": "chap20/p@68494",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-3-2-stage-002",
+      "id": "macbeth/sceneIII_20.2/p@68617",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nIs Banquo gone from court?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68617/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68617/line-2",
+          "start": 14,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3632809,
+        "end": 3632879,
+        "line": 133809,
+        "column": 1,
+        "path": "chap20/p@68617",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68691",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nAy, madam, but returns again tonight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68691/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68691/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3632883,
+        "end": 3632959,
+        "line": 133814,
+        "column": 1,
+        "path": "chap20/p@68691",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68771",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nSay to the King, I would attend his leisure\nFor a few words.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68771/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68771/line-2",
+          "start": 14,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68771/line-3",
+          "start": 58,
+          "end": 74,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3632963,
+        "end": 3633072,
+        "line": 133819,
+        "column": 1,
+        "path": "chap20/p@68771",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68884",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nMadam, I will.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68884/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68884/line-2",
+          "start": 9,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3633076,
+        "end": 3633129,
+        "line": 133825,
+        "column": 1,
+        "path": "chap20/p@68884",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68941",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68941/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3633133,
+        "end": 3633168,
+        "line": 133830,
+        "column": 1,
+        "path": "chap20/p@68941",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@68980",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nNaught’s had, all’s spent,\nWhere our desire is got without content:\n’Tis safer to be that which we destroy,\nThan by destruction dwell in doubtful joy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@68980/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68980/line-2",
+          "start": 14,
+          "end": 40,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68980/line-3",
+          "start": 41,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68980/line-4",
+          "start": 82,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@68980/line-5",
+          "start": 122,
+          "end": 164,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3633172,
+        "end": 3633381,
+        "line": 133832,
+        "column": 1,
+        "path": "chap20/p@68980",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@69193",
       "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "macbeth-3-2-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Naught's had, all's spent,",
-          "plainText": "Naught's had all's spent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "Where our desire is got without content:",
-          "plainText": "Where our desire is got without content",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "'Tis safer to be that which we destroy,",
-          "plainText": "'Tis safer to be that which we destroy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 4,
-          "text": "Than by destruction dwell in doubtful joy.",
-          "plainText": "Than by destruction dwell in doubtful joy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69193/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-3-2-stage-003",
-      "type": "stage",
-      "text": "Enter Macbeth."
-    },
-    {
-      "id": "macbeth-3-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
+      ],
+      "sourceRef": {
+        "start": 3633385,
+        "end": 3633454,
+        "line": 133840,
+        "column": 1,
+        "path": "chap20/p@69193",
+        "anchor": "sceneIII_20.2"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@69266",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "How now, my lord, why do you keep alone,\nOf sorriest fancies your companions making,\nUsing those thoughts which should indeed have died\nWith them they think on? Things without all remedy\nShould be without regard: what’s done is done.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "We have scorch'd the snake, not kill'd it.",
-          "plainText": "We have scorch'd the snake not kill'd it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69266/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "She'll close, and be herself; whilst our poor malice",
-          "plainText": "She'll close and be herself whilst our poor malice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69266/line-2",
+          "start": 41,
+          "end": 84,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "Remains in danger of her former tooth.",
-          "plainText": "Remains in danger of her former tooth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69266/line-3",
+          "start": 85,
+          "end": 135,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "But let the frame of things disjoint,",
-          "plainText": "But let the frame of things disjoint",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69266/line-4",
+          "start": 136,
+          "end": 186,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 5,
-          "text": "Both the worlds suffer,",
-          "plainText": "Both the worlds suffer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 6,
-          "text": "Ere we will eat our meal in fear, and sleep",
-          "plainText": "Ere we will eat our meal in fear and sleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 7,
-          "text": "In the affliction of these terrible dreams",
-          "plainText": "In the affliction of these terrible dreams",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 8,
-          "text": "That shake us nightly. Better be with the dead,",
-          "plainText": "That shake us nightly Better be with the dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 9,
-          "text": "Whom we, to gain our peace, have sent to peace,",
-          "plainText": "Whom we to gain our peace have sent to peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 10,
-          "text": "Than on the torture of the mind to lie",
-          "plainText": "Than on the torture of the mind to lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 11,
-          "text": "In restless ecstasy. Duncan is in his grave;",
-          "plainText": "In restless ecstasy Duncan is in his grave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 12,
-          "text": "After life's fitful fever he sleeps well;",
-          "plainText": "After life's fitful fever he sleeps well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 13,
-          "text": "Treason has done his worst: nor steel, nor poison,",
-          "plainText": "Treason has done his worst nor steel nor poison",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 14,
-          "text": "Malice domestic, foreign levy, nothing",
-          "plainText": "Malice domestic foreign levy nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 15,
-          "text": "Can touch him further.",
-          "plainText": "Can touch him further",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69266/line-5",
+          "start": 187,
+          "end": 233,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3633458,
+        "end": 3633736,
+        "line": 133842,
+        "column": 1,
+        "path": "chap20/p@69266",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-3-2-speech-007",
+      "id": "macbeth/sceneIII_20.2/p@69548",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nWe have scorch’d the snake, not kill’d it.\nShe’ll close, and be herself; whilst our poor malice\nRemains in danger of her former tooth.\nBut let the frame of things disjoint,\nBoth the worlds suffer,\nEre we will eat our meal in fear, and sleep\nIn the affliction of these terrible dreams\nThat shake us nightly. Better be with the dead,\nWhom we, to gain our peace, have sent to peace,\nThan on the torture of the mind to lie\nIn restless ecstasy. Duncan is in his grave;\nAfter life’s fitful fever he sleeps well;\nTreason has done his worst: nor steel, nor poison,\nMalice domestic, foreign levy, nothing\nCan touch him further.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Come on,",
-          "plainText": "Come on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69548/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "Gently my lord, sleek o'er your rugged looks;",
-          "plainText": "Gently my lord sleek o'er your rugged looks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69548/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Be bright and jovial among your guests tonight.",
-          "plainText": "Be bright and jovial among your guests tonight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@69548/line-3",
+          "start": 52,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-4",
+          "start": 105,
+          "end": 143,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-5",
+          "start": 144,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-6",
+          "start": 182,
+          "end": 205,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-7",
+          "start": 206,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-8",
+          "start": 250,
+          "end": 292,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-9",
+          "start": 293,
+          "end": 340,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-10",
+          "start": 341,
+          "end": 388,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-11",
+          "start": 389,
+          "end": 427,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-12",
+          "start": 428,
+          "end": 472,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-13",
+          "start": 473,
+          "end": 514,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-14",
+          "start": 515,
+          "end": 565,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-15",
+          "start": 566,
+          "end": 604,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@69548/line-16",
+          "start": 605,
+          "end": 627,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3633740,
+        "end": 3634467,
+        "line": 133850,
+        "column": 1,
+        "path": "chap20/p@69548",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-3-2-speech-008",
+      "id": "macbeth/sceneIII_20.2/p@70279",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nCome on,\nGently my lord, sleek o’er your rugged looks;\nBe bright and jovial among your guests tonight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "So shall I, love; and so, I pray, be you.",
-          "plainText": "So shall I love and so I pray be you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70279/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 2,
-          "text": "Let your remembrance apply to Banquo;",
-          "plainText": "Let your remembrance apply to Banquo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70279/line-2",
+          "start": 14,
+          "end": 22,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 3,
-          "text": "Present him eminence, both with eye and tongue:",
-          "plainText": "Present him eminence both with eye and tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70279/line-3",
+          "start": 23,
+          "end": 68,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 4,
-          "text": "Unsafe the while, that we",
-          "plainText": "Unsafe the while that we",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 5,
-          "text": "Must lave our honours in these flattering streams,",
-          "plainText": "Must lave our honours in these flattering streams",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 6,
-          "text": "And make our faces vizards to our hearts,",
-          "plainText": "And make our faces vizards to our hearts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 7,
-          "text": "Disguising what they are.",
-          "plainText": "Disguising what they are",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70279/line-4",
+          "start": 69,
+          "end": 116,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3634471,
+        "end": 3634627,
+        "line": 133869,
+        "column": 1,
+        "path": "chap20/p@70279",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-3-2-speech-009",
+      "id": "macbeth/sceneIII_20.2/p@70439",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nSo shall I, love; and so, I pray, be you.\nLet your remembrance apply to Banquo;\nPresent him eminence, both with eye and tongue:\nUnsafe the while, that we\nMust lave our honours in these flattering streams,\nAnd make our faces vizards to our hearts,\nDisguising what they are.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "You must leave this.",
-          "plainText": "You must leave this",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.2/p@70439/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-3",
+          "start": 51,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-4",
+          "start": 89,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-5",
+          "start": 137,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-6",
+          "start": 163,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-7",
+          "start": 214,
+          "end": 255,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70439/line-8",
+          "start": 256,
+          "end": 281,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3634631,
+        "end": 3634972,
+        "line": 133876,
+        "column": 1,
+        "path": "chap20/p@70439",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-3-2-speech-010",
+      "id": "macbeth/sceneIII_20.2/p@70784",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nYou must leave this.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "O, full of scorpions is my mind, dear wife!",
-          "plainText": "O full of scorpions is my mind dear wife",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70784/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "Thou know'st that Banquo, and his Fleance, lives.",
-          "plainText": "Thou know'st that Banquo and his Fleance lives",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70784/line-2",
+          "start": 14,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3634976,
+        "end": 3635040,
+        "line": 133887,
+        "column": 1,
+        "path": "chap20/p@70784",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-3-2-speech-011",
+      "id": "macbeth/sceneIII_20.2/p@70852",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nO, full of scorpions is my mind, dear wife!\nThou know’st that Banquo, and his Fleance, lives.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "But in them nature's copy's not eterne.",
-          "plainText": "But in them nature's copy's not eterne",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.2/p@70852/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70852/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@70852/line-3",
+          "start": 53,
+          "end": 102,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3635044,
+        "end": 3635181,
+        "line": 133892,
+        "column": 1,
+        "path": "chap20/p@70852",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-3-2-speech-012",
+      "id": "macbeth/sceneIII_20.2/p@70993",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nBut in them nature’s copy’s not eterne.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "There's comfort yet; they are assailable.",
-          "plainText": "There's comfort yet they are assailable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70993/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "Then be thou jocund. Ere the bat hath flown",
-          "plainText": "Then be thou jocund Ere the bat hath flown",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "His cloister'd flight, ere to black Hecate's summons",
-          "plainText": "His cloister'd flight ere to black Hecate's summons",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 4,
-          "text": "The shard-born beetle, with his drowsy hums,",
-          "plainText": "The shardborn beetle with his drowsy hums",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 5,
-          "text": "Hath rung night's yawning peal, there shall be done",
-          "plainText": "Hath rung night's yawning peal there shall be done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 6,
-          "text": "A deed of dreadful note.",
-          "plainText": "A deed of dreadful note",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@70993/line-2",
+          "start": 14,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3635185,
+        "end": 3635268,
+        "line": 133898,
+        "column": 1,
+        "path": "chap20/p@70993",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-3-2-speech-013",
+      "id": "macbeth/sceneIII_20.2/p@71080",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nThere’s comfort yet; they are assailable.\nThen be thou jocund. Ere the bat hath flown\nHis cloister’d flight, ere to black Hecate’s summons\nThe shard-born beetle, with his drowsy hums,\nHath rung night’s yawning peal, there shall be done\nA deed of dreadful note.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "What's to be done?",
-          "plainText": "What's to be done",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.2/p@71080/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-3",
+          "start": 51,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-4",
+          "start": 95,
+          "end": 147,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-5",
+          "start": 148,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-6",
+          "start": 193,
+          "end": 244,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71080/line-7",
+          "start": 245,
+          "end": 269,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3635272,
+        "end": 3635596,
+        "line": 133903,
+        "column": 1,
+        "path": "chap20/p@71080",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-3-2-speech-014",
+      "id": "macbeth/sceneIII_20.2/p@71408",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nWhat’s to be done?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Be innocent of the knowledge, dearest chuck,",
-          "plainText": "Be innocent of the knowledge dearest chuck",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@71408/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Till thou applaud the deed. Come, seeling night,",
-          "plainText": "Till thou applaud the deed Come seeling night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 3,
-          "text": "Scarf up the tender eye of pitiful day,",
-          "plainText": "Scarf up the tender eye of pitiful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 4,
-          "text": "And with thy bloody and invisible hand",
-          "plainText": "And with thy bloody and invisible hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 5,
-          "text": "Cancel and tear to pieces that great bond",
-          "plainText": "Cancel and tear to pieces that great bond",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 6,
-          "text": "Which keeps me pale!—Light thickens; and the crow",
-          "plainText": "Which keeps me paleLight thickens and the crow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 7,
-          "text": "Makes wing to th' rooky wood.",
-          "plainText": "Makes wing to th' rooky wood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 8,
-          "text": "Good things of day begin to droop and drowse,",
-          "plainText": "Good things of day begin to droop and drowse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 9,
-          "text": "Whiles night's black agents to their preys do rouse.",
-          "plainText": "Whiles night's black agents to their preys do rouse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 10,
-          "text": "Thou marvell'st at my words: but hold thee still;",
-          "plainText": "Thou marvell'st at my words but hold thee still",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 11,
-          "text": "Things bad begun make strong themselves by ill.",
-          "plainText": "Things bad begun make strong themselves by ill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 12,
-          "text": "So, pr'ythee, go with me.",
-          "plainText": "So pr'ythee go with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.2/p@71408/line-2",
+          "start": 14,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3635600,
+        "end": 3635662,
+        "line": 133913,
+        "column": 1,
+        "path": "chap20/p@71408",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-3-2-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneIII_20.2/p@71474",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nBe innocent of the knowledge, dearest chuck,\nTill thou applaud the deed. Come, seeling night,\nScarf up the tender eye of pitiful day,\nAnd with thy bloody and invisible hand\nCancel and tear to pieces that great bond\nWhich keeps me pale!—Light thickens; and the crow\nMakes wing to th’ rooky wood.\nGood things of day begin to droop and drowse,\nWhiles night’s black agents to their preys do rouse.\nThou marvell’st at my words: but hold thee still;\nThings bad begun make strong themselves by ill.\nSo, pr’ythee, go with me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-3",
+          "start": 54,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-4",
+          "start": 103,
+          "end": 142,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-5",
+          "start": 143,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-6",
+          "start": 182,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-7",
+          "start": 224,
+          "end": 273,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-8",
+          "start": 274,
+          "end": 303,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-9",
+          "start": 304,
+          "end": 349,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-10",
+          "start": 350,
+          "end": 402,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-11",
+          "start": 403,
+          "end": 452,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-12",
+          "start": 453,
+          "end": 500,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.2/p@71474/line-13",
+          "start": 501,
+          "end": 526,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3635666,
+        "end": 3636277,
+        "line": 133918,
+        "column": 1,
+        "path": "chap20/p@71474",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.2/p@72089",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.2/p@72089/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3636281,
+        "end": 3636318,
+        "line": 133934,
+        "column": 1,
+        "path": "chap20/p@72089",
+        "anchor": "sceneIII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

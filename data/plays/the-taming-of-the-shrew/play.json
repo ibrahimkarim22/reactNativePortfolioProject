@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "the-taming-of-the-shrew",
-  "title": "The Taming of the Shrew",
-  "fullTitle": "The Taming of the Shrew",
+  "title": "THE TAMING OF THE SHREW",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "THE TAMING OF THE SHREW",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap31"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "the-taming-of-the-shrew-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Padua. A public place.",
+          "title": "SCENE I. Padua. A public place.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 212
+          "lineCount": 300
         },
         {
           "scene": 2,
           "id": "the-taming-of-the-shrew-1-2",
           "label": "Act 1, Scene 2",
-          "title": "Padua. Before Hortensio's house.",
+          "title": "SCENE II. Padua. Before Hortensio’s house.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 251
+          "lineCount": 346
         }
       ]
     },
@@ -46,9 +54,9 @@
           "scene": 1,
           "id": "the-taming-of-the-shrew-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Padua. A room in Baptista's house.",
+          "title": "SCENE I. Padua. A room in Baptista’s house.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 374
+          "lineCount": 567
         }
       ]
     },
@@ -59,17 +67,17 @@
           "scene": 1,
           "id": "the-taming-of-the-shrew-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Padua. A room in Baptista's house.",
+          "title": "SCENE I. Padua. A room in Baptista’s house.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 82
+          "lineCount": 123
         },
         {
           "scene": 2,
           "id": "the-taming-of-the-shrew-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The same. Before Baptista's house.",
+          "title": "SCENE II. The same. Before Baptista’s house.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 217
+          "lineCount": 320
         }
       ]
     },
@@ -80,41 +88,41 @@
           "scene": 1,
           "id": "the-taming-of-the-shrew-4-1",
           "label": "Act 4, Scene 1",
-          "title": "A hall in Petruchio's country house.",
+          "title": "SCENE I. A hall in Petruchio’s country house.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 123
+          "lineCount": 225
         },
         {
           "scene": 2,
           "id": "the-taming-of-the-shrew-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Padua. Before Baptista's house.",
+          "title": "SCENE II. Padua. Before Baptista’s house.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 125
+          "lineCount": 183
         },
         {
           "scene": 3,
           "id": "the-taming-of-the-shrew-4-3",
           "label": "Act 4, Scene 3",
-          "title": "A room in Petruchio's house.",
+          "title": "SCENE III. A room in Petruchio’s house.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 174
+          "lineCount": 270
         },
         {
           "scene": 4,
           "id": "the-taming-of-the-shrew-4-4",
           "label": "Act 4, Scene 4",
-          "title": "Padua. Before Baptista's house.",
+          "title": "SCENE IV. Padua. Before Baptista’s house.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 89
+          "lineCount": 135
         },
         {
           "scene": 5,
           "id": "the-taming-of-the-shrew-4-5",
           "label": "Act 4, Scene 5",
-          "title": "A public road.",
+          "title": "SCENE V. A public road.",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 72
+          "lineCount": 111
         }
       ]
     },
@@ -125,19 +133,262 @@
           "scene": 1,
           "id": "the-taming-of-the-shrew-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Padua. Before Lucentio's house.",
+          "title": "SCENE I. Padua. Before Lucentio’s house.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 92
+          "lineCount": 189
         },
         {
           "scene": 2,
           "id": "the-taming-of-the-shrew-5-2",
           "label": "Act 5, Scene 2",
-          "title": "A room in Lucentio's house.",
+          "title": "SCENE II. A room in Lucentio’s house.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 198
+          "lineCount": 311
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "the-taming-of-the-shrew-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE TAMING OF THE SHREW"
+    },
+    {
+      "id": "the-taming-of-the-shrew-contents-116",
+      "kind": "contents",
+      "path": "./sections/contents-116.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "the-taming-of-the-shrew-cast-2040",
+      "kind": "cast",
+      "path": "./sections/cast-2040.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "the-taming-of-the-shrew-setting-2814",
+      "kind": "setting",
+      "path": "./sections/setting-2814.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Sometimes in Padua, and sometimes in Petruchio’s house in the country."
+    },
+    {
+      "id": "the-taming-of-the-shrew-induction-2966",
+      "kind": "induction",
+      "path": "./sections/induction-2966.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "INDUCTION"
+    },
+    {
+      "id": "the-taming-of-the-shrew-induction-1",
+      "kind": "induction-scene",
+      "path": "./sections/induction-scene-3021.json",
+      "act": null,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-induction-2966",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Before an alehouse on a heath."
+    },
+    {
+      "id": "the-taming-of-the-shrew-induction-2",
+      "kind": "induction-scene",
+      "path": "./sections/induction-scene-11060.json",
+      "act": null,
+      "scene": 2,
+      "parentSectionId": "the-taming-of-the-shrew-induction-2966",
+      "orderInPlay": 7,
+      "heading": "SCENE II. A bedchamber in the Lord’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-act-19385",
+      "kind": "act",
+      "path": "./sections/act-19385.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT I"
+    },
+    {
+      "id": "the-taming-of-the-shrew-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-act-19385",
+      "orderInPlay": 9,
+      "heading": "SCENE I. Padua. A public place."
+    },
+    {
+      "id": "the-taming-of-the-shrew-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "the-taming-of-the-shrew-act-19385",
+      "orderInPlay": 10,
+      "heading": "SCENE II. Padua. Before Hortensio’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-act-49129",
+      "kind": "act",
+      "path": "./sections/act-49129.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT II"
+    },
+    {
+      "id": "the-taming-of-the-shrew-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-act-49129",
+      "orderInPlay": 12,
+      "heading": "SCENE I. Padua. A room in Baptista’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-act-73738",
+      "kind": "act",
+      "path": "./sections/act-73738.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 13,
+      "heading": "ACT III"
+    },
+    {
+      "id": "the-taming-of-the-shrew-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-act-73738",
+      "orderInPlay": 14,
+      "heading": "SCENE I. Padua. A room in Baptista’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "the-taming-of-the-shrew-act-73738",
+      "orderInPlay": 15,
+      "heading": "SCENE II. The same. Before Baptista’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-act-93994",
+      "kind": "act",
+      "path": "./sections/act-93994.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 16,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "the-taming-of-the-shrew-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-act-93994",
+      "orderInPlay": 17,
+      "heading": "SCENE I. A hall in Petruchio’s country house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "the-taming-of-the-shrew-act-93994",
+      "orderInPlay": 18,
+      "heading": "SCENE II. Padua. Before Baptista’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "the-taming-of-the-shrew-act-93994",
+      "orderInPlay": 19,
+      "heading": "SCENE III. A room in Petruchio’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "the-taming-of-the-shrew-act-93994",
+      "orderInPlay": 20,
+      "heading": "SCENE IV. Padua. Before Baptista’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "the-taming-of-the-shrew-act-93994",
+      "orderInPlay": 21,
+      "heading": "SCENE V. A public road."
+    },
+    {
+      "id": "the-taming-of-the-shrew-act-135658",
+      "kind": "act",
+      "path": "./sections/act-135658.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 22,
+      "heading": "ACT V"
+    },
+    {
+      "id": "the-taming-of-the-shrew-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "the-taming-of-the-shrew-act-135658",
+      "orderInPlay": 23,
+      "heading": "SCENE I. Padua. Before Lucentio’s house."
+    },
+    {
+      "id": "the-taming-of-the-shrew-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "the-taming-of-the-shrew-act-135658",
+      "orderInPlay": 24,
+      "heading": "SCENE II. A room in Lucentio’s house."
+    }
+  ],
+  "contentVersion": "fc1a2839f7962a8bc464c06821990aae666b276f529428c0ddcfd95885d13607"
 }

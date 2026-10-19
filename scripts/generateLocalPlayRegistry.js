@@ -1,14 +1,11 @@
 const fs = require("fs");
 const path = require("path");
-
-const DATA_ROOT = path.join(__dirname, "..", "data");
-const PLAYS_ROOT = path.join(DATA_ROOT, "plays");
-const OUTPUT_FILE = path.join(__dirname, "..", "shared", "localPlayRegistry.js");
-const MANIFEST_FILE = path.join(DATA_ROOT, "manifest.json");
+const { execFileSync } = require("child_process");
+const { computeCollectionVersion } = require("./contentVersion");
 
 const COURSE_META = [
   ["alls-well-that-ends-well", 0, "All's Well That Ends Well", "AWW", 17, "AWWimage.png", "mAWW.png"],
-  ["antony-and-cleopatra", 1, "Antony and Cleopatra", "Ant", 27, "ANTimage.png", "mAnt.png"],
+  ["antony-and-cleopatra", 1, "Antony and Cleopatra", "Ant", 27, "ANTimage.png", "mANT.png"],
   ["as-you-like-it", 2, "As You Like It", "AYL", 5, "AYLimage.jpg", "mAYL.png"],
   ["errors", 3, "The Comedy of Errors", "Err", 6, "Errimage.png", "mErr.png"],
   ["the-winters-tale", 4, "The Winter's Tale", "WT", 18, "WTimage.png", "mWT.png"],
@@ -55,95 +52,151 @@ const COURSE_META = [
   medalImage
 }));
 
-function requirePath(...parts) {
-  return "../" + parts.join("/");
-}
-
-function sortSceneFile(a, b) {
-  const scenePattern = /^act-(\d+)-scene-(\d+)\.json$/;
-  const aMatch = a.match(scenePattern);
-  const bMatch = b.match(scenePattern);
-
-  if (!aMatch || !bMatch) return a.localeCompare(b);
-
-  return Number(aMatch[1]) - Number(bMatch[1]) || Number(aMatch[2]) - Number(bMatch[2]);
-}
-
-function buildRegistryEntry(meta) {
-  const playDir = path.join(PLAYS_ROOT, meta.slug);
-
-  if (!fs.existsSync(path.join(playDir, "play.json"))) {
-    throw new Error(`Missing generated play data for ${meta.slug}`);
+function exactFile(root, relative) {
+  let current = root;
+  for (const part of relative.split("/")) {
+    if (!fs.readdirSync(current).includes(part)) {
+      throw new Error(`Missing file or incorrect path case: ${path.join(root, relative)}`);
+    }
+    current = path.join(current, part);
   }
+  if (!fs.statSync(current).isFile()) throw new Error(`Expected a file: ${current}`);
+  return current;
+}
 
-  const sceneDir = path.join(playDir, "scenes");
-  const sceneFiles = fs.existsSync(sceneDir)
-    ? fs.readdirSync(sceneDir).filter(file => file.endsWith(".json")).sort(sortSceneFile)
-    : [];
+function assetInventory(assetsRoot) {
+  const checkout = path.dirname(assetsRoot);
+  if (!fs.existsSync(path.join(checkout, ".git"))) return null;
+  // Windows can retain old directory-entry case after a Git case-only rename.
+  // Tracked names are the runtime import authority in a checkout.
+  const tracked = execFileSync("git", ["-c", `safe.directory=${checkout.replace(/\\/g, "/")}`, "ls-files", "-z", "--", "assets"], { cwd: checkout, encoding: "utf8" });
+  return new Set(tracked.split("\0").filter(Boolean).map(file => file.slice("assets/".length)));
+}
 
-  const sceneRequires = sceneFiles
-    .map(file => `      require("${requirePath("data", "plays", meta.slug, "scenes", file)}")`)
-    .join(",\n");
+function assertAsset(assetsRoot, inventory, relative) {
+  if (inventory) {
+    if (!inventory.has(relative) || !fs.existsSync(path.join(assetsRoot, relative))) {
+      throw new Error(`Missing tracked asset or incorrect path case: ${relative}`);
+    }
+  } else {
+    exactFile(assetsRoot, relative);
+  }
+}
 
-  return `  {
+function sectionPath(ref, slug) {
+  const relative = ref?.path;
+  if (typeof relative !== "string" || !/^\.\/(scenes|sections)\/[a-zA-Z0-9-]+\.json$/.test(relative)) {
+    throw new Error(`Unsafe section path for ${slug}: ${relative}`);
+  }
+  return relative.slice(2);
+}
+
+function loadBundle(meta, dataRoot, assetsRoot, inventory) {
+  const playDir = path.join(dataRoot, "plays", meta.slug);
+  const play = JSON.parse(fs.readFileSync(exactFile(playDir, "play.json"), "utf8"));
+  if (play.id !== meta.slug) throw new Error(`Play identity mismatch for ${meta.slug}`);
+  for (const file of ["characters.json", "synopsis.json", "quiz.json"]) exactFile(playDir, file);
+  assertAsset(assetsRoot, inventory, `images/${meta.mainImage}`);
+  assertAsset(assetsRoot, inventory, `medalCollection/${meta.medalImage}`);
+  const schemaTwo = String(play.schemaVersion).startsWith("2.");
+  const sceneRefs = (play.acts || []).flatMap(act => act.scenes || []);
+  const refs = schemaTwo ? play.sections : sceneRefs;
+  if (!Array.isArray(refs)) throw new Error(`Missing ordered section references for ${meta.slug}`);
+  const seen = new Set();
+  refs.forEach((ref, index) => {
+    const relative = sectionPath(ref, meta.slug);
+    if (seen.has(relative)) throw new Error(`Duplicate section path for ${meta.slug}: ${relative}`);
+    seen.add(relative);
+    const payload = JSON.parse(fs.readFileSync(exactFile(playDir, relative), "utf8"));
+    if (schemaTwo && (payload.section?.id !== ref.id || payload.work?.id !== meta.slug || payload.contentVersion !== play.contentVersion)) {
+      throw new Error(`Stale section reference for ${meta.slug}: ${relative}`);
+    }
+    if (schemaTwo && ref.orderInPlay !== index + 1) throw new Error(`Invalid section order for ${meta.slug}: ${relative}`);
+  });
+  const sceneIndexes = sceneRefs.map(ref => {
+    const relative = sectionPath(ref, meta.slug);
+    const index = refs.findIndex(section => section.path === ref.path && section.id === ref.id);
+    if (index < 0) throw new Error(`Stale ordinary scene reference for ${meta.slug}: ${relative}`);
+    return index;
+  });
+  return { meta, play, refs, sceneIndexes, schemaTwo };
+}
+
+function registryParts(bundle, index) {
+  const { meta, refs, sceneIndexes, schemaTwo } = bundle;
+  const alias = `PLAY_${index}_SECTIONS`;
+  const imports = `const ${alias} = [\n${refs.map(ref => `  require("../data/plays/${meta.slug}/${sectionPath(ref, meta.slug)}")`).join(",\n")}\n];`;
+  const entry = `  {
     id: ${JSON.stringify(meta.slug)},
     slug: ${JSON.stringify(meta.slug)},
     legacyId: ${meta.legacyId},
     name: ${JSON.stringify(meta.name)},
     code: ${JSON.stringify(meta.code)},
     difficulty: ${meta.difficulty},
-    mainImage: require("${requirePath("assets", "images", meta.mainImage)}"),
-    medalImage: require("${requirePath("assets", "medalCollection", meta.medalImage)}"),
-    play: require("${requirePath("data", "plays", meta.slug, "play.json")}"),
-    characters: require("${requirePath("data", "plays", meta.slug, "characters.json")}"),
-    synopsis: require("${requirePath("data", "plays", meta.slug, "synopsis.json")}"),
-    quiz: require("${requirePath("data", "plays", meta.slug, "quiz.json")}"),
-    scenes: [
-${sceneRequires}
-    ]
+    mainImage: require("../assets/images/${meta.mainImage}"),
+    medalImage: require("../assets/medalCollection/${meta.medalImage}"),
+    play: require("../data/plays/${meta.slug}/play.json"),
+    characters: require("../data/plays/${meta.slug}/characters.json"),
+    synopsis: require("../data/plays/${meta.slug}/synopsis.json"),
+    quiz: require("../data/plays/${meta.slug}/quiz.json"),
+    ${schemaTwo ? `sections: ${alias},\n    ` : ""}scenes: [${sceneIndexes.map(scene => `${alias}[${scene}]`).join(", ")}]
   }`;
+  return { imports, entry };
 }
 
-function writeManifest() {
-  const plays = COURSE_META.map(meta => {
-    const play = JSON.parse(
-      fs.readFileSync(path.join(PLAYS_ROOT, meta.slug, "play.json"), "utf8")
-    );
-
-    return {
-      id: meta.slug,
-      legacyId: meta.legacyId,
-      title: play.title,
-      displayName: meta.name,
-      genre: play.genre,
-      difficulty: meta.difficulty,
-      folder: `./plays/${meta.slug}/`,
-      play: `./plays/${meta.slug}/play.json`,
-      characters: `./plays/${meta.slug}/characters.json`,
-      synopsis: `./plays/${meta.slug}/synopsis.json`,
-      quiz: `./plays/${meta.slug}/quiz.json`
-    };
-  });
-
-  fs.writeFileSync(
-    MANIFEST_FILE,
-    JSON.stringify({ version: "v1", plays }, null, 2) + "\n",
-    "utf8"
-  );
+function buildManifest(bundles) {
+  const plays = bundles.map(({ meta, play, schemaTwo }) => ({
+    id: meta.slug,
+    legacyId: meta.legacyId,
+    title: play.title,
+    displayName: meta.name,
+    genre: play.genre,
+    difficulty: meta.difficulty,
+    folder: `./plays/${meta.slug}/`,
+    play: `./plays/${meta.slug}/play.json`,
+    characters: `./plays/${meta.slug}/characters.json`,
+    synopsis: `./plays/${meta.slug}/synopsis.json`,
+    quiz: `./plays/${meta.slug}/quiz.json`,
+    ...(schemaTwo ? { schemaVersion: play.schemaVersion, canonicalTextVersion: play.canonicalTextVersion, contentVersion: play.contentVersion, sections: play.sections } : {}),
+  }));
+  const schemaTwo = bundles.every(bundle => bundle.schemaTwo);
+  return schemaTwo ? {
+    version: "v2",
+    schemaVersion: "2.0.0",
+    canonicalTextVersion: "1",
+    contentVersion: computeCollectionVersion(plays.map(play => ({ workId: play.id, contentVersion: play.contentVersion }))),
+    plays,
+  } : { version: "v1", plays };
 }
 
-function main() {
-  const entries = COURSE_META.map(buildRegistryEntry).join(",\n");
-  const contents = `// This file is generated by scripts/generateLocalPlayRegistry.js.
-const LOCAL_PLAY_DATA = [
-${entries}
-];
-
-export default LOCAL_PLAY_DATA;
-`;
-
-  fs.writeFileSync(OUTPUT_FILE, contents, "utf8");
-  writeManifest();
+function generateRegistry({ dataRoot, output, assetsRoot = path.resolve(__dirname, "../assets") } = {}) {
+  if (!dataRoot || !output) throw new Error("Explicit dataRoot and output paths are required.");
+  dataRoot = path.resolve(dataRoot);
+  output = path.resolve(output);
+  assetsRoot = path.resolve(assetsRoot);
+  const inventory = assetInventory(assetsRoot);
+  const bundles = COURSE_META.map(meta => loadBundle(meta, dataRoot, assetsRoot, inventory));
+  const parts = bundles.map(registryParts);
+  const contents = `// This file is generated by scripts/generateLocalPlayRegistry.js.\n${parts.map(part => part.imports).join("\n\n")}\n\nconst LOCAL_PLAY_DATA = [\n${parts.map(part => part.entry).join(",\n")}\n];\n\nexport default LOCAL_PLAY_DATA;\n`;
+  const manifest = buildManifest(bundles);
+  fs.mkdirSync(path.dirname(output), { recursive: true });
+  fs.writeFileSync(output, contents, "utf8");
+  fs.writeFileSync(path.join(dataRoot, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n", "utf8");
+  return { output, manifest };
 }
 
-main();
+function main(argv = process.argv.slice(2)) {
+  const options = {};
+  const keys = { "--data-root": "dataRoot", "--output": "output", "--assets-root": "assetsRoot" };
+  for (let index = 0; index < argv.length; index += 2) {
+    if (!keys[argv[index]] || !argv[index + 1] || argv[index + 1].startsWith("--")) throw new Error(`Invalid registry argument: ${argv[index]}`);
+    options[keys[argv[index]]] = argv[index + 1];
+  }
+  return generateRegistry(options);
+}
+
+module.exports = { COURSE_META, generateRegistry, main };
+
+if (require.main === module) {
+  try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }
+}

@@ -1,1096 +1,1587 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "errors",
-    "title": "The Comedy of Errors",
+    "title": "THE COMEDY OF ERRORS",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap05"
   },
-  "scene": {
+  "section": {
     "id": "errors-4-3",
+    "kind": "scene",
+    "heading": "SCENE III. The same",
     "act": 4,
     "scene": 3,
-    "label": "Act 4, Scene 3",
-    "title": "SCENE III. The same",
-    "location": "The same",
-    "orderInPlay": 9
+    "parentSectionId": "errors-act-60716",
+    "orderInPlay": 17,
+    "sourceRef": {
+      "start": 773652,
+      "end": 773712,
+      "line": 28991,
+      "column": 1,
+      "path": "chap05/h3@73820",
+      "anchor": "sceneIV_5.3"
+    }
   },
   "content": [
     {
-      "id": "errors-4-3-stage-001",
+      "id": "errors/sceneIV_5.3/h3@73820",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. The same",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/h3@73820/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 773652,
+        "end": 773712,
+        "line": 28991,
+        "column": 1,
+        "path": "chap05/h3@73820",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@73884",
       "type": "stage",
-      "text": "Enter Antipholus of Syracuse."
-    },
-    {
-      "id": "errors-4-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Antipholus of Syracuse.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 28,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "errors-4-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "There's not a man I meet but doth salute me",
-          "plainText": "There's not a man I meet but doth salute me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "As if I were their well-acquainted friend,",
-          "plainText": "As if I were their wellacquainted friend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "And everyone doth call me by my name.",
-          "plainText": "And everyone doth call me by my name",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Some tender money to me, some invite me;",
-          "plainText": "Some tender money to me some invite me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Some other give me thanks for kindnesses;",
-          "plainText": "Some other give me thanks for kindnesses",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Some offer me commodities to buy.",
-          "plainText": "Some offer me commodities to buy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Even now a tailor call'd me in his shop,",
-          "plainText": "Even now a tailor call'd me in his shop",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "And show'd me silks that he had bought for me,",
-          "plainText": "And show'd me silks that he had bought for me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "And therewithal took measure of my body.",
-          "plainText": "And therewithal took measure of my body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Sure, these are but imaginary wiles,",
-          "plainText": "Sure these are but imaginary wiles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "And Lapland sorcerers inhabit here.",
-          "plainText": "And Lapland sorcerers inhabit here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@73884/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 773716,
+        "end": 773804,
+        "line": 28993,
+        "column": 1,
+        "path": "chap05/p@73884",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "errors-4-3-stage-002",
+      "id": "errors/sceneIV_5.3/p@73976",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nThere’s not a man I meet but doth salute me\nAs if I were their well-acquainted friend,\nAnd everyone doth call me by my name.\nSome tender money to me, some invite me;\nSome other give me thanks for kindnesses;\nSome offer me commodities to buy.\nEven now a tailor call’d me in his shop,\nAnd show’d me silks that he had bought for me,\nAnd therewithal took measure of my body.\nSure, these are but imaginary wiles,\nAnd Lapland sorcerers inhabit here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-2",
+          "start": 24,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-3",
+          "start": 68,
+          "end": 110,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-4",
+          "start": 111,
+          "end": 148,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-5",
+          "start": 149,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-6",
+          "start": 190,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-7",
+          "start": 232,
+          "end": 265,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-8",
+          "start": 266,
+          "end": 306,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-9",
+          "start": 307,
+          "end": 353,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-10",
+          "start": 354,
+          "end": 394,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-11",
+          "start": 395,
+          "end": 431,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@73976/line-12",
+          "start": 432,
+          "end": 467,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 773808,
+        "end": 774355,
+        "line": 28997,
+        "column": 1,
+        "path": "chap05/p@73976",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@74527",
       "type": "stage",
-      "text": "Enter Dromio of Syracuse."
-    },
-    {
-      "id": "errors-4-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Dromio of Syracuse.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 24,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "errors-4-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Master, here's the gold you sent me for.",
-          "plainText": "Master here's the gold you sent me for",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@74527/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 774359,
+        "end": 774443,
+        "line": 29012,
+        "column": 1,
+        "path": "chap05/p@74527",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@74615",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nMaster, here’s the gold you sent me for.\nWhat, have you got the picture of old Adam new apparelled?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@74615/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "What, have you got the picture of old Adam new apparelled?",
-          "plainText": "What have you got the picture of old Adam new apparelled",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "What gold is this? What Adam dost thou mean?",
-          "plainText": "What gold is this What Adam dost thou mean",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Not that Adam that kept the paradise, but that Adam that keeps the prison; he that goes in the calf's skin that was killed for the Prodigal; he that came behind you, sir, like an evil angel, and bid you forsake your liberty.",
-          "plainText": "Not that Adam that kept the paradise but that Adam that keeps the prison he that goes in the calf's skin that was killed for the Prodigal he that came behind you sir like an evil angel and bid you forsake your liberty",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "I understand thee not.",
-          "plainText": "I understand thee not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "No? Why, 'tis a plain case: he that went like a bass-viol in a case of leather; the man, sir, that, when gentlemen are tired, gives them a sob, and 'rests them; he, sir, that takes pity on decayed men and gives them suits of durance; he that sets up his rest to do more exploits with his mace than a morris-pike.",
-          "plainText": "No Why 'tis a plain case he that went like a bassviol in a case of leather the man sir that when gentlemen are tired gives them a sob and 'rests them he sir that takes pity on decayed men and gives them suits of durance he that sets up his rest to do more exploits with his mace than a morrispike",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "What! thou mean'st an officer?",
-          "plainText": "What thou mean'st an officer",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Ay, sir, the sergeant of the band; he that brings any man to answer it that breaks his band; one that thinks a man always going to bed, and says, \"God give you good rest.\"",
-          "plainText": "Ay sir the sergeant of the band he that brings any man to answer it that breaks his band one that thinks a man always going to bed and says God give you good rest",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Well, sir, there rest in your foolery. Is there any ship puts forth tonight? may we be gone?",
-          "plainText": "Well sir there rest in your foolery Is there any ship puts forth tonight may we be gone",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Why, sir, I brought you word an hour since that the bark Expedition put forth tonight, and then were you hindered by the sergeant to tarry for the hoy Delay. Here are the angels that you sent for to deliver you.",
-          "plainText": "Why sir I brought you word an hour since that the bark Expedition put forth tonight and then were you hindered by the sergeant to tarry for the hoy Delay Here are the angels that you sent for to deliver you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "errors-4-3-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
-      "lines": [
-        {
-          "id": "errors-4-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "The fellow is distract, and so am I,",
-          "plainText": "The fellow is distract and so am I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@74615/line-2",
+          "start": 20,
+          "end": 60,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "And here we wander in illusions.",
-          "plainText": "And here we wander in illusions",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "Some blessed power deliver us from hence!",
-          "plainText": "Some blessed power deliver us from hence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@74615/line-3",
+          "start": 61,
+          "end": 119,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 774447,
+        "end": 774601,
+        "line": 29016,
+        "column": 1,
+        "path": "chap05/p@74615",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-stage-003",
+      "id": "errors/sceneIV_5.3/p@74773",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nWhat gold is this? What Adam dost thou mean?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@74773/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@74773/line-2",
+          "start": 24,
+          "end": 68,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 774605,
+        "end": 774703,
+        "line": 29022,
+        "column": 1,
+        "path": "chap05/p@74773",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@74875",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nNot that Adam that kept the paradise, but that Adam that keeps the prison; he that goes in the calf’s skin that was killed for the Prodigal; he that came behind you, sir, like an evil angel, and bid you forsake your liberty.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@74875/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@74875/line-2",
+          "start": 20,
+          "end": 244,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 774707,
+        "end": 774984,
+        "line": 29027,
+        "column": 1,
+        "path": "chap05/p@74875",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@75156",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nI understand thee not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@75156/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@75156/line-2",
+          "start": 24,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 774988,
+        "end": 775064,
+        "line": 29035,
+        "column": 1,
+        "path": "chap05/p@75156",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@75236",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nNo? Why, ’tis a plain case: he that went like a bass-viol in a case of leather; the man, sir, that, when gentlemen are tired, gives them a sob, and ’rests them; he, sir, that takes pity on decayed men and gives them suits of durance; he that sets up his rest to do more exploits with his mace than a morris-pike.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@75236/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@75236/line-2",
+          "start": 20,
+          "end": 332,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 775068,
+        "end": 775434,
+        "line": 29040,
+        "column": 1,
+        "path": "chap05/p@75236",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@75606",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nWhat! thou mean’st an officer?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@75606/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@75606/line-2",
+          "start": 24,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 775438,
+        "end": 775522,
+        "line": 29049,
+        "column": 1,
+        "path": "chap05/p@75606",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@75694",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nAy, sir, the sergeant of the band; he that brings any man to answer it that breaks his band; one that thinks a man always going to bed, and says, “God give you good rest.”",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@75694/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@75694/line-2",
+          "start": 20,
+          "end": 191,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 775526,
+        "end": 775749,
+        "line": 29054,
+        "column": 1,
+        "path": "chap05/p@75694",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@75921",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nWell, sir, there rest in your foolery. Is there any ship puts forth tonight? may we be gone?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@75921/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@75921/line-2",
+          "start": 24,
+          "end": 116,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 775753,
+        "end": 775900,
+        "line": 29061,
+        "column": 1,
+        "path": "chap05/p@75921",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@76072",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nWhy, sir, I brought you word an hour since that the bark Expedition put forth tonight, and then were you hindered by the sergeant to tarry for the hoy Delay. Here are the angels that you sent for to deliver you.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 77,
+          "end": 87
+        },
+        {
+          "tag": "i",
+          "start": 171,
+          "end": 176
+        }
+      ],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@76072/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76072/line-2",
+          "start": 20,
+          "end": 231,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 775904,
+        "end": 776181,
+        "line": 29067,
+        "column": 1,
+        "path": "chap05/p@76072",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@76353",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nThe fellow is distract, and so am I,\nAnd here we wander in illusions.\nSome blessed power deliver us from hence!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@76353/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76353/line-2",
+          "start": 24,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76353/line-3",
+          "start": 61,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76353/line-4",
+          "start": 94,
+          "end": 135,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 776185,
+        "end": 776360,
+        "line": 29074,
+        "column": 1,
+        "path": "chap05/p@76353",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@76532",
       "type": "stage",
-      "text": "Enter a Courtesan."
-    },
-    {
-      "id": "errors-4-3-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "courtesan",
-        "name": "COURTESAN",
-        "displayName": "Courtesan"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Courtesan.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "errors-4-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Well met, well met, Master Antipholus.",
-          "plainText": "Well met well met Master Antipholus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "I see, sir, you have found the goldsmith now.",
-          "plainText": "I see sir you have found the goldsmith now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Is that the chain you promis'd me today?",
-          "plainText": "Is that the chain you promis'd me today",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@76532/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776364,
+        "end": 776441,
+        "line": 29081,
+        "column": 1,
+        "path": "chap05/p@76532",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "errors-4-3-speech-013",
+      "id": "errors/sceneIV_5.3/p@76613",
       "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COURTESAN.\nWell met, well met, Master Antipholus.\nI see, sir, you have found the goldsmith now.\nIs that the chain you promis’d me today?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "Satan, avoid! I charge thee, tempt me not.",
-          "plainText": "Satan avoid I charge thee tempt me not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@76613/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76613/line-2",
+          "start": 11,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76613/line-3",
+          "start": 50,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76613/line-4",
+          "start": 96,
+          "end": 136,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776445,
+        "end": 776621,
+        "line": 29085,
+        "column": 1,
+        "path": "chap05/p@76613",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "COURTESAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "errors-4-3-speech-014",
+      "id": "errors/sceneIV_5.3/p@76793",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nSatan, avoid! I charge thee, tempt me not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Master, is this Mistress Satan?",
-          "plainText": "Master is this Mistress Satan",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@76793/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76793/line-2",
+          "start": 24,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776625,
+        "end": 776721,
+        "line": 29092,
+        "column": 1,
+        "path": "chap05/p@76793",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
     },
     {
-      "id": "errors-4-3-speech-015",
+      "id": "errors/sceneIV_5.3/p@76893",
       "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nMaster, is this Mistress Satan?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "It is the devil.",
-          "plainText": "It is the devil",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@76893/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76893/line-2",
+          "start": 20,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776725,
+        "end": 776806,
+        "line": 29097,
+        "column": 1,
+        "path": "chap05/p@76893",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-speech-016",
+      "id": "errors/sceneIV_5.3/p@76978",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nIt is the devil.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Nay, she is worse, she is the devil's dam; and here she comes in the habit of a light wench, and thereof comes that the wenches say \"God damn me\", that's as much to say, \"God make me a light wench.\" It is written they appear to men like angels of light. Light is an effect of fire, and fire will burn; ergo, light wenches will burn. Come not near her.",
-          "plainText": "Nay she is worse she is the devil's dam and here she comes in the habit of a light wench and thereof comes that the wenches say God damn me that's as much to say God make me a light wench It is written they appear to men like angels of light Light is an effect of fire and fire will burn ergo light wenches will burn Come not near her",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@76978/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@76978/line-2",
+          "start": 24,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776810,
+        "end": 776880,
+        "line": 29102,
+        "column": 1,
+        "path": "chap05/p@76978",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
     },
     {
-      "id": "errors-4-3-speech-017",
+      "id": "errors/sceneIV_5.3/p@77052",
       "type": "speech",
-      "speaker": {
-        "id": "courtesan",
-        "name": "COURTESAN",
-        "displayName": "Courtesan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nNay, she is worse, she is the devil’s dam; and here she comes in the habit of a light wench, and thereof comes that the wenches say “God damn me”, that’s as much to say, “God make me a light wench.” It is written they appear to men like angels of light. Light is an effect of fire, and fire will burn; ergo, light wenches will burn. Come not near her.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Your man and you are marvellous merry, sir.",
-          "plainText": "Your man and you are marvellous merry sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77052/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 2,
-          "text": "Will you go with me? We'll mend our dinner here.",
-          "plainText": "Will you go with me We'll mend our dinner here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77052/line-2",
+          "start": 20,
+          "end": 371,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 776884,
+        "end": 777290,
+        "line": 29107,
+        "column": 1,
+        "path": "chap05/p@77052",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-speech-018",
+      "id": "errors/sceneIV_5.3/p@77462",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COURTESAN.\nYour man and you are marvellous merry, sir.\nWill you go with me? We’ll mend our dinner here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Master, if you do, expect spoon-meat, or bespeak a long spoon.",
-          "plainText": "Master if you do expect spoonmeat or bespeak a long spoon",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@77462/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@77462/line-2",
+          "start": 11,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@77462/line-3",
+          "start": 55,
+          "end": 103,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777294,
+        "end": 777432,
+        "line": 29117,
+        "column": 1,
+        "path": "chap05/p@77462",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "COURTESAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "errors-4-3-speech-019",
+      "id": "errors/sceneIV_5.3/p@77604",
       "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nMaster, if you do, expect spoon-meat, or bespeak a long spoon.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Why, Dromio?",
-          "plainText": "Why Dromio",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@77604/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@77604/line-2",
+          "start": 20,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777436,
+        "end": 777548,
+        "line": 29123,
+        "column": 1,
+        "path": "chap05/p@77604",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-speech-020",
+      "id": "errors/sceneIV_5.3/p@77720",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nWhy, Dromio?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Marry, he must have a long spoon that must eat with the devil.",
-          "plainText": "Marry he must have a long spoon that must eat with the devil",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@77720/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@77720/line-2",
+          "start": 24,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777552,
+        "end": 777618,
+        "line": 29128,
+        "column": 1,
+        "path": "chap05/p@77720",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
     },
     {
-      "id": "errors-4-3-speech-021",
+      "id": "errors/sceneIV_5.3/p@77790",
       "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nMarry, he must have a long spoon that must eat with the devil.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Avoid then, fiend! What tell'st thou me of supping?",
-          "plainText": "Avoid then fiend What tell'st thou me of supping",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77790/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "Thou art, as you are all, a sorceress.",
-          "plainText": "Thou art as you are all a sorceress",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "I conjure thee to leave me and be gone.",
-          "plainText": "I conjure thee to leave me and be gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77790/line-2",
+          "start": 20,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777622,
+        "end": 777734,
+        "line": 29133,
+        "column": 1,
+        "path": "chap05/p@77790",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-speech-022",
+      "id": "errors/sceneIV_5.3/p@77906",
       "type": "speech",
-      "speaker": {
-        "id": "courtesan",
-        "name": "COURTESAN",
-        "displayName": "Courtesan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nAvoid then, fiend! What tell’st thou me of supping?\nThou art, as you are all, a sorceress.\nI conjure thee to leave me and be gone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Give me the ring of mine you had at dinner,",
-          "plainText": "Give me the ring of mine you had at dinner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77906/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "Or, for my diamond, the chain you promis'd,",
-          "plainText": "Or for my diamond the chain you promis'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77906/line-2",
+          "start": 24,
+          "end": 75,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 3,
-          "text": "And I'll be gone, sir, and not trouble you.",
-          "plainText": "And I'll be gone sir and not trouble you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@77906/line-3",
+          "start": 76,
+          "end": 114,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@77906/line-4",
+          "start": 115,
+          "end": 154,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777738,
+        "end": 777932,
+        "line": 29138,
+        "column": 1,
+        "path": "chap05/p@77906",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
     },
     {
-      "id": "errors-4-3-speech-023",
+      "id": "errors/sceneIV_5.3/p@78104",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COURTESAN.\nGive me the ring of mine you had at dinner,\nOr, for my diamond, the chain you promis’d,\nAnd I’ll be gone, sir, and not trouble you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Some devils ask but the paring of one's nail,",
-          "plainText": "Some devils ask but the paring of one's nail",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78104/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "A rush, a hair, a drop of blood, a pin,",
-          "plainText": "A rush a hair a drop of blood a pin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78104/line-2",
+          "start": 11,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 3,
-          "text": "A nut, a cherry-stone; but she, more covetous,",
-          "plainText": "A nut a cherrystone but she more covetous",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78104/line-3",
+          "start": 55,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 4,
-          "text": "Would have a chain.",
-          "plainText": "Would have a chain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 5,
-          "text": "Master, be wise; and if you give it her,",
-          "plainText": "Master be wise and if you give it her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 6,
-          "text": "The devil will shake her chain and fright us with it.",
-          "plainText": "The devil will shake her chain and fright us with it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78104/line-4",
+          "start": 99,
+          "end": 142,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 777936,
+        "end": 778118,
+        "line": 29145,
+        "column": 1,
+        "path": "chap05/p@78104",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "COURTESAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "errors-4-3-speech-024",
+      "id": "errors/sceneIV_5.3/p@78290",
       "type": "speech",
-      "speaker": {
-        "id": "courtesan",
-        "name": "COURTESAN",
-        "displayName": "Courtesan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nSome devils ask but the paring of one’s nail,\nA rush, a hair, a drop of blood, a pin,\nA nut, a cherry-stone; but she, more covetous,\nWould have a chain.\nMaster, be wise; and if you give it her,\nThe devil will shake her chain and fright us with it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "I pray you, sir, my ring, or else the chain;",
-          "plainText": "I pray you sir my ring or else the chain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78290/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "I hope you do not mean to cheat me so.",
-          "plainText": "I hope you do not mean to cheat me so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78290/line-2",
+          "start": 20,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78290/line-3",
+          "start": 66,
+          "end": 105,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78290/line-4",
+          "start": 106,
+          "end": 152,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78290/line-5",
+          "start": 153,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78290/line-6",
+          "start": 173,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78290/line-7",
+          "start": 214,
+          "end": 267,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 778122,
+        "end": 778444,
+        "line": 29152,
+        "column": 1,
+        "path": "chap05/p@78290",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-speech-025",
+      "id": "errors/sceneIV_5.3/p@78616",
       "type": "speech",
-      "speaker": {
-        "id": "antipholus-of-syracuse",
-        "name": "ANTIPHOLUS OF SYRACUSE",
-        "displayName": "Antipholus Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COURTESAN.\nI pray you, sir, my ring, or else the chain;\nI hope you do not mean to cheat me so.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Avaunt, thou witch! Come, Dromio, let us go.",
-          "plainText": "Avaunt thou witch Come Dromio let us go",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@78616/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78616/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78616/line-3",
+          "start": 56,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 778448,
+        "end": 778577,
+        "line": 29162,
+        "column": 1,
+        "path": "chap05/p@78616",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "COURTESAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "errors-4-3-speech-026",
+      "id": "errors/sceneIV_5.3/p@78749",
       "type": "speech",
-      "speaker": {
-        "id": "dromio-of-syracuse",
-        "name": "DROMIO OF SYRACUSE",
-        "displayName": "Dromio Of Syracuse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTIPHOLUS OF SYRACUSE.\nAvaunt, thou witch! Come, Dromio, let us go.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "Fly pride, says the peacock. Mistress, that you know.",
-          "plainText": "Fly pride says the peacock Mistress that you know",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "errors/sceneIV_5.3/p@78749/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@78749/line-2",
+          "start": 24,
+          "end": 68,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "errors-4-3-stage-004",
-      "type": "stage",
-      "text": "[Exeunt Antipholus of Syracuse and Dromio of Syracuse.]"
-    },
-    {
-      "id": "errors-4-3-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "courtesan",
-        "name": "COURTESAN",
-        "displayName": "Courtesan"
+      ],
+      "sourceRef": {
+        "start": 778581,
+        "end": 778679,
+        "line": 29168,
+        "column": 1,
+        "path": "chap05/p@78749",
+        "anchor": "sceneIV_5.3"
       },
+      "speakerLabel": "ANTIPHOLUS OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 23
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@78851",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DROMIO OF SYRACUSE.\nFly pride, says the peacock. Mistress, that you know.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "errors-4-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "Now, out of doubt Antipholus is mad,",
-          "plainText": "Now out of doubt Antipholus is mad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78851/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "errors-4-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 2,
-          "text": "Else would he never so demean himself.",
-          "plainText": "Else would he never so demean himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 3,
-          "text": "A ring he hath of mine worth forty ducats,",
-          "plainText": "A ring he hath of mine worth forty ducats",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 4,
-          "text": "And for the same he promis'd me a chain;",
-          "plainText": "And for the same he promis'd me a chain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 5,
-          "text": "Both one and other he denies me now.",
-          "plainText": "Both one and other he denies me now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 6,
-          "text": "The reason that I gather he is mad,",
-          "plainText": "The reason that I gather he is mad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0059",
-          "number": 59,
-          "speechLineNumber": 7,
-          "text": "Besides this present instance of his rage,",
-          "plainText": "Besides this present instance of his rage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0060",
-          "number": 60,
-          "speechLineNumber": 8,
-          "text": "Is a mad tale he told today at dinner",
-          "plainText": "Is a mad tale he told today at dinner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0061",
-          "number": 61,
-          "speechLineNumber": 9,
-          "text": "Of his own doors being shut against his entrance.",
-          "plainText": "Of his own doors being shut against his entrance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0062",
-          "number": 62,
-          "speechLineNumber": 10,
-          "text": "Belike his wife, acquainted with his fits,",
-          "plainText": "Belike his wife acquainted with his fits",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0063",
-          "number": 63,
-          "speechLineNumber": 11,
-          "text": "On purpose shut the doors against his way.",
-          "plainText": "On purpose shut the doors against his way",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0064",
-          "number": 64,
-          "speechLineNumber": 12,
-          "text": "My way is now to hie home to his house,",
-          "plainText": "My way is now to hie home to his house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0065",
-          "number": 65,
-          "speechLineNumber": 13,
-          "text": "And tell his wife that, being lunatic,",
-          "plainText": "And tell his wife that being lunatic",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0066",
-          "number": 66,
-          "speechLineNumber": 14,
-          "text": "He rush'd into my house and took perforce",
-          "plainText": "He rush'd into my house and took perforce",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0067",
-          "number": 67,
-          "speechLineNumber": 15,
-          "text": "My ring away. This course I fittest choose,",
-          "plainText": "My ring away This course I fittest choose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "errors-4-3-line-0068",
-          "number": 68,
-          "speechLineNumber": 16,
-          "text": "For forty ducats is too much to lose.",
-          "plainText": "For forty ducats is too much to lose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "errors/sceneIV_5.3/p@78851/line-2",
+          "start": 20,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 778683,
+        "end": 778786,
+        "line": 29173,
+        "column": 1,
+        "path": "chap05/p@78851",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "DROMIO OF SYRACUSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 19
+      }
     },
     {
-      "id": "errors-4-3-stage-005",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "errors/sceneIV_5.3/p@78958",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Antipholus of Syracuse and Dromio of Syracuse.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 30,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 35,
+          "end": 53,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 54
+        }
+      ],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@78958/line-1",
+          "start": 0,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 778790,
+        "end": 778938,
+        "line": 29178,
+        "column": 1,
+        "path": "chap05/p@78958",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@79110",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COURTESAN.\nNow, out of doubt Antipholus is mad,\nElse would he never so demean himself.\nA ring he hath of mine worth forty ducats,\nAnd for the same he promis’d me a chain;\nBoth one and other he denies me now.\nThe reason that I gather he is mad,\nBesides this present instance of his rage,\nIs a mad tale he told today at dinner\nOf his own doors being shut against his entrance.\nBelike his wife, acquainted with his fits,\nOn purpose shut the doors against his way.\nMy way is now to hie home to his house,\nAnd tell his wife that, being lunatic,\nHe rush’d into my house and took perforce\nMy ring away. This course I fittest choose,\nFor forty ducats is too much to lose.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-2",
+          "start": 11,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-3",
+          "start": 48,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-4",
+          "start": 87,
+          "end": 129,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-5",
+          "start": 130,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-6",
+          "start": 171,
+          "end": 207,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-7",
+          "start": 208,
+          "end": 243,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-8",
+          "start": 244,
+          "end": 286,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-9",
+          "start": 287,
+          "end": 324,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-10",
+          "start": 325,
+          "end": 374,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-11",
+          "start": 375,
+          "end": 417,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-12",
+          "start": 418,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-13",
+          "start": 461,
+          "end": 500,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-14",
+          "start": 501,
+          "end": 539,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-15",
+          "start": 540,
+          "end": 581,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-16",
+          "start": 582,
+          "end": 625,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "errors/sceneIV_5.3/p@79110/line-17",
+          "start": 626,
+          "end": 663,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 778942,
+        "end": 779710,
+        "line": 29183,
+        "column": 1,
+        "path": "chap05/p@79110",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": "COURTESAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "errors/sceneIV_5.3/p@79882",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "errors/sceneIV_5.3/p@79882/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 779714,
+        "end": 779753,
+        "line": 29203,
+        "column": 1,
+        "path": "chap05/p@79882",
+        "anchor": "sceneIV_5.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "6ae091bfea46b85124af5d2cf4072be110636367ae358e5b3e15017b5b57bd63"
 }

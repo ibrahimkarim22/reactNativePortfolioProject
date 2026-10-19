@@ -1,938 +1,914 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "as-you-like-it",
-    "title": "As You Like It",
+    "title": "AS YOU LIKE IT",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap04"
   },
-  "scene": {
+  "section": {
     "id": "as-you-like-it-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. The Forest of Arden",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. The Forest of Arden",
-    "location": "The Forest of Arden",
-    "orderInPlay": 4
+    "parentSectionId": "as-you-like-it-act-40370",
+    "orderInPlay": 9,
+    "sourceRef": {
+      "start": 570796,
+      "end": 570841,
+      "line": 21512,
+      "column": 1,
+      "path": "chap04/h3@40421",
+      "anchor": "sceneII_4.1"
+    }
   },
   "content": [
     {
-      "id": "as-you-like-it-2-1-stage-001",
+      "id": "as-you-like-it/sceneII_4.1/h3@40421",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. The Forest of Arden",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneII_4.1/h3@40421/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 570796,
+        "end": 570841,
+        "line": 21512,
+        "column": 1,
+        "path": "chap04/h3@40421",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneII_4.1/p@40470",
       "type": "stage",
-      "text": "Enter Duke Senior, Amiens and two or three Lords, dressed as foresters."
-    },
-    {
-      "id": "as-you-like-it-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "duke-senior",
-        "name": "DUKE SENIOR",
-        "displayName": "Duke Senior"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Duke Senior, Amiens and two or three Lords, dressed as foresters.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 25,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Now, my co-mates and brothers in exile,",
-          "plainText": "Now my comates and brothers in exile",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Hath not old custom made this life more sweet",
-          "plainText": "Hath not old custom made this life more sweet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Than that of painted pomp? Are not these woods",
-          "plainText": "Than that of painted pomp Are not these woods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "More free from peril than the envious court?",
-          "plainText": "More free from peril than the envious court",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Here feel we not the penalty of Adam,",
-          "plainText": "Here feel we not the penalty of Adam",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "The seasons' difference, as the icy fang",
-          "plainText": "The seasons' difference as the icy fang",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "And churlish chiding of the winter's wind,",
-          "plainText": "And churlish chiding of the winter's wind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Which when it bites and blows upon my body",
-          "plainText": "Which when it bites and blows upon my body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Even till I shrink with cold, I smile and say:",
-          "plainText": "Even till I shrink with cold I smile and say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "\"This is no flattery. These are counsellors",
-          "plainText": "This is no flattery These are counsellors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "That feelingly persuade me what I am.\"",
-          "plainText": "That feelingly persuade me what I am",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "Sweet are the uses of adversity,",
-          "plainText": "Sweet are the uses of adversity",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "Which, like the toad, ugly and venomous,",
-          "plainText": "Which like the toad ugly and venomous",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Wears yet a precious jewel in his head;",
-          "plainText": "Wears yet a precious jewel in his head",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "And this our life, exempt from public haunt,",
-          "plainText": "And this our life exempt from public haunt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "Finds tongues in trees, books in the running brooks,",
-          "plainText": "Finds tongues in trees books in the running brooks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "Sermons in stones, and good in everything.",
-          "plainText": "Sermons in stones and good in everything",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@40470/line-1",
+          "start": 0,
+          "end": 71,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 570845,
+        "end": 570972,
+        "line": 21514,
+        "column": 1,
+        "path": "chap04/p@40470",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-002",
+      "id": "as-you-like-it/sceneII_4.1/p@40601",
       "type": "speech",
-      "speaker": {
-        "id": "amiens",
-        "name": "AMIENS",
-        "displayName": "Amiens"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE SENIOR.\nNow, my co-mates and brothers in exile,\nHath not old custom made this life more sweet\nThan that of painted pomp? Are not these woods\nMore free from peril than the envious court?\nHere feel we not the penalty of Adam,\nThe seasons’ difference, as the icy fang\nAnd churlish chiding of the winter’s wind,\nWhich when it bites and blows upon my body\nEven till I shrink with cold, I smile and say:\n“This is no flattery. These are counsellors\nThat feelingly persuade me what I am.”\nSweet are the uses of adversity,\nWhich, like the toad, ugly and venomous,\nWears yet a precious jewel in his head;\nAnd this our life, exempt from public haunt,\nFinds tongues in trees, books in the running brooks,\nSermons in stones, and good in everything.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "I would not change it. Happy is your grace,",
-          "plainText": "I would not change it Happy is your grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "That can translate the stubbornness of fortune",
-          "plainText": "That can translate the stubbornness of fortune",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-2",
+          "start": 13,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "Into so quiet and so sweet a style.",
-          "plainText": "Into so quiet and so sweet a style",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-3",
+          "start": 53,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-4",
+          "start": 99,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-5",
+          "start": 146,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-6",
+          "start": 191,
+          "end": 228,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-7",
+          "start": 229,
+          "end": 269,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-8",
+          "start": 270,
+          "end": 312,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-9",
+          "start": 313,
+          "end": 355,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-10",
+          "start": 356,
+          "end": 402,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-11",
+          "start": 403,
+          "end": 446,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-12",
+          "start": 447,
+          "end": 485,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-13",
+          "start": 486,
+          "end": 518,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-14",
+          "start": 519,
+          "end": 559,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-15",
+          "start": 560,
+          "end": 599,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-16",
+          "start": 600,
+          "end": 644,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-17",
+          "start": 645,
+          "end": 697,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@40601/line-18",
+          "start": 698,
+          "end": 740,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 570976,
+        "end": 571826,
+        "line": 21517,
+        "column": 1,
+        "path": "chap04/p@40601",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "DUKE SENIOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-003",
+      "id": "as-you-like-it/sceneII_4.1/p@41455",
       "type": "speech",
-      "speaker": {
-        "id": "duke-senior",
-        "name": "DUKE SENIOR",
-        "displayName": "Duke Senior"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AMIENS.\nI would not change it. Happy is your grace,\nThat can translate the stubbornness of fortune\nInto so quiet and so sweet a style.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Come, shall we go and kill us venison?",
-          "plainText": "Come shall we go and kill us venison",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41455/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 2,
-          "text": "And yet it irks me the poor dappled fools,",
-          "plainText": "And yet it irks me the poor dappled fools",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41455/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 3,
-          "text": "Being native burghers of this desert city,",
-          "plainText": "Being native burghers of this desert city",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41455/line-3",
+          "start": 52,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 4,
-          "text": "Should in their own confines with forked heads",
-          "plainText": "Should in their own confines with forked heads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 5,
-          "text": "Have their round haunches gored.",
-          "plainText": "Have their round haunches gored",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41455/line-4",
+          "start": 99,
+          "end": 134,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 571830,
+        "end": 572004,
+        "line": 21538,
+        "column": 1,
+        "path": "chap04/p@41455",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "AMIENS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-004",
+      "id": "as-you-like-it/sceneII_4.1/p@41633",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE SENIOR.\nCome, shall we go and kill us venison?\nAnd yet it irks me the poor dappled fools,\nBeing native burghers of this desert city,\nShould in their own confines with forked heads\nHave their round haunches gored.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Indeed, my lord,",
-          "plainText": "Indeed my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 2,
-          "text": "The melancholy Jaques grieves at that,",
-          "plainText": "The melancholy Jaques grieves at that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-2",
+          "start": 13,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 3,
-          "text": "And in that kind swears you do more usurp",
-          "plainText": "And in that kind swears you do more usurp",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 4,
-          "text": "Than doth your brother that hath banished you.",
-          "plainText": "Than doth your brother that hath banished you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-4",
+          "start": 95,
+          "end": 137,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 5,
-          "text": "Today my lord of Amiens and myself",
-          "plainText": "Today my lord of Amiens and myself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-5",
+          "start": 138,
+          "end": 184,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 6,
-          "text": "Did steal behind him as he lay along",
-          "plainText": "Did steal behind him as he lay along",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 7,
-          "text": "Under an oak, whose antique root peeps out",
-          "plainText": "Under an oak whose antique root peeps out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 8,
-          "text": "Upon the brook that brawls along this wood;",
-          "plainText": "Upon the brook that brawls along this wood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 9,
-          "text": "To the which place a poor sequestered stag,",
-          "plainText": "To the which place a poor sequestered stag",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 10,
-          "text": "That from the hunter's aim had ta'en a hurt,",
-          "plainText": "That from the hunter's aim had ta'en a hurt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 11,
-          "text": "Did come to languish; and indeed, my lord,",
-          "plainText": "Did come to languish and indeed my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 12,
-          "text": "The wretched animal heaved forth such groans",
-          "plainText": "The wretched animal heaved forth such groans",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 13,
-          "text": "That their discharge did stretch his leathern coat",
-          "plainText": "That their discharge did stretch his leathern coat",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 14,
-          "text": "Almost to bursting, and the big round tears",
-          "plainText": "Almost to bursting and the big round tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 15,
-          "text": "Coursed one another down his innocent nose",
-          "plainText": "Coursed one another down his innocent nose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 16,
-          "text": "In piteous chase. And thus the hairy fool,",
-          "plainText": "In piteous chase And thus the hairy fool",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 17,
-          "text": "Much marked of the melancholy Jaques,",
-          "plainText": "Much marked of the melancholy Jaques",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 18,
-          "text": "Stood on th' extremest verge of the swift brook,",
-          "plainText": "Stood on th' extremest verge of the swift brook",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 19,
-          "text": "Augmenting it with tears.",
-          "plainText": "Augmenting it with tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41633/line-6",
+          "start": 185,
+          "end": 217,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 572008,
+        "end": 572275,
+        "line": 21545,
+        "column": 1,
+        "path": "chap04/p@41633",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "DUKE SENIOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-005",
+      "id": "as-you-like-it/sceneII_4.1/p@41904",
       "type": "speech",
-      "speaker": {
-        "id": "duke-senior",
-        "name": "DUKE SENIOR",
-        "displayName": "Duke Senior"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nIndeed, my lord,\nThe melancholy Jaques grieves at that,\nAnd in that kind swears you do more usurp\nThan doth your brother that hath banished you.\nToday my lord of Amiens and myself\nDid steal behind him as he lay along\nUnder an oak, whose antique root peeps out\nUpon the brook that brawls along this wood;\nTo the which place a poor sequestered stag,\nThat from the hunter’s aim had ta’en a hurt,\nDid come to languish; and indeed, my lord,\nThe wretched animal heaved forth such groans\nThat their discharge did stretch his leathern coat\nAlmost to bursting, and the big round tears\nCoursed one another down his innocent nose\nIn piteous chase. And thus the hairy fool,\nMuch marked of the melancholy Jaques,\nStood on th’ extremest verge of the swift brook,\nAugmenting it with tears.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "But what said Jaques?",
-          "plainText": "But what said Jaques",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 2,
-          "text": "Did he not moralize this spectacle?",
-          "plainText": "Did he not moralize this spectacle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-2",
+          "start": 12,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-3",
+          "start": 29,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-4",
+          "start": 68,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-5",
+          "start": 110,
+          "end": 156,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-6",
+          "start": 157,
+          "end": 191,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-7",
+          "start": 192,
+          "end": 228,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-8",
+          "start": 229,
+          "end": 271,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-9",
+          "start": 272,
+          "end": 315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-10",
+          "start": 316,
+          "end": 359,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-11",
+          "start": 360,
+          "end": 404,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-12",
+          "start": 405,
+          "end": 447,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-13",
+          "start": 448,
+          "end": 492,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-14",
+          "start": 493,
+          "end": 543,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-15",
+          "start": 544,
+          "end": 587,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-16",
+          "start": 588,
+          "end": 630,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-17",
+          "start": 631,
+          "end": 673,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-18",
+          "start": 674,
+          "end": 711,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-19",
+          "start": 712,
+          "end": 760,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@41904/line-20",
+          "start": 761,
+          "end": 786,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 572279,
+        "end": 573185,
+        "line": 21554,
+        "column": 1,
+        "path": "chap04/p@41904",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-006",
+      "id": "as-you-like-it/sceneII_4.1/p@42814",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE SENIOR.\nBut what said Jaques?\nDid he not moralize this spectacle?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "O yes, into a thousand similes.",
-          "plainText": "O yes into a thousand similes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42814/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 2,
-          "text": "First, for his weeping into the needless stream:",
-          "plainText": "First for his weeping into the needless stream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42814/line-2",
+          "start": 13,
+          "end": 34,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 3,
-          "text": "\"Poor deer,\" quoth he \"thou mak'st a testament",
-          "plainText": "Poor deer quoth he thou mak'st a testament",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 4,
-          "text": "As worldlings do, giving thy sum of more",
-          "plainText": "As worldlings do giving thy sum of more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 5,
-          "text": "To that which had too much.\" Then, being there alone,",
-          "plainText": "To that which had too much Then being there alone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 6,
-          "text": "Left and abandoned of his velvet friends:",
-          "plainText": "Left and abandoned of his velvet friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 7,
-          "text": "\"'Tis right\"; quoth he, \"thus misery doth part",
-          "plainText": "'Tis right quoth he thus misery doth part",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 8,
-          "text": "The flux of company.\" Anon a careless herd,",
-          "plainText": "The flux of company Anon a careless herd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 9,
-          "text": "Full of the pasture, jumps along by him",
-          "plainText": "Full of the pasture jumps along by him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 10,
-          "text": "And never stays to greet him. \"Ay,\" quoth Jaques,",
-          "plainText": "And never stays to greet him Ay quoth Jaques",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 11,
-          "text": "\"Sweep on, you fat and greasy citizens!",
-          "plainText": "Sweep on you fat and greasy citizens",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 12,
-          "text": "'Tis just the fashion. Wherefore do you look",
-          "plainText": "'Tis just the fashion Wherefore do you look",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 13,
-          "text": "Upon that poor and broken bankrupt there?\"",
-          "plainText": "Upon that poor and broken bankrupt there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 14,
-          "text": "Thus most invectively he pierceth through",
-          "plainText": "Thus most invectively he pierceth through",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0061",
-          "number": 61,
-          "speechLineNumber": 15,
-          "text": "The body of the country, city, court,",
-          "plainText": "The body of the country city court",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0062",
-          "number": 62,
-          "speechLineNumber": 16,
-          "text": "Yea, and of this our life, swearing that we",
-          "plainText": "Yea and of this our life swearing that we",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0063",
-          "number": 63,
-          "speechLineNumber": 17,
-          "text": "Are mere usurpers, tyrants, and what's worse,",
-          "plainText": "Are mere usurpers tyrants and what's worse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0064",
-          "number": 64,
-          "speechLineNumber": 18,
-          "text": "To fright the animals and to kill them up",
-          "plainText": "To fright the animals and to kill them up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-2-1-line-0065",
-          "number": 65,
-          "speechLineNumber": 19,
-          "text": "In their assigned and native dwelling-place.",
-          "plainText": "In their assigned and native dwellingplace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42814/line-3",
+          "start": 35,
+          "end": 70,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 573189,
+        "end": 573294,
+        "line": 21577,
+        "column": 1,
+        "path": "chap04/p@42814",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "DUKE SENIOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-007",
+      "id": "as-you-like-it/sceneII_4.1/p@42923",
       "type": "speech",
-      "speaker": {
-        "id": "duke-senior",
-        "name": "DUKE SENIOR",
-        "displayName": "Duke Senior"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nO yes, into a thousand similes.\nFirst, for his weeping into the needless stream:\n“Poor deer,” quoth he “thou mak’st a testament\nAs worldlings do, giving thy sum of more\nTo that which had too much.” Then, being there alone,\nLeft and abandoned of his velvet friends:\n“’Tis right”; quoth he, “thus misery doth part\nThe flux of company.” Anon a careless herd,\nFull of the pasture, jumps along by him\nAnd never stays to greet him. “Ay,” quoth Jaques,\n“Sweep on, you fat and greasy citizens!\n’Tis just the fashion. Wherefore do you look\nUpon that poor and broken bankrupt there?”\nThus most invectively he pierceth through\nThe body of the country, city, court,\nYea, and of this our life, swearing that we\nAre mere usurpers, tyrants, and what’s worse,\nTo fright the animals and to kill them up\nIn their assigned and native dwelling-place.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "And did you leave him in this contemplation?",
-          "plainText": "And did you leave him in this contemplation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "as-you-like-it-2-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
-      "lines": [
-        {
-          "id": "as-you-like-it-2-1-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "We did, my lord, weeping and commenting",
-          "plainText": "We did my lord weeping and commenting",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "Upon the sobbing deer.",
-          "plainText": "Upon the sobbing deer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "as-you-like-it-2-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "duke-senior",
-        "name": "DUKE SENIOR",
-        "displayName": "Duke Senior"
-      },
-      "lines": [
-        {
-          "id": "as-you-like-it-2-1-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "Show me the place.",
-          "plainText": "Show me the place",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-2",
+          "start": 12,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0070",
-          "number": 70,
-          "speechLineNumber": 2,
-          "text": "I love to cope him in these sullen fits,",
-          "plainText": "I love to cope him in these sullen fits",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-3",
+          "start": 44,
+          "end": 92,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-2-1-line-0071",
-          "number": 71,
-          "speechLineNumber": 3,
-          "text": "For then he's full of matter.",
-          "plainText": "For then he's full of matter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-4",
+          "start": 93,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-5",
+          "start": 140,
+          "end": 180,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-6",
+          "start": 181,
+          "end": 234,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-7",
+          "start": 235,
+          "end": 276,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-8",
+          "start": 277,
+          "end": 323,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-9",
+          "start": 324,
+          "end": 367,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-10",
+          "start": 368,
+          "end": 407,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-11",
+          "start": 408,
+          "end": 457,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-12",
+          "start": 458,
+          "end": 497,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-13",
+          "start": 498,
+          "end": 542,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-14",
+          "start": 543,
+          "end": 585,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-15",
+          "start": 586,
+          "end": 627,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-16",
+          "start": 628,
+          "end": 665,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-17",
+          "start": 666,
+          "end": 709,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-18",
+          "start": 710,
+          "end": 755,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-19",
+          "start": 756,
+          "end": 797,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@42923/line-20",
+          "start": 798,
+          "end": 842,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 573298,
+        "end": 574260,
+        "line": 21583,
+        "column": 1,
+        "path": "chap04/p@42923",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "as-you-like-it-2-1-speech-010",
+      "id": "as-you-like-it/sceneII_4.1/p@43889",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE SENIOR.\nAnd did you leave him in this contemplation?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-2-1-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "I'll bring you to him straight.",
-          "plainText": "I'll bring you to him straight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneII_4.1/p@43889/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@43889/line-2",
+          "start": 13,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 574264,
+        "end": 574351,
+        "line": 21606,
+        "column": 1,
+        "path": "chap04/p@43889",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "DUKE SENIOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "as-you-like-it-2-1-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "as-you-like-it/sceneII_4.1/p@43980",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nWe did, my lord, weeping and commenting\nUpon the sobbing deer.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@43980/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@43980/line-2",
+          "start": 13,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@43980/line-3",
+          "start": 53,
+          "end": 75,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 574355,
+        "end": 574465,
+        "line": 21611,
+        "column": 1,
+        "path": "chap04/p@43980",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneII_4.1/p@44094",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE SENIOR.\nShow me the place.\nI love to cope him in these sullen fits,\nFor then he’s full of matter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44094/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44094/line-2",
+          "start": 13,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44094/line-3",
+          "start": 32,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44094/line-4",
+          "start": 73,
+          "end": 102,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 574469,
+        "end": 574611,
+        "line": 21617,
+        "column": 1,
+        "path": "chap04/p@44094",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "DUKE SENIOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneII_4.1/p@44240",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nI’ll bring you to him straight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44240/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44240/line-2",
+          "start": 12,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 574615,
+        "end": 574688,
+        "line": 21624,
+        "column": 1,
+        "path": "chap04/p@44240",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneII_4.1/p@44317",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneII_4.1/p@44317/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 574692,
+        "end": 574729,
+        "line": 21629,
+        "column": 1,
+        "path": "chap04/p@44317",
+        "anchor": "sceneII_4.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540"
 }

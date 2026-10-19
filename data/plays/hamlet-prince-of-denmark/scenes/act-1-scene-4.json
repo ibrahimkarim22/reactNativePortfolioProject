@@ -1,1452 +1,2229 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "hamlet-prince-of-denmark",
-    "title": "The Tragedy of Hamlet, Prince of Denmark",
+    "title": "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap08"
   },
-  "scene": {
+  "section": {
     "id": "hamlet-prince-of-denmark-1-4",
+    "kind": "scene",
+    "heading": "SCENE IV. The platform.",
     "act": 1,
     "scene": 4,
-    "label": "Act 1, Scene 4",
-    "title": "SCENE IV. The platform.",
-    "location": "The platform.",
-    "orderInPlay": 4
+    "parentSectionId": "hamlet-prince-of-denmark-act-3460",
+    "orderInPlay": 9,
+    "sourceRef": {
+      "start": 1303995,
+      "end": 1304059,
+      "line": 49212,
+      "column": 1,
+      "path": "chap08/h3@39152",
+      "anchor": "sceneI_8.4"
+    }
   },
   "content": [
     {
-      "id": "hamlet-prince-of-denmark-1-4-stage-001",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/h3@39152",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. The platform.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/h3@39152/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1303995,
+        "end": 1304059,
+        "line": 49212,
+        "column": 1,
+        "path": "chap08/h3@39152",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39220",
       "type": "stage",
-      "text": "Enter Hamlet, Horatio and Marcellus."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Hamlet, Horatio and Marcellus.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "The air bites shrewdly; it is very cold.",
-          "plainText": "The air bites shrewdly it is very cold",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "It is a nipping and an eager air.",
-          "plainText": "It is a nipping and an eager air",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "What hour now?",
-          "plainText": "What hour now",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "I think it lacks of twelve.",
-          "plainText": "I think it lacks of twelve",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "No, it is struck.",
-          "plainText": "No it is struck",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Indeed? I heard it not. It then draws near the season",
-          "plainText": "Indeed I heard it not It then draws near the season",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 21,
+          "className": "charname"
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "Wherein the spirit held his wont to walk.",
-          "plainText": "Wherein the spirit held his wont to walk",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 26,
+          "end": 35,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39220/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304063,
+        "end": 1304188,
+        "line": 49215,
+        "column": 1,
+        "path": "chap08/p@39220",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-stage-002",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39349",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nThe air bites shrewdly; it is very cold.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39349/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39349/line-2",
+          "start": 8,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39349/line-3",
+          "start": 49,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304192,
+        "end": 1304274,
+        "line": 49219,
+        "column": 1,
+        "path": "chap08/p@39349",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39435",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nIt is a nipping and an eager air.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39435/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39435/line-2",
+          "start": 9,
+          "end": 42,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39435/line-3",
+          "start": 43,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304278,
+        "end": 1304354,
+        "line": 49224,
+        "column": 1,
+        "path": "chap08/p@39435",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39515",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nWhat hour now?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39515/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39515/line-2",
+          "start": 8,
+          "end": 22,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39515/line-3",
+          "start": 23,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304358,
+        "end": 1304414,
+        "line": 49229,
+        "column": 1,
+        "path": "chap08/p@39515",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39575",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nI think it lacks of twelve.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39575/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39575/line-2",
+          "start": 9,
+          "end": 36,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39575/line-3",
+          "start": 37,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304418,
+        "end": 1304488,
+        "line": 49234,
+        "column": 1,
+        "path": "chap08/p@39575",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39649",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nNo, it is struck.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39649/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39649/line-2",
+          "start": 11,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39649/line-3",
+          "start": 29,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304492,
+        "end": 1304554,
+        "line": 49239,
+        "column": 1,
+        "path": "chap08/p@39649",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39715",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nIndeed? I heard it not. It then draws near the season\nWherein the spirit held his wont to walk.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39715/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39715/line-2",
+          "start": 9,
+          "end": 62,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39715/line-3",
+          "start": 63,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39715/line-4",
+          "start": 105,
+          "end": 105,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304558,
+        "end": 1304701,
+        "line": 49244,
+        "column": 1,
+        "path": "chap08/p@39715",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39862",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[A flourish of trumpets, and ordnance shot off within.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 54
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39862/line-1",
+          "start": 0,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304705,
+        "end": 1304792,
+        "line": 49250,
+        "column": 1,
+        "path": "chap08/p@39862",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39953",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "What does this mean, my lord?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@39953/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304796,
+        "end": 1304850,
+        "line": 49254,
+        "column": 1,
+        "path": "chap08/p@39953",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nThe King doth wake tonight and takes his rouse,\nKeeps wassail, and the swaggering upspring reels;\nAnd as he drains his draughts of Rhenish down,\nThe kettle-drum and trumpet thus bray out\nThe triumph of his pledge.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-3",
+          "start": 56,
+          "end": 105,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-4",
+          "start": 106,
+          "end": 152,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-5",
+          "start": 153,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-6",
+          "start": 195,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40011/line-7",
+          "start": 222,
+          "end": 222,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1304854,
+        "end": 1305129,
+        "line": 49258,
+        "column": 1,
+        "path": "chap08/p@40011",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40290",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nIs it a custom?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40290/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40290/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40290/line-3",
+          "start": 25,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1305133,
+        "end": 1305191,
+        "line": 49267,
+        "column": 1,
+        "path": "chap08/p@40290",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nAy marry is’t;\nAnd to my mind, though I am native here,\nAnd to the manner born, it is a custom\nMore honour’d in the breach than the observance.\nThis heavy-headed revel east and west\nMakes us traduc’d and tax’d of other nations:\nThey clepe us drunkards, and with swinish phrase\nSoil our addition; and indeed it takes\nFrom our achievements, though perform’d at height,\nThe pith and marrow of our attribute.\nSo oft it chances in particular men\nThat for some vicious mole of nature in them,\nAs in their birth, wherein they are not guilty,\nSince nature cannot choose his origin,\nBy their o’ergrowth of some complexion,\nOft breaking down the pales and forts of reason;\nOr by some habit, that too much o’erleavens\nThe form of plausive manners;—that these men,\nCarrying, I say, the stamp of one defect,\nBeing Nature’s livery or Fortune’s star,—\nHis virtues else,—be they as pure as grace,\nAs infinite as man may undergo,\nShall in the general censure take corruption\nFrom that particular fault. The dram of evil\nDoth all the noble substance of a doubt\nTo his own scandal.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-2",
+          "start": 8,
+          "end": 22,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-3",
+          "start": 23,
+          "end": 63,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-4",
+          "start": 64,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-5",
+          "start": 103,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-6",
+          "start": 152,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-7",
+          "start": 190,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-8",
+          "start": 236,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-9",
+          "start": 285,
+          "end": 323,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-10",
+          "start": 324,
+          "end": 374,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-11",
+          "start": 375,
+          "end": 412,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-12",
+          "start": 413,
+          "end": 448,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-13",
+          "start": 449,
+          "end": 494,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-14",
+          "start": 495,
+          "end": 542,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-15",
+          "start": 543,
+          "end": 581,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-16",
+          "start": 582,
+          "end": 621,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-17",
+          "start": 622,
+          "end": 670,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-18",
+          "start": 671,
+          "end": 714,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-19",
+          "start": 715,
+          "end": 760,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-20",
+          "start": 761,
+          "end": 802,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-21",
+          "start": 803,
+          "end": 844,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-22",
+          "start": 845,
+          "end": 888,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-23",
+          "start": 889,
+          "end": 920,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-24",
+          "start": 921,
+          "end": 965,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-25",
+          "start": 966,
+          "end": 1010,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-26",
+          "start": 1011,
+          "end": 1050,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-27",
+          "start": 1051,
+          "end": 1070,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@40352/line-28",
+          "start": 1071,
+          "end": 1071,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1305195,
+        "end": 1306424,
+        "line": 49272,
+        "column": 1,
+        "path": "chap08/p@40352",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41585",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nLook, my lord, it comes!\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41585/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41585/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41585/line-3",
+          "start": 34,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1306428,
+        "end": 1306495,
+        "line": 49302,
+        "column": 1,
+        "path": "chap08/p@41585",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41656",
       "type": "stage",
-      "text": "[A flourish of trumpets, and ordnance shot off within.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Ghost.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "The King doth wake tonight and takes his rouse,",
-          "plainText": "The King doth wake tonight and takes his rouse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Keeps wassail, and the swaggering upspring reels;",
-          "plainText": "Keeps wassail and the swaggering upspring reels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "And as he drains his draughts of Rhenish down,",
-          "plainText": "And as he drains his draughts of Rhenish down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "The kettle-drum and trumpet thus bray out",
-          "plainText": "The kettledrum and trumpet thus bray out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 5,
-          "text": "The triumph of his pledge.",
-          "plainText": "The triumph of his pledge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41656/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1306499,
+        "end": 1306570,
+        "line": 49307,
+        "column": 1,
+        "path": "chap08/p@41656",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-008",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731",
       "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nAngels and ministers of grace defend us!\nBe thou a spirit of health or goblin damn’d,\nBring with thee airs from heaven or blasts from hell,\nBe thy intents wicked or charitable,\nThou com’st in such a questionable shape\nThat I will speak to thee. I’ll call thee Hamlet,\nKing, father, royal Dane. O, answer me!\nLet me not burst in ignorance; but tell\nWhy thy canoniz’d bones, hearsed in death,\nHave burst their cerements; why the sepulchre,\nWherein we saw thee quietly inurn’d,\nHath op’d his ponderous and marble jaws\nTo cast thee up again! What may this mean,\nThat thou, dead corse, again in complete steel,\nRevisit’st thus the glimpses of the moon,\nMaking night hideous, and we fools of nature\nSo horridly to shake our disposition\nWith thoughts beyond the reaches of our souls?\nSay, why is this? Wherefore? What should we do?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Is it a custom?",
-          "plainText": "Is it a custom",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-2",
+          "start": 8,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-3",
+          "start": 49,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-4",
+          "start": 94,
+          "end": 147,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-5",
+          "start": 148,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-6",
+          "start": 185,
+          "end": 225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-7",
+          "start": 226,
+          "end": 275,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-8",
+          "start": 276,
+          "end": 315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-9",
+          "start": 316,
+          "end": 355,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-10",
+          "start": 356,
+          "end": 398,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-11",
+          "start": 399,
+          "end": 445,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-12",
+          "start": 446,
+          "end": 482,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-13",
+          "start": 483,
+          "end": 522,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-14",
+          "start": 523,
+          "end": 565,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-15",
+          "start": 566,
+          "end": 613,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-16",
+          "start": 614,
+          "end": 655,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-17",
+          "start": 656,
+          "end": 700,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-18",
+          "start": 701,
+          "end": 737,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-19",
+          "start": 738,
+          "end": 784,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-20",
+          "start": 785,
+          "end": 832,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@41731/line-21",
+          "start": 833,
+          "end": 833,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1306574,
+        "end": 1307530,
+        "line": 49311,
+        "column": 1,
+        "path": "chap08/p@41731",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42691",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Ghost beckons Hamlet.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 6,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 15,
+          "end": 21,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 22
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Ay marry is't;",
-          "plainText": "Ay marry is't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "And to my mind, though I am native here,",
-          "plainText": "And to my mind though I am native here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "And to the manner born, it is a custom",
-          "plainText": "And to the manner born it is a custom",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "More honour'd in the breach than the observance.",
-          "plainText": "More honour'd in the breach than the observance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 5,
-          "text": "This heavy-headed revel east and west",
-          "plainText": "This heavyheaded revel east and west",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 6,
-          "text": "Makes us traduc'd and tax'd of other nations:",
-          "plainText": "Makes us traduc'd and tax'd of other nations",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 7,
-          "text": "They clepe us drunkards, and with swinish phrase",
-          "plainText": "They clepe us drunkards and with swinish phrase",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 8,
-          "text": "Soil our addition; and indeed it takes",
-          "plainText": "Soil our addition and indeed it takes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 9,
-          "text": "From our achievements, though perform'd at height,",
-          "plainText": "From our achievements though perform'd at height",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 10,
-          "text": "The pith and marrow of our attribute.",
-          "plainText": "The pith and marrow of our attribute",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 11,
-          "text": "So oft it chances in particular men",
-          "plainText": "So oft it chances in particular men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 12,
-          "text": "That for some vicious mole of nature in them,",
-          "plainText": "That for some vicious mole of nature in them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 13,
-          "text": "As in their birth, wherein they are not guilty,",
-          "plainText": "As in their birth wherein they are not guilty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 14,
-          "text": "Since nature cannot choose his origin,",
-          "plainText": "Since nature cannot choose his origin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 15,
-          "text": "By their o'ergrowth of some complexion,",
-          "plainText": "By their o'ergrowth of some complexion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 16,
-          "text": "Oft breaking down the pales and forts of reason;",
-          "plainText": "Oft breaking down the pales and forts of reason",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 17,
-          "text": "Or by some habit, that too much o'erleavens",
-          "plainText": "Or by some habit that too much o'erleavens",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 18,
-          "text": "The form of plausive manners;—that these men,",
-          "plainText": "The form of plausive mannersthat these men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 19,
-          "text": "Carrying, I say, the stamp of one defect,",
-          "plainText": "Carrying I say the stamp of one defect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 20,
-          "text": "Being Nature's livery or Fortune's star,—",
-          "plainText": "Being Nature's livery or Fortune's star",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 21,
-          "text": "His virtues else,—be they as pure as grace,",
-          "plainText": "His virtues elsebe they as pure as grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 22,
-          "text": "As infinite as man may undergo,",
-          "plainText": "As infinite as man may undergo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 23,
-          "text": "Shall in the general censure take corruption",
-          "plainText": "Shall in the general censure take corruption",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 24,
-          "text": "From that particular fault. The dram of evil",
-          "plainText": "From that particular fault The dram of evil",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 25,
-          "text": "Doth all the noble substance of a doubt",
-          "plainText": "Doth all the noble substance of a doubt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 26,
-          "text": "To his own scandal.",
-          "plainText": "To his own scandal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42691/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1307534,
+        "end": 1307649,
+        "line": 49334,
+        "column": 1,
+        "path": "chap08/p@42691",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-010",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810",
       "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nIt beckons you to go away with it,\nAs if it some impartment did desire\nTo you alone.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Look, my lord, it comes!",
-          "plainText": "Look my lord it comes",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810/line-2",
+          "start": 9,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810/line-3",
+          "start": 44,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810/line-4",
+          "start": 80,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42810/line-5",
+          "start": 94,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-stage-003",
-      "type": "stage",
-      "text": "Enter Ghost."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
+      ],
+      "sourceRef": {
+        "start": 1307653,
+        "end": 1307790,
+        "line": 49338,
+        "column": 1,
+        "path": "chap08/p@42810",
+        "anchor": "sceneI_8.4"
       },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nLook with what courteous action\nIt waves you to a more removed ground.\nBut do not go with it.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "Angels and ministers of grace defend us!",
-          "plainText": "Angels and ministers of grace defend us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "Be thou a spirit of health or goblin damn'd,",
-          "plainText": "Be thou a spirit of health or goblin damn'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951/line-2",
+          "start": 11,
+          "end": 42,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0043",
-          "number": 43,
-          "speechLineNumber": 3,
-          "text": "Bring with thee airs from heaven or blasts from hell,",
-          "plainText": "Bring with thee airs from heaven or blasts from hell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951/line-3",
+          "start": 43,
+          "end": 81,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0044",
-          "number": 44,
-          "speechLineNumber": 4,
-          "text": "Be thy intents wicked or charitable,",
-          "plainText": "Be thy intents wicked or charitable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951/line-4",
+          "start": 82,
+          "end": 104,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0045",
-          "number": 45,
-          "speechLineNumber": 5,
-          "text": "Thou com'st in such a questionable shape",
-          "plainText": "Thou com'st in such a questionable shape",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0046",
-          "number": 46,
-          "speechLineNumber": 6,
-          "text": "That I will speak to thee. I'll call thee Hamlet,",
-          "plainText": "That I will speak to thee I'll call thee Hamlet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0047",
-          "number": 47,
-          "speechLineNumber": 7,
-          "text": "King, father, royal Dane. O, answer me!",
-          "plainText": "King father royal Dane O answer me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0048",
-          "number": 48,
-          "speechLineNumber": 8,
-          "text": "Let me not burst in ignorance; but tell",
-          "plainText": "Let me not burst in ignorance but tell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0049",
-          "number": 49,
-          "speechLineNumber": 9,
-          "text": "Why thy canoniz'd bones, hearsed in death,",
-          "plainText": "Why thy canoniz'd bones hearsed in death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0050",
-          "number": 50,
-          "speechLineNumber": 10,
-          "text": "Have burst their cerements; why the sepulchre,",
-          "plainText": "Have burst their cerements why the sepulchre",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0051",
-          "number": 51,
-          "speechLineNumber": 11,
-          "text": "Wherein we saw thee quietly inurn'd,",
-          "plainText": "Wherein we saw thee quietly inurn'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0052",
-          "number": 52,
-          "speechLineNumber": 12,
-          "text": "Hath op'd his ponderous and marble jaws",
-          "plainText": "Hath op'd his ponderous and marble jaws",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0053",
-          "number": 53,
-          "speechLineNumber": 13,
-          "text": "To cast thee up again! What may this mean,",
-          "plainText": "To cast thee up again What may this mean",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0054",
-          "number": 54,
-          "speechLineNumber": 14,
-          "text": "That thou, dead corse, again in complete steel,",
-          "plainText": "That thou dead corse again in complete steel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0055",
-          "number": 55,
-          "speechLineNumber": 15,
-          "text": "Revisit'st thus the glimpses of the moon,",
-          "plainText": "Revisit'st thus the glimpses of the moon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0056",
-          "number": 56,
-          "speechLineNumber": 16,
-          "text": "Making night hideous, and we fools of nature",
-          "plainText": "Making night hideous and we fools of nature",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0057",
-          "number": 57,
-          "speechLineNumber": 17,
-          "text": "So horridly to shake our disposition",
-          "plainText": "So horridly to shake our disposition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0058",
-          "number": 58,
-          "speechLineNumber": 18,
-          "text": "With thoughts beyond the reaches of our souls?",
-          "plainText": "With thoughts beyond the reaches of our souls",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0059",
-          "number": 59,
-          "speechLineNumber": 19,
-          "text": "Say, why is this? Wherefore? What should we do?",
-          "plainText": "Say why is this Wherefore What should we do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@42951/line-5",
+          "start": 105,
+          "end": 105,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-stage-004",
-      "type": "stage",
-      "text": "[Ghost beckons Hamlet.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
+      ],
+      "sourceRef": {
+        "start": 1307794,
+        "end": 1307942,
+        "line": 49345,
+        "column": 1,
+        "path": "chap08/p@42951",
+        "anchor": "sceneI_8.4"
       },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43103",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nNo, by no means.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "It beckons you to go away with it,",
-          "plainText": "It beckons you to go away with it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43103/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0061",
-          "number": 61,
-          "speechLineNumber": 2,
-          "text": "As if it some impartment did desire",
-          "plainText": "As if it some impartment did desire",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43103/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0062",
-          "number": 62,
-          "speechLineNumber": 3,
-          "text": "To you alone.",
-          "plainText": "To you alone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43103/line-3",
+          "start": 26,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1307946,
+        "end": 1308005,
+        "line": 49352,
+        "column": 1,
+        "path": "chap08/p@43103",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-013",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43166",
       "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nIt will not speak; then will I follow it.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "Look with what courteous action",
-          "plainText": "Look with what courteous action",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43166/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0064",
-          "number": 64,
-          "speechLineNumber": 2,
-          "text": "It waves you to a more removed ground.",
-          "plainText": "It waves you to a more removed ground",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43166/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0065",
-          "number": 65,
-          "speechLineNumber": 3,
-          "text": "But do not go with it.",
-          "plainText": "But do not go with it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43166/line-3",
+          "start": 50,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308009,
+        "end": 1308092,
+        "line": 49357,
+        "column": 1,
+        "path": "chap08/p@43166",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-014",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43253",
       "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nDo not, my lord.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "No, by no means.",
-          "plainText": "No by no means",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43253/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43253/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43253/line-3",
+          "start": 26,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308096,
+        "end": 1308155,
+        "line": 49362,
+        "column": 1,
+        "path": "chap08/p@43253",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-015",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nWhy, what should be the fear?\nI do not set my life at a pin’s fee;\nAnd for my soul, what can it do to that,\nBeing a thing immortal as itself?\nIt waves me forth again. I’ll follow it.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "It will not speak; then will I follow it.",
-          "plainText": "It will not speak then will I follow it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-2",
+          "start": 8,
+          "end": 37,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-3",
+          "start": 38,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-4",
+          "start": 75,
+          "end": 115,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-5",
+          "start": 116,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-6",
+          "start": 150,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43316/line-7",
+          "start": 191,
+          "end": 191,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308159,
+        "end": 1308403,
+        "line": 49367,
+        "column": 1,
+        "path": "chap08/p@43316",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-016",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564",
       "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nWhat if it tempt you toward the flood, my lord,\nOr to the dreadful summit of the cliff\nThat beetles o’er his base into the sea,\nAnd there assume some other horrible form\nWhich might deprive your sovereignty of reason,\nAnd draw you into madness? Think of it.\nThe very place puts toys of desperation,\nWithout more motive, into every brain\nThat looks so many fathoms to the sea\nAnd hears it roar beneath.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "Do not, my lord.",
-          "plainText": "Do not my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-2",
+          "start": 9,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-3",
+          "start": 57,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-4",
+          "start": 96,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-5",
+          "start": 137,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-6",
+          "start": 179,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-7",
+          "start": 227,
+          "end": 266,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-8",
+          "start": 267,
+          "end": 307,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-9",
+          "start": 308,
+          "end": 345,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-10",
+          "start": 346,
+          "end": 383,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-11",
+          "start": 384,
+          "end": 410,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@43564/line-12",
+          "start": 411,
+          "end": 411,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308407,
+        "end": 1308896,
+        "line": 49376,
+        "column": 1,
+        "path": "chap08/p@43564",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-017",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44057",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nIt waves me still.\nGo on, I’ll follow thee.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "Why, what should be the fear?",
-          "plainText": "Why what should be the fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44057/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0070",
-          "number": 70,
-          "speechLineNumber": 2,
-          "text": "I do not set my life at a pin's fee;",
-          "plainText": "I do not set my life at a pin's fee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44057/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0071",
-          "number": 71,
-          "speechLineNumber": 3,
-          "text": "And for my soul, what can it do to that,",
-          "plainText": "And for my soul what can it do to that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44057/line-3",
+          "start": 27,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0072",
-          "number": 72,
-          "speechLineNumber": 4,
-          "text": "Being a thing immortal as itself?",
-          "plainText": "Being a thing immortal as itself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0073",
-          "number": 73,
-          "speechLineNumber": 5,
-          "text": "It waves me forth again. I'll follow it.",
-          "plainText": "It waves me forth again I'll follow it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44057/line-4",
+          "start": 52,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308900,
+        "end": 1308990,
+        "line": 49390,
+        "column": 1,
+        "path": "chap08/p@44057",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-018",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44151",
       "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nYou shall not go, my lord.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "What if it tempt you toward the flood, my lord,",
-          "plainText": "What if it tempt you toward the flood my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44151/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0075",
-          "number": 75,
-          "speechLineNumber": 2,
-          "text": "Or to the dreadful summit of the cliff",
-          "plainText": "Or to the dreadful summit of the cliff",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44151/line-2",
+          "start": 11,
+          "end": 37,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0076",
-          "number": 76,
-          "speechLineNumber": 3,
-          "text": "That beetles o'er his base into the sea,",
-          "plainText": "That beetles o'er his base into the sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0077",
-          "number": 77,
-          "speechLineNumber": 4,
-          "text": "And there assume some other horrible form",
-          "plainText": "And there assume some other horrible form",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0078",
-          "number": 78,
-          "speechLineNumber": 5,
-          "text": "Which might deprive your sovereignty of reason,",
-          "plainText": "Which might deprive your sovereignty of reason",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0079",
-          "number": 79,
-          "speechLineNumber": 6,
-          "text": "And draw you into madness? Think of it.",
-          "plainText": "And draw you into madness Think of it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0080",
-          "number": 80,
-          "speechLineNumber": 7,
-          "text": "The very place puts toys of desperation,",
-          "plainText": "The very place puts toys of desperation",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0081",
-          "number": 81,
-          "speechLineNumber": 8,
-          "text": "Without more motive, into every brain",
-          "plainText": "Without more motive into every brain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0082",
-          "number": 82,
-          "speechLineNumber": 9,
-          "text": "That looks so many fathoms to the sea",
-          "plainText": "That looks so many fathoms to the sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0083",
-          "number": 83,
-          "speechLineNumber": 10,
-          "text": "And hears it roar beneath.",
-          "plainText": "And hears it roar beneath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44151/line-3",
+          "start": 38,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1308994,
+        "end": 1309065,
+        "line": 49396,
+        "column": 1,
+        "path": "chap08/p@44151",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-019",
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44226",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nHold off your hands.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "It waves me still.",
-          "plainText": "It waves me still",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44226/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0085",
-          "number": 85,
-          "speechLineNumber": 2,
-          "text": "Go on, I'll follow thee.",
-          "plainText": "Go on I'll follow thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0086",
-          "number": 86,
-          "speechLineNumber": 1,
-          "text": "You shall not go, my lord.",
-          "plainText": "You shall not go my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "Hold off your hands.",
-          "plainText": "Hold off your hands",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0088",
-          "number": 88,
-          "speechLineNumber": 1,
-          "text": "Be rul'd; you shall not go.",
-          "plainText": "Be rul'd you shall not go",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-1-4-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "My fate cries out,",
-          "plainText": "My fate cries out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44226/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0090",
-          "number": 90,
-          "speechLineNumber": 2,
-          "text": "And makes each petty artery in this body",
-          "plainText": "And makes each petty artery in this body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44226/line-3",
+          "start": 29,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1309069,
+        "end": 1309131,
+        "line": 49401,
+        "column": 1,
+        "path": "chap08/p@44226",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44292",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nBe rul’d; you shall not go.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44292/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0091",
-          "number": 91,
-          "speechLineNumber": 3,
-          "text": "As hardy as the Nemean lion's nerve.",
-          "plainText": "As hardy as the Nemean lion's nerve",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44292/line-2",
+          "start": 9,
+          "end": 36,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44292/line-3",
+          "start": 37,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-stage-005",
-      "type": "stage",
-      "text": "[Ghost beckons.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-stage-006",
-      "type": "stage",
-      "text": "[Breaking free from them.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-stage-007",
-      "type": "stage",
-      "text": "[Exeunt Ghost and Hamlet.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-1-4-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
+      ],
+      "sourceRef": {
+        "start": 1309135,
+        "end": 1309205,
+        "line": 49406,
+        "column": 1,
+        "path": "chap08/p@44292",
+        "anchor": "sceneI_8.4"
       },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nMy fate cries out,\nAnd makes each petty artery in this body\nAs hardy as the Nemean lion’s nerve.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0092",
-          "number": 92,
-          "speechLineNumber": 1,
-          "text": "He waxes desperate with imagination.",
-          "plainText": "He waxes desperate with imagination",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366/line-3",
+          "start": 27,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366/line-4",
+          "start": 68,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44366/line-5",
+          "start": 105,
+          "end": 105,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309209,
+        "end": 1309357,
+        "line": 49411,
+        "column": 1,
+        "path": "chap08/p@44366",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44518",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Ghost beckons.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 6,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0093",
-          "number": 93,
-          "speechLineNumber": 1,
-          "text": "Let's follow; 'tis not fit thus to obey him.",
-          "plainText": "Let's follow 'tis not fit thus to obey him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44518/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309361,
+        "end": 1309439,
+        "line": 49418,
+        "column": 1,
+        "path": "chap08/p@44518",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44600",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Still am I call’d. Unhand me, gentlemen.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0094",
-          "number": 94,
-          "speechLineNumber": 1,
-          "text": "Have after. To what issue will this come?",
-          "plainText": "Have after To what issue will this come",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44600/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309443,
+        "end": 1309508,
+        "line": 49422,
+        "column": 1,
+        "path": "chap08/p@44600",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44669",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Breaking free from them.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 25
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0095",
-          "number": 95,
-          "speechLineNumber": 1,
-          "text": "Something is rotten in the state of Denmark.",
-          "plainText": "Something is rotten in the state of Denmark",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44669/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309512,
+        "end": 1309570,
+        "line": 49426,
+        "column": 1,
+        "path": "chap08/p@44669",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44731",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "By heaven, I’ll make a ghost of him that lets me.\nI say, away!—Go on, I’ll follow thee.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0096",
-          "number": 96,
-          "speechLineNumber": 1,
-          "text": "Heaven will direct it.",
-          "plainText": "Heaven will direct it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44731/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44731/line-2",
+          "start": 50,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44731/line-3",
+          "start": 88,
+          "end": 88,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309574,
+        "end": 1309695,
+        "line": 49430,
+        "column": 1,
+        "path": "chap08/p@44731",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "marcellus",
-        "name": "MARCELLUS",
-        "displayName": "Marcellus"
-      },
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44856",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Ghost and Hamlet.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 18,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 25
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-1-4-line-0097",
-          "number": 97,
-          "speechLineNumber": 1,
-          "text": "Nay, let's follow him.",
-          "plainText": "Nay let's follow him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44856/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1309699,
+        "end": 1309817,
+        "line": 49435,
+        "column": 1,
+        "path": "chap08/p@44856",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-1-4-stage-008",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44978",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nHe waxes desperate with imagination.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44978/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44978/line-2",
+          "start": 9,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@44978/line-3",
+          "start": 46,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1309821,
+        "end": 1309900,
+        "line": 49439,
+        "column": 1,
+        "path": "chap08/p@44978",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45061",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nLet’s follow; ’tis not fit thus to obey him.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45061/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45061/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45061/line-3",
+          "start": 56,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1309904,
+        "end": 1309993,
+        "line": 49444,
+        "column": 1,
+        "path": "chap08/p@45061",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45154",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nHave after. To what issue will this come?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45154/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45154/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45154/line-3",
+          "start": 51,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1309997,
+        "end": 1310081,
+        "line": 49449,
+        "column": 1,
+        "path": "chap08/p@45154",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45242",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nSomething is rotten in the state of Denmark.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45242/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45242/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45242/line-3",
+          "start": 56,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1310085,
+        "end": 1310174,
+        "line": 49454,
+        "column": 1,
+        "path": "chap08/p@45242",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45335",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nHeaven will direct it.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45335/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45335/line-2",
+          "start": 9,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45335/line-3",
+          "start": 32,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1310178,
+        "end": 1310243,
+        "line": 49459,
+        "column": 1,
+        "path": "chap08/p@45335",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45404",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCELLUS.\nNay, let’s follow him.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45404/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45404/line-2",
+          "start": 11,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45404/line-3",
+          "start": 34,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1310247,
+        "end": 1310314,
+        "line": 49464,
+        "column": 1,
+        "path": "chap08/p@45404",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": "MARCELLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45475",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneI_8.4/p@45475/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1310318,
+        "end": 1310359,
+        "line": 49469,
+        "column": 1,
+        "path": "chap08/p@45475",
+        "anchor": "sceneI_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6"
 }

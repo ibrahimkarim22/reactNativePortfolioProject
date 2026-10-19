@@ -1,903 +1,1301 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-third-part-of-king-henry-the-sixth",
-    "title": "The Third Part of King Henry the Sixth",
+    "title": "THE THIRD PART OF KING HENRY THE SIXTH",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap14"
   },
-  "scene": {
+  "section": {
     "id": "the-third-part-of-king-henry-the-sixth-4-8",
+    "kind": "scene",
+    "heading": "SCENE VIII. London. The Palace",
     "act": 4,
     "scene": 8,
-    "label": "Act 4, Scene 8",
-    "title": "SCENE VIII. London. The Palace",
-    "location": "London. The Palace",
-    "orderInPlay": 21
+    "parentSectionId": "the-third-part-of-king-henry-the-sixth-act-123628",
+    "orderInPlay": 29,
+    "sourceRef": {
+      "start": 2622675,
+      "end": 2622747,
+      "line": 95537,
+      "column": 1,
+      "path": "chap14/h3@158284",
+      "anchor": "sceneIV_14.8"
+    }
   },
   "content": [
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-001",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/h3@158284",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VIII. London. The Palace",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/h3@158284/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2622675,
+        "end": 2622747,
+        "line": 95537,
+        "column": 1,
+        "path": "chap14/h3@158284",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158360",
       "type": "stage",
-      "text": "Flourish. Enter King Henry, Warwick, Montague, George (Duke of Clarence), Oxford and Exeter."
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "warwick",
-        "name": "WARWICK",
-        "displayName": "Warwick"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Flourish. Enter King Henry, Warwick, Montague, George (Duke of Clarence), Oxford and Exeter.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 80,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 85,
+          "end": 91,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "What counsel, lords? Edward from Belgia,",
-          "plainText": "What counsel lords Edward from Belgia",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "With hasty Germans and blunt Hollanders,",
-          "plainText": "With hasty Germans and blunt Hollanders",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Hath passed in safety through the Narrow Seas,",
-          "plainText": "Hath passed in safety through the Narrow Seas",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And with his troops doth march amain to London;",
-          "plainText": "And with his troops doth march amain to London",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "And many giddy people flock to him.",
-          "plainText": "And many giddy people flock to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158360/line-1",
+          "start": 0,
+          "end": 92,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2622751,
+        "end": 2622930,
+        "line": 95539,
+        "column": 1,
+        "path": "chap14/p@158360",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-002",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543",
       "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "WARWICK.\nWhat counsel, lords? Edward from Belgia,\nWith hasty Germans and blunt Hollanders,\nHath passed in safety through the Narrow Seas,\nAnd with his troops doth march amain to London;\nAnd many giddy people flock to him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Let's levy men and beat him back again.",
-          "plainText": "Let's levy men and beat him back again",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-2",
+          "start": 9,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-3",
+          "start": 50,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-4",
+          "start": 91,
+          "end": 137,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-5",
+          "start": 138,
+          "end": 185,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158543/line-6",
+          "start": 186,
+          "end": 221,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2622934,
+        "end": 2623205,
+        "line": 95543,
+        "column": 1,
+        "path": "chap14/p@158543",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "WARWICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-003",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158818",
       "type": "speech",
-      "speaker": {
-        "id": "george",
-        "name": "GEORGE",
-        "displayName": "George"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nLet’s levy men and beat him back again.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "A little fire is quickly trodden out,",
-          "plainText": "A little fire is quickly trodden out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158818/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "Which, being suffered, rivers cannot quench.",
-          "plainText": "Which being suffered rivers cannot quench",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158818/line-2",
+          "start": 12,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2623209,
+        "end": 2623290,
+        "line": 95552,
+        "column": 1,
+        "path": "chap14/p@158818",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-004",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158903",
       "type": "speech",
-      "speaker": {
-        "id": "warwick",
-        "name": "WARWICK",
-        "displayName": "Warwick"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GEORGE.\nA little fire is quickly trodden out,\nWhich, being suffered, rivers cannot quench.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "In Warwickshire I have true-hearted friends,",
-          "plainText": "In Warwickshire I have truehearted friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158903/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "Not mutinous in peace, yet bold in war.",
-          "plainText": "Not mutinous in peace yet bold in war",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158903/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "Those will I muster up; and thou, son Clarence,",
-          "plainText": "Those will I muster up and thou son Clarence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0012",
-          "number": 12,
-          "speechLineNumber": 4,
-          "text": "Shalt stir up in Suffolk, Norfolk, and in Kent",
-          "plainText": "Shalt stir up in Suffolk Norfolk and in Kent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0013",
-          "number": 13,
-          "speechLineNumber": 5,
-          "text": "The knights and gentlemen to come with thee.",
-          "plainText": "The knights and gentlemen to come with thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0014",
-          "number": 14,
-          "speechLineNumber": 6,
-          "text": "Thou, brother Montague, in Buckingham,",
-          "plainText": "Thou brother Montague in Buckingham",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0015",
-          "number": 15,
-          "speechLineNumber": 7,
-          "text": "Northampton, and in Leicestershire shalt find",
-          "plainText": "Northampton and in Leicestershire shalt find",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0016",
-          "number": 16,
-          "speechLineNumber": 8,
-          "text": "Men well inclined to hear what thou command'st.",
-          "plainText": "Men well inclined to hear what thou command'st",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0017",
-          "number": 17,
-          "speechLineNumber": 9,
-          "text": "And thou, brave Oxford, wondrous well beloved,",
-          "plainText": "And thou brave Oxford wondrous well beloved",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0018",
-          "number": 18,
-          "speechLineNumber": 10,
-          "text": "In Oxfordshire shalt muster up thy friends.",
-          "plainText": "In Oxfordshire shalt muster up thy friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0019",
-          "number": 19,
-          "speechLineNumber": 11,
-          "text": "My sovereign, with the loving citizens,",
-          "plainText": "My sovereign with the loving citizens",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0020",
-          "number": 20,
-          "speechLineNumber": 12,
-          "text": "Like to his island girt in with the ocean,",
-          "plainText": "Like to his island girt in with the ocean",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0021",
-          "number": 21,
-          "speechLineNumber": 13,
-          "text": "Or modest Dian circled with her nymphs,",
-          "plainText": "Or modest Dian circled with her nymphs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0022",
-          "number": 22,
-          "speechLineNumber": 14,
-          "text": "Shall rest in London till we come to him.",
-          "plainText": "Shall rest in London till we come to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0023",
-          "number": 23,
-          "speechLineNumber": 15,
-          "text": "Fair lords, take leave and stand not to reply.",
-          "plainText": "Fair lords take leave and stand not to reply",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0024",
-          "number": 24,
-          "speechLineNumber": 16,
-          "text": "Farewell, my sovereign.",
-          "plainText": "Farewell my sovereign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@158903/line-3",
+          "start": 46,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2623294,
+        "end": 2623419,
+        "line": 95557,
+        "column": 1,
+        "path": "chap14/p@158903",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "GEORGE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-005",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032",
       "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "WARWICK.\nIn Warwickshire I have true-hearted friends,\nNot mutinous in peace, yet bold in war.\nThose will I muster up; and thou, son Clarence,\nShalt stir up in Suffolk, Norfolk, and in Kent\nThe knights and gentlemen to come with thee.\nThou, brother Montague, in Buckingham,\nNorthampton, and in Leicestershire shalt find\nMen well inclined to hear what thou command’st.\nAnd thou, brave Oxford, wondrous well beloved,\nIn Oxfordshire shalt muster up thy friends.\nMy sovereign, with the loving citizens,\nLike to his island girt in with the ocean,\nOr modest Dian circled with her nymphs,\nShall rest in London till we come to him.\nFair lords, take leave and stand not to reply.\nFarewell, my sovereign.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Farewell, my Hector, and my Troy's true hope.",
-          "plainText": "Farewell my Hector and my Troy's true hope",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "george",
-        "name": "GEORGE",
-        "displayName": "George"
-      },
-      "lines": [
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "In sign of truth, I kiss your Highness' hand.",
-          "plainText": "In sign of truth I kiss your Highness' hand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
-      "lines": [
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Well-minded Clarence, be thou fortunate.",
-          "plainText": "Wellminded Clarence be thou fortunate",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "montague",
-        "name": "MONTAGUE",
-        "displayName": "Montague"
-      },
-      "lines": [
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "Comfort, my lord; and so I take my leave.",
-          "plainText": "Comfort my lord and so I take my leave",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "oxford",
-        "name": "OXFORD",
-        "displayName": "Oxford"
-      },
-      "lines": [
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "And thus [kissing Henry's hand] I seal my truth, and bid adieu.",
-          "plainText": "And thus kissing Henry's hand I seal my truth and bid adieu",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
-      "lines": [
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Sweet Oxford, and my loving Montague,",
-          "plainText": "Sweet Oxford and my loving Montague",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "And all at once, once more a happy farewell.",
-          "plainText": "And all at once once more a happy farewell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-3",
+          "start": 54,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-4",
+          "start": 94,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-5",
+          "start": 142,
+          "end": 188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-6",
+          "start": 189,
+          "end": 233,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-7",
+          "start": 234,
+          "end": 272,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-8",
+          "start": 273,
+          "end": 318,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-9",
+          "start": 319,
+          "end": 366,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-10",
+          "start": 367,
+          "end": 413,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-11",
+          "start": 414,
+          "end": 457,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-12",
+          "start": 458,
+          "end": 497,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-13",
+          "start": 498,
+          "end": 540,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-14",
+          "start": 541,
+          "end": 580,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-15",
+          "start": 581,
+          "end": 622,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-16",
+          "start": 623,
+          "end": 669,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159032/line-17",
+          "start": 670,
+          "end": 693,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2623423,
+        "end": 2624221,
+        "line": 95563,
+        "column": 1,
+        "path": "chap14/p@159032",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "WARWICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-011",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159834",
       "type": "speech",
-      "speaker": {
-        "id": "warwick",
-        "name": "WARWICK",
-        "displayName": "Warwick"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nFarewell, my Hector, and my Troy’s true hope.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Farewell, sweet lords; let's meet at Coventry.",
-          "plainText": "Farewell sweet lords let's meet at Coventry",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159834/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159834/line-2",
+          "start": 12,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2624225,
+        "end": 2624312,
+        "line": 95583,
+        "column": 1,
+        "path": "chap14/p@159834",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-002",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159925",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GEORGE.\nIn sign of truth, I kiss your Highness’ hand.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159925/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@159925/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624316,
+        "end": 2624399,
+        "line": 95588,
+        "column": 1,
+        "path": "chap14/p@159925",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "GEORGE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160012",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nWell-minded Clarence, be thou fortunate.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160012/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160012/line-2",
+          "start": 12,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624403,
+        "end": 2624485,
+        "line": 95593,
+        "column": 1,
+        "path": "chap14/p@160012",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160098",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MONTAGUE.\nComfort, my lord; and so I take my leave.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160098/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160098/line-2",
+          "start": 10,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624489,
+        "end": 2624570,
+        "line": 95598,
+        "column": 1,
+        "path": "chap14/p@160098",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "MONTAGUE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160183",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "OXFORD.\nAnd thus [kissing Henry’s hand] I seal my truth, and bid adieu.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 18,
+          "end": 38
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160183/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160183/line-2",
+          "start": 8,
+          "end": 71,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624574,
+        "end": 2624682,
+        "line": 95603,
+        "column": 1,
+        "path": "chap14/p@160183",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "OXFORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160295",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nSweet Oxford, and my loving Montague,\nAnd all at once, once more a happy farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160295/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160295/line-2",
+          "start": 12,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160295/line-3",
+          "start": 50,
+          "end": 94,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624686,
+        "end": 2624815,
+        "line": 95608,
+        "column": 1,
+        "path": "chap14/p@160295",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160428",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "WARWICK.\nFarewell, sweet lords; let’s meet at Coventry.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160428/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160428/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624819,
+        "end": 2624904,
+        "line": 95614,
+        "column": 1,
+        "path": "chap14/p@160428",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "WARWICK.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160517",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt all but King Henry and Exeter.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 26,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 37,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 38
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160517/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2624908,
+        "end": 2625036,
+        "line": 95619,
+        "column": 1,
+        "path": "chap14/p@160517",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nHere at the palace will I rest a while.\nCousin of Exeter, what thinks your lordship?\nMethinks the power that Edward hath in field\nShould not be able to encounter mine.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649/line-2",
+          "start": 12,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649/line-3",
+          "start": 52,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649/line-4",
+          "start": 97,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160649/line-5",
+          "start": 142,
+          "end": 179,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2625040,
+        "end": 2625264,
+        "line": 95622,
+        "column": 1,
+        "path": "chap14/p@160649",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160877",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EXETER.\nThe doubt is that he will seduce the rest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160877/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160877/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2625268,
+        "end": 2625348,
+        "line": 95630,
+        "column": 1,
+        "path": "chap14/p@160877",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "EXETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING HENRY.\nThat’s not my fear; my meed hath got me fame.\nI have not stopped mine ears to their demands,\nNor posted off their suits with slow delays;\nMy pity hath been balm to heal their wounds,\nMy mildness hath allayed their swelling griefs,\nMy mercy dried their water-flowing tears.\nI have not been desirous of their wealth\nNor much oppressed them with great subsidies,\nNor forward of revenge, though they much erred.\nThen why should they love Edward more than me?\nNo, Exeter, these graces challenge grace;\nAnd when the lion fawns upon the lamb,\nThe lamb will never cease to follow him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-2",
+          "start": 12,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-3",
+          "start": 58,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-4",
+          "start": 105,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-5",
+          "start": 150,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-6",
+          "start": 195,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-7",
+          "start": 243,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-8",
+          "start": 285,
+          "end": 325,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-9",
+          "start": 326,
+          "end": 371,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-10",
+          "start": 372,
+          "end": 419,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-11",
+          "start": 420,
+          "end": 466,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-12",
+          "start": 467,
+          "end": 508,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-13",
+          "start": 509,
+          "end": 547,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@160961/line-14",
+          "start": 548,
+          "end": 588,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2625352,
+        "end": 2626030,
+        "line": 95635,
+        "column": 1,
+        "path": "chap14/p@160961",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161643",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Shout within “A York! A York!”]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 31
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161643/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2626034,
+        "end": 2626094,
+        "line": 95652,
+        "column": 1,
+        "path": "chap14/p@161643",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161707",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EXETER.\nHark, hark, my lord, what shouts are these?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161707/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161707/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2626098,
+        "end": 2626179,
+        "line": 95654,
+        "column": 1,
+        "path": "chap14/p@161707",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "EXETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161792",
       "type": "stage",
-      "text": "[Exeunt all but King Henry and Exeter.]"
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter King Edward, Richard (Duke of Gloucester) and Soldiers.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 47,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Here at the palace will I rest a while.",
-          "plainText": "Here at the palace will I rest a while",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Cousin of Exeter, what thinks your lordship?",
-          "plainText": "Cousin of Exeter what thinks your lordship",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Methinks the power that Edward hath in field",
-          "plainText": "Methinks the power that Edward hath in field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "Should not be able to encounter mine.",
-          "plainText": "Should not be able to encounter mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161792/line-1",
+          "start": 0,
+          "end": 61,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2626183,
+        "end": 2626300,
+        "line": 95659,
+        "column": 1,
+        "path": "chap14/p@161792",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-013",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913",
       "type": "speech",
-      "speaker": {
-        "id": "exeter",
-        "name": "EXETER",
-        "displayName": "Exeter"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING EDWARD.\nSeize on the shame-faced Henry, bear him hence,\nAnd once again proclaim us King of England.\nYou are the fount that makes small brooks to flow.\nNow stops thy spring; my sea shall suck them dry\nAnd swell so much the higher by their ebb.\nHence with him to the Tower. Let him not speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "The doubt is that he will seduce the rest.",
-          "plainText": "The doubt is that he will seduce the rest",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-2",
+          "start": 13,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-3",
+          "start": 61,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-4",
+          "start": 105,
+          "end": 155,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-5",
+          "start": 156,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-6",
+          "start": 205,
+          "end": 247,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@161913/line-7",
+          "start": 248,
+          "end": 295,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2626304,
+        "end": 2626654,
+        "line": 95662,
+        "column": 1,
+        "path": "chap14/p@161913",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": "KING EDWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162267",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt some with King Henry.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 18,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 29
+        }
+      ],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "That's not my fear; my meed hath got me fame.",
-          "plainText": "That's not my fear my meed hath got me fame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0039",
-          "number": 39,
-          "speechLineNumber": 2,
-          "text": "I have not stopped mine ears to their demands,",
-          "plainText": "I have not stopped mine ears to their demands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0040",
-          "number": 40,
-          "speechLineNumber": 3,
-          "text": "Nor posted off their suits with slow delays;",
-          "plainText": "Nor posted off their suits with slow delays",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0041",
-          "number": 41,
-          "speechLineNumber": 4,
-          "text": "My pity hath been balm to heal their wounds,",
-          "plainText": "My pity hath been balm to heal their wounds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0042",
-          "number": 42,
-          "speechLineNumber": 5,
-          "text": "My mildness hath allayed their swelling griefs,",
-          "plainText": "My mildness hath allayed their swelling griefs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0043",
-          "number": 43,
-          "speechLineNumber": 6,
-          "text": "My mercy dried their water-flowing tears.",
-          "plainText": "My mercy dried their waterflowing tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0044",
-          "number": 44,
-          "speechLineNumber": 7,
-          "text": "I have not been desirous of their wealth",
-          "plainText": "I have not been desirous of their wealth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0045",
-          "number": 45,
-          "speechLineNumber": 8,
-          "text": "Nor much oppressed them with great subsidies,",
-          "plainText": "Nor much oppressed them with great subsidies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0046",
-          "number": 46,
-          "speechLineNumber": 9,
-          "text": "Nor forward of revenge, though they much erred.",
-          "plainText": "Nor forward of revenge though they much erred",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0047",
-          "number": 47,
-          "speechLineNumber": 10,
-          "text": "Then why should they love Edward more than me?",
-          "plainText": "Then why should they love Edward more than me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0048",
-          "number": 48,
-          "speechLineNumber": 11,
-          "text": "No, Exeter, these graces challenge grace;",
-          "plainText": "No Exeter these graces challenge grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0049",
-          "number": 49,
-          "speechLineNumber": 12,
-          "text": "And when the lion fawns upon the lamb,",
-          "plainText": "And when the lion fawns upon the lamb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0050",
-          "number": 50,
-          "speechLineNumber": 13,
-          "text": "The lamb will never cease to follow him.",
-          "plainText": "The lamb will never cease to follow him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162267/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-003",
-      "type": "stage",
-      "text": "[Shout within \"A York! A York!\"]"
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "exeter",
-        "name": "EXETER",
-        "displayName": "Exeter"
+      ],
+      "sourceRef": {
+        "start": 2626658,
+        "end": 2626746,
+        "line": 95672,
+        "column": 1,
+        "path": "chap14/p@162267",
+        "anchor": "sceneIV_14.8"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162359",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "And, lords, towards Coventry bend we our course,\nWhere peremptory Warwick now remains.\nThe sun shines hot, and, if we use delay,\nCold biting winter mars our hoped-for hay.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Hark, hark, my lord, what shouts are these?",
-          "plainText": "Hark hark my lord what shouts are these",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162359/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162359/line-2",
+          "start": 49,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162359/line-3",
+          "start": 87,
+          "end": 128,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162359/line-4",
+          "start": 129,
+          "end": 171,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-004",
-      "type": "stage",
-      "text": "Enter King Edward, Richard (Duke of Gloucester) and Soldiers."
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "king-edward",
-        "name": "KING EDWARD",
-        "displayName": "King Edward"
+      ],
+      "sourceRef": {
+        "start": 2626750,
+        "end": 2626961,
+        "line": 95674,
+        "column": 1,
+        "path": "chap14/p@162359",
+        "anchor": "sceneIV_14.8"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162574",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "RICHARD.\nAway betimes, before his forces join,\nAnd take the great-grown traitor unawares.\nBrave warriors, march amain towards Coventry.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "Seize on the shame-faced Henry, bear him hence,",
-          "plainText": "Seize on the shamefaced Henry bear him hence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162574/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "And once again proclaim us King of England.",
-          "plainText": "And once again proclaim us King of England",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162574/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "You are the fount that makes small brooks to flow.",
-          "plainText": "You are the fount that makes small brooks to flow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162574/line-3",
+          "start": 47,
+          "end": 89,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0055",
-          "number": 55,
-          "speechLineNumber": 4,
-          "text": "Now stops thy spring; my sea shall suck them dry",
-          "plainText": "Now stops thy spring my sea shall suck them dry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0056",
-          "number": 56,
-          "speechLineNumber": 5,
-          "text": "And swell so much the higher by their ebb.",
-          "plainText": "And swell so much the higher by their ebb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0057",
-          "number": 57,
-          "speechLineNumber": 6,
-          "text": "Hence with him to the Tower. Let him not speak.",
-          "plainText": "Hence with him to the Tower Let him not speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162574/line-4",
+          "start": 90,
+          "end": 135,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-005",
-      "type": "stage",
-      "text": "[Exeunt some with King Henry.]"
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "richard",
-        "name": "RICHARD",
-        "displayName": "Richard"
+      ],
+      "sourceRef": {
+        "start": 2626965,
+        "end": 2627140,
+        "line": 95681,
+        "column": 1,
+        "path": "chap14/p@162574",
+        "anchor": "sceneIV_14.8"
       },
+      "speakerLabel": "RICHARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162753",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Away betimes, before his forces join,",
-          "plainText": "Away betimes before his forces join",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0059",
-          "number": 59,
-          "speechLineNumber": 2,
-          "text": "And take the great-grown traitor unawares.",
-          "plainText": "And take the greatgrown traitor unawares",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-4-8-line-0060",
-          "number": 60,
-          "speechLineNumber": 3,
-          "text": "Brave warriors, march amain towards Coventry.",
-          "plainText": "Brave warriors march amain towards Coventry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneIV_14.8/p@162753/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-4-8-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      ],
+      "sourceRef": {
+        "start": 2627144,
+        "end": 2627181,
+        "line": 95688,
+        "column": 1,
+        "path": "chap14/p@162753",
+        "anchor": "sceneIV_14.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "f453521fb4f7bd9c83029c14d942703250be8a596294aa800f2251317b79e918"
 }

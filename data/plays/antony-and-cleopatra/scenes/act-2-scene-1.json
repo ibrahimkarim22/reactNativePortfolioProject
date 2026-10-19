@@ -1,844 +1,1016 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "antony-and-cleopatra",
-    "title": "The Tragedy of Antony and Cleopatra",
+    "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
-  "scene": {
+  "section": {
     "id": "antony-and-cleopatra-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. Messina. A Room in Pompey’s house.",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. Messina. A Room in Pompey's house.",
-    "location": "Messina. A Room in Pompey's house.",
-    "orderInPlay": 6
+    "parentSectionId": "antony-and-cleopatra-act-41861",
+    "orderInPlay": 12,
+    "sourceRef": {
+      "start": 349651,
+      "end": 349711,
+      "line": 11992,
+      "column": 1,
+      "path": "chap03/h3@41912",
+      "anchor": "sceneII_3.1"
+    }
   },
   "content": [
     {
-      "id": "antony-and-cleopatra-2-1-stage-001",
+      "id": "antony-and-cleopatra/sceneII_3.1/h3@41912",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Messina. A Room in Pompey’s house.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 43
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/h3@41912/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 349651,
+        "end": 349711,
+        "line": 11992,
+        "column": 1,
+        "path": "chap03/h3@41912",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneII_3.1/p@41976",
       "type": "stage",
-      "text": "Enter Pompey, Menecrates and Menas in warlike manner."
-    },
-    {
-      "id": "antony-and-cleopatra-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Pompey, Menecrates and Menas in warlike manner.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 29,
+          "end": 34,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "If the great gods be just, they shall assist",
-          "plainText": "If the great gods be just they shall assist",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "The deeds of justest men.",
-          "plainText": "The deeds of justest men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@41976/line-1",
+          "start": 0,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 349715,
+        "end": 349857,
+        "line": 11994,
+        "column": 1,
+        "path": "chap03/p@41976",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-002",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@42122",
       "type": "speech",
-      "speaker": {
-        "id": "menecrates",
-        "name": "MENECRATES",
-        "displayName": "Menecrates"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nIf the great gods be just, they shall assist\nThe deeds of justest men.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Know, worthy Pompey,",
-          "plainText": "Know worthy Pompey",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42122/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "That what they do delay they not deny.",
-          "plainText": "That what they do delay they not deny",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42122/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42122/line-3",
+          "start": 53,
+          "end": 78,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 349861,
+        "end": 349974,
+        "line": 11998,
+        "column": 1,
+        "path": "chap03/p@42122",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-003",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@42239",
       "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENECRATES.\nKnow, worthy Pompey,\nThat what they do delay they not deny.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Whiles we are suitors to their throne, decays",
-          "plainText": "Whiles we are suitors to their throne decays",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42239/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "The thing we sue for.",
-          "plainText": "The thing we sue for",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42239/line-2",
+          "start": 12,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42239/line-3",
+          "start": 33,
+          "end": 71,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 349978,
+        "end": 350084,
+        "line": 12004,
+        "column": 1,
+        "path": "chap03/p@42239",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "MENECRATES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-004",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@42349",
       "type": "speech",
-      "speaker": {
-        "id": "menecrates",
-        "name": "MENECRATES",
-        "displayName": "Menecrates"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nWhiles we are suitors to their throne, decays\nThe thing we sue for.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "We, ignorant of ourselves,",
-          "plainText": "We ignorant of ourselves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42349/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "Beg often our own harms, which the wise powers",
-          "plainText": "Beg often our own harms which the wise powers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42349/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 3,
-          "text": "Deny us for our good; so find we profit",
-          "plainText": "Deny us for our good so find we profit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 4,
-          "text": "By losing of our prayers.",
-          "plainText": "By losing of our prayers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42349/line-3",
+          "start": 54,
+          "end": 75,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 350088,
+        "end": 350198,
+        "line": 12010,
+        "column": 1,
+        "path": "chap03/p@42349",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-005",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@42463",
       "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENECRATES.\nWe, ignorant of ourselves,\nBeg often our own harms, which the wise powers\nDeny us for our good; so find we profit\nBy losing of our prayers.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I shall do well.",
-          "plainText": "I shall do well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42463/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "The people love me, and the sea is mine;",
-          "plainText": "The people love me and the sea is mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42463/line-2",
+          "start": 12,
+          "end": 38,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "My powers are crescent, and my auguring hope",
-          "plainText": "My powers are crescent and my auguring hope",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42463/line-3",
+          "start": 39,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 4,
-          "text": "Says it will come to th' full. Mark Antony",
-          "plainText": "Says it will come to th' full Mark Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42463/line-4",
+          "start": 86,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 5,
-          "text": "In Egypt sits at dinner, and will make",
-          "plainText": "In Egypt sits at dinner and will make",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 6,
-          "text": "No wars without doors. Caesar gets money where",
-          "plainText": "No wars without doors Caesar gets money where",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 7,
-          "text": "He loses hearts. Lepidus flatters both,",
-          "plainText": "He loses hearts Lepidus flatters both",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 8,
-          "text": "Of both is flattered; but he neither loves",
-          "plainText": "Of both is flattered but he neither loves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 9,
-          "text": "Nor either cares for him.",
-          "plainText": "Nor either cares for him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42463/line-5",
+          "start": 126,
+          "end": 151,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 350202,
+        "end": 350398,
+        "line": 12016,
+        "column": 1,
+        "path": "chap03/p@42463",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "MENECRATES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-006",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@42663",
       "type": "speech",
-      "speaker": {
-        "id": "menas",
-        "name": "MENAS",
-        "displayName": "Menas"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nI shall do well.\nThe people love me, and the sea is mine;\nMy powers are crescent, and my auguring hope\nSays it will come to th’ full. Mark Antony\nIn Egypt sits at dinner, and will make\nNo wars without doors. Caesar gets money where\nHe loses hearts. Lepidus flatters both,\nOf both is flattered; but he neither loves\nNor either cares for him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Caesar and Lepidus",
-          "plainText": "Caesar and Lepidus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "Are in the field. A mighty strength they carry.",
-          "plainText": "Are in the field A mighty strength they carry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-3",
+          "start": 25,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-4",
+          "start": 66,
+          "end": 110,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-5",
+          "start": 111,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-6",
+          "start": 154,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-7",
+          "start": 193,
+          "end": 239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-8",
+          "start": 240,
+          "end": 279,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-9",
+          "start": 280,
+          "end": 322,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@42663/line-10",
+          "start": 323,
+          "end": 348,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 350402,
+        "end": 350820,
+        "line": 12024,
+        "column": 1,
+        "path": "chap03/p@42663",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-007",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43085",
       "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENAS.\nCaesar and Lepidus\nAre in the field. A mighty strength they carry.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Where have you this? 'Tis false.",
-          "plainText": "Where have you this 'Tis false",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43085/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43085/line-2",
+          "start": 7,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43085/line-3",
+          "start": 26,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 350824,
+        "end": 350932,
+        "line": 12037,
+        "column": 1,
+        "path": "chap03/p@43085",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "MENAS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-008",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43197",
       "type": "speech",
-      "speaker": {
-        "id": "menas",
-        "name": "MENAS",
-        "displayName": "Menas"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nWhere have you this? ’Tis false.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "From Silvius, sir.",
-          "plainText": "From Silvius sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43197/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43197/line-2",
+          "start": 8,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 350936,
+        "end": 351006,
+        "line": 12043,
+        "column": 1,
+        "path": "chap03/p@43197",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-009",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43271",
       "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENAS.\nFrom Silvius, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "He dreams. I know they are in Rome together,",
-          "plainText": "He dreams I know they are in Rome together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43271/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "Looking for Antony. But all the charms of love,",
-          "plainText": "Looking for Antony But all the charms of love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 3,
-          "text": "Salt Cleopatra, soften thy waned lip!",
-          "plainText": "Salt Cleopatra soften thy waned lip",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 4,
-          "text": "Let witchcraft join with beauty, lust with both;",
-          "plainText": "Let witchcraft join with beauty lust with both",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 5,
-          "text": "Tie up the libertine in a field of feasts;",
-          "plainText": "Tie up the libertine in a field of feasts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 6,
-          "text": "Keep his brain fuming. Epicurean cooks",
-          "plainText": "Keep his brain fuming Epicurean cooks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 7,
-          "text": "Sharpen with cloyless sauce his appetite,",
-          "plainText": "Sharpen with cloyless sauce his appetite",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 8,
-          "text": "That sleep and feeding may prorogue his honour",
-          "plainText": "That sleep and feeding may prorogue his honour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 9,
-          "text": "Even till a Lethe'd dullness—",
-          "plainText": "Even till a Lethe'd dullness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43271/line-2",
+          "start": 7,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 351010,
+        "end": 351065,
+        "line": 12048,
+        "column": 1,
+        "path": "chap03/p@43271",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "MENAS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-stage-002",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43330",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nHe dreams. I know they are in Rome together,\nLooking for Antony. But all the charms of love,\nSalt Cleopatra, soften thy waned lip!\nLet witchcraft join with beauty, lust with both;\nTie up the libertine in a field of feasts;\nKeep his brain fuming. Epicurean cooks\nSharpen with cloyless sauce his appetite,\nThat sleep and feeding may prorogue his honour\nEven till a Lethe’d dullness—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-3",
+          "start": 53,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-4",
+          "start": 101,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-5",
+          "start": 139,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-6",
+          "start": 188,
+          "end": 230,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-7",
+          "start": 231,
+          "end": 269,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-8",
+          "start": 270,
+          "end": 311,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-9",
+          "start": 312,
+          "end": 358,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43330/line-10",
+          "start": 359,
+          "end": 388,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 351069,
+        "end": 351527,
+        "line": 12053,
+        "column": 1,
+        "path": "chap03/p@43330",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43792",
       "type": "stage",
-      "text": "Enter Varrius."
-    },
-    {
-      "id": "antony-and-cleopatra-2-1-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "varrius",
-        "name": "VARRIUS",
-        "displayName": "Varrius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Varrius.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "This is most certain that I shall deliver:",
-          "plainText": "This is most certain that I shall deliver",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Mark Antony is every hour in Rome",
-          "plainText": "Mark Antony is every hour in Rome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Expected. Since he went from Egypt 'tis",
-          "plainText": "Expected Since he went from Egypt 'tis",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "A space for farther travel.",
-          "plainText": "A space for farther travel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43792/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 351531,
+        "end": 351604,
+        "line": 12066,
+        "column": 1,
+        "path": "chap03/p@43792",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43869",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "How now, Varrius!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "I could have given less matter",
-          "plainText": "I could have given less matter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "A better ear.—Menas, I did not think",
-          "plainText": "A better earMenas I did not think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "This amorous surfeiter would have donned his helm",
-          "plainText": "This amorous surfeiter would have donned his helm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 4,
-          "text": "For such a petty war. His soldiership",
-          "plainText": "For such a petty war His soldiership",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 5,
-          "text": "Is twice the other twain. But let us rear",
-          "plainText": "Is twice the other twain But let us rear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 6,
-          "text": "The higher our opinion, that our stirring",
-          "plainText": "The higher our opinion that our stirring",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 7,
-          "text": "Can from the lap of Egypt's widow pluck",
-          "plainText": "Can from the lap of Egypt's widow pluck",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 8,
-          "text": "The ne'er lust-wearied Antony.",
-          "plainText": "The ne'er lustwearied Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43869/line-1",
+          "start": 0,
+          "end": 17,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 351608,
+        "end": 351650,
+        "line": 12070,
+        "column": 1,
+        "path": "chap03/p@43869",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-012",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@43915",
       "type": "speech",
-      "speaker": {
-        "id": "menas",
-        "name": "MENAS",
-        "displayName": "Menas"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VARRIUS.\nThis is most certain that I shall deliver:\nMark Antony is every hour in Rome\nExpected. Since he went from Egypt ’tis\nA space for farther travel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "I cannot hope",
-          "plainText": "I cannot hope",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43915/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 2,
-          "text": "Caesar and Antony shall well greet together.",
-          "plainText": "Caesar and Antony shall well greet together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43915/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 3,
-          "text": "His wife that's dead did trespasses to Caesar;",
-          "plainText": "His wife that's dead did trespasses to Caesar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43915/line-3",
+          "start": 52,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 4,
-          "text": "His brother warred upon him, although I think,",
-          "plainText": "His brother warred upon him although I think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43915/line-4",
+          "start": 86,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 5,
-          "text": "Not moved by Antony.",
-          "plainText": "Not moved by Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@43915/line-5",
+          "start": 126,
+          "end": 153,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 351654,
+        "end": 351852,
+        "line": 12074,
+        "column": 1,
+        "path": "chap03/p@43915",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "VARRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-speech-013",
+      "id": "antony-and-cleopatra/sceneII_3.1/p@44117",
       "type": "speech",
-      "speaker": {
-        "id": "pompey",
-        "name": "POMPEY",
-        "displayName": "Pompey"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nI could have given less matter\nA better ear.—Menas, I did not think\nThis amorous surfeiter would have donned his helm\nFor such a petty war. His soldiership\nIs twice the other twain. But let us rear\nThe higher our opinion, that our stirring\nCan from the lap of Egypt’s widow pluck\nThe ne’er lust-wearied Antony.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-2-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "I know not, Menas,",
-          "plainText": "I know not Menas",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 2,
-          "text": "How lesser enmities may give way to greater.",
-          "plainText": "How lesser enmities may give way to greater",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-2",
+          "start": 8,
+          "end": 38,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 3,
-          "text": "Were't not that we stand up against them all,",
-          "plainText": "Were't not that we stand up against them all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-3",
+          "start": 39,
+          "end": 75,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 4,
-          "text": "'Twere pregnant they should square between themselves,",
-          "plainText": "'Twere pregnant they should square between themselves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-4",
+          "start": 76,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 5,
-          "text": "For they have entertained cause enough",
-          "plainText": "For they have entertained cause enough",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-5",
+          "start": 126,
+          "end": 163,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 6,
-          "text": "To draw their swords. But how the fear of us",
-          "plainText": "To draw their swords But how the fear of us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-6",
+          "start": 164,
+          "end": 205,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 7,
-          "text": "May cement their divisions, and bind up",
-          "plainText": "May cement their divisions and bind up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-7",
+          "start": 206,
+          "end": 247,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 8,
-          "text": "The petty difference, we yet not know.",
-          "plainText": "The petty difference we yet not know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-8",
+          "start": 248,
+          "end": 287,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-2-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 9,
-          "text": "Be't as our gods will have't! It only stands",
-          "plainText": "Be't as our gods will have't It only stands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 10,
-          "text": "Our lives upon to use our strongest hands.",
-          "plainText": "Our lives upon to use our strongest hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-2-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 11,
-          "text": "Come, Menas.",
-          "plainText": "Come Menas",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44117/line-9",
+          "start": 288,
+          "end": 318,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 351856,
+        "end": 352239,
+        "line": 12082,
+        "column": 1,
+        "path": "chap03/p@44117",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-2-1-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "antony-and-cleopatra/sceneII_3.1/p@44504",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENAS.\nI cannot hope\nCaesar and Antony shall well greet together.\nHis wife that’s dead did trespasses to Caesar;\nHis brother warred upon him, although I think,\nNot moved by Antony.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-2",
+          "start": 7,
+          "end": 20,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-3",
+          "start": 21,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-4",
+          "start": 66,
+          "end": 112,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-5",
+          "start": 113,
+          "end": 159,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44504/line-6",
+          "start": 160,
+          "end": 180,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 352243,
+        "end": 352473,
+        "line": 12094,
+        "column": 1,
+        "path": "chap03/p@44504",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "MENAS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneII_3.1/p@44738",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "POMPEY.\nI know not, Menas,\nHow lesser enmities may give way to greater.\nWere’t not that we stand up against them all,\n’Twere pregnant they should square between themselves,\nFor they have entertained cause enough\nTo draw their swords. But how the fear of us\nMay cement their divisions, and bind up\nThe petty difference, we yet not know.\nBe’t as our gods will have’t! It only stands\nOur lives upon to use our strongest hands.\nCome, Menas.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-3",
+          "start": 27,
+          "end": 71,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-4",
+          "start": 72,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-5",
+          "start": 118,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-6",
+          "start": 173,
+          "end": 211,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-7",
+          "start": 212,
+          "end": 256,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-8",
+          "start": 257,
+          "end": 296,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-9",
+          "start": 297,
+          "end": 335,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-10",
+          "start": 336,
+          "end": 380,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-11",
+          "start": 381,
+          "end": 423,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@44738/line-12",
+          "start": 424,
+          "end": 436,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 352477,
+        "end": 352993,
+        "line": 12103,
+        "column": 1,
+        "path": "chap03/p@44738",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": "POMPEY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneII_3.1/p@45258",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneII_3.1/p@45258/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 352997,
+        "end": 353038,
+        "line": 12118,
+        "column": 1,
+        "path": "chap03/p@45258",
+        "anchor": "sceneII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "king-henry-the-eighth",
-  "title": "King Henry the Eighth",
-  "fullTitle": "King Henry the Eighth",
+  "title": "KING HENRY THE EIGHTH",
   "author": "William Shakespeare",
   "genre": "History",
+  "fullTitle": "KING HENRY THE EIGHTH",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap15"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,33 +33,33 @@
           "scene": 1,
           "id": "king-henry-the-eighth-1-1",
           "label": "Act 1, Scene 1",
-          "title": "London. An ante-chamber in the palace.",
+          "title": "SCENE I. London. An ante-chamber in the palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 268
+          "lineCount": 332
         },
         {
           "scene": 2,
           "id": "king-henry-the-eighth-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The same. The council-chamber.",
+          "title": "SCENE II. The same. The council-chamber.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 241
+          "lineCount": 296
         },
         {
           "scene": 3,
           "id": "king-henry-the-eighth-1-3",
           "label": "Act 1, Scene 3",
-          "title": "An ante-chamber in the palace.",
+          "title": "SCENE III. An ante-chamber in the palace.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 81
+          "lineCount": 111
         },
         {
           "scene": 4,
           "id": "king-henry-the-eighth-1-4",
           "label": "Act 1, Scene 4",
-          "title": "A Hall in York Place.",
+          "title": "SCENE IV. A Hall in York Place.",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 131
+          "lineCount": 201
         }
       ]
     },
@@ -62,33 +70,33 @@
           "scene": 1,
           "id": "king-henry-the-eighth-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Westminster. A street.",
+          "title": "SCENE I. Westminster. A street.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 194
+          "lineCount": 242
         },
         {
           "scene": 2,
           "id": "king-henry-the-eighth-2-2",
           "label": "Act 2, Scene 2",
-          "title": "An ante-chamber in the palace.",
+          "title": "SCENE II. An ante-chamber in the palace.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 144
+          "lineCount": 215
         },
         {
           "scene": 3,
           "id": "king-henry-the-eighth-2-3",
           "label": "Act 2, Scene 3",
-          "title": "An ante-chamber of the Queen's apartments.",
+          "title": "SCENE III. An ante-chamber of the Queen’s apartments.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 127
+          "lineCount": 163
         },
         {
           "scene": 4,
           "id": "king-henry-the-eighth-2-4",
           "label": "Act 2, Scene 4",
-          "title": "A hall in Blackfriars.",
+          "title": "SCENE IV. A hall in Blackfriars.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 258
+          "lineCount": 296
         }
       ]
     },
@@ -99,17 +107,17 @@
           "scene": 1,
           "id": "king-henry-the-eighth-3-1",
           "label": "Act 3, Scene 1",
-          "title": "London. The Queen's apartments.",
+          "title": "SCENE I. London. The Queen’s apartments.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 183
+          "lineCount": 242
         },
         {
           "scene": 2,
           "id": "king-henry-the-eighth-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Ante-chamber to the King's apartment.",
+          "title": "SCENE II. Ante-chamber to the King’s apartment.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 524
+          "lineCount": 659
         }
       ]
     },
@@ -120,17 +128,17 @@
           "scene": 1,
           "id": "king-henry-the-eighth-4-1",
           "label": "Act 4, Scene 1",
-          "title": "A street in Westminster.",
+          "title": "SCENE I. A street in Westminster.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 139
+          "lineCount": 204
         },
         {
           "scene": 2,
           "id": "king-henry-the-eighth-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Kimbolton.",
+          "title": "SCENE II. Kimbolton.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 187
+          "lineCount": 246
         }
       ]
     },
@@ -141,35 +149,308 @@
           "scene": 1,
           "id": "king-henry-the-eighth-5-1",
           "label": "Act 5, Scene 1",
-          "title": "A gallery in the palace.",
+          "title": "SCENE I. A gallery in the palace.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 206
+          "lineCount": 273
         },
         {
           "scene": 2,
           "id": "king-henry-the-eighth-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Lobby before the council-chamber.",
+          "title": "SCENE II. Lobby before the council-chamber.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 248
+          "lineCount": 327
         },
         {
           "scene": 3,
           "id": "king-henry-the-eighth-5-3",
           "label": "Act 5, Scene 3",
-          "title": "The palace yard.",
+          "title": "SCENE III. The palace yard.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 54
+          "lineCount": 78
         },
         {
           "scene": 4,
           "id": "king-henry-the-eighth-5-4",
           "label": "Act 5, Scene 4",
-          "title": "The palace.",
+          "title": "SCENE IV. The palace.",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 78
+          "lineCount": 96
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "king-henry-the-eighth-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "KING HENRY THE EIGHTH"
+    },
+    {
+      "id": "king-henry-the-eighth-contents-114",
+      "kind": "contents",
+      "path": "./sections/contents-114.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "king-henry-the-eighth-cast-2326",
+      "kind": "cast",
+      "path": "./sections/cast-2326.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "king-henry-the-eighth-setting-3895",
+      "kind": "setting",
+      "path": "./sections/setting-3895.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: London; Westminster; Kimbolton"
+    },
+    {
+      "id": "king-henry-the-eighth-prologue-4080",
+      "kind": "prologue",
+      "path": "./sections/prologue-4080.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "THE PROLOGUE."
+    },
+    {
+      "id": "king-henry-the-eighth-act-5756",
+      "kind": "act",
+      "path": "./sections/act-5756.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 6,
+      "heading": "ACT I"
+    },
+    {
+      "id": "king-henry-the-eighth-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "king-henry-the-eighth-act-5756",
+      "orderInPlay": 7,
+      "heading": "SCENE I. London. An ante-chamber in the palace."
+    },
+    {
+      "id": "king-henry-the-eighth-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "king-henry-the-eighth-act-5756",
+      "orderInPlay": 8,
+      "heading": "SCENE II. The same. The council-chamber."
+    },
+    {
+      "id": "king-henry-the-eighth-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "king-henry-the-eighth-act-5756",
+      "orderInPlay": 9,
+      "heading": "SCENE III. An ante-chamber in the palace."
+    },
+    {
+      "id": "king-henry-the-eighth-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "king-henry-the-eighth-act-5756",
+      "orderInPlay": 10,
+      "heading": "SCENE IV. A Hall in York Place."
+    },
+    {
+      "id": "king-henry-the-eighth-act-47432",
+      "kind": "act",
+      "path": "./sections/act-47432.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT II"
+    },
+    {
+      "id": "king-henry-the-eighth-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "king-henry-the-eighth-act-47432",
+      "orderInPlay": 12,
+      "heading": "SCENE I. Westminster. A street."
+    },
+    {
+      "id": "king-henry-the-eighth-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "king-henry-the-eighth-act-47432",
+      "orderInPlay": 13,
+      "heading": "SCENE II. An ante-chamber in the palace."
+    },
+    {
+      "id": "king-henry-the-eighth-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "king-henry-the-eighth-act-47432",
+      "orderInPlay": 14,
+      "heading": "SCENE III. An ante-chamber of the Queen’s apartments."
+    },
+    {
+      "id": "king-henry-the-eighth-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "king-henry-the-eighth-act-47432",
+      "orderInPlay": 15,
+      "heading": "SCENE IV. A hall in Blackfriars."
+    },
+    {
+      "id": "king-henry-the-eighth-act-90493",
+      "kind": "act",
+      "path": "./sections/act-90493.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 16,
+      "heading": "ACT III"
+    },
+    {
+      "id": "king-henry-the-eighth-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "king-henry-the-eighth-act-90493",
+      "orderInPlay": 17,
+      "heading": "SCENE I. London. The Queen’s apartments."
+    },
+    {
+      "id": "king-henry-the-eighth-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "king-henry-the-eighth-act-90493",
+      "orderInPlay": 18,
+      "heading": "SCENE II. Ante-chamber to the King’s apartment."
+    },
+    {
+      "id": "king-henry-the-eighth-act-130287",
+      "kind": "act",
+      "path": "./sections/act-130287.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 19,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "king-henry-the-eighth-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "king-henry-the-eighth-act-130287",
+      "orderInPlay": 20,
+      "heading": "SCENE I. A street in Westminster."
+    },
+    {
+      "id": "king-henry-the-eighth-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "king-henry-the-eighth-act-130287",
+      "orderInPlay": 21,
+      "heading": "SCENE II. Kimbolton."
+    },
+    {
+      "id": "king-henry-the-eighth-act-152292",
+      "kind": "act",
+      "path": "./sections/act-152292.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 22,
+      "heading": "ACT V"
+    },
+    {
+      "id": "king-henry-the-eighth-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "king-henry-the-eighth-act-152292",
+      "orderInPlay": 23,
+      "heading": "SCENE I. A gallery in the palace."
+    },
+    {
+      "id": "king-henry-the-eighth-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "king-henry-the-eighth-act-152292",
+      "orderInPlay": 24,
+      "heading": "SCENE II. Lobby before the council-chamber."
+    },
+    {
+      "id": "king-henry-the-eighth-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "king-henry-the-eighth-act-152292",
+      "orderInPlay": 25,
+      "heading": "SCENE III. The palace yard."
+    },
+    {
+      "id": "king-henry-the-eighth-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "king-henry-the-eighth-act-152292",
+      "orderInPlay": 26,
+      "heading": "SCENE IV. The palace."
+    },
+    {
+      "id": "king-henry-the-eighth-epilogue-189972",
+      "kind": "epilogue",
+      "path": "./sections/epilogue-189972.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": "king-henry-the-eighth-act-152292",
+      "orderInPlay": 27,
+      "heading": "Epilogue"
+    }
+  ],
+  "contentVersion": "3928fbfe2d1e43a43af3c53323a2ebd84ea185b711f1c7596a6149998c5bd2f5"
 }

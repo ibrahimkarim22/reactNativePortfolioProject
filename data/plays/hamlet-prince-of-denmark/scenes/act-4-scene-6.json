@@ -1,222 +1,652 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "hamlet-prince-of-denmark",
-    "title": "The Tragedy of Hamlet, Prince of Denmark",
+    "title": "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap08"
   },
-  "scene": {
+  "section": {
     "id": "hamlet-prince-of-denmark-4-6",
+    "kind": "scene",
+    "heading": "SCENE VI. Another room in the Castle.",
     "act": 4,
     "scene": 6,
-    "label": "Act 4, Scene 6",
-    "title": "SCENE VI. Another room in the Castle.",
-    "location": "Another room in the Castle.",
-    "orderInPlay": 17
+    "parentSectionId": "hamlet-prince-of-denmark-act-158263",
+    "orderInPlay": 25,
+    "sourceRef": {
+      "start": 1451478,
+      "end": 1451557,
+      "line": 54827,
+      "column": 1,
+      "path": "chap08/h3@186635",
+      "anchor": "sceneIV_8.6"
+    }
   },
   "content": [
     {
-      "id": "hamlet-prince-of-denmark-4-6-stage-001",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/h3@186635",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VI. Another room in the Castle.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 37
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/h3@186635/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451478,
+        "end": 1451557,
+        "line": 54827,
+        "column": 1,
+        "path": "chap08/h3@186635",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186718",
       "type": "stage",
-      "text": "Enter Horatio and a Servant."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Horatio and a Servant.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "hamlet-prince-of-denmark-4-6-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "What are they that would speak with me?",
-          "plainText": "What are they that would speak with me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Sailors, sir. They say they have letters for you.",
-          "plainText": "Sailors sir They say they have letters for you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Let them come in.",
-          "plainText": "Let them come in",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-stage-002",
-      "type": "stage",
-      "text": "[Exit Servant.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-stage-003",
-      "type": "stage",
-      "text": "Enter Sailors."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "first-sailor",
-        "name": "FIRST SAILOR",
-        "displayName": "First Sailor"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "God bless you, sir.",
-          "plainText": "God bless you sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Let him bless thee too.",
-          "plainText": "Let him bless thee too",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "first-sailor",
-        "name": "FIRST SAILOR",
-        "displayName": "First Sailor"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "He shall, sir, and't please him. There's a letter for you, sir. It comes from th'ambassador that was bound for England; if your name be Horatio, as I am let to know it is.",
-          "plainText": "He shall sir and't please him There's a letter for you sir It comes from th'ambassador that was bound for England if your name be Horatio as I am let to know it is",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-6-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "horatio",
-        "name": "HORATIO",
-        "displayName": "Horatio"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "[Reads.] 'Horatio, when thou shalt have overlooked this, give these fellows some means to the King. They have letters for him. Ere we were two days old at sea, a pirate of very warlike appointment gave us chase. Finding ourselves too slow of sail, we put on a compelled valour, and in the grapple I boarded them. On the instant they got clear of our ship, so I alone became their prisoner. They have dealt with me like thieves of mercy. But they knew what they did; I am to do a good turn for them. Let the King have the letters I have sent, and repair thou to me with as much haste as thou wouldst fly death. I have words to speak in thine ear will make thee dumb; yet are they much too light for the bore of the matter. These good fellows will bring thee where I am. Rosencrantz and Guildenstern hold their course for England: of them I have much to tell thee. Farewell.",
-          "plainText": "Reads 'Horatio when thou shalt have overlooked this give these fellows some means to the King They have letters for him Ere we were two days old at sea a pirate of very warlike appointment gave us chase Finding ourselves too slow of sail we put on a compelled valour and in the grapple I boarded them On the instant they got clear of our ship so I alone became their prisoner They have dealt with me like thieves of mercy But they knew what they did I am to do a good turn for them Let the King have the letters I have sent and repair thou to me with as much haste as thou wouldst fly death I have words to speak in thine ear will make thee dumb yet are they much too light for the bore of the matter These good fellows will bring thee where I am Rosencrantz and Guildenstern hold their course for England of them I have much to tell thee Farewell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
         },
         {
-          "id": "hamlet-prince-of-denmark-4-6-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "He that thou knowest thine,",
-          "plainText": "He that thou knowest thine",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-6-line-0009",
-          "number": 9,
-          "speechLineNumber": 3,
-          "text": "HAMLET.'",
-          "plainText": "HAMLET'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
+          "tag": "span",
+          "start": 20,
+          "end": 27,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186718/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451561,
+        "end": 1451678,
+        "line": 54830,
+        "column": 1,
+        "path": "chap08/p@186718",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-6-stage-004",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186839",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nWhat are they that would speak with me?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186839/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186839/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186839/line-3",
+          "start": 49,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451682,
+        "end": 1451764,
+        "line": 54834,
+        "column": 1,
+        "path": "chap08/p@186839",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186925",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nSailors, sir. They say they have letters for you.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186925/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186925/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@186925/line-3",
+          "start": 59,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451768,
+        "end": 1451860,
+        "line": 54839,
+        "column": 1,
+        "path": "chap08/p@186925",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187021",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nLet them come in.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187021/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187021/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187021/line-3",
+          "start": 27,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451864,
+        "end": 1451924,
+        "line": 54844,
+        "column": 1,
+        "path": "chap08/p@187021",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187085",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Servant.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187085/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1451928,
+        "end": 1452005,
+        "line": 54849,
+        "column": 1,
+        "path": "chap08/p@187085",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187166",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "I do not know from what part of the world\nI should be greeted, if not from Lord Hamlet.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187166/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187166/line-2",
+          "start": 42,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187166/line-3",
+          "start": 88,
+          "end": 88,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452009,
+        "end": 1452130,
+        "line": 54853,
+        "column": 1,
+        "path": "chap08/p@187166",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187291",
       "type": "stage",
-      "text": "[Exeunt.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Sailors.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187291/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452134,
+        "end": 1452207,
+        "line": 54858,
+        "column": 1,
+        "path": "chap08/p@187291",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187368",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SAILOR.\nGod bless you, sir.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187368/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187368/line-2",
+          "start": 14,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187368/line-3",
+          "start": 34,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452211,
+        "end": 1452278,
+        "line": 54862,
+        "column": 1,
+        "path": "chap08/p@187368",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "FIRST SAILOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187439",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\nLet him bless thee too.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187439/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187439/line-2",
+          "start": 9,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187439/line-3",
+          "start": 33,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452282,
+        "end": 1452348,
+        "line": 54867,
+        "column": 1,
+        "path": "chap08/p@187439",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187509",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SAILOR.\nHe shall, sir, and’t please him. There’s a letter for you, sir. It comes from th’ambassador that was bound for England; if your name be Horatio, as I am let to know it is.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187509/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187509/line-2",
+          "start": 14,
+          "end": 185,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452352,
+        "end": 1452569,
+        "line": 54872,
+        "column": 1,
+        "path": "chap08/p@187509",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "FIRST SAILOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187730",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HORATIO.\n[Reads.] ‘Horatio, when thou shalt have overlooked this, give these fellows some means to the King. They have letters for him. Ere we were two days old at sea, a pirate of very warlike appointment gave us chase. Finding ourselves too slow of sail, we put on a compelled valour, and in the grapple I boarded them. On the instant they got clear of our ship, so I alone became their prisoner. They have dealt with me like thieves of mercy. But they knew what they did; I am to do a good turn for them. Let the King have the letters I have sent, and repair thou to me with as much haste as thou wouldst fly death. I have words to speak in thine ear will make thee dumb; yet are they much too light for the bore of the matter. These good fellows will bring thee where I am. Rosencrantz and Guildenstern hold their course for England: of them I have much to tell thee. Farewell.\n     He that thou knowest thine,\n     HAMLET.’",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 10,
+          "end": 16
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187730/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187730/line-2",
+          "start": 9,
+          "end": 881,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187730/line-3",
+          "start": 882,
+          "end": 914,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@187730/line-4",
+          "start": 915,
+          "end": 928,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1452573,
+        "end": 1453559,
+        "line": 54879,
+        "column": 1,
+        "path": "chap08/p@187730",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": "HORATIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188720",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Come, I will give you way for these your letters,\nAnd do’t the speedier, that you may direct me\nTo him from whom you brought them.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188720/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188720/line-2",
+          "start": 50,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188720/line-3",
+          "start": 96,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188720/line-4",
+          "start": 131,
+          "end": 131,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1453563,
+        "end": 1453732,
+        "line": 54897,
+        "column": 1,
+        "path": "chap08/p@188720",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188893",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.6/p@188893/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1453736,
+        "end": 1453777,
+        "line": 54903,
+        "column": 1,
+        "path": "chap08/p@188893",
+        "anchor": "sceneIV_8.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6"
 }

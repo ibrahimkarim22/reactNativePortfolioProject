@@ -1,838 +1,1560 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-5-1",
+    "kind": "scene",
+    "heading": "SCENE I. Dunsinane. A Room in the Castle.",
     "act": 5,
     "scene": 1,
-    "label": "Act 5, Scene 1",
-    "title": "SCENE I. Dunsinane. A Room in the Castle.",
-    "location": "Dunsinane. A Room in the Castle.",
-    "orderInPlay": 21
+    "parentSectionId": "macbeth-act-120641",
+    "orderInPlay": 30,
+    "sourceRef": {
+      "start": 3684884,
+      "end": 3684942,
+      "line": 135883,
+      "column": 1,
+      "path": "chap20/h3@120692",
+      "anchor": "sceneV_20.1"
+    }
   },
   "content": [
     {
-      "id": "macbeth-5-1-stage-001",
+      "id": "macbeth/sceneV_20.1/h3@120692",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Dunsinane. A Room in the Castle.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/h3@120692/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3684884,
+        "end": 3684942,
+        "line": 135883,
+        "column": 1,
+        "path": "chap20/h3@120692",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@120754",
       "type": "stage",
-      "text": "Enter a Doctor of Physic and a Waiting-Gentlewoman."
-    },
-    {
-      "id": "macbeth-5-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Doctor of Physic and a Waiting-Gentlewoman.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 50,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I have two nights watched with you, but can perceive no truth in your report. When was it she last walked?",
-          "plainText": "I have two nights watched with you but can perceive no truth in your report When was it she last walked",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@120754/line-1",
+          "start": 0,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3684946,
+        "end": 3685083,
+        "line": 135885,
+        "column": 1,
+        "path": "chap20/p@120754",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-1-speech-002",
+      "id": "macbeth/sceneV_20.1/p@120895",
       "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nI have two nights watched with you, but can perceive no truth in your report. When was it she last walked?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Since his Majesty went into the field, I have seen her rise from her bed, throw her nightgown upon her, unlock her closet, take forth paper, fold it, write upon't, read it, afterwards seal it, and again return to bed; yet all this while in a most fast sleep.",
-          "plainText": "Since his Majesty went into the field I have seen her rise from her bed throw her nightgown upon her unlock her closet take forth paper fold it write upon't read it afterwards seal it and again return to bed yet all this while in a most fast sleep",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@120895/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@120895/line-2",
+          "start": 8,
+          "end": 114,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3685087,
+        "end": 3685232,
+        "line": 135888,
+        "column": 1,
+        "path": "chap20/p@120895",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-1-speech-003",
+      "id": "macbeth/sceneV_20.1/p@121044",
       "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nSince his Majesty went into the field, I have seen her rise from her bed, throw her nightgown upon her, unlock her closet, take forth paper, fold it, write upon’t, read it, afterwards seal it, and again return to bed; yet all this while in a most fast sleep.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "A great perturbation in nature, to receive at once the benefit of sleep, and do the effects of watching. In this slumbery agitation, besides her walking and other actual performances, what, at any time, have you heard her say?",
-          "plainText": "A great perturbation in nature to receive at once the benefit of sleep and do the effects of watching In this slumbery agitation besides her walking and other actual performances what at any time have you heard her say",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@121044/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@121044/line-2",
+          "start": 13,
+          "end": 271,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3685236,
+        "end": 3685540,
+        "line": 135894,
+        "column": 1,
+        "path": "chap20/p@121044",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "macbeth-5-1-speech-004",
+      "id": "macbeth/sceneV_20.1/p@121352",
       "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nA great perturbation in nature, to receive at once the benefit of sleep, and do the effects of watching. In this slumbery agitation, besides her walking and other actual performances, what, at any time, have you heard her say?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "That, sir, which I will not report after her.",
-          "plainText": "That sir which I will not report after her",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@121352/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@121352/line-2",
+          "start": 8,
+          "end": 234,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3685544,
+        "end": 3685810,
+        "line": 135902,
+        "column": 1,
+        "path": "chap20/p@121352",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-1-speech-005",
+      "id": "macbeth/sceneV_20.1/p@121622",
       "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nThat, sir, which I will not report after her.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "You may to me; and 'tis most meet you should.",
-          "plainText": "You may to me and 'tis most meet you should",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@121622/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@121622/line-2",
+          "start": 13,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3685814,
+        "end": 3685902,
+        "line": 135909,
+        "column": 1,
+        "path": "chap20/p@121622",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "macbeth-5-1-speech-006",
+      "id": "macbeth/sceneV_20.1/p@121714",
       "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nYou may to me; and ’tis most meet you should.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Neither to you nor anyone; having no witness to confirm my speech.",
-          "plainText": "Neither to you nor anyone having no witness to confirm my speech",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@121714/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@121714/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3685906,
+        "end": 3685989,
+        "line": 135914,
+        "column": 1,
+        "path": "chap20/p@121714",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-1-stage-002",
+      "id": "macbeth/sceneV_20.1/p@121801",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nNeither to you nor anyone; having no witness to confirm my speech.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@121801/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@121801/line-2",
+          "start": 13,
+          "end": 79,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3685993,
+        "end": 3686102,
+        "line": 135919,
+        "column": 1,
+        "path": "chap20/p@121801",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@121914",
       "type": "stage",
-      "text": "Enter Lady Macbeth with a taper."
-    },
-    {
-      "id": "macbeth-5-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lady Macbeth with a taper.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "macbeth-5-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "How came she by that light?",
-          "plainText": "How came she by that light",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      ],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Why, it stood by her: she has light by her continually; 'tis her command.",
-          "plainText": "Why it stood by her she has light by her continually 'tis her command",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@121914/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3686106,
+        "end": 3686193,
+        "line": 135924,
+        "column": 1,
+        "path": "chap20/p@121914",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "id": "macbeth/sceneV_20.1/p@122005",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Lo you, here she comes! This is her very guise; and, upon my life, fast asleep. Observe her; stand close.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "You see, her eyes are open.",
-          "plainText": "You see her eyes are open",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@122005/line-1",
+          "start": 0,
+          "end": 105,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3686197,
+        "end": 3686328,
+        "line": 135926,
+        "column": 1,
+        "path": "chap20/p@122005",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-5-1-speech-010",
+      "id": "macbeth/sceneV_20.1/p@122140",
       "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nHow came she by that light?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Ay, but their sense are shut.",
-          "plainText": "Ay but their sense are shut",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "What is it she does now? Look how she rubs her hands.",
-          "plainText": "What is it she does now Look how she rubs her hands",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "It is an accustomed action with her, to seem thus washing her hands. I have known her continue in this a quarter of an hour.",
-          "plainText": "It is an accustomed action with her to seem thus washing her hands I have known her continue in this a quarter of an hour",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Yet here's a spot.",
-          "plainText": "Yet here's a spot",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Hark, she speaks. I will set down what comes from her, to satisfy my remembrance the more strongly.",
-          "plainText": "Hark she speaks I will set down what comes from her to satisfy my remembrance the more strongly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Out, damned spot! out, I say! One; two. Why, then 'tis time to do't. Hell is murky! Fie, my lord, fie! a soldier, and afeard? What need we fear who knows it, when none can call our power to account? Yet who would have thought the old man to have had so much blood in him?",
-          "plainText": "Out damned spot out I say One two Why then 'tis time to do't Hell is murky Fie my lord fie a soldier and afeard What need we fear who knows it when none can call our power to account Yet who would have thought the old man to have had so much blood in him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Do you mark that?",
-          "plainText": "Do you mark that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "The Thane of Fife had a wife. Where is she now?—What, will these hands ne'er be clean? No more o' that, my lord, no more o' that: you mar all with this starting.",
-          "plainText": "The Thane of Fife had a wife Where is she nowWhat will these hands ne'er be clean No more o' that my lord no more o' that you mar all with this starting",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Go to, go to. You have known what you should not.",
-          "plainText": "Go to go to You have known what you should not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "She has spoke what she should not, I am sure of that: heaven knows what she has known.",
-          "plainText": "She has spoke what she should not I am sure of that heaven knows what she has known",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Here's the smell of the blood still: all the perfumes of Arabia will not sweeten this little hand. Oh, oh, oh!",
-          "plainText": "Here's the smell of the blood still all the perfumes of Arabia will not sweeten this little hand Oh oh oh",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "What a sigh is there! The heart is sorely charged.",
-          "plainText": "What a sigh is there The heart is sorely charged",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "I would not have such a heart in my bosom for the dignity of the whole body.",
-          "plainText": "I would not have such a heart in my bosom for the dignity of the whole body",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Well, well, well.",
-          "plainText": "Well well well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Pray God it be, sir.",
-          "plainText": "Pray God it be sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "This disease is beyond my practice: yet I have known those which have walked in their sleep, who have died holily in their beds.",
-          "plainText": "This disease is beyond my practice yet I have known those which have walked in their sleep who have died holily in their beds",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Wash your hands, put on your nightgown; look not so pale. I tell you yet again, Banquo's buried; he cannot come out on's grave.",
-          "plainText": "Wash your hands put on your nightgown look not so pale I tell you yet again Banquo's buried he cannot come out on's grave",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Even so?",
-          "plainText": "Even so",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "To bed, to bed. There's knocking at the gate. Come, come, come, come, give me your hand. What's done cannot be undone. To bed, to bed, to bed.",
-          "plainText": "To bed to bed There's knocking at the gate Come come come come give me your hand What's done cannot be undone To bed to bed to bed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "macbeth-5-1-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Will she go now to bed?",
-          "plainText": "Will she go now to bed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Directly.",
-          "plainText": "Directly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-1-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Foul whisp'rings are abroad. Unnatural deeds",
-          "plainText": "Foul whisp'rings are abroad Unnatural deeds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.1/p@122140/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 2,
-          "text": "Do breed unnatural troubles: infected minds",
-          "plainText": "Do breed unnatural troubles infected minds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 3,
-          "text": "To their deaf pillows will discharge their secrets.",
-          "plainText": "To their deaf pillows will discharge their secrets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 4,
-          "text": "More needs she the divine than the physician.—",
-          "plainText": "More needs she the divine than the physician",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 5,
-          "text": "God, God, forgive us all! Look after her;",
-          "plainText": "God God forgive us all Look after her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 6,
-          "text": "Remove from her the means of all annoyance,",
-          "plainText": "Remove from her the means of all annoyance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 7,
-          "text": "And still keep eyes upon her. So, good night:",
-          "plainText": "And still keep eyes upon her So good night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 8,
-          "text": "My mind she has mated, and amaz'd my sight.",
-          "plainText": "My mind she has mated and amaz'd my sight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 9,
-          "text": "I think, but dare not speak.",
-          "plainText": "I think but dare not speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.1/p@122140/line-2",
+          "start": 8,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3686332,
+        "end": 3686397,
+        "line": 135931,
+        "column": 1,
+        "path": "chap20/p@122140",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-1-speech-032",
+      "id": "macbeth/sceneV_20.1/p@122209",
       "type": "speech",
-      "speaker": {
-        "id": "gentlewoman",
-        "name": "GENTLEWOMAN",
-        "displayName": "Gentlewoman"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nWhy, it stood by her: she has light by her continually; ’tis her command.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Good night, good doctor.",
-          "plainText": "Good night good doctor",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.1/p@122209/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122209/line-2",
+          "start": 13,
+          "end": 86,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3686401,
+        "end": 3686517,
+        "line": 135936,
+        "column": 1,
+        "path": "chap20/p@122209",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "macbeth-5-1-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneV_20.1/p@122329",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nYou see, her eyes are open.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122329/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122329/line-2",
+          "start": 8,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686521,
+        "end": 3686586,
+        "line": 135941,
+        "column": 1,
+        "path": "chap20/p@122329",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122398",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nAy, but their sense are shut.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122398/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122398/line-2",
+          "start": 13,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686590,
+        "end": 3686662,
+        "line": 135946,
+        "column": 1,
+        "path": "chap20/p@122398",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122474",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nWhat is it she does now? Look how she rubs her hands.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122474/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122474/line-2",
+          "start": 8,
+          "end": 61,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686666,
+        "end": 3686757,
+        "line": 135951,
+        "column": 1,
+        "path": "chap20/p@122474",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122569",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nIt is an accustomed action with her, to seem thus washing her hands. I have known her continue in this a quarter of an hour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122569/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122569/line-2",
+          "start": 13,
+          "end": 137,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686761,
+        "end": 3686929,
+        "line": 135956,
+        "column": 1,
+        "path": "chap20/p@122569",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122741",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nYet here’s a spot.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122741/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122741/line-2",
+          "start": 14,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686933,
+        "end": 3686995,
+        "line": 135962,
+        "column": 1,
+        "path": "chap20/p@122741",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122807",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nHark, she speaks. I will set down what comes from her, to satisfy my remembrance the more strongly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122807/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122807/line-2",
+          "start": 8,
+          "end": 107,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3686999,
+        "end": 3687137,
+        "line": 135967,
+        "column": 1,
+        "path": "chap20/p@122807",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@122949",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nOut, damned spot! out, I say! One; two. Why, then ’tis time to do’t. Hell is murky! Fie, my lord, fie! a soldier, and afeard? What need we fear who knows it, when none can call our power to account? Yet who would have thought the old man to have had so much blood in him?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@122949/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@122949/line-2",
+          "start": 14,
+          "end": 285,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687141,
+        "end": 3687459,
+        "line": 135973,
+        "column": 1,
+        "path": "chap20/p@122949",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123271",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nDo you mark that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123271/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123271/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687463,
+        "end": 3687518,
+        "line": 135981,
+        "column": 1,
+        "path": "chap20/p@123271",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123330",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nThe Thane of Fife had a wife. Where is she now?—What, will these hands ne’er be clean? No more o’ that, my lord, no more o’ that: you mar all with this starting.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123330/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123330/line-2",
+          "start": 14,
+          "end": 175,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687522,
+        "end": 3687729,
+        "line": 135986,
+        "column": 1,
+        "path": "chap20/p@123330",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123541",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nGo to, go to. You have known what you should not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123541/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123541/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687733,
+        "end": 3687820,
+        "line": 135993,
+        "column": 1,
+        "path": "chap20/p@123541",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123632",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nShe has spoke what she should not, I am sure of that: heaven knows what she has known.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123632/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123632/line-2",
+          "start": 13,
+          "end": 99,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687824,
+        "end": 3687954,
+        "line": 135998,
+        "column": 1,
+        "path": "chap20/p@123632",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123766",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nHere’s the smell of the blood still: all the perfumes of Arabia will not sweeten this little hand. Oh, oh, oh!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123766/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123766/line-2",
+          "start": 14,
+          "end": 124,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3687958,
+        "end": 3688113,
+        "line": 136004,
+        "column": 1,
+        "path": "chap20/p@123766",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@123925",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nWhat a sigh is there! The heart is sorely charged.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@123925/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@123925/line-2",
+          "start": 8,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688117,
+        "end": 3688205,
+        "line": 136010,
+        "column": 1,
+        "path": "chap20/p@123925",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124017",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nI would not have such a heart in my bosom for the dignity of the whole body.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124017/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124017/line-2",
+          "start": 13,
+          "end": 89,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688209,
+        "end": 3688328,
+        "line": 136015,
+        "column": 1,
+        "path": "chap20/p@124017",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124140",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nWell, well, well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124140/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124140/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688332,
+        "end": 3688387,
+        "line": 136020,
+        "column": 1,
+        "path": "chap20/p@124140",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124199",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nPray God it be, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124199/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124199/line-2",
+          "start": 13,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688391,
+        "end": 3688454,
+        "line": 136025,
+        "column": 1,
+        "path": "chap20/p@124199",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124266",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nThis disease is beyond my practice: yet I have known those which have walked in their sleep, who have died holily in their beds.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124266/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124266/line-2",
+          "start": 8,
+          "end": 136,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688458,
+        "end": 3688625,
+        "line": 136030,
+        "column": 1,
+        "path": "chap20/p@124266",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124437",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nWash your hands, put on your nightgown; look not so pale. I tell you yet again, Banquo’s buried; he cannot come out on’s grave.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124437/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124437/line-2",
+          "start": 14,
+          "end": 141,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688629,
+        "end": 3688801,
+        "line": 136036,
+        "column": 1,
+        "path": "chap20/p@124437",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124613",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nEven so?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124613/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124613/line-2",
+          "start": 8,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688805,
+        "end": 3688851,
+        "line": 136042,
+        "column": 1,
+        "path": "chap20/p@124613",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124663",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nTo bed, to bed. There’s knocking at the gate. Come, come, come, come, give me your hand. What’s done cannot be undone. To bed, to bed, to bed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124663/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124663/line-2",
+          "start": 14,
+          "end": 156,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3688855,
+        "end": 3689042,
+        "line": 136047,
+        "column": 1,
+        "path": "chap20/p@124663",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124854",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124854/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689046,
+        "end": 3689081,
+        "line": 136053,
+        "column": 1,
+        "path": "chap20/p@124854",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124893",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nWill she go now to bed?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124893/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124893/line-2",
+          "start": 8,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689085,
+        "end": 3689146,
+        "line": 136055,
+        "column": 1,
+        "path": "chap20/p@124893",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@124958",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nDirectly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@124958/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@124958/line-2",
+          "start": 13,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689150,
+        "end": 3689202,
+        "line": 136060,
+        "column": 1,
+        "path": "chap20/p@124958",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@125014",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nFoul whisp’rings are abroad. Unnatural deeds\nDo breed unnatural troubles: infected minds\nTo their deaf pillows will discharge their secrets.\nMore needs she the divine than the physician.—\nGod, God, forgive us all! Look after her;\nRemove from her the means of all annoyance,\nAnd still keep eyes upon her. So, good night:\nMy mind she has mated, and amaz’d my sight.\nI think, but dare not speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-3",
+          "start": 53,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-4",
+          "start": 97,
+          "end": 148,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-5",
+          "start": 149,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-6",
+          "start": 196,
+          "end": 237,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-7",
+          "start": 238,
+          "end": 281,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-8",
+          "start": 282,
+          "end": 327,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-9",
+          "start": 328,
+          "end": 371,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125014/line-10",
+          "start": 372,
+          "end": 400,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689206,
+        "end": 3689676,
+        "line": 136065,
+        "column": 1,
+        "path": "chap20/p@125014",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@125488",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEWOMAN.\nGood night, good doctor.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@125488/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.1/p@125488/line-2",
+          "start": 13,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689680,
+        "end": 3689747,
+        "line": 136078,
+        "column": 1,
+        "path": "chap20/p@125488",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": "GENTLEWOMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.1/p@125559",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.1/p@125559/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3689751,
+        "end": 3689788,
+        "line": 136083,
+        "column": 1,
+        "path": "chap20/p@125559",
+        "anchor": "sceneV_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

@@ -1,1080 +1,1326 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-1-2",
+    "kind": "scene",
+    "heading": "SCENE II. A Camp near Forres.",
     "act": 1,
     "scene": 2,
-    "label": "Act 1, Scene 2",
-    "title": "SCENE II. A Camp near Forres.",
-    "location": "A Camp near Forres.",
-    "orderInPlay": 2
+    "parentSectionId": "macbeth-act-4789",
+    "orderInPlay": 7,
+    "sourceRef": {
+      "start": 3570022,
+      "end": 3570093,
+      "line": 131451,
+      "column": 1,
+      "path": "chap20/h3@5830",
+      "anchor": "sceneI_20.2"
+    }
   },
   "content": [
     {
-      "id": "macbeth-1-2-stage-001",
+      "id": "macbeth/sceneI_20.2/h3@5830",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. A Camp near Forres.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/h3@5830/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3570022,
+        "end": 3570093,
+        "line": 131451,
+        "column": 1,
+        "path": "chap20/h3@5830",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.2/p@5905",
       "type": "stage",
-      "text": "Alarum within. Enter King Duncan, Malcolm, Donalbain, Lennox, with Attendants, meeting a bleeding Captain."
-    },
-    {
-      "id": "macbeth-1-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum within. Enter King Duncan, Malcolm, Donalbain, Lennox, with Attendants, meeting a bleeding Captain.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 21,
+          "end": 61,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 98,
+          "end": 105,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "What bloody man is that? He can report,",
-          "plainText": "What bloody man is that He can report",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "As seemeth by his plight, of the revolt",
-          "plainText": "As seemeth by his plight of the revolt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "The newest state.",
-          "plainText": "The newest state",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@5905/line-1",
+          "start": 0,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3570097,
+        "end": 3570290,
+        "line": 131454,
+        "column": 1,
+        "path": "chap20/p@5905",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-1-2-speech-002",
+      "id": "macbeth/sceneI_20.2/p@6104",
       "type": "speech",
-      "speaker": {
-        "id": "malcolm",
-        "name": "MALCOLM",
-        "displayName": "Malcolm"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nWhat bloody man is that? He can report,\nAs seemeth by his plight, of the revolt\nThe newest state.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "This is the sergeant",
-          "plainText": "This is the sergeant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6104/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "Who, like a good and hardy soldier, fought",
-          "plainText": "Who like a good and hardy soldier fought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6104/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 3,
-          "text": "'Gainst my captivity.—Hail, brave friend!",
-          "plainText": "'Gainst my captivityHail brave friend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6104/line-3",
+          "start": 48,
+          "end": 87,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 4,
-          "text": "Say to the King the knowledge of the broil",
-          "plainText": "Say to the King the knowledge of the broil",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 5,
-          "text": "As thou didst leave it.",
-          "plainText": "As thou didst leave it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6104/line-4",
+          "start": 88,
+          "end": 105,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3570296,
+        "end": 3570441,
+        "line": 131459,
+        "column": 1,
+        "path": "chap20/p@6104",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-003",
+      "id": "macbeth/sceneI_20.2/p@6253",
       "type": "speech",
-      "speaker": {
-        "id": "soldier",
-        "name": "SOLDIER",
-        "displayName": "Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MALCOLM.\nThis is the sergeant\nWho, like a good and hardy soldier, fought\n’Gainst my captivity.—Hail, brave friend!\nSay to the King the knowledge of the broil\nAs thou didst leave it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Doubtful it stood;",
-          "plainText": "Doubtful it stood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "As two spent swimmers that do cling together",
-          "plainText": "As two spent swimmers that do cling together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-2",
+          "start": 9,
+          "end": 29,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "And choke their art. The merciless Macdonwald",
-          "plainText": "And choke their art The merciless Macdonwald",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-3",
+          "start": 30,
+          "end": 72,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 4,
-          "text": "(Worthy to be a rebel, for to that",
-          "plainText": "Worthy to be a rebel for to that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-4",
+          "start": 73,
+          "end": 114,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 5,
-          "text": "The multiplying villainies of nature",
-          "plainText": "The multiplying villainies of nature",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-5",
+          "start": 115,
+          "end": 157,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 6,
-          "text": "Do swarm upon him) from the Western Isles",
-          "plainText": "Do swarm upon him from the Western Isles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 7,
-          "text": "Of kerns and gallowglasses is supplied;",
-          "plainText": "Of kerns and gallowglasses is supplied",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 8,
-          "text": "And Fortune, on his damned quarrel smiling,",
-          "plainText": "And Fortune on his damned quarrel smiling",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 9,
-          "text": "Show'd like a rebel's whore. But all's too weak;",
-          "plainText": "Show'd like a rebel's whore But all's too weak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 10,
-          "text": "For brave Macbeth (well he deserves that name),",
-          "plainText": "For brave Macbeth well he deserves that name",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 11,
-          "text": "Disdaining Fortune, with his brandish'd steel,",
-          "plainText": "Disdaining Fortune with his brandish'd steel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 12,
-          "text": "Which smok'd with bloody execution,",
-          "plainText": "Which smok'd with bloody execution",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 13,
-          "text": "Like Valour's minion, carv'd out his passage,",
-          "plainText": "Like Valour's minion carv'd out his passage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 14,
-          "text": "Till he fac'd the slave;",
-          "plainText": "Till he fac'd the slave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 15,
-          "text": "Which ne'er shook hands, nor bade farewell to him,",
-          "plainText": "Which ne'er shook hands nor bade farewell to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 16,
-          "text": "Till he unseam'd him from the nave to the chops,",
-          "plainText": "Till he unseam'd him from the nave to the chops",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 17,
-          "text": "And fix'd his head upon our battlements.",
-          "plainText": "And fix'd his head upon our battlements",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@6253/line-6",
+          "start": 158,
+          "end": 181,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3570445,
+        "end": 3570676,
+        "line": 131466,
+        "column": 1,
+        "path": "chap20/p@6253",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "MALCOLM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-1-2-speech-004",
+      "id": "macbeth/sceneI_20.2/p@6488",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLDIER.\nDoubtful it stood;\nAs two spent swimmers that do cling together\nAnd choke their art. The merciless Macdonwald\n(Worthy to be a rebel, for to that\nThe multiplying villainies of nature\nDo swarm upon him) from the Western Isles\nOf kerns and gallowglasses is supplied;\nAnd Fortune, on his damned quarrel smiling,\nShow’d like a rebel’s whore. But all’s too weak;\nFor brave Macbeth (well he deserves that name),\nDisdaining Fortune, with his brandish’d steel,\nWhich smok’d with bloody execution,\nLike Valour’s minion, carv’d out his passage,\nTill he fac’d the slave;\nWhich ne’er shook hands, nor bade farewell to him,\nTill he unseam’d him from the nave to the chops,\nAnd fix’d his head upon our battlements.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "O valiant cousin! worthy gentleman!",
-          "plainText": "O valiant cousin worthy gentleman",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@6488/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-2",
+          "start": 9,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-3",
+          "start": 28,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-4",
+          "start": 73,
+          "end": 118,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-5",
+          "start": 119,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-6",
+          "start": 154,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-7",
+          "start": 191,
+          "end": 232,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-8",
+          "start": 233,
+          "end": 272,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-9",
+          "start": 273,
+          "end": 316,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-10",
+          "start": 317,
+          "end": 365,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-11",
+          "start": 366,
+          "end": 413,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-12",
+          "start": 414,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-13",
+          "start": 461,
+          "end": 496,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-14",
+          "start": 497,
+          "end": 542,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-15",
+          "start": 543,
+          "end": 567,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-16",
+          "start": 568,
+          "end": 618,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-17",
+          "start": 619,
+          "end": 667,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@6488/line-18",
+          "start": 668,
+          "end": 708,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3570680,
+        "end": 3571498,
+        "line": 131475,
+        "column": 1,
+        "path": "chap20/p@6488",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-1-2-speech-005",
+      "id": "macbeth/sceneI_20.2/p@7310",
       "type": "speech",
-      "speaker": {
-        "id": "soldier",
-        "name": "SOLDIER",
-        "displayName": "Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nO valiant cousin! worthy gentleman!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "As whence the sun 'gins his reflection",
-          "plainText": "As whence the sun 'gins his reflection",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7310/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "Shipwracking storms and direful thunders break,",
-          "plainText": "Shipwracking storms and direful thunders break",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 3,
-          "text": "So from that spring, whence comfort seem'd to come",
-          "plainText": "So from that spring whence comfort seem'd to come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 4,
-          "text": "Discomfort swells. Mark, King of Scotland, mark:",
-          "plainText": "Discomfort swells Mark King of Scotland mark",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 5,
-          "text": "No sooner justice had, with valour arm'd,",
-          "plainText": "No sooner justice had with valour arm'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 6,
-          "text": "Compell'd these skipping kerns to trust their heels,",
-          "plainText": "Compell'd these skipping kerns to trust their heels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 7,
-          "text": "But the Norweyan lord, surveying vantage,",
-          "plainText": "But the Norweyan lord surveying vantage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 8,
-          "text": "With furbish'd arms and new supplies of men,",
-          "plainText": "With furbish'd arms and new supplies of men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 9,
-          "text": "Began a fresh assault.",
-          "plainText": "Began a fresh assault",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7310/line-2",
+          "start": 8,
+          "end": 43,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3571502,
+        "end": 3571575,
+        "line": 131496,
+        "column": 1,
+        "path": "chap20/p@7310",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-006",
+      "id": "macbeth/sceneI_20.2/p@7387",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLDIER.\nAs whence the sun ’gins his reflection\nShipwracking storms and direful thunders break,\nSo from that spring, whence comfort seem’d to come\nDiscomfort swells. Mark, King of Scotland, mark:\nNo sooner justice had, with valour arm’d,\nCompell’d these skipping kerns to trust their heels,\nBut the Norweyan lord, surveying vantage,\nWith furbish’d arms and new supplies of men,\nBegan a fresh assault.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Dismay'd not this",
-          "plainText": "Dismay'd not this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7387/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "Our captains, Macbeth and Banquo?",
-          "plainText": "Our captains Macbeth and Banquo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7387/line-2",
+          "start": 9,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-3",
+          "start": 48,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-4",
+          "start": 96,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-5",
+          "start": 147,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-6",
+          "start": 196,
+          "end": 237,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-7",
+          "start": 238,
+          "end": 290,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-8",
+          "start": 291,
+          "end": 332,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-9",
+          "start": 333,
+          "end": 377,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7387/line-10",
+          "start": 378,
+          "end": 400,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3571579,
+        "end": 3572049,
+        "line": 131501,
+        "column": 1,
+        "path": "chap20/p@7387",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-1-2-speech-007",
+      "id": "macbeth/sceneI_20.2/p@7861",
       "type": "speech",
-      "speaker": {
-        "id": "soldier",
-        "name": "SOLDIER",
-        "displayName": "Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nDismay’d not this\nOur captains, Macbeth and Banquo?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Yes;",
-          "plainText": "Yes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7861/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 2,
-          "text": "As sparrows eagles, or the hare the lion.",
-          "plainText": "As sparrows eagles or the hare the lion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7861/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 3,
-          "text": "If I say sooth, I must report they were",
-          "plainText": "If I say sooth I must report they were",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 4,
-          "text": "As cannons overcharg'd with double cracks;",
-          "plainText": "As cannons overcharg'd with double cracks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 5,
-          "text": "So they",
-          "plainText": "So they",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 6,
-          "text": "Doubly redoubled strokes upon the foe:",
-          "plainText": "Doubly redoubled strokes upon the foe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 7,
-          "text": "Except they meant to bathe in reeking wounds,",
-          "plainText": "Except they meant to bathe in reeking wounds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 8,
-          "text": "Or memorize another Golgotha,",
-          "plainText": "Or memorize another Golgotha",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 9,
-          "text": "I cannot tell—",
-          "plainText": "I cannot tell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 10,
-          "text": "But I am faint, my gashes cry for help.",
-          "plainText": "But I am faint my gashes cry for help",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7861/line-3",
+          "start": 26,
+          "end": 59,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572053,
+        "end": 3572147,
+        "line": 131514,
+        "column": 1,
+        "path": "chap20/p@7861",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-008",
+      "id": "macbeth/sceneI_20.2/p@7959",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLDIER.\nYes;\nAs sparrows eagles, or the hare the lion.\nIf I say sooth, I must report they were\nAs cannons overcharg’d with double cracks;\nSo they\nDoubly redoubled strokes upon the foe:\nExcept they meant to bathe in reeking wounds,\nOr memorize another Golgotha,\nI cannot tell—\nBut I am faint, my gashes cry for help.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "So well thy words become thee as thy wounds:",
-          "plainText": "So well thy words become thee as thy wounds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7959/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "They smack of honour both.—Go, get him surgeons.",
-          "plainText": "They smack of honour bothGo get him surgeons",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@7959/line-2",
+          "start": 9,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-3",
+          "start": 14,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-4",
+          "start": 56,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-5",
+          "start": 96,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-6",
+          "start": 139,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-7",
+          "start": 147,
+          "end": 185,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-8",
+          "start": 186,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-9",
+          "start": 232,
+          "end": 261,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-10",
+          "start": 262,
+          "end": 276,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@7959/line-11",
+          "start": 277,
+          "end": 316,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572151,
+        "end": 3572542,
+        "line": 131520,
+        "column": 1,
+        "path": "chap20/p@7959",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-1-2-stage-002",
+      "id": "macbeth/sceneI_20.2/p@8354",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nSo well thy words become thee as thy wounds:\nThey smack of honour both.—Go, get him surgeons.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/p@8354/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8354/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8354/line-3",
+          "start": 53,
+          "end": 101,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3572546,
+        "end": 3572682,
+        "line": 131534,
+        "column": 1,
+        "path": "chap20/p@8354",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.2/p@8494",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Captain, attended.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 24
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/p@8494/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3572686,
+        "end": 3572769,
+        "line": 131540,
+        "column": 1,
+        "path": "chap20/p@8494",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.2/p@8581",
       "type": "stage",
-      "text": "[Exit Captain, attended.]"
-    },
-    {
-      "id": "macbeth-1-2-stage-003",
-      "type": "stage",
-      "text": "Enter Ross and Angus."
-    },
-    {
-      "id": "macbeth-1-2-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "malcolm",
-        "name": "MALCOLM",
-        "displayName": "Malcolm"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Ross and Angus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 15,
+          "end": 20,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "The worthy Thane of Ross.",
-          "plainText": "The worthy Thane of Ross",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@8581/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572773,
+        "end": 3572880,
+        "line": 131542,
+        "column": 1,
+        "path": "chap20/p@8581",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-1-2-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "lennox",
-        "name": "LENNOX",
-        "displayName": "Lennox"
-      },
+      "id": "macbeth/sceneI_20.2/p@8692",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Who comes here?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "What a haste looks through his eyes! So should he look",
-          "plainText": "What a haste looks through his eyes So should he look",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 2,
-          "text": "That seems to speak things strange.",
-          "plainText": "That seems to speak things strange",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@8692/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572884,
+        "end": 3572924,
+        "line": 131545,
+        "column": 1,
+        "path": "chap20/p@8692",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-1-2-speech-011",
+      "id": "macbeth/sceneI_20.2/p@8736",
       "type": "speech",
-      "speaker": {
-        "id": "ross",
-        "name": "ROSS",
-        "displayName": "Ross"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MALCOLM.\nThe worthy Thane of Ross.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "God save the King!",
-          "plainText": "God save the King",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@8736/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8736/line-2",
+          "start": 9,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572928,
+        "end": 3572992,
+        "line": 131549,
+        "column": 1,
+        "path": "chap20/p@8736",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "MALCOLM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-1-2-speech-012",
+      "id": "macbeth/sceneI_20.2/p@8804",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LENNOX.\nWhat a haste looks through his eyes! So should he look\nThat seems to speak things strange.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Whence cam'st thou, worthy thane?",
-          "plainText": "Whence cam'st thou worthy thane",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@8804/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8804/line-2",
+          "start": 8,
+          "end": 62,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8804/line-3",
+          "start": 63,
+          "end": 98,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3572996,
+        "end": 3573129,
+        "line": 131554,
+        "column": 1,
+        "path": "chap20/p@8804",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "LENNOX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-013",
+      "id": "macbeth/sceneI_20.2/p@8941",
       "type": "speech",
-      "speaker": {
-        "id": "ross",
-        "name": "ROSS",
-        "displayName": "Ross"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSS.\nGod save the King!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 1,
-          "text": "From Fife, great King,",
-          "plainText": "From Fife great King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@8941/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 2,
-          "text": "Where the Norweyan banners flout the sky",
-          "plainText": "Where the Norweyan banners flout the sky",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 3,
-          "text": "And fan our people cold.",
-          "plainText": "And fan our people cold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0058",
-          "number": 58,
-          "speechLineNumber": 4,
-          "text": "Norway himself, with terrible numbers,",
-          "plainText": "Norway himself with terrible numbers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0059",
-          "number": 59,
-          "speechLineNumber": 5,
-          "text": "Assisted by that most disloyal traitor,",
-          "plainText": "Assisted by that most disloyal traitor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0060",
-          "number": 60,
-          "speechLineNumber": 6,
-          "text": "The Thane of Cawdor, began a dismal conflict;",
-          "plainText": "The Thane of Cawdor began a dismal conflict",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0061",
-          "number": 61,
-          "speechLineNumber": 7,
-          "text": "Till that Bellona's bridegroom, lapp'd in proof,",
-          "plainText": "Till that Bellona's bridegroom lapp'd in proof",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0062",
-          "number": 62,
-          "speechLineNumber": 8,
-          "text": "Confronted him with self-comparisons,",
-          "plainText": "Confronted him with selfcomparisons",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0063",
-          "number": 63,
-          "speechLineNumber": 9,
-          "text": "Point against point, rebellious arm 'gainst arm,",
-          "plainText": "Point against point rebellious arm 'gainst arm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0064",
-          "number": 64,
-          "speechLineNumber": 10,
-          "text": "Curbing his lavish spirit: and, to conclude,",
-          "plainText": "Curbing his lavish spirit and to conclude",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-1-2-line-0065",
-          "number": 65,
-          "speechLineNumber": 11,
-          "text": "The victory fell on us.",
-          "plainText": "The victory fell on us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@8941/line-2",
+          "start": 6,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3573133,
+        "end": 3573187,
+        "line": 131560,
+        "column": 1,
+        "path": "chap20/p@8941",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "ROSS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-1-2-speech-014",
+      "id": "macbeth/sceneI_20.2/p@8999",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nWhence cam’st thou, worthy thane?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "Great happiness!",
-          "plainText": "Great happiness",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@8999/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@8999/line-2",
+          "start": 8,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3573191,
+        "end": 3573262,
+        "line": 131565,
+        "column": 1,
+        "path": "chap20/p@8999",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-015",
+      "id": "macbeth/sceneI_20.2/p@9074",
       "type": "speech",
-      "speaker": {
-        "id": "ross",
-        "name": "ROSS",
-        "displayName": "Ross"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSS.\nFrom Fife, great King,\nWhere the Norweyan banners flout the sky\nAnd fan our people cold.\nNorway himself, with terrible numbers,\nAssisted by that most disloyal traitor,\nThe Thane of Cawdor, began a dismal conflict;\nTill that Bellona’s bridegroom, lapp’d in proof,\nConfronted him with self-comparisons,\nPoint against point, rebellious arm ’gainst arm,\nCurbing his lavish spirit: and, to conclude,\nThe victory fell on us.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "That now",
-          "plainText": "That now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9074/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "Sweno, the Norways' king, craves composition;",
-          "plainText": "Sweno the Norways' king craves composition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9074/line-2",
+          "start": 6,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0069",
-          "number": 69,
-          "speechLineNumber": 3,
-          "text": "Nor would we deign him burial of his men",
-          "plainText": "Nor would we deign him burial of his men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9074/line-3",
+          "start": 29,
+          "end": 69,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0070",
-          "number": 70,
-          "speechLineNumber": 4,
-          "text": "Till he disbursed at Saint Colme's Inch",
-          "plainText": "Till he disbursed at Saint Colme's Inch",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9074/line-4",
+          "start": 70,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0071",
-          "number": 71,
-          "speechLineNumber": 5,
-          "text": "Ten thousand dollars to our general use.",
-          "plainText": "Ten thousand dollars to our general use",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9074/line-5",
+          "start": 95,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-6",
+          "start": 134,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-7",
+          "start": 174,
+          "end": 219,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-8",
+          "start": 220,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-9",
+          "start": 269,
+          "end": 306,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-10",
+          "start": 307,
+          "end": 355,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-11",
+          "start": 356,
+          "end": 400,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9074/line-12",
+          "start": 401,
+          "end": 424,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3573266,
+        "end": 3573770,
+        "line": 131570,
+        "column": 1,
+        "path": "chap20/p@9074",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "ROSS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-1-2-speech-016",
+      "id": "macbeth/sceneI_20.2/p@9582",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nGreat happiness!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "No more that Thane of Cawdor shall deceive",
-          "plainText": "No more that Thane of Cawdor shall deceive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9582/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0073",
-          "number": 73,
-          "speechLineNumber": 2,
-          "text": "Our bosom interest. Go pronounce his present death,",
-          "plainText": "Our bosom interest Go pronounce his present death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9582/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3573774,
+        "end": 3573828,
+        "line": 131585,
+        "column": 1,
+        "path": "chap20/p@9582",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.2/p@9640",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSS.\nThat now\nSweno, the Norways’ king, craves composition;\nNor would we deign him burial of his men\nTill he disbursed at Saint Colme’s Inch\nTen thousand dollars to our general use.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/p@9640/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-2-line-0074",
-          "number": 74,
-          "speechLineNumber": 3,
-          "text": "And with his former title greet Macbeth.",
-          "plainText": "And with his former title greet Macbeth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.2/p@9640/line-2",
+          "start": 6,
+          "end": 14,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9640/line-3",
+          "start": 15,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9640/line-4",
+          "start": 61,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9640/line-5",
+          "start": 102,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9640/line-6",
+          "start": 142,
+          "end": 182,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3573832,
+        "end": 3574064,
+        "line": 131590,
+        "column": 1,
+        "path": "chap20/p@9640",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "ROSS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-1-2-speech-017",
+      "id": "macbeth/sceneI_20.2/p@9876",
       "type": "speech",
-      "speaker": {
-        "id": "ross",
-        "name": "ROSS",
-        "displayName": "Ross"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nNo more that Thane of Cawdor shall deceive\nOur bosom interest. Go pronounce his present death,\nAnd with his former title greet Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "I'll see it done.",
-          "plainText": "I'll see it done",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@9876/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9876/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9876/line-3",
+          "start": 51,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@9876/line-4",
+          "start": 103,
+          "end": 143,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3574068,
+        "end": 3574251,
+        "line": 131599,
+        "column": 1,
+        "path": "chap20/p@9876",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-1-2-speech-018",
+      "id": "macbeth/sceneI_20.2/p@10063",
       "type": "speech",
-      "speaker": {
-        "id": "duncan",
-        "name": "DUNCAN",
-        "displayName": "Duncan"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSS.\nI’ll see it done.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-2-line-0076",
-          "number": 76,
-          "speechLineNumber": 1,
-          "text": "What he hath lost, noble Macbeth hath won.",
-          "plainText": "What he hath lost noble Macbeth hath won",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneI_20.2/p@10063/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@10063/line-2",
+          "start": 6,
+          "end": 23,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3574255,
+        "end": 3574308,
+        "line": 131606,
+        "column": 1,
+        "path": "chap20/p@10063",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "ROSS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-1-2-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneI_20.2/p@10120",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUNCAN.\nWhat he hath lost, noble Macbeth hath won.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/p@10120/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.2/p@10120/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3574312,
+        "end": 3574392,
+        "line": 131611,
+        "column": 1,
+        "path": "chap20/p@10120",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": "DUNCAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.2/p@10204",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.2/p@10204/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3574396,
+        "end": 3574433,
+        "line": 131616,
+        "column": 1,
+        "path": "chap20/p@10204",
+        "anchor": "sceneI_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

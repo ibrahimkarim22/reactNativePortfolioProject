@@ -1,613 +1,1366 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "cymbeline",
-    "title": "Cymbeline",
+    "title": "CYMBELINE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap07"
   },
-  "scene": {
+  "section": {
     "id": "cymbeline-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. Britain. Before Cymbeline’s palace.",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. Britain. Before Cymbeline's palace.",
-    "location": "Britain. Before Cymbeline's palace.",
-    "orderInPlay": 8
+    "parentSectionId": "cymbeline-act-51402",
+    "orderInPlay": 14,
+    "sourceRef": {
+      "start": 1100292,
+      "end": 1100353,
+      "line": 41849,
+      "column": 1,
+      "path": "chap07/h3@51453",
+      "anchor": "sceneII_7.1"
+    }
   },
   "content": [
     {
-      "id": "cymbeline-2-1-stage-001",
+      "id": "cymbeline/sceneII_7.1/h3@51453",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Britain. Before Cymbeline’s palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 44
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.1/h3@51453/line-1",
+          "start": 0,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1100292,
+        "end": 1100353,
+        "line": 41849,
+        "column": 1,
+        "path": "chap07/h3@51453",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.1/p@51518",
       "type": "stage",
-      "text": "Enter Cloten and the two Lords."
-    },
-    {
-      "id": "cymbeline-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Cloten and the two Lords.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 25,
+          "end": 30,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Was there ever man had such luck! When I kiss'd the jack, upon an upcast to be hit away! I had a hundred pound on't; and then a whoreson jackanapes must take me up for swearing, as if I borrowed mine oaths of him, and might not spend them at my pleasure.",
-          "plainText": "Was there ever man had such luck When I kiss'd the jack upon an upcast to be hit away I had a hundred pound on't and then a whoreson jackanapes must take me up for swearing as if I borrowed mine oaths of him and might not spend them at my pleasure",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@51518/line-1",
+          "start": 0,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1100357,
+        "end": 1100475,
+        "line": 41851,
+        "column": 1,
+        "path": "chap07/p@51518",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-002",
+      "id": "cymbeline/sceneII_7.1/p@51640",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nWas there ever man had such luck! When I kiss’d the jack, upon an upcast to be hit away! I had a hundred pound on’t; and then a whoreson jackanapes must take me up for swearing, as if I borrowed mine oaths of him, and might not spend them at my pleasure.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "What got he by that? You have broke his pate with your bowl.",
-          "plainText": "What got he by that You have broke his pate with your bowl",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@51640/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@51640/line-2",
+          "start": 8,
+          "end": 262,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1100479,
+        "end": 1100774,
+        "line": 41854,
+        "column": 1,
+        "path": "chap07/p@51640",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-003",
+      "id": "cymbeline/sceneII_7.1/p@51939",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nWhat got he by that? You have broke his pate with your bowl.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "[Aside.] If his wit had been like him that broke it, it would have run all out.",
-          "plainText": "Aside If his wit had been like him that broke it it would have run all out",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@51939/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@51939/line-2",
+          "start": 12,
+          "end": 72,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1100778,
+        "end": 1100880,
+        "line": 41862,
+        "column": 1,
+        "path": "chap07/p@51939",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-004",
+      "id": "cymbeline/sceneII_7.1/p@52045",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\n[Aside.] If his wit had been like him that broke it, it would have run all out.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 14,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "When a gentleman is dispos'd to swear, it is not for any standers-by to curtail his oaths. Ha?",
-          "plainText": "When a gentleman is dispos'd to swear it is not for any standersby to curtail his oaths Ha",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52045/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52045/line-2",
+          "start": 13,
+          "end": 92,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1100884,
+        "end": 1101014,
+        "line": 41867,
+        "column": 1,
+        "path": "chap07/p@52045",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-005",
+      "id": "cymbeline/sceneII_7.1/p@52179",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nWhen a gentleman is dispos’d to swear, it is not for any standers-by to curtail his oaths. Ha?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "No, my lord; [Aside.] nor crop the ears of them.",
-          "plainText": "No my lord Aside nor crop the ears of them",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52179/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52179/line-2",
+          "start": 8,
+          "end": 102,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101018,
+        "end": 1101151,
+        "line": 41873,
+        "column": 1,
+        "path": "chap07/p@52179",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-006",
+      "id": "cymbeline/sceneII_7.1/p@52316",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nNo, my lord; [Aside.] nor crop the ears of them.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 27,
+          "end": 33
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Whoreson dog! I gave him satisfaction. Would he had been one of my rank!",
-          "plainText": "Whoreson dog I gave him satisfaction Would he had been one of my rank",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52316/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52316/line-2",
+          "start": 13,
+          "end": 61,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101155,
+        "end": 1101253,
+        "line": 41879,
+        "column": 1,
+        "path": "chap07/p@52316",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-007",
+      "id": "cymbeline/sceneII_7.1/p@52418",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nWhoreson dog! I gave him satisfaction. Would he had been one of my rank!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "[Aside.] To have smell'd like a fool.",
-          "plainText": "Aside To have smell'd like a fool",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52418/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52418/line-2",
+          "start": 8,
+          "end": 80,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101257,
+        "end": 1101367,
+        "line": 41884,
+        "column": 1,
+        "path": "chap07/p@52418",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-008",
+      "id": "cymbeline/sceneII_7.1/p@52532",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\n[Aside.] To have smell’d like a fool.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 14,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "I am not vex'd more at anything in th' earth. A pox on't! I had rather not be so noble as I am; they dare not fight with me, because of the Queen my mother. Every jackslave hath his bellyful of fighting, and I must go up and down like a cock that nobody can match.",
-          "plainText": "I am not vex'd more at anything in th' earth A pox on't I had rather not be so noble as I am they dare not fight with me because of the Queen my mother Every jackslave hath his bellyful of fighting and I must go up and down like a cock that nobody can match",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52532/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52532/line-2",
+          "start": 13,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101371,
+        "end": 1101458,
+        "line": 41889,
+        "column": 1,
+        "path": "chap07/p@52532",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-009",
+      "id": "cymbeline/sceneII_7.1/p@52623",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nI am not vex’d more at anything in th’ earth. A pox on’t! I had rather not be so noble as I am; they dare not fight with me, because of the Queen my mother. Every jackslave hath his bellyful of fighting, and I must go up and down like a cock that nobody can match.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "[Aside.] You are cock and capon too; and you crow, cock, with your comb on.",
-          "plainText": "Aside You are cock and capon too and you crow cock with your comb on",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52623/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52623/line-2",
+          "start": 8,
+          "end": 272,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101462,
+        "end": 1101767,
+        "line": 41894,
+        "column": 1,
+        "path": "chap07/p@52623",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-010",
+      "id": "cymbeline/sceneII_7.1/p@52932",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\n[Aside.] You are cock and capon too; and you crow, cock, with your comb on.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 14,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Sayest thou?",
-          "plainText": "Sayest thou",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@52932/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@52932/line-2",
+          "start": 13,
+          "end": 88,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101771,
+        "end": 1101897,
+        "line": 41902,
+        "column": 1,
+        "path": "chap07/p@52932",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-011",
+      "id": "cymbeline/sceneII_7.1/p@53062",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nSayest thou?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "It is not fit your lordship should undertake every companion that you give offence to.",
-          "plainText": "It is not fit your lordship should undertake every companion that you give offence to",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53062/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53062/line-2",
+          "start": 8,
+          "end": 20,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101901,
+        "end": 1101951,
+        "line": 41908,
+        "column": 1,
+        "path": "chap07/p@53062",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-012",
+      "id": "cymbeline/sceneII_7.1/p@53116",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nIt is not fit your lordship should undertake every companion that you give offence to.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "No, I know that; but it is fit I should commit offence to my inferiors.",
-          "plainText": "No I know that but it is fit I should commit offence to my inferiors",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53116/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53116/line-2",
+          "start": 13,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1101955,
+        "end": 1102085,
+        "line": 41913,
+        "column": 1,
+        "path": "chap07/p@53116",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-013",
+      "id": "cymbeline/sceneII_7.1/p@53250",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nNo, I know that; but it is fit I should commit offence to my inferiors.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Ay, it is fit for your lordship only.",
-          "plainText": "Ay it is fit for your lordship only",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53250/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53250/line-2",
+          "start": 8,
+          "end": 79,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102089,
+        "end": 1102198,
+        "line": 41919,
+        "column": 1,
+        "path": "chap07/p@53250",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-014",
+      "id": "cymbeline/sceneII_7.1/p@53363",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nAy, it is fit for your lordship only.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Why, so I say.",
-          "plainText": "Why so I say",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53363/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53363/line-2",
+          "start": 13,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102202,
+        "end": 1102282,
+        "line": 41924,
+        "column": 1,
+        "path": "chap07/p@53363",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-015",
+      "id": "cymbeline/sceneII_7.1/p@53447",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nWhy, so I say.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Did you hear of a stranger that's come to court tonight?",
-          "plainText": "Did you hear of a stranger that's come to court tonight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53447/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53447/line-2",
+          "start": 8,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102286,
+        "end": 1102338,
+        "line": 41929,
+        "column": 1,
+        "path": "chap07/p@53447",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-016",
+      "id": "cymbeline/sceneII_7.1/p@53503",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nDid you hear of a stranger that’s come to court tonight?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "A stranger, and I not known on't?",
-          "plainText": "A stranger and I not known on't",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53503/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53503/line-2",
+          "start": 12,
+          "end": 68,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102342,
+        "end": 1102440,
+        "line": 41934,
+        "column": 1,
+        "path": "chap07/p@53503",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-017",
+      "id": "cymbeline/sceneII_7.1/p@53605",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nA stranger, and I not known on’t?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "[Aside.] He's a strange fellow himself, and knows it not.",
-          "plainText": "Aside He's a strange fellow himself and knows it not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53605/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53605/line-2",
+          "start": 8,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102444,
+        "end": 1102515,
+        "line": 41939,
+        "column": 1,
+        "path": "chap07/p@53605",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-018",
+      "id": "cymbeline/sceneII_7.1/p@53680",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\n[Aside.] He’s a strange fellow himself, and knows it not.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 14,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "There's an Italian come, and, 'tis thought, one of Leonatus' friends.",
-          "plainText": "There's an Italian come and 'tis thought one of Leonatus' friends",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53680/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53680/line-2",
+          "start": 13,
+          "end": 70,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102519,
+        "end": 1102626,
+        "line": 41944,
+        "column": 1,
+        "path": "chap07/p@53680",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-019",
+      "id": "cymbeline/sceneII_7.1/p@53791",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nThere’s an Italian come, and, ’tis thought, one of Leonatus’ friends.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Leonatus? A banish'd rascal; and he's another, whatsoever he be. Who told you of this stranger?",
-          "plainText": "Leonatus A banish'd rascal and he's another whatsoever he be Who told you of this stranger",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53791/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53791/line-2",
+          "start": 12,
+          "end": 81,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102630,
+        "end": 1102742,
+        "line": 41949,
+        "column": 1,
+        "path": "chap07/p@53791",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-020",
+      "id": "cymbeline/sceneII_7.1/p@53907",
       "type": "speech",
-      "speaker": {
-        "id": "first-lord",
-        "name": "FIRST LORD",
-        "displayName": "First Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nLeonatus? A banish’d rascal; and he’s another, whatsoever he be. Who told you of this stranger?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "One of your lordship's pages.",
-          "plainText": "One of your lordship's pages",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@53907/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@53907/line-2",
+          "start": 8,
+          "end": 103,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102746,
+        "end": 1102880,
+        "line": 41955,
+        "column": 1,
+        "path": "chap07/p@53907",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-021",
+      "id": "cymbeline/sceneII_7.1/p@54045",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST LORD.\nOne of your lordship’s pages.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Is it fit I went to look upon him? Is there no derogation in't?",
-          "plainText": "Is it fit I went to look upon him Is there no derogation in't",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54045/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54045/line-2",
+          "start": 12,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102884,
+        "end": 1102955,
+        "line": 41961,
+        "column": 1,
+        "path": "chap07/p@54045",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "FIRST LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-022",
+      "id": "cymbeline/sceneII_7.1/p@54120",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nIs it fit I went to look upon him? Is there no derogation in’t?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "You cannot derogate, my lord.",
-          "plainText": "You cannot derogate my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54120/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54120/line-2",
+          "start": 8,
+          "end": 71,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1102959,
+        "end": 1103060,
+        "line": 41966,
+        "column": 1,
+        "path": "chap07/p@54120",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-023",
+      "id": "cymbeline/sceneII_7.1/p@54225",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nYou cannot derogate, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Not easily, I think.",
-          "plainText": "Not easily I think",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54225/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54225/line-2",
+          "start": 13,
+          "end": 42,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1103064,
+        "end": 1103136,
+        "line": 41971,
+        "column": 1,
+        "path": "chap07/p@54225",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-024",
+      "id": "cymbeline/sceneII_7.1/p@54301",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nNot easily, I think.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "[Aside.] You are a fool granted; therefore your issues, being foolish, do not derogate.",
-          "plainText": "Aside You are a fool granted therefore your issues being foolish do not derogate",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54301/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54301/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1103140,
+        "end": 1103198,
+        "line": 41976,
+        "column": 1,
+        "path": "chap07/p@54301",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-025",
+      "id": "cymbeline/sceneII_7.1/p@54363",
       "type": "speech",
-      "speaker": {
-        "id": "cloten",
-        "name": "CLOTEN",
-        "displayName": "Cloten"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\n[Aside.] You are a fool granted; therefore your issues, being foolish, do not derogate.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 14,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Come, I'll go see this Italian. What I have lost today at bowls I'll win tonight of him. Come, go.",
-          "plainText": "Come I'll go see this Italian What I have lost today at bowls I'll win tonight of him Come go",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54363/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54363/line-2",
+          "start": 13,
+          "end": 100,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1103202,
+        "end": 1103340,
+        "line": 41981,
+        "column": 1,
+        "path": "chap07/p@54363",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-speech-026",
+      "id": "cymbeline/sceneII_7.1/p@54505",
       "type": "speech",
-      "speaker": {
-        "id": "second-lord",
-        "name": "SECOND LORD",
-        "displayName": "Second Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CLOTEN.\nCome, I’ll go see this Italian. What I have lost today at bowls I’ll win tonight of him. Come, go.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "I'll attend your lordship.",
-          "plainText": "I'll attend your lordship",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.1/p@54505/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54505/line-2",
+          "start": 8,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1103344,
+        "end": 1103481,
+        "line": 41987,
+        "column": 1,
+        "path": "chap07/p@54505",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "CLOTEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-1-stage-002",
-      "type": "stage",
-      "text": "[Exeunt Cloten and First Lord.]"
+      "id": "cymbeline/sceneII_7.1/p@54646",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND LORD.\nI’ll attend your lordship.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.1/p@54646/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54646/line-2",
+          "start": 13,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1103485,
+        "end": 1103554,
+        "line": 41993,
+        "column": 1,
+        "path": "chap07/p@54646",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": "SECOND LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "cymbeline-2-1-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "cymbeline/sceneII_7.1/p@54719",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Cloten and First Lord.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 29,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 30
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.1/p@54719/line-1",
+          "start": 0,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1103558,
+        "end": 1103679,
+        "line": 41998,
+        "column": 1,
+        "path": "chap07/p@54719",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.1/p@54844",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "That such a crafty devil as is his mother\nShould yield the world this ass! A woman that\nBears all down with her brain; and this her son\nCannot take two from twenty, for his heart,\nAnd leave eighteen. Alas, poor princess,\nThou divine Imogen, what thou endur’st,\nBetwixt a father by thy step-dame govern’d,\nA mother hourly coining plots, a wooer\nMore hateful than the foul expulsion is\nOf thy dear husband, than that horrid act\nOf the divorce he’d make! The heavens hold firm\nThe walls of thy dear honour, keep unshak’d\nThat temple, thy fair mind, that thou mayst stand\nT’ enjoy thy banish’d lord and this great land!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-2",
+          "start": 42,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-3",
+          "start": 88,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-4",
+          "start": 136,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-5",
+          "start": 180,
+          "end": 220,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-6",
+          "start": 221,
+          "end": 260,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-7",
+          "start": 261,
+          "end": 304,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-8",
+          "start": 305,
+          "end": 343,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-9",
+          "start": 344,
+          "end": 383,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-10",
+          "start": 384,
+          "end": 425,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-11",
+          "start": 426,
+          "end": 473,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-12",
+          "start": 474,
+          "end": 517,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-13",
+          "start": 518,
+          "end": 567,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.1/p@54844/line-14",
+          "start": 568,
+          "end": 615,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1103683,
+        "end": 1104388,
+        "line": 42001,
+        "column": 1,
+        "path": "chap07/p@54844",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.1/p@55553",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.1/p@55553/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1104392,
+        "end": 1104428,
+        "line": 42018,
+        "column": 1,
+        "path": "chap07/p@55553",
+        "anchor": "sceneII_7.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75"
 }

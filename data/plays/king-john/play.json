@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "king-john",
-  "title": "The Life and Death of King John",
-  "fullTitle": "The Life and Death of King John",
+  "title": "THE LIFE AND DEATH OF KING JOHN",
   "author": "William Shakespeare",
   "genre": "History",
+  "fullTitle": "THE LIFE AND DEATH OF KING JOHN",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap16"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,9 +33,9 @@
           "scene": 1,
           "id": "king-john-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Northampton. A Room of State in the Palace.",
+          "title": "SCENE I. Northampton. A Room of State in the Palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 227
+          "lineCount": 348
         }
       ]
     },
@@ -38,9 +46,9 @@
           "scene": 1,
           "id": "king-john-2-1",
           "label": "Act 2, Scene 1",
-          "title": "France. Before the walls of Angiers.",
+          "title": "SCENE I. France. Before the walls of Angiers.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 605
+          "lineCount": 736
         }
       ]
     },
@@ -51,33 +59,33 @@
           "scene": 1,
           "id": "king-john-3-1",
           "label": "Act 3, Scene 1",
-          "title": "France. The French King's tent.",
+          "title": "SCENE I. France. The French King’s tent.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 352
+          "lineCount": 436
         },
         {
           "scene": 2,
           "id": "king-john-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The same. Plains near Angiers",
+          "title": "SCENE II. The same. Plains near Angiers",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 11
+          "lineCount": 18
         },
         {
           "scene": 3,
           "id": "king-john-3-3",
           "label": "Act 3, Scene 3",
-          "title": "The same.",
+          "title": "SCENE III. The same.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 82
+          "lineCount": 107
         },
         {
           "scene": 4,
           "id": "king-john-3-4",
           "label": "Act 3, Scene 4",
-          "title": "The same. The French King's tent.",
+          "title": "SCENE IV. The same. The French King’s tent.",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 177
+          "lineCount": 226
         }
       ]
     },
@@ -88,25 +96,25 @@
           "scene": 1,
           "id": "king-john-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Northampton. A Room in the Castle.",
+          "title": "SCENE I. Northampton. A Room in the Castle.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 138
+          "lineCount": 193
         },
         {
           "scene": 2,
           "id": "king-john-4-2",
           "label": "Act 4, Scene 2",
-          "title": "The same. A Room of State in the Palace.",
+          "title": "SCENE II. The same. A Room of State in the Palace.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 268
+          "lineCount": 342
         },
         {
           "scene": 3,
           "id": "king-john-4-3",
           "label": "Act 4, Scene 3",
-          "title": "The same. Before the castle.",
+          "title": "SCENE III. The same. Before the castle.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 163
+          "lineCount": 228
         }
       ]
     },
@@ -117,59 +125,312 @@
           "scene": 1,
           "id": "king-john-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Northampton. A Room in the Palace.",
+          "title": "SCENE I. Northampton. A Room in the Palace.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 82
+          "lineCount": 101
         },
         {
           "scene": 2,
           "id": "king-john-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Near Saint Edmundsbury. The French Camp.",
+          "title": "SCENE II. Near Saint Edmundsbury. The French Camp.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 178
+          "lineCount": 206
         },
         {
           "scene": 3,
           "id": "king-john-5-3",
           "label": "Act 5, Scene 3",
-          "title": "The same. The Field of Battle.",
+          "title": "SCENE III. The same. The Field of Battle.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 17
+          "lineCount": 28
         },
         {
           "scene": 4,
           "id": "king-john-5-4",
           "label": "Act 5, Scene 4",
-          "title": "The same. Another part of the same.",
+          "title": "SCENE IV. The same. Another part of the same.",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 62
+          "lineCount": 78
         },
         {
           "scene": 5,
           "id": "king-john-5-5",
           "label": "Act 5, Scene 5",
-          "title": "The same. The French camp.",
+          "title": "SCENE V. The same. The French camp.",
           "path": "./scenes/act-5-scene-5.json",
-          "lineCount": 23
+          "lineCount": 34
         },
         {
           "scene": 6,
           "id": "king-john-5-6",
           "label": "Act 5, Scene 6",
-          "title": "An open place in the neighborhood of Swinstead Abbey.",
+          "title": "SCENE VI. An open place in the neighborhood of Swinstead Abbey.",
           "path": "./scenes/act-5-scene-6.json",
-          "lineCount": 48
+          "lineCount": 71
         },
         {
           "scene": 7,
           "id": "king-john-5-7",
           "label": "Act 5, Scene 7",
-          "title": "The orchard of Swinstead Abbey.",
+          "title": "SCENE VII. The orchard of Swinstead Abbey.",
           "path": "./scenes/act-5-scene-7.json",
-          "lineCount": 122
+          "lineCount": 156
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "king-john-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE LIFE AND DEATH OF KING JOHN"
+    },
+    {
+      "id": "king-john-contents-124",
+      "kind": "contents",
+      "path": "./sections/contents-124.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "king-john-cast-2302",
+      "kind": "cast",
+      "path": "./sections/cast-2302.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "king-john-setting-3570",
+      "kind": "setting",
+      "path": "./sections/setting-3570.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Sometimes in England, and sometimes in France."
+    },
+    {
+      "id": "king-john-act-3697",
+      "kind": "act",
+      "path": "./sections/act-3697.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "king-john-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "king-john-act-3697",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Northampton. A Room of State in the Palace."
+    },
+    {
+      "id": "king-john-act-20467",
+      "kind": "act",
+      "path": "./sections/act-20467.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 7,
+      "heading": "ACT II"
+    },
+    {
+      "id": "king-john-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "king-john-act-20467",
+      "orderInPlay": 8,
+      "heading": "SCENE I. France. Before the walls of Angiers."
+    },
+    {
+      "id": "king-john-act-55118",
+      "kind": "act",
+      "path": "./sections/act-55118.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 9,
+      "heading": "ACT III"
+    },
+    {
+      "id": "king-john-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "king-john-act-55118",
+      "orderInPlay": 10,
+      "heading": "SCENE I. France. The French King’s tent."
+    },
+    {
+      "id": "king-john-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "king-john-act-55118",
+      "orderInPlay": 11,
+      "heading": "SCENE II. The same. Plains near Angiers"
+    },
+    {
+      "id": "king-john-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "king-john-act-55118",
+      "orderInPlay": 12,
+      "heading": "SCENE III. The same."
+    },
+    {
+      "id": "king-john-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "king-john-act-55118",
+      "orderInPlay": 13,
+      "heading": "SCENE IV. The same. The French King’s tent."
+    },
+    {
+      "id": "king-john-act-91618",
+      "kind": "act",
+      "path": "./sections/act-91618.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "king-john-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "king-john-act-91618",
+      "orderInPlay": 15,
+      "heading": "SCENE I. Northampton. A Room in the Castle."
+    },
+    {
+      "id": "king-john-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "king-john-act-91618",
+      "orderInPlay": 16,
+      "heading": "SCENE II. The same. A Room of State in the Palace."
+    },
+    {
+      "id": "king-john-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "king-john-act-91618",
+      "orderInPlay": 17,
+      "heading": "SCENE III. The same. Before the castle."
+    },
+    {
+      "id": "king-john-act-126610",
+      "kind": "act",
+      "path": "./sections/act-126610.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 18,
+      "heading": "ACT V"
+    },
+    {
+      "id": "king-john-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 19,
+      "heading": "SCENE I. Northampton. A Room in the Palace."
+    },
+    {
+      "id": "king-john-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 20,
+      "heading": "SCENE II. Near Saint Edmundsbury. The French Camp."
+    },
+    {
+      "id": "king-john-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 21,
+      "heading": "SCENE III. The same. The Field of Battle."
+    },
+    {
+      "id": "king-john-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 22,
+      "heading": "SCENE IV. The same. Another part of the same."
+    },
+    {
+      "id": "king-john-5-5",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-5.json",
+      "act": 5,
+      "scene": 5,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 23,
+      "heading": "SCENE V. The same. The French camp."
+    },
+    {
+      "id": "king-john-5-6",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-6.json",
+      "act": 5,
+      "scene": 6,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 24,
+      "heading": "SCENE VI. An open place in the neighborhood of Swinstead Abbey."
+    },
+    {
+      "id": "king-john-5-7",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-7.json",
+      "act": 5,
+      "scene": 7,
+      "parentSectionId": "king-john-act-126610",
+      "orderInPlay": 25,
+      "heading": "SCENE VII. The orchard of Swinstead Abbey."
+    }
+  ],
+  "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4"
 }

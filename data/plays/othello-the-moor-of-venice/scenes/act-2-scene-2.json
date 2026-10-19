@@ -1,58 +1,191 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "othello-the-moor-of-venice",
-    "title": "The Tragedy of Othello, the Moor of Venice",
+    "title": "THE TRAGEDY OF OTHELLO, THE MOOR OF VENICE",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap26"
   },
-  "scene": {
+  "section": {
     "id": "othello-the-moor-of-venice-2-2",
+    "kind": "scene",
+    "heading": "SCENE II. A street.",
     "act": 2,
     "scene": 2,
-    "label": "Act 2, Scene 2",
-    "title": "SCENE II. A street.",
-    "location": "A street.",
-    "orderInPlay": 5
+    "parentSectionId": "othello-the-moor-of-venice-act-43967",
+    "orderInPlay": 11,
+    "sourceRef": {
+      "start": 4585402,
+      "end": 4585463,
+      "line": 170093,
+      "column": 1,
+      "path": "chap26/h3@63451",
+      "anchor": "sceneII_26.2"
+    }
   },
   "content": [
     {
-      "id": "othello-the-moor-of-venice-2-2-stage-001",
-      "type": "stage",
-      "text": "Enter Othello's Herald with a proclamation."
-    },
-    {
-      "id": "othello-the-moor-of-venice-2-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "herald",
-        "name": "HERALD",
-        "displayName": "Herald"
-      },
+      "id": "othello-the-moor-of-venice/sceneII_26.2/h3@63451",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. A street.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
       "lines": [
         {
-          "id": "othello-the-moor-of-venice-2-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "It is Othello's pleasure, our noble and valiant general, that upon certain tidings now arrived, importing the mere perdition of the Turkish fleet, every man put himself into triumph: some to dance, some to make bonfires, each man to what sport and revels his addition leads him. For besides these beneficial news, it is the celebration of his nuptial. So much was his pleasure should be proclaimed. All offices are open, and there is full liberty of feasting from this present hour of five till the bell have told eleven. Heaven bless the isle of Cyprus and our noble general Othello!",
-          "plainText": "It is Othello's pleasure our noble and valiant general that upon certain tidings now arrived importing the mere perdition of the Turkish fleet every man put himself into triumph some to dance some to make bonfires each man to what sport and revels his addition leads him For besides these beneficial news it is the celebration of his nuptial So much was his pleasure should be proclaimed All offices are open and there is full liberty of feasting from this present hour of five till the bell have told eleven Heaven bless the isle of Cyprus and our noble general Othello",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "othello-the-moor-of-venice/sceneII_26.2/h3@63451/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4585402,
+        "end": 4585463,
+        "line": 170093,
+        "column": 1,
+        "path": "chap26/h3@63451",
+        "anchor": "sceneII_26.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "othello-the-moor-of-venice-2-2-stage-002",
+      "id": "othello-the-moor-of-venice/sceneII_26.2/p@63516",
       "type": "stage",
-      "text": "[Exit.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Othello’s Herald with a proclamation.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 22,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "othello-the-moor-of-venice/sceneII_26.2/p@63516/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4585467,
+        "end": 4585569,
+        "line": 170095,
+        "column": 1,
+        "path": "chap26/p@63516",
+        "anchor": "sceneII_26.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "othello-the-moor-of-venice/sceneII_26.2/p@63622",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HERALD.\nIt is Othello’s pleasure, our noble and valiant general, that upon certain tidings now arrived, importing the mere perdition of the Turkish fleet, every man put himself into triumph: some to dance, some to make bonfires, each man to what sport and revels his addition leads him. For besides these beneficial news, it is the celebration of his nuptial. So much was his pleasure should be proclaimed. All offices are open, and there is full liberty of feasting from this present hour of five till the bell have told eleven. Heaven bless the isle of Cyprus and our noble general Othello!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "othello-the-moor-of-venice/sceneII_26.2/p@63622/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "othello-the-moor-of-venice/sceneII_26.2/p@63622/line-2",
+          "start": 8,
+          "end": 592,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4585573,
+        "end": 4586202,
+        "line": 170099,
+        "column": 1,
+        "path": "chap26/p@63622",
+        "anchor": "sceneII_26.2"
+      },
+      "speakerLabel": "HERALD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "othello-the-moor-of-venice/sceneII_26.2/p@64255",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "othello-the-moor-of-venice/sceneII_26.2/p@64255/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4586206,
+        "end": 4586245,
+        "line": 170111,
+        "column": 1,
+        "path": "chap26/p@64255",
+        "anchor": "sceneII_26.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "059044cf423292bd29a567ec767edbff8cc331dbc8d3e7950fedf366ab5995ea"
 }

@@ -1,520 +1,638 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-3-4",
+    "kind": "scene",
+    "heading": "SCENE IV. A Room in Capulet’s House.",
     "act": 3,
     "scene": 4,
-    "label": "Act 3, Scene 4",
-    "title": "SCENE IV. A Room in Capulet's House.",
-    "location": "A Room in Capulet's House.",
-    "orderInPlay": 15
+    "parentSectionId": "romeo-and-juliet-act-91751",
+    "orderInPlay": 23,
+    "sourceRef": {
+      "start": 5422079,
+      "end": 5422158,
+      "line": 201530,
+      "column": 1,
+      "path": "chap30/h3@123079",
+      "anchor": "sceneIII_30.4"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-3-4-stage-001",
+      "id": "romeo-and-juliet/sceneIII_30.4/h3@123079",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. A Room in Capulet’s House.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/h3@123079/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5422079,
+        "end": 5422158,
+        "line": 201530,
+        "column": 1,
+        "path": "chap30/h3@123079",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIII_30.4/p@123162",
       "type": "stage",
-      "text": "Enter Capulet, Lady Capulet and Paris."
-    },
-    {
-      "id": "romeo-and-juliet-3-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Capulet, Lady Capulet and Paris.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 27,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 32,
+          "end": 37,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Things have fallen out, sir, so unluckily",
-          "plainText": "Things have fallen out sir so unluckily",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "That we have had no time to move our daughter.",
-          "plainText": "That we have had no time to move our daughter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Look you, she lov'd her kinsman Tybalt dearly,",
-          "plainText": "Look you she lov'd her kinsman Tybalt dearly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And so did I. Well, we were born to die.",
-          "plainText": "And so did I Well we were born to die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "'Tis very late; she'll not come down tonight.",
-          "plainText": "'Tis very late she'll not come down tonight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "I promise you, but for your company,",
-          "plainText": "I promise you but for your company",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "I would have been abed an hour ago.",
-          "plainText": "I would have been abed an hour ago",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123162/line-1",
+          "start": 0,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5422162,
+        "end": 5422286,
+        "line": 201532,
+        "column": 1,
+        "path": "chap30/p@123162",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-002",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@123290",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nThings have fallen out, sir, so unluckily\nThat we have had no time to move our daughter.\nLook you, she lov’d her kinsman Tybalt dearly,\nAnd so did I. Well, we were born to die.\n’Tis very late; she’ll not come down tonight.\nI promise you, but for your company,\nI would have been abed an hour ago.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "These times of woe afford no tune to woo.",
-          "plainText": "These times of woe afford no tune to woo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Madam, good night. Commend me to your daughter.",
-          "plainText": "Madam good night Commend me to your daughter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-3",
+          "start": 51,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-4",
+          "start": 98,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-5",
+          "start": 145,
+          "end": 185,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-6",
+          "start": 186,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-7",
+          "start": 232,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123290/line-8",
+          "start": 269,
+          "end": 304,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5422290,
+        "end": 5422654,
+        "line": 201535,
+        "column": 1,
+        "path": "chap30/p@123290",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-003",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@123658",
       "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nThese times of woe afford no tune to woo.\nMadam, good night. Commend me to your daughter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "I will, and know her mind early tomorrow;",
-          "plainText": "I will and know her mind early tomorrow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123658/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "Tonight she's mew'd up to her heaviness.",
-          "plainText": "Tonight she's mew'd up to her heaviness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123658/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123658/line-3",
+          "start": 49,
+          "end": 96,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5422658,
+        "end": 5422789,
+        "line": 201546,
+        "column": 1,
+        "path": "chap30/p@123658",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-004",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@123793",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nI will, and know her mind early tomorrow;\nTonight she’s mew’d up to her heaviness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Sir Paris, I will make a desperate tender",
-          "plainText": "Sir Paris I will make a desperate tender",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123793/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Of my child's love. I think she will be rul'd",
-          "plainText": "Of my child's love I think she will be rul'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123793/line-2",
+          "start": 14,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "In all respects by me; nay more, I doubt it not.",
-          "plainText": "In all respects by me nay more I doubt it not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 4,
-          "text": "Wife, go you to her ere you go to bed,",
-          "plainText": "Wife go you to her ere you go to bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 5,
-          "text": "Acquaint her here of my son Paris' love,",
-          "plainText": "Acquaint her here of my son Paris' love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 6,
-          "text": "And bid her, mark you me, on Wednesday next,",
-          "plainText": "And bid her mark you me on Wednesday next",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 7,
-          "text": "But, soft, what day is this?",
-          "plainText": "But soft what day is this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123793/line-3",
+          "start": 56,
+          "end": 96,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5422793,
+        "end": 5422924,
+        "line": 201552,
+        "column": 1,
+        "path": "chap30/p@123793",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-005",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@123928",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nSir Paris, I will make a desperate tender\nOf my child’s love. I think she will be rul’d\nIn all respects by me; nay more, I doubt it not.\nWife, go you to her ere you go to bed,\nAcquaint her here of my son Paris’ love,\nAnd bid her, mark you me, on Wednesday next,\nBut, soft, what day is this?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Monday, my lord.",
-          "plainText": "Monday my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-3",
+          "start": 51,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-4",
+          "start": 97,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-5",
+          "start": 146,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-6",
+          "start": 185,
+          "end": 225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-7",
+          "start": 226,
+          "end": 270,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@123928/line-8",
+          "start": 271,
+          "end": 299,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5422928,
+        "end": 5423287,
+        "line": 201558,
+        "column": 1,
+        "path": "chap30/p@123928",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-006",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@124291",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nMonday, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Monday! Ha, ha! Well, Wednesday is too soon,",
-          "plainText": "Monday Ha ha Well Wednesday is too soon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124291/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "A Thursday let it be; a Thursday, tell her,",
-          "plainText": "A Thursday let it be a Thursday tell her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 3,
-          "text": "She shall be married to this noble earl.",
-          "plainText": "She shall be married to this noble earl",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 4,
-          "text": "Will you be ready? Do you like this haste?",
-          "plainText": "Will you be ready Do you like this haste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 5,
-          "text": "We'll keep no great ado,—a friend or two,",
-          "plainText": "We'll keep no great adoa friend or two",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 6,
-          "text": "For, hark you, Tybalt being slain so late,",
-          "plainText": "For hark you Tybalt being slain so late",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 7,
-          "text": "It may be thought we held him carelessly,",
-          "plainText": "It may be thought we held him carelessly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 8,
-          "text": "Being our kinsman, if we revel much.",
-          "plainText": "Being our kinsman if we revel much",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 9,
-          "text": "Therefore we'll have some half a dozen friends,",
-          "plainText": "Therefore we'll have some half a dozen friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 10,
-          "text": "And there an end. But what say you to Thursday?",
-          "plainText": "And there an end But what say you to Thursday",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124291/line-2",
+          "start": 7,
+          "end": 23,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5423291,
+        "end": 5423344,
+        "line": 201569,
+        "column": 1,
+        "path": "chap30/p@124291",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-007",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@124348",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nMonday! Ha, ha! Well, Wednesday is too soon,\nA Thursday let it be; a Thursday, tell her,\nShe shall be married to this noble earl.\nWill you be ready? Do you like this haste?\nWe’ll keep no great ado,—a friend or two,\nFor, hark you, Tybalt being slain so late,\nIt may be thought we held him carelessly,\nBeing our kinsman, if we revel much.\nTherefore we’ll have some half a dozen friends,\nAnd there an end. But what say you to Thursday?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "My lord, I would that Thursday were tomorrow.",
-          "plainText": "My lord I would that Thursday were tomorrow",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-3",
+          "start": 54,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-4",
+          "start": 98,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-5",
+          "start": 139,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-6",
+          "start": 182,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-7",
+          "start": 224,
+          "end": 266,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-8",
+          "start": 267,
+          "end": 308,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-9",
+          "start": 309,
+          "end": 345,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-10",
+          "start": 346,
+          "end": 393,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124348/line-11",
+          "start": 394,
+          "end": 441,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5423348,
+        "end": 5423864,
+        "line": 201574,
+        "column": 1,
+        "path": "chap30/p@124348",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-speech-008",
+      "id": "romeo-and-juliet/sceneIII_30.4/p@124868",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nMy lord, I would that Thursday were tomorrow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-3-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Well, get you gone. A Thursday be it then.",
-          "plainText": "Well get you gone A Thursday be it then",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124868/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-3-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 2,
-          "text": "Go you to Juliet ere you go to bed,",
-          "plainText": "Go you to Juliet ere you go to bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 3,
-          "text": "Prepare her, wife, against this wedding day.",
-          "plainText": "Prepare her wife against this wedding day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 4,
-          "text": "Farewell, my lord.—Light to my chamber, ho!",
-          "plainText": "Farewell my lordLight to my chamber ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 5,
-          "text": "Afore me, it is so very very late that we",
-          "plainText": "Afore me it is so very very late that we",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-3-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 6,
-          "text": "May call it early by and by. Good night.",
-          "plainText": "May call it early by and by Good night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124868/line-2",
+          "start": 7,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5423868,
+        "end": 5423950,
+        "line": 201588,
+        "column": 1,
+        "path": "chap30/p@124868",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-3-4-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneIII_30.4/p@124954",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nWell, get you gone. A Thursday be it then.\nGo you to Juliet ere you go to bed,\nPrepare her, wife, against this wedding day.\nFarewell, my lord.—Light to my chamber, ho!\nAfore me, it is so very very late that we\nMay call it early by and by. Good night.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-3",
+          "start": 52,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-4",
+          "start": 88,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-5",
+          "start": 133,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-6",
+          "start": 177,
+          "end": 218,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@124954/line-7",
+          "start": 219,
+          "end": 259,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5423954,
+        "end": 5424268,
+        "line": 201593,
+        "column": 1,
+        "path": "chap30/p@124954",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIII_30.4/p@125272",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIII_30.4/p@125272/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5424272,
+        "end": 5424309,
+        "line": 201603,
+        "column": 1,
+        "path": "chap30/p@125272",
+        "anchor": "sceneIII_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

@@ -1,707 +1,600 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-henry-the-fifth",
-    "title": "The Life of King Henry the Fifth",
+    "title": "THE LIFE OF KING HENRY THE FIFTH",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap11"
   },
-  "scene": {
+  "section": {
     "id": "king-henry-the-fifth-3-3",
+    "kind": "scene",
+    "heading": "SCENE III. Before the gates.",
     "act": 3,
     "scene": 3,
-    "label": "Act 3, Scene 3",
-    "title": "SCENE III. Before the gates.",
-    "location": "Before the gates.",
-    "orderInPlay": 9
+    "parentSectionId": "king-henry-the-fifth-act-59776",
+    "orderInPlay": 17,
+    "sourceRef": {
+      "start": 1971129,
+      "end": 1971200,
+      "line": 73122,
+      "column": 1,
+      "path": "chap11/h3@71700",
+      "anchor": "sceneIII_11.3"
+    }
   },
   "content": [
     {
-      "id": "king-henry-the-fifth-3-3-stage-001",
+      "id": "king-henry-the-fifth/sceneIII_11.3/h3@71700",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Before the gates.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/h3@71700/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1971129,
+        "end": 1971200,
+        "line": 73122,
+        "column": 1,
+        "path": "chap11/h3@71700",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-henry-the-fifth/sceneIII_11.3/p@71775",
       "type": "stage",
-      "text": "The Governor and some citizens on the walls; the English forces below. Enter King Henry and his train."
-    },
-    {
-      "id": "king-henry-the-fifth-3-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "The Governor and some citizens on the walls; the English forces below. Enter King Henry and his train.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 4,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 77,
+          "end": 87,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-henry-the-fifth-3-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "How yet resolves the governor of the town?",
-          "plainText": "How yet resolves the governor of the town",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "This is the latest parle we will admit;",
-          "plainText": "This is the latest parle we will admit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Therefore to our best mercy give yourselves,",
-          "plainText": "Therefore to our best mercy give yourselves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Or like to men proud of destruction",
-          "plainText": "Or like to men proud of destruction",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Defy us to our worst; for, as I am a soldier,",
-          "plainText": "Defy us to our worst for as I am a soldier",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "A name that in my thoughts becomes me best,",
-          "plainText": "A name that in my thoughts becomes me best",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "If I begin the battery once again,",
-          "plainText": "If I begin the battery once again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "I will not leave the half-achieved Harfleur",
-          "plainText": "I will not leave the halfachieved Harfleur",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Till in her ashes she lie buried.",
-          "plainText": "Till in her ashes she lie buried",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "The gates of mercy shall be all shut up,",
-          "plainText": "The gates of mercy shall be all shut up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "And the flesh'd soldier, rough and hard of heart,",
-          "plainText": "And the flesh'd soldier rough and hard of heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "In liberty of bloody hand shall range",
-          "plainText": "In liberty of bloody hand shall range",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "With conscience wide as hell, mowing like grass",
-          "plainText": "With conscience wide as hell mowing like grass",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Your fresh fair virgins and your flow'ring infants.",
-          "plainText": "Your fresh fair virgins and your flow'ring infants",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "What is it then to me, if impious War,",
-          "plainText": "What is it then to me if impious War",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "Array'd in flames like to the prince of fiends,",
-          "plainText": "Array'd in flames like to the prince of fiends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "Do with his smirch'd complexion all fell feats",
-          "plainText": "Do with his smirch'd complexion all fell feats",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "Enlink'd to waste and desolation?",
-          "plainText": "Enlink'd to waste and desolation",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "What is't to me, when you yourselves are cause,",
-          "plainText": "What is't to me when you yourselves are cause",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "If your pure maidens fall into the hand",
-          "plainText": "If your pure maidens fall into the hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "Of hot and forcing violation?",
-          "plainText": "Of hot and forcing violation",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 22,
-          "text": "What rein can hold licentious wickedness",
-          "plainText": "What rein can hold licentious wickedness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 23,
-          "text": "When down the hill he holds his fierce career?",
-          "plainText": "When down the hill he holds his fierce career",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 24,
-          "text": "We may as bootless spend our vain command",
-          "plainText": "We may as bootless spend our vain command",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 25,
-          "text": "Upon the enraged soldiers in their spoil",
-          "plainText": "Upon the enraged soldiers in their spoil",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 26,
-          "text": "As send precepts to the leviathan",
-          "plainText": "As send precepts to the leviathan",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 27,
-          "text": "To come ashore. Therefore, you men of Harfleur,",
-          "plainText": "To come ashore Therefore you men of Harfleur",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 28,
-          "text": "Take pity of your town and of your people,",
-          "plainText": "Take pity of your town and of your people",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 29,
-          "text": "Whiles yet my soldiers are in my command,",
-          "plainText": "Whiles yet my soldiers are in my command",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 30,
-          "text": "Whiles yet the cool and temperate wind of grace",
-          "plainText": "Whiles yet the cool and temperate wind of grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 31,
-          "text": "O'erblows the filthy and contagious clouds",
-          "plainText": "O'erblows the filthy and contagious clouds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 32,
-          "text": "Of heady murder, spoil, and villainy.",
-          "plainText": "Of heady murder spoil and villainy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 33,
-          "text": "If not, why, in a moment look to see",
-          "plainText": "If not why in a moment look to see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 34,
-          "text": "The blind and bloody soldier with foul hand",
-          "plainText": "The blind and bloody soldier with foul hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 35,
-          "text": "Defile the locks of your shrill-shrieking daughters;",
-          "plainText": "Defile the locks of your shrillshrieking daughters",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 36,
-          "text": "Your fathers taken by the silver beards,",
-          "plainText": "Your fathers taken by the silver beards",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 37,
-          "text": "And their most reverend heads dash'd to the walls;",
-          "plainText": "And their most reverend heads dash'd to the walls",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 38,
-          "text": "Your naked infants spitted upon pikes,",
-          "plainText": "Your naked infants spitted upon pikes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 39,
-          "text": "Whiles the mad mothers with their howls confus'd",
-          "plainText": "Whiles the mad mothers with their howls confus'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 40,
-          "text": "Do break the clouds, as did the wives of Jewry",
-          "plainText": "Do break the clouds as did the wives of Jewry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 41,
-          "text": "At Herod's bloody-hunting slaughtermen.",
-          "plainText": "At Herod's bloodyhunting slaughtermen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 42,
-          "text": "What say you? Will you yield, and this avoid,",
-          "plainText": "What say you Will you yield and this avoid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-henry-the-fifth-3-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 43,
-          "text": "Or, guilty in defence, be thus destroy'd?",
-          "plainText": "Or guilty in defence be thus destroy'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71775/line-1",
+          "start": 0,
+          "end": 102,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1971204,
+        "end": 1971393,
+        "line": 73124,
+        "column": 1,
+        "path": "chap11/p@71775",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-henry-the-fifth-3-3-speech-002",
+      "id": "king-henry-the-fifth/sceneIII_11.3/p@71968",
       "type": "speech",
-      "speaker": {
-        "id": "governor",
-        "name": "GOVERNOR",
-        "displayName": "Governor"
-      },
+      "tag": "p",
+      "classes": [],
+      "text": "KING HENRY.\nHow yet resolves the governor of the town?\nThis is the latest parle we will admit;\nTherefore to our best mercy give yourselves,\nOr like to men proud of destruction\nDefy us to our worst; for, as I am a soldier,\nA name that in my thoughts becomes me best,\nIf I begin the battery once again,\nI will not leave the half-achieved Harfleur\nTill in her ashes she lie buried.\nThe gates of mercy shall be all shut up,\nAnd the flesh’d soldier, rough and hard of heart,\nIn liberty of bloody hand shall range\nWith conscience wide as hell, mowing like grass\nYour fresh fair virgins and your flow’ring infants.\nWhat is it then to me, if impious War,\nArray’d in flames like to the prince of fiends,\nDo with his smirch’d complexion all fell feats\nEnlink’d to waste and desolation?\nWhat is’t to me, when you yourselves are cause,\nIf your pure maidens fall into the hand\nOf hot and forcing violation?\nWhat rein can hold licentious wickedness\nWhen down the hill he holds his fierce career?\nWe may as bootless spend our vain command\nUpon the enraged soldiers in their spoil\nAs send precepts to the leviathan\nTo come ashore. Therefore, you men of Harfleur,\nTake pity of your town and of your people,\nWhiles yet my soldiers are in my command,\nWhiles yet the cool and temperate wind of grace\nO’erblows the filthy and contagious clouds\nOf heady murder, spoil, and villainy.\nIf not, why, in a moment look to see\nThe blind and bloody soldier with foul hand\nDefile the locks of your shrill-shrieking daughters;\nYour fathers taken by the silver beards,\nAnd their most reverend heads dash’d to the walls;\nYour naked infants spitted upon pikes,\nWhiles the mad mothers with their howls confus’d\nDo break the clouds, as did the wives of Jewry\nAt Herod’s bloody-hunting slaughtermen.\nWhat say you? Will you yield, and this avoid,\nOr, guilty in defence, be thus destroy’d?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-henry-the-fifth-3-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Our expectation hath this day an end.",
-          "plainText": "Our expectation hath this day an end",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "The Dauphin, whom of succours we entreated,",
-          "plainText": "The Dauphin whom of succours we entreated",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-2",
+          "start": 12,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 3,
-          "text": "Returns us that his powers are yet not ready",
-          "plainText": "Returns us that his powers are yet not ready",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-3",
+          "start": 55,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 4,
-          "text": "To raise so great a siege. Therefore, great King,",
-          "plainText": "To raise so great a siege Therefore great King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-4",
+          "start": 95,
+          "end": 139,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 5,
-          "text": "We yield our town and lives to thy soft mercy.",
-          "plainText": "We yield our town and lives to thy soft mercy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-5",
+          "start": 140,
+          "end": 175,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 6,
-          "text": "Enter our gates; dispose of us and ours;",
-          "plainText": "Enter our gates dispose of us and ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-6",
+          "start": 176,
+          "end": 221,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 7,
-          "text": "For we no longer are defensible.",
-          "plainText": "For we no longer are defensible",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-7",
+          "start": 222,
+          "end": 265,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-8",
+          "start": 266,
+          "end": 300,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-9",
+          "start": 301,
+          "end": 344,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-10",
+          "start": 345,
+          "end": 378,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-11",
+          "start": 379,
+          "end": 419,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-12",
+          "start": 420,
+          "end": 469,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-13",
+          "start": 470,
+          "end": 507,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-14",
+          "start": 508,
+          "end": 555,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-15",
+          "start": 556,
+          "end": 607,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-16",
+          "start": 608,
+          "end": 646,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-17",
+          "start": 647,
+          "end": 694,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-18",
+          "start": 695,
+          "end": 741,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-19",
+          "start": 742,
+          "end": 775,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-20",
+          "start": 776,
+          "end": 823,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-21",
+          "start": 824,
+          "end": 863,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-22",
+          "start": 864,
+          "end": 893,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-23",
+          "start": 894,
+          "end": 934,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-24",
+          "start": 935,
+          "end": 981,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-25",
+          "start": 982,
+          "end": 1023,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-26",
+          "start": 1024,
+          "end": 1064,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-27",
+          "start": 1065,
+          "end": 1098,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-28",
+          "start": 1099,
+          "end": 1146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-29",
+          "start": 1147,
+          "end": 1189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-30",
+          "start": 1190,
+          "end": 1231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-31",
+          "start": 1232,
+          "end": 1279,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-32",
+          "start": 1280,
+          "end": 1322,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-33",
+          "start": 1323,
+          "end": 1360,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-34",
+          "start": 1361,
+          "end": 1397,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-35",
+          "start": 1398,
+          "end": 1441,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-36",
+          "start": 1442,
+          "end": 1494,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-37",
+          "start": 1495,
+          "end": 1535,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-38",
+          "start": 1536,
+          "end": 1586,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-39",
+          "start": 1587,
+          "end": 1625,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-40",
+          "start": 1626,
+          "end": 1674,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-41",
+          "start": 1675,
+          "end": 1721,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-42",
+          "start": 1722,
+          "end": 1761,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-43",
+          "start": 1762,
+          "end": 1807,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@71968/line-44",
+          "start": 1808,
+          "end": 1849,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1971397,
+        "end": 1973470,
+        "line": 73127,
+        "column": 1,
+        "path": "chap11/p@71968",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "king-henry-the-fifth-3-3-speech-003",
+      "id": "king-henry-the-fifth/sceneIII_11.3/p@74045",
       "type": "speech",
-      "speaker": {
-        "id": "king-henry",
-        "name": "KING HENRY",
-        "displayName": "King Henry"
-      },
+      "tag": "p",
+      "classes": [],
+      "text": "GOVERNOR.\nOur expectation hath this day an end.\nThe Dauphin, whom of succours we entreated,\nReturns us that his powers are yet not ready\nTo raise so great a siege. Therefore, great King,\nWe yield our town and lives to thy soft mercy.\nEnter our gates; dispose of us and ours;\nFor we no longer are defensible.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-henry-the-fifth-3-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Open your gates. Come, uncle Exeter,",
-          "plainText": "Open your gates Come uncle Exeter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 2,
-          "text": "Go you and enter Harfleur; there remain,",
-          "plainText": "Go you and enter Harfleur there remain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-2",
+          "start": 10,
+          "end": 47,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 3,
-          "text": "And fortify it strongly 'gainst the French.",
-          "plainText": "And fortify it strongly 'gainst the French",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-3",
+          "start": 48,
+          "end": 91,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 4,
-          "text": "Use mercy to them all. For us, dear uncle,",
-          "plainText": "Use mercy to them all For us dear uncle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-4",
+          "start": 92,
+          "end": 136,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 5,
-          "text": "The winter coming on, and sickness growing",
-          "plainText": "The winter coming on and sickness growing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-5",
+          "start": 137,
+          "end": 186,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 6,
-          "text": "Upon our soldiers, we will retire to Calais.",
-          "plainText": "Upon our soldiers we will retire to Calais",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-6",
+          "start": 187,
+          "end": 233,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 7,
-          "text": "Tonight in Harfleur will we be your guest;",
-          "plainText": "Tonight in Harfleur will we be your guest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-7",
+          "start": 234,
+          "end": 274,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-henry-the-fifth-3-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 8,
-          "text": "Tomorrow for the march are we addrest.",
-          "plainText": "Tomorrow for the march are we addrest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74045/line-8",
+          "start": 275,
+          "end": 307,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1973474,
+        "end": 1973825,
+        "line": 73173,
+        "column": 1,
+        "path": "chap11/p@74045",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": "GOVERNOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "king-henry-the-fifth-3-3-stage-002",
+      "id": "king-henry-the-fifth/sceneIII_11.3/p@74400",
+      "type": "speech",
+      "tag": "p",
+      "classes": [],
+      "text": "KING HENRY.\nOpen your gates. Come, uncle Exeter,\nGo you and enter Harfleur; there remain,\nAnd fortify it strongly ’gainst the French.\nUse mercy to them all. For us, dear uncle,\nThe winter coming on, and sickness growing\nUpon our soldiers, we will retire to Calais.\nTonight in Harfleur will we be your guest;\nTomorrow for the march are we addrest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-2",
+          "start": 12,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-3",
+          "start": 49,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-4",
+          "start": 90,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-5",
+          "start": 134,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-6",
+          "start": 177,
+          "end": 219,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-7",
+          "start": 220,
+          "end": 264,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-8",
+          "start": 265,
+          "end": 307,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74400/line-9",
+          "start": 308,
+          "end": 346,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1973829,
+        "end": 1974224,
+        "line": 73183,
+        "column": 1,
+        "path": "chap11/p@74400",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": "KING HENRY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "king-henry-the-fifth/sceneIII_11.3/p@74799",
       "type": "stage",
-      "text": "Flourish. The King and his train enter the town."
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Flourish. The King and his train enter the town.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 14,
+          "end": 18,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-henry-the-fifth/sceneIII_11.3/p@74799/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1974228,
+        "end": 1974333,
+        "line": 73194,
+        "column": 1,
+        "path": "chap11/p@74799",
+        "anchor": "sceneIII_11.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     }
-  ]
+  ],
+  "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4"
 }

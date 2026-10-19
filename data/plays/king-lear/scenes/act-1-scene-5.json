@@ -1,706 +1,1407 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-1-5",
+    "kind": "scene",
+    "heading": "SCENE V. Court before the Duke of Albany’s Palace",
     "act": 1,
     "scene": 5,
-    "label": "Act 1, Scene 5",
-    "title": "SCENE V. Court before the Duke of Albany's Palace",
-    "location": "Court before the Duke of Albany's Palace",
-    "orderInPlay": 5
+    "parentSectionId": "king-lear-act-4200",
+    "orderInPlay": 10,
+    "sourceRef": {
+      "start": 3230103,
+      "end": 3230193,
+      "line": 117728,
+      "column": 1,
+      "path": "chap18/h3@56648",
+      "anchor": "sceneI_18.5"
+    }
   },
   "content": [
     {
-      "id": "king-lear-1-5-stage-001",
+      "id": "king-lear/sceneI_18.5/h3@56648",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Court before the Duke of Albany’s Palace",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/h3@56648/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230103,
+        "end": 3230193,
+        "line": 117728,
+        "column": 1,
+        "path": "chap18/h3@56648",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@56742",
       "type": "stage",
-      "text": "Enter Lear, Kent and Fool."
-    },
-    {
-      "id": "king-lear-1-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lear, Kent and Fool.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "king-lear-1-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Go you before to Gloucester with these letters: acquaint my daughter no further with anything you know than comes from her demand out of the letter. If your diligence be not speedy, I shall be there afore you.",
-          "plainText": "Go you before to Gloucester with these letters acquaint my daughter no further with anything you know than comes from her demand out of the letter If your diligence be not speedy I shall be there afore you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "kent",
-        "name": "KENT",
-        "displayName": "Kent"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "I will not sleep, my lord, till I have delivered your letter.",
-          "plainText": "I will not sleep my lord till I have delivered your letter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-stage-002",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "king-lear-1-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "If a man's brains were in's heels, were't not in danger of kibes?",
-          "plainText": "If a man's brains were in's heels were't not in danger of kibes",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Ay, boy.",
-          "plainText": "Ay boy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Then I prithee be merry; thy wit shall not go slipshod.",
-          "plainText": "Then I prithee be merry thy wit shall not go slipshod",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Ha, ha, ha!",
-          "plainText": "Ha ha ha",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Shalt see thy other daughter will use thee kindly, for though she's as like this as a crab's like an apple, yet I can tell what I can tell.",
-          "plainText": "Shalt see thy other daughter will use thee kindly for though she's as like this as a crab's like an apple yet I can tell what I can tell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "What canst tell, boy?",
-          "plainText": "What canst tell boy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "She'll taste as like this as a crab does to a crab. Thou canst tell why one's nose stands i'the middle on's face?",
-          "plainText": "She'll taste as like this as a crab does to a crab Thou canst tell why one's nose stands i'the middle on's face",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "No.",
-          "plainText": "No",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Why, to keep one's eyes of either side's nose, that what a man cannot smell out, he may spy into.",
-          "plainText": "Why to keep one's eyes of either side's nose that what a man cannot smell out he may spy into",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "I did her wrong.",
-          "plainText": "I did her wrong",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Canst tell how an oyster makes his shell?",
-          "plainText": "Canst tell how an oyster makes his shell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "No.",
-          "plainText": "No",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Nor I neither; but I can tell why a snail has a house.",
-          "plainText": "Nor I neither but I can tell why a snail has a house",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Why?",
-          "plainText": "Why",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Why, to put's head in; not to give it away to his daughters, and leave his horns without a case.",
-          "plainText": "Why to put's head in not to give it away to his daughters and leave his horns without a case",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "I will forget my nature. So kind a father! Be my horses ready?",
-          "plainText": "I will forget my nature So kind a father Be my horses ready",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Thy asses are gone about 'em. The reason why the seven stars are no more than seven is a pretty reason.",
-          "plainText": "Thy asses are gone about 'em The reason why the seven stars are no more than seven is a pretty reason",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Because they are not eight?",
-          "plainText": "Because they are not eight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Yes indeed: thou wouldst make a good fool.",
-          "plainText": "Yes indeed thou wouldst make a good fool",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "To tak't again perforce!—Monster ingratitude!",
-          "plainText": "To tak't again perforceMonster ingratitude",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "If thou wert my fool, nuncle, I'd have thee beaten for being old before thy time.",
-          "plainText": "If thou wert my fool nuncle I'd have thee beaten for being old before thy time",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "How's that?",
-          "plainText": "How's that",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Thou shouldst not have been old till thou hadst been wise.",
-          "plainText": "Thou shouldst not have been old till thou hadst been wise",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "O, let me not be mad, not mad, sweet heaven!",
-          "plainText": "O let me not be mad not mad sweet heaven",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 16,
+          "className": "charname"
         },
         {
-          "id": "king-lear-1-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 2,
-          "text": "Keep me in temper; I would not be mad!",
-          "plainText": "Keep me in temper I would not be mad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 21,
+          "end": 25,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-stage-003",
-      "type": "stage",
-      "text": "Enter Gentleman."
-    },
-    {
-      "id": "king-lear-1-5-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "gentleman",
-        "name": "GENTLEMAN",
-        "displayName": "Gentleman"
-      },
+      ],
       "lines": [
         {
-          "id": "king-lear-1-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "Ready, my lord.",
-          "plainText": "Ready my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneI_18.5/p@56742/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3230197,
+        "end": 3230308,
+        "line": 117730,
+        "column": 1,
+        "path": "chap18/p@56742",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-1-5-speech-028",
+      "id": "king-lear/sceneI_18.5/p@56857",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nGo you before to Gloucester with these letters: acquaint my daughter no further with anything you know than comes from her demand out of the letter. If your diligence be not speedy, I shall be there afore you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-1-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Come, boy.",
-          "plainText": "Come boy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-1-5-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
-      "lines": [
-        {
-          "id": "king-lear-1-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "She that's a maid now, and laughs at my departure,",
-          "plainText": "She that's a maid now and laughs at my departure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneI_18.5/p@56857/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-1-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "Shall not be a maid long, unless things be cut shorter.",
-          "plainText": "Shall not be a maid long unless things be cut shorter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneI_18.5/p@56857/line-2",
+          "start": 6,
+          "end": 215,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3230312,
+        "end": 3230558,
+        "line": 117732,
+        "column": 1,
+        "path": "chap18/p@56857",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-1-5-stage-004",
+      "id": "king-lear/sceneI_18.5/p@57107",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KENT.\nI will not sleep, my lord, till I have delivered your letter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57107/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57107/line-2",
+          "start": 6,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230562,
+        "end": 3230659,
+        "line": 117739,
+        "column": 1,
+        "path": "chap18/p@57107",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "KENT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57208",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57208/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230663,
+        "end": 3230698,
+        "line": 117744,
+        "column": 1,
+        "path": "chap18/p@57208",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57247",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nIf a man’s brains were in’s heels, were’t not in danger of kibes?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57247/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57247/line-2",
+          "start": 6,
+          "end": 71,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230702,
+        "end": 3230804,
+        "line": 117746,
+        "column": 1,
+        "path": "chap18/p@57247",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57353",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nAy, boy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57353/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57353/line-2",
+          "start": 6,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230808,
+        "end": 3230852,
+        "line": 117752,
+        "column": 1,
+        "path": "chap18/p@57353",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57401",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nThen I prithee be merry; thy wit shall not go slipshod.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57401/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57401/line-2",
+          "start": 6,
+          "end": 61,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230856,
+        "end": 3230947,
+        "line": 117757,
+        "column": 1,
+        "path": "chap18/p@57401",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57496",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nHa, ha, ha!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57496/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57496/line-2",
+          "start": 6,
+          "end": 17,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3230951,
+        "end": 3230998,
+        "line": 117762,
+        "column": 1,
+        "path": "chap18/p@57496",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57547",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nShalt see thy other daughter will use thee kindly, for though she’s as like this as a crab’s like an apple, yet I can tell what I can tell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57547/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57547/line-2",
+          "start": 6,
+          "end": 145,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231002,
+        "end": 3231177,
+        "line": 117767,
+        "column": 1,
+        "path": "chap18/p@57547",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57726",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nWhat canst tell, boy?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57726/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57726/line-2",
+          "start": 6,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231181,
+        "end": 3231238,
+        "line": 117773,
+        "column": 1,
+        "path": "chap18/p@57726",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57787",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nShe’ll taste as like this as a crab does to a crab. Thou canst tell why one’s nose stands i’the middle on’s face?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57787/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57787/line-2",
+          "start": 6,
+          "end": 119,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231242,
+        "end": 3231390,
+        "line": 117778,
+        "column": 1,
+        "path": "chap18/p@57787",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57939",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nNo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57939/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57939/line-2",
+          "start": 6,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231394,
+        "end": 3231433,
+        "line": 117783,
+        "column": 1,
+        "path": "chap18/p@57939",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@57982",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nWhy, to keep one’s eyes of either side’s nose, that what a man cannot smell out, he may spy into.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@57982/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@57982/line-2",
+          "start": 6,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231437,
+        "end": 3231569,
+        "line": 117788,
+        "column": 1,
+        "path": "chap18/p@57982",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58118",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nI did her wrong.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58118/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58118/line-2",
+          "start": 6,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231573,
+        "end": 3231625,
+        "line": 117793,
+        "column": 1,
+        "path": "chap18/p@58118",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58174",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nCanst tell how an oyster makes his shell?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58174/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58174/line-2",
+          "start": 6,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231629,
+        "end": 3231706,
+        "line": 117798,
+        "column": 1,
+        "path": "chap18/p@58174",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58255",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nNo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58255/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58255/line-2",
+          "start": 6,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231710,
+        "end": 3231749,
+        "line": 117803,
+        "column": 1,
+        "path": "chap18/p@58255",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58298",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nNor I neither; but I can tell why a snail has a house.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58298/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58298/line-2",
+          "start": 6,
+          "end": 60,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231753,
+        "end": 3231843,
+        "line": 117808,
+        "column": 1,
+        "path": "chap18/p@58298",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58392",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nWhy?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58392/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58392/line-2",
+          "start": 6,
+          "end": 10,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231847,
+        "end": 3231887,
+        "line": 117813,
+        "column": 1,
+        "path": "chap18/p@58392",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58436",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nWhy, to put’s head in; not to give it away to his daughters, and leave his horns without a case.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58436/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58436/line-2",
+          "start": 6,
+          "end": 102,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3231891,
+        "end": 3232022,
+        "line": 117818,
+        "column": 1,
+        "path": "chap18/p@58436",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58571",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nI will forget my nature. So kind a father! Be my horses ready?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58571/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58571/line-2",
+          "start": 6,
+          "end": 68,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232026,
+        "end": 3232124,
+        "line": 117823,
+        "column": 1,
+        "path": "chap18/p@58571",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58673",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nThy asses are gone about ’em. The reason why the seven stars are no more than seven is a pretty reason.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58673/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58673/line-2",
+          "start": 6,
+          "end": 109,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232128,
+        "end": 3232266,
+        "line": 117828,
+        "column": 1,
+        "path": "chap18/p@58673",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58815",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nBecause they are not eight?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58815/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58815/line-2",
+          "start": 6,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232270,
+        "end": 3232333,
+        "line": 117833,
+        "column": 1,
+        "path": "chap18/p@58815",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58882",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nYes indeed: thou wouldst make a good fool.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58882/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58882/line-2",
+          "start": 6,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232337,
+        "end": 3232415,
+        "line": 117838,
+        "column": 1,
+        "path": "chap18/p@58882",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@58964",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nTo tak’t again perforce!—Monster ingratitude!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@58964/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@58964/line-2",
+          "start": 6,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232419,
+        "end": 3232500,
+        "line": 117843,
+        "column": 1,
+        "path": "chap18/p@58964",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59049",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nIf thou wert my fool, nuncle, I’d have thee beaten for being old before thy time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59049/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59049/line-2",
+          "start": 6,
+          "end": 87,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232504,
+        "end": 3232620,
+        "line": 117848,
+        "column": 1,
+        "path": "chap18/p@59049",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59169",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nHow’s that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59169/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59169/line-2",
+          "start": 6,
+          "end": 17,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232624,
+        "end": 3232671,
+        "line": 117853,
+        "column": 1,
+        "path": "chap18/p@59169",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59220",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nThou shouldst not have been old till thou hadst been wise.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59220/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59220/line-2",
+          "start": 6,
+          "end": 64,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232675,
+        "end": 3232769,
+        "line": 117858,
+        "column": 1,
+        "path": "chap18/p@59220",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59318",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nO, let me not be mad, not mad, sweet heaven!\nKeep me in temper; I would not be mad!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59318/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59318/line-2",
+          "start": 6,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59318/line-3",
+          "start": 51,
+          "end": 89,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232773,
+        "end": 3232897,
+        "line": 117863,
+        "column": 1,
+        "path": "chap18/p@59318",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59446",
       "type": "stage",
-      "text": "[Exeunt.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Gentleman.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 15,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59446/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232901,
+        "end": 3232972,
+        "line": 117869,
+        "column": 1,
+        "path": "chap18/p@59446",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59521",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "How now? are the horses ready?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59521/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3232976,
+        "end": 3233029,
+        "line": 117871,
+        "column": 1,
+        "path": "chap18/p@59521",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59578",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GENTLEMAN.\nReady, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59578/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59578/line-2",
+          "start": 11,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3233033,
+        "end": 3233089,
+        "line": 117874,
+        "column": 1,
+        "path": "chap18/p@59578",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "GENTLEMAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59638",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nCome, boy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59638/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59638/line-2",
+          "start": 6,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3233093,
+        "end": 3233139,
+        "line": 117879,
+        "column": 1,
+        "path": "chap18/p@59638",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59688",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nShe that’s a maid now, and laughs at my departure,\nShall not be a maid long, unless things be cut shorter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59688/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59688/line-2",
+          "start": 6,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneI_18.5/p@59688/line-3",
+          "start": 57,
+          "end": 112,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3233143,
+        "end": 3233290,
+        "line": 117884,
+        "column": 1,
+        "path": "chap18/p@59688",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneI_18.5/p@59839",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneI_18.5/p@59839/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3233294,
+        "end": 3233331,
+        "line": 117890,
+        "column": 1,
+        "path": "chap18/p@59839",
+        "anchor": "sceneI_18.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

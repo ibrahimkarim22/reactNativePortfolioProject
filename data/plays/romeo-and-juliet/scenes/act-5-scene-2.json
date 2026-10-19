@@ -1,464 +1,671 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-5-2",
+    "kind": "scene",
+    "heading": "SCENE II. Friar Lawrence’s Cell.",
     "act": 5,
     "scene": 2,
-    "label": "Act 5, Scene 2",
-    "title": "SCENE II. Friar Lawrence's Cell.",
-    "location": "Friar Lawrence's Cell.",
-    "orderInPlay": 23
+    "parentSectionId": "romeo-and-juliet-act-166637",
+    "orderInPlay": 33,
+    "sourceRef": {
+      "start": 5470791,
+      "end": 5470864,
+      "line": 203301,
+      "column": 1,
+      "path": "chap30/h3@171791",
+      "anchor": "sceneV_30.2"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-5-2-stage-001",
+      "id": "romeo-and-juliet/sceneV_30.2/h3@171791",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Friar Lawrence’s Cell.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 32
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/h3@171791/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5470791,
+        "end": 5470864,
+        "line": 203301,
+        "column": 1,
+        "path": "chap30/h3@171791",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneV_30.2/p@171868",
       "type": "stage",
-      "text": "Enter Friar John."
-    },
-    {
-      "id": "romeo-and-juliet-5-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-john",
-        "name": "FRIAR JOHN",
-        "displayName": "Friar John"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Friar John.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 16,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Holy Franciscan Friar! Brother, ho!",
-          "plainText": "Holy Franciscan Friar Brother ho",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneV_30.2/p@171868/line-1",
+          "start": 0,
+          "end": 17,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5470868,
+        "end": 5470940,
+        "line": 203303,
+        "column": 1,
+        "path": "chap30/p@171868",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-stage-002",
+      "id": "romeo-and-juliet/sceneV_30.2/p@171944",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR JOHN.\nHoly Franciscan Friar! Brother, ho!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@171944/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@171944/line-2",
+          "start": 12,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5470944,
+        "end": 5471021,
+        "line": 203305,
+        "column": 1,
+        "path": "chap30/p@171944",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR JOHN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneV_30.2/p@172025",
       "type": "stage",
-      "text": "Enter Friar Lawrence."
-    },
-    {
-      "id": "romeo-and-juliet-5-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Friar Lawrence.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "This same should be the voice of Friar John.",
-          "plainText": "This same should be the voice of Friar John",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 2,
-          "text": "Welcome from Mantua. What says Romeo?",
-          "plainText": "Welcome from Mantua What says Romeo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 3,
-          "text": "Or, if his mind be writ, give me his letter.",
-          "plainText": "Or if his mind be writ give me his letter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172025/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5471025,
+        "end": 5471101,
+        "line": 203310,
+        "column": 1,
+        "path": "chap30/p@172025",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-speech-003",
+      "id": "romeo-and-juliet/sceneV_30.2/p@172105",
       "type": "speech",
-      "speaker": {
-        "id": "friar-john",
-        "name": "FRIAR JOHN",
-        "displayName": "Friar John"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nThis same should be the voice of Friar John.\nWelcome from Mantua. What says Romeo?\nOr, if his mind be writ, give me his letter.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Going to find a barefoot brother out,",
-          "plainText": "Going to find a barefoot brother out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172105/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "One of our order, to associate me,",
-          "plainText": "One of our order to associate me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172105/line-2",
+          "start": 16,
+          "end": 60,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 3,
-          "text": "Here in this city visiting the sick,",
-          "plainText": "Here in this city visiting the sick",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172105/line-3",
+          "start": 61,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 4,
-          "text": "And finding him, the searchers of the town,",
-          "plainText": "And finding him the searchers of the town",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 5,
-          "text": "Suspecting that we both were in a house",
-          "plainText": "Suspecting that we both were in a house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 6,
-          "text": "Where the infectious pestilence did reign,",
-          "plainText": "Where the infectious pestilence did reign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 7,
-          "text": "Seal'd up the doors, and would not let us forth,",
-          "plainText": "Seal'd up the doors and would not let us forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 8,
-          "text": "So that my speed to Mantua there was stay'd.",
-          "plainText": "So that my speed to Mantua there was stay'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172105/line-4",
+          "start": 99,
+          "end": 143,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5471105,
+        "end": 5471288,
+        "line": 203312,
+        "column": 1,
+        "path": "chap30/p@172105",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-speech-004",
+      "id": "romeo-and-juliet/sceneV_30.2/p@172292",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR JOHN.\nGoing to find a barefoot brother out,\nOne of our order, to associate me,\nHere in this city visiting the sick,\nAnd finding him, the searchers of the town,\nSuspecting that we both were in a house\nWhere the infectious pestilence did reign,\nSeal’d up the doors, and would not let us forth,\nSo that my speed to Mantua there was stay’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Who bare my letter then to Romeo?",
-          "plainText": "Who bare my letter then to Romeo",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-2",
+          "start": 12,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-3",
+          "start": 50,
+          "end": 84,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-4",
+          "start": 85,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-5",
+          "start": 122,
+          "end": 165,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-6",
+          "start": 166,
+          "end": 205,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-7",
+          "start": 206,
+          "end": 248,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-8",
+          "start": 249,
+          "end": 297,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172292/line-9",
+          "start": 298,
+          "end": 342,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5471292,
+        "end": 5471699,
+        "line": 203319,
+        "column": 1,
+        "path": "chap30/p@172292",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR JOHN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-speech-005",
+      "id": "romeo-and-juliet/sceneV_30.2/p@172703",
       "type": "speech",
-      "speaker": {
-        "id": "friar-john",
-        "name": "FRIAR JOHN",
-        "displayName": "Friar John"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nWho bare my letter then to Romeo?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "I could not send it,—here it is again,—",
-          "plainText": "I could not send ithere it is again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172703/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "Nor get a messenger to bring it thee,",
-          "plainText": "Nor get a messenger to bring it thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "So fearful were they of infection.",
-          "plainText": "So fearful were they of infection",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172703/line-2",
+          "start": 16,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5471703,
+        "end": 5471782,
+        "line": 203331,
+        "column": 1,
+        "path": "chap30/p@172703",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-speech-006",
+      "id": "romeo-and-juliet/sceneV_30.2/p@172786",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR JOHN.\nI could not send it,—here it is again,—\nNor get a messenger to bring it thee,\nSo fearful were they of infection.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Unhappy fortune! By my brotherhood,",
-          "plainText": "Unhappy fortune By my brotherhood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172786/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "The letter was not nice, but full of charge,",
-          "plainText": "The letter was not nice but full of charge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172786/line-2",
+          "start": 12,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 3,
-          "text": "Of dear import, and the neglecting it",
-          "plainText": "Of dear import and the neglecting it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172786/line-3",
+          "start": 52,
+          "end": 89,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 4,
-          "text": "May do much danger. Friar John, go hence,",
-          "plainText": "May do much danger Friar John go hence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 5,
-          "text": "Get me an iron crow and bring it straight",
-          "plainText": "Get me an iron crow and bring it straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 6,
-          "text": "Unto my cell.",
-          "plainText": "Unto my cell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172786/line-4",
+          "start": 90,
+          "end": 124,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5471786,
+        "end": 5471950,
+        "line": 203336,
+        "column": 1,
+        "path": "chap30/p@172786",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR JOHN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-speech-007",
+      "id": "romeo-and-juliet/sceneV_30.2/p@172954",
       "type": "speech",
-      "speaker": {
-        "id": "friar-john",
-        "name": "FRIAR JOHN",
-        "displayName": "Friar John"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nUnhappy fortune! By my brotherhood,\nThe letter was not nice, but full of charge,\nOf dear import, and the neglecting it\nMay do much danger. Friar John, go hence,\nGet me an iron crow and bring it straight\nUnto my cell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Brother, I'll go and bring it thee.",
-          "plainText": "Brother I'll go and bring it thee",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-2",
+          "start": 16,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-3",
+          "start": 52,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-4",
+          "start": 97,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-5",
+          "start": 135,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-6",
+          "start": 177,
+          "end": 218,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@172954/line-7",
+          "start": 219,
+          "end": 232,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-5-2-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "romeo-and-juliet-5-2-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
+      ],
+      "sourceRef": {
+        "start": 5471954,
+        "end": 5472241,
+        "line": 203343,
+        "column": 1,
+        "path": "chap30/p@172954",
+        "anchor": "sceneV_30.2"
       },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneV_30.2/p@173245",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR JOHN.\nBrother, I’ll go and bring it thee.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-5-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Now must I to the monument alone.",
-          "plainText": "Now must I to the monument alone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@173245/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-5-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "Within this three hours will fair Juliet wake.",
-          "plainText": "Within this three hours will fair Juliet wake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 3,
-          "text": "She will beshrew me much that Romeo",
-          "plainText": "She will beshrew me much that Romeo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 4,
-          "text": "Hath had no notice of these accidents;",
-          "plainText": "Hath had no notice of these accidents",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 5,
-          "text": "But I will write again to Mantua,",
-          "plainText": "But I will write again to Mantua",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 6,
-          "text": "And keep her at my cell till Romeo come.",
-          "plainText": "And keep her at my cell till Romeo come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-5-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 7,
-          "text": "Poor living corse, clos'd in a dead man's tomb.",
-          "plainText": "Poor living corse clos'd in a dead man's tomb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneV_30.2/p@173245/line-2",
+          "start": 12,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5472245,
+        "end": 5472322,
+        "line": 203353,
+        "column": 1,
+        "path": "chap30/p@173245",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR JOHN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "romeo-and-juliet-5-2-stage-004",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "romeo-and-juliet/sceneV_30.2/p@173326",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173326/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5472326,
+        "end": 5472361,
+        "line": 203358,
+        "column": 1,
+        "path": "chap30/p@173326",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneV_30.2/p@173365",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nNow must I to the monument alone.\nWithin this three hours will fair Juliet wake.\nShe will beshrew me much that Romeo\nHath had no notice of these accidents;\nBut I will write again to Mantua,\nAnd keep her at my cell till Romeo come.\nPoor living corse, clos’d in a dead man’s tomb.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-2",
+          "start": 16,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-3",
+          "start": 50,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-4",
+          "start": 97,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-5",
+          "start": 133,
+          "end": 171,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-6",
+          "start": 172,
+          "end": 205,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-7",
+          "start": 206,
+          "end": 246,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173365/line-8",
+          "start": 247,
+          "end": 294,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5472365,
+        "end": 5472719,
+        "line": 203360,
+        "column": 1,
+        "path": "chap30/p@173365",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneV_30.2/p@173723",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneV_30.2/p@173723/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5472723,
+        "end": 5472758,
+        "line": 203371,
+        "column": 1,
+        "path": "chap30/p@173723",
+        "anchor": "sceneV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

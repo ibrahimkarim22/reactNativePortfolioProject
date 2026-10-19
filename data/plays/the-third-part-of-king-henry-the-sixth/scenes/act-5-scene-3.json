@@ -1,344 +1,434 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-third-part-of-king-henry-the-sixth",
-    "title": "The Third Part of King Henry the Sixth",
+    "title": "THE THIRD PART OF KING HENRY THE SIXTH",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap14"
   },
-  "scene": {
+  "section": {
     "id": "the-third-part-of-king-henry-the-sixth-5-3",
+    "kind": "scene",
+    "heading": "SCENE III. Another Part of the Field",
     "act": 5,
     "scene": 3,
-    "label": "Act 5, Scene 3",
-    "title": "SCENE III. Another Part of the Field",
-    "location": "Another Part of the Field",
-    "orderInPlay": 24
+    "parentSectionId": "the-third-part-of-king-henry-the-sixth-act-162847",
+    "orderInPlay": 33,
+    "sourceRef": {
+      "start": 2639208,
+      "end": 2639285,
+      "line": 96122,
+      "column": 1,
+      "path": "chap14/h3@174817",
+      "anchor": "sceneV_14.3"
+    }
   },
   "content": [
     {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-stage-001",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/h3@174817",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Another Part of the Field",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/h3@174817/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2639208,
+        "end": 2639285,
+        "line": 96122,
+        "column": 1,
+        "path": "chap14/h3@174817",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@174898",
       "type": "stage",
-      "text": "Flourish. Enter King Edward in triumph, with Richard, George and the rest."
-    },
-    {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "king-edward",
-        "name": "KING EDWARD",
-        "displayName": "King Edward"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Flourish. Enter King Edward in triumph, with Richard, George and the rest.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 27,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 45,
+          "end": 60,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Thus far our fortune keeps an upward course,",
-          "plainText": "Thus far our fortune keeps an upward course",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "And we are graced with wreaths of victory.",
-          "plainText": "And we are graced with wreaths of victory",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "But in the midst of this bright-shining day,",
-          "plainText": "But in the midst of this brightshining day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "I spy a black, suspicious, threat'ning cloud",
-          "plainText": "I spy a black suspicious threat'ning cloud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "That will encounter with our glorious sun",
-          "plainText": "That will encounter with our glorious sun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Ere he attain his easeful western bed.",
-          "plainText": "Ere he attain his easeful western bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "I mean, my lords, those powers that the Queen",
-          "plainText": "I mean my lords those powers that the Queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Hath raised in Gallia have arrived our coast",
-          "plainText": "Hath raised in Gallia have arrived our coast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "And, as we hear, march on to fight with us.",
-          "plainText": "And as we hear march on to fight with us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@174898/line-1",
+          "start": 0,
+          "end": 74,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2639289,
+        "end": 2639450,
+        "line": 96124,
+        "column": 1,
+        "path": "chap14/p@174898",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-speech-002",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063",
       "type": "speech",
-      "speaker": {
-        "id": "george",
-        "name": "GEORGE",
-        "displayName": "George"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING EDWARD.\nThus far our fortune keeps an upward course,\nAnd we are graced with wreaths of victory.\nBut in the midst of this bright-shining day,\nI spy a black, suspicious, threat’ning cloud\nThat will encounter with our glorious sun\nEre he attain his easeful western bed.\nI mean, my lords, those powers that the Queen\nHath raised in Gallia have arrived our coast\nAnd, as we hear, march on to fight with us.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "A little gale will soon disperse that cloud",
-          "plainText": "A little gale will soon disperse that cloud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "And blow it to the source from whence it came;",
-          "plainText": "And blow it to the source from whence it came",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-2",
+          "start": 13,
+          "end": 57,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "Thy very beams will dry those vapours up,",
-          "plainText": "Thy very beams will dry those vapours up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-3",
+          "start": 58,
+          "end": 100,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "For every cloud engenders not a storm.",
-          "plainText": "For every cloud engenders not a storm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-4",
+          "start": 101,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-5",
+          "start": 146,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-6",
+          "start": 191,
+          "end": 232,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-7",
+          "start": 233,
+          "end": 271,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-8",
+          "start": 272,
+          "end": 317,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-9",
+          "start": 318,
+          "end": 362,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175063/line-10",
+          "start": 363,
+          "end": 406,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2639454,
+        "end": 2639930,
+        "line": 96128,
+        "column": 1,
+        "path": "chap14/p@175063",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": "KING EDWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-speech-003",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543",
       "type": "speech",
-      "speaker": {
-        "id": "richard",
-        "name": "RICHARD",
-        "displayName": "Richard"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GEORGE.\nA little gale will soon disperse that cloud\nAnd blow it to the source from whence it came;\nThy very beams will dry those vapours up,\nFor every cloud engenders not a storm.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "The Queen is valued thirty thousand strong,",
-          "plainText": "The Queen is valued thirty thousand strong",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "And Somerset, with Oxford, fled to her.",
-          "plainText": "And Somerset with Oxford fled to her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "If she have time to breathe, be well assured",
-          "plainText": "If she have time to breathe be well assured",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543/line-3",
+          "start": 52,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "Her faction will be full as strong as ours.",
-          "plainText": "Her faction will be full as strong as ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543/line-4",
+          "start": 99,
+          "end": 140,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175543/line-5",
+          "start": 141,
+          "end": 179,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2639934,
+        "end": 2640158,
+        "line": 96141,
+        "column": 1,
+        "path": "chap14/p@175543",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": "GEORGE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-speech-004",
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771",
       "type": "speech",
-      "speaker": {
-        "id": "king-edward",
-        "name": "KING EDWARD",
-        "displayName": "King Edward"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "RICHARD.\nThe Queen is valued thirty thousand strong,\nAnd Somerset, with Oxford, fled to her.\nIf she have time to breathe, be well assured\nHer faction will be full as strong as ours.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "We are advertised by our loving friends",
-          "plainText": "We are advertised by our loving friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "That they do hold their course toward Tewkesbury.",
-          "plainText": "That they do hold their course toward Tewkesbury",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "We, having now the best at Barnet field,",
-          "plainText": "We having now the best at Barnet field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771/line-3",
+          "start": 53,
+          "end": 92,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 4,
-          "text": "Will thither straight, for willingness rids way;",
-          "plainText": "Will thither straight for willingness rids way",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771/line-4",
+          "start": 93,
+          "end": 137,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 5,
-          "text": "And, as we march, our strength will be augmented",
-          "plainText": "And as we march our strength will be augmented",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 6,
-          "text": "In every county as we go along.",
-          "plainText": "In every county as we go along",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-third-part-of-king-henry-the-sixth-5-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 7,
-          "text": "Strike up the drum! cry \"Courage!\" and away.",
-          "plainText": "Strike up the drum cry Courage and away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@175771/line-5",
+          "start": 138,
+          "end": 181,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 2640162,
+        "end": 2640388,
+        "line": 96149,
+        "column": 1,
+        "path": "chap14/p@175771",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": "RICHARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-third-part-of-king-henry-the-sixth-5-3-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KING EDWARD.\nWe are advertised by our loving friends\nThat they do hold their course toward Tewkesbury.\nWe, having now the best at Barnet field,\nWill thither straight, for willingness rids way;\nAnd, as we march, our strength will be augmented\nIn every county as we go along.\nStrike up the drum! cry “Courage!” and away.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-2",
+          "start": 13,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-3",
+          "start": 53,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-4",
+          "start": 103,
+          "end": 143,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-5",
+          "start": 144,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-6",
+          "start": 193,
+          "end": 241,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-7",
+          "start": 242,
+          "end": 273,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176001/line-8",
+          "start": 274,
+          "end": 318,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2640392,
+        "end": 2640770,
+        "line": 96157,
+        "column": 1,
+        "path": "chap14/p@176001",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": "KING EDWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176383",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-third-part-of-king-henry-the-sixth/sceneV_14.3/p@176383/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 2640774,
+        "end": 2640811,
+        "line": 96168,
+        "column": 1,
+        "path": "chap14/p@176383",
+        "anchor": "sceneV_14.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "f453521fb4f7bd9c83029c14d942703250be8a596294aa800f2251317b79e918"
 }

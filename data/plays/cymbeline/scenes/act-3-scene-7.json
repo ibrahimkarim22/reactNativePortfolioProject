@@ -1,1284 +1,1681 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "cymbeline",
-    "title": "Cymbeline",
+    "title": "CYMBELINE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap07"
   },
-  "scene": {
+  "section": {
     "id": "cymbeline-3-7",
+    "kind": "scene",
+    "heading": "SCENE VII. The same.",
     "act": 3,
     "scene": 7,
-    "label": "Act 3, Scene 7",
-    "title": "SCENE VII. The same.",
-    "location": "The same.",
-    "orderInPlay": 19
+    "parentSectionId": "cymbeline-act-81754",
+    "orderInPlay": 26,
+    "sourceRef": {
+      "start": 1170455,
+      "end": 1170517,
+      "line": 44314,
+      "column": 1,
+      "path": "chap07/h3@121616",
+      "anchor": "sceneIII_7.7"
+    }
   },
   "content": [
     {
-      "id": "cymbeline-3-7-stage-001",
+      "id": "cymbeline/sceneIII_7.7/h3@121616",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VII. The same.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/h3@121616/line-1",
+          "start": 0,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1170455,
+        "end": 1170517,
+        "line": 44314,
+        "column": 1,
+        "path": "chap07/h3@121616",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@121682",
       "type": "stage",
-      "text": "Enter Belarius, Guiderius and Arviragus."
-    },
-    {
-      "id": "cymbeline-3-7-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Belarius, Guiderius and Arviragus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 25,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 30,
+          "end": 39,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "You, Polydore, have prov'd best woodman and",
-          "plainText": "You Polydore have prov'd best woodman and",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Are master of the feast. Cadwal and I",
-          "plainText": "Are master of the feast Cadwal and I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Will play the cook and servant; 'tis our match.",
-          "plainText": "Will play the cook and servant 'tis our match",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "The sweat of industry would dry and die",
-          "plainText": "The sweat of industry would dry and die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "But for the end it works to. Come, our stomachs",
-          "plainText": "But for the end it works to Come our stomachs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Will make what's homely savoury; weariness",
-          "plainText": "Will make what's homely savoury weariness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Can snore upon the flint, when resty sloth",
-          "plainText": "Can snore upon the flint when resty sloth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Finds the down pillow hard. Now, peace be here,",
-          "plainText": "Finds the down pillow hard Now peace be here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Poor house, that keep'st thyself!",
-          "plainText": "Poor house that keep'st thyself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@121682/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1170521,
+        "end": 1170648,
+        "line": 44316,
+        "column": 1,
+        "path": "chap07/p@121682",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-002",
+      "id": "cymbeline/sceneIII_7.7/p@121813",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nYou, Polydore, have prov’d best woodman and\nAre master of the feast. Cadwal and I\nWill play the cook and servant; ’tis our match.\nThe sweat of industry would dry and die\nBut for the end it works to. Come, our stomachs\nWill make what’s homely savoury; weariness\nCan snore upon the flint, when resty sloth\nFinds the down pillow hard. Now, peace be here,\nPoor house, that keep’st thyself!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "I am thoroughly weary.",
-          "plainText": "I am thoroughly weary",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "cymbeline-3-7-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
-      "lines": [
-        {
-          "id": "cymbeline-3-7-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I am weak with toil, yet strong in appetite.",
-          "plainText": "I am weak with toil yet strong in appetite",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "cymbeline-3-7-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
-      "lines": [
-        {
-          "id": "cymbeline-3-7-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "There is cold meat i' th' cave; we'll browse on that",
-          "plainText": "There is cold meat i' th' cave we'll browse on that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Whilst what we have kill'd be cook'd.",
-          "plainText": "Whilst what we have kill'd be cook'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-2",
+          "start": 10,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-3",
+          "start": 54,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-4",
+          "start": 92,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-5",
+          "start": 140,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-6",
+          "start": 180,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-7",
+          "start": 228,
+          "end": 270,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-8",
+          "start": 271,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-9",
+          "start": 314,
+          "end": 361,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@121813/line-10",
+          "start": 362,
+          "end": 395,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1170652,
+        "end": 1171117,
+        "line": 44319,
+        "column": 1,
+        "path": "chap07/p@121813",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-005",
+      "id": "cymbeline/sceneIII_7.7/p@122282",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nI am thoroughly weary.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "[Looking into the cave.] Stay, come not in.",
-          "plainText": "Looking into the cave Stay come not in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122282/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "But that it eats our victuals, I should think",
-          "plainText": "But that it eats our victuals I should think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "Here were a fairy.",
-          "plainText": "Here were a fairy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122282/line-2",
+          "start": 11,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1171121,
+        "end": 1171184,
+        "line": 44332,
+        "column": 1,
+        "path": "chap07/p@122282",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-006",
+      "id": "cymbeline/sceneIII_7.7/p@122349",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nI am weak with toil, yet strong in appetite.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "What's the matter, sir?",
-          "plainText": "What's the matter sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@122349/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122349/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1171188,
+        "end": 1171273,
+        "line": 44337,
+        "column": 1,
+        "path": "chap07/p@122349",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-007",
+      "id": "cymbeline/sceneIII_7.7/p@122438",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nThere is cold meat i’ th’ cave; we’ll browse on that\nWhilst what we have kill’d be cook’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "By Jupiter, an angel! or, if not,",
-          "plainText": "By Jupiter an angel or if not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122438/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "An earthly paragon! Behold divineness",
-          "plainText": "An earthly paragon Behold divineness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122438/line-2",
+          "start": 11,
+          "end": 63,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "No elder than a boy!",
-          "plainText": "No elder than a boy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122438/line-3",
+          "start": 64,
+          "end": 101,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1171277,
+        "end": 1171413,
+        "line": 44342,
+        "column": 1,
+        "path": "chap07/p@122438",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-stage-002",
+      "id": "cymbeline/sceneIII_7.7/p@122578",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\n[Looking into the cave.] Stay, come not in.\nBut that it eats our victuals, I should think\nHere were a fairy.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 33
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122578/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122578/line-2",
+          "start": 10,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122578/line-3",
+          "start": 54,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122578/line-4",
+          "start": 100,
+          "end": 118,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1171417,
+        "end": 1171582,
+        "line": 44348,
+        "column": 1,
+        "path": "chap07/p@122578",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@122747",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nWhat’s the matter, sir?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122747/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122747/line-2",
+          "start": 11,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1171586,
+        "end": 1171650,
+        "line": 44355,
+        "column": 1,
+        "path": "chap07/p@122747",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@122815",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nBy Jupiter, an angel! or, if not,\nAn earthly paragon! Behold divineness\nNo elder than a boy!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122815/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122815/line-2",
+          "start": 10,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122815/line-3",
+          "start": 44,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@122815/line-4",
+          "start": 82,
+          "end": 102,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1171654,
+        "end": 1171796,
+        "line": 44360,
+        "column": 1,
+        "path": "chap07/p@122815",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@122961",
       "type": "stage",
-      "text": "Enter Imogen."
-    },
-    {
-      "id": "cymbeline-3-7-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Imogen.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Good masters, harm me not.",
-          "plainText": "Good masters harm me not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0022",
-          "number": 22,
-          "speechLineNumber": 2,
-          "text": "Before I enter'd here I call'd, and thought",
-          "plainText": "Before I enter'd here I call'd and thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0023",
-          "number": 23,
-          "speechLineNumber": 3,
-          "text": "To have begg'd or bought what I have took. Good troth,",
-          "plainText": "To have begg'd or bought what I have took Good troth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0024",
-          "number": 24,
-          "speechLineNumber": 4,
-          "text": "I have stol'n nought; nor would not though I had found",
-          "plainText": "I have stol'n nought nor would not though I had found",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0025",
-          "number": 25,
-          "speechLineNumber": 5,
-          "text": "Gold strew'd i' th' floor. Here's money for my meat.",
-          "plainText": "Gold strew'd i' th' floor Here's money for my meat",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0026",
-          "number": 26,
-          "speechLineNumber": 6,
-          "text": "I would have left it on the board, so soon",
-          "plainText": "I would have left it on the board so soon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0027",
-          "number": 27,
-          "speechLineNumber": 7,
-          "text": "As I had made my meal, and parted",
-          "plainText": "As I had made my meal and parted",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0028",
-          "number": 28,
-          "speechLineNumber": 8,
-          "text": "With pray'rs for the provider.",
-          "plainText": "With pray'rs for the provider",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@122961/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1171800,
+        "end": 1171869,
+        "line": 44367,
+        "column": 1,
+        "path": "chap07/p@122961",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-009",
+      "id": "cymbeline/sceneIII_7.7/p@123034",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nGood masters, harm me not.\nBefore I enter’d here I call’d, and thought\nTo have begg’d or bought what I have took. Good troth,\nI have stol’n nought; nor would not though I had found\nGold strew’d i’ th’ floor. Here’s money for my meat.\nI would have left it on the board, so soon\nAs I had made my meal, and parted\nWith pray’rs for the provider.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Money, youth?",
-          "plainText": "Money youth",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-2",
+          "start": 8,
+          "end": 34,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-3",
+          "start": 35,
+          "end": 78,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-4",
+          "start": 79,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-5",
+          "start": 134,
+          "end": 188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-6",
+          "start": 189,
+          "end": 241,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-7",
+          "start": 242,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-8",
+          "start": 285,
+          "end": 318,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123034/line-9",
+          "start": 319,
+          "end": 349,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1171873,
+        "end": 1172288,
+        "line": 44369,
+        "column": 1,
+        "path": "chap07/p@123034",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-010",
+      "id": "cymbeline/sceneIII_7.7/p@123453",
       "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nMoney, youth?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "All gold and silver rather turn to dirt,",
-          "plainText": "All gold and silver rather turn to dirt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123453/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "As 'tis no better reckon'd but of those",
-          "plainText": "As 'tis no better reckon'd but of those",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "Who worship dirty gods.",
-          "plainText": "Who worship dirty gods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123453/line-2",
+          "start": 11,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172292,
+        "end": 1172346,
+        "line": 44382,
+        "column": 1,
+        "path": "chap07/p@123453",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-011",
+      "id": "cymbeline/sceneIII_7.7/p@123511",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nAll gold and silver rather turn to dirt,\nAs ’tis no better reckon’d but of those\nWho worship dirty gods.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "I see you're angry.",
-          "plainText": "I see you're angry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123511/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Know, if you kill me for my fault, I should",
-          "plainText": "Know if you kill me for my fault I should",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123511/line-2",
+          "start": 11,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Have died had I not made it.",
-          "plainText": "Have died had I not made it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123511/line-3",
+          "start": 52,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123511/line-4",
+          "start": 92,
+          "end": 115,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172350,
+        "end": 1172505,
+        "line": 44387,
+        "column": 1,
+        "path": "chap07/p@123511",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-012",
+      "id": "cymbeline/sceneIII_7.7/p@123670",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nI see you’re angry.\nKnow, if you kill me for my fault, I should\nHave died had I not made it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Whither bound?",
-          "plainText": "Whither bound",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@123670/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123670/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123670/line-3",
+          "start": 28,
+          "end": 71,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123670/line-4",
+          "start": 72,
+          "end": 100,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172509,
+        "end": 1172649,
+        "line": 44394,
+        "column": 1,
+        "path": "chap07/p@123670",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-013",
+      "id": "cymbeline/sceneIII_7.7/p@123814",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nWhither bound?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "To Milford Haven.",
-          "plainText": "To Milford Haven",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@123814/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123814/line-2",
+          "start": 10,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172653,
+        "end": 1172707,
+        "line": 44401,
+        "column": 1,
+        "path": "chap07/p@123814",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-014",
+      "id": "cymbeline/sceneIII_7.7/p@123872",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nTo Milford Haven.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "What's your name?",
-          "plainText": "What's your name",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@123872/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@123872/line-2",
+          "start": 8,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172711,
+        "end": 1172766,
+        "line": 44406,
+        "column": 1,
+        "path": "chap07/p@123872",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-015",
+      "id": "cymbeline/sceneIII_7.7/p@123931",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nWhat’s your name?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "Fidele, sir. I have a kinsman who",
-          "plainText": "Fidele sir I have a kinsman who",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123931/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "Is bound for Italy; he embark'd at Milford;",
-          "plainText": "Is bound for Italy he embark'd at Milford",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "To whom being going, almost spent with hunger,",
-          "plainText": "To whom being going almost spent with hunger",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0042",
-          "number": 42,
-          "speechLineNumber": 4,
-          "text": "I am fall'n in this offence.",
-          "plainText": "I am fall'n in this offence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123931/line-2",
+          "start": 10,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172770,
+        "end": 1172827,
+        "line": 44411,
+        "column": 1,
+        "path": "chap07/p@123931",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-016",
+      "id": "cymbeline/sceneIII_7.7/p@123992",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nFidele, sir. I have a kinsman who\nIs bound for Italy; he embark’d at Milford;\nTo whom being going, almost spent with hunger,\nI am fall’n in this offence.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Prithee, fair youth,",
-          "plainText": "Prithee fair youth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123992/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "Think us no churls, nor measure our good minds",
-          "plainText": "Think us no churls nor measure our good minds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123992/line-2",
+          "start": 8,
+          "end": 41,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0045",
-          "number": 45,
-          "speechLineNumber": 3,
-          "text": "By this rude place we live in. Well encounter'd!",
-          "plainText": "By this rude place we live in Well encounter'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123992/line-3",
+          "start": 42,
+          "end": 85,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0046",
-          "number": 46,
-          "speechLineNumber": 4,
-          "text": "'Tis almost night; you shall have better cheer",
-          "plainText": "'Tis almost night you shall have better cheer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123992/line-4",
+          "start": 86,
+          "end": 132,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0047",
-          "number": 47,
-          "speechLineNumber": 5,
-          "text": "Ere you depart, and thanks to stay and eat it.",
-          "plainText": "Ere you depart and thanks to stay and eat it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0048",
-          "number": 48,
-          "speechLineNumber": 6,
-          "text": "Boys, bid him welcome.",
-          "plainText": "Boys bid him welcome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@123992/line-5",
+          "start": 133,
+          "end": 161,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1172831,
+        "end": 1173037,
+        "line": 44416,
+        "column": 1,
+        "path": "chap07/p@123992",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-017",
+      "id": "cymbeline/sceneIII_7.7/p@124202",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nPrithee, fair youth,\nThink us no churls, nor measure our good minds\nBy this rude place we live in. Well encounter’d!\n’Tis almost night; you shall have better cheer\nEre you depart, and thanks to stay and eat it.\nBoys, bid him welcome.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Were you a woman, youth,",
-          "plainText": "Were you a woman youth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "I should woo hard but be your groom. In honesty",
-          "plainText": "I should woo hard but be your groom In honesty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0051",
-          "number": 51,
-          "speechLineNumber": 3,
-          "text": "I bid for you as I'd buy.",
-          "plainText": "I bid for you as I'd buy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-3",
+          "start": 31,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-4",
+          "start": 78,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-5",
+          "start": 127,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-6",
+          "start": 174,
+          "end": 220,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124202/line-7",
+          "start": 221,
+          "end": 243,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1173041,
+        "end": 1173339,
+        "line": 44424,
+        "column": 1,
+        "path": "chap07/p@124202",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-018",
+      "id": "cymbeline/sceneIII_7.7/p@124504",
       "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nWere you a woman, youth,\nI should woo hard but be your groom. In honesty\nI bid for you as I’d buy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "I'll make't my comfort",
-          "plainText": "I'll make't my comfort",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124504/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "He is a man. I'll love him as my brother;",
-          "plainText": "He is a man I'll love him as my brother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124504/line-2",
+          "start": 11,
+          "end": 35,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "And such a welcome as I'd give to him",
-          "plainText": "And such a welcome as I'd give to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124504/line-3",
+          "start": 36,
+          "end": 83,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0055",
-          "number": 55,
-          "speechLineNumber": 4,
-          "text": "After long absence, such is yours. Most welcome!",
-          "plainText": "After long absence such is yours Most welcome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0056",
-          "number": 56,
-          "speechLineNumber": 5,
-          "text": "Be sprightly, for you fall 'mongst friends.",
-          "plainText": "Be sprightly for you fall 'mongst friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124504/line-4",
+          "start": 84,
+          "end": 109,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1173343,
+        "end": 1173492,
+        "line": 44434,
+        "column": 1,
+        "path": "chap07/p@124504",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-019",
+      "id": "cymbeline/sceneIII_7.7/p@124657",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nI’ll make’t my comfort\nHe is a man. I’ll love him as my brother;\nAnd such a welcome as I’d give to him\nAfter long absence, such is yours. Most welcome!\nBe sprightly, for you fall ’mongst friends.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "'Mongst friends,",
-          "plainText": "'Mongst friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0058",
-          "number": 58,
-          "speechLineNumber": 2,
-          "text": "If brothers. [Aside.] Would it had been so that they",
-          "plainText": "If brothers Aside Would it had been so that they",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-2",
+          "start": 11,
+          "end": 33,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0059",
-          "number": 59,
-          "speechLineNumber": 3,
-          "text": "Had been my father's sons! Then had my prize",
-          "plainText": "Had been my father's sons Then had my prize",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-3",
+          "start": 34,
+          "end": 75,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0060",
-          "number": 60,
-          "speechLineNumber": 4,
-          "text": "Been less, and so more equal ballasting",
-          "plainText": "Been less and so more equal ballasting",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-4",
+          "start": 76,
+          "end": 113,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0061",
-          "number": 61,
-          "speechLineNumber": 5,
-          "text": "To thee, Posthumus.",
-          "plainText": "To thee Posthumus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-5",
+          "start": 114,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124657/line-6",
+          "start": 163,
+          "end": 206,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1173496,
+        "end": 1173752,
+        "line": 44441,
+        "column": 1,
+        "path": "chap07/p@124657",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-020",
+      "id": "cymbeline/sceneIII_7.7/p@124917",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\n’Mongst friends,\nIf brothers. [Aside.] Would it had been so that they\nHad been my father’s sons! Then had my prize\nBeen less, and so more equal ballasting\nTo thee, Posthumus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 39,
+          "end": 45
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "He wrings at some distress.",
-          "plainText": "He wrings at some distress",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-3",
+          "start": 25,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-4",
+          "start": 78,
+          "end": 122,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-5",
+          "start": 123,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@124917/line-6",
+          "start": 163,
+          "end": 182,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1173756,
+        "end": 1173995,
+        "line": 44450,
+        "column": 1,
+        "path": "chap07/p@124917",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-021",
+      "id": "cymbeline/sceneIII_7.7/p@125160",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nHe wrings at some distress.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "Would I could free't!",
-          "plainText": "Would I could free't",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@125160/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125160/line-2",
+          "start": 10,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1173999,
+        "end": 1174066,
+        "line": 44459,
+        "column": 1,
+        "path": "chap07/p@125160",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-022",
+      "id": "cymbeline/sceneIII_7.7/p@125231",
       "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nWould I could free’t!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "Or I, whate'er it be,",
-          "plainText": "Or I whate'er it be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125231/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0065",
-          "number": 65,
-          "speechLineNumber": 2,
-          "text": "What pain it cost, what danger! Gods!",
-          "plainText": "What pain it cost what danger Gods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125231/line-2",
+          "start": 11,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174070,
+        "end": 1174132,
+        "line": 44464,
+        "column": 1,
+        "path": "chap07/p@125231",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-023",
+      "id": "cymbeline/sceneIII_7.7/p@125297",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nOr I, whate’er it be,\nWhat pain it cost, what danger! Gods!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "[Whispering.] Hark, boys.",
-          "plainText": "Whispering Hark boys",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@125297/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125297/line-2",
+          "start": 11,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125297/line-3",
+          "start": 33,
+          "end": 70,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174136,
+        "end": 1174241,
+        "line": 44469,
+        "column": 1,
+        "path": "chap07/p@125297",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-024",
+      "id": "cymbeline/sceneIII_7.7/p@125406",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\n[Whispering.] Hark, boys.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 22
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "[Aside.] Great men,",
-          "plainText": "Aside Great men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125406/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "That had a court no bigger than this cave,",
-          "plainText": "That had a court no bigger than this cave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0069",
-          "number": 69,
-          "speechLineNumber": 3,
-          "text": "That did attend themselves, and had the virtue",
-          "plainText": "That did attend themselves and had the virtue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0070",
-          "number": 70,
-          "speechLineNumber": 4,
-          "text": "Which their own conscience seal'd them, laying by",
-          "plainText": "Which their own conscience seal'd them laying by",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0071",
-          "number": 71,
-          "speechLineNumber": 5,
-          "text": "That nothing-gift of differing multitudes,",
-          "plainText": "That nothinggift of differing multitudes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0072",
-          "number": 72,
-          "speechLineNumber": 6,
-          "text": "Could not out-peer these twain. Pardon me, gods!",
-          "plainText": "Could not outpeer these twain Pardon me gods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0073",
-          "number": 73,
-          "speechLineNumber": 7,
-          "text": "I'd change my sex to be companion with them,",
-          "plainText": "I'd change my sex to be companion with them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-7-line-0074",
-          "number": 74,
-          "speechLineNumber": 8,
-          "text": "Since Leonatus false.",
-          "plainText": "Since Leonatus false",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125406/line-2",
+          "start": 10,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174245,
+        "end": 1174317,
+        "line": 44475,
+        "column": 1,
+        "path": "chap07/p@125406",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-025",
+      "id": "cymbeline/sceneIII_7.7/p@125482",
       "type": "speech",
-      "speaker": {
-        "id": "belarius",
-        "name": "BELARIUS",
-        "displayName": "Belarius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\n[Aside.] Great men,\nThat had a court no bigger than this cave,\nThat did attend themselves, and had the virtue\nWhich their own conscience seal’d them, laying by\nThat nothing-gift of differing multitudes,\nCould not out-peer these twain. Pardon me, gods!\nI’d change my sex to be companion with them,\nSince Leonatus false.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 9,
+          "end": 15
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "It shall be so.",
-          "plainText": "It shall be so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0076",
-          "number": 76,
-          "speechLineNumber": 2,
-          "text": "Boys, we'll go dress our hunt. Fair youth, come in.",
-          "plainText": "Boys we'll go dress our hunt Fair youth come in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0077",
-          "number": 77,
-          "speechLineNumber": 3,
-          "text": "Discourse is heavy, fasting; when we have supp'd,",
-          "plainText": "Discourse is heavy fasting when we have supp'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-3",
+          "start": 28,
+          "end": 70,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0078",
-          "number": 78,
-          "speechLineNumber": 4,
-          "text": "We'll mannerly demand thee of thy story,",
-          "plainText": "We'll mannerly demand thee of thy story",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-4",
+          "start": 71,
+          "end": 117,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0079",
-          "number": 79,
-          "speechLineNumber": 5,
-          "text": "So far as thou wilt speak it.",
-          "plainText": "So far as thou wilt speak it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-5",
+          "start": 118,
+          "end": 167,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-6",
+          "start": 168,
+          "end": 210,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-7",
+          "start": 211,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-8",
+          "start": 260,
+          "end": 304,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125482/line-9",
+          "start": 305,
+          "end": 326,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174321,
+        "end": 1174719,
+        "line": 44480,
+        "column": 1,
+        "path": "chap07/p@125482",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-026",
+      "id": "cymbeline/sceneIII_7.7/p@125884",
       "type": "speech",
-      "speaker": {
-        "id": "guiderius",
-        "name": "GUIDERIUS",
-        "displayName": "Guiderius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BELARIUS.\nIt shall be so.\nBoys, we’ll go dress our hunt. Fair youth, come in.\nDiscourse is heavy, fasting; when we have supp’d,\nWe’ll mannerly demand thee of thy story,\nSo far as thou wilt speak it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0080",
-          "number": 80,
-          "speechLineNumber": 1,
-          "text": "Pray draw near.",
-          "plainText": "Pray draw near",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "cymbeline-3-7-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
-      "lines": [
-        {
-          "id": "cymbeline-3-7-line-0081",
-          "number": 81,
-          "speechLineNumber": 1,
-          "text": "The night to th' owl and morn to th' lark less",
-          "plainText": "The night to th' owl and morn to th' lark less",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-3-7-line-0082",
-          "number": 82,
-          "speechLineNumber": 2,
-          "text": "welcome.",
-          "plainText": "welcome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-2",
+          "start": 10,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-3",
+          "start": 26,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-4",
+          "start": 78,
+          "end": 127,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-5",
+          "start": 128,
+          "end": 168,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@125884/line-6",
+          "start": 169,
+          "end": 198,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174723,
+        "end": 1174971,
+        "line": 44492,
+        "column": 1,
+        "path": "chap07/p@125884",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "BELARIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-028",
+      "id": "cymbeline/sceneIII_7.7/p@126136",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GUIDERIUS.\nPray draw near.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0083",
-          "number": 83,
-          "speechLineNumber": 1,
-          "text": "Thanks, sir.",
-          "plainText": "Thanks sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@126136/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126136/line-2",
+          "start": 11,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1174975,
+        "end": 1175031,
+        "line": 44501,
+        "column": 1,
+        "path": "chap07/p@126136",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "GUIDERIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-speech-029",
+      "id": "cymbeline/sceneIII_7.7/p@126196",
       "type": "speech",
-      "speaker": {
-        "id": "arviragus",
-        "name": "ARVIRAGUS",
-        "displayName": "Arviragus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nThe night to th’ owl and morn to th’ lark less\nwelcome.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-3-7-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "I pray draw near.",
-          "plainText": "I pray draw near",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneIII_7.7/p@126196/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126196/line-2",
+          "start": 11,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126196/line-3",
+          "start": 58,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1175035,
+        "end": 1175136,
+        "line": 44506,
+        "column": 1,
+        "path": "chap07/p@126196",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "cymbeline-3-7-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "cymbeline/sceneIII_7.7/p@126301",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nThanks, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126301/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126301/line-2",
+          "start": 8,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1175140,
+        "end": 1175190,
+        "line": 44512,
+        "column": 1,
+        "path": "chap07/p@126301",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@126355",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARVIRAGUS.\nI pray draw near.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126355/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126355/line-2",
+          "start": 11,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1175194,
+        "end": 1175252,
+        "line": 44517,
+        "column": 1,
+        "path": "chap07/p@126355",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": "ARVIRAGUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.7/p@126417",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.7/p@126417/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1175256,
+        "end": 1175294,
+        "line": 44522,
+        "column": 1,
+        "path": "chap07/p@126417",
+        "anchor": "sceneIII_7.7"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75"
 }

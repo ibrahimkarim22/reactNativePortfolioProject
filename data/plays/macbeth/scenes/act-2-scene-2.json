@@ -1,1288 +1,1753 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-2-2",
+    "kind": "scene",
+    "heading": "SCENE II. The same.",
     "act": 2,
     "scene": 2,
-    "label": "Act 2, Scene 2",
-    "title": "SCENE II. The same.",
-    "location": "The same.",
-    "orderInPlay": 9
+    "parentSectionId": "macbeth-act-35624",
+    "orderInPlay": 15,
+    "sourceRef": {
+      "start": 3604192,
+      "end": 3604254,
+      "line": 132683,
+      "column": 1,
+      "path": "chap20/h3@40000",
+      "anchor": "sceneII_20.2"
+    }
   },
   "content": [
     {
-      "id": "macbeth-2-2-stage-001",
+      "id": "macbeth/sceneII_20.2/h3@40000",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. The same.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/h3@40000/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3604192,
+        "end": 3604254,
+        "line": 132683,
+        "column": 1,
+        "path": "chap20/h3@40000",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@40066",
       "type": "stage",
-      "text": "Enter Lady Macbeth."
-    },
-    {
-      "id": "macbeth-2-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lady Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "That which hath made them drunk hath made me bold:",
-          "plainText": "That which hath made them drunk hath made me bold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "What hath quench'd them hath given me fire.—Hark!—Peace!",
-          "plainText": "What hath quench'd them hath given me fireHarkPeace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "It was the owl that shriek'd, the fatal bellman,",
-          "plainText": "It was the owl that shriek'd the fatal bellman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Which gives the stern'st good night. He is about it.",
-          "plainText": "Which gives the stern'st good night He is about it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "The doors are open; and the surfeited grooms",
-          "plainText": "The doors are open and the surfeited grooms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Do mock their charge with snores: I have drugg'd their possets,",
-          "plainText": "Do mock their charge with snores I have drugg'd their possets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "That death and nature do contend about them,",
-          "plainText": "That death and nature do contend about them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Whether they live or die.",
-          "plainText": "Whether they live or die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@40066/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3604258,
+        "end": 3604332,
+        "line": 132686,
+        "column": 1,
+        "path": "chap20/p@40066",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-2-2-speech-002",
+      "id": "macbeth/sceneII_20.2/p@40144",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nThat which hath made them drunk hath made me bold:\nWhat hath quench’d them hath given me fire.—Hark!—Peace!\nIt was the owl that shriek’d, the fatal bellman,\nWhich gives the stern’st good night. He is about it.\nThe doors are open; and the surfeited grooms\nDo mock their charge with snores: I have drugg’d their possets,\nThat death and nature do contend about them,\nWhether they live or die.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "[Within.] Who's there?—what, ho!",
-          "plainText": "Within Who's therewhat ho",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@40144/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-2",
+          "start": 14,
+          "end": 64,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-3",
+          "start": 65,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-4",
+          "start": 122,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-5",
+          "start": 171,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-6",
+          "start": 224,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-7",
+          "start": 269,
+          "end": 332,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-8",
+          "start": 333,
+          "end": 377,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40144/line-9",
+          "start": 378,
+          "end": 403,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3604336,
+        "end": 3604804,
+        "line": 132688,
+        "column": 1,
+        "path": "chap20/p@40144",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-speech-003",
+      "id": "macbeth/sceneII_20.2/p@40616",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\n[Within.] Who’s there?—what, ho!",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 10,
+          "end": 17
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Alack! I am afraid they have awak'd,",
-          "plainText": "Alack I am afraid they have awak'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@40616/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "And 'tis not done. Th' attempt and not the deed",
-          "plainText": "And 'tis not done Th' attempt and not the deed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "Confounds us.—Hark!—I laid their daggers ready;",
-          "plainText": "Confounds usHarkI laid their daggers ready",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "He could not miss 'em.—Had he not resembled",
-          "plainText": "He could not miss 'emHad he not resembled",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 5,
-          "text": "My father as he slept, I had done't.—My husband!",
-          "plainText": "My father as he slept I had done'tMy husband",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@40616/line-2",
+          "start": 9,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3604808,
+        "end": 3604886,
+        "line": 132700,
+        "column": 1,
+        "path": "chap20/p@40616",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-stage-002",
+      "id": "macbeth/sceneII_20.2/p@40698",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nAlack! I am afraid they have awak’d,\nAnd ’tis not done. Th’ attempt and not the deed\nConfounds us.—Hark!—I laid their daggers ready;\nHe could not miss ’em.—Had he not resembled\nMy father as he slept, I had done’t.—My husband!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-2",
+          "start": 14,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-3",
+          "start": 51,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-4",
+          "start": 99,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-5",
+          "start": 147,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@40698/line-6",
+          "start": 191,
+          "end": 239,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3604890,
+        "end": 3605179,
+        "line": 132705,
+        "column": 1,
+        "path": "chap20/p@40698",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@40991",
       "type": "stage",
-      "text": "Enter Macbeth."
-    },
-    {
-      "id": "macbeth-2-2-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "macbeth-2-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "I have done the deed.—Didst thou not hear a noise?",
-          "plainText": "I have done the deedDidst thou not hear a noise",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "I heard the owl scream and the crickets cry.",
-          "plainText": "I heard the owl scream and the crickets cry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@40991/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3605183,
+        "end": 3605252,
+        "line": 132714,
+        "column": 1,
+        "path": "chap20/p@40991",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@41064",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI have done the deed.—Didst thou not hear a noise?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@41064/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 2,
-          "text": "Did not you speak?",
-          "plainText": "Did not you speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@41064/line-2",
+          "start": 9,
+          "end": 59,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605256,
+        "end": 3605345,
+        "line": 132716,
+        "column": 1,
+        "path": "chap20/p@41064",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-speech-006",
+      "id": "macbeth/sceneII_20.2/p@41157",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nI heard the owl scream and the crickets cry.\nDid not you speak?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "When?",
-          "plainText": "When",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41157/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41157/line-2",
+          "start": 14,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41157/line-3",
+          "start": 59,
+          "end": 77,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605349,
+        "end": 3605461,
+        "line": 132721,
+        "column": 1,
+        "path": "chap20/p@41157",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-speech-007",
+      "id": "macbeth/sceneII_20.2/p@41273",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nWhen?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Now.",
-          "plainText": "Now",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41273/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41273/line-2",
+          "start": 9,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605465,
+        "end": 3605509,
+        "line": 132727,
+        "column": 1,
+        "path": "chap20/p@41273",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-speech-008",
+      "id": "macbeth/sceneII_20.2/p@41321",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nNow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "As I descended?",
-          "plainText": "As I descended",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41321/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41321/line-2",
+          "start": 14,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605513,
+        "end": 3605561,
+        "line": 132732,
+        "column": 1,
+        "path": "chap20/p@41321",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-speech-009",
+      "id": "macbeth/sceneII_20.2/p@41373",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nAs I descended?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Ay.",
-          "plainText": "Ay",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41373/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41373/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605565,
+        "end": 3605619,
+        "line": 132737,
+        "column": 1,
+        "path": "chap20/p@41373",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-speech-010",
+      "id": "macbeth/sceneII_20.2/p@41431",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nAy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Hark!—Who lies i' th' second chamber?",
-          "plainText": "HarkWho lies i' th' second chamber",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41431/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41431/line-2",
+          "start": 14,
+          "end": 17,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605623,
+        "end": 3605670,
+        "line": 132742,
+        "column": 1,
+        "path": "chap20/p@41431",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-speech-011",
+      "id": "macbeth/sceneII_20.2/p@41482",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nHark!—Who lies i’ th’ second chamber?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Donalbain.",
-          "plainText": "Donalbain",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41482/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41482/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605674,
+        "end": 3605750,
+        "line": 132747,
+        "column": 1,
+        "path": "chap20/p@41482",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-speech-012",
+      "id": "macbeth/sceneII_20.2/p@41562",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nDonalbain.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "This is a sorry sight.",
-          "plainText": "This is a sorry sight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@41562/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41562/line-2",
+          "start": 14,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3605754,
+        "end": 3605808,
+        "line": 132752,
+        "column": 1,
+        "path": "chap20/p@41562",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-stage-003",
+      "id": "macbeth/sceneII_20.2/p@41620",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nThis is a sorry sight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@41620/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41620/line-2",
+          "start": 9,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3605812,
+        "end": 3605873,
+        "line": 132757,
+        "column": 1,
+        "path": "chap20/p@41620",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@41685",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Looking on his hands.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 22
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@41685/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3605877,
+        "end": 3605928,
+        "line": 132762,
+        "column": 1,
+        "path": "chap20/p@41685",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@41740",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nA foolish thought, to say a sorry sight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@41740/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41740/line-2",
+          "start": 14,
+          "end": 54,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3605932,
+        "end": 3606016,
+        "line": 132764,
+        "column": 1,
+        "path": "chap20/p@41740",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@41828",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nThere’s one did laugh in’s sleep, and one cried, “Murder!”\nThat they did wake each other: I stood and heard them.\nBut they did say their prayers, and address’d them\nAgain to sleep.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@41828/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41828/line-2",
+          "start": 9,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41828/line-3",
+          "start": 68,
+          "end": 122,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41828/line-4",
+          "start": 123,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@41828/line-5",
+          "start": 174,
+          "end": 189,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606020,
+        "end": 3606255,
+        "line": 132769,
+        "column": 1,
+        "path": "chap20/p@41828",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42067",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nThere are two lodg’d together.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42067/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42067/line-2",
+          "start": 14,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606259,
+        "end": 3606333,
+        "line": 132778,
+        "column": 1,
+        "path": "chap20/p@42067",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42145",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nOne cried, “God bless us!” and, “Amen,” the other,\nAs they had seen me with these hangman’s hands.\nList’ning their fear, I could not say “Amen,”\nWhen they did say, “God bless us.”",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42145/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42145/line-2",
+          "start": 9,
+          "end": 59,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42145/line-3",
+          "start": 60,
+          "end": 107,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42145/line-4",
+          "start": 108,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42145/line-5",
+          "start": 154,
+          "end": 188,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606337,
+        "end": 3606570,
+        "line": 132783,
+        "column": 1,
+        "path": "chap20/p@42145",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42382",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nConsider it not so deeply.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42382/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42382/line-2",
+          "start": 14,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606574,
+        "end": 3606644,
+        "line": 132791,
+        "column": 1,
+        "path": "chap20/p@42382",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42456",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nBut wherefore could not I pronounce “Amen”?\nI had most need of blessing, and “Amen”\nStuck in my throat.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42456/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42456/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42456/line-3",
+          "start": 53,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42456/line-4",
+          "start": 93,
+          "end": 112,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606648,
+        "end": 3606800,
+        "line": 132796,
+        "column": 1,
+        "path": "chap20/p@42456",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42612",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nThese deeds must not be thought\nAfter these ways; so, it will make us mad.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42612/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42612/line-2",
+          "start": 14,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42612/line-3",
+          "start": 46,
+          "end": 88,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606804,
+        "end": 3606927,
+        "line": 132803,
+        "column": 1,
+        "path": "chap20/p@42612",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@42739",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nMethought I heard a voice cry, “Sleep no more!\nMacbeth does murder sleep,”—the innocent sleep;\nSleep that knits up the ravell’d sleave of care,\nThe death of each day’s life, sore labour’s bath,\nBalm of hurt minds, great nature’s second course,\nChief nourisher in life’s feast.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-3",
+          "start": 56,
+          "end": 103,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-4",
+          "start": 104,
+          "end": 152,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-5",
+          "start": 153,
+          "end": 202,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-6",
+          "start": 203,
+          "end": 252,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@42739/line-7",
+          "start": 253,
+          "end": 285,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3606931,
+        "end": 3607271,
+        "line": 132809,
+        "column": 1,
+        "path": "chap20/p@42739",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@43083",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nWhat do you mean?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@43083/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43083/line-2",
+          "start": 14,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3607275,
+        "end": 3607336,
+        "line": 132819,
+        "column": 1,
+        "path": "chap20/p@43083",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@43148",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nStill it cried, “Sleep no more!” to all the house:\n“Glamis hath murder’d sleep, and therefore Cawdor\nShall sleep no more. Macbeth shall sleep no more!”",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@43148/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43148/line-2",
+          "start": 9,
+          "end": 59,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43148/line-3",
+          "start": 60,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43148/line-4",
+          "start": 110,
+          "end": 160,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3607340,
+        "end": 3607540,
+        "line": 132824,
+        "column": 1,
+        "path": "chap20/p@43148",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@43352",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nWho was it that thus cried? Why, worthy thane,\nYou do unbend your noble strength to think\nSo brainsickly of things. Go get some water,\nAnd wash this filthy witness from your hand.—\nWhy did you bring these daggers from the place?\nThey must lie there: go carry them, and smear\nThe sleepy grooms with blood.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-2",
+          "start": 14,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-3",
+          "start": 61,
+          "end": 103,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-4",
+          "start": 104,
+          "end": 148,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-5",
+          "start": 149,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-6",
+          "start": 195,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-7",
+          "start": 243,
+          "end": 288,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43352/line-8",
+          "start": 289,
+          "end": 318,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3607544,
+        "end": 3607922,
+        "line": 132831,
+        "column": 1,
+        "path": "chap20/p@43352",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@43734",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI’ll go no more:\nI am afraid to think what I have done;\nLook on’t again I dare not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@43734/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43734/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43734/line-3",
+          "start": 26,
+          "end": 64,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43734/line-4",
+          "start": 65,
+          "end": 92,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3607926,
+        "end": 3608058,
+        "line": 132842,
+        "column": 1,
+        "path": "chap20/p@43734",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@43870",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nInfirm of purpose!\nGive me the daggers. The sleeping and the dead\nAre but as pictures. ’Tis the eye of childhood\nThat fears a painted devil. If he do bleed,\nI’ll gild the faces of the grooms withal,\nFor it must seem their guilt.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-2",
+          "start": 14,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-3",
+          "start": 33,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-4",
+          "start": 80,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-5",
+          "start": 127,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-6",
+          "start": 171,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@43870/line-7",
+          "start": 213,
+          "end": 242,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3608062,
+        "end": 3608359,
+        "line": 132849,
+        "column": 1,
+        "path": "chap20/p@43870",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@44171",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit. Knocking within.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@44171/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3608363,
+        "end": 3608415,
+        "line": 132859,
+        "column": 1,
+        "path": "chap20/p@44171",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@44227",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nWhence is that knocking?\nHow is’t with me, when every noise appals me?\nWhat hands are here? Ha, they pluck out mine eyes!\nWill all great Neptune’s ocean wash this blood\nClean from my hand? No, this my hand will rather\nThe multitudinous seas incarnadine,\nMaking the green one red.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-3",
+          "start": 34,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-4",
+          "start": 80,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-5",
+          "start": 131,
+          "end": 177,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-6",
+          "start": 178,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-7",
+          "start": 227,
+          "end": 262,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44227/line-8",
+          "start": 263,
+          "end": 288,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3608419,
+        "end": 3608767,
+        "line": 132861,
+        "column": 1,
+        "path": "chap20/p@44227",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneII_20.2/p@44579",
       "type": "stage",
-      "text": "[Looking on his hands.]"
-    },
-    {
-      "id": "macbeth-2-2-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lady Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "A foolish thought, to say a sorry sight.",
-          "plainText": "A foolish thought to say a sorry sight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@44579/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3608771,
+        "end": 3608845,
+        "line": 132872,
+        "column": 1,
+        "path": "chap20/p@44579",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-2-2-speech-014",
+      "id": "macbeth/sceneII_20.2/p@44657",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY MACBETH.\nMy hands are of your color, but I shame\nTo wear a heart so white. [Knocking within.] I hear knocking\nAt the south entry:—retire we to our chamber.\nA little water clears us of this deed:\nHow easy is it then! Your constancy\nHath left you unattended.—[Knocking within.] Hark, more knocking.\nGet on your nightgown, lest occasion call us\nAnd show us to be watchers. Be not lost\nSo poorly in your thoughts.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 81,
+          "end": 97
+        },
+        {
+          "tag": "i",
+          "start": 263,
+          "end": 279
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "There's one did laugh in's sleep, and one cried, \"Murder!\"",
-          "plainText": "There's one did laugh in's sleep and one cried Murder",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@44657/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 2,
-          "text": "That they did wake each other: I stood and heard them.",
-          "plainText": "That they did wake each other I stood and heard them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@44657/line-2",
+          "start": 14,
+          "end": 53,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 3,
-          "text": "But they did say their prayers, and address'd them",
-          "plainText": "But they did say their prayers and address'd them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@44657/line-3",
+          "start": 54,
+          "end": 114,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-2-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 4,
-          "text": "Again to sleep.",
-          "plainText": "Again to sleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@44657/line-4",
+          "start": 115,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-5",
+          "start": 161,
+          "end": 199,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-6",
+          "start": 200,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-7",
+          "start": 236,
+          "end": 301,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-8",
+          "start": 302,
+          "end": 346,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-9",
+          "start": 347,
+          "end": 386,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@44657/line-10",
+          "start": 387,
+          "end": 414,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3608849,
+        "end": 3609347,
+        "line": 132874,
+        "column": 1,
+        "path": "chap20/p@44657",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "LADY MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-2-2-speech-015",
+      "id": "macbeth/sceneII_20.2/p@45159",
       "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nTo know my deed, ’twere best not know myself. [Knocking within.]\nWake Duncan with thy knocking! I would thou couldst!",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 56,
+          "end": 72
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "There are two lodg'd together.",
-          "plainText": "There are two lodg'd together",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneII_20.2/p@45159/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@45159/line-2",
+          "start": 9,
+          "end": 73,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneII_20.2/p@45159/line-3",
+          "start": 74,
+          "end": 126,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3609351,
+        "end": 3609519,
+        "line": 132887,
+        "column": 1,
+        "path": "chap20/p@45159",
+        "anchor": "sceneII_20.2"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-2-2-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "id": "macbeth/sceneII_20.2/p@45331",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-2-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "One cried, \"God bless us!\" and, \"Amen,\" the other,",
-          "plainText": "One cried God bless us and Amen the other",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 2,
-          "text": "As they had seen me with these hangman's hands.",
-          "plainText": "As they had seen me with these hangman's hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 3,
-          "text": "List'ning their fear, I could not say \"Amen,\"",
-          "plainText": "List'ning their fear I could not say Amen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 4,
-          "text": "When they did say, \"God bless us.\"",
-          "plainText": "When they did say God bless us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneII_20.2/p@45331/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
+      ],
+      "sourceRef": {
+        "start": 3609523,
+        "end": 3609560,
+        "line": 132893,
+        "column": 1,
+        "path": "chap20/p@45331",
+        "anchor": "sceneII_20.2"
       },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Consider it not so deeply.",
-          "plainText": "Consider it not so deeply",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "But wherefore could not I pronounce \"Amen\"?",
-          "plainText": "But wherefore could not I pronounce Amen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "I had most need of blessing, and \"Amen\"",
-          "plainText": "I had most need of blessing and Amen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 3,
-          "text": "Stuck in my throat.",
-          "plainText": "Stuck in my throat",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "These deeds must not be thought",
-          "plainText": "These deeds must not be thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "After these ways; so, it will make us mad.",
-          "plainText": "After these ways so it will make us mad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "Methought I heard a voice cry, \"Sleep no more!",
-          "plainText": "Methought I heard a voice cry Sleep no more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "Macbeth does murder sleep,\"—the innocent sleep;",
-          "plainText": "Macbeth does murder sleepthe innocent sleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 3,
-          "text": "Sleep that knits up the ravell'd sleave of care,",
-          "plainText": "Sleep that knits up the ravell'd sleave of care",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 4,
-          "text": "The death of each day's life, sore labour's bath,",
-          "plainText": "The death of each day's life sore labour's bath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 5,
-          "text": "Balm of hurt minds, great nature's second course,",
-          "plainText": "Balm of hurt minds great nature's second course",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 6,
-          "text": "Chief nourisher in life's feast.",
-          "plainText": "Chief nourisher in life's feast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "What do you mean?",
-          "plainText": "What do you mean",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Still it cried, \"Sleep no more!\" to all the house:",
-          "plainText": "Still it cried Sleep no more to all the house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "\"Glamis hath murder'd sleep, and therefore Cawdor",
-          "plainText": "Glamis hath murder'd sleep and therefore Cawdor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 3,
-          "text": "Shall sleep no more. Macbeth shall sleep no more!\"",
-          "plainText": "Shall sleep no more Macbeth shall sleep no more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Who was it that thus cried? Why, worthy thane,",
-          "plainText": "Who was it that thus cried Why worthy thane",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 2,
-          "text": "You do unbend your noble strength to think",
-          "plainText": "You do unbend your noble strength to think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 3,
-          "text": "So brainsickly of things. Go get some water,",
-          "plainText": "So brainsickly of things Go get some water",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 4,
-          "text": "And wash this filthy witness from your hand.—",
-          "plainText": "And wash this filthy witness from your hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 5,
-          "text": "Why did you bring these daggers from the place?",
-          "plainText": "Why did you bring these daggers from the place",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 6,
-          "text": "They must lie there: go carry them, and smear",
-          "plainText": "They must lie there go carry them and smear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 7,
-          "text": "The sleepy grooms with blood.",
-          "plainText": "The sleepy grooms with blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "I'll go no more:",
-          "plainText": "I'll go no more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0059",
-          "number": 59,
-          "speechLineNumber": 2,
-          "text": "I am afraid to think what I have done;",
-          "plainText": "I am afraid to think what I have done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0060",
-          "number": 60,
-          "speechLineNumber": 3,
-          "text": "Look on't again I dare not.",
-          "plainText": "Look on't again I dare not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "Infirm of purpose!",
-          "plainText": "Infirm of purpose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0062",
-          "number": 62,
-          "speechLineNumber": 2,
-          "text": "Give me the daggers. The sleeping and the dead",
-          "plainText": "Give me the daggers The sleeping and the dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0063",
-          "number": 63,
-          "speechLineNumber": 3,
-          "text": "Are but as pictures. 'Tis the eye of childhood",
-          "plainText": "Are but as pictures 'Tis the eye of childhood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0064",
-          "number": 64,
-          "speechLineNumber": 4,
-          "text": "That fears a painted devil. If he do bleed,",
-          "plainText": "That fears a painted devil If he do bleed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0065",
-          "number": 65,
-          "speechLineNumber": 5,
-          "text": "I'll gild the faces of the grooms withal,",
-          "plainText": "I'll gild the faces of the grooms withal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0066",
-          "number": 66,
-          "speechLineNumber": 6,
-          "text": "For it must seem their guilt.",
-          "plainText": "For it must seem their guilt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-stage-004",
-      "type": "stage",
-      "text": "[Exit. Knocking within.]"
-    },
-    {
-      "id": "macbeth-2-2-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "Whence is that knocking?",
-          "plainText": "Whence is that knocking",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "How is't with me, when every noise appals me?",
-          "plainText": "How is't with me when every noise appals me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0069",
-          "number": 69,
-          "speechLineNumber": 3,
-          "text": "What hands are here? Ha, they pluck out mine eyes!",
-          "plainText": "What hands are here Ha they pluck out mine eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0070",
-          "number": 70,
-          "speechLineNumber": 4,
-          "text": "Will all great Neptune's ocean wash this blood",
-          "plainText": "Will all great Neptune's ocean wash this blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0071",
-          "number": 71,
-          "speechLineNumber": 5,
-          "text": "Clean from my hand? No, this my hand will rather",
-          "plainText": "Clean from my hand No this my hand will rather",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0072",
-          "number": 72,
-          "speechLineNumber": 6,
-          "text": "The multitudinous seas incarnadine,",
-          "plainText": "The multitudinous seas incarnadine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0073",
-          "number": 73,
-          "speechLineNumber": 7,
-          "text": "Making the green one red.",
-          "plainText": "Making the green one red",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-stage-005",
-      "type": "stage",
-      "text": "Enter Lady Macbeth."
-    },
-    {
-      "id": "macbeth-2-2-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-macbeth",
-        "name": "LADY MACBETH",
-        "displayName": "Lady Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "My hands are of your color, but I shame",
-          "plainText": "My hands are of your color but I shame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0075",
-          "number": 75,
-          "speechLineNumber": 2,
-          "text": "To wear a heart so white. [Knocking within.] I hear knocking",
-          "plainText": "To wear a heart so white Knocking within I hear knocking",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0076",
-          "number": 76,
-          "speechLineNumber": 3,
-          "text": "At the south entry:—retire we to our chamber.",
-          "plainText": "At the south entryretire we to our chamber",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0077",
-          "number": 77,
-          "speechLineNumber": 4,
-          "text": "A little water clears us of this deed:",
-          "plainText": "A little water clears us of this deed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0078",
-          "number": 78,
-          "speechLineNumber": 5,
-          "text": "How easy is it then! Your constancy",
-          "plainText": "How easy is it then Your constancy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0079",
-          "number": 79,
-          "speechLineNumber": 6,
-          "text": "Hath left you unattended.—[Knocking within.] Hark, more knocking.",
-          "plainText": "Hath left you unattendedKnocking within Hark more knocking",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0080",
-          "number": 80,
-          "speechLineNumber": 7,
-          "text": "Get on your nightgown, lest occasion call us",
-          "plainText": "Get on your nightgown lest occasion call us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0081",
-          "number": 81,
-          "speechLineNumber": 8,
-          "text": "And show us to be watchers. Be not lost",
-          "plainText": "And show us to be watchers Be not lost",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0082",
-          "number": 82,
-          "speechLineNumber": 9,
-          "text": "So poorly in your thoughts.",
-          "plainText": "So poorly in your thoughts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-2-2-line-0083",
-          "number": 83,
-          "speechLineNumber": 1,
-          "text": "To know my deed, 'twere best not know myself. [Knocking within.]",
-          "plainText": "To know my deed 'twere best not know myself Knocking within",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-2-2-line-0084",
-          "number": 84,
-          "speechLineNumber": 2,
-          "text": "Wake Duncan with thy knocking! I would thou couldst!",
-          "plainText": "Wake Duncan with thy knocking I would thou couldst",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-2-2-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

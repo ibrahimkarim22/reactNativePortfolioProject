@@ -1,1223 +1,1248 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "antony-and-cleopatra",
-    "title": "The Tragedy of Antony and Cleopatra",
+    "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
-  "scene": {
+  "section": {
     "id": "antony-and-cleopatra-1-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Rome. An Apartment in Caesar’s House.",
     "act": 1,
     "scene": 4,
-    "label": "Act 1, Scene 4",
-    "title": "SCENE IV. Rome. An Apartment in Caesar's House.",
-    "location": "Rome. An Apartment in Caesar's House.",
-    "orderInPlay": 4
+    "parentSectionId": "antony-and-cleopatra-act-6654",
+    "orderInPlay": 9,
+    "sourceRef": {
+      "start": 339322,
+      "end": 339410,
+      "line": 11588,
+      "column": 1,
+      "path": "chap03/h3@31583",
+      "anchor": "sceneI_3.4"
+    }
   },
   "content": [
     {
-      "id": "antony-and-cleopatra-1-4-stage-001",
+      "id": "antony-and-cleopatra/sceneI_3.4/h3@31583",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Rome. An Apartment in Caesar’s House.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/h3@31583/line-1",
+          "start": 0,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 339322,
+        "end": 339410,
+        "line": 11588,
+        "column": 1,
+        "path": "chap03/h3@31583",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneI_3.4/p@31675",
       "type": "stage",
-      "text": "Enter Octavius [Caesar], Lepidus and their train."
-    },
-    {
-      "id": "antony-and-cleopatra-1-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Octavius [Caesar], Lepidus and their train.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 32,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "You may see, Lepidus, and henceforth know,",
-          "plainText": "You may see Lepidus and henceforth know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "It is not Caesar's natural vice to hate",
-          "plainText": "It is not Caesar's natural vice to hate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Our great competitor. From Alexandria",
-          "plainText": "Our great competitor From Alexandria",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "This is the news: he fishes, drinks, and wastes",
-          "plainText": "This is the news he fishes drinks and wastes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "The lamps of night in revel: is not more manlike",
-          "plainText": "The lamps of night in revel is not more manlike",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Than Cleopatra, nor the queen of Ptolemy",
-          "plainText": "Than Cleopatra nor the queen of Ptolemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "More womanly than he; hardly gave audience, or",
-          "plainText": "More womanly than he hardly gave audience or",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Vouchsafed to think he had partners. You shall find there",
-          "plainText": "Vouchsafed to think he had partners You shall find there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "A man who is the abstract of all faults",
-          "plainText": "A man who is the abstract of all faults",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "That all men follow.",
-          "plainText": "That all men follow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31675/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 339414,
+        "end": 339522,
+        "line": 11591,
+        "column": 1,
+        "path": "chap03/p@31675",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-002",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@31787",
       "type": "speech",
-      "speaker": {
-        "id": "lepidus",
-        "name": "LEPIDUS",
-        "displayName": "Lepidus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nYou may see, Lepidus, and henceforth know,\nIt is not Caesar’s natural vice to hate\nOur great competitor. From Alexandria\nThis is the news: he fishes, drinks, and wastes\nThe lamps of night in revel: is not more manlike\nThan Cleopatra, nor the queen of Ptolemy\nMore womanly than he; hardly gave audience, or\nVouchsafed to think he had partners. You shall find there\nA man who is the abstract of all faults\nThat all men follow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I must not think there are",
-          "plainText": "I must not think there are",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Evils enough to darken all his goodness.",
-          "plainText": "Evils enough to darken all his goodness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "His faults in him seem as the spots of heaven,",
-          "plainText": "His faults in him seem as the spots of heaven",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-3",
+          "start": 51,
+          "end": 90,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 4,
-          "text": "More fiery by night's blackness; hereditary",
-          "plainText": "More fiery by night's blackness hereditary",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-4",
+          "start": 91,
+          "end": 128,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 5,
-          "text": "Rather than purchased; what he cannot change",
-          "plainText": "Rather than purchased what he cannot change",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-5",
+          "start": 129,
+          "end": 176,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 6,
-          "text": "Than what he chooses.",
-          "plainText": "Than what he chooses",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-6",
+          "start": 177,
+          "end": 225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-7",
+          "start": 226,
+          "end": 266,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-8",
+          "start": 267,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-9",
+          "start": 314,
+          "end": 371,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-10",
+          "start": 372,
+          "end": 411,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@31787/line-11",
+          "start": 412,
+          "end": 432,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 339526,
+        "end": 340033,
+        "line": 11595,
+        "column": 1,
+        "path": "chap03/p@31787",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-003",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@32298",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEPIDUS.\nI must not think there are\nEvils enough to darken all his goodness.\nHis faults in him seem as the spots of heaven,\nMore fiery by night’s blackness; hereditary\nRather than purchased; what he cannot change\nThan what he chooses.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "You are too indulgent. Let's grant it is not",
-          "plainText": "You are too indulgent Let's grant it is not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "Amiss to tumble on the bed of Ptolemy,",
-          "plainText": "Amiss to tumble on the bed of Ptolemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-2",
+          "start": 9,
+          "end": 35,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 3,
-          "text": "To give a kingdom for a mirth, to sit",
-          "plainText": "To give a kingdom for a mirth to sit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-3",
+          "start": 36,
+          "end": 76,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 4,
-          "text": "And keep the turn of tippling with a slave,",
-          "plainText": "And keep the turn of tippling with a slave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-4",
+          "start": 77,
+          "end": 123,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 5,
-          "text": "To reel the streets at noon, and stand the buffet",
-          "plainText": "To reel the streets at noon and stand the buffet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-5",
+          "start": 124,
+          "end": 167,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 6,
-          "text": "With knaves that smell of sweat. Say this becomes him—",
-          "plainText": "With knaves that smell of sweat Say this becomes him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-6",
+          "start": 168,
+          "end": 212,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 7,
-          "text": "As his composure must be rare indeed",
-          "plainText": "As his composure must be rare indeed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 8,
-          "text": "Whom these things cannot blemish—yet must Antony",
-          "plainText": "Whom these things cannot blemishyet must Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 9,
-          "text": "No way excuse his foils when we do bear",
-          "plainText": "No way excuse his foils when we do bear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 10,
-          "text": "So great weight in his lightness. If he filled",
-          "plainText": "So great weight in his lightness If he filled",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 11,
-          "text": "His vacancy with his voluptuousness,",
-          "plainText": "His vacancy with his voluptuousness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 12,
-          "text": "Full surfeits and the dryness of his bones",
-          "plainText": "Full surfeits and the dryness of his bones",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 13,
-          "text": "Call on him for't. But to confound such time",
-          "plainText": "Call on him for't But to confound such time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 14,
-          "text": "That drums him from his sport, and speaks as loud",
-          "plainText": "That drums him from his sport and speaks as loud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 15,
-          "text": "As his own state and ours, 'tis to be chid",
-          "plainText": "As his own state and ours 'tis to be chid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 16,
-          "text": "As we rate boys who, being mature in knowledge,",
-          "plainText": "As we rate boys who being mature in knowledge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 17,
-          "text": "Pawn their experience to their present pleasure",
-          "plainText": "Pawn their experience to their present pleasure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 18,
-          "text": "And so rebel to judgment.",
-          "plainText": "And so rebel to judgment",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32298/line-7",
+          "start": 213,
+          "end": 234,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 340037,
+        "end": 340326,
+        "line": 11609,
+        "column": 1,
+        "path": "chap03/p@32298",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "LEPIDUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-stage-002",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@32591",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nYou are too indulgent. Let’s grant it is not\nAmiss to tumble on the bed of Ptolemy,\nTo give a kingdom for a mirth, to sit\nAnd keep the turn of tippling with a slave,\nTo reel the streets at noon, and stand the buffet\nWith knaves that smell of sweat. Say this becomes him—\nAs his composure must be rare indeed\nWhom these things cannot blemish—yet must Antony\nNo way excuse his foils when we do bear\nSo great weight in his lightness. If he filled\nHis vacancy with his voluptuousness,\nFull surfeits and the dryness of his bones\nCall on him for’t. But to confound such time\nThat drums him from his sport, and speaks as loud\nAs his own state and ours, ’tis to be chid\nAs we rate boys who, being mature in knowledge,\nPawn their experience to their present pleasure\nAnd so rebel to judgment.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-3",
+          "start": 53,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-4",
+          "start": 92,
+          "end": 129,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-5",
+          "start": 130,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-6",
+          "start": 174,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-7",
+          "start": 224,
+          "end": 278,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-8",
+          "start": 279,
+          "end": 315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-9",
+          "start": 316,
+          "end": 364,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-10",
+          "start": 365,
+          "end": 404,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-11",
+          "start": 405,
+          "end": 451,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-12",
+          "start": 452,
+          "end": 488,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-13",
+          "start": 489,
+          "end": 531,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-14",
+          "start": 532,
+          "end": 576,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-15",
+          "start": 577,
+          "end": 626,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-16",
+          "start": 627,
+          "end": 669,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-17",
+          "start": 670,
+          "end": 717,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-18",
+          "start": 718,
+          "end": 765,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@32591/line-19",
+          "start": 766,
+          "end": 791,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 340330,
+        "end": 341236,
+        "line": 11619,
+        "column": 1,
+        "path": "chap03/p@32591",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneI_3.4/p@33501",
       "type": "stage",
-      "text": "Enter a Messenger."
-    },
-    {
-      "id": "antony-and-cleopatra-1-4-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "lepidus",
-        "name": "LEPIDUS",
-        "displayName": "Lepidus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Messenger.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Here's more news.",
-          "plainText": "Here's more news",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33501/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 341240,
+        "end": 341317,
+        "line": 11641,
+        "column": 1,
+        "path": "chap03/p@33501",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-005",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@33582",
       "type": "speech",
-      "speaker": {
-        "id": "messenger",
-        "name": "MESSENGER",
-        "displayName": "Messenger"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEPIDUS.\nHere’s more news.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Thy biddings have been done, and every hour,",
-          "plainText": "Thy biddings have been done and every hour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33582/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "Most noble Caesar, shalt thou have report",
-          "plainText": "Most noble Caesar shalt thou have report",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 3,
-          "text": "How 'tis abroad. Pompey is strong at sea,",
-          "plainText": "How 'tis abroad Pompey is strong at sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 4,
-          "text": "And it appears he is beloved of those",
-          "plainText": "And it appears he is beloved of those",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 5,
-          "text": "That only have feared Caesar. To the ports",
-          "plainText": "That only have feared Caesar To the ports",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 6,
-          "text": "The discontents repair, and men's reports",
-          "plainText": "The discontents repair and men's reports",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 7,
-          "text": "Give him much wronged.",
-          "plainText": "Give him much wronged",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33582/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 341321,
+        "end": 341377,
+        "line": 11645,
+        "column": 1,
+        "path": "chap03/p@33582",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "LEPIDUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-006",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@33642",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSENGER.\nThy biddings have been done, and every hour,\nMost noble Caesar, shalt thou have report\nHow ’tis abroad. Pompey is strong at sea,\nAnd it appears he is beloved of those\nThat only have feared Caesar. To the ports\nThe discontents repair, and men’s reports\nGive him much wronged.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "I should have known no less.",
-          "plainText": "I should have known no less",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "It hath been taught us from the primal state",
-          "plainText": "It hath been taught us from the primal state",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0045",
-          "number": 45,
-          "speechLineNumber": 3,
-          "text": "That he which is was wished until he were,",
-          "plainText": "That he which is was wished until he were",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-3",
+          "start": 56,
+          "end": 97,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0046",
-          "number": 46,
-          "speechLineNumber": 4,
-          "text": "And the ebbed man, ne'er loved till ne'er worth love,",
-          "plainText": "And the ebbed man ne'er loved till ne'er worth love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-4",
+          "start": 98,
+          "end": 139,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0047",
-          "number": 47,
-          "speechLineNumber": 5,
-          "text": "Comes deared by being lacked. This common body,",
-          "plainText": "Comes deared by being lacked This common body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-5",
+          "start": 140,
+          "end": 177,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0048",
-          "number": 48,
-          "speechLineNumber": 6,
-          "text": "Like to a vagabond flag upon the stream,",
-          "plainText": "Like to a vagabond flag upon the stream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-6",
+          "start": 178,
+          "end": 220,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0049",
-          "number": 49,
-          "speechLineNumber": 7,
-          "text": "Goes to and back, lackeying the varying tide,",
-          "plainText": "Goes to and back lackeying the varying tide",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-7",
+          "start": 221,
+          "end": 262,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0050",
-          "number": 50,
-          "speechLineNumber": 8,
-          "text": "To rot itself with motion.",
-          "plainText": "To rot itself with motion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33642/line-8",
+          "start": 263,
+          "end": 285,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 341381,
+        "end": 341726,
+        "line": 11650,
+        "column": 1,
+        "path": "chap03/p@33642",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-stage-003",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@33991",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nI should have known no less.\nIt hath been taught us from the primal state\nThat he which is was wished until he were,\nAnd the ebbed man, ne’er loved till ne’er worth love,\nComes deared by being lacked. This common body,\nLike to a vagabond flag upon the stream,\nGoes to and back, lackeying the varying tide,\nTo rot itself with motion.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-3",
+          "start": 37,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-4",
+          "start": 82,
+          "end": 124,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-5",
+          "start": 125,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-6",
+          "start": 179,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-7",
+          "start": 227,
+          "end": 267,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-8",
+          "start": 268,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@33991/line-9",
+          "start": 314,
+          "end": 340,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 341730,
+        "end": 342135,
+        "line": 11661,
+        "column": 1,
+        "path": "chap03/p@33991",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneI_3.4/p@34400",
       "type": "stage",
-      "text": "Enter a second Messenger."
-    },
-    {
-      "id": "antony-and-cleopatra-1-4-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "second-messenger",
-        "name": "SECOND MESSENGER",
-        "displayName": "Second Messenger"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a second Messenger.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 15,
+          "end": 24,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Caesar, I bring thee word",
-          "plainText": "Caesar I bring thee word",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0052",
-          "number": 52,
-          "speechLineNumber": 2,
-          "text": "Menecrates and Menas, famous pirates,",
-          "plainText": "Menecrates and Menas famous pirates",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0053",
-          "number": 53,
-          "speechLineNumber": 3,
-          "text": "Make the sea serve them, which they ear and wound",
-          "plainText": "Make the sea serve them which they ear and wound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0054",
-          "number": 54,
-          "speechLineNumber": 4,
-          "text": "With keels of every kind. Many hot inroads",
-          "plainText": "With keels of every kind Many hot inroads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0055",
-          "number": 55,
-          "speechLineNumber": 5,
-          "text": "They make in Italy—the borders maritime",
-          "plainText": "They make in Italythe borders maritime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0056",
-          "number": 56,
-          "speechLineNumber": 6,
-          "text": "Lack blood to think on't—and flush youth revolt.",
-          "plainText": "Lack blood to think on'tand flush youth revolt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0057",
-          "number": 57,
-          "speechLineNumber": 7,
-          "text": "No vessel can peep forth but 'tis as soon",
-          "plainText": "No vessel can peep forth but 'tis as soon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0058",
-          "number": 58,
-          "speechLineNumber": 8,
-          "text": "Taken as seen; for Pompey's name strikes more",
-          "plainText": "Taken as seen for Pompey's name strikes more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0059",
-          "number": 59,
-          "speechLineNumber": 9,
-          "text": "Than could his war resisted.",
-          "plainText": "Than could his war resisted",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34400/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 342139,
+        "end": 342223,
+        "line": 11673,
+        "column": 1,
+        "path": "chap03/p@34400",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-008",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@34488",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND MESSENGER.\nCaesar, I bring thee word\nMenecrates and Menas, famous pirates,\nMake the sea serve them, which they ear and wound\nWith keels of every kind. Many hot inroads\nThey make in Italy—the borders maritime\nLack blood to think on’t—and flush youth revolt.\nNo vessel can peep forth but ’tis as soon\nTaken as seen; for Pompey’s name strikes more\nThan could his war resisted.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "Antony,",
-          "plainText": "Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-1",
+          "start": 0,
+          "end": 17,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0061",
-          "number": 61,
-          "speechLineNumber": 2,
-          "text": "Leave thy lascivious wassails. When thou once",
-          "plainText": "Leave thy lascivious wassails When thou once",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-2",
+          "start": 18,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0062",
-          "number": 62,
-          "speechLineNumber": 3,
-          "text": "Was beaten from Modena, where thou slew'st",
-          "plainText": "Was beaten from Modena where thou slew'st",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-3",
+          "start": 44,
+          "end": 81,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0063",
-          "number": 63,
-          "speechLineNumber": 4,
-          "text": "Hirtius and Pansa, consuls, at thy heel",
-          "plainText": "Hirtius and Pansa consuls at thy heel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-4",
+          "start": 82,
+          "end": 131,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0064",
-          "number": 64,
-          "speechLineNumber": 5,
-          "text": "Did famine follow, whom thou fought'st against,",
-          "plainText": "Did famine follow whom thou fought'st against",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-5",
+          "start": 132,
+          "end": 174,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0065",
-          "number": 65,
-          "speechLineNumber": 6,
-          "text": "Though daintily brought up, with patience more",
-          "plainText": "Though daintily brought up with patience more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-6",
+          "start": 175,
+          "end": 214,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0066",
-          "number": 66,
-          "speechLineNumber": 7,
-          "text": "Than savages could suffer. Thou didst drink",
-          "plainText": "Than savages could suffer Thou didst drink",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-7",
+          "start": 215,
+          "end": 263,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0067",
-          "number": 67,
-          "speechLineNumber": 8,
-          "text": "The stale of horses and the gilded puddle",
-          "plainText": "The stale of horses and the gilded puddle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-8",
+          "start": 264,
+          "end": 305,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0068",
-          "number": 68,
-          "speechLineNumber": 9,
-          "text": "Which beasts would cough at. Thy palate then did deign",
-          "plainText": "Which beasts would cough at Thy palate then did deign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-9",
+          "start": 306,
+          "end": 351,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0069",
-          "number": 69,
-          "speechLineNumber": 10,
-          "text": "The roughest berry on the rudest hedge.",
-          "plainText": "The roughest berry on the rudest hedge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0070",
-          "number": 70,
-          "speechLineNumber": 11,
-          "text": "Yea, like the stag when snow the pasture sheets,",
-          "plainText": "Yea like the stag when snow the pasture sheets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0071",
-          "number": 71,
-          "speechLineNumber": 12,
-          "text": "The barks of trees thou browsed. On the Alps",
-          "plainText": "The barks of trees thou browsed On the Alps",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0072",
-          "number": 72,
-          "speechLineNumber": 13,
-          "text": "It is reported thou didst eat strange flesh",
-          "plainText": "It is reported thou didst eat strange flesh",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0073",
-          "number": 73,
-          "speechLineNumber": 14,
-          "text": "Which some did die to look on. And all this—",
-          "plainText": "Which some did die to look on And all this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0074",
-          "number": 74,
-          "speechLineNumber": 15,
-          "text": "It wounds thine honour that I speak it now—",
-          "plainText": "It wounds thine honour that I speak it now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0075",
-          "number": 75,
-          "speechLineNumber": 16,
-          "text": "Was borne so like a soldier that thy cheek",
-          "plainText": "Was borne so like a soldier that thy cheek",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0076",
-          "number": 76,
-          "speechLineNumber": 17,
-          "text": "So much as lanked not.",
-          "plainText": "So much as lanked not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34488/line-10",
+          "start": 352,
+          "end": 380,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 342227,
+        "end": 342677,
+        "line": 11677,
+        "column": 1,
+        "path": "chap03/p@34488",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "SECOND MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 17
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-009",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@34942",
       "type": "speech",
-      "speaker": {
-        "id": "lepidus",
-        "name": "LEPIDUS",
-        "displayName": "Lepidus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nAntony,\nLeave thy lascivious wassails. When thou once\nWas beaten from Modena, where thou slew’st\nHirtius and Pansa, consuls, at thy heel\nDid famine follow, whom thou fought’st against,\nThough daintily brought up, with patience more\nThan savages could suffer. Thou didst drink\nThe stale of horses and the gilded puddle\nWhich beasts would cough at. Thy palate then did deign\nThe roughest berry on the rudest hedge.\nYea, like the stag when snow the pasture sheets,\nThe barks of trees thou browsed. On the Alps\nIt is reported thou didst eat strange flesh\nWhich some did die to look on. And all this—\nIt wounds thine honour that I speak it now—\nWas borne so like a soldier that thy cheek\nSo much as lanked not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "'Tis pity of him.",
-          "plainText": "'Tis pity of him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-2",
+          "start": 8,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-3",
+          "start": 16,
+          "end": 61,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-4",
+          "start": 62,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-5",
+          "start": 105,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-6",
+          "start": 145,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-7",
+          "start": 193,
+          "end": 239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-8",
+          "start": 240,
+          "end": 283,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-9",
+          "start": 284,
+          "end": 325,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-10",
+          "start": 326,
+          "end": 380,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-11",
+          "start": 381,
+          "end": 420,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-12",
+          "start": 421,
+          "end": 469,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-13",
+          "start": 470,
+          "end": 514,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-14",
+          "start": 515,
+          "end": 558,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-15",
+          "start": 559,
+          "end": 603,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-16",
+          "start": 604,
+          "end": 647,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-17",
+          "start": 648,
+          "end": 690,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@34942/line-18",
+          "start": 691,
+          "end": 713,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 342681,
+        "end": 343504,
+        "line": 11690,
+        "column": 1,
+        "path": "chap03/p@34942",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-010",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@35769",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEPIDUS.\n’Tis pity of him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0078",
-          "number": 78,
-          "speechLineNumber": 1,
-          "text": "Let his shames quickly",
-          "plainText": "Let his shames quickly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35769/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0079",
-          "number": 79,
-          "speechLineNumber": 2,
-          "text": "Drive him to Rome. 'Tis time we twain",
-          "plainText": "Drive him to Rome 'Tis time we twain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0080",
-          "number": 80,
-          "speechLineNumber": 3,
-          "text": "Did show ourselves i' th' field, and to that end",
-          "plainText": "Did show ourselves i' th' field and to that end",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0081",
-          "number": 81,
-          "speechLineNumber": 4,
-          "text": "Assemble we immediate council. Pompey",
-          "plainText": "Assemble we immediate council Pompey",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-1-4-line-0082",
-          "number": 82,
-          "speechLineNumber": 5,
-          "text": "Thrives in our idleness.",
-          "plainText": "Thrives in our idleness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35769/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 343508,
+        "end": 343564,
+        "line": 11711,
+        "column": 1,
+        "path": "chap03/p@35769",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "LEPIDUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-011",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@35829",
       "type": "speech",
-      "speaker": {
-        "id": "lepidus",
-        "name": "LEPIDUS",
-        "displayName": "Lepidus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nLet his shames quickly\nDrive him to Rome. ’Tis time we twain\nDid show ourselves i’ th’ field, and to that end\nAssemble we immediate council. Pompey\nThrives in our idleness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0083",
-          "number": 83,
-          "speechLineNumber": 1,
-          "text": "Tomorrow, Caesar,",
-          "plainText": "Tomorrow Caesar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0084",
-          "number": 84,
-          "speechLineNumber": 2,
-          "text": "I shall be furnished to inform you rightly",
-          "plainText": "I shall be furnished to inform you rightly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-2",
+          "start": 8,
+          "end": 30,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0085",
-          "number": 85,
-          "speechLineNumber": 3,
-          "text": "Both what by sea and land I can be able",
-          "plainText": "Both what by sea and land I can be able",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-3",
+          "start": 31,
+          "end": 68,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0086",
-          "number": 86,
-          "speechLineNumber": 4,
-          "text": "To front this present time.",
-          "plainText": "To front this present time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-4",
+          "start": 69,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-5",
+          "start": 118,
+          "end": 155,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@35829/line-6",
+          "start": 156,
+          "end": 180,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 343568,
+        "end": 343798,
+        "line": 11716,
+        "column": 1,
+        "path": "chap03/p@35829",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-012",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@36063",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEPIDUS.\nTomorrow, Caesar,\nI shall be furnished to inform you rightly\nBoth what by sea and land I can be able\nTo front this present time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "Till which encounter",
-          "plainText": "Till which encounter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36063/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0088",
-          "number": 88,
-          "speechLineNumber": 2,
-          "text": "It is my business too. Farewell.",
-          "plainText": "It is my business too Farewell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36063/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36063/line-3",
+          "start": 27,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36063/line-4",
+          "start": 70,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36063/line-5",
+          "start": 110,
+          "end": 137,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 343802,
+        "end": 343984,
+        "line": 11725,
+        "column": 1,
+        "path": "chap03/p@36063",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "LEPIDUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-013",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@36249",
       "type": "speech",
-      "speaker": {
-        "id": "lepidus",
-        "name": "LEPIDUS",
-        "displayName": "Lepidus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nTill which encounter\nIt is my business too. Farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "Farewell, my lord. What you shall know meantime",
-          "plainText": "Farewell my lord What you shall know meantime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36249/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0090",
-          "number": 90,
-          "speechLineNumber": 2,
-          "text": "Of stirs abroad, I shall beseech you, sir,",
-          "plainText": "Of stirs abroad I shall beseech you sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36249/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0091",
-          "number": 91,
-          "speechLineNumber": 3,
-          "text": "To let me be partaker.",
-          "plainText": "To let me be partaker",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36249/line-3",
+          "start": 29,
+          "end": 61,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 343988,
+        "end": 344084,
+        "line": 11733,
+        "column": 1,
+        "path": "chap03/p@36249",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-speech-014",
+      "id": "antony-and-cleopatra/sceneI_3.4/p@36349",
       "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEPIDUS.\nFarewell, my lord. What you shall know meantime\nOf stirs abroad, I shall beseech you, sir,\nTo let me be partaker.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-1-4-line-0092",
-          "number": 92,
-          "speechLineNumber": 1,
-          "text": "Doubt not, sir.",
-          "plainText": "Doubt not sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36349/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-1-4-line-0093",
-          "number": 93,
-          "speechLineNumber": 2,
-          "text": "I knew it for my bond.",
-          "plainText": "I knew it for my bond",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36349/line-2",
+          "start": 9,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36349/line-3",
+          "start": 57,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36349/line-4",
+          "start": 100,
+          "end": 122,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 344088,
+        "end": 344250,
+        "line": 11739,
+        "column": 1,
+        "path": "chap03/p@36349",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "LEPIDUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "antony-and-cleopatra-1-4-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "antony-and-cleopatra/sceneI_3.4/p@36515",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nDoubt not, sir.\nI knew it for my bond.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36515/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36515/line-2",
+          "start": 8,
+          "end": 23,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36515/line-3",
+          "start": 24,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 344254,
+        "end": 344335,
+        "line": 11746,
+        "column": 1,
+        "path": "chap03/p@36515",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneI_3.4/p@36600",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneI_3.4/p@36600/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 344339,
+        "end": 344380,
+        "line": 11752,
+        "column": 1,
+        "path": "chap03/p@36600",
+        "anchor": "sceneI_3.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

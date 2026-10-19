@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "the-winters-tale",
-  "title": "The Winter'S Tale",
-  "fullTitle": "The Winter'S Tale",
+  "title": "THE WINTER’S TALE",
   "author": "William Shakespeare",
   "genre": "Romance",
+  "fullTitle": "THE WINTER’S TALE",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap39"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "the-winters-tale-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Sicilia. An Antechamber in Leontes' Palace.",
+          "title": "SCENE I. Sicilia. An Antechamber in Leontes’ Palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 13
+          "lineCount": 29
         },
         {
           "scene": 2,
           "id": "the-winters-tale-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The same. A Room of State in the Palace.",
+          "title": "SCENE II. The same. A Room of State in the Palace.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 511
+          "lineCount": 653
         }
       ]
     },
@@ -46,25 +54,25 @@
           "scene": 1,
           "id": "the-winters-tale-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Sicilia. A Room in the Palace.",
+          "title": "SCENE I. Sicilia. A Room in the Palace.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 233
+          "lineCount": 295
         },
         {
           "scene": 2,
           "id": "the-winters-tale-2-2",
           "label": "Act 2, Scene 2",
-          "title": "The same. The outer Room of a Prison.",
+          "title": "SCENE II. The same. The outer Room of a Prison.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 70
+          "lineCount": 107
         },
         {
           "scene": 3,
           "id": "the-winters-tale-2-3",
           "label": "Act 2, Scene 3",
-          "title": "The same. A Room in the Palace.",
+          "title": "SCENE III. The same. A Room in the Palace.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 234
+          "lineCount": 308
         }
       ]
     },
@@ -75,25 +83,25 @@
           "scene": 1,
           "id": "the-winters-tale-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Sicilia. A Street in some Town.",
+          "title": "SCENE I. Sicilia. A Street in some Town.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 27
+          "lineCount": 36
         },
         {
           "scene": 2,
           "id": "the-winters-tale-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The same. A Court of Justice.",
+          "title": "SCENE II. The same. A Court of Justice.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 230
+          "lineCount": 303
         },
         {
           "scene": 3,
           "id": "the-winters-tale-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Bohemia. A desert Country near the Sea.",
+          "title": "SCENE III. Bohemia. A desert Country near the Sea.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 67
+          "lineCount": 112
         }
       ]
     },
@@ -104,33 +112,33 @@
           "scene": 1,
           "id": "the-winters-tale-4-1",
           "label": "Act 4, Scene 1",
-          "title": "",
+          "title": "SCENE I.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 32
+          "lineCount": 36
         },
         {
           "scene": 2,
           "id": "the-winters-tale-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Bohemia. A Room in the palace of Polixenes.",
+          "title": "SCENE II. Bohemia. A Room in the palace of Polixenes.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 9
+          "lineCount": 21
         },
         {
           "scene": 3,
           "id": "the-winters-tale-4-3",
           "label": "Act 4, Scene 3",
-          "title": "The same. A Road near the Shepherd's cottage.",
+          "title": "SCENE III. The same. A Road near the Shepherd’s cottage.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 38
+          "lineCount": 103
         },
         {
           "scene": 4,
           "id": "the-winters-tale-4-4",
           "label": "Act 4, Scene 4",
-          "title": "The same. A Shepherd's Cottage.",
+          "title": "SCENE IV. The same. A Shepherd’s Cottage.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 683
+          "lineCount": 966
         }
       ]
     },
@@ -141,27 +149,270 @@
           "scene": 1,
           "id": "the-winters-tale-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Sicilia. A Room in the palace of Leontes.",
+          "title": "SCENE I. Sicilia. A Room in the palace of Leontes.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 262
+          "lineCount": 345
         },
         {
           "scene": 2,
           "id": "the-winters-tale-5-2",
           "label": "Act 5, Scene 2",
-          "title": "The same. Before the Palace.",
+          "title": "SCENE II. The same. Before the Palace.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 38
+          "lineCount": 86
         },
         {
           "scene": 3,
           "id": "the-winters-tale-5-3",
           "label": "Act 5, Scene 3",
-          "title": "The same. A Room in Paulina's house.",
+          "title": "SCENE III. The same. A Room in Paulina’s house.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 175
+          "lineCount": 228
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "the-winters-tale-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE WINTER’S TALE"
+    },
+    {
+      "id": "the-winters-tale-contents-110",
+      "kind": "contents",
+      "path": "./sections/contents-110.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "the-winters-tale-cast-2135",
+      "kind": "cast",
+      "path": "./sections/cast-2135.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "the-winters-tale-setting-3119",
+      "kind": "setting",
+      "path": "./sections/setting-3119.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "Scene: Sometimes in Sicilia; sometimes in Bohemia."
+    },
+    {
+      "id": "the-winters-tale-act-3243",
+      "kind": "act",
+      "path": "./sections/act-3243.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "the-winters-tale-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "the-winters-tale-act-3243",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Sicilia. An Antechamber in Leontes’ Palace."
+    },
+    {
+      "id": "the-winters-tale-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "the-winters-tale-act-3243",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The same. A Room of State in the Palace."
+    },
+    {
+      "id": "the-winters-tale-act-34097",
+      "kind": "act",
+      "path": "./sections/act-34097.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "the-winters-tale-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "the-winters-tale-act-34097",
+      "orderInPlay": 9,
+      "heading": "SCENE I. Sicilia. A Room in the Palace."
+    },
+    {
+      "id": "the-winters-tale-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "the-winters-tale-act-34097",
+      "orderInPlay": 10,
+      "heading": "SCENE II. The same. The outer Room of a Prison."
+    },
+    {
+      "id": "the-winters-tale-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "the-winters-tale-act-34097",
+      "orderInPlay": 11,
+      "heading": "SCENE III. The same. A Room in the Palace."
+    },
+    {
+      "id": "the-winters-tale-act-64648",
+      "kind": "act",
+      "path": "./sections/act-64648.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 12,
+      "heading": "ACT III"
+    },
+    {
+      "id": "the-winters-tale-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "the-winters-tale-act-64648",
+      "orderInPlay": 13,
+      "heading": "SCENE I. Sicilia. A Street in some Town."
+    },
+    {
+      "id": "the-winters-tale-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "the-winters-tale-act-64648",
+      "orderInPlay": 14,
+      "heading": "SCENE II. The same. A Court of Justice."
+    },
+    {
+      "id": "the-winters-tale-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "the-winters-tale-act-64648",
+      "orderInPlay": 15,
+      "heading": "SCENE III. Bohemia. A desert Country near the Sea."
+    },
+    {
+      "id": "the-winters-tale-act-88559",
+      "kind": "act",
+      "path": "./sections/act-88559.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 16,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "the-winters-tale-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "the-winters-tale-act-88559",
+      "orderInPlay": 17,
+      "heading": "SCENE I."
+    },
+    {
+      "id": "the-winters-tale-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "the-winters-tale-act-88559",
+      "orderInPlay": 18,
+      "heading": "SCENE II. Bohemia. A Room in the palace of Polixenes."
+    },
+    {
+      "id": "the-winters-tale-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "the-winters-tale-act-88559",
+      "orderInPlay": 19,
+      "heading": "SCENE III. The same. A Road near the Shepherd’s cottage."
+    },
+    {
+      "id": "the-winters-tale-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "the-winters-tale-act-88559",
+      "orderInPlay": 20,
+      "heading": "SCENE IV. The same. A Shepherd’s Cottage."
+    },
+    {
+      "id": "the-winters-tale-act-152734",
+      "kind": "act",
+      "path": "./sections/act-152734.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 21,
+      "heading": "ACT V"
+    },
+    {
+      "id": "the-winters-tale-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "the-winters-tale-act-152734",
+      "orderInPlay": 22,
+      "heading": "SCENE I. Sicilia. A Room in the palace of Leontes."
+    },
+    {
+      "id": "the-winters-tale-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "the-winters-tale-act-152734",
+      "orderInPlay": 23,
+      "heading": "SCENE II. The same. Before the Palace."
+    },
+    {
+      "id": "the-winters-tale-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "the-winters-tale-act-152734",
+      "orderInPlay": 24,
+      "heading": "SCENE III. The same. A Room in Paulina’s house."
+    }
+  ],
+  "contentVersion": "3b2018ebb4b2981236a8c226b1716dab8982fa351be093a6b280355a960d4761"
 }

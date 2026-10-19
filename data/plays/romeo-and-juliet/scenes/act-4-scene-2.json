@@ -1,716 +1,1245 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-4-2",
+    "kind": "scene",
+    "heading": "SCENE II. Hall in Capulet’s House.",
     "act": 4,
     "scene": 2,
-    "label": "Act 4, Scene 2",
-    "title": "SCENE II. Hall in Capulet's House.",
-    "location": "Hall in Capulet's House.",
-    "orderInPlay": 18
+    "parentSectionId": "romeo-and-juliet-act-140241",
+    "orderInPlay": 27,
+    "sourceRef": {
+      "start": 5446872,
+      "end": 5446948,
+      "line": 202434,
+      "column": 1,
+      "path": "chap30/h3@147872",
+      "anchor": "sceneIV_30.2"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-4-2-stage-001",
+      "id": "romeo-and-juliet/sceneIV_30.2/h3@147872",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Hall in Capulet’s House.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 34
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/h3@147872/line-1",
+          "start": 0,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5446872,
+        "end": 5446948,
+        "line": 202434,
+        "column": 1,
+        "path": "chap30/h3@147872",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@147952",
       "type": "stage",
-      "text": "Enter Capulet, Lady Capulet, Nurse and Servants."
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Capulet, Lady Capulet, Nurse and Servants.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 34,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 39,
+          "end": 47,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "So many guests invite as here are writ.",
-          "plainText": "So many guests invite as here are writ",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@147952/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5446952,
+        "end": 5447086,
+        "line": 202436,
+        "column": 1,
+        "path": "chap30/p@147952",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-stage-002",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148090",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nSo many guests invite as here are writ.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148090/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148090/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447090,
+        "end": 5447168,
+        "line": 202439,
+        "column": 1,
+        "path": "chap30/p@148090",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148172",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit first Servant.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 19,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 20
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148172/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447172,
+        "end": 5447251,
+        "line": 202444,
+        "column": 1,
+        "path": "chap30/p@148172",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148255",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Sirrah, go hire me twenty cunning cooks.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148255/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447255,
+        "end": 5447318,
+        "line": 202446,
+        "column": 1,
+        "path": "chap30/p@148255",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148322",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND SERVANT.\nYou shall have none ill, sir; for I’ll try if they can lick their fingers.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148322/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148322/line-2",
+          "start": 16,
+          "end": 90,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447322,
+        "end": 5447441,
+        "line": 202449,
+        "column": 1,
+        "path": "chap30/p@148322",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "SECOND SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148445",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nHow canst thou try them so?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148445/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148445/line-2",
+          "start": 9,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447445,
+        "end": 5447511,
+        "line": 202454,
+        "column": 1,
+        "path": "chap30/p@148445",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148515",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND SERVANT.\nMarry, sir, ’tis an ill cook that cannot lick his own fingers; therefore he that cannot lick his fingers goes not with me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148515/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148515/line-2",
+          "start": 16,
+          "end": 138,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447515,
+        "end": 5447682,
+        "line": 202459,
+        "column": 1,
+        "path": "chap30/p@148515",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "SECOND SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148686",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nGo, begone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148686/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148686/line-2",
+          "start": 9,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447686,
+        "end": 5447736,
+        "line": 202464,
+        "column": 1,
+        "path": "chap30/p@148686",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148740",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit second Servant.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 21
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148740/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447740,
+        "end": 5447820,
+        "line": 202469,
+        "column": 1,
+        "path": "chap30/p@148740",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148824",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "We shall be much unfurnish’d for this time.\nWhat, is my daughter gone to Friar Lawrence?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148824/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148824/line-2",
+          "start": 44,
+          "end": 88,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447824,
+        "end": 5447942,
+        "line": 202471,
+        "column": 1,
+        "path": "chap30/p@148824",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@148946",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nAy, forsooth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148946/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@148946/line-2",
+          "start": 7,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5447946,
+        "end": 5447996,
+        "line": 202476,
+        "column": 1,
+        "path": "chap30/p@148946",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149000",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nWell, he may chance to do some good on her.\nA peevish self-will’d harlotry it is.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149000/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149000/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149000/line-3",
+          "start": 53,
+          "end": 90,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5448000,
+        "end": 5448125,
+        "line": 202481,
+        "column": 1,
+        "path": "chap30/p@149000",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149129",
       "type": "stage",
-      "text": "[Exit first Servant.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "second-servant",
-        "name": "SECOND SERVANT",
-        "displayName": "Second Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Juliet.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "You shall have none ill, sir; for I'll try if they can lick their fingers.",
-          "plainText": "You shall have none ill sir for I'll try if they can lick their fingers",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149129/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5448129,
+        "end": 5448197,
+        "line": 202487,
+        "column": 1,
+        "path": "chap30/p@149129",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-003",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149201",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nSee where she comes from shrift with merry look.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "How canst thou try them so?",
-          "plainText": "How canst thou try them so",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149201/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149201/line-2",
+          "start": 7,
+          "end": 55,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5448201,
+        "end": 5448286,
+        "line": 202489,
+        "column": 1,
+        "path": "chap30/p@149201",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-004",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149290",
       "type": "speech",
-      "speaker": {
-        "id": "second-servant",
-        "name": "SECOND SERVANT",
-        "displayName": "Second Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nHow now, my headstrong. Where have you been gadding?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Marry, sir, 'tis an ill cook that cannot lick his own fingers; therefore he that cannot lick his fingers goes not with me.",
-          "plainText": "Marry sir 'tis an ill cook that cannot lick his own fingers therefore he that cannot lick his fingers goes not with me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149290/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149290/line-2",
+          "start": 9,
+          "end": 61,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5448290,
+        "end": 5448381,
+        "line": 202494,
+        "column": 1,
+        "path": "chap30/p@149290",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-005",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149385",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nWhere I have learnt me to repent the sin\nOf disobedient opposition\nTo you and your behests; and am enjoin’d\nBy holy Lawrence to fall prostrate here,\nTo beg your pardon. Pardon, I beseech you.\nHenceforward I am ever rul’d by you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Go, begone.",
-          "plainText": "Go begone",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-2",
+          "start": 8,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-3",
+          "start": 49,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-4",
+          "start": 75,
+          "end": 115,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-5",
+          "start": 116,
+          "end": 156,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-6",
+          "start": 157,
+          "end": 199,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149385/line-7",
+          "start": 200,
+          "end": 236,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-stage-003",
-      "type": "stage",
-      "text": "[Exit second Servant.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
+      ],
+      "sourceRef": {
+        "start": 5448385,
+        "end": 5448676,
+        "line": 202499,
+        "column": 1,
+        "path": "chap30/p@149385",
+        "anchor": "sceneIV_30.2"
       },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149680",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nSend for the County, go tell him of this.\nI’ll have this knot knit up tomorrow morning.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Ay, forsooth.",
-          "plainText": "Ay forsooth",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149680/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149680/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149680/line-3",
+          "start": 51,
+          "end": 96,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5448680,
+        "end": 5448811,
+        "line": 202509,
+        "column": 1,
+        "path": "chap30/p@149680",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-007",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149815",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nI met the youthful lord at Lawrence’ cell,\nAnd gave him what becomed love I might,\nNot stepping o’er the bounds of modesty.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Well, he may chance to do some good on her.",
-          "plainText": "Well he may chance to do some good on her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149815/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 2,
-          "text": "A peevish self-will'd harlotry it is.",
-          "plainText": "A peevish selfwill'd harlotry it is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149815/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149815/line-3",
+          "start": 51,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149815/line-4",
+          "start": 91,
+          "end": 131,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-stage-004",
-      "type": "stage",
-      "text": "Enter Juliet."
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
+      ],
+      "sourceRef": {
+        "start": 5448815,
+        "end": 5448986,
+        "line": 202515,
+        "column": 1,
+        "path": "chap30/p@149815",
+        "anchor": "sceneIV_30.2"
       },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.2/p@149990",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nWhy, I am glad on’t. This is well. Stand up.\nThis is as’t should be. Let me see the County.\nAy, marry. Go, I say, and fetch him hither.\nNow afore God, this reverend holy Friar,\nAll our whole city is much bound to him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "See where she comes from shrift with merry look.",
-          "plainText": "See where she comes from shrift with merry look",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-3",
+          "start": 54,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-4",
+          "start": 101,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-5",
+          "start": 145,
+          "end": 185,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@149990/line-6",
+          "start": 186,
+          "end": 226,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5448990,
+        "end": 5449266,
+        "line": 202522,
+        "column": 1,
+        "path": "chap30/p@149990",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-009",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150270",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nNurse, will you go with me into my closet,\nTo help me sort such needful ornaments\nAs you think fit to furnish me tomorrow?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "How now, my headstrong. Where have you been gadding?",
-          "plainText": "How now my headstrong Where have you been gadding",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150270/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150270/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150270/line-3",
+          "start": 51,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150270/line-4",
+          "start": 90,
+          "end": 130,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449270,
+        "end": 5449440,
+        "line": 202531,
+        "column": 1,
+        "path": "chap30/p@150270",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-010",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150444",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nNo, not till Thursday. There is time enough.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Where I have learnt me to repent the sin",
-          "plainText": "Where I have learnt me to repent the sin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150444/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Of disobedient opposition",
-          "plainText": "Of disobedient opposition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "To you and your behests; and am enjoin'd",
-          "plainText": "To you and your behests and am enjoin'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 4,
-          "text": "By holy Lawrence to fall prostrate here,",
-          "plainText": "By holy Lawrence to fall prostrate here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 5,
-          "text": "To beg your pardon. Pardon, I beseech you.",
-          "plainText": "To beg your pardon Pardon I beseech you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 6,
-          "text": "Henceforward I am ever rul'd by you.",
-          "plainText": "Henceforward I am ever rul'd by you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150444/line-2",
+          "start": 14,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449444,
+        "end": 5449532,
+        "line": 202538,
+        "column": 1,
+        "path": "chap30/p@150444",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-011",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150536",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nGo, Nurse, go with her. We’ll to church tomorrow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Send for the County, go tell him of this.",
-          "plainText": "Send for the County go tell him of this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150536/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "I'll have this knot knit up tomorrow morning.",
-          "plainText": "I'll have this knot knit up tomorrow morning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150536/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449536,
+        "end": 5449624,
+        "line": 202543,
+        "column": 1,
+        "path": "chap30/p@150536",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150628",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Juliet and Nurse.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 24,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 25
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "I met the youthful lord at Lawrence' cell,",
-          "plainText": "I met the youthful lord at Lawrence' cell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "And gave him what becomed love I might,",
-          "plainText": "And gave him what becomed love I might",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "Not stepping o'er the bounds of modesty.",
-          "plainText": "Not stepping o'er the bounds of modesty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150628/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449628,
+        "end": 5449743,
+        "line": 202548,
+        "column": 1,
+        "path": "chap30/p@150628",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-013",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150747",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nWe shall be short in our provision,\n’Tis now near night.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Why, I am glad on't. This is well. Stand up.",
-          "plainText": "Why I am glad on't This is well Stand up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150747/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "This is as't should be. Let me see the County.",
-          "plainText": "This is as't should be Let me see the County",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150747/line-2",
+          "start": 14,
+          "end": 49,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "Ay, marry. Go, I say, and fetch him hither.",
-          "plainText": "Ay marry Go I say and fetch him hither",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "Now afore God, this reverend holy Friar,",
-          "plainText": "Now afore God this reverend holy Friar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "All our whole city is much bound to him.",
-          "plainText": "All our whole city is much bound to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150747/line-3",
+          "start": 50,
+          "end": 70,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449747,
+        "end": 5449852,
+        "line": 202551,
+        "column": 1,
+        "path": "chap30/p@150747",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-014",
+      "id": "romeo-and-juliet/sceneIV_30.2/p@150856",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nTush, I will stir about,\nAnd all things shall be well, I warrant thee, wife.\nGo thou to Juliet, help to deck up her.\nI’ll not to bed tonight, let me alone.\nI’ll play the housewife for this once.—What, ho!—\nThey are all forth: well, I will walk myself\nTo County Paris, to prepare him up\nAgainst tomorrow. My heart is wondrous light\nSince this same wayward girl is so reclaim’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Nurse, will you go with me into my closet,",
-          "plainText": "Nurse will you go with me into my closet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "To help me sort such needful ornaments",
-          "plainText": "To help me sort such needful ornaments",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 3,
-          "text": "As you think fit to furnish me tomorrow?",
-          "plainText": "As you think fit to furnish me tomorrow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-3",
+          "start": 34,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-4",
+          "start": 86,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-5",
+          "start": 126,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-6",
+          "start": 165,
+          "end": 214,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-7",
+          "start": 215,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-8",
+          "start": 260,
+          "end": 294,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-9",
+          "start": 295,
+          "end": 339,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.2/p@150856/line-10",
+          "start": 340,
+          "end": 385,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5449856,
+        "end": 5450311,
+        "line": 202557,
+        "column": 1,
+        "path": "chap30/p@150856",
+        "anchor": "sceneIV_30.2"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-2-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
+      "id": "romeo-and-juliet/sceneIV_30.2/p@151315",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "No, not till Thursday. There is time enough.",
-          "plainText": "No not till Thursday There is time enough",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.2/p@151315/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
+      ],
+      "sourceRef": {
+        "start": 5450315,
+        "end": 5450352,
+        "line": 202570,
+        "column": 1,
+        "path": "chap30/p@151315",
+        "anchor": "sceneIV_30.2"
       },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Go, Nurse, go with her. We'll to church tomorrow.",
-          "plainText": "Go Nurse go with her We'll to church tomorrow",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-stage-005",
-      "type": "stage",
-      "text": "[Exeunt Juliet and Nurse.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "We shall be short in our provision,",
-          "plainText": "We shall be short in our provision",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 2,
-          "text": "'Tis now near night.",
-          "plainText": "'Tis now near night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Tush, I will stir about,",
-          "plainText": "Tush I will stir about",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 2,
-          "text": "And all things shall be well, I warrant thee, wife.",
-          "plainText": "And all things shall be well I warrant thee wife",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 3,
-          "text": "Go thou to Juliet, help to deck up her.",
-          "plainText": "Go thou to Juliet help to deck up her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 4,
-          "text": "I'll not to bed tonight, let me alone.",
-          "plainText": "I'll not to bed tonight let me alone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 5,
-          "text": "I'll play the housewife for this once.—What, ho!—",
-          "plainText": "I'll play the housewife for this onceWhat ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 6,
-          "text": "They are all forth: well, I will walk myself",
-          "plainText": "They are all forth well I will walk myself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 7,
-          "text": "To County Paris, to prepare him up",
-          "plainText": "To County Paris to prepare him up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 8,
-          "text": "Against tomorrow. My heart is wondrous light",
-          "plainText": "Against tomorrow My heart is wondrous light",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 9,
-          "text": "Since this same wayward girl is so reclaim'd.",
-          "plainText": "Since this same wayward girl is so reclaim'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-2-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

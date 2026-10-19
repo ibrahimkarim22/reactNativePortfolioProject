@@ -1,771 +1,1082 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-5-5",
+    "kind": "scene",
+    "heading": "SCENE V. Dunsinane. Within the castle.",
     "act": 5,
     "scene": 5,
-    "label": "Act 5, Scene 5",
-    "title": "SCENE V. Dunsinane. Within the castle.",
-    "location": "Dunsinane. Within the castle.",
-    "orderInPlay": 25
+    "parentSectionId": "macbeth-act-120641",
+    "orderInPlay": 34,
+    "sourceRef": {
+      "start": 3698107,
+      "end": 3698187,
+      "line": 136420,
+      "column": 1,
+      "path": "chap20/h3@133915",
+      "anchor": "sceneV_20.5"
+    }
   },
   "content": [
     {
-      "id": "macbeth-5-5-stage-001",
+      "id": "macbeth/sceneV_20.5/h3@133915",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Dunsinane. Within the castle.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/h3@133915/line-1",
+          "start": 0,
+          "end": 38,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698107,
+        "end": 3698187,
+        "line": 136420,
+        "column": 1,
+        "path": "chap20/h3@133915",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@133999",
       "type": "stage",
-      "text": "Enter with drum and colours, Macbeth, Seyton and Soldiers."
-    },
-    {
-      "id": "macbeth-5-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter with drum and colours, Macbeth, Seyton and Soldiers.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 29,
+          "end": 45,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Hang out our banners on the outward walls;",
-          "plainText": "Hang out our banners on the outward walls",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "The cry is still, \"They come!\" Our castle's strength",
-          "plainText": "The cry is still They come Our castle's strength",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Will laugh a siege to scorn: here let them lie",
-          "plainText": "Will laugh a siege to scorn here let them lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Till famine and the ague eat them up.",
-          "plainText": "Till famine and the ague eat them up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Were they not forc'd with those that should be ours,",
-          "plainText": "Were they not forc'd with those that should be ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "We might have met them dareful, beard to beard,",
-          "plainText": "We might have met them dareful beard to beard",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "And beat them backward home.",
-          "plainText": "And beat them backward home",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@133999/line-1",
+          "start": 0,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3698191,
+        "end": 3698305,
+        "line": 136423,
+        "column": 1,
+        "path": "chap20/p@133999",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-5-stage-002",
+      "id": "macbeth/sceneV_20.5/p@134117",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nHang out our banners on the outward walls;\nThe cry is still, “They come!” Our castle’s strength\nWill laugh a siege to scorn: here let them lie\nTill famine and the ague eat them up.\nWere they not forc’d with those that should be ours,\nWe might have met them dareful, beard to beard,\nAnd beat them backward home.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-3",
+          "start": 52,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-4",
+          "start": 105,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-5",
+          "start": 152,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-6",
+          "start": 190,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-7",
+          "start": 243,
+          "end": 290,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134117/line-8",
+          "start": 291,
+          "end": 319,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698309,
+        "end": 3698688,
+        "line": 136426,
+        "column": 1,
+        "path": "chap20/p@134117",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@134500",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[A cry of women within.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134500/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698692,
+        "end": 3698744,
+        "line": 136437,
+        "column": 1,
+        "path": "chap20/p@134500",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@134556",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "What is that noise?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134556/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698748,
+        "end": 3698792,
+        "line": 136439,
+        "column": 1,
+        "path": "chap20/p@134556",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@134604",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SEYTON.\nIt is the cry of women, my good lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134604/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134604/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698796,
+        "end": 3698871,
+        "line": 136443,
+        "column": 1,
+        "path": "chap20/p@134604",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "SEYTON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@134683",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134683/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698875,
+        "end": 3698910,
+        "line": 136448,
+        "column": 1,
+        "path": "chap20/p@134683",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@134722",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI have almost forgot the taste of fears.\nThe time has been, my senses would have cool’d\nTo hear a night-shriek; and my fell of hair\nWould at a dismal treatise rouse and stir\nAs life were in’t. I have supp’d full with horrors;\nDireness, familiar to my slaughterous thoughts,\nCannot once start me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-2",
+          "start": 9,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-3",
+          "start": 50,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-4",
+          "start": 97,
+          "end": 140,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-5",
+          "start": 141,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-6",
+          "start": 183,
+          "end": 234,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-7",
+          "start": 235,
+          "end": 282,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@134722/line-8",
+          "start": 283,
+          "end": 304,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698914,
+        "end": 3699278,
+        "line": 136450,
+        "column": 1,
+        "path": "chap20/p@134722",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@135090",
       "type": "stage",
-      "text": "[A cry of women within.]"
-    },
-    {
-      "id": "macbeth-5-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "seyton",
-        "name": "SEYTON",
-        "displayName": "Seyton"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Seyton.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "It is the cry of women, my good lord.",
-          "plainText": "It is the cry of women my good lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.5/p@135090/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3699282,
+        "end": 3699350,
+        "line": 136461,
+        "column": 1,
+        "path": "chap20/p@135090",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-5-stage-003",
+      "id": "macbeth/sceneV_20.5/p@135162",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Wherefore was that cry?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@135162/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3699354,
+        "end": 3699402,
+        "line": 136463,
+        "column": 1,
+        "path": "chap20/p@135162",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@135214",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SEYTON.\nThe Queen, my lord, is dead.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@135214/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135214/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3699406,
+        "end": 3699472,
+        "line": 136467,
+        "column": 1,
+        "path": "chap20/p@135214",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "SEYTON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@135284",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nShe should have died hereafter.\nThere would have been a time for such a word.\nTomorrow, and tomorrow, and tomorrow,\nCreeps in this petty pace from day to day,\nTo the last syllable of recorded time;\nAnd all our yesterdays have lighted fools\nThe way to dusty death. Out, out, brief candle!\nLife’s but a walking shadow; a poor player,\nThat struts and frets his hour upon the stage,\nAnd then is heard no more: it is a tale\nTold by an idiot, full of sound and fury,\nSignifying nothing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-2",
+          "start": 9,
+          "end": 40,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-3",
+          "start": 41,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-4",
+          "start": 87,
+          "end": 124,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-5",
+          "start": 125,
+          "end": 167,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-6",
+          "start": 168,
+          "end": 206,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-7",
+          "start": 207,
+          "end": 248,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-8",
+          "start": 249,
+          "end": 296,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-9",
+          "start": 297,
+          "end": 340,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-10",
+          "start": 341,
+          "end": 387,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-11",
+          "start": 388,
+          "end": 427,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-12",
+          "start": 428,
+          "end": 469,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@135284/line-13",
+          "start": 470,
+          "end": 489,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3699476,
+        "end": 3700050,
+        "line": 136472,
+        "column": 1,
+        "path": "chap20/p@135284",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@135862",
       "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "macbeth-5-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Messenger.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "I have almost forgot the taste of fears.",
-          "plainText": "I have almost forgot the taste of fears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "The time has been, my senses would have cool'd",
-          "plainText": "The time has been my senses would have cool'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "To hear a night-shriek; and my fell of hair",
-          "plainText": "To hear a nightshriek and my fell of hair",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 4,
-          "text": "Would at a dismal treatise rouse and stir",
-          "plainText": "Would at a dismal treatise rouse and stir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 5,
-          "text": "As life were in't. I have supp'd full with horrors;",
-          "plainText": "As life were in't I have supp'd full with horrors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 6,
-          "text": "Direness, familiar to my slaughterous thoughts,",
-          "plainText": "Direness familiar to my slaughterous thoughts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 7,
-          "text": "Cannot once start me.",
-          "plainText": "Cannot once start me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@135862/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-5-stage-004",
-      "type": "stage",
-      "text": "Enter Seyton."
-    },
-    {
-      "id": "macbeth-5-5-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "seyton",
-        "name": "SEYTON",
-        "displayName": "Seyton"
+      ],
+      "sourceRef": {
+        "start": 3700054,
+        "end": 3700127,
+        "line": 136488,
+        "column": 1,
+        "path": "chap20/p@135862",
+        "anchor": "sceneV_20.5"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@135939",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Thou com’st to use thy tongue; thy story quickly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "The Queen, my lord, is dead.",
-          "plainText": "The Queen my lord is dead",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.5/p@135939/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700131,
+        "end": 3700205,
+        "line": 136490,
+        "column": 1,
+        "path": "chap20/p@135939",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-5-5-speech-005",
+      "id": "macbeth/sceneV_20.5/p@136017",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSENGER.\nGracious my lord,\nI should report that which I say I saw,\nBut know not how to do’t.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "She should have died hereafter.",
-          "plainText": "She should have died hereafter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136017/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "There would have been a time for such a word.",
-          "plainText": "There would have been a time for such a word",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136017/line-2",
+          "start": 11,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 3,
-          "text": "Tomorrow, and tomorrow, and tomorrow,",
-          "plainText": "Tomorrow and tomorrow and tomorrow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136017/line-3",
+          "start": 29,
+          "end": 68,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 4,
-          "text": "Creeps in this petty pace from day to day,",
-          "plainText": "Creeps in this petty pace from day to day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 5,
-          "text": "To the last syllable of recorded time;",
-          "plainText": "To the last syllable of recorded time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 6,
-          "text": "And all our yesterdays have lighted fools",
-          "plainText": "And all our yesterdays have lighted fools",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 7,
-          "text": "The way to dusty death. Out, out, brief candle!",
-          "plainText": "The way to dusty death Out out brief candle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 8,
-          "text": "Life's but a walking shadow; a poor player,",
-          "plainText": "Life's but a walking shadow a poor player",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 9,
-          "text": "That struts and frets his hour upon the stage,",
-          "plainText": "That struts and frets his hour upon the stage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 10,
-          "text": "And then is heard no more: it is a tale",
-          "plainText": "And then is heard no more it is a tale",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 11,
-          "text": "Told by an idiot, full of sound and fury,",
-          "plainText": "Told by an idiot full of sound and fury",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 12,
-          "text": "Signifying nothing.",
-          "plainText": "Signifying nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136017/line-4",
+          "start": 69,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-5-stage-005",
-      "type": "stage",
-      "text": "Enter a Messenger."
-    },
-    {
-      "id": "macbeth-5-5-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "messenger",
-        "name": "MESSENGER",
-        "displayName": "Messenger"
+      ],
+      "sourceRef": {
+        "start": 3700209,
+        "end": 3700343,
+        "line": 136494,
+        "column": 1,
+        "path": "chap20/p@136017",
+        "anchor": "sceneV_20.5"
       },
+      "speakerLabel": "MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.5/p@136155",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nWell, say, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Gracious my lord,",
-          "plainText": "Gracious my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136155/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 2,
-          "text": "I should report that which I say I saw,",
-          "plainText": "I should report that which I say I saw",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 3,
-          "text": "But know not how to do't.",
-          "plainText": "But know not how to do't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136155/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700347,
+        "end": 3700401,
+        "line": 136501,
+        "column": 1,
+        "path": "chap20/p@136155",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-5-speech-007",
+      "id": "macbeth/sceneV_20.5/p@136213",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSENGER.\nAs I did stand my watch upon the hill,\nI look’d toward Birnam, and anon, methought,\nThe wood began to move.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Well, say, sir.",
-          "plainText": "Well say sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.5/p@136213/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136213/line-2",
+          "start": 11,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136213/line-3",
+          "start": 50,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136213/line-4",
+          "start": 95,
+          "end": 118,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700405,
+        "end": 3700563,
+        "line": 136506,
+        "column": 1,
+        "path": "chap20/p@136213",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "macbeth-5-5-speech-008",
+      "id": "macbeth/sceneV_20.5/p@136375",
       "type": "speech",
-      "speaker": {
-        "id": "messenger",
-        "name": "MESSENGER",
-        "displayName": "Messenger"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nLiar, and slave!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "As I did stand my watch upon the hill,",
-          "plainText": "As I did stand my watch upon the hill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136375/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "I look'd toward Birnam, and anon, methought,",
-          "plainText": "I look'd toward Birnam and anon methought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "The wood began to move.",
-          "plainText": "The wood began to move",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136375/line-2",
+          "start": 9,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700567,
+        "end": 3700622,
+        "line": 136513,
+        "column": 1,
+        "path": "chap20/p@136375",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-5-speech-009",
+      "id": "macbeth/sceneV_20.5/p@136434",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSENGER.\nLet me endure your wrath, if’t be not so.\nWithin this three mile may you see it coming;\nI say, a moving grove.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Liar, and slave!",
-          "plainText": "Liar and slave",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.5/p@136434/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136434/line-2",
+          "start": 11,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136434/line-3",
+          "start": 53,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136434/line-4",
+          "start": 99,
+          "end": 121,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700626,
+        "end": 3700787,
+        "line": 136518,
+        "column": 1,
+        "path": "chap20/p@136434",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "macbeth-5-5-speech-010",
+      "id": "macbeth/sceneV_20.5/p@136599",
       "type": "speech",
-      "speaker": {
-        "id": "messenger",
-        "name": "MESSENGER",
-        "displayName": "Messenger"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nIf thou speak’st false,\nUpon the next tree shalt thou hang alive,\nTill famine cling thee: if thy speech be sooth,\nI care not if thou dost for me as much.—\nI pull in resolution; and begin\nTo doubt th’ equivocation of the fiend,\nThat lies like truth. “Fear not, till Birnam wood\nDo come to Dunsinane;” and now a wood\nComes toward Dunsinane.—Arm, arm, and out!—\nIf this which he avouches does appear,\nThere is nor flying hence nor tarrying here.\nI ’gin to be aweary of the sun,\nAnd wish th’ estate o’ th’ world were now undone.—\nRing the alarum bell!—Blow, wind! come, wrack!\nAt least we’ll die with harness on our back.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Let me endure your wrath, if't be not so.",
-          "plainText": "Let me endure your wrath if't be not so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136599/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "Within this three mile may you see it coming;",
-          "plainText": "Within this three mile may you see it coming",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136599/line-2",
+          "start": 9,
+          "end": 32,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "I say, a moving grove.",
-          "plainText": "I say a moving grove",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@136599/line-3",
+          "start": 33,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-4",
+          "start": 75,
+          "end": 122,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-5",
+          "start": 123,
+          "end": 163,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-6",
+          "start": 164,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-7",
+          "start": 196,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-8",
+          "start": 236,
+          "end": 285,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-9",
+          "start": 286,
+          "end": 323,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-10",
+          "start": 324,
+          "end": 367,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-11",
+          "start": 368,
+          "end": 406,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-12",
+          "start": 407,
+          "end": 451,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-13",
+          "start": 452,
+          "end": 483,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-14",
+          "start": 484,
+          "end": 534,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-15",
+          "start": 535,
+          "end": 581,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.5/p@136599/line-16",
+          "start": 582,
+          "end": 626,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3700791,
+        "end": 3701517,
+        "line": 136525,
+        "column": 1,
+        "path": "chap20/p@136599",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-5-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "id": "macbeth/sceneV_20.5/p@137329",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "If thou speak'st false,",
-          "plainText": "If thou speak'st false",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "Upon the next tree shalt thou hang alive,",
-          "plainText": "Upon the next tree shalt thou hang alive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 3,
-          "text": "Till famine cling thee: if thy speech be sooth,",
-          "plainText": "Till famine cling thee if thy speech be sooth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 4,
-          "text": "I care not if thou dost for me as much.—",
-          "plainText": "I care not if thou dost for me as much",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 5,
-          "text": "I pull in resolution; and begin",
-          "plainText": "I pull in resolution and begin",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 6,
-          "text": "To doubt th' equivocation of the fiend,",
-          "plainText": "To doubt th' equivocation of the fiend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 7,
-          "text": "That lies like truth. \"Fear not, till Birnam wood",
-          "plainText": "That lies like truth Fear not till Birnam wood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 8,
-          "text": "Do come to Dunsinane;\" and now a wood",
-          "plainText": "Do come to Dunsinane and now a wood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 9,
-          "text": "Comes toward Dunsinane.—Arm, arm, and out!—",
-          "plainText": "Comes toward DunsinaneArm arm and out",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 10,
-          "text": "If this which he avouches does appear,",
-          "plainText": "If this which he avouches does appear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 11,
-          "text": "There is nor flying hence nor tarrying here.",
-          "plainText": "There is nor flying hence nor tarrying here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 12,
-          "text": "I 'gin to be aweary of the sun,",
-          "plainText": "I 'gin to be aweary of the sun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 13,
-          "text": "And wish th' estate o' th' world were now undone.—",
-          "plainText": "And wish th' estate o' th' world were now undone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 14,
-          "text": "Ring the alarum bell!—Blow, wind! come, wrack!",
-          "plainText": "Ring the alarum bellBlow wind come wrack",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 15,
-          "text": "At least we'll die with harness on our back.",
-          "plainText": "At least we'll die with harness on our back",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.5/p@137329/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-5-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      ],
+      "sourceRef": {
+        "start": 3701521,
+        "end": 3701558,
+        "line": 136544,
+        "column": 1,
+        "path": "chap20/p@137329",
+        "anchor": "sceneV_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

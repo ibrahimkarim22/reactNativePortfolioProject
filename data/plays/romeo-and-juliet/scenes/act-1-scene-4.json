@@ -1,1664 +1,1808 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-1-4",
+    "kind": "scene",
+    "heading": "SCENE IV. A Street.",
     "act": 1,
     "scene": 4,
-    "label": "Act 1, Scene 4",
-    "title": "SCENE IV. A Street.",
-    "location": "A Street.",
-    "orderInPlay": 4
+    "parentSectionId": "romeo-and-juliet-act-5424",
+    "orderInPlay": 10,
+    "sourceRef": {
+      "start": 5333162,
+      "end": 5333222,
+      "line": 198268,
+      "column": 1,
+      "path": "chap30/h3@34162",
+      "anchor": "sceneI_30.4"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-1-4-stage-001",
+      "id": "romeo-and-juliet/sceneI_30.4/h3@34162",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. A Street.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/h3@34162/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5333162,
+        "end": 5333222,
+        "line": 198268,
+        "column": 1,
+        "path": "chap30/h3@34162",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.4/p@34226",
       "type": "stage",
-      "text": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others."
-    },
-    {
-      "id": "romeo-and-juliet-1-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 32,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 50,
+          "end": 72,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "What, shall this speech be spoke for our excuse?",
-          "plainText": "What shall this speech be spoke for our excuse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Or shall we on without apology?",
-          "plainText": "Or shall we on without apology",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34226/line-1",
+          "start": 0,
+          "end": 84,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5333226,
+        "end": 5333396,
+        "line": 198270,
+        "column": 1,
+        "path": "chap30/p@34226",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-002",
+      "id": "romeo-and-juliet/sceneI_30.4/p@34400",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWhat, shall this speech be spoke for our excuse?\nOr shall we on without apology?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "The date is out of such prolixity:",
-          "plainText": "The date is out of such prolixity",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34400/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "We'll have no Cupid hoodwink'd with a scarf,",
-          "plainText": "We'll have no Cupid hoodwink'd with a scarf",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34400/line-2",
+          "start": 7,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 3,
-          "text": "Bearing a Tartar's painted bow of lath,",
-          "plainText": "Bearing a Tartar's painted bow of lath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 4,
-          "text": "Scaring the ladies like a crow-keeper;",
-          "plainText": "Scaring the ladies like a crowkeeper",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 5,
-          "text": "Nor no without-book prologue, faintly spoke",
-          "plainText": "Nor no withoutbook prologue faintly spoke",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 6,
-          "text": "After the prompter, for our entrance:",
-          "plainText": "After the prompter for our entrance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 7,
-          "text": "But let them measure us by what they will,",
-          "plainText": "But let them measure us by what they will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 8,
-          "text": "We'll measure them a measure, and be gone.",
-          "plainText": "We'll measure them a measure and be gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34400/line-3",
+          "start": 56,
+          "end": 87,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5333400,
+        "end": 5333522,
+        "line": 198273,
+        "column": 1,
+        "path": "chap30/p@34400",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-003",
+      "id": "romeo-and-juliet/sceneI_30.4/p@34526",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nThe date is out of such prolixity:\nWe’ll have no Cupid hoodwink’d with a scarf,\nBearing a Tartar’s painted bow of lath,\nScaring the ladies like a crow-keeper;\nNor no without-book prologue, faintly spoke\nAfter the prompter, for our entrance:\nBut let them measure us by what they will,\nWe’ll measure them a measure, and be gone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Give me a torch, I am not for this ambling;",
-          "plainText": "Give me a torch I am not for this ambling",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Being but heavy I will bear the light.",
-          "plainText": "Being but heavy I will bear the light",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-2",
+          "start": 10,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-3",
+          "start": 45,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-4",
+          "start": 90,
+          "end": 129,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-5",
+          "start": 130,
+          "end": 168,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-6",
+          "start": 169,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-7",
+          "start": 213,
+          "end": 250,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-8",
+          "start": 251,
+          "end": 293,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34526/line-9",
+          "start": 294,
+          "end": 336,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5333526,
+        "end": 5333927,
+        "line": 198279,
+        "column": 1,
+        "path": "chap30/p@34526",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-004",
+      "id": "romeo-and-juliet/sceneI_30.4/p@34931",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nGive me a torch, I am not for this ambling;\nBeing but heavy I will bear the light.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Nay, gentle Romeo, we must have you dance.",
-          "plainText": "Nay gentle Romeo we must have you dance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@34931/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34931/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@34931/line-3",
+          "start": 51,
+          "end": 89,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5333931,
+        "end": 5334055,
+        "line": 198291,
+        "column": 1,
+        "path": "chap30/p@34931",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-005",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35059",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nNay, gentle Romeo, we must have you dance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Not I, believe me, you have dancing shoes,",
-          "plainText": "Not I believe me you have dancing shoes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35059/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "With nimble soles, I have a soul of lead",
-          "plainText": "With nimble soles I have a soul of lead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "So stakes me to the ground I cannot move.",
-          "plainText": "So stakes me to the ground I cannot move",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35059/line-2",
+          "start": 10,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334059,
+        "end": 5334141,
+        "line": 198297,
+        "column": 1,
+        "path": "chap30/p@35059",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-006",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35145",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nNot I, believe me, you have dancing shoes,\nWith nimble soles, I have a soul of lead\nSo stakes me to the ground I cannot move.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "You are a lover, borrow Cupid's wings,",
-          "plainText": "You are a lover borrow Cupid's wings",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35145/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 2,
-          "text": "And soar with them above a common bound.",
-          "plainText": "And soar with them above a common bound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35145/line-2",
+          "start": 7,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35145/line-3",
+          "start": 50,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35145/line-4",
+          "start": 91,
+          "end": 132,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334145,
+        "end": 5334317,
+        "line": 198302,
+        "column": 1,
+        "path": "chap30/p@35145",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-007",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35321",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nYou are a lover, borrow Cupid’s wings,\nAnd soar with them above a common bound.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "I am too sore enpierced with his shaft",
-          "plainText": "I am too sore enpierced with his shaft",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35321/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "To soar with his light feathers, and so bound,",
-          "plainText": "To soar with his light feathers and so bound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35321/line-2",
+          "start": 10,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "I cannot bound a pitch above dull woe.",
-          "plainText": "I cannot bound a pitch above dull woe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 4,
-          "text": "Under love's heavy burden do I sink.",
-          "plainText": "Under love's heavy burden do I sink",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35321/line-3",
+          "start": 49,
+          "end": 89,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334321,
+        "end": 5334445,
+        "line": 198309,
+        "column": 1,
+        "path": "chap30/p@35321",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-008",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35449",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI am too sore enpierced with his shaft\nTo soar with his light feathers, and so bound,\nI cannot bound a pitch above dull woe.\nUnder love’s heavy burden do I sink.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "And, to sink in it, should you burden love;",
-          "plainText": "And to sink in it should you burden love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35449/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Too great oppression for a tender thing.",
-          "plainText": "Too great oppression for a tender thing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35449/line-2",
+          "start": 7,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35449/line-3",
+          "start": 46,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35449/line-4",
+          "start": 93,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35449/line-5",
+          "start": 132,
+          "end": 168,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334449,
+        "end": 5334662,
+        "line": 198315,
+        "column": 1,
+        "path": "chap30/p@35449",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-009",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35666",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nAnd, to sink in it, should you burden love;\nToo great oppression for a tender thing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Is love a tender thing? It is too rough,",
-          "plainText": "Is love a tender thing It is too rough",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35666/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "Too rude, too boisterous; and it pricks like thorn.",
-          "plainText": "Too rude too boisterous and it pricks like thorn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35666/line-2",
+          "start": 10,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35666/line-3",
+          "start": 54,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334666,
+        "end": 5334795,
+        "line": 198323,
+        "column": 1,
+        "path": "chap30/p@35666",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-010",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35799",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nIs love a tender thing? It is too rough,\nToo rude, too boisterous; and it pricks like thorn.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "If love be rough with you, be rough with love;",
-          "plainText": "If love be rough with you be rough with love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35799/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "Prick love for pricking, and you beat love down.",
-          "plainText": "Prick love for pricking and you beat love down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35799/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 3,
-          "text": "Give me a case to put my visage in: [Putting on a mask.]",
-          "plainText": "Give me a case to put my visage in Putting on a mask",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 4,
-          "text": "A visor for a visor. What care I",
-          "plainText": "A visor for a visor What care I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 5,
-          "text": "What curious eye doth quote deformities?",
-          "plainText": "What curious eye doth quote deformities",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 6,
-          "text": "Here are the beetle-brows shall blush for me.",
-          "plainText": "Here are the beetlebrows shall blush for me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35799/line-3",
+          "start": 48,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334799,
+        "end": 5334933,
+        "line": 198329,
+        "column": 1,
+        "path": "chap30/p@35799",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-011",
+      "id": "romeo-and-juliet/sceneI_30.4/p@35937",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nIf love be rough with you, be rough with love;\nPrick love for pricking, and you beat love down.\nGive me a case to put my visage in: [Putting on a mask.]\nA visor for a visor. What care I\nWhat curious eye doth quote deformities?\nHere are the beetle-brows shall blush for me.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 143,
+          "end": 161
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Come, knock and enter; and no sooner in",
-          "plainText": "Come knock and enter and no sooner in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "But every man betake him to his legs.",
-          "plainText": "But every man betake him to his legs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-3",
+          "start": 57,
+          "end": 105,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-4",
+          "start": 106,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-5",
+          "start": 163,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-6",
+          "start": 196,
+          "end": 236,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@35937/line-7",
+          "start": 237,
+          "end": 282,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5334937,
+        "end": 5335281,
+        "line": 198335,
+        "column": 1,
+        "path": "chap30/p@35937",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-012",
+      "id": "romeo-and-juliet/sceneI_30.4/p@36285",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nCome, knock and enter; and no sooner in\nBut every man betake him to his legs.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "A torch for me: let wantons, light of heart,",
-          "plainText": "A torch for me let wantons light of heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36285/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 2,
-          "text": "Tickle the senseless rushes with their heels;",
-          "plainText": "Tickle the senseless rushes with their heels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36285/line-2",
+          "start": 10,
+          "end": 49,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 3,
-          "text": "For I am proverb'd with a grandsire phrase,",
-          "plainText": "For I am proverb'd with a grandsire phrase",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 4,
-          "text": "I'll be a candle-holder and look on,",
-          "plainText": "I'll be a candleholder and look on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 5,
-          "text": "The game was ne'er so fair, and I am done.",
-          "plainText": "The game was ne'er so fair and I am done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36285/line-3",
+          "start": 50,
+          "end": 87,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5335285,
+        "end": 5335407,
+        "line": 198345,
+        "column": 1,
+        "path": "chap30/p@36285",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-013",
+      "id": "romeo-and-juliet/sceneI_30.4/p@36411",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nA torch for me: let wantons, light of heart,\nTickle the senseless rushes with their heels;\nFor I am proverb’d with a grandsire phrase,\nI’ll be a candle-holder and look on,\nThe game was ne’er so fair, and I am done.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Tut, dun's the mouse, the constable's own word:",
-          "plainText": "Tut dun's the mouse the constable's own word",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "If thou art dun, we'll draw thee from the mire",
-          "plainText": "If thou art dun we'll draw thee from the mire",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 3,
-          "text": "Or save your reverence love, wherein thou stickest",
-          "plainText": "Or save your reverence love wherein thou stickest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-3",
+          "start": 52,
+          "end": 97,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0043",
-          "number": 43,
-          "speechLineNumber": 4,
-          "text": "Up to the ears. Come, we burn daylight, ho.",
-          "plainText": "Up to the ears Come we burn daylight ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-4",
+          "start": 98,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-5",
+          "start": 142,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36411/line-6",
+          "start": 179,
+          "end": 221,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5335411,
+        "end": 5335682,
+        "line": 198351,
+        "column": 1,
+        "path": "chap30/p@36411",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-014",
+      "id": "romeo-and-juliet/sceneI_30.4/p@36686",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nTut, dun’s the mouse, the constable’s own word:\nIf thou art dun, we’ll draw thee from the mire\nOr save your reverence love, wherein thou stickest\nUp to the ears. Come, we burn daylight, ho.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Nay, that's not so.",
-          "plainText": "Nay that's not so",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36686/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36686/line-2",
+          "start": 10,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36686/line-3",
+          "start": 58,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36686/line-4",
+          "start": 105,
+          "end": 155,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36686/line-5",
+          "start": 156,
+          "end": 199,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5335686,
+        "end": 5335930,
+        "line": 198360,
+        "column": 1,
+        "path": "chap30/p@36686",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-015",
+      "id": "romeo-and-juliet/sceneI_30.4/p@36934",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nNay, that’s not so.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "I mean sir, in delay",
-          "plainText": "I mean sir in delay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36934/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0046",
-          "number": 46,
-          "speechLineNumber": 2,
-          "text": "We waste our lights in vain, light lights by day.",
-          "plainText": "We waste our lights in vain light lights by day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0047",
-          "number": 47,
-          "speechLineNumber": 3,
-          "text": "Take our good meaning, for our judgment sits",
-          "plainText": "Take our good meaning for our judgment sits",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0048",
-          "number": 48,
-          "speechLineNumber": 4,
-          "text": "Five times in that ere once in our five wits.",
-          "plainText": "Five times in that ere once in our five wits",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36934/line-2",
+          "start": 7,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5335934,
+        "end": 5335990,
+        "line": 198368,
+        "column": 1,
+        "path": "chap30/p@36934",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-016",
+      "id": "romeo-and-juliet/sceneI_30.4/p@36994",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nI mean sir, in delay\nWe waste our lights in vain, light lights by day.\nTake our good meaning, for our judgment sits\nFive times in that ere once in our five wits.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "And we mean well in going to this mask;",
-          "plainText": "And we mean well in going to this mask",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36994/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "But 'tis no wit to go.",
-          "plainText": "But 'tis no wit to go",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@36994/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36994/line-3",
+          "start": 31,
+          "end": 80,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36994/line-4",
+          "start": 81,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@36994/line-5",
+          "start": 126,
+          "end": 171,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5335994,
+        "end": 5336210,
+        "line": 198373,
+        "column": 1,
+        "path": "chap30/p@36994",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-017",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37214",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nAnd we mean well in going to this mask;\nBut ’tis no wit to go.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Why, may one ask?",
-          "plainText": "Why may one ask",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37214/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37214/line-2",
+          "start": 7,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37214/line-3",
+          "start": 47,
+          "end": 69,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336214,
+        "end": 5336318,
+        "line": 198381,
+        "column": 1,
+        "path": "chap30/p@37214",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-018",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37322",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nWhy, may one ask?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "I dreamt a dream tonight.",
-          "plainText": "I dreamt a dream tonight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37322/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37322/line-2",
+          "start": 10,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336322,
+        "end": 5336379,
+        "line": 198387,
+        "column": 1,
+        "path": "chap30/p@37322",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-019",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37383",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI dreamt a dream tonight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "And so did I.",
-          "plainText": "And so did I",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37383/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37383/line-2",
+          "start": 7,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336383,
+        "end": 5336445,
+        "line": 198392,
+        "column": 1,
+        "path": "chap30/p@37383",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-020",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37449",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nAnd so did I.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Well what was yours?",
-          "plainText": "Well what was yours",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37449/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37449/line-2",
+          "start": 10,
+          "end": 23,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336449,
+        "end": 5336502,
+        "line": 198397,
+        "column": 1,
+        "path": "chap30/p@37449",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-021",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37506",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nWell what was yours?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0055",
-          "number": 55,
-          "speechLineNumber": 1,
-          "text": "That dreamers often lie.",
-          "plainText": "That dreamers often lie",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37506/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37506/line-2",
+          "start": 7,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336506,
+        "end": 5336563,
+        "line": 198402,
+        "column": 1,
+        "path": "chap30/p@37506",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-022",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37567",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nThat dreamers often lie.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "In bed asleep, while they do dream things true.",
-          "plainText": "In bed asleep while they do dream things true",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37567/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37567/line-2",
+          "start": 10,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336567,
+        "end": 5336631,
+        "line": 198407,
+        "column": 1,
+        "path": "chap30/p@37567",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-023",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37635",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nIn bed asleep, while they do dream things true.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "O, then, I see Queen Mab hath been with you.",
-          "plainText": "O then I see Queen Mab hath been with you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37635/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0058",
-          "number": 58,
-          "speechLineNumber": 2,
-          "text": "She is the fairies' midwife, and she comes",
-          "plainText": "She is the fairies' midwife and she comes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0059",
-          "number": 59,
-          "speechLineNumber": 3,
-          "text": "In shape no bigger than an agate-stone",
-          "plainText": "In shape no bigger than an agatestone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0060",
-          "number": 60,
-          "speechLineNumber": 4,
-          "text": "On the fore-finger of an alderman,",
-          "plainText": "On the forefinger of an alderman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0061",
-          "number": 61,
-          "speechLineNumber": 5,
-          "text": "Drawn with a team of little atomies",
-          "plainText": "Drawn with a team of little atomies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0062",
-          "number": 62,
-          "speechLineNumber": 6,
-          "text": "Over men's noses as they lie asleep:",
-          "plainText": "Over men's noses as they lie asleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0063",
-          "number": 63,
-          "speechLineNumber": 7,
-          "text": "Her waggon-spokes made of long spinners' legs;",
-          "plainText": "Her waggonspokes made of long spinners' legs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0064",
-          "number": 64,
-          "speechLineNumber": 8,
-          "text": "The cover, of the wings of grasshoppers;",
-          "plainText": "The cover of the wings of grasshoppers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0065",
-          "number": 65,
-          "speechLineNumber": 9,
-          "text": "Her traces, of the smallest spider's web;",
-          "plainText": "Her traces of the smallest spider's web",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0066",
-          "number": 66,
-          "speechLineNumber": 10,
-          "text": "The collars, of the moonshine's watery beams;",
-          "plainText": "The collars of the moonshine's watery beams",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0067",
-          "number": 67,
-          "speechLineNumber": 11,
-          "text": "Her whip of cricket's bone; the lash, of film;",
-          "plainText": "Her whip of cricket's bone the lash of film",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0068",
-          "number": 68,
-          "speechLineNumber": 12,
-          "text": "Her waggoner, a small grey-coated gnat,",
-          "plainText": "Her waggoner a small greycoated gnat",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0069",
-          "number": 69,
-          "speechLineNumber": 13,
-          "text": "Not half so big as a round little worm",
-          "plainText": "Not half so big as a round little worm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0070",
-          "number": 70,
-          "speechLineNumber": 14,
-          "text": "Prick'd from the lazy finger of a maid:",
-          "plainText": "Prick'd from the lazy finger of a maid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0071",
-          "number": 71,
-          "speechLineNumber": 15,
-          "text": "Her chariot is an empty hazelnut,",
-          "plainText": "Her chariot is an empty hazelnut",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0072",
-          "number": 72,
-          "speechLineNumber": 16,
-          "text": "Made by the joiner squirrel or old grub,",
-          "plainText": "Made by the joiner squirrel or old grub",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0073",
-          "number": 73,
-          "speechLineNumber": 17,
-          "text": "Time out o' mind the fairies' coachmakers.",
-          "plainText": "Time out o' mind the fairies' coachmakers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0074",
-          "number": 74,
-          "speechLineNumber": 18,
-          "text": "And in this state she gallops night by night",
-          "plainText": "And in this state she gallops night by night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0075",
-          "number": 75,
-          "speechLineNumber": 19,
-          "text": "Through lovers' brains, and then they dream of love;",
-          "plainText": "Through lovers' brains and then they dream of love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0076",
-          "number": 76,
-          "speechLineNumber": 20,
-          "text": "O'er courtiers' knees, that dream on curtsies straight;",
-          "plainText": "O'er courtiers' knees that dream on curtsies straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0077",
-          "number": 77,
-          "speechLineNumber": 21,
-          "text": "O'er lawyers' fingers, who straight dream on fees;",
-          "plainText": "O'er lawyers' fingers who straight dream on fees",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0078",
-          "number": 78,
-          "speechLineNumber": 22,
-          "text": "O'er ladies' lips, who straight on kisses dream,",
-          "plainText": "O'er ladies' lips who straight on kisses dream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0079",
-          "number": 79,
-          "speechLineNumber": 23,
-          "text": "Which oft the angry Mab with blisters plagues,",
-          "plainText": "Which oft the angry Mab with blisters plagues",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0080",
-          "number": 80,
-          "speechLineNumber": 24,
-          "text": "Because their breaths with sweetmeats tainted are:",
-          "plainText": "Because their breaths with sweetmeats tainted are",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0081",
-          "number": 81,
-          "speechLineNumber": 25,
-          "text": "Sometime she gallops o'er a courtier's nose,",
-          "plainText": "Sometime she gallops o'er a courtier's nose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0082",
-          "number": 82,
-          "speechLineNumber": 26,
-          "text": "And then dreams he of smelling out a suit;",
-          "plainText": "And then dreams he of smelling out a suit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0083",
-          "number": 83,
-          "speechLineNumber": 27,
-          "text": "And sometime comes she with a tithe-pig's tail,",
-          "plainText": "And sometime comes she with a tithepig's tail",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0084",
-          "number": 84,
-          "speechLineNumber": 28,
-          "text": "Tickling a parson's nose as a lies asleep,",
-          "plainText": "Tickling a parson's nose as a lies asleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0085",
-          "number": 85,
-          "speechLineNumber": 29,
-          "text": "Then dreams he of another benefice:",
-          "plainText": "Then dreams he of another benefice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0086",
-          "number": 86,
-          "speechLineNumber": 30,
-          "text": "Sometime she driveth o'er a soldier's neck,",
-          "plainText": "Sometime she driveth o'er a soldier's neck",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0087",
-          "number": 87,
-          "speechLineNumber": 31,
-          "text": "And then dreams he of cutting foreign throats,",
-          "plainText": "And then dreams he of cutting foreign throats",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0088",
-          "number": 88,
-          "speechLineNumber": 32,
-          "text": "Of breaches, ambuscados, Spanish blades,",
-          "plainText": "Of breaches ambuscados Spanish blades",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0089",
-          "number": 89,
-          "speechLineNumber": 33,
-          "text": "Of healths five fathom deep; and then anon",
-          "plainText": "Of healths five fathom deep and then anon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0090",
-          "number": 90,
-          "speechLineNumber": 34,
-          "text": "Drums in his ear, at which he starts and wakes;",
-          "plainText": "Drums in his ear at which he starts and wakes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0091",
-          "number": 91,
-          "speechLineNumber": 35,
-          "text": "And, being thus frighted, swears a prayer or two,",
-          "plainText": "And being thus frighted swears a prayer or two",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0092",
-          "number": 92,
-          "speechLineNumber": 36,
-          "text": "And sleeps again. This is that very Mab",
-          "plainText": "And sleeps again This is that very Mab",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0093",
-          "number": 93,
-          "speechLineNumber": 37,
-          "text": "That plats the manes of horses in the night;",
-          "plainText": "That plats the manes of horses in the night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0094",
-          "number": 94,
-          "speechLineNumber": 38,
-          "text": "And bakes the elf-locks in foul sluttish hairs,",
-          "plainText": "And bakes the elflocks in foul sluttish hairs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0095",
-          "number": 95,
-          "speechLineNumber": 39,
-          "text": "Which, once untangled, much misfortune bodes:",
-          "plainText": "Which once untangled much misfortune bodes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0096",
-          "number": 96,
-          "speechLineNumber": 40,
-          "text": "This is the hag, when maids lie on their backs,",
-          "plainText": "This is the hag when maids lie on their backs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0097",
-          "number": 97,
-          "speechLineNumber": 41,
-          "text": "That presses them, and learns them first to bear,",
-          "plainText": "That presses them and learns them first to bear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0098",
-          "number": 98,
-          "speechLineNumber": 42,
-          "text": "Making them women of good carriage:",
-          "plainText": "Making them women of good carriage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0099",
-          "number": 99,
-          "speechLineNumber": 43,
-          "text": "This is she,—",
-          "plainText": "This is she",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37635/line-2",
+          "start": 7,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336635,
+        "end": 5336719,
+        "line": 198412,
+        "column": 1,
+        "path": "chap30/p@37635",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-024",
+      "id": "romeo-and-juliet/sceneI_30.4/p@37723",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nO, then, I see Queen Mab hath been with you.\nShe is the fairies’ midwife, and she comes\nIn shape no bigger than an agate-stone\nOn the fore-finger of an alderman,\nDrawn with a team of little atomies\nOver men’s noses as they lie asleep:\nHer waggon-spokes made of long spinners’ legs;\nThe cover, of the wings of grasshoppers;\nHer traces, of the smallest spider’s web;\nThe collars, of the moonshine’s watery beams;\nHer whip of cricket’s bone; the lash, of film;\nHer waggoner, a small grey-coated gnat,\nNot half so big as a round little worm\nPrick’d from the lazy finger of a maid:\nHer chariot is an empty hazelnut,\nMade by the joiner squirrel or old grub,\nTime out o’ mind the fairies’ coachmakers.\nAnd in this state she gallops night by night\nThrough lovers’ brains, and then they dream of love;\nO’er courtiers’ knees, that dream on curtsies straight;\nO’er lawyers’ fingers, who straight dream on fees;\nO’er ladies’ lips, who straight on kisses dream,\nWhich oft the angry Mab with blisters plagues,\nBecause their breaths with sweetmeats tainted are:\nSometime she gallops o’er a courtier’s nose,\nAnd then dreams he of smelling out a suit;\nAnd sometime comes she with a tithe-pig’s tail,\nTickling a parson’s nose as a lies asleep,\nThen dreams he of another benefice:\nSometime she driveth o’er a soldier’s neck,\nAnd then dreams he of cutting foreign throats,\nOf breaches, ambuscados, Spanish blades,\nOf healths five fathom deep; and then anon\nDrums in his ear, at which he starts and wakes;\nAnd, being thus frighted, swears a prayer or two,\nAnd sleeps again. This is that very Mab\nThat plats the manes of horses in the night;\nAnd bakes the elf-locks in foul sluttish hairs,\nWhich, once untangled, much misfortune bodes:\nThis is the hag, when maids lie on their backs,\nThat presses them, and learns them first to bear,\nMaking them women of good carriage:\nThis is she,—",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0100",
-          "number": 100,
-          "speechLineNumber": 1,
-          "text": "Peace, peace, Mercutio, peace,",
-          "plainText": "Peace peace Mercutio peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0101",
-          "number": 101,
-          "speechLineNumber": 2,
-          "text": "Thou talk'st of nothing.",
-          "plainText": "Thou talk'st of nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-2",
+          "start": 10,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-3",
+          "start": 55,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-4",
+          "start": 98,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-5",
+          "start": 137,
+          "end": 171,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-6",
+          "start": 172,
+          "end": 207,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-7",
+          "start": 208,
+          "end": 244,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-8",
+          "start": 245,
+          "end": 291,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-9",
+          "start": 292,
+          "end": 332,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-10",
+          "start": 333,
+          "end": 374,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-11",
+          "start": 375,
+          "end": 420,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-12",
+          "start": 421,
+          "end": 467,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-13",
+          "start": 468,
+          "end": 507,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-14",
+          "start": 508,
+          "end": 546,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-15",
+          "start": 547,
+          "end": 586,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-16",
+          "start": 587,
+          "end": 620,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-17",
+          "start": 621,
+          "end": 661,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-18",
+          "start": 662,
+          "end": 704,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-19",
+          "start": 705,
+          "end": 749,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-20",
+          "start": 750,
+          "end": 802,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-21",
+          "start": 803,
+          "end": 858,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-22",
+          "start": 859,
+          "end": 909,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-23",
+          "start": 910,
+          "end": 958,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-24",
+          "start": 959,
+          "end": 1005,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-25",
+          "start": 1006,
+          "end": 1056,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-26",
+          "start": 1057,
+          "end": 1101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-27",
+          "start": 1102,
+          "end": 1144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-28",
+          "start": 1145,
+          "end": 1192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-29",
+          "start": 1193,
+          "end": 1235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-30",
+          "start": 1236,
+          "end": 1271,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-31",
+          "start": 1272,
+          "end": 1315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-32",
+          "start": 1316,
+          "end": 1362,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-33",
+          "start": 1363,
+          "end": 1403,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-34",
+          "start": 1404,
+          "end": 1446,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-35",
+          "start": 1447,
+          "end": 1494,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-36",
+          "start": 1495,
+          "end": 1544,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-37",
+          "start": 1545,
+          "end": 1584,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-38",
+          "start": 1585,
+          "end": 1629,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-39",
+          "start": 1630,
+          "end": 1677,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-40",
+          "start": 1678,
+          "end": 1723,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-41",
+          "start": 1724,
+          "end": 1771,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-42",
+          "start": 1772,
+          "end": 1821,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-43",
+          "start": 1822,
+          "end": 1857,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@37723/line-44",
+          "start": 1858,
+          "end": 1871,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5336723,
+        "end": 5338834,
+        "line": 198417,
+        "column": 1,
+        "path": "chap30/p@37723",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-025",
+      "id": "romeo-and-juliet/sceneI_30.4/p@39838",
       "type": "speech",
-      "speaker": {
-        "id": "mercutio",
-        "name": "MERCUTIO",
-        "displayName": "Mercutio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nPeace, peace, Mercutio, peace,\nThou talk’st of nothing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0102",
-          "number": 102,
-          "speechLineNumber": 1,
-          "text": "True, I talk of dreams,",
-          "plainText": "True I talk of dreams",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@39838/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0103",
-          "number": 103,
-          "speechLineNumber": 2,
-          "text": "Which are the children of an idle brain,",
-          "plainText": "Which are the children of an idle brain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@39838/line-2",
+          "start": 7,
+          "end": 37,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0104",
-          "number": 104,
-          "speechLineNumber": 3,
-          "text": "Begot of nothing but vain fantasy,",
-          "plainText": "Begot of nothing but vain fantasy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0105",
-          "number": 105,
-          "speechLineNumber": 4,
-          "text": "Which is as thin of substance as the air,",
-          "plainText": "Which is as thin of substance as the air",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0106",
-          "number": 106,
-          "speechLineNumber": 5,
-          "text": "And more inconstant than the wind, who woos",
-          "plainText": "And more inconstant than the wind who woos",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0107",
-          "number": 107,
-          "speechLineNumber": 6,
-          "text": "Even now the frozen bosom of the north,",
-          "plainText": "Even now the frozen bosom of the north",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0108",
-          "number": 108,
-          "speechLineNumber": 7,
-          "text": "And, being anger'd, puffs away from thence,",
-          "plainText": "And being anger'd puffs away from thence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0109",
-          "number": 109,
-          "speechLineNumber": 8,
-          "text": "Turning his side to the dew-dropping south.",
-          "plainText": "Turning his side to the dewdropping south",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@39838/line-3",
+          "start": 38,
+          "end": 62,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5338838,
+        "end": 5338935,
+        "line": 198464,
+        "column": 1,
+        "path": "chap30/p@39838",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-026",
+      "id": "romeo-and-juliet/sceneI_30.4/p@39939",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MERCUTIO.\nTrue, I talk of dreams,\nWhich are the children of an idle brain,\nBegot of nothing but vain fantasy,\nWhich is as thin of substance as the air,\nAnd more inconstant than the wind, who woos\nEven now the frozen bosom of the north,\nAnd, being anger’d, puffs away from thence,\nTurning his side to the dew-dropping south.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0110",
-          "number": 110,
-          "speechLineNumber": 1,
-          "text": "This wind you talk of blows us from ourselves:",
-          "plainText": "This wind you talk of blows us from ourselves",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0111",
-          "number": 111,
-          "speechLineNumber": 2,
-          "text": "Supper is done, and we shall come too late.",
-          "plainText": "Supper is done and we shall come too late",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-2",
+          "start": 10,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-3",
+          "start": 34,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-4",
+          "start": 75,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-5",
+          "start": 110,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-6",
+          "start": 152,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-7",
+          "start": 196,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-8",
+          "start": 236,
+          "end": 279,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@39939/line-9",
+          "start": 280,
+          "end": 323,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5338939,
+        "end": 5339327,
+        "line": 198470,
+        "column": 1,
+        "path": "chap30/p@39939",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "MERCUTIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-027",
+      "id": "romeo-and-juliet/sceneI_30.4/p@40331",
       "type": "speech",
-      "speaker": {
-        "id": "romeo",
-        "name": "ROMEO",
-        "displayName": "Romeo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nThis wind you talk of blows us from ourselves:\nSupper is done, and we shall come too late.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0112",
-          "number": 112,
-          "speechLineNumber": 1,
-          "text": "I fear too early: for my mind misgives",
-          "plainText": "I fear too early for my mind misgives",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@40331/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0113",
-          "number": 113,
-          "speechLineNumber": 2,
-          "text": "Some consequence yet hanging in the stars,",
-          "plainText": "Some consequence yet hanging in the stars",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@40331/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-1-4-line-0114",
-          "number": 114,
-          "speechLineNumber": 3,
-          "text": "Shall bitterly begin his fearful date",
-          "plainText": "Shall bitterly begin his fearful date",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0115",
-          "number": 115,
-          "speechLineNumber": 4,
-          "text": "With this night's revels; and expire the term",
-          "plainText": "With this night's revels and expire the term",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0116",
-          "number": 116,
-          "speechLineNumber": 5,
-          "text": "Of a despised life, clos'd in my breast",
-          "plainText": "Of a despised life clos'd in my breast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0117",
-          "number": 117,
-          "speechLineNumber": 6,
-          "text": "By some vile forfeit of untimely death.",
-          "plainText": "By some vile forfeit of untimely death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0118",
-          "number": 118,
-          "speechLineNumber": 7,
-          "text": "But he that hath the steerage of my course",
-          "plainText": "But he that hath the steerage of my course",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-1-4-line-0119",
-          "number": 119,
-          "speechLineNumber": 8,
-          "text": "Direct my suit. On, lusty gentlemen!",
-          "plainText": "Direct my suit On lusty gentlemen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneI_30.4/p@40331/line-3",
+          "start": 57,
+          "end": 100,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5339331,
+        "end": 5339466,
+        "line": 198482,
+        "column": 1,
+        "path": "chap30/p@40331",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-speech-028",
+      "id": "romeo-and-juliet/sceneI_30.4/p@40470",
       "type": "speech",
-      "speaker": {
-        "id": "benvolio",
-        "name": "BENVOLIO",
-        "displayName": "Benvolio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROMEO.\nI fear too early: for my mind misgives\nSome consequence yet hanging in the stars,\nShall bitterly begin his fearful date\nWith this night’s revels; and expire the term\nOf a despised life, clos’d in my breast\nBy some vile forfeit of untimely death.\nBut he that hath the steerage of my course\nDirect my suit. On, lusty gentlemen!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-1-4-line-0120",
-          "number": 120,
-          "speechLineNumber": 1,
-          "text": "Strike, drum.",
-          "plainText": "Strike drum",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-2",
+          "start": 7,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-3",
+          "start": 46,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-4",
+          "start": 89,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-5",
+          "start": 127,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-6",
+          "start": 173,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-7",
+          "start": 213,
+          "end": 252,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-8",
+          "start": 253,
+          "end": 295,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40470/line-9",
+          "start": 296,
+          "end": 332,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5339470,
+        "end": 5339867,
+        "line": 198488,
+        "column": 1,
+        "path": "chap30/p@40470",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "ROMEO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-1-4-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneI_30.4/p@40871",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BENVOLIO.\nStrike, drum.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40871/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40871/line-2",
+          "start": 10,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5339871,
+        "end": 5339924,
+        "line": 198500,
+        "column": 1,
+        "path": "chap30/p@40871",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": "BENVOLIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneI_30.4/p@40928",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneI_30.4/p@40928/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5339928,
+        "end": 5339965,
+        "line": 198505,
+        "column": 1,
+        "path": "chap30/p@40928",
+        "anchor": "sceneI_30.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

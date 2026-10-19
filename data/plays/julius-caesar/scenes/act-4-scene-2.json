@@ -1,887 +1,1387 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "julius-caesar",
-    "title": "The Tragedy of Julius Caesar",
+    "title": "THE TRAGEDY OF JULIUS CAESAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap17"
   },
-  "scene": {
+  "section": {
     "id": "julius-caesar-4-2",
+    "kind": "scene",
+    "heading": "SCENE II. Before Brutus’ tent, in the camp near Sardis.",
     "act": 4,
     "scene": 2,
-    "label": "Act 4, Scene 2",
-    "title": "SCENE II. Before Brutus' tent, in the camp near Sardis.",
-    "location": "Before Brutus' tent, in the camp near Sardis.",
-    "orderInPlay": 12
+    "parentSectionId": "julius-caesar-act-109006",
+    "orderInPlay": 20,
+    "sourceRef": {
+      "start": 3122677,
+      "end": 3122775,
+      "line": 113306,
+      "column": 1,
+      "path": "chap17/h3@112280",
+      "anchor": "sceneIV_17.2"
+    }
   },
   "content": [
     {
-      "id": "julius-caesar-4-2-stage-001",
+      "id": "julius-caesar/sceneIV_17.2/h3@112280",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Before Brutus’ tent, in the camp near Sardis.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/h3@112280/line-1",
+          "start": 0,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3122677,
+        "end": 3122775,
+        "line": 113306,
+        "column": 1,
+        "path": "chap17/h3@112280",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@112382",
       "type": "stage",
-      "text": "Drum. Enter Brutus, Lucilius, Titinius and Soldiers; Pindarus meeting them; Lucius at some distance."
-    },
-    {
-      "id": "julius-caesar-4-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Drum. Enter Brutus, Lucilius, Titinius and Soldiers; Pindarus meeting them; Lucius at some distance.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "julius-caesar-4-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Stand, ho!",
-          "plainText": "Stand ho",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Give the word, ho! and stand.",
-          "plainText": "Give the word ho and stand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "What now, Lucilius! is Cassius near?",
-          "plainText": "What now Lucilius is Cassius near",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "He is at hand, and Pindarus is come",
-          "plainText": "He is at hand and Pindarus is come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 12,
+          "end": 38,
+          "className": "charname"
         },
         {
-          "id": "julius-caesar-4-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "To do you salutation from his master.",
-          "plainText": "To do you salutation from his master",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 43,
+          "end": 61,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 76,
+          "end": 82,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112382/line-1",
+          "start": 0,
+          "end": 100,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3122779,
+        "end": 3122998,
+        "line": 113309,
+        "column": 1,
+        "path": "chap17/p@112382",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-4-2-stage-002",
+      "id": "julius-caesar/sceneIV_17.2/p@112605",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nStand, ho!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112605/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112605/line-2",
+          "start": 8,
+          "end": 18,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123002,
+        "end": 3123050,
+        "line": 113313,
+        "column": 1,
+        "path": "chap17/p@112605",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@112657",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nGive the word, ho! and stand.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112657/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112657/line-2",
+          "start": 10,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123054,
+        "end": 3123123,
+        "line": 113318,
+        "column": 1,
+        "path": "chap17/p@112657",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@112730",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nWhat now, Lucilius! is Cassius near?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112730/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112730/line-2",
+          "start": 8,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123127,
+        "end": 3123201,
+        "line": 113323,
+        "column": 1,
+        "path": "chap17/p@112730",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@112808",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nHe is at hand, and Pindarus is come\nTo do you salutation from his master.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112808/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112808/line-2",
+          "start": 10,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112808/line-3",
+          "start": 46,
+          "end": 83,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123205,
+        "end": 3123323,
+        "line": 113328,
+        "column": 1,
+        "path": "chap17/p@112808",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@112930",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Pindarus gives a letter to Brutus.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 9,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 34,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@112930/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123327,
+        "end": 3123455,
+        "line": 113334,
+        "column": 1,
+        "path": "chap17/p@112930",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@113062",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nHe greets me well. Your master, Pindarus,\nIn his own change, or by ill officers,\nHath given me some worthy cause to wish\nThings done, undone: but, if he be at hand,\nI shall be satisfied.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-3",
+          "start": 50,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-4",
+          "start": 89,
+          "end": 128,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-5",
+          "start": 129,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113062/line-6",
+          "start": 173,
+          "end": 194,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123459,
+        "end": 3123703,
+        "line": 113338,
+        "column": 1,
+        "path": "chap17/p@113062",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@113310",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PINDARUS.\nI do not doubt\nBut that my noble master will appear\nSuch as he is, full of regard and honour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113310/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113310/line-2",
+          "start": 10,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113310/line-3",
+          "start": 25,
+          "end": 61,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113310/line-4",
+          "start": 62,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123707,
+        "end": 3123850,
+        "line": 113347,
+        "column": 1,
+        "path": "chap17/p@113310",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "PINDARUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@113457",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nHe is not doubted. A word, Lucilius;\nHow he received you, let me be resolv’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113457/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113457/line-2",
+          "start": 8,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113457/line-3",
+          "start": 45,
+          "end": 85,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123854,
+        "end": 3123974,
+        "line": 113354,
+        "column": 1,
+        "path": "chap17/p@113457",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@113581",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nWith courtesy and with respect enough,\nBut not with such familiar instances,\nNor with such free and friendly conference,\nAs he hath us’d of old.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113581/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113581/line-2",
+          "start": 10,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113581/line-3",
+          "start": 49,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113581/line-4",
+          "start": 87,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113581/line-5",
+          "start": 131,
+          "end": 154,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3123978,
+        "end": 3124177,
+        "line": 113360,
+        "column": 1,
+        "path": "chap17/p@113581",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@113784",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nThou hast describ’d\nA hot friend cooling. Ever note, Lucilius,\nWhen love begins to sicken and decay\nIt useth an enforced ceremony.\nThere are no tricks in plain and simple faith;\nBut hollow men, like horses hot at hand,\nMake gallant show and promise of their mettle;",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-3",
+          "start": 28,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-4",
+          "start": 71,
+          "end": 107,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-5",
+          "start": 108,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-6",
+          "start": 139,
+          "end": 185,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-7",
+          "start": 186,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@113784/line-8",
+          "start": 227,
+          "end": 273,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3124181,
+        "end": 3124514,
+        "line": 113368,
+        "column": 1,
+        "path": "chap17/p@113784",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114121",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Low march within.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114121/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3124518,
+        "end": 3124569,
+        "line": 113379,
+        "column": 1,
+        "path": "chap17/p@114121",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114176",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "But when they should endure the bloody spur,\nThey fall their crests, and like deceitful jades\nSink in the trial. Comes his army on?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114176/line-1",
+          "start": 0,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114176/line-2",
+          "start": 45,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114176/line-3",
+          "start": 94,
+          "end": 131,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3124573,
+        "end": 3124739,
+        "line": 113383,
+        "column": 1,
+        "path": "chap17/p@114176",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114346",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCILIUS.\nThey meant this night in Sardis to be quarter’d;\nThe greater part, the horse in general,\nAre come with Cassius.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114346/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114346/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114346/line-3",
+          "start": 59,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@114346/line-4",
+          "start": 99,
+          "end": 121,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3124743,
+        "end": 3124904,
+        "line": 113389,
+        "column": 1,
+        "path": "chap17/p@114346",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "LUCILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114511",
       "type": "stage",
-      "text": "[Pindarus gives a letter to Brutus.]"
-    },
-    {
-      "id": "julius-caesar-4-2-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Cassius and Soldiers.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 18,
+          "end": 26,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "He greets me well. Your master, Pindarus,",
-          "plainText": "He greets me well Your master Pindarus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "In his own change, or by ill officers,",
-          "plainText": "In his own change or by ill officers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "Hath given me some worthy cause to wish",
-          "plainText": "Hath given me some worthy cause to wish",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 4,
-          "text": "Things done, undone: but, if he be at hand,",
-          "plainText": "Things done undone but if he be at hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 5,
-          "text": "I shall be satisfied.",
-          "plainText": "I shall be satisfied",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114511/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3124908,
+        "end": 3125024,
+        "line": 113396,
+        "column": 1,
+        "path": "chap17/p@114511",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-006",
+      "id": "julius-caesar/sceneIV_17.2/p@114631",
       "type": "speech",
-      "speaker": {
-        "id": "pindarus",
-        "name": "PINDARUS",
-        "displayName": "Pindarus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nHark! he is arriv’d.\nMarch gently on to meet him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I do not doubt",
-          "plainText": "I do not doubt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114631/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "But that my noble master will appear",
-          "plainText": "But that my noble master will appear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114631/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "Such as he is, full of regard and honour.",
-          "plainText": "Such as he is full of regard and honour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114631/line-3",
+          "start": 29,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125028,
+        "end": 3125120,
+        "line": 113400,
+        "column": 1,
+        "path": "chap17/p@114631",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-007",
+      "id": "julius-caesar/sceneIV_17.2/p@114727",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CASSIUS.\nStand, ho!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "He is not doubted. A word, Lucilius;",
-          "plainText": "He is not doubted A word Lucilius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114727/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "How he received you, let me be resolv'd.",
-          "plainText": "How he received you let me be resolv'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114727/line-2",
+          "start": 9,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125124,
+        "end": 3125173,
+        "line": 113406,
+        "column": 1,
+        "path": "chap17/p@114727",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "CASSIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-008",
+      "id": "julius-caesar/sceneIV_17.2/p@114780",
       "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nStand, ho! Speak the word along.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "With courtesy and with respect enough,",
-          "plainText": "With courtesy and with respect enough",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114780/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 2,
-          "text": "But not with such familiar instances,",
-          "plainText": "But not with such familiar instances",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 3,
-          "text": "Nor with such free and friendly conference,",
-          "plainText": "Nor with such free and friendly conference",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 4,
-          "text": "As he hath us'd of old.",
-          "plainText": "As he hath us'd of old",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114780/line-2",
+          "start": 8,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125177,
+        "end": 3125247,
+        "line": 113411,
+        "column": 1,
+        "path": "chap17/p@114780",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-009",
+      "id": "julius-caesar/sceneIV_17.2/p@114854",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST SOLDIER.\nStand!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Thou hast describ'd",
-          "plainText": "Thou hast describ'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114854/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "A hot friend cooling. Ever note, Lucilius,",
-          "plainText": "A hot friend cooling Ever note Lucilius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 3,
-          "text": "When love begins to sicken and decay",
-          "plainText": "When love begins to sicken and decay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 4,
-          "text": "It useth an enforced ceremony.",
-          "plainText": "It useth an enforced ceremony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 5,
-          "text": "There are no tricks in plain and simple faith;",
-          "plainText": "There are no tricks in plain and simple faith",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 6,
-          "text": "But hollow men, like horses hot at hand,",
-          "plainText": "But hollow men like horses hot at hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 7,
-          "text": "Make gallant show and promise of their mettle;",
-          "plainText": "Make gallant show and promise of their mettle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114854/line-2",
+          "start": 15,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-stage-003",
-      "type": "stage",
-      "text": "[Low march within.]"
-    },
-    {
-      "id": "julius-caesar-4-2-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "lucilius",
-        "name": "LUCILIUS",
-        "displayName": "Lucilius"
+      ],
+      "sourceRef": {
+        "start": 3125251,
+        "end": 3125302,
+        "line": 113416,
+        "column": 1,
+        "path": "chap17/p@114854",
+        "anchor": "sceneIV_17.2"
       },
+      "speakerLabel": "FIRST SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114909",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND SOLDIER.\nStand!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "They meant this night in Sardis to be quarter'd;",
-          "plainText": "They meant this night in Sardis to be quarter'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114909/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "The greater part, the horse in general,",
-          "plainText": "The greater part the horse in general",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 3,
-          "text": "Are come with Cassius.",
-          "plainText": "Are come with Cassius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114909/line-2",
+          "start": 16,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-stage-004",
-      "type": "stage",
-      "text": "Enter Cassius and Soldiers."
-    },
-    {
-      "id": "julius-caesar-4-2-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
+      ],
+      "sourceRef": {
+        "start": 3125306,
+        "end": 3125358,
+        "line": 113421,
+        "column": 1,
+        "path": "chap17/p@114909",
+        "anchor": "sceneIV_17.2"
       },
+      "speakerLabel": "SECOND SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "julius-caesar/sceneIV_17.2/p@114965",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD SOLDIER.\nStand!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Hark! he is arriv'd.",
-          "plainText": "Hark he is arriv'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114965/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-4-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "March gently on to meet him.",
-          "plainText": "March gently on to meet him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@114965/line-2",
+          "start": 15,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125362,
+        "end": 3125413,
+        "line": 113426,
+        "column": 1,
+        "path": "chap17/p@114965",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "THIRD SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 14
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-012",
+      "id": "julius-caesar/sceneIV_17.2/p@115020",
       "type": "speech",
-      "speaker": {
-        "id": "cassius",
-        "name": "CASSIUS",
-        "displayName": "Cassius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CASSIUS.\nMost noble brother, you have done me wrong.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Stand, ho!",
-          "plainText": "Stand ho",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115020/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115020/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125417,
+        "end": 3125499,
+        "line": 113431,
+        "column": 1,
+        "path": "chap17/p@115020",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "CASSIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-013",
+      "id": "julius-caesar/sceneIV_17.2/p@115106",
       "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nJudge me, you gods; wrong I mine enemies?\nAnd if not so, how should I wrong a brother?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Stand, ho! Speak the word along.",
-          "plainText": "Stand ho Speak the word along",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115106/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115106/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115106/line-3",
+          "start": 50,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125503,
+        "end": 3125632,
+        "line": 113436,
+        "column": 1,
+        "path": "chap17/p@115106",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-014",
+      "id": "julius-caesar/sceneIV_17.2/p@115239",
       "type": "speech",
-      "speaker": {
-        "id": "first-soldier",
-        "name": "FIRST SOLDIER",
-        "displayName": "First Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CASSIUS.\nBrutus, this sober form of yours hides wrongs;\nAnd when you do them—",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Stand!",
-          "plainText": "Stand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115239/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115239/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115239/line-3",
+          "start": 56,
+          "end": 77,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125636,
+        "end": 3125748,
+        "line": 113442,
+        "column": 1,
+        "path": "chap17/p@115239",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "CASSIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-015",
+      "id": "julius-caesar/sceneIV_17.2/p@115355",
       "type": "speech",
-      "speaker": {
-        "id": "second-soldier",
-        "name": "SECOND SOLDIER",
-        "displayName": "Second Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nCassius, be content.\nSpeak your griefs softly, I do know you well.\nBefore the eyes of both our armies here,\nWhich should perceive nothing but love from us,\nLet us not wrangle. Bid them move away;\nThen in my tent, Cassius, enlarge your griefs,\nAnd I will give you audience.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Stand!",
-          "plainText": "Stand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-3",
+          "start": 29,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-4",
+          "start": 75,
+          "end": 115,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-5",
+          "start": 116,
+          "end": 163,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-6",
+          "start": 164,
+          "end": 203,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-7",
+          "start": 204,
+          "end": 250,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115355/line-8",
+          "start": 251,
+          "end": 280,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3125752,
+        "end": 3126092,
+        "line": 113448,
+        "column": 1,
+        "path": "chap17/p@115355",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-016",
+      "id": "julius-caesar/sceneIV_17.2/p@115699",
       "type": "speech",
-      "speaker": {
-        "id": "third-soldier",
-        "name": "THIRD SOLDIER",
-        "displayName": "Third Soldier"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CASSIUS.\nPindarus,\nBid our commanders lead their charges off\nA little from this ground.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Stand!",
-          "plainText": "Stand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115699/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115699/line-2",
+          "start": 9,
+          "end": 18,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115699/line-3",
+          "start": 19,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115699/line-4",
+          "start": 61,
+          "end": 87,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3126096,
+        "end": 3126223,
+        "line": 113459,
+        "column": 1,
+        "path": "chap17/p@115699",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "CASSIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-017",
+      "id": "julius-caesar/sceneIV_17.2/p@115830",
       "type": "speech",
-      "speaker": {
-        "id": "cassius",
-        "name": "CASSIUS",
-        "displayName": "Cassius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BRUTUS.\nLucilius, do you the like; and let no man\nCome to our tent till we have done our conference.\nLucius and Titinius, guard our door.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Most noble brother, you have done me wrong.",
-          "plainText": "Most noble brother you have done me wrong",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneIV_17.2/p@115830/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115830/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115830/line-3",
+          "start": 50,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneIV_17.2/p@115830/line-4",
+          "start": 101,
+          "end": 137,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3126227,
+        "end": 3126404,
+        "line": 113466,
+        "column": 1,
+        "path": "chap17/p@115830",
+        "anchor": "sceneIV_17.2"
+      },
+      "speakerLabel": "BRUTUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-4-2-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
+      "id": "julius-caesar/sceneIV_17.2/p@116011",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-4-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Judge me, you gods; wrong I mine enemies?",
-          "plainText": "Judge me you gods wrong I mine enemies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 2,
-          "text": "And if not so, how should I wrong a brother?",
-          "plainText": "And if not so how should I wrong a brother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneIV_17.2/p@116011/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "cassius",
-        "name": "CASSIUS",
-        "displayName": "Cassius"
+      ],
+      "sourceRef": {
+        "start": 3126408,
+        "end": 3126449,
+        "line": 113473,
+        "column": 1,
+        "path": "chap17/p@116011",
+        "anchor": "sceneIV_17.2"
       },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Brutus, this sober form of yours hides wrongs;",
-          "plainText": "Brutus this sober form of yours hides wrongs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "And when you do them—",
-          "plainText": "And when you do them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "Cassius, be content.",
-          "plainText": "Cassius be content",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 2,
-          "text": "Speak your griefs softly, I do know you well.",
-          "plainText": "Speak your griefs softly I do know you well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 3,
-          "text": "Before the eyes of both our armies here,",
-          "plainText": "Before the eyes of both our armies here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 4,
-          "text": "Which should perceive nothing but love from us,",
-          "plainText": "Which should perceive nothing but love from us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 5,
-          "text": "Let us not wrangle. Bid them move away;",
-          "plainText": "Let us not wrangle Bid them move away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 6,
-          "text": "Then in my tent, Cassius, enlarge your griefs,",
-          "plainText": "Then in my tent Cassius enlarge your griefs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 7,
-          "text": "And I will give you audience.",
-          "plainText": "And I will give you audience",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "cassius",
-        "name": "CASSIUS",
-        "displayName": "Cassius"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Pindarus,",
-          "plainText": "Pindarus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "Bid our commanders lead their charges off",
-          "plainText": "Bid our commanders lead their charges off",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 3,
-          "text": "A little from this ground.",
-          "plainText": "A little from this ground",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "brutus",
-        "name": "BRUTUS",
-        "displayName": "Brutus"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-4-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "Lucilius, do you the like; and let no man",
-          "plainText": "Lucilius do you the like and let no man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Come to our tent till we have done our conference.",
-          "plainText": "Come to our tent till we have done our conference",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-4-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "Lucius and Titinius, guard our door.",
-          "plainText": "Lucius and Titinius guard our door",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-4-2-stage-005",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "1cf51df3eb2e8e6722750509336e211f0990b92999ea104fb68c92da0277edf1"
 }

@@ -1,1184 +1,2138 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-merry-wives-of-windsor",
-    "title": "The Merry Wives of Windsor",
+    "title": "THE MERRY WIVES OF WINDSOR",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap23"
   },
-  "scene": {
+  "section": {
     "id": "the-merry-wives-of-windsor-1-3",
+    "kind": "scene",
+    "heading": "SCENE III. A room in the Garter Inn",
     "act": 1,
     "scene": 3,
-    "label": "Act 1, Scene 3",
-    "title": "SCENE III. A room in the Garter Inn",
-    "location": "A room in the Garter Inn",
-    "orderInPlay": 3
+    "parentSectionId": "the-merry-wives-of-windsor-act-3894",
+    "orderInPlay": 8,
+    "sourceRef": {
+      "start": 4067250,
+      "end": 4067326,
+      "line": 150352,
+      "column": 1,
+      "path": "chap23/h3@23788",
+      "anchor": "sceneI_23.3"
+    }
   },
   "content": [
     {
-      "id": "the-merry-wives-of-windsor-1-3-stage-001",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/h3@23788",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. A room in the Garter Inn",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/h3@23788/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4067250,
+        "end": 4067326,
+        "line": 150352,
+        "column": 1,
+        "path": "chap23/h3@23788",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@23868",
       "type": "stage",
-      "text": "Enter Falstaff, Host, Bardolph, Nym, Pistol and Robin."
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Falstaff, Host, Bardolph, Nym, Pistol and Robin.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Mine host of the Garter!",
-          "plainText": "Mine host of the Garter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "host",
-        "name": "HOST",
-        "displayName": "Host"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "What says my bully rook? Speak scholarly and wisely.",
-          "plainText": "What says my bully rook Speak scholarly and wisely",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Truly, mine host, I must turn away some of my followers.",
-          "plainText": "Truly mine host I must turn away some of my followers",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "host",
-        "name": "HOST",
-        "displayName": "Host"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Discard, bully Hercules; cashier. Let them wag; trot, trot.",
-          "plainText": "Discard bully Hercules cashier Let them wag trot trot",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "I sit at ten pounds a week.",
-          "plainText": "I sit at ten pounds a week",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "host",
-        "name": "HOST",
-        "displayName": "Host"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Thou'rt an emperor—Caesar, Keiser, and Pheazar. I will entertain Bardolph. He shall draw, he shall tap. Said I well, bully Hector?",
-          "plainText": "Thou'rt an emperorCaesar Keiser and Pheazar I will entertain Bardolph He shall draw he shall tap Said I well bully Hector",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Do so, good mine host.",
-          "plainText": "Do so good mine host",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "host",
-        "name": "HOST",
-        "displayName": "Host"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "I have spoke, let him follow.—Let me see thee froth and lime. I am at a word, follow.",
-          "plainText": "I have spoke let him followLet me see thee froth and lime I am at a word follow",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-stage-002",
-      "type": "stage",
-      "text": "[Exit Host.]"
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Bardolph, follow him. A tapster is a good trade. An old cloak makes a new jerkin; a withered servingman a fresh tapster. Go, adieu.",
-          "plainText": "Bardolph follow him A tapster is a good trade An old cloak makes a new jerkin a withered servingman a fresh tapster Go adieu",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "bardolph",
-        "name": "BARDOLPH",
-        "displayName": "Bardolph"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "It is a life that I have desired. I will thrive.",
-          "plainText": "It is a life that I have desired I will thrive",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "O base Hungarian wight, wilt thou the spigot wield?",
-          "plainText": "O base Hungarian wight wilt thou the spigot wield",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-stage-003",
-      "type": "stage",
-      "text": "[Exit Bardolph.]"
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "He was gotten in drink. Is not the humour conceited?",
-          "plainText": "He was gotten in drink Is not the humour conceited",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "I am glad I am so acquit of this tinderbox. His thefts were too open. His filching was like an unskilful singer, he kept not time.",
-          "plainText": "I am glad I am so acquit of this tinderbox His thefts were too open His filching was like an unskilful singer he kept not time",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "The good humour is to steal at a minute's rest.",
-          "plainText": "The good humour is to steal at a minute's rest",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "\"Convey,\" the wise it call. \"Steal?\" Foh! A fico for the phrase!",
-          "plainText": "Convey the wise it call Steal Foh A fico for the phrase",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Well, sirs, I am almost out at heels.",
-          "plainText": "Well sirs I am almost out at heels",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Why, then, let kibes ensue.",
-          "plainText": "Why then let kibes ensue",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "There is no remedy, I must cony-catch, I must shift.",
-          "plainText": "There is no remedy I must conycatch I must shift",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Young ravens must have food.",
-          "plainText": "Young ravens must have food",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Which of you know Ford of this town?",
-          "plainText": "Which of you know Ford of this town",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "I ken the wight, he is of substance good.",
-          "plainText": "I ken the wight he is of substance good",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "My honest lads, I will tell you what I am about.",
-          "plainText": "My honest lads I will tell you what I am about",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Two yards, and more.",
-          "plainText": "Two yards and more",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "No quips now, Pistol. Indeed, I am in the waist two yards about, but I am now about no waste; I am about thrift. Briefly, I do mean to make love to Ford's wife. I spy entertainment in her. She discourses, she carves, she gives the leer of invitation. I can construe the action of her familiar style; and the hardest voice of her behaviour, to be Englished rightly, is \"I am Sir John Falstaff's.\"",
-          "plainText": "No quips now Pistol Indeed I am in the waist two yards about but I am now about no waste I am about thrift Briefly I do mean to make love to Ford's wife I spy entertainment in her She discourses she carves she gives the leer of invitation I can construe the action of her familiar style and the hardest voice of her behaviour to be Englished rightly is I am Sir John Falstaff's",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "He hath studied her will and translated her will—out of honesty into English.",
-          "plainText": "He hath studied her will and translated her willout of honesty into English",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "The anchor is deep. Will that humour pass?",
-          "plainText": "The anchor is deep Will that humour pass",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Now, the report goes she has all the rule of her husband's purse. He hath a legion of angels.",
-          "plainText": "Now the report goes she has all the rule of her husband's purse He hath a legion of angels",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "As many devils entertain, and \"To her, boy,\" say I.",
-          "plainText": "As many devils entertain and To her boy say I",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "The humour rises; it is good. Humour me the angels.",
-          "plainText": "The humour rises it is good Humour me the angels",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "I have writ me here a letter to her; and here another to Page's wife, who even now gave me good eyes too, examined my parts with most judicious oeillades. Sometimes the beam of her view gilded my foot, sometimes my portly belly.",
-          "plainText": "I have writ me here a letter to her and here another to Page's wife who even now gave me good eyes too examined my parts with most judicious oeillades Sometimes the beam of her view gilded my foot sometimes my portly belly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Then did the sun on dunghill shine.",
-          "plainText": "Then did the sun on dunghill shine",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-032",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "I thank thee for that humour.",
-          "plainText": "I thank thee for that humour",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-033",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "O, she did so course o'er my exteriors with such a greedy intention that the appetite of her eye did seem to scorch me up like a burning-glass. Here's another letter to her. She bears the purse too; she is a region in Guiana, all gold and bounty. I will be cheaters to them both, and they shall be exchequers to me; they shall be my East and West Indies, and I will trade to them both. Go, bear thou this letter to Mistress Page;—and thou this to Mistress Ford. We will thrive, lads, we will thrive.",
-          "plainText": "O she did so course o'er my exteriors with such a greedy intention that the appetite of her eye did seem to scorch me up like a burningglass Here's another letter to her She bears the purse too she is a region in Guiana all gold and bounty I will be cheaters to them both and they shall be exchequers to me they shall be my East and West Indies and I will trade to them both Go bear thou this letter to Mistress Pageand thou this to Mistress Ford We will thrive lads we will thrive",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-034",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Shall I Sir Pandarus of Troy become,",
-          "plainText": "Shall I Sir Pandarus of Troy become",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 43,
+          "className": "charname"
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 2,
-          "text": "And by my side wear steel? Then Lucifer take all!",
-          "plainText": "And by my side wear steel Then Lucifer take all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 48,
+          "end": 53,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-035",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
+      ],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "I will run no base humour. Here, take the humour-letter. I will keep the 'haviour of reputation.",
-          "plainText": "I will run no base humour Here take the humourletter I will keep the 'haviour of reputation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@23868/line-1",
+          "start": 0,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4067330,
+        "end": 4067474,
+        "line": 150354,
+        "column": 1,
+        "path": "chap23/p@23868",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-speech-036",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24016",
       "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nMine host of the Garter!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "[To Robin.] Hold, sirrah, bear you these letters tightly;",
-          "plainText": "To Robin Hold sirrah bear you these letters tightly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24016/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "Sail like my pinnace to these golden shores.—",
-          "plainText": "Sail like my pinnace to these golden shores",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "Rogues, hence, avaunt! Vanish like hailstones, go!",
-          "plainText": "Rogues hence avaunt Vanish like hailstones go",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 4,
-          "text": "Trudge, plod away o' th' hoof, seek shelter, pack!",
-          "plainText": "Trudge plod away o' th' hoof seek shelter pack",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 5,
-          "text": "Falstaff will learn the humour of this age:",
-          "plainText": "Falstaff will learn the humour of this age",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 6,
-          "text": "French thrift, you rogues—myself and skirted page.",
-          "plainText": "French thrift you roguesmyself and skirted page",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24016/line-2",
+          "start": 10,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-stage-004",
-      "type": "stage",
-      "text": "[Exeunt Falstaff and Robin.]"
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-037",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
+      ],
+      "sourceRef": {
+        "start": 4067478,
+        "end": 4067542,
+        "line": 150359,
+        "column": 1,
+        "path": "chap23/p@24016",
+        "anchor": "sceneI_23.3"
       },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24084",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HOST.\nWhat says my bully rook? Speak scholarly and wisely.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Let vultures gripe thy guts! For gourd and fullam holds,",
-          "plainText": "Let vultures gripe thy guts For gourd and fullam holds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24084/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "And high and low beguile the rich and poor.",
-          "plainText": "And high and low beguile the rich and poor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24084/line-2",
+          "start": 6,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4067546,
+        "end": 4067634,
+        "line": 150364,
+        "column": 1,
+        "path": "chap23/p@24084",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "HOST.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24176",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nTruly, mine host, I must turn away some of my followers.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24176/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 3,
-          "text": "Tester I'll have in pouch when thou shalt lack,",
-          "plainText": "Tester I'll have in pouch when thou shalt lack",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24176/line-2",
+          "start": 10,
+          "end": 66,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4067638,
+        "end": 4067734,
+        "line": 150369,
+        "column": 1,
+        "path": "chap23/p@24176",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24276",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HOST.\nDiscard, bully Hercules; cashier. Let them wag; trot, trot.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24276/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 4,
-          "text": "Base Phrygian Turk!",
-          "plainText": "Base Phrygian Turk",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24276/line-2",
+          "start": 6,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4067738,
+        "end": 4067833,
+        "line": 150374,
+        "column": 1,
+        "path": "chap23/p@24276",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "HOST.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-speech-038",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24375",
       "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nI sit at ten pounds a week.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "I have operations in my head which be humours of revenge.",
-          "plainText": "I have operations in my head which be humours of revenge",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-039",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Wilt thou revenge?",
-          "plainText": "Wilt thou revenge",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-040",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "By welkin and her star!",
-          "plainText": "By welkin and her star",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-041",
-      "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "With wit or steel?",
-          "plainText": "With wit or steel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merry-wives-of-windsor-1-3-speech-042",
-      "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
-      "lines": [
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "With both the humours, I.",
-          "plainText": "With both the humours I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24375/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 2,
-          "text": "I will discuss the humour of this love to Ford.",
-          "plainText": "I will discuss the humour of this love to Ford",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24375/line-2",
+          "start": 10,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4067837,
+        "end": 4067904,
+        "line": 150379,
+        "column": 1,
+        "path": "chap23/p@24375",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-speech-043",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24446",
       "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HOST.\nThou’rt an emperor—Caesar, Keiser, and Pheazar. I will entertain Bardolph. He shall draw, he shall tap. Said I well, bully Hector?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "And I to Page shall eke unfold",
-          "plainText": "And I to Page shall eke unfold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24446/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 2,
-          "text": "How Falstaff, varlet vile,",
-          "plainText": "How Falstaff varlet vile",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 3,
-          "text": "His dove will prove, his gold will hold,",
-          "plainText": "His dove will prove his gold will hold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merry-wives-of-windsor-1-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 4,
-          "text": "And his soft couch defile.",
-          "plainText": "And his soft couch defile",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24446/line-2",
+          "start": 6,
+          "end": 136,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4067908,
+        "end": 4068075,
+        "line": 150384,
+        "column": 1,
+        "path": "chap23/p@24446",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "HOST.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-speech-044",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24617",
       "type": "speech",
-      "speaker": {
-        "id": "nym",
-        "name": "NYM",
-        "displayName": "Nym"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nDo so, good mine host.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "My humour shall not cool. I will incense Ford to deal with poison, I will possess him with yellowness, for the revolt of mine is dangerous. That is my true humour.",
-          "plainText": "My humour shall not cool I will incense Ford to deal with poison I will possess him with yellowness for the revolt of mine is dangerous That is my true humour",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24617/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24617/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4068079,
+        "end": 4068141,
+        "line": 150390,
+        "column": 1,
+        "path": "chap23/p@24617",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-speech-045",
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24683",
       "type": "speech",
-      "speaker": {
-        "id": "pistol",
-        "name": "PISTOL",
-        "displayName": "Pistol"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HOST.\nI have spoke, let him follow.—Let me see thee froth and lime. I am at a word, follow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-1-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Thou art the Mars of malcontents. I second thee. Troop on.",
-          "plainText": "Thou art the Mars of malcontents I second thee Troop on",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24683/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24683/line-2",
+          "start": 6,
+          "end": 91,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4068145,
+        "end": 4068267,
+        "line": 150395,
+        "column": 1,
+        "path": "chap23/p@24683",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "HOST.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-1-3-stage-005",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24809",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Host.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24809/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068271,
+        "end": 4068341,
+        "line": 150401,
+        "column": 1,
+        "path": "chap23/p@24809",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24883",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nBardolph, follow him. A tapster is a good trade. An old cloak makes a new jerkin; a withered servingman a fresh tapster. Go, adieu.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24883/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@24883/line-2",
+          "start": 10,
+          "end": 141,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068345,
+        "end": 4068517,
+        "line": 150403,
+        "column": 1,
+        "path": "chap23/p@24883",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25059",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BARDOLPH.\nIt is a life that I have desired. I will thrive.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25059/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25059/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068521,
+        "end": 4068609,
+        "line": 150409,
+        "column": 1,
+        "path": "chap23/p@25059",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "BARDOLPH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25151",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nO base Hungarian wight, wilt thou the spigot wield?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25151/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25151/line-2",
+          "start": 8,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068613,
+        "end": 4068702,
+        "line": 150414,
+        "column": 1,
+        "path": "chap23/p@25151",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25244",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Bardolph.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25244/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068706,
+        "end": 4068780,
+        "line": 150419,
+        "column": 1,
+        "path": "chap23/p@25244",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25322",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM\nHe was gotten in drink. Is not the humour conceited?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25322/line-1",
+          "start": 0,
+          "end": 3,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25322/line-2",
+          "start": 4,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068784,
+        "end": 4068870,
+        "line": 150421,
+        "column": 1,
+        "path": "chap23/p@25322",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 3
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25412",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nI am glad I am so acquit of this tinderbox. His thefts were too open. His filching was like an unskilful singer, he kept not time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25412/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25412/line-2",
+          "start": 10,
+          "end": 140,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4068874,
+        "end": 4069045,
+        "line": 150426,
+        "column": 1,
+        "path": "chap23/p@25412",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25587",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nThe good humour is to steal at a minute’s rest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25587/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25587/line-2",
+          "start": 5,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069049,
+        "end": 4069131,
+        "line": 150432,
+        "column": 1,
+        "path": "chap23/p@25587",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25673",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\n“Convey,” the wise it call. “Steal?” Foh! A fico for the phrase!",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 52,
+          "end": 56
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25673/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25673/line-2",
+          "start": 8,
+          "end": 72,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069135,
+        "end": 4069244,
+        "line": 150437,
+        "column": 1,
+        "path": "chap23/p@25673",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25786",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nWell, sirs, I am almost out at heels.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25786/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25786/line-2",
+          "start": 10,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069248,
+        "end": 4069325,
+        "line": 150442,
+        "column": 1,
+        "path": "chap23/p@25786",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25867",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nWhy, then, let kibes ensue.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25867/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25867/line-2",
+          "start": 8,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069329,
+        "end": 4069394,
+        "line": 150447,
+        "column": 1,
+        "path": "chap23/p@25867",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25936",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nThere is no remedy, I must cony-catch, I must shift.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25936/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@25936/line-2",
+          "start": 10,
+          "end": 62,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069398,
+        "end": 4069490,
+        "line": 150452,
+        "column": 1,
+        "path": "chap23/p@25936",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26032",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nYoung ravens must have food.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26032/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26032/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069494,
+        "end": 4069560,
+        "line": 150457,
+        "column": 1,
+        "path": "chap23/p@26032",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26102",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nWhich of you know Ford of this town?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26102/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26102/line-2",
+          "start": 10,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069564,
+        "end": 4069640,
+        "line": 150462,
+        "column": 1,
+        "path": "chap23/p@26102",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26182",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nI ken the wight, he is of substance good.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26182/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26182/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069644,
+        "end": 4069723,
+        "line": 150467,
+        "column": 1,
+        "path": "chap23/p@26182",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26265",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nMy honest lads, I will tell you what I am about.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26265/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26265/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069727,
+        "end": 4069815,
+        "line": 150472,
+        "column": 1,
+        "path": "chap23/p@26265",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26357",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nTwo yards, and more.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26357/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26357/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069819,
+        "end": 4069877,
+        "line": 150477,
+        "column": 1,
+        "path": "chap23/p@26357",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26419",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nNo quips now, Pistol. Indeed, I am in the waist two yards about, but I am now about no waste; I am about thrift. Briefly, I do mean to make love to Ford’s wife. I spy entertainment in her. She discourses, she carves, she gives the leer of invitation. I can construe the action of her familiar style; and the hardest voice of her behaviour, to be Englished rightly, is “I am Sir John Falstaff’s.”",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26419/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26419/line-2",
+          "start": 10,
+          "end": 405,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4069881,
+        "end": 4070321,
+        "line": 150482,
+        "column": 1,
+        "path": "chap23/p@26419",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26863",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nHe hath studied her will and translated her will—out of honesty into English.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26863/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26863/line-2",
+          "start": 8,
+          "end": 85,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070325,
+        "end": 4070440,
+        "line": 150492,
+        "column": 1,
+        "path": "chap23/p@26863",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26982",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nThe anchor is deep. Will that humour pass?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26982/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@26982/line-2",
+          "start": 5,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070444,
+        "end": 4070521,
+        "line": 150497,
+        "column": 1,
+        "path": "chap23/p@26982",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27063",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nNow, the report goes she has all the rule of her husband’s purse. He hath a legion of angels.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27063/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27063/line-2",
+          "start": 10,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070525,
+        "end": 4070659,
+        "line": 150502,
+        "column": 1,
+        "path": "chap23/p@27063",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27201",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nAs many devils entertain, and “To her, boy,” say I.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27201/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27201/line-2",
+          "start": 8,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070663,
+        "end": 4070752,
+        "line": 150508,
+        "column": 1,
+        "path": "chap23/p@27201",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27294",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nThe humour rises; it is good. Humour me the angels.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27294/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27294/line-2",
+          "start": 5,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070756,
+        "end": 4070842,
+        "line": 150513,
+        "column": 1,
+        "path": "chap23/p@27294",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27384",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nI have writ me here a letter to her; and here another to Page’s wife, who even now gave me good eyes too, examined my parts with most judicious oeillades. Sometimes the beam of her view gilded my foot, sometimes my portly belly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27384/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27384/line-2",
+          "start": 10,
+          "end": 238,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4070846,
+        "end": 4071116,
+        "line": 150518,
+        "column": 1,
+        "path": "chap23/p@27384",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27658",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nThen did the sun on dunghill shine.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27658/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27658/line-2",
+          "start": 8,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4071120,
+        "end": 4071193,
+        "line": 150525,
+        "column": 1,
+        "path": "chap23/p@27658",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27735",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nI thank thee for that humour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27735/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27735/line-2",
+          "start": 5,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4071197,
+        "end": 4071261,
+        "line": 150530,
+        "column": 1,
+        "path": "chap23/p@27735",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27803",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nO, she did so course o’er my exteriors with such a greedy intention that the appetite of her eye did seem to scorch me up like a burning-glass. Here’s another letter to her. She bears the purse too; she is a region in Guiana, all gold and bounty. I will be cheaters to them both, and they shall be exchequers to me; they shall be my East and West Indies, and I will trade to them both. Go, bear thou this letter to Mistress Page;—and thou this to Mistress Ford. We will thrive, lads, we will thrive.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27803/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@27803/line-2",
+          "start": 10,
+          "end": 509,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4071265,
+        "end": 4071810,
+        "line": 150535,
+        "column": 1,
+        "path": "chap23/p@27803",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28352",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nShall I Sir Pandarus of Troy become,\nAnd by my side wear steel? Then Lucifer take all!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28352/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28352/line-2",
+          "start": 8,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28352/line-3",
+          "start": 45,
+          "end": 94,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4071814,
+        "end": 4071943,
+        "line": 150546,
+        "column": 1,
+        "path": "chap23/p@28352",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28485",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nI will run no base humour. Here, take the humour-letter. I will keep the ’haviour of reputation.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28485/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28485/line-2",
+          "start": 5,
+          "end": 101,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4071947,
+        "end": 4072079,
+        "line": 150552,
+        "column": 1,
+        "path": "chap23/p@28485",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\n[To Robin.] Hold, sirrah, bear you these letters tightly;\nSail like my pinnace to these golden shores.—\nRogues, hence, avaunt! Vanish like hailstones, go!\nTrudge, plod away o’ th’ hoof, seek shelter, pack!\nFalstaff will learn the humour of this age:\nFrench thrift, you rogues—myself and skirted page.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 19
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-2",
+          "start": 10,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-3",
+          "start": 68,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-4",
+          "start": 114,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-5",
+          "start": 165,
+          "end": 215,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-6",
+          "start": 216,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28621/line-7",
+          "start": 260,
+          "end": 310,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072083,
+        "end": 4072455,
+        "line": 150558,
+        "column": 1,
+        "path": "chap23/p@28621",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28997",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Falstaff and Robin.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 16,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 21,
+          "end": 26,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 27
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@28997/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072459,
+        "end": 4072580,
+        "line": 150568,
+        "column": 1,
+        "path": "chap23/p@28997",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL\nLet vultures gripe thy guts! For gourd and fullam holds,\nAnd high and low beguile the rich and poor.\nTester I’ll have in pouch when thou shalt lack,\nBase Phrygian Turk!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122/line-2",
+          "start": 7,
+          "end": 63,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122/line-3",
+          "start": 64,
+          "end": 107,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122/line-4",
+          "start": 108,
+          "end": 155,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29122/line-5",
+          "start": 156,
+          "end": 175,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072584,
+        "end": 4072804,
+        "line": 150573,
+        "column": 1,
+        "path": "chap23/p@29122",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29346",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nI have operations in my head which be humours of revenge.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29346/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29346/line-2",
+          "start": 5,
+          "end": 62,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072808,
+        "end": 4072900,
+        "line": 150581,
+        "column": 1,
+        "path": "chap23/p@29346",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29442",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nWilt thou revenge?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29442/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29442/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072904,
+        "end": 4072960,
+        "line": 150586,
+        "column": 1,
+        "path": "chap23/p@29442",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29502",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nBy welkin and her star!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29502/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29502/line-2",
+          "start": 5,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4072964,
+        "end": 4073022,
+        "line": 150591,
+        "column": 1,
+        "path": "chap23/p@29502",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29564",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nWith wit or steel?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29564/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29564/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073026,
+        "end": 4073082,
+        "line": 150596,
+        "column": 1,
+        "path": "chap23/p@29564",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29624",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nWith both the humours, I.\nI will discuss the humour of this love to Ford.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29624/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29624/line-2",
+          "start": 5,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29624/line-3",
+          "start": 31,
+          "end": 78,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073086,
+        "end": 4073199,
+        "line": 150601,
+        "column": 1,
+        "path": "chap23/p@29624",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nAnd I to Page shall eke unfold\nHow Falstaff, varlet vile,\nHis dove will prove, his gold will hold,\nAnd his soft couch defile.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741/line-2",
+          "start": 8,
+          "end": 38,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741/line-3",
+          "start": 39,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741/line-4",
+          "start": 66,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29741/line-5",
+          "start": 107,
+          "end": 133,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073203,
+        "end": 4073381,
+        "line": 150607,
+        "column": 1,
+        "path": "chap23/p@29741",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29923",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NYM.\nMy humour shall not cool. I will incense Ford to deal with poison, I will possess him with yellowness, for the revolt of mine is dangerous. That is my true humour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29923/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@29923/line-2",
+          "start": 5,
+          "end": 168,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073385,
+        "end": 4073585,
+        "line": 150615,
+        "column": 1,
+        "path": "chap23/p@29923",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "NYM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@30127",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PISTOL.\nThou art the Mars of malcontents. I second thee. Troop on.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@30127/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@30127/line-2",
+          "start": 8,
+          "end": 66,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073589,
+        "end": 4073685,
+        "line": 150622,
+        "column": 1,
+        "path": "chap23/p@30127",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": "PISTOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneI_23.3/p@30227",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneI_23.3/p@30227/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4073689,
+        "end": 4073726,
+        "line": 150627,
+        "column": 1,
+        "path": "chap23/p@30227",
+        "anchor": "sceneI_23.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "85178433e30dcec1e20531f5171e8e8886a0ec5664cec3e5aa85e1f68f9b8b16"
 }

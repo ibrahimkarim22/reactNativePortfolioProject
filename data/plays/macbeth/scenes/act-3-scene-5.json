@@ -1,453 +1,572 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-3-5",
+    "kind": "scene",
+    "heading": "SCENE V. The heath.",
     "act": 3,
     "scene": 5,
-    "label": "Act 3, Scene 5",
-    "title": "SCENE V. The heath.",
-    "location": "The heath.",
-    "orderInPlay": 16
+    "parentSectionId": "macbeth-act-59279",
+    "orderInPlay": 23,
+    "sourceRef": {
+      "start": 3648780,
+      "end": 3648843,
+      "line": 134472,
+      "column": 1,
+      "path": "chap20/h3@84588",
+      "anchor": "sceneIII_20.5"
+    }
   },
   "content": [
     {
-      "id": "macbeth-3-5-stage-001",
-      "type": "stage",
-      "text": "Thunder. Enter the three Witches meeting Hecate."
-    },
-    {
-      "id": "macbeth-3-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "first-witch",
-        "name": "FIRST WITCH",
-        "displayName": "First Witch"
-      },
+      "id": "macbeth/sceneIII_20.5/h3@84588",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. The heath.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 19
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-3-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Why, how now, Hecate? you look angerly.",
-          "plainText": "Why how now Hecate you look angerly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.5/h3@84588/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3648780,
+        "end": 3648843,
+        "line": 134472,
+        "column": 1,
+        "path": "chap20/h3@84588",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-3-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "hecate",
-        "name": "HECATE",
-        "displayName": "Hecate"
-      },
+      "id": "macbeth/sceneIII_20.5/p@84655",
+      "type": "stage",
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Thunder. Enter the three Witches meeting Hecate.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 25,
+          "end": 32,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 41,
+          "end": 47,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-3-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Have I not reason, beldams as you are,",
-          "plainText": "Have I not reason beldams as you are",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 2,
-          "text": "Saucy and overbold? How did you dare",
-          "plainText": "Saucy and overbold How did you dare",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 3,
-          "text": "To trade and traffic with Macbeth",
-          "plainText": "To trade and traffic with Macbeth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 4,
-          "text": "In riddles and affairs of death;",
-          "plainText": "In riddles and affairs of death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 5,
-          "text": "And I, the mistress of your charms,",
-          "plainText": "And I the mistress of your charms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 6,
-          "text": "The close contriver of all harms,",
-          "plainText": "The close contriver of all harms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 7,
-          "text": "Was never call'd to bear my part,",
-          "plainText": "Was never call'd to bear my part",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 8,
-          "text": "Or show the glory of our art?",
-          "plainText": "Or show the glory of our art",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 9,
-          "text": "And, which is worse, all you have done",
-          "plainText": "And which is worse all you have done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 10,
-          "text": "Hath been but for a wayward son,",
-          "plainText": "Hath been but for a wayward son",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 11,
-          "text": "Spiteful and wrathful; who, as others do,",
-          "plainText": "Spiteful and wrathful who as others do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 12,
-          "text": "Loves for his own ends, not for you.",
-          "plainText": "Loves for his own ends not for you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 13,
-          "text": "But make amends now: get you gone,",
-          "plainText": "But make amends now get you gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 14,
-          "text": "And at the pit of Acheron",
-          "plainText": "And at the pit of Acheron",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 15,
-          "text": "Meet me i' th' morning: thither he",
-          "plainText": "Meet me i' th' morning thither he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 16,
-          "text": "Will come to know his destiny.",
-          "plainText": "Will come to know his destiny",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 17,
-          "text": "Your vessels and your spells provide,",
-          "plainText": "Your vessels and your spells provide",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 18,
-          "text": "Your charms, and everything beside.",
-          "plainText": "Your charms and everything beside",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 19,
-          "text": "I am for th' air; this night I'll spend",
-          "plainText": "I am for th' air this night I'll spend",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 20,
-          "text": "Unto a dismal and a fatal end.",
-          "plainText": "Unto a dismal and a fatal end",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 21,
-          "text": "Great business must be wrought ere noon.",
-          "plainText": "Great business must be wrought ere noon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 22,
-          "text": "Upon the corner of the moon",
-          "plainText": "Upon the corner of the moon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 23,
-          "text": "There hangs a vap'rous drop profound;",
-          "plainText": "There hangs a vap'rous drop profound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 24,
-          "text": "I'll catch it ere it come to ground:",
-          "plainText": "I'll catch it ere it come to ground",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 25,
-          "text": "And that, distill'd by magic sleights,",
-          "plainText": "And that distill'd by magic sleights",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 26,
-          "text": "Shall raise such artificial sprites,",
-          "plainText": "Shall raise such artificial sprites",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 27,
-          "text": "As, by the strength of their illusion,",
-          "plainText": "As by the strength of their illusion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 28,
-          "text": "Shall draw him on to his confusion.",
-          "plainText": "Shall draw him on to his confusion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 29,
-          "text": "He shall spurn fate, scorn death, and bear",
-          "plainText": "He shall spurn fate scorn death and bear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 30,
-          "text": "His hopes 'bove wisdom, grace, and fear.",
-          "plainText": "His hopes 'bove wisdom grace and fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 31,
-          "text": "And you all know, security",
-          "plainText": "And you all know security",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 32,
-          "text": "Is mortals' chiefest enemy.",
-          "plainText": "Is mortals' chiefest enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.5/p@84655/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-3-5-stage-002",
-      "type": "stage",
-      "text": "[Music and song within, \"Come away, come away\" &c.]"
-    },
-    {
-      "id": "macbeth-3-5-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "macbeth-3-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "first-witch",
-        "name": "FIRST WITCH",
-        "displayName": "First Witch"
+      ],
+      "sourceRef": {
+        "start": 3648847,
+        "end": 3648981,
+        "line": 134475,
+        "column": 1,
+        "path": "chap20/p@84655",
+        "anchor": "sceneIII_20.5"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@84793",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST WITCH.\nWhy, how now, Hecate? you look angerly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Come, let's make haste; she'll soon be back again.",
-          "plainText": "Come let's make haste she'll soon be back again",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.5/p@84793/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84793/line-2",
+          "start": 13,
+          "end": 52,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3648985,
+        "end": 3649067,
+        "line": 134478,
+        "column": 1,
+        "path": "chap20/p@84793",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": "FIRST WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "macbeth-3-5-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneIII_20.5/p@84879",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HECATE.\nHave I not reason, beldams as you are,\nSaucy and overbold? How did you dare\nTo trade and traffic with Macbeth\nIn riddles and affairs of death;\nAnd I, the mistress of your charms,\nThe close contriver of all harms,\nWas never call’d to bear my part,\nOr show the glory of our art?\nAnd, which is worse, all you have done\nHath been but for a wayward son,\nSpiteful and wrathful; who, as others do,\nLoves for his own ends, not for you.\nBut make amends now: get you gone,\nAnd at the pit of Acheron\nMeet me i’ th’ morning: thither he\nWill come to know his destiny.\nYour vessels and your spells provide,\nYour charms, and everything beside.\nI am for th’ air; this night I’ll spend\nUnto a dismal and a fatal end.\nGreat business must be wrought ere noon.\nUpon the corner of the moon\nThere hangs a vap’rous drop profound;\nI’ll catch it ere it come to ground:\nAnd that, distill’d by magic sleights,\nShall raise such artificial sprites,\nAs, by the strength of their illusion,\nShall draw him on to his confusion.\nHe shall spurn fate, scorn death, and bear\nHis hopes ’bove wisdom, grace, and fear.\nAnd you all know, security\nIs mortals’ chiefest enemy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-2",
+          "start": 8,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-3",
+          "start": 47,
+          "end": 83,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-4",
+          "start": 84,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-5",
+          "start": 118,
+          "end": 150,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-6",
+          "start": 151,
+          "end": 186,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-7",
+          "start": 187,
+          "end": 220,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-8",
+          "start": 221,
+          "end": 254,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-9",
+          "start": 255,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-10",
+          "start": 285,
+          "end": 323,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-11",
+          "start": 324,
+          "end": 356,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-12",
+          "start": 357,
+          "end": 398,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-13",
+          "start": 399,
+          "end": 435,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-14",
+          "start": 436,
+          "end": 470,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-15",
+          "start": 471,
+          "end": 496,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-16",
+          "start": 497,
+          "end": 531,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-17",
+          "start": 532,
+          "end": 562,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-18",
+          "start": 563,
+          "end": 600,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-19",
+          "start": 601,
+          "end": 636,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-20",
+          "start": 637,
+          "end": 676,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-21",
+          "start": 677,
+          "end": 707,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-22",
+          "start": 708,
+          "end": 748,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-23",
+          "start": 749,
+          "end": 776,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-24",
+          "start": 777,
+          "end": 814,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-25",
+          "start": 815,
+          "end": 851,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-26",
+          "start": 852,
+          "end": 890,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-27",
+          "start": 891,
+          "end": 927,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-28",
+          "start": 928,
+          "end": 966,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-29",
+          "start": 967,
+          "end": 1002,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-30",
+          "start": 1003,
+          "end": 1045,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-31",
+          "start": 1046,
+          "end": 1086,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-32",
+          "start": 1087,
+          "end": 1113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@84879/line-33",
+          "start": 1114,
+          "end": 1141,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3649071,
+        "end": 3650397,
+        "line": 134483,
+        "column": 1,
+        "path": "chap20/p@84879",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": "HECATE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@86209",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Music and song within, “Come away, come away” &c.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 50
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@86209/line-1",
+          "start": 0,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650401,
+        "end": 3650484,
+        "line": 134519,
+        "column": 1,
+        "path": "chap20/p@86209",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@86296",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Hark! I am call’d; my little spirit, see,\nSits in a foggy cloud and stays for me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@86296/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@86296/line-2",
+          "start": 42,
+          "end": 81,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650488,
+        "end": 3650599,
+        "line": 134521,
+        "column": 1,
+        "path": "chap20/p@86296",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@86411",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@86411/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650603,
+        "end": 3650638,
+        "line": 134526,
+        "column": 1,
+        "path": "chap20/p@86411",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@86450",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST WITCH.\nCome, let’s make haste; she’ll soon be back again.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@86450/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.5/p@86450/line-2",
+          "start": 13,
+          "end": 63,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650642,
+        "end": 3650735,
+        "line": 134528,
+        "column": 1,
+        "path": "chap20/p@86450",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": "FIRST WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.5/p@86547",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.5/p@86547/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650739,
+        "end": 3650776,
+        "line": 134533,
+        "column": 1,
+        "path": "chap20/p@86547",
+        "anchor": "sceneIII_20.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

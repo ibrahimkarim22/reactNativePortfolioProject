@@ -1,1119 +1,1198 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "titus-andronicus",
-    "title": "The Tragedy of Titus Andronicus",
+    "title": "THE TRAGEDY OF TITUS ANDRONICUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap34"
   },
-  "scene": {
+  "section": {
     "id": "titus-andronicus-3-2",
+    "kind": "scene",
+    "heading": "SCENE II. Rome. A Room in Titus’s House. A banquet set out",
     "act": 3,
     "scene": 2,
-    "label": "Act 3, Scene 2",
-    "title": "SCENE II. Rome. A Room in Titus's House. A banquet set out",
-    "location": "Rome. A Room in Titus's House. A banquet set out",
-    "orderInPlay": 7
+    "parentSectionId": "titus-andronicus-act-67689",
+    "orderInPlay": 14,
+    "sourceRef": {
+      "start": 6027247,
+      "end": 6027348,
+      "line": 224382,
+      "column": 1,
+      "path": "chap34/h3@85888",
+      "anchor": "sceneIII_34.2"
+    }
   },
   "content": [
     {
-      "id": "titus-andronicus-3-2-stage-001",
+      "id": "titus-andronicus/sceneIII_34.2/h3@85888",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Rome. A Room in Titus’s House. A banquet set out",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneIII_34.2/h3@85888/line-1",
+          "start": 0,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6027247,
+        "end": 6027348,
+        "line": 224382,
+        "column": 1,
+        "path": "chap34/h3@85888",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneIII_34.2/p@85993",
       "type": "stage",
-      "text": "Enter Titus Andronicus, Marcus, Lavinia and the boy Young Lucius."
-    },
-    {
-      "id": "titus-andronicus-3-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Titus Andronicus, Marcus, Lavinia and the boy Young Lucius.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 39,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 52,
+          "end": 64,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "So so; now sit; and look you eat no more",
-          "plainText": "So so now sit and look you eat no more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Than will preserve just so much strength in us",
-          "plainText": "Than will preserve just so much strength in us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "As will revenge these bitter woes of ours.",
-          "plainText": "As will revenge these bitter woes of ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Marcus, unknit that sorrow-wreathen knot.",
-          "plainText": "Marcus unknit that sorrowwreathen knot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Thy niece and I, poor creatures, want our hands,",
-          "plainText": "Thy niece and I poor creatures want our hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "And cannot passionate our tenfold grief",
-          "plainText": "And cannot passionate our tenfold grief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "With folded arms. This poor right hand of mine",
-          "plainText": "With folded arms This poor right hand of mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Is left to tyrannize upon my breast;",
-          "plainText": "Is left to tyrannize upon my breast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Who when my heart, all mad with misery,",
-          "plainText": "Who when my heart all mad with misery",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Beats in this hollow prison of my flesh,",
-          "plainText": "Beats in this hollow prison of my flesh",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Then thus I thump it down.",
-          "plainText": "Then thus I thump it down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "Thou map of woe, that thus dost talk in signs,",
-          "plainText": "Thou map of woe that thus dost talk in signs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "When thy poor heart beats with outrageous beating,",
-          "plainText": "When thy poor heart beats with outrageous beating",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Thou canst not strike it thus to make it still.",
-          "plainText": "Thou canst not strike it thus to make it still",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "Wound it with sighing, girl, kill it with groans;",
-          "plainText": "Wound it with sighing girl kill it with groans",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "Or get some little knife between thy teeth,",
-          "plainText": "Or get some little knife between thy teeth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "And just against thy heart make thou a hole,",
-          "plainText": "And just against thy heart make thou a hole",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "That all the tears that thy poor eyes let fall",
-          "plainText": "That all the tears that thy poor eyes let fall",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "May run into that sink, and, soaking in,",
-          "plainText": "May run into that sink and soaking in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "Drown the lamenting fool in sea-salt tears.",
-          "plainText": "Drown the lamenting fool in seasalt tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@85993/line-1",
+          "start": 0,
+          "end": 65,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6027352,
+        "end": 6027507,
+        "line": 224384,
+        "column": 1,
+        "path": "chap34/p@85993",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-002",
+      "id": "titus-andronicus/sceneIII_34.2/p@86152",
       "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nSo so; now sit; and look you eat no more\nThan will preserve just so much strength in us\nAs will revenge these bitter woes of ours.\nMarcus, unknit that sorrow-wreathen knot.\nThy niece and I, poor creatures, want our hands,\nAnd cannot passionate our tenfold grief\nWith folded arms. This poor right hand of mine\nIs left to tyrannize upon my breast;\nWho when my heart, all mad with misery,\nBeats in this hollow prison of my flesh,\nThen thus I thump it down.\nThou map of woe, that thus dost talk in signs,\nWhen thy poor heart beats with outrageous beating,\nThou canst not strike it thus to make it still.\nWound it with sighing, girl, kill it with groans;\nOr get some little knife between thy teeth,\nAnd just against thy heart make thou a hole,\nThat all the tears that thy poor eyes let fall\nMay run into that sink, and, soaking in,\nDrown the lamenting fool in sea-salt tears.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Fie, brother, fie! Teach her not thus to lay",
-          "plainText": "Fie brother fie Teach her not thus to lay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 2,
-          "text": "Such violent hands upon her tender life.",
-          "plainText": "Such violent hands upon her tender life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-3",
+          "start": 48,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-4",
+          "start": 95,
+          "end": 137,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-5",
+          "start": 138,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-6",
+          "start": 180,
+          "end": 228,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-7",
+          "start": 229,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-8",
+          "start": 269,
+          "end": 315,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-9",
+          "start": 316,
+          "end": 352,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-10",
+          "start": 353,
+          "end": 392,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-11",
+          "start": 393,
+          "end": 433,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-12",
+          "start": 434,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-13",
+          "start": 461,
+          "end": 507,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-14",
+          "start": 508,
+          "end": 558,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-15",
+          "start": 559,
+          "end": 606,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-16",
+          "start": 607,
+          "end": 656,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-17",
+          "start": 657,
+          "end": 700,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-18",
+          "start": 701,
+          "end": 745,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-19",
+          "start": 746,
+          "end": 792,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-20",
+          "start": 793,
+          "end": 833,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@86152/line-21",
+          "start": 834,
+          "end": 877,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6027511,
+        "end": 6028513,
+        "line": 224389,
+        "column": 1,
+        "path": "chap34/p@86152",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-003",
+      "id": "titus-andronicus/sceneIII_34.2/p@87158",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nFie, brother, fie! Teach her not thus to lay\nSuch violent hands upon her tender life.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "How now! Has sorrow made thee dote already?",
-          "plainText": "How now Has sorrow made thee dote already",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@87158/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Why, Marcus, no man should be mad but I.",
-          "plainText": "Why Marcus no man should be mad but I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@87158/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 3,
-          "text": "What violent hands can she lay on her life?",
-          "plainText": "What violent hands can she lay on her life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 4,
-          "text": "Ah, wherefore dost thou urge the name of hands,",
-          "plainText": "Ah wherefore dost thou urge the name of hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 5,
-          "text": "To bid Æneas tell the tale twice o'er",
-          "plainText": "To bid neas tell the tale twice o'er",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 6,
-          "text": "How Troy was burnt and he made miserable?",
-          "plainText": "How Troy was burnt and he made miserable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 7,
-          "text": "O, handle not the theme, to talk of hands,",
-          "plainText": "O handle not the theme to talk of hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 8,
-          "text": "Lest we remember still that we have none.",
-          "plainText": "Lest we remember still that we have none",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 9,
-          "text": "Fie, fie, how frantically I square my talk,",
-          "plainText": "Fie fie how frantically I square my talk",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 10,
-          "text": "As if we should forget we had no hands,",
-          "plainText": "As if we should forget we had no hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 11,
-          "text": "If Marcus did not name the word of hands!",
-          "plainText": "If Marcus did not name the word of hands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 12,
-          "text": "Come, let's fall to; and, gentle girl, eat this.",
-          "plainText": "Come let's fall to and gentle girl eat this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 13,
-          "text": "Here is no drink! Hark, Marcus, what she says;",
-          "plainText": "Here is no drink Hark Marcus what she says",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 14,
-          "text": "I can interpret all her martyred signs.",
-          "plainText": "I can interpret all her martyred signs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 15,
-          "text": "She says she drinks no other drink but tears,",
-          "plainText": "She says she drinks no other drink but tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 16,
-          "text": "Brewed with her sorrow, meshed upon her cheeks.",
-          "plainText": "Brewed with her sorrow meshed upon her cheeks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 17,
-          "text": "Speechless complainer, I will learn thy thought;",
-          "plainText": "Speechless complainer I will learn thy thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 18,
-          "text": "In thy dumb action will I be as perfect",
-          "plainText": "In thy dumb action will I be as perfect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 19,
-          "text": "As begging hermits in their holy prayers.",
-          "plainText": "As begging hermits in their holy prayers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 20,
-          "text": "Thou shalt not sigh, nor hold thy stumps to heaven,",
-          "plainText": "Thou shalt not sigh nor hold thy stumps to heaven",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 21,
-          "text": "Nor wink, nor nod, nor kneel, nor make a sign,",
-          "plainText": "Nor wink nor nod nor kneel nor make a sign",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 22,
-          "text": "But I of these will wrest an alphabet,",
-          "plainText": "But I of these will wrest an alphabet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 23,
-          "text": "And by still practice learn to know thy meaning.",
-          "plainText": "And by still practice learn to know thy meaning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@87158/line-3",
+          "start": 53,
+          "end": 93,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6028517,
+        "end": 6028645,
+        "line": 224413,
+        "column": 1,
+        "path": "chap34/p@87158",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-004",
+      "id": "titus-andronicus/sceneIII_34.2/p@87290",
       "type": "speech",
-      "speaker": {
-        "id": "young-lucius",
-        "name": "YOUNG LUCIUS",
-        "displayName": "Young Lucius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nHow now! Has sorrow made thee dote already?\nWhy, Marcus, no man should be mad but I.\nWhat violent hands can she lay on her life?\nAh, wherefore dost thou urge the name of hands,\nTo bid Æneas tell the tale twice o’er\nHow Troy was burnt and he made miserable?\nO, handle not the theme, to talk of hands,\nLest we remember still that we have none.\nFie, fie, how frantically I square my talk,\nAs if we should forget we had no hands,\nIf Marcus did not name the word of hands!\nCome, let’s fall to; and, gentle girl, eat this.\nHere is no drink! Hark, Marcus, what she says;\nI can interpret all her martyred signs.\nShe says she drinks no other drink but tears,\nBrewed with her sorrow, meshed upon her cheeks.\nSpeechless complainer, I will learn thy thought;\nIn thy dumb action will I be as perfect\nAs begging hermits in their holy prayers.\nThou shalt not sigh, nor hold thy stumps to heaven,\nNor wink, nor nod, nor kneel, nor make a sign,\nBut I of these will wrest an alphabet,\nAnd by still practice learn to know thy meaning.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Good grandsire, leave these bitter deep laments.",
-          "plainText": "Good grandsire leave these bitter deep laments",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Make my aunt merry with some pleasing tale.",
-          "plainText": "Make my aunt merry with some pleasing tale",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-3",
+          "start": 51,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-4",
+          "start": 92,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-5",
+          "start": 136,
+          "end": 183,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-6",
+          "start": 184,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-7",
+          "start": 222,
+          "end": 263,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-8",
+          "start": 264,
+          "end": 306,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-9",
+          "start": 307,
+          "end": 348,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-10",
+          "start": 349,
+          "end": 392,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-11",
+          "start": 393,
+          "end": 432,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-12",
+          "start": 433,
+          "end": 474,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-13",
+          "start": 475,
+          "end": 523,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-14",
+          "start": 524,
+          "end": 570,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-15",
+          "start": 571,
+          "end": 610,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-16",
+          "start": 611,
+          "end": 656,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-17",
+          "start": 657,
+          "end": 704,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-18",
+          "start": 705,
+          "end": 753,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-19",
+          "start": 754,
+          "end": 793,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-20",
+          "start": 794,
+          "end": 835,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-21",
+          "start": 836,
+          "end": 887,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-22",
+          "start": 888,
+          "end": 934,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-23",
+          "start": 935,
+          "end": 973,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@87290/line-24",
+          "start": 974,
+          "end": 1022,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6028649,
+        "end": 6029811,
+        "line": 224419,
+        "column": 1,
+        "path": "chap34/p@87290",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-005",
+      "id": "titus-andronicus/sceneIII_34.2/p@88456",
       "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "YOUNG LUCIUS.\nGood grandsire, leave these bitter deep laments.\nMake my aunt merry with some pleasing tale.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Alas, the tender boy, in passion moved,",
-          "plainText": "Alas the tender boy in passion moved",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@88456/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "Doth weep to see his grandsire's heaviness.",
-          "plainText": "Doth weep to see his grandsire's heaviness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@88456/line-2",
+          "start": 14,
+          "end": 62,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@88456/line-3",
+          "start": 63,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6029815,
+        "end": 6029956,
+        "line": 224446,
+        "column": 1,
+        "path": "chap34/p@88456",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "YOUNG LUCIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-006",
+      "id": "titus-andronicus/sceneIII_34.2/p@88601",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nAlas, the tender boy, in passion moved,\nDoth weep to see his grandsire’s heaviness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "Peace, tender sapling; thou art made of tears,",
-          "plainText": "Peace tender sapling thou art made of tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@88601/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 2,
-          "text": "And tears will quickly melt thy life away.",
-          "plainText": "And tears will quickly melt thy life away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@88601/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@88601/line-3",
+          "start": 48,
+          "end": 91,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "titus-andronicus-3-2-stage-002",
-      "type": "stage",
-      "text": "[Marcus strikes the dish with a knife.]"
-    },
-    {
-      "id": "titus-andronicus-3-2-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
+      ],
+      "sourceRef": {
+        "start": 6029960,
+        "end": 6030086,
+        "line": 224452,
+        "column": 1,
+        "path": "chap34/p@88601",
+        "anchor": "sceneIII_34.2"
       },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneIII_34.2/p@88731",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nPeace, tender sapling; thou art made of tears,\nAnd tears will quickly melt thy life away.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "At that that I have killed, my lord, a fly.",
-          "plainText": "At that that I have killed my lord a fly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneIII_34.2/p@88731/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@88731/line-2",
+          "start": 7,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@88731/line-3",
+          "start": 54,
+          "end": 96,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030090,
+        "end": 6030221,
+        "line": 224458,
+        "column": 1,
+        "path": "chap34/p@88731",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "id": "titus-andronicus/sceneIII_34.2/p@88866",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Marcus strikes the dish with a knife.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 7,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 38
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "Out on thee, murderer! Thou kill'st my heart;",
-          "plainText": "Out on thee murderer Thou kill'st my heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 2,
-          "text": "Mine eyes are cloyed with view of tyranny;",
-          "plainText": "Mine eyes are cloyed with view of tyranny",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 3,
-          "text": "A deed of death done on the innocent",
-          "plainText": "A deed of death done on the innocent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 4,
-          "text": "Becomes not Titus' brother. Get thee gone;",
-          "plainText": "Becomes not Titus' brother Get thee gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 5,
-          "text": "I see thou art not for my company.",
-          "plainText": "I see thou art not for my company",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@88866/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030225,
+        "end": 6030323,
+        "line": 224464,
+        "column": 1,
+        "path": "chap34/p@88866",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "id": "titus-andronicus/sceneIII_34.2/p@88968",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "What dost thou strike at, Marcus, with thy knife?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Alas, my lord, I have but killed a fly.",
-          "plainText": "Alas my lord I have but killed a fly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneIII_34.2/p@88968/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030327,
+        "end": 6030401,
+        "line": 224467,
+        "column": 1,
+        "path": "chap34/p@88968",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-010",
+      "id": "titus-andronicus/sceneIII_34.2/p@89046",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nAt that that I have killed, my lord, a fly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "\"But\"? How if that fly had a father and mother?",
-          "plainText": "But How if that fly had a father and mother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89046/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0060",
-          "number": 60,
-          "speechLineNumber": 2,
-          "text": "How would he hang his slender gilded wings",
-          "plainText": "How would he hang his slender gilded wings",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0061",
-          "number": 61,
-          "speechLineNumber": 3,
-          "text": "And buzz lamenting doings in the air!",
-          "plainText": "And buzz lamenting doings in the air",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0062",
-          "number": 62,
-          "speechLineNumber": 4,
-          "text": "Poor harmless fly,",
-          "plainText": "Poor harmless fly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0063",
-          "number": 63,
-          "speechLineNumber": 5,
-          "text": "That with his pretty buzzing melody,",
-          "plainText": "That with his pretty buzzing melody",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0064",
-          "number": 64,
-          "speechLineNumber": 6,
-          "text": "Came here to make us merry, and thou hast killed him.",
-          "plainText": "Came here to make us merry and thou hast killed him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89046/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030405,
+        "end": 6030486,
+        "line": 224471,
+        "column": 1,
+        "path": "chap34/p@89046",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-011",
+      "id": "titus-andronicus/sceneIII_34.2/p@89131",
       "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nOut on thee, murderer! Thou kill’st my heart;\nMine eyes are cloyed with view of tyranny;\nA deed of death done on the innocent\nBecomes not Titus’ brother. Get thee gone;\nI see thou art not for my company.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "Pardon me, sir; 'twas a black ill-favoured fly,",
-          "plainText": "Pardon me sir 'twas a black illfavoured fly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0066",
-          "number": 66,
-          "speechLineNumber": 2,
-          "text": "Like to the empress' Moor; therefore I killed him.",
-          "plainText": "Like to the empress' Moor therefore I killed him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-2",
+          "start": 7,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-3",
+          "start": 53,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-4",
+          "start": 96,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-5",
+          "start": 133,
+          "end": 175,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89131/line-6",
+          "start": 176,
+          "end": 210,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030490,
+        "end": 6030750,
+        "line": 224476,
+        "column": 1,
+        "path": "chap34/p@89131",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-012",
+      "id": "titus-andronicus/sceneIII_34.2/p@89395",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nAlas, my lord, I have but killed a fly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "O, O, O!",
-          "plainText": "O O O",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89395/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "Then pardon me for reprehending thee,",
-          "plainText": "Then pardon me for reprehending thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0069",
-          "number": 69,
-          "speechLineNumber": 3,
-          "text": "For thou hast done a charitable deed.",
-          "plainText": "For thou hast done a charitable deed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0070",
-          "number": 70,
-          "speechLineNumber": 4,
-          "text": "Give me thy knife, I will insult on him,",
-          "plainText": "Give me thy knife I will insult on him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0071",
-          "number": 71,
-          "speechLineNumber": 5,
-          "text": "Flattering myself as if it were the Moor",
-          "plainText": "Flattering myself as if it were the Moor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0072",
-          "number": 72,
-          "speechLineNumber": 6,
-          "text": "Come hither purposely to poison me.",
-          "plainText": "Come hither purposely to poison me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0073",
-          "number": 73,
-          "speechLineNumber": 7,
-          "text": "There's for thyself, and that's for Tamora.",
-          "plainText": "There's for thyself and that's for Tamora",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0074",
-          "number": 74,
-          "speechLineNumber": 8,
-          "text": "Ah, sirrah!",
-          "plainText": "Ah sirrah",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0075",
-          "number": 75,
-          "speechLineNumber": 9,
-          "text": "Yet, I think, we are not brought so low",
-          "plainText": "Yet I think we are not brought so low",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0076",
-          "number": 76,
-          "speechLineNumber": 10,
-          "text": "But that between us we can kill a fly",
-          "plainText": "But that between us we can kill a fly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0077",
-          "number": 77,
-          "speechLineNumber": 11,
-          "text": "That comes in likeness of a coal-black Moor.",
-          "plainText": "That comes in likeness of a coalblack Moor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89395/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030754,
+        "end": 6030831,
+        "line": 224485,
+        "column": 1,
+        "path": "chap34/p@89395",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-013",
+      "id": "titus-andronicus/sceneIII_34.2/p@89476",
       "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\n“But”? How if that fly had a father and mother?\nHow would he hang his slender gilded wings\nAnd buzz lamenting doings in the air!\nPoor harmless fly,\nThat with his pretty buzzing melody,\nCame here to make us merry, and thou hast killed him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0078",
-          "number": 78,
-          "speechLineNumber": 1,
-          "text": "Alas, poor man, grief has so wrought on him,",
-          "plainText": "Alas poor man grief has so wrought on him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0079",
-          "number": 79,
-          "speechLineNumber": 2,
-          "text": "He takes false shadows for true substances.",
-          "plainText": "He takes false shadows for true substances",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-2",
+          "start": 7,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-3",
+          "start": 55,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-4",
+          "start": 98,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-5",
+          "start": 136,
+          "end": 154,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-6",
+          "start": 155,
+          "end": 191,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89476/line-7",
+          "start": 192,
+          "end": 245,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6030835,
+        "end": 6031135,
+        "line": 224490,
+        "column": 1,
+        "path": "chap34/p@89476",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "titus-andronicus-3-2-speech-014",
+      "id": "titus-andronicus/sceneIII_34.2/p@89780",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nPardon me, sir; ’twas a black ill-favoured fly,\nLike to the empress’ Moor; therefore I killed him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-3-2-line-0080",
-          "number": 80,
-          "speechLineNumber": 1,
-          "text": "Come, take away. Lavinia, go with me.",
-          "plainText": "Come take away Lavinia go with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89780/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0081",
-          "number": 81,
-          "speechLineNumber": 2,
-          "text": "I'll to thy closet, and go read with thee",
-          "plainText": "I'll to thy closet and go read with thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89780/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-3-2-line-0082",
-          "number": 82,
-          "speechLineNumber": 3,
-          "text": "Sad stories chanced in the times of old.",
-          "plainText": "Sad stories chanced in the times of old",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0083",
-          "number": 83,
-          "speechLineNumber": 4,
-          "text": "Come, boy, and go with me. Thy sight is young,",
-          "plainText": "Come boy and go with me Thy sight is young",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-3-2-line-0084",
-          "number": 84,
-          "speechLineNumber": 5,
-          "text": "And thou shalt read when mine begin to dazzle.",
-          "plainText": "And thou shalt read when mine begin to dazzle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneIII_34.2/p@89780/line-3",
+          "start": 56,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6031139,
+        "end": 6031280,
+        "line": 224500,
+        "column": 1,
+        "path": "chap34/p@89780",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-3-2-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "titus-andronicus/sceneIII_34.2/p@89925",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nO, O, O!\nThen pardon me for reprehending thee,\nFor thou hast done a charitable deed.\nGive me thy knife, I will insult on him,\nFlattering myself as if it were the Moor\nCome hither purposely to poison me.\nThere’s for thyself, and that’s for Tamora.\nAh, sirrah!\nYet, I think, we are not brought so low\nBut that between us we can kill a fly\nThat comes in likeness of a coal-black Moor.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-2",
+          "start": 7,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-3",
+          "start": 16,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-4",
+          "start": 54,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-5",
+          "start": 92,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-6",
+          "start": 133,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-7",
+          "start": 174,
+          "end": 209,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-8",
+          "start": 210,
+          "end": 253,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-9",
+          "start": 254,
+          "end": 265,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-10",
+          "start": 266,
+          "end": 305,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-11",
+          "start": 306,
+          "end": 343,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@89925/line-12",
+          "start": 344,
+          "end": 388,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6031284,
+        "end": 6031752,
+        "line": 224506,
+        "column": 1,
+        "path": "chap34/p@89925",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneIII_34.2/p@90397",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nAlas, poor man, grief has so wrought on him,\nHe takes false shadows for true substances.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90397/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90397/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90397/line-3",
+          "start": 53,
+          "end": 96,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6031756,
+        "end": 6031887,
+        "line": 224521,
+        "column": 1,
+        "path": "chap34/p@90397",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneIII_34.2/p@90532",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nCome, take away. Lavinia, go with me.\nI’ll to thy closet, and go read with thee\nSad stories chanced in the times of old.\nCome, boy, and go with me. Thy sight is young,\nAnd thou shalt read when mine begin to dazzle.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-2",
+          "start": 7,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-3",
+          "start": 45,
+          "end": 86,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-4",
+          "start": 87,
+          "end": 127,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-5",
+          "start": 128,
+          "end": 174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90532/line-6",
+          "start": 175,
+          "end": 221,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6031891,
+        "end": 6032162,
+        "line": 224527,
+        "column": 1,
+        "path": "chap34/p@90532",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneIII_34.2/p@90807",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneIII_34.2/p@90807/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6032166,
+        "end": 6032203,
+        "line": 224536,
+        "column": 1,
+        "path": "chap34/p@90807",
+        "anchor": "sceneIII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74"
 }

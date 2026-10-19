@@ -1,294 +1,556 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "coriolanus",
-    "title": "The Tragedy of Coriolanus",
+    "title": "THE TRAGEDY OF CORIOLANUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap06"
   },
-  "scene": {
+  "section": {
     "id": "coriolanus-1-8",
+    "kind": "scene",
+    "heading": "SCENE VIII. A field of battle between the Roman and the Volscian camps",
     "act": 1,
     "scene": 8,
-    "label": "Act 1, Scene 8",
-    "title": "SCENE VIII. A field of battle between the Roman and the Volscian camps",
-    "location": "A field of battle between the Roman and the Volscian camps",
-    "orderInPlay": 8
+    "parentSectionId": "coriolanus-act-4550",
+    "orderInPlay": 13,
+    "sourceRef": {
+      "start": 866633,
+      "end": 866743,
+      "line": 32689,
+      "column": 1,
+      "path": "chap06/h3@46921",
+      "anchor": "sceneI_6.8"
+    }
   },
   "content": [
     {
-      "id": "coriolanus-1-8-stage-001",
+      "id": "coriolanus/sceneI_6.8/h3@46921",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VIII. A field of battle between the Roman and the Volscian camps",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.8/h3@46921/line-1",
+          "start": 0,
+          "end": 70,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 866633,
+        "end": 866743,
+        "line": 32689,
+        "column": 1,
+        "path": "chap06/h3@46921",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.8/p@47035",
       "type": "stage",
-      "text": "Alarum, as in battle. Enter Martius and Aufidius at several doors."
-    },
-    {
-      "id": "coriolanus-1-8-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum, as in battle. Enter Martius and Aufidius at several doors.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 35,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 40,
+          "end": 48,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I'll fight with none but thee, for I do hate thee",
-          "plainText": "I'll fight with none but thee for I do hate thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-8-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Worse than a promise-breaker.",
-          "plainText": "Worse than a promisebreaker",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47035/line-1",
+          "start": 0,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 866747,
+        "end": 866903,
+        "line": 32691,
+        "column": 1,
+        "path": "chap06/p@47035",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "coriolanus-1-8-speech-002",
+      "id": "coriolanus/sceneI_6.8/p@47195",
       "type": "speech",
-      "speaker": {
-        "id": "aufidius",
-        "name": "AUFIDIUS",
-        "displayName": "Aufidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nI’ll fight with none but thee, for I do hate thee\nWorse than a promise-breaker.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "We hate alike.",
-          "plainText": "We hate alike",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47195/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "Not Afric owns a serpent I abhor",
-          "plainText": "Not Afric owns a serpent I abhor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47195/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0005",
-          "number": 5,
-          "speechLineNumber": 3,
-          "text": "More than thy fame and envy. Fix thy foot.",
-          "plainText": "More than thy fame and envy Fix thy foot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47195/line-3",
+          "start": 59,
+          "end": 88,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 866907,
+        "end": 867030,
+        "line": 32696,
+        "column": 1,
+        "path": "chap06/p@47195",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-8-speech-003",
+      "id": "coriolanus/sceneI_6.8/p@47322",
       "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AUFIDIUS.\nWe hate alike.\nNot Afric owns a serpent I abhor\nMore than thy fame and envy. Fix thy foot.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Let the first budger die the other's slave,",
-          "plainText": "Let the first budger die the other's slave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47322/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "And the gods doom him after!",
-          "plainText": "And the gods doom him after",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47322/line-2",
+          "start": 10,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47322/line-3",
+          "start": 25,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47322/line-4",
+          "start": 58,
+          "end": 100,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 867034,
+        "end": 867174,
+        "line": 32702,
+        "column": 1,
+        "path": "chap06/p@47322",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "AUFIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-8-speech-004",
+      "id": "coriolanus/sceneI_6.8/p@47466",
       "type": "speech",
-      "speaker": {
-        "id": "aufidius",
-        "name": "AUFIDIUS",
-        "displayName": "Aufidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nLet the first budger die the other’s slave,\nAnd the gods doom him after!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "If I fly, Martius,",
-          "plainText": "If I fly Martius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47466/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Hollo me like a hare.",
-          "plainText": "Hollo me like a hare",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47466/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47466/line-3",
+          "start": 53,
+          "end": 81,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 867178,
+        "end": 867294,
+        "line": 32709,
+        "column": 1,
+        "path": "chap06/p@47466",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-8-speech-005",
+      "id": "coriolanus/sceneI_6.8/p@47586",
       "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AUFIDIUS.\nIf I fly, Martius,\nHollo me like a hare.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Within these three hours, Tullus,",
-          "plainText": "Within these three hours Tullus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47586/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "Alone I fought in your Corioles' walls,",
-          "plainText": "Alone I fought in your Corioles' walls",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47586/line-2",
+          "start": 10,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "And made what work I pleased. 'Tis not my blood",
-          "plainText": "And made what work I pleased 'Tis not my blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-8-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "Wherein thou seest me masked. For thy revenge",
-          "plainText": "Wherein thou seest me masked For thy revenge",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-8-line-0014",
-          "number": 14,
-          "speechLineNumber": 5,
-          "text": "Wrench up thy power to th' highest.",
-          "plainText": "Wrench up thy power to th' highest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47586/line-3",
+          "start": 29,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 867298,
+        "end": 867383,
+        "line": 32715,
+        "column": 1,
+        "path": "chap06/p@47586",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "AUFIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-8-speech-006",
+      "id": "coriolanus/sceneI_6.8/p@47675",
       "type": "speech",
-      "speaker": {
-        "id": "aufidius",
-        "name": "AUFIDIUS",
-        "displayName": "Aufidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nWithin these three hours, Tullus,\nAlone I fought in your Corioles’ walls,\nAnd made what work I pleased. ’Tis not my blood\nWherein thou seest me masked. For thy revenge\nWrench up thy power to th’ highest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-8-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Wert thou the Hector",
-          "plainText": "Wert thou the Hector",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47675/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "That was the whip of your bragged progeny,",
-          "plainText": "That was the whip of your bragged progeny",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47675/line-2",
+          "start": 9,
+          "end": 42,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-8-line-0017",
-          "number": 17,
-          "speechLineNumber": 3,
-          "text": "Thou shouldst not scape me here.",
-          "plainText": "Thou shouldst not scape me here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.8/p@47675/line-3",
+          "start": 43,
+          "end": 82,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47675/line-4",
+          "start": 83,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47675/line-5",
+          "start": 131,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47675/line-6",
+          "start": 177,
+          "end": 212,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 867387,
+        "end": 867649,
+        "line": 32721,
+        "column": 1,
+        "path": "chap06/p@47675",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-8-stage-002",
-      "type": "stage",
-      "text": "[Here they fight, and certain Volsces come to the aid of Aufidius.]"
+      "id": "coriolanus/sceneI_6.8/p@47941",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AUFIDIUS.\nWert thou the Hector\nThat was the whip of your bragged progeny,\nThou shouldst not scape me here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.8/p@47941/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47941/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47941/line-3",
+          "start": 31,
+          "end": 73,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@47941/line-4",
+          "start": 74,
+          "end": 106,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 867653,
+        "end": 867799,
+        "line": 32730,
+        "column": 1,
+        "path": "chap06/p@47941",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": "AUFIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-8-stage-003",
-      "type": "stage",
-      "text": "[Martius fights till they be driven in breathless. Aufidius and Martius exit, separately.]"
+      "id": "coriolanus/sceneI_6.8/p@48091",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Here they fight, and certain Volsces come to the aid of Aufidius.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 57,
+          "end": 65,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 66
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.8/p@48091/line-1",
+          "start": 0,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 867803,
+        "end": 867929,
+        "line": 32737,
+        "column": 1,
+        "path": "chap06/p@48091",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.8/p@48221",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Officious and not valiant, you have shamed me\nIn your condemned seconds.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.8/p@48221/line-1",
+          "start": 0,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.8/p@48221/line-2",
+          "start": 46,
+          "end": 72,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 867933,
+        "end": 868035,
+        "line": 32740,
+        "column": 1,
+        "path": "chap06/p@48221",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.8/p@48327",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Martius fights till they be driven in breathless. Aufidius and Martius exit, separately.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 8,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 51,
+          "end": 59,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 64,
+          "end": 71,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 89
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.8/p@48327/line-1",
+          "start": 0,
+          "end": 90,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 868039,
+        "end": 868252,
+        "line": 32745,
+        "column": 1,
+        "path": "chap06/p@48327",
+        "anchor": "sceneI_6.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40"
 }

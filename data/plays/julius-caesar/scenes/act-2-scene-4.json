@@ -1,827 +1,1184 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "julius-caesar",
-    "title": "The Tragedy of Julius Caesar",
+    "title": "THE TRAGEDY OF JULIUS CAESAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap17"
   },
-  "scene": {
+  "section": {
     "id": "julius-caesar-2-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Another part of the same street, before the house of Brutus.",
     "act": 2,
     "scene": 4,
-    "label": "Act 2, Scene 4",
-    "title": "SCENE IV. Another part of the same street, before the house of Brutus.",
-    "location": "Another part of the same street, before the house of Brutus.",
-    "orderInPlay": 7
+    "parentSectionId": "julius-caesar-act-36992",
+    "orderInPlay": 13,
+    "sourceRef": {
+      "start": 3077051,
+      "end": 3077164,
+      "line": 111461,
+      "column": 1,
+      "path": "chap17/h3@66654",
+      "anchor": "sceneII_17.4"
+    }
   },
   "content": [
     {
-      "id": "julius-caesar-2-4-stage-001",
+      "id": "julius-caesar/sceneII_17.4/h3@66654",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Another part of the same street, before the house of Brutus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/h3@66654/line-1",
+          "start": 0,
+          "end": 70,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3077051,
+        "end": 3077164,
+        "line": 111461,
+        "column": 1,
+        "path": "chap17/h3@66654",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@66771",
       "type": "stage",
-      "text": "Enter Portia and Lucius."
-    },
-    {
-      "id": "julius-caesar-2-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Portia and Lucius.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 17,
+          "end": 23,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I pr'ythee, boy, run to the Senate-house;",
-          "plainText": "I pr'ythee boy run to the Senatehouse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Stay not to answer me, but get thee gone.",
-          "plainText": "Stay not to answer me but get thee gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Why dost thou stay?",
-          "plainText": "Why dost thou stay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@66771/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3077168,
+        "end": 3077281,
+        "line": 111464,
+        "column": 1,
+        "path": "chap17/p@66771",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-002",
+      "id": "julius-caesar/sceneII_17.4/p@66888",
       "type": "speech",
-      "speaker": {
-        "id": "lucius",
-        "name": "LUCIUS",
-        "displayName": "Lucius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nI pr’ythee, boy, run to the Senate-house;\nStay not to answer me, but get thee gone.\nWhy dost thou stay?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "To know my errand, madam.",
-          "plainText": "To know my errand madam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@66888/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@66888/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@66888/line-3",
+          "start": 50,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@66888/line-4",
+          "start": 92,
+          "end": 111,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3077285,
+        "end": 3077436,
+        "line": 111468,
+        "column": 1,
+        "path": "chap17/p@66888",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-003",
+      "id": "julius-caesar/sceneII_17.4/p@67043",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCIUS.\nTo know my errand, madam.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "I would have had thee there and here again,",
-          "plainText": "I would have had thee there and here again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67043/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "Ere I can tell thee what thou shouldst do there.",
-          "plainText": "Ere I can tell thee what thou shouldst do there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 3,
-          "text": "[Aside.] O constancy, be strong upon my side,",
-          "plainText": "Aside O constancy be strong upon my side",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 4,
-          "text": "Set a huge mountain 'tween my heart and tongue!",
-          "plainText": "Set a huge mountain 'tween my heart and tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 5,
-          "text": "I have a man's mind, but a woman's might.",
-          "plainText": "I have a man's mind but a woman's might",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 6,
-          "text": "How hard it is for women to keep counsel!",
-          "plainText": "How hard it is for women to keep counsel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 7,
-          "text": "Art thou here yet?",
-          "plainText": "Art thou here yet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67043/line-2",
+          "start": 8,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3077440,
+        "end": 3077503,
+        "line": 111475,
+        "column": 1,
+        "path": "chap17/p@67043",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "LUCIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-004",
+      "id": "julius-caesar/sceneII_17.4/p@67110",
       "type": "speech",
-      "speaker": {
-        "id": "lucius",
-        "name": "LUCIUS",
-        "displayName": "Lucius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nI would have had thee there and here again,\nEre I can tell thee what thou shouldst do there.\n[Aside.] O constancy, be strong upon my side,\nSet a huge mountain ’tween my heart and tongue!\nI have a man’s mind, but a woman’s might.\nHow hard it is for women to keep counsel!\nArt thou here yet?",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 102,
+          "end": 108
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Madam, what should I do?",
-          "plainText": "Madam what should I do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Run to the Capitol, and nothing else?",
-          "plainText": "Run to the Capitol and nothing else",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "And so return to you, and nothing else?",
-          "plainText": "And so return to you and nothing else",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-3",
+          "start": 52,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-4",
+          "start": 101,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-5",
+          "start": 147,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-6",
+          "start": 195,
+          "end": 236,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-7",
+          "start": 237,
+          "end": 278,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67110/line-8",
+          "start": 279,
+          "end": 297,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3077507,
+        "end": 3077871,
+        "line": 111480,
+        "column": 1,
+        "path": "chap17/p@67110",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-005",
+      "id": "julius-caesar/sceneII_17.4/p@67478",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCIUS.\nMadam, what should I do?\nRun to the Capitol, and nothing else?\nAnd so return to you, and nothing else?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Yes, bring me word, boy, if thy lord look well,",
-          "plainText": "Yes bring me word boy if thy lord look well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67478/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "For he went sickly forth: and take good note",
-          "plainText": "For he went sickly forth and take good note",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67478/line-2",
+          "start": 8,
+          "end": 32,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 3,
-          "text": "What Caesar doth, what suitors press to him.",
-          "plainText": "What Caesar doth what suitors press to him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67478/line-3",
+          "start": 33,
+          "end": 70,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 4,
-          "text": "Hark, boy, what noise is that?",
-          "plainText": "Hark boy what noise is that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67478/line-4",
+          "start": 71,
+          "end": 110,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3077875,
+        "end": 3078025,
+        "line": 111491,
+        "column": 1,
+        "path": "chap17/p@67478",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "LUCIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-006",
+      "id": "julius-caesar/sceneII_17.4/p@67632",
       "type": "speech",
-      "speaker": {
-        "id": "lucius",
-        "name": "LUCIUS",
-        "displayName": "Lucius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nYes, bring me word, boy, if thy lord look well,\nFor he went sickly forth: and take good note\nWhat Caesar doth, what suitors press to him.\nHark, boy, what noise is that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "I hear none, madam.",
-          "plainText": "I hear none madam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "julius-caesar-2-4-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
-      "lines": [
-        {
-          "id": "julius-caesar-2-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Pr'ythee, listen well.",
-          "plainText": "Pr'ythee listen well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67632/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "I heard a bustling rumour, like a fray,",
-          "plainText": "I heard a bustling rumour like a fray",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67632/line-2",
+          "start": 8,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 3,
-          "text": "And the wind brings it from the Capitol.",
-          "plainText": "And the wind brings it from the Capitol",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@67632/line-3",
+          "start": 56,
+          "end": 100,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67632/line-4",
+          "start": 101,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67632/line-5",
+          "start": 146,
+          "end": 176,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078029,
+        "end": 3078250,
+        "line": 111498,
+        "column": 1,
+        "path": "chap17/p@67632",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-008",
+      "id": "julius-caesar/sceneII_17.4/p@67857",
       "type": "speech",
-      "speaker": {
-        "id": "lucius",
-        "name": "LUCIUS",
-        "displayName": "Lucius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCIUS.\nI hear none, madam.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Sooth, madam, I hear nothing.",
-          "plainText": "Sooth madam I hear nothing",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@67857/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67857/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078254,
+        "end": 3078311,
+        "line": 111506,
+        "column": 1,
+        "path": "chap17/p@67857",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "LUCIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-stage-002",
+      "id": "julius-caesar/sceneII_17.4/p@67918",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nPr’ythee, listen well.\nI heard a bustling rumour, like a fray,\nAnd the wind brings it from the Capitol.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67918/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67918/line-2",
+          "start": 8,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67918/line-3",
+          "start": 31,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@67918/line-4",
+          "start": 71,
+          "end": 111,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3078315,
+        "end": 3078466,
+        "line": 111511,
+        "column": 1,
+        "path": "chap17/p@67918",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@68073",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LUCIUS.\nSooth, madam, I hear nothing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68073/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68073/line-2",
+          "start": 8,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3078470,
+        "end": 3078537,
+        "line": 111518,
+        "column": 1,
+        "path": "chap17/p@68073",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "LUCIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@68144",
       "type": "stage",
-      "text": "Enter the Soothsayer."
-    },
-    {
-      "id": "julius-caesar-2-4-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter the Soothsayer.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Come hither, fellow:",
-          "plainText": "Come hither fellow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "Which way hast thou been?",
-          "plainText": "Which way hast thou been",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68144/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078541,
+        "end": 3078621,
+        "line": 111523,
+        "column": 1,
+        "path": "chap17/p@68144",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-010",
+      "id": "julius-caesar/sceneII_17.4/p@68228",
       "type": "speech",
-      "speaker": {
-        "id": "soothsayer",
-        "name": "SOOTHSAYER",
-        "displayName": "Soothsayer"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nCome hither, fellow:\nWhich way hast thou been?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "At mine own house, good lady.",
-          "plainText": "At mine own house good lady",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68228/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68228/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68228/line-3",
+          "start": 29,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078625,
+        "end": 3078714,
+        "line": 111527,
+        "column": 1,
+        "path": "chap17/p@68228",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-011",
+      "id": "julius-caesar/sceneII_17.4/p@68321",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOOTHSAYER.\nAt mine own house, good lady.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "What is't o'clock?",
-          "plainText": "What is't o'clock",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68321/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68321/line-2",
+          "start": 12,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078718,
+        "end": 3078789,
+        "line": 111533,
+        "column": 1,
+        "path": "chap17/p@68321",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "SOOTHSAYER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-012",
+      "id": "julius-caesar/sceneII_17.4/p@68396",
       "type": "speech",
-      "speaker": {
-        "id": "soothsayer",
-        "name": "SOOTHSAYER",
-        "displayName": "Soothsayer"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nWhat is’t o’clock?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "About the ninth hour, lady.",
-          "plainText": "About the ninth hour lady",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68396/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68396/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078793,
+        "end": 3078849,
+        "line": 111538,
+        "column": 1,
+        "path": "chap17/p@68396",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-013",
+      "id": "julius-caesar/sceneII_17.4/p@68456",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOOTHSAYER.\nAbout the ninth hour, lady.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "Is Caesar yet gone to the Capitol?",
-          "plainText": "Is Caesar yet gone to the Capitol",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68456/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68456/line-2",
+          "start": 12,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078853,
+        "end": 3078922,
+        "line": 111543,
+        "column": 1,
+        "path": "chap17/p@68456",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "SOOTHSAYER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-014",
+      "id": "julius-caesar/sceneII_17.4/p@68529",
       "type": "speech",
-      "speaker": {
-        "id": "soothsayer",
-        "name": "SOOTHSAYER",
-        "displayName": "Soothsayer"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nIs Caesar yet gone to the Capitol?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Madam, not yet. I go to take my stand,",
-          "plainText": "Madam not yet I go to take my stand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68529/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "To see him pass on to the Capitol.",
-          "plainText": "To see him pass on to the Capitol",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68529/line-2",
+          "start": 8,
+          "end": 42,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3078926,
+        "end": 3078998,
+        "line": 111548,
+        "column": 1,
+        "path": "chap17/p@68529",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-015",
+      "id": "julius-caesar/sceneII_17.4/p@68605",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOOTHSAYER.\nMadam, not yet. I go to take my stand,\nTo see him pass on to the Capitol.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Thou hast some suit to Caesar, hast thou not?",
-          "plainText": "Thou hast some suit to Caesar hast thou not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68605/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68605/line-2",
+          "start": 12,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68605/line-3",
+          "start": 51,
+          "end": 85,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3079002,
+        "end": 3079122,
+        "line": 111553,
+        "column": 1,
+        "path": "chap17/p@68605",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "SOOTHSAYER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-016",
+      "id": "julius-caesar/sceneII_17.4/p@68729",
       "type": "speech",
-      "speaker": {
-        "id": "soothsayer",
-        "name": "SOOTHSAYER",
-        "displayName": "Soothsayer"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nThou hast some suit to Caesar, hast thou not?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "That I have, lady, if it will please Caesar",
-          "plainText": "That I have lady if it will please Caesar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68729/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "To be so good to Caesar as to hear me,",
-          "plainText": "To be so good to Caesar as to hear me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "I shall beseech him to befriend himself.",
-          "plainText": "I shall beseech him to befriend himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68729/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3079126,
+        "end": 3079209,
+        "line": 111559,
+        "column": 1,
+        "path": "chap17/p@68729",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-017",
+      "id": "julius-caesar/sceneII_17.4/p@68816",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOOTHSAYER.\nThat I have, lady, if it will please Caesar\nTo be so good to Caesar as to hear me,\nI shall beseech him to befriend himself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Why, know'st thou any harm's intended towards him?",
-          "plainText": "Why know'st thou any harm's intended towards him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "julius-caesar/sceneII_17.4/p@68816/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68816/line-2",
+          "start": 12,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68816/line-3",
+          "start": 56,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@68816/line-4",
+          "start": 95,
+          "end": 135,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3079213,
+        "end": 3079388,
+        "line": 111564,
+        "column": 1,
+        "path": "chap17/p@68816",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "SOOTHSAYER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "julius-caesar-2-4-speech-018",
+      "id": "julius-caesar/sceneII_17.4/p@68995",
       "type": "speech",
-      "speaker": {
-        "id": "soothsayer",
-        "name": "SOOTHSAYER",
-        "displayName": "Soothsayer"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nWhy, know’st thou any harm’s intended towards him?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "None that I know will be, much that I fear may chance.",
-          "plainText": "None that I know will be much that I fear may chance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68995/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "Good morrow to you. Here the street is narrow.",
-          "plainText": "Good morrow to you Here the street is narrow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "The throng that follows Caesar at the heels,",
-          "plainText": "The throng that follows Caesar at the heels",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 4,
-          "text": "Of Senators, of Praetors, common suitors,",
-          "plainText": "Of Senators of Praetors common suitors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 5,
-          "text": "Will crowd a feeble man almost to death:",
-          "plainText": "Will crowd a feeble man almost to death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 6,
-          "text": "I'll get me to a place more void, and there",
-          "plainText": "I'll get me to a place more void and there",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0043",
-          "number": 43,
-          "speechLineNumber": 7,
-          "text": "Speak to great Caesar as he comes along.",
-          "plainText": "Speak to great Caesar as he comes along",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@68995/line-2",
+          "start": 8,
+          "end": 58,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "julius-caesar-2-4-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "julius-caesar-2-4-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
+      ],
+      "sourceRef": {
+        "start": 3079392,
+        "end": 3079480,
+        "line": 111571,
+        "column": 1,
+        "path": "chap17/p@68995",
+        "anchor": "sceneII_17.4"
       },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@69087",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOOTHSAYER.\nNone that I know will be, much that I fear may chance.\nGood morrow to you. Here the street is narrow.\nThe throng that follows Caesar at the heels,\nOf Senators, of Praetors, common suitors,\nWill crowd a feeble man almost to death:\nI’ll get me to a place more void, and there\nSpeak to great Caesar as he comes along.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "julius-caesar-2-4-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "I must go in.",
-          "plainText": "I must go in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "[Aside.] Ay me, how weak a thing",
-          "plainText": "Aside Ay me how weak a thing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-2",
+          "start": 12,
+          "end": 66,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0046",
-          "number": 46,
-          "speechLineNumber": 3,
-          "text": "The heart of woman is! O Brutus,",
-          "plainText": "The heart of woman is O Brutus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-3",
+          "start": 67,
+          "end": 113,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0047",
-          "number": 47,
-          "speechLineNumber": 4,
-          "text": "The heavens speed thee in thine enterprise!",
-          "plainText": "The heavens speed thee in thine enterprise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-4",
+          "start": 114,
+          "end": 158,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0048",
-          "number": 48,
-          "speechLineNumber": 5,
-          "text": "Sure, the boy heard me. Brutus hath a suit",
-          "plainText": "Sure the boy heard me Brutus hath a suit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-5",
+          "start": 159,
+          "end": 200,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0049",
-          "number": 49,
-          "speechLineNumber": 6,
-          "text": "That Caesar will not grant. O, I grow faint.",
-          "plainText": "That Caesar will not grant O I grow faint",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-6",
+          "start": 201,
+          "end": 241,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0050",
-          "number": 50,
-          "speechLineNumber": 7,
-          "text": "Run, Lucius, and commend me to my lord;",
-          "plainText": "Run Lucius and commend me to my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-7",
+          "start": 242,
+          "end": 285,
+          "sourceLineNumber": null
         },
         {
-          "id": "julius-caesar-2-4-line-0051",
-          "number": 51,
-          "speechLineNumber": 8,
-          "text": "Say I am merry; come to me again,",
-          "plainText": "Say I am merry come to me again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "julius-caesar-2-4-line-0052",
-          "number": 52,
-          "speechLineNumber": 9,
-          "text": "And bring me word what he doth say to thee.",
-          "plainText": "And bring me word what he doth say to thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "julius-caesar/sceneII_17.4/p@69087/line-8",
+          "start": 286,
+          "end": 326,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3079484,
+        "end": 3079870,
+        "line": 111576,
+        "column": 1,
+        "path": "chap17/p@69087",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "SOOTHSAYER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "julius-caesar-2-4-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "julius-caesar/sceneII_17.4/p@69477",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69477/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3079874,
+        "end": 3079913,
+        "line": 111587,
+        "column": 1,
+        "path": "chap17/p@69477",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@69520",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nI must go in.\n[Aside.] Ay me, how weak a thing\nThe heart of woman is! O Brutus,\nThe heavens speed thee in thine enterprise!\nSure, the boy heard me. Brutus hath a suit\nThat Caesar will not grant. O, I grow faint.\nRun, Lucius, and commend me to my lord;\nSay I am merry; come to me again,\nAnd bring me word what he doth say to thee.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 23,
+          "end": 29
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-2",
+          "start": 8,
+          "end": 21,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-3",
+          "start": 22,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-4",
+          "start": 55,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-5",
+          "start": 88,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-6",
+          "start": 132,
+          "end": 174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-7",
+          "start": 175,
+          "end": 219,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-8",
+          "start": 220,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-9",
+          "start": 260,
+          "end": 293,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69520/line-10",
+          "start": 294,
+          "end": 337,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3079917,
+        "end": 3080331,
+        "line": 111591,
+        "column": 1,
+        "path": "chap17/p@69520",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.4/p@69938",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.4/p@69938/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3080335,
+        "end": 3080376,
+        "line": 111604,
+        "column": 1,
+        "path": "chap17/p@69938",
+        "anchor": "sceneII_17.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "1cf51df3eb2e8e6722750509336e211f0990b92999ea104fb68c92da0277edf1"
 }

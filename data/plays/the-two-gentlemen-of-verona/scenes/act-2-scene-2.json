@@ -1,364 +1,767 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-two-gentlemen-of-verona",
-    "title": "The Two Gentlemen of Verona",
+    "title": "THE TWO GENTLEMEN OF VERONA",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap37"
   },
-  "scene": {
+  "section": {
     "id": "the-two-gentlemen-of-verona-2-2",
+    "kind": "scene",
+    "heading": "SCENE II. Verona. A room in Julia’s house",
     "act": 2,
     "scene": 2,
-    "label": "Act 2, Scene 2",
-    "title": "SCENE II. Verona. A room in Julia's house",
-    "location": "Verona. A room in Julia's house",
-    "orderInPlay": 5
+    "parentSectionId": "the-two-gentlemen-of-verona-act-28343",
+    "orderInPlay": 11,
+    "sourceRef": {
+      "start": 6520807,
+      "end": 6520890,
+      "line": 244352,
+      "column": 1,
+      "path": "chap37/h3@39497",
+      "anchor": "sceneII_37.2"
+    }
   },
   "content": [
     {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-001",
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/h3@39497",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Verona. A room in Julia’s house",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/h3@39497/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6520807,
+        "end": 6520890,
+        "line": 244352,
+        "column": 1,
+        "path": "chap37/h3@39497",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39584",
       "type": "stage",
-      "text": "Enter Proteus and Julia."
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "proteus",
-        "name": "PROTEUS",
-        "displayName": "Proteus"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Proteus and Julia.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Have patience, gentle Julia.",
-          "plainText": "Have patience gentle Julia",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "julia",
-        "name": "JULIA",
-        "displayName": "Julia"
-      },
-      "lines": [
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "I must, where is no remedy.",
-          "plainText": "I must where is no remedy",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "proteus",
-        "name": "PROTEUS",
-        "displayName": "Proteus"
-      },
-      "lines": [
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "When possibly I can, I will return.",
-          "plainText": "When possibly I can I will return",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "julia",
-        "name": "JULIA",
-        "displayName": "Julia"
-      },
-      "lines": [
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "If you turn not, you will return the sooner.",
-          "plainText": "If you turn not you will return the sooner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
         },
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "Keep this remembrance for thy Julia's sake.",
-          "plainText": "Keep this remembrance for thy Julia's sake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 18,
+          "end": 23,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39584/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6520894,
+        "end": 6521008,
+        "line": 244354,
+        "column": 1,
+        "path": "chap37/p@39584",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-002",
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39702",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PROTEUS.\nHave patience, gentle Julia.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39702/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39702/line-2",
+          "start": 9,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521012,
+        "end": 6521079,
+        "line": 244359,
+        "column": 1,
+        "path": "chap37/p@39702",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "PROTEUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39773",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIA.\nI must, where is no remedy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39773/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39773/line-2",
+          "start": 7,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521083,
+        "end": 6521147,
+        "line": 244364,
+        "column": 1,
+        "path": "chap37/p@39773",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "JULIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39841",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PROTEUS.\nWhen possibly I can, I will return.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39841/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39841/line-2",
+          "start": 9,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521151,
+        "end": 6521225,
+        "line": 244369,
+        "column": 1,
+        "path": "chap37/p@39841",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "PROTEUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39919",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIA.\nIf you turn not, you will return the sooner.\nKeep this remembrance for thy Julia’s sake.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39919/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39919/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@39919/line-3",
+          "start": 52,
+          "end": 95,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521229,
+        "end": 6521359,
+        "line": 244374,
+        "column": 1,
+        "path": "chap37/p@39919",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "JULIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40053",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Gives him a ring.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40053/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521363,
+        "end": 6521410,
+        "line": 244380,
+        "column": 1,
+        "path": "chap37/p@40053",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40104",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PROTEUS.\nWhy, then we’ll make exchange. Here, take you this.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40104/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40104/line-2",
+          "start": 9,
+          "end": 60,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521414,
+        "end": 6521504,
+        "line": 244382,
+        "column": 1,
+        "path": "chap37/p@40104",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "PROTEUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40198",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Gives her a ring.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40198/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521508,
+        "end": 6521555,
+        "line": 244387,
+        "column": 1,
+        "path": "chap37/p@40198",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40249",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIA.\nAnd seal the bargain with a holy kiss.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40249/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40249/line-2",
+          "start": 7,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521559,
+        "end": 6521634,
+        "line": 244389,
+        "column": 1,
+        "path": "chap37/p@40249",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "JULIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PROTEUS.\nHere is my hand for my true constancy.\nAnd when that hour o’erslips me in the day\nWherein I sigh not, Julia, for thy sake,\nThe next ensuing hour some foul mischance\nTorment me for my love’s forgetfulness.\nMy father stays my coming; answer not.\nThe tide is now—nay, not thy tide of tears,\nThat tide will stay me longer than I should.\nJulia, farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-2",
+          "start": 9,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-3",
+          "start": 48,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-4",
+          "start": 91,
+          "end": 131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-5",
+          "start": 132,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-6",
+          "start": 174,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-7",
+          "start": 214,
+          "end": 252,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-8",
+          "start": 253,
+          "end": 296,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-9",
+          "start": 297,
+          "end": 341,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40328/line-10",
+          "start": 342,
+          "end": 358,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6521638,
+        "end": 6522066,
+        "line": 244394,
+        "column": 1,
+        "path": "chap37/p@40328",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "PROTEUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40760",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Julia.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40760/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6522070,
+        "end": 6522141,
+        "line": 244407,
+        "column": 1,
+        "path": "chap37/p@40760",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40835",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "What, gone without a word?\nAy, so true love should do. It cannot speak,\nFor truth hath better deeds than words to grace it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40835/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40835/line-2",
+          "start": 27,
+          "end": 71,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40835/line-3",
+          "start": 72,
+          "end": 123,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6522145,
+        "end": 6522303,
+        "line": 244409,
+        "column": 1,
+        "path": "chap37/p@40835",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40997",
       "type": "stage",
-      "text": "[Gives him a ring.]"
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "proteus",
-        "name": "PROTEUS",
-        "displayName": "Proteus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Pantino.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Why, then we'll make exchange. Here, take you this.",
-          "plainText": "Why then we'll make exchange Here take you this",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@40997/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-003",
-      "type": "stage",
-      "text": "[Gives her a ring.]"
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "julia",
-        "name": "JULIA",
-        "displayName": "Julia"
+      ],
+      "sourceRef": {
+        "start": 6522307,
+        "end": 6522380,
+        "line": 244415,
+        "column": 1,
+        "path": "chap37/p@40997",
+        "anchor": "sceneII_37.2"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41074",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PANTINO.\nSir Proteus, you are stayed for.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "And seal the bargain with a holy kiss.",
-          "plainText": "And seal the bargain with a holy kiss",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41074/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41074/line-2",
+          "start": 9,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6522384,
+        "end": 6522455,
+        "line": 244419,
+        "column": 1,
+        "path": "chap37/p@41074",
+        "anchor": "sceneII_37.2"
+      },
+      "speakerLabel": "PANTINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-007",
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41149",
       "type": "speech",
-      "speaker": {
-        "id": "proteus",
-        "name": "PROTEUS",
-        "displayName": "Proteus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PROTEUS.\nGo, I come, I come.\nAlas, this parting strikes poor lovers dumb.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Here is my hand for my true constancy.",
-          "plainText": "Here is my hand for my true constancy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41149/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "And when that hour o'erslips me in the day",
-          "plainText": "And when that hour o'erslips me in the day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41149/line-2",
+          "start": 9,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "Wherein I sigh not, Julia, for thy sake,",
-          "plainText": "Wherein I sigh not Julia for thy sake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "The next ensuing hour some foul mischance",
-          "plainText": "The next ensuing hour some foul mischance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 5,
-          "text": "Torment me for my love's forgetfulness.",
-          "plainText": "Torment me for my love's forgetfulness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 6,
-          "text": "My father stays my coming; answer not.",
-          "plainText": "My father stays my coming answer not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 7,
-          "text": "The tide is now—nay, not thy tide of tears,",
-          "plainText": "The tide is nownay not thy tide of tears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 8,
-          "text": "That tide will stay me longer than I should.",
-          "plainText": "That tide will stay me longer than I should",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 9,
-          "text": "Julia, farewell.",
-          "plainText": "Julia farewell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41149/line-3",
+          "start": 29,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-004",
-      "type": "stage",
-      "text": "[Exit Julia.]"
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-005",
-      "type": "stage",
-      "text": "Enter Pantino."
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "pantino",
-        "name": "PANTINO",
-        "displayName": "Pantino"
+      ],
+      "sourceRef": {
+        "start": 6522459,
+        "end": 6522567,
+        "line": 244424,
+        "column": 1,
+        "path": "chap37/p@41149",
+        "anchor": "sceneII_37.2"
       },
+      "speakerLabel": "PROTEUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41261",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "Sir Proteus, you are stayed for.",
-          "plainText": "Sir Proteus you are stayed for",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-two-gentlemen-of-verona/sceneII_37.2/p@41261/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "proteus",
-        "name": "PROTEUS",
-        "displayName": "Proteus"
+      ],
+      "sourceRef": {
+        "start": 6522571,
+        "end": 6522608,
+        "line": 244430,
+        "column": 1,
+        "path": "chap37/p@41261",
+        "anchor": "sceneII_37.2"
       },
-      "lines": [
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Go, I come, I come.",
-          "plainText": "Go I come I come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-two-gentlemen-of-verona-2-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "Alas, this parting strikes poor lovers dumb.",
-          "plainText": "Alas this parting strikes poor lovers dumb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "the-two-gentlemen-of-verona-2-2-stage-006",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "f984b7552e56dce646e43c47a443f9ff6add5f2e51a8a63bbd23d29342e9d759"
 }

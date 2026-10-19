@@ -1,404 +1,659 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "titus-andronicus",
-    "title": "The Tragedy of Titus Andronicus",
+    "title": "THE TRAGEDY OF TITUS ANDRONICUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap34"
   },
-  "scene": {
+  "section": {
     "id": "titus-andronicus-2-2",
+    "kind": "scene",
+    "heading": "SCENE II. A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
     "act": 2,
     "scene": 2,
-    "label": "Act 2, Scene 2",
-    "title": "SCENE II. A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
-    "location": "A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
-    "orderInPlay": 3
+    "parentSectionId": "titus-andronicus-act-34748",
+    "orderInPlay": 9,
+    "sourceRef": {
+      "start": 5984001,
+      "end": 5984131,
+      "line": 222925,
+      "column": 1,
+      "path": "chap34/h3@42642",
+      "anchor": "sceneII_34.2"
+    }
   },
   "content": [
     {
-      "id": "titus-andronicus-2-2-stage-001",
+      "id": "titus-andronicus/sceneII_34.2/h3@42642",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. A Forest near Rome; a Lodge seen at a distance. Horns and cry of hounds heard",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 87
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.2/h3@42642/line-1",
+          "start": 0,
+          "end": 87,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5984001,
+        "end": 5984131,
+        "line": 222925,
+        "column": 1,
+        "path": "chap34/h3@42642",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.2/p@42776",
       "type": "stage",
-      "text": "Enter Titus Andronicus and his three sons, and Marcus, making a noise with hounds and horns."
-    },
-    {
-      "id": "titus-andronicus-2-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Titus Andronicus and his three sons, and Marcus, making a noise with hounds and horns.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 22,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 47,
+          "end": 54,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "The hunt is up, the morn is bright and grey,",
-          "plainText": "The hunt is up the morn is bright and grey",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "The fields are fragrant, and the woods are green.",
-          "plainText": "The fields are fragrant and the woods are green",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Uncouple here, and let us make a bay,",
-          "plainText": "Uncouple here and let us make a bay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And wake the emperor and his lovely bride,",
-          "plainText": "And wake the emperor and his lovely bride",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "And rouse the prince, and ring a hunter's peal,",
-          "plainText": "And rouse the prince and ring a hunter's peal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "That all the court may echo with the noise.",
-          "plainText": "That all the court may echo with the noise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Sons, let it be your charge, as it is ours,",
-          "plainText": "Sons let it be your charge as it is ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "To attend the emperor's person carefully.",
-          "plainText": "To attend the emperor's person carefully",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "I have been troubled in my sleep this night,",
-          "plainText": "I have been troubled in my sleep this night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "But dawning day new comfort hath inspired.",
-          "plainText": "But dawning day new comfort hath inspired",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@42776/line-1",
+          "start": 0,
+          "end": 92,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5984135,
+        "end": 5984317,
+        "line": 222928,
+        "column": 1,
+        "path": "chap34/p@42776",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "titus-andronicus-2-2-stage-002",
+      "id": "titus-andronicus/sceneII_34.2/p@42962",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nThe hunt is up, the morn is bright and grey,\nThe fields are fragrant, and the woods are green.\nUncouple here, and let us make a bay,\nAnd wake the emperor and his lovely bride,\nAnd rouse the prince, and ring a hunter’s peal,\nThat all the court may echo with the noise.\nSons, let it be your charge, as it is ours,\nTo attend the emperor’s person carefully.\nI have been troubled in my sleep this night,\nBut dawning day new comfort hath inspired.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-3",
+          "start": 52,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-4",
+          "start": 102,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-5",
+          "start": 140,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-6",
+          "start": 183,
+          "end": 230,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-7",
+          "start": 231,
+          "end": 274,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-8",
+          "start": 275,
+          "end": 318,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-9",
+          "start": 319,
+          "end": 360,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-10",
+          "start": 361,
+          "end": 405,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@42962/line-11",
+          "start": 406,
+          "end": 448,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5984321,
+        "end": 5984844,
+        "line": 222933,
+        "column": 1,
+        "path": "chap34/p@42962",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.2/p@43489",
       "type": "stage",
-      "text": "Here a cry of hounds, and wind horns in a peal. Then enter Saturninus, Tamora, Bassianus, Lavinia, Chiron, Demetrius, and their Attendants."
-    },
-    {
-      "id": "titus-andronicus-2-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "saturninus",
-        "name": "SATURNINUS",
-        "displayName": "Saturninus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Here a cry of hounds, and wind horns in a peal. Then enter Saturninus, Tamora, Bassianus, Lavinia, Chiron, Demetrius, and their Attendants.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 59,
+          "end": 117,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "And you have rung it lustily, my lords;",
-          "plainText": "And you have rung it lustily my lords",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Somewhat too early for new-married ladies.",
-          "plainText": "Somewhat too early for newmarried ladies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@43489/line-1",
+          "start": 0,
+          "end": 139,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5984848,
+        "end": 5985047,
+        "line": 222947,
+        "column": 1,
+        "path": "chap34/p@43489",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "bassianus",
-        "name": "BASSIANUS",
-        "displayName": "Bassianus"
-      },
+      "id": "titus-andronicus/sceneII_34.2/p@43692",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Many good morrows to your majesty;\nMadam, to you as many and as good.\nI promised your grace a hunter’s peal.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Lavinia, how say you?",
-          "plainText": "Lavinia how say you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "titus-andronicus/sceneII_34.2/p@43692/line-1",
+          "start": 0,
+          "end": 34,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@43692/line-2",
+          "start": 35,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@43692/line-3",
+          "start": 70,
+          "end": 108,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985051,
+        "end": 5985194,
+        "line": 222952,
+        "column": 1,
+        "path": "chap34/p@43692",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-004",
+      "id": "titus-andronicus/sceneII_34.2/p@43839",
       "type": "speech",
-      "speaker": {
-        "id": "lavinia",
-        "name": "LAVINIA",
-        "displayName": "Lavinia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SATURNINUS.\nAnd you have rung it lustily, my lords;\nSomewhat too early for new-married ladies.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "I say no;",
-          "plainText": "I say no",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@43839/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "I have been broad awake two hours and more.",
-          "plainText": "I have been broad awake two hours and more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@43839/line-2",
+          "start": 12,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@43839/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985198,
+        "end": 5985327,
+        "line": 222958,
+        "column": 1,
+        "path": "chap34/p@43839",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "SATURNINUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-005",
+      "id": "titus-andronicus/sceneII_34.2/p@43972",
       "type": "speech",
-      "speaker": {
-        "id": "saturninus",
-        "name": "SATURNINUS",
-        "displayName": "Saturninus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSIANUS.\nLavinia, how say you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Come on then; horse and chariots let us have,",
-          "plainText": "Come on then horse and chariots let us have",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@43972/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 2,
-          "text": "And to our sport. [To Tamora.] Madam, now shall ye see",
-          "plainText": "And to our sport To Tamora Madam now shall ye see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "titus-andronicus-2-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 3,
-          "text": "Our Roman hunting.",
-          "plainText": "Our Roman hunting",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@43972/line-2",
+          "start": 11,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985331,
+        "end": 5985393,
+        "line": 222964,
+        "column": 1,
+        "path": "chap34/p@43972",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "BASSIANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-006",
+      "id": "titus-andronicus/sceneII_34.2/p@44038",
       "type": "speech",
-      "speaker": {
-        "id": "marcus",
-        "name": "MARCUS",
-        "displayName": "Marcus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LAVINIA.\nI say no;\nI have been broad awake two hours and more.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "I have dogs, my lord,",
-          "plainText": "I have dogs my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44038/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "Will rouse the proudest panther in the chase,",
-          "plainText": "Will rouse the proudest panther in the chase",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44038/line-2",
+          "start": 9,
+          "end": 18,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "And climb the highest promontory top.",
-          "plainText": "And climb the highest promontory top",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44038/line-3",
+          "start": 19,
+          "end": 62,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985397,
+        "end": 5985494,
+        "line": 222969,
+        "column": 1,
+        "path": "chap34/p@44038",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "LAVINIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-007",
+      "id": "titus-andronicus/sceneII_34.2/p@44139",
       "type": "speech",
-      "speaker": {
-        "id": "titus",
-        "name": "TITUS",
-        "displayName": "Titus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SATURNINUS.\nCome on then; horse and chariots let us have,\nAnd to our sport. [To Tamora.] Madam, now shall ye see\nOur Roman hunting.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 77,
+          "end": 86
+        }
+      ],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "And I have horse will follow where the game",
-          "plainText": "And I have horse will follow where the game",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44139/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "Makes way, and run like swallows o'er the plain.",
-          "plainText": "Makes way and run like swallows o'er the plain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44139/line-2",
+          "start": 12,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44139/line-3",
+          "start": 58,
+          "end": 112,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44139/line-4",
+          "start": 113,
+          "end": 131,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985498,
+        "end": 5985676,
+        "line": 222975,
+        "column": 1,
+        "path": "chap34/p@44139",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "SATURNINUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "titus-andronicus-2-2-speech-008",
+      "id": "titus-andronicus/sceneII_34.2/p@44321",
       "type": "speech",
-      "speaker": {
-        "id": "demetrius",
-        "name": "DEMETRIUS",
-        "displayName": "Demetrius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARCUS.\nI have dogs, my lord,\nWill rouse the proudest panther in the chase,\nAnd climb the highest promontory top.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "titus-andronicus-2-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Chiron, we hunt not, we, with horse nor hound,",
-          "plainText": "Chiron we hunt not we with horse nor hound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44321/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "titus-andronicus-2-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 2,
-          "text": "But hope to pluck a dainty doe to ground.",
-          "plainText": "But hope to pluck a dainty doe to ground",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "titus-andronicus/sceneII_34.2/p@44321/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44321/line-3",
+          "start": 30,
+          "end": 75,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44321/line-4",
+          "start": 76,
+          "end": 113,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5985680,
+        "end": 5985833,
+        "line": 222982,
+        "column": 1,
+        "path": "chap34/p@44321",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "MARCUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "titus-andronicus-2-2-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "titus-andronicus/sceneII_34.2/p@44478",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TITUS.\nAnd I have horse will follow where the game\nMakes way, and run like swallows o’er the plain.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44478/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44478/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44478/line-3",
+          "start": 51,
+          "end": 99,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5985837,
+        "end": 5985971,
+        "line": 222989,
+        "column": 1,
+        "path": "chap34/p@44478",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "TITUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.2/p@44616",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DEMETRIUS.\nChiron, we hunt not, we, with horse nor hound,\nBut hope to pluck a dainty doe to ground.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44616/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44616/line-2",
+          "start": 11,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44616/line-3",
+          "start": 58,
+          "end": 99,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5985975,
+        "end": 5986109,
+        "line": 222995,
+        "column": 1,
+        "path": "chap34/p@44616",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": "DEMETRIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "titus-andronicus/sceneII_34.2/p@44754",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "titus-andronicus/sceneII_34.2/p@44754/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5986113,
+        "end": 5986150,
+        "line": 223001,
+        "column": 1,
+        "path": "chap34/p@44754",
+        "anchor": "sceneII_34.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74"
 }

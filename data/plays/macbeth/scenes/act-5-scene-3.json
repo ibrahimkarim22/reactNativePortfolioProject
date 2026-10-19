@@ -1,914 +1,1444 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-5-3",
+    "kind": "scene",
+    "heading": "SCENE III. Dunsinane. A Room in the Castle.",
     "act": 5,
     "scene": 3,
-    "label": "Act 5, Scene 3",
-    "title": "SCENE III. Dunsinane. A Room in the Castle.",
-    "location": "Dunsinane. A Room in the Castle.",
-    "orderInPlay": 23
+    "parentSectionId": "macbeth-act-120641",
+    "orderInPlay": 32,
+    "sourceRef": {
+      "start": 3691958,
+      "end": 3692043,
+      "line": 136170,
+      "column": 1,
+      "path": "chap20/h3@127766",
+      "anchor": "sceneV_20.3"
+    }
   },
   "content": [
     {
-      "id": "macbeth-5-3-stage-001",
+      "id": "macbeth/sceneV_20.3/h3@127766",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Dunsinane. A Room in the Castle.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 43
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/h3@127766/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3691958,
+        "end": 3692043,
+        "line": 136170,
+        "column": 1,
+        "path": "chap20/h3@127766",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@127855",
       "type": "stage",
-      "text": "Enter Macbeth, Doctor and Attendants."
-    },
-    {
-      "id": "macbeth-5-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Macbeth, Doctor and Attendants.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 21,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Bring me no more reports; let them fly all:",
-          "plainText": "Bring me no more reports let them fly all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Till Birnam wood remove to Dunsinane",
-          "plainText": "Till Birnam wood remove to Dunsinane",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "I cannot taint with fear. What's the boy Malcolm?",
-          "plainText": "I cannot taint with fear What's the boy Malcolm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Was he not born of woman? The spirits that know",
-          "plainText": "Was he not born of woman The spirits that know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "All mortal consequences have pronounc'd me thus:",
-          "plainText": "All mortal consequences have pronounc'd me thus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "\"Fear not, Macbeth; no man that's born of woman",
-          "plainText": "Fear not Macbeth no man that's born of woman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Shall e'er have power upon thee.\"—Then fly, false thanes,",
-          "plainText": "Shall e'er have power upon theeThen fly false thanes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "And mingle with the English epicures:",
-          "plainText": "And mingle with the English epicures",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "The mind I sway by, and the heart I bear,",
-          "plainText": "The mind I sway by and the heart I bear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Shall never sag with doubt nor shake with fear.",
-          "plainText": "Shall never sag with doubt nor shake with fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@127855/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3692047,
+        "end": 3692140,
+        "line": 136173,
+        "column": 1,
+        "path": "chap20/p@127855",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-3-stage-002",
+      "id": "macbeth/sceneV_20.3/p@127952",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nBring me no more reports; let them fly all:\nTill Birnam wood remove to Dunsinane\nI cannot taint with fear. What’s the boy Malcolm?\nWas he not born of woman? The spirits that know\nAll mortal consequences have pronounc’d me thus:\n“Fear not, Macbeth; no man that’s born of woman\nShall e’er have power upon thee.”—Then fly, false thanes,\nAnd mingle with the English epicures:\nThe mind I sway by, and the heart I bear,\nShall never sag with doubt nor shake with fear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-3",
+          "start": 53,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-4",
+          "start": 90,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-5",
+          "start": 140,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-6",
+          "start": 188,
+          "end": 236,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-7",
+          "start": 237,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-8",
+          "start": 285,
+          "end": 342,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-9",
+          "start": 343,
+          "end": 380,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-10",
+          "start": 381,
+          "end": 422,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@127952/line-11",
+          "start": 423,
+          "end": 470,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3692144,
+        "end": 3692690,
+        "line": 136176,
+        "column": 1,
+        "path": "chap20/p@127952",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@128502",
       "type": "stage",
-      "text": "Enter a Servant."
-    },
-    {
-      "id": "macbeth-5-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Servant.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "macbeth-5-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "There is ten thousand—",
-          "plainText": "There is ten thousand",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      ],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Geese, villain?",
-          "plainText": "Geese villain",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@128502/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3692694,
+        "end": 3692765,
+        "line": 136191,
+        "column": 1,
+        "path": "chap20/p@128502",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-3-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "id": "macbeth/sceneV_20.3/p@128577",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "The devil damn thee black, thou cream-fac’d loon!\nWhere gott’st thou that goose look?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Soldiers, sir.",
-          "plainText": "Soldiers sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-5-3-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
-      "lines": [
-        {
-          "id": "macbeth-5-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Go prick thy face and over-red thy fear,",
-          "plainText": "Go prick thy face and overred thy fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@128577/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "Thou lily-liver'd boy. What soldiers, patch?",
-          "plainText": "Thou lilyliver'd boy What soldiers patch",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "Death of thy soul! those linen cheeks of thine",
-          "plainText": "Death of thy soul those linen cheeks of thine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "Are counsellors to fear. What soldiers, whey-face?",
-          "plainText": "Are counsellors to fear What soldiers wheyface",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@128577/line-2",
+          "start": 50,
+          "end": 85,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3692769,
+        "end": 3692884,
+        "line": 136193,
+        "column": 1,
+        "path": "chap20/p@128577",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "macbeth-5-3-speech-006",
+      "id": "macbeth/sceneV_20.3/p@128696",
       "type": "speech",
-      "speaker": {
-        "id": "servant",
-        "name": "SERVANT",
-        "displayName": "Servant"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nThere is ten thousand—",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "The English force, so please you.",
-          "plainText": "The English force so please you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@128696/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128696/line-2",
+          "start": 9,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3692888,
+        "end": 3692949,
+        "line": 136198,
+        "column": 1,
+        "path": "chap20/p@128696",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-007",
+      "id": "macbeth/sceneV_20.3/p@128761",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nGeese, villain?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Take thy face hence.",
-          "plainText": "Take thy face hence",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@128761/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128761/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3692953,
+        "end": 3693007,
+        "line": 136203,
+        "column": 1,
+        "path": "chap20/p@128761",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-stage-003",
+      "id": "macbeth/sceneV_20.3/p@128819",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nSoldiers, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@128819/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128819/line-2",
+          "start": 9,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693011,
+        "end": 3693064,
+        "line": 136208,
+        "column": 1,
+        "path": "chap20/p@128819",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@128876",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nGo prick thy face and over-red thy fear,\nThou lily-liver’d boy. What soldiers, patch?\nDeath of thy soul! those linen cheeks of thine\nAre counsellors to fear. What soldiers, whey-face?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@128876/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128876/line-2",
+          "start": 9,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128876/line-3",
+          "start": 50,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128876/line-4",
+          "start": 95,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@128876/line-5",
+          "start": 142,
+          "end": 192,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693068,
+        "end": 3693305,
+        "line": 136213,
+        "column": 1,
+        "path": "chap20/p@128876",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@129117",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SERVANT.\nThe English force, so please you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@129117/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129117/line-2",
+          "start": 9,
+          "end": 42,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693309,
+        "end": 3693381,
+        "line": 136221,
+        "column": 1,
+        "path": "chap20/p@129117",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SERVANT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@129193",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nTake thy face hence.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@129193/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129193/line-2",
+          "start": 9,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693385,
+        "end": 3693444,
+        "line": 136226,
+        "column": 1,
+        "path": "chap20/p@129193",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@129256",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Servant.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@129256/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693448,
+        "end": 3693491,
+        "line": 136231,
+        "column": 1,
+        "path": "chap20/p@129256",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@129303",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Seyton!—I am sick at heart,\nWhen I behold—Seyton, I say!—This push\nWill cheer me ever or disseat me now.\nI have liv’d long enough: my way of life\nIs fall’n into the sere, the yellow leaf;\nAnd that which should accompany old age,\nAs honour, love, obedience, troops of friends,\nI must not look to have; but, in their stead,\nCurses, not loud but deep, mouth-honour, breath,\nWhich the poor heart would fain deny, and dare not.\nSeyton!—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-2",
+          "start": 28,
+          "end": 66,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-3",
+          "start": 67,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-4",
+          "start": 105,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-5",
+          "start": 146,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-6",
+          "start": 188,
+          "end": 228,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-7",
+          "start": 229,
+          "end": 275,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-8",
+          "start": 276,
+          "end": 321,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-9",
+          "start": 322,
+          "end": 370,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-10",
+          "start": 371,
+          "end": 422,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129303/line-11",
+          "start": 423,
+          "end": 431,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3693495,
+        "end": 3694001,
+        "line": 136233,
+        "column": 1,
+        "path": "chap20/p@129303",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@129813",
       "type": "stage",
-      "text": "[Exit Servant.]"
-    },
-    {
-      "id": "macbeth-5-3-stage-004",
-      "type": "stage",
-      "text": "Enter Seyton."
-    },
-    {
-      "id": "macbeth-5-3-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "seyton",
-        "name": "SEYTON",
-        "displayName": "Seyton"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Seyton.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "What's your gracious pleasure?",
-          "plainText": "What's your gracious pleasure",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@129813/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694005,
+        "end": 3694073,
+        "line": 136247,
+        "column": 1,
+        "path": "chap20/p@129813",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-3-speech-009",
+      "id": "macbeth/sceneV_20.3/p@129885",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SEYTON.\nWhat’s your gracious pleasure?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "What news more?",
-          "plainText": "What news more",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@129885/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129885/line-2",
+          "start": 8,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694077,
+        "end": 3694145,
+        "line": 136249,
+        "column": 1,
+        "path": "chap20/p@129885",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SEYTON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-3-speech-010",
+      "id": "macbeth/sceneV_20.3/p@129957",
       "type": "speech",
-      "speaker": {
-        "id": "seyton",
-        "name": "SEYTON",
-        "displayName": "Seyton"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nWhat news more?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "All is confirm'd, my lord, which was reported.",
-          "plainText": "All is confirm'd my lord which was reported",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@129957/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@129957/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694149,
+        "end": 3694203,
+        "line": 136254,
+        "column": 1,
+        "path": "chap20/p@129957",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-011",
+      "id": "macbeth/sceneV_20.3/p@130015",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SEYTON.\nAll is confirm’d, my lord, which was reported.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "I'll fight till from my bones my flesh be hack'd.",
-          "plainText": "I'll fight till from my bones my flesh be hack'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130015/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Give me my armour.",
-          "plainText": "Give me my armour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130015/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694207,
+        "end": 3694291,
+        "line": 136259,
+        "column": 1,
+        "path": "chap20/p@130015",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SEYTON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-3-speech-012",
+      "id": "macbeth/sceneV_20.3/p@130103",
       "type": "speech",
-      "speaker": {
-        "id": "seyton",
-        "name": "SEYTON",
-        "displayName": "Seyton"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI’ll fight till from my bones my flesh be hack’d.\nGive me my armour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "'Tis not needed yet.",
-          "plainText": "'Tis not needed yet",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.3/p@130103/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130103/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130103/line-3",
+          "start": 59,
+          "end": 77,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694295,
+        "end": 3694407,
+        "line": 136264,
+        "column": 1,
+        "path": "chap20/p@130103",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-013",
+      "id": "macbeth/sceneV_20.3/p@130219",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SEYTON.\n’Tis not needed yet.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "I'll put it on.",
-          "plainText": "I'll put it on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130219/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0027",
-          "number": 27,
-          "speechLineNumber": 2,
-          "text": "Send out more horses, skirr the country round;",
-          "plainText": "Send out more horses skirr the country round",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0028",
-          "number": 28,
-          "speechLineNumber": 3,
-          "text": "Hang those that talk of fear. Give me mine armour.—",
-          "plainText": "Hang those that talk of fear Give me mine armour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0029",
-          "number": 29,
-          "speechLineNumber": 4,
-          "text": "How does your patient, doctor?",
-          "plainText": "How does your patient doctor",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130219/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694411,
+        "end": 3694469,
+        "line": 136270,
+        "column": 1,
+        "path": "chap20/p@130219",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "SEYTON.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-3-speech-014",
+      "id": "macbeth/sceneV_20.3/p@130281",
       "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nI’ll put it on.\nSend out more horses, skirr the country round;\nHang those that talk of fear. Give me mine armour.—\nHow does your patient, doctor?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Not so sick, my lord,",
-          "plainText": "Not so sick my lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130281/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "As she is troubled with thick-coming fancies,",
-          "plainText": "As she is troubled with thickcoming fancies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130281/line-2",
+          "start": 9,
+          "end": 24,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "That keep her from her rest.",
-          "plainText": "That keep her from her rest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130281/line-3",
+          "start": 25,
+          "end": 71,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130281/line-4",
+          "start": 72,
+          "end": 123,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130281/line-5",
+          "start": 124,
+          "end": 154,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694473,
+        "end": 3694672,
+        "line": 136275,
+        "column": 1,
+        "path": "chap20/p@130281",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-015",
+      "id": "macbeth/sceneV_20.3/p@130484",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nNot so sick, my lord,\nAs she is troubled with thick-coming fancies,\nThat keep her from her rest.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Cure her of that:",
-          "plainText": "Cure her of that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130484/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Canst thou not minister to a mind diseas'd,",
-          "plainText": "Canst thou not minister to a mind diseas'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130484/line-2",
+          "start": 8,
+          "end": 29,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Pluck from the memory a rooted sorrow,",
-          "plainText": "Pluck from the memory a rooted sorrow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130484/line-3",
+          "start": 30,
+          "end": 75,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "Raze out the written troubles of the brain,",
-          "plainText": "Raze out the written troubles of the brain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0037",
-          "number": 37,
-          "speechLineNumber": 5,
-          "text": "And with some sweet oblivious antidote",
-          "plainText": "And with some sweet oblivious antidote",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0038",
-          "number": 38,
-          "speechLineNumber": 6,
-          "text": "Cleanse the stuff'd bosom of that perilous stuff",
-          "plainText": "Cleanse the stuff'd bosom of that perilous stuff",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0039",
-          "number": 39,
-          "speechLineNumber": 7,
-          "text": "Which weighs upon the heart?",
-          "plainText": "Which weighs upon the heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130484/line-4",
+          "start": 76,
+          "end": 104,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694676,
+        "end": 3694820,
+        "line": 136283,
+        "column": 1,
+        "path": "chap20/p@130484",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-3-speech-016",
+      "id": "macbeth/sceneV_20.3/p@130632",
       "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nCure her of that:\nCanst thou not minister to a mind diseas’d,\nPluck from the memory a rooted sorrow,\nRaze out the written troubles of the brain,\nAnd with some sweet oblivious antidote\nCleanse the stuff’d bosom of that perilous stuff\nWhich weighs upon the heart?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "Therein the patient",
-          "plainText": "Therein the patient",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130632/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "Must minister to himself.",
-          "plainText": "Must minister to himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130632/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-3",
+          "start": 27,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-4",
+          "start": 71,
+          "end": 109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-5",
+          "start": 110,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-6",
+          "start": 154,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-7",
+          "start": 193,
+          "end": 241,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@130632/line-8",
+          "start": 242,
+          "end": 270,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3694824,
+        "end": 3695154,
+        "line": 136290,
+        "column": 1,
+        "path": "chap20/p@130632",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-017",
+      "id": "macbeth/sceneV_20.3/p@130966",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nTherein the patient\nMust minister to himself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "Throw physic to the dogs, I'll none of it.",
-          "plainText": "Throw physic to the dogs I'll none of it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130966/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0043",
-          "number": 43,
-          "speechLineNumber": 2,
-          "text": "Come, put mine armour on; give me my staff:",
-          "plainText": "Come put mine armour on give me my staff",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130966/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0044",
-          "number": 44,
-          "speechLineNumber": 3,
-          "text": "Seyton, send out.—Doctor, the Thanes fly from me.—",
-          "plainText": "Seyton send outDoctor the Thanes fly from me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0045",
-          "number": 45,
-          "speechLineNumber": 4,
-          "text": "Come, sir, despatch.—If thou couldst, doctor, cast",
-          "plainText": "Come sir despatchIf thou couldst doctor cast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0046",
-          "number": 46,
-          "speechLineNumber": 5,
-          "text": "The water of my land, find her disease,",
-          "plainText": "The water of my land find her disease",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0047",
-          "number": 47,
-          "speechLineNumber": 6,
-          "text": "And purge it to a sound and pristine health,",
-          "plainText": "And purge it to a sound and pristine health",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0048",
-          "number": 48,
-          "speechLineNumber": 7,
-          "text": "I would applaud thee to the very echo,",
-          "plainText": "I would applaud thee to the very echo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0049",
-          "number": 49,
-          "speechLineNumber": 8,
-          "text": "That should applaud again.—Pull't off, I say.—",
-          "plainText": "That should applaud againPull't off I say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0050",
-          "number": 50,
-          "speechLineNumber": 9,
-          "text": "What rhubarb, senna, or what purgative drug,",
-          "plainText": "What rhubarb senna or what purgative drug",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-3-line-0051",
-          "number": 51,
-          "speechLineNumber": 10,
-          "text": "Would scour these English hence? Hear'st thou of them?",
-          "plainText": "Would scour these English hence Hear'st thou of them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@130966/line-3",
+          "start": 28,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3695158,
+        "end": 3695246,
+        "line": 136301,
+        "column": 1,
+        "path": "chap20/p@130966",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-3-speech-018",
+      "id": "macbeth/sceneV_20.3/p@131058",
       "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nThrow physic to the dogs, I’ll none of it.\nCome, put mine armour on; give me my staff:\nSeyton, send out.—Doctor, the Thanes fly from me.—\nCome, sir, despatch.—If thou couldst, doctor, cast\nThe water of my land, find her disease,\nAnd purge it to a sound and pristine health,\nI would applaud thee to the very echo,\nThat should applaud again.—Pull’t off, I say.—\nWhat rhubarb, senna, or what purgative drug,\nWould scour these English hence? Hear’st thou of them?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "Ay, my good lord. Your royal preparation",
-          "plainText": "Ay my good lord Your royal preparation",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131058/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Makes us hear something.",
-          "plainText": "Makes us hear something",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131058/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-3",
+          "start": 52,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-4",
+          "start": 96,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-5",
+          "start": 147,
+          "end": 197,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-6",
+          "start": 198,
+          "end": 237,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-7",
+          "start": 238,
+          "end": 282,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-8",
+          "start": 283,
+          "end": 321,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-9",
+          "start": 322,
+          "end": 368,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-10",
+          "start": 369,
+          "end": 413,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131058/line-11",
+          "start": 414,
+          "end": 468,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3695250,
+        "end": 3695793,
+        "line": 136307,
+        "column": 1,
+        "path": "chap20/p@131058",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-speech-019",
+      "id": "macbeth/sceneV_20.3/p@131605",
       "type": "speech",
-      "speaker": {
-        "id": "macbeth",
-        "name": "MACBETH",
-        "displayName": "Macbeth"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nAy, my good lord. Your royal preparation\nMakes us hear something.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Bring it after me.—",
-          "plainText": "Bring it after me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131605/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0055",
-          "number": 55,
-          "speechLineNumber": 2,
-          "text": "I will not be afraid of death and bane,",
-          "plainText": "I will not be afraid of death and bane",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131605/line-2",
+          "start": 8,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0056",
-          "number": 56,
-          "speechLineNumber": 3,
-          "text": "Till Birnam forest come to Dunsinane.",
-          "plainText": "Till Birnam forest come to Dunsinane",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131605/line-3",
+          "start": 49,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "macbeth-5-3-stage-005",
-      "type": "stage",
-      "text": "[Exeunt all except Doctor.]"
-    },
-    {
-      "id": "macbeth-5-3-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "doctor",
-        "name": "DOCTOR",
-        "displayName": "Doctor"
+      ],
+      "sourceRef": {
+        "start": 3695797,
+        "end": 3695905,
+        "line": 136321,
+        "column": 1,
+        "path": "chap20/p@131605",
+        "anchor": "sceneV_20.3"
       },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@131717",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACBETH.\nBring it after me.—\nI will not be afraid of death and bane,\nTill Birnam forest come to Dunsinane.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-3-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "Were I from Dunsinane away and clear,",
-          "plainText": "Were I from Dunsinane away and clear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131717/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-3-line-0058",
-          "number": 58,
-          "speechLineNumber": 2,
-          "text": "Profit again should hardly draw me here.",
-          "plainText": "Profit again should hardly draw me here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.3/p@131717/line-2",
+          "start": 9,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131717/line-3",
+          "start": 29,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131717/line-4",
+          "start": 69,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3695909,
+        "end": 3696055,
+        "line": 136327,
+        "column": 1,
+        "path": "chap20/p@131717",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "MACBETH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-3-stage-006",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "macbeth/sceneV_20.3/p@131867",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt all except Doctor.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 25,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@131867/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3696059,
+        "end": 3696144,
+        "line": 136334,
+        "column": 1,
+        "path": "chap20/p@131867",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@131956",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DOCTOR.\nWere I from Dunsinane away and clear,\nProfit again should hardly draw me here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@131956/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131956/line-2",
+          "start": 8,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.3/p@131956/line-3",
+          "start": 46,
+          "end": 86,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3696148,
+        "end": 3696269,
+        "line": 136336,
+        "column": 1,
+        "path": "chap20/p@131956",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": "DOCTOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.3/p@132081",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.3/p@132081/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3696273,
+        "end": 3696308,
+        "line": 136342,
+        "column": 1,
+        "path": "chap20/p@132081",
+        "anchor": "sceneV_20.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

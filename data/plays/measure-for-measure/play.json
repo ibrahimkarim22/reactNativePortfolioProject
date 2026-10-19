@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "measure-for-measure",
-  "title": "Measure For Measure",
-  "fullTitle": "Measure For Measure",
+  "title": "MEASURE FOR MEASURE",
   "author": "William Shakespeare",
   "genre": "Problem Play",
+  "fullTitle": "MEASURE FOR MEASURE",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap21"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,33 +33,33 @@
           "scene": 1,
           "id": "measure-for-measure-1-1",
           "label": "Act 1, Scene 1",
-          "title": "An apartment in the Duke's palace.",
+          "title": "SCENE I. An apartment in the Duke’s palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 83
+          "lineCount": 112
         },
         {
           "scene": 2,
           "id": "measure-for-measure-1-2",
           "label": "Act 1, Scene 2",
-          "title": "A street.",
+          "title": "SCENE II. A street.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 127
+          "lineCount": 218
         },
         {
           "scene": 3,
           "id": "measure-for-measure-1-3",
           "label": "Act 1, Scene 3",
-          "title": "A monastery.",
+          "title": "SCENE III. A monastery.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 57
+          "lineCount": 67
         },
         {
           "scene": 4,
           "id": "measure-for-measure-1-4",
           "label": "Act 1, Scene 4",
-          "title": "A nunnery.",
+          "title": "SCENE IV. A nunnery.",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 100
+          "lineCount": 138
         }
       ]
     },
@@ -62,33 +70,33 @@
           "scene": 1,
           "id": "measure-for-measure-2-1",
           "label": "Act 2, Scene 1",
-          "title": "A hall in Angelo's house.",
+          "title": "SCENE I. A hall in Angelo’s house.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 160
+          "lineCount": 288
         },
         {
           "scene": 2,
           "id": "measure-for-measure-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Another room in the same.",
+          "title": "SCENE II. Another room in the same.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 210
+          "lineCount": 300
         },
         {
           "scene": 3,
           "id": "measure-for-measure-2-3",
           "label": "Act 2, Scene 3",
-          "title": "A room in a prison.",
+          "title": "SCENE III. A room in a prison.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 41
+          "lineCount": 73
         },
         {
           "scene": 4,
           "id": "measure-for-measure-2-4",
           "label": "Act 2, Scene 4",
-          "title": "A room in Angelo's house.",
+          "title": "SCENE IV. A room in Angelo’s house.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 185
+          "lineCount": 255
         }
       ]
     },
@@ -99,17 +107,17 @@
           "scene": 1,
           "id": "measure-for-measure-3-1",
           "label": "Act 3, Scene 1",
-          "title": "A room in the prison.",
+          "title": "SCENE I. A room in the prison.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 192
+          "lineCount": 277
         },
         {
           "scene": 2,
           "id": "measure-for-measure-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The street before the prison.",
+          "title": "SCENE II. The street before the prison.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 106
+          "lineCount": 226
         }
       ]
     },
@@ -120,49 +128,49 @@
           "scene": 1,
           "id": "measure-for-measure-4-1",
           "label": "Act 4, Scene 1",
-          "title": "A room in Mariana's house.",
+          "title": "SCENE I. A room in Mariana’s house.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 71
+          "lineCount": 112
         },
         {
           "scene": 2,
           "id": "measure-for-measure-4-2",
           "label": "Act 4, Scene 2",
-          "title": "A room in the prison.",
+          "title": "SCENE II. A room in the prison.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 95
+          "lineCount": 194
         },
         {
           "scene": 3,
           "id": "measure-for-measure-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Another room in the same.",
+          "title": "SCENE III. Another room in the same.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 120
+          "lineCount": 207
         },
         {
           "scene": 4,
           "id": "measure-for-measure-4-4",
           "label": "Act 4, Scene 4",
-          "title": "A room in Angelo's house.",
+          "title": "SCENE IV. A room in Angelo’s house.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 26
+          "lineCount": 38
         },
         {
           "scene": 5,
           "id": "measure-for-measure-4-5",
           "label": "Act 4, Scene 5",
-          "title": "Fields without the town.",
+          "title": "SCENE V. Fields without the town.",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 14
+          "lineCount": 22
         },
         {
           "scene": 6,
           "id": "measure-for-measure-4-6",
           "label": "Act 4, Scene 6",
-          "title": "Street near the city gate.",
+          "title": "SCENE VI. Street near the city gate.",
           "path": "./scenes/act-4-scene-6.json",
-          "lineCount": 17
+          "lineCount": 27
         }
       ]
     },
@@ -173,11 +181,274 @@
           "scene": 1,
           "id": "measure-for-measure-5-1",
           "label": "Act 5, Scene 1",
-          "title": "A public place near the city gate.",
+          "title": "SCENE I. A public place near the city gate.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 518
+          "lineCount": 732
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "measure-for-measure-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "MEASURE FOR MEASURE"
+    },
+    {
+      "id": "measure-for-measure-contents-112",
+      "kind": "contents",
+      "path": "./sections/contents-112.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "measure-for-measure-cast-2163",
+      "kind": "cast",
+      "path": "./sections/cast-2163.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "measure-for-measure-setting-3081",
+      "kind": "setting",
+      "path": "./sections/setting-3081.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Vienna"
+    },
+    {
+      "id": "measure-for-measure-act-3168",
+      "kind": "act",
+      "path": "./sections/act-3168.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "measure-for-measure-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "measure-for-measure-act-3168",
+      "orderInPlay": 6,
+      "heading": "SCENE I. An apartment in the Duke’s palace."
+    },
+    {
+      "id": "measure-for-measure-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "measure-for-measure-act-3168",
+      "orderInPlay": 7,
+      "heading": "SCENE II. A street."
+    },
+    {
+      "id": "measure-for-measure-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "measure-for-measure-act-3168",
+      "orderInPlay": 8,
+      "heading": "SCENE III. A monastery."
+    },
+    {
+      "id": "measure-for-measure-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "measure-for-measure-act-3168",
+      "orderInPlay": 9,
+      "heading": "SCENE IV. A nunnery."
+    },
+    {
+      "id": "measure-for-measure-act-28842",
+      "kind": "act",
+      "path": "./sections/act-28842.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 10,
+      "heading": "ACT II"
+    },
+    {
+      "id": "measure-for-measure-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "measure-for-measure-act-28842",
+      "orderInPlay": 11,
+      "heading": "SCENE I. A hall in Angelo’s house."
+    },
+    {
+      "id": "measure-for-measure-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "measure-for-measure-act-28842",
+      "orderInPlay": 12,
+      "heading": "SCENE II. Another room in the same."
+    },
+    {
+      "id": "measure-for-measure-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "measure-for-measure-act-28842",
+      "orderInPlay": 13,
+      "heading": "SCENE III. A room in a prison."
+    },
+    {
+      "id": "measure-for-measure-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "measure-for-measure-act-28842",
+      "orderInPlay": 14,
+      "heading": "SCENE IV. A room in Angelo’s house."
+    },
+    {
+      "id": "measure-for-measure-act-72911",
+      "kind": "act",
+      "path": "./sections/act-72911.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 15,
+      "heading": "ACT III"
+    },
+    {
+      "id": "measure-for-measure-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "measure-for-measure-act-72911",
+      "orderInPlay": 16,
+      "heading": "SCENE I. A room in the prison."
+    },
+    {
+      "id": "measure-for-measure-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "measure-for-measure-act-72911",
+      "orderInPlay": 17,
+      "heading": "SCENE II. The street before the prison."
+    },
+    {
+      "id": "measure-for-measure-act-105265",
+      "kind": "act",
+      "path": "./sections/act-105265.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 18,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "measure-for-measure-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 19,
+      "heading": "SCENE I. A room in Mariana’s house."
+    },
+    {
+      "id": "measure-for-measure-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 20,
+      "heading": "SCENE II. A room in the prison."
+    },
+    {
+      "id": "measure-for-measure-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 21,
+      "heading": "SCENE III. Another room in the same."
+    },
+    {
+      "id": "measure-for-measure-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 22,
+      "heading": "SCENE IV. A room in Angelo’s house."
+    },
+    {
+      "id": "measure-for-measure-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 23,
+      "heading": "SCENE V. Fields without the town."
+    },
+    {
+      "id": "measure-for-measure-4-6",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-6.json",
+      "act": 4,
+      "scene": 6,
+      "parentSectionId": "measure-for-measure-act-105265",
+      "orderInPlay": 24,
+      "heading": "SCENE VI. Street near the city gate."
+    },
+    {
+      "id": "measure-for-measure-act-139984",
+      "kind": "act",
+      "path": "./sections/act-139984.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 25,
+      "heading": "ACT V"
+    },
+    {
+      "id": "measure-for-measure-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "measure-for-measure-act-139984",
+      "orderInPlay": 26,
+      "heading": "SCENE I. A public place near the city gate."
+    }
+  ],
+  "contentVersion": "e7d046d1e7c46c174daaf36c393ed5289ff84f42ff534dc0553d2b3039562f23"
 }

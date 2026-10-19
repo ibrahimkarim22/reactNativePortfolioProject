@@ -1,0 +1,337 @@
+✔ independent traversal inventories all 44 chapters and reports every missing play (2162.2714ms)
+✔ a newly meaningful unsupported element fails with its original source location (2113.3553ms)
+✔ an image inserted into play text cannot be silently discarded (2454.1659ms)
+✔ a complete independently handbuilt structural corpus passes (373.6276ms)
+✔ classless source paragraphs retain explicit source cue attribution (287.5394ms)
+✔ independent canonicalization preserves whitespace, astral offsets, nested spans, pre and table breaks (360.3417ms)
+✔ source cues can precede inline directions or prose on their first line (263.0977ms)
+✔ an uppercase SONG label does not assert a speaker (259.5672ms)
+✔ source cue abbreviations and combined labels preserve their complete punctuation (269.8322ms)
+✔ the independently copied source cue GRANDPRÉ. is explicit Unicode attribution (349.5048ms)
+✔ the independently copied source cue ALENÇON. is explicit Unicode attribution (300.0483ms)
+✔ the independently copied source cue MARCADÉ. is explicit Unicode attribution (359.2472ms)
+✔ the independently copied source cue DENNIS is explicit Unicode attribution (304.4486ms)
+✔ the independently copied source cue BARNARDO is explicit Unicode attribution (313.319ms)
+✔ the independently copied source cue WOMAN is explicit Unicode attribution (266.5355ms)
+✔ the independently copied source cue ARIEL is explicit Unicode attribution (287.3326ms)
+✔ the independently copied source cue 1 PETITIONER. is explicit Unicode attribution (274.8632ms)
+✔ the independently copied source cue BALTHASAR is explicit Unicode attribution (303.4637ms)
+✔ the copied ARIEL’S SONG. caption does not invent a speaker (308.1918ms)
+✔ independent source comparison rejects deletion even after refreshing the digest (410.7107ms)
+✔ independent source comparison rejects alteration even after refreshing the digest (320.7158ms)
+✔ independent source comparison rejects addition even after refreshing the digest (347.3023ms)
+✔ independent source comparison rejects reordering even after refreshing the digest (322.9027ms)
+✔ independent source comparison rejects duplication even after refreshing the digest (355.3208ms)
+✔ independent source comparison rejects forged provenance even after refreshing the digest (316.704ms)
+✔ independent source comparison rejects forged inline span even after refreshing the digest (347.2696ms)
+✔ independent source comparison rejects incorrect cue attribution even after refreshing the digest (328.2633ms)
+✔ independent source comparison rejects incorrect source block type even after refreshing the digest (335.5519ms)
+✔ independent source comparison rejects incorrect section ownership even after refreshing the digest (404.6447ms)
+✔ independent source comparison rejects incorrect section metadata even after refreshing the digest (335.39ms)
+✔ independent source comparison rejects forged text reference even after refreshing the digest (327.3561ms)
+✔ independent source comparison rejects incorrect line reference even after refreshing the digest (321.9693ms)
+✔ independent source comparison rejects stale section reference even after refreshing the digest (384.047ms)
+✔ independent source comparison rejects forged inline class even after refreshing the digest (337.8561ms)
+✔ independent source comparison rejects foreign section source even after refreshing the digest (333.3259ms)
+✔ independent source comparison rejects forged play title metadata even after refreshing the digest (331.1939ms)
+✔ independent source comparison rejects forged full title metadata even after refreshing the digest (359.2617ms)
+✔ independent source comparison rejects forged section work title even after refreshing the digest (376.7558ms)
+✔ stale content versions fail before a candidate can be accepted (258.4951ms)
+✔ unreferenced generated section files fail the inventory gate (233.8006ms)
+✔ the production source filename remains pinned to the approved raw SHA (259.6254ms)
+✔ strict CLI writes a reviewable report and exits nonzero on discrepancies (353.0977ms)
+✔ strict catalog validation rejects a stale manifest work version (252.7194ms)
+✔ strict catalog validation rejects a stale manifest section path (246.7243ms)
+✔ strict catalog validation rejects a missing manifest play (250.6848ms)
+✔ strict catalog validation rejects changed legacy catalog ordering (236.534ms)
+✔ strict catalog validation rejects a stale collection version (244.1882ms)
+✔ static registry section imports must exactly follow the validated play references (258.95ms)
+✔ an unreferenced registry import cannot pull development source into the runtime bundle (281.7362ms)
+✔ static registry rejects mainImage containing development source require (243.4524ms)
+✔ static registry rejects mainImage containing executable expression (250.85ms)
+✔ static registry rejects mainImage containing require with an extra executable argument (261.3203ms)
+✔ static registry rejects mainImage containing another work’s asset (245.7799ms)
+✔ static registry rejects medalImage containing development source require (257.6357ms)
+✔ static registry rejects medalImage containing executable expression (274.3384ms)
+✔ static registry rejects medalImage containing require with an extra executable argument (255.0734ms)
+✔ static registry rejects medalImage containing another work’s asset (279.24ms)
+✔ five reviewed mixed case cues are independently checked against the pinned raw paragraphs (4352.9567ms)
+✔ candidate output guard rejects the production plays directory and descendants (245.8231ms)
+✔ candidate output guard resolves junction ancestors before accepting an uncreated path (198.6382ms)
+✔ actual parser refuses all in-repository output targets before extraction or writing (36.0077ms)
+✔ stage produces two byte-identical fresh candidates and snapshots all 114 protected support files (2304.9334ms)
+✔ stage refuses nondeterministic generation without a passing receipt or report (2980.0193ms)
+✔ stage requires a literal strict validator pass for both candidates (3066.2005ms)
+✔ stage rejects candidate support changes and unexpected generated inventory paths (1157.7203ms)
+✔ promotion installs only explicit generated files, backs up old refs, and preserves source and support bytes (4851.5713ms)
+✔ promotion refuses changed candidate bytes before touching original files (2981.7672ms)
+✔ promotion refuses candidate inventory additions and a changed original generated target (3029.4694ms)
+✔ promotion refuses changed protected source or support files (3090.7294ms)
+✔ promotion revalidates staged content and refuses a failed current validator result (3163.1889ms)
+✔ promotion rolls back every replaced and newly created file after an install failure (4334.3059ms)
+✔ promotion rejects receipt edits before interpreting any unsafe target paths (2222.8363ms)
+✔ pure parser covers exactly the 38 intended anchored works (4234.5789ms)
+✔ preserves Helena continuation verbatim from the real source (3.8277ms)
+✔ preserves Philo continuation verbatim from the real source (3.7483ms)
+✔ preserves Hamlet dumb show verbatim from the real source (6.6532ms)
+✔ preserves cue-only Falstaff verbatim from the real source (6.0574ms)
+✔ preserves Falstaff continuation verbatim from the real source (7.3505ms)
+✔ preserves Henry VIII song verbatim from the real source (8.1602ms)
+✔ preserves coronation procession verbatim from the real source (11.9703ms)
+✔ preserves Margaret continuation verbatim from the real source (13.9839ms)
+✔ preserves Romeo guest list verbatim from the real source (14.7267ms)
+✔ preserves Ariel song verbatim from the real source (15.0611ms)
+✔ preserves song second stanza verbatim from the real source (16.8723ms)
+✔ preserves song third stanza verbatim from the real source (17.2651ms)
+✔ prologue, epilogue, induction, cast and act-opening material have ordered sections (1.1737ms)
+✔ unlabelled text is not assigned an invented preceding speaker (34.643ms)
+✔ ordinary scene identities survive while generated numbering is identified (0.4432ms)
+✔ an inherited prologue anchor does not create another section from its speaker cue (0.2796ms)
+✔ printed accented uppercase speaker cues retain their exact attribution (42.1109ms)
+✔ source cues before explicit breaks do not require an invented final period (54.1847ms)
+✔ reviewed mixed-case source cues are retained without generalizing prose into speakers (49.2818ms)
+✔ an unpunctuated cue with an inline singing annotation is distinct from a song caption (50.2572ms)
+✔ unsupported meaningful markup produces a located diagnostic instead of disappearing (4134.1124ms)
+✔ the combined schema-2 reader output includes every source section once, with raw cues and inline spans (34.9288ms)
+✔ schema-2 rendering escapes text and retains explicit consecutive and trailing breaks (5.9251ms)
+✔ legacy schema-1 character and scene HTML remains available (2.043ms)
+✔ source table cells retain tabs, row breaks, and a following paragraph boundary (7.8132ms)
+✔ both readers combined render every canonical occurrence of all 38 source plays in exact order (6784.6243ms)
+✔ importing the registry generator does not write generated files (5.5027ms)
+✔ candidate CLI imports authoritative section refs once in source order and preserves reader metadata (748.2804ms)
+✔ candidate CLI fails before writing when a section reference is missing or unsafe (641.3104ms)
+✔ candidate CLI rejects stale section identity and ordinary scene aliases (548.7198ms)
+✔ external asset roots enforce exact import case on case-insensitive hosts (595.4082ms)
+✔ legacy plays keep ordinary scenes from explicit acts rather than directory scanning (481.8087ms)
+✔ canonical concatenation preserves Unicode and explicit final breaks without adding a final separator (2.5413ms)
+✔ canonical order follows authoritative play section references (0.3523ms)
+✔ canonical mappings distinguish identical text at distinct source occurrences (32.0701ms)
+✔ canonical construction rejects stale section versions and duplicate text IDs (1.2963ms)
+✔ canonical construction rejects missing or unowned sections (0.814ms)
+✔ text ranges round trip across blocks and sections with whole-work UTF-16 offsets (0.6672ms)
+✔ separator positions and exact unit boundaries have stable endpoint owners (0.3954ms)
+✔ selection context is limited to 32 UTF-16 units on either side (0.2349ms)
+✔ selection context never splits an astral character at its outer edge (0.579ms)
+✔ invalid, empty, reversed, and noninteger ranges are rejected (1.5171ms)
+✔ selection endpoints may not divide a UTF-16 surrogate pair (0.6596ms)
+✔ resolution validates identity and revisions before examining invalid ranges or references (0.4658ms)
+✔ resolution rejects forged endpoint IDs, ownership, and local offsets (0.8634ms)
+✔ resolution rejects exact and context mismatches without quotation relocation (0.4762ms)
+✔ whole section references resolve separately from text ranges and reject stale identity (0.5088ms)
+✔ an empty section remains addressable without permitting an empty text selection (0.4058ms)
+✔ real-source selections and section bookmarks round trip for all 38 plays (4670.5747ms)
+✔ stable serialization sorts object keys recursively and preserves ordered arrays and Unicode (3.3397ms)
+✔ stable serialization rejects non-JSON data rather than silently making digest collisions (0.8062ms)
+✔ content version is a SHA-256 generated-payload digest and is not the source checksum (1.5949ms)
+✔ identical regeneration and object key reordering preserve the version (0.4215ms)
+✔ self-referential contentVersion fields do not change the generated digest (0.3086ms)
+✔ unchanged source still changes version when generated canonical text or separators change (1.1054ms)
+✔ unchanged source still changes version when attribution, formatting, IDs or reference meaning change (1.3824ms)
+✔ generated block and section ordering are covered by content versions (0.4036ms)
+✔ content version computation does not mutate its inputs (0.3914ms)
+✔ collection versions hash ordered work and content-version pairs (0.5995ms)
+ℹ tests 132
+ℹ suites 0
+ℹ pass 132
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33786.5694
+
+=== Fresh pre-commit verification: 2026-10-18 (America/New_York) ===
+Command: node --test --test-reporter=spec tests/content/*.test.cjs
+Exit code: 0
+✔ independent traversal inventories all 44 chapters and reports every missing play (2052.6362ms)
+✔ a newly meaningful unsupported element fails with its original source location (1550.7129ms)
+✔ an image inserted into play text cannot be silently discarded (1429.2643ms)
+✔ a complete independently handbuilt structural corpus passes (209.93ms)
+✔ classless source paragraphs retain explicit source cue attribution (158.7672ms)
+✔ independent canonicalization preserves whitespace, astral offsets, nested spans, pre and table breaks (202.2763ms)
+✔ source cues can precede inline directions or prose on their first line (153.3666ms)
+✔ an uppercase SONG label does not assert a speaker (138.1775ms)
+✔ source cue abbreviations and combined labels preserve their complete punctuation (141.0527ms)
+✔ the independently copied source cue GRANDPRÉ. is explicit Unicode attribution (240.9607ms)
+✔ the independently copied source cue ALENÇON. is explicit Unicode attribution (162.0524ms)
+✔ the independently copied source cue MARCADÉ. is explicit Unicode attribution (150.4372ms)
+✔ the independently copied source cue DENNIS is explicit Unicode attribution (144.8585ms)
+✔ the independently copied source cue BARNARDO is explicit Unicode attribution (143.3661ms)
+✔ the independently copied source cue WOMAN is explicit Unicode attribution (161.0303ms)
+✔ the independently copied source cue ARIEL is explicit Unicode attribution (158.3792ms)
+✔ the independently copied source cue 1 PETITIONER. is explicit Unicode attribution (151.7102ms)
+✔ the independently copied source cue BALTHASAR is explicit Unicode attribution (175.147ms)
+✔ the copied ARIEL’S SONG. caption does not invent a speaker (145.6612ms)
+✔ independent source comparison rejects deletion even after refreshing the digest (167.1639ms)
+✔ independent source comparison rejects alteration even after refreshing the digest (174.2073ms)
+✔ independent source comparison rejects addition even after refreshing the digest (166.6087ms)
+✔ independent source comparison rejects reordering even after refreshing the digest (185.8619ms)
+✔ independent source comparison rejects duplication even after refreshing the digest (174.5405ms)
+✔ independent source comparison rejects forged provenance even after refreshing the digest (183.9441ms)
+✔ independent source comparison rejects forged inline span even after refreshing the digest (239.8977ms)
+✔ independent source comparison rejects incorrect cue attribution even after refreshing the digest (176.3664ms)
+✔ independent source comparison rejects incorrect source block type even after refreshing the digest (161.8765ms)
+✔ independent source comparison rejects incorrect section ownership even after refreshing the digest (184.7335ms)
+✔ independent source comparison rejects incorrect section metadata even after refreshing the digest (178.3643ms)
+✔ independent source comparison rejects forged text reference even after refreshing the digest (167.1344ms)
+✔ independent source comparison rejects incorrect line reference even after refreshing the digest (172.5858ms)
+✔ independent source comparison rejects stale section reference even after refreshing the digest (194.4151ms)
+✔ independent source comparison rejects forged inline class even after refreshing the digest (185.7131ms)
+✔ independent source comparison rejects foreign section source even after refreshing the digest (166.0337ms)
+✔ independent source comparison rejects forged play title metadata even after refreshing the digest (174.8924ms)
+✔ independent source comparison rejects forged full title metadata even after refreshing the digest (165.1162ms)
+✔ independent source comparison rejects forged section work title even after refreshing the digest (229.9257ms)
+✔ stale content versions fail before a candidate can be accepted (118.861ms)
+✔ unreferenced generated section files fail the inventory gate (120.6139ms)
+✔ the production source filename remains pinned to the approved raw SHA (133.0339ms)
+✔ strict CLI writes a reviewable report and exits nonzero on discrepancies (239.1663ms)
+✔ strict catalog validation rejects a stale manifest work version (124.6373ms)
+✔ strict catalog validation rejects a stale manifest section path (131.1445ms)
+✔ strict catalog validation rejects a missing manifest play (129.7916ms)
+✔ strict catalog validation rejects changed legacy catalog ordering (190.893ms)
+✔ strict catalog validation rejects a stale collection version (137.2257ms)
+✔ static registry section imports must exactly follow the validated play references (129.0051ms)
+✔ an unreferenced registry import cannot pull development source into the runtime bundle (133.5836ms)
+✔ static registry rejects mainImage containing development source require (117.6387ms)
+✔ static registry rejects mainImage containing executable expression (136.3391ms)
+✔ static registry rejects mainImage containing require with an extra executable argument (132.0039ms)
+✔ static registry rejects mainImage containing another work’s asset (124.7387ms)
+✔ static registry rejects medalImage containing development source require (132.2779ms)
+✔ static registry rejects medalImage containing executable expression (184.2114ms)
+✔ static registry rejects medalImage containing require with an extra executable argument (120.3827ms)
+✔ static registry rejects medalImage containing another work’s asset (146.87ms)
+✔ five reviewed mixed case cues are independently checked against the pinned raw paragraphs (2465.4769ms)
+✔ candidate output guard rejects the production plays directory and descendants (210.9622ms)
+✔ candidate output guard resolves junction ancestors before accepting an uncreated path (207.1797ms)
+✔ actual parser refuses all in-repository output targets before extraction or writing (38.549ms)
+✔ stage produces two byte-identical fresh candidates and snapshots all 114 protected support files (2205.8391ms)
+✔ stage refuses nondeterministic generation without a passing receipt or report (1454.3292ms)
+✔ stage requires a literal strict validator pass for both candidates (1614.5441ms)
+✔ stage rejects candidate support changes and unexpected generated inventory paths (642.0001ms)
+✔ promotion installs only explicit generated files, backs up old refs, and preserves source and support bytes (2274.4465ms)
+✔ promotion refuses changed candidate bytes before touching original files (1451.8267ms)
+✔ promotion refuses candidate inventory additions and a changed original generated target (1357.9032ms)
+✔ promotion refuses changed protected source or support files (1389.0999ms)
+✔ promotion revalidates staged content and refuses a failed current validator result (1382.7832ms)
+✔ promotion rolls back every replaced and newly created file after an install failure (2036.447ms)
+✔ promotion rejects receipt edits before interpreting any unsafe target paths (1055.2001ms)
+✔ pure parser covers exactly the 38 intended anchored works (2948.3872ms)
+✔ preserves Helena continuation verbatim from the real source (2.0855ms)
+✔ preserves Philo continuation verbatim from the real source (4.3504ms)
+✔ preserves Hamlet dumb show verbatim from the real source (3.604ms)
+✔ preserves cue-only Falstaff verbatim from the real source (6.4731ms)
+✔ preserves Falstaff continuation verbatim from the real source (3.4709ms)
+✔ preserves Henry VIII song verbatim from the real source (5.1847ms)
+✔ preserves coronation procession verbatim from the real source (4.5547ms)
+✔ preserves Margaret continuation verbatim from the real source (8.6409ms)
+✔ preserves Romeo guest list verbatim from the real source (9.5454ms)
+✔ preserves Ariel song verbatim from the real source (14.3934ms)
+✔ preserves song second stanza verbatim from the real source (10.2728ms)
+✔ preserves song third stanza verbatim from the real source (11.3949ms)
+✔ prologue, epilogue, induction, cast and act-opening material have ordered sections (1.198ms)
+✔ unlabelled text is not assigned an invented preceding speaker (31.2436ms)
+✔ ordinary scene identities survive while generated numbering is identified (0.3522ms)
+✔ an inherited prologue anchor does not create another section from its speaker cue (0.1856ms)
+✔ printed accented uppercase speaker cues retain their exact attribution (33.5877ms)
+✔ source cues before explicit breaks do not require an invented final period (53.6629ms)
+✔ reviewed mixed-case source cues are retained without generalizing prose into speakers (49.6289ms)
+✔ an unpunctuated cue with an inline singing annotation is distinct from a song caption (50.2889ms)
+✔ unsupported meaningful markup produces a located diagnostic instead of disappearing (2482.4963ms)
+✔ the combined schema-2 reader output includes every source section once, with raw cues and inline spans (37.8375ms)
+✔ schema-2 rendering escapes text and retains explicit consecutive and trailing breaks (6.612ms)
+✔ legacy schema-1 character and scene HTML remains available (1.5953ms)
+✔ source table cells retain tabs, row breaks, and a following paragraph boundary (8.1522ms)
+✔ both readers combined render every canonical occurrence of all 38 source plays in exact order (4920.1706ms)
+✔ importing the registry generator does not write generated files (4.4012ms)
+✔ candidate CLI imports authoritative section refs once in source order and preserves reader metadata (749.7461ms)
+✔ candidate CLI fails before writing when a section reference is missing or unsafe (817.8012ms)
+✔ candidate CLI rejects stale section identity and ordinary scene aliases (587.4656ms)
+✔ external asset roots enforce exact import case on case-insensitive hosts (563.6656ms)
+✔ legacy plays keep ordinary scenes from explicit acts rather than directory scanning (466.8475ms)
+✔ canonical concatenation preserves Unicode and explicit final breaks without adding a final separator (2.488ms)
+✔ canonical order follows authoritative play section references (0.5445ms)
+✔ canonical mappings distinguish identical text at distinct source occurrences (31.9406ms)
+✔ canonical construction rejects stale section versions and duplicate text IDs (0.6535ms)
+✔ canonical construction rejects missing or unowned sections (0.2843ms)
+✔ text ranges round trip across blocks and sections with whole-work UTF-16 offsets (0.4143ms)
+✔ separator positions and exact unit boundaries have stable endpoint owners (0.2534ms)
+✔ selection context is limited to 32 UTF-16 units on either side (0.163ms)
+✔ selection context never splits an astral character at its outer edge (0.3591ms)
+✔ invalid, empty, reversed, and noninteger ranges are rejected (0.835ms)
+✔ selection endpoints may not divide a UTF-16 surrogate pair (0.394ms)
+✔ resolution validates identity and revisions before examining invalid ranges or references (0.2925ms)
+✔ resolution rejects forged endpoint IDs, ownership, and local offsets (0.627ms)
+✔ resolution rejects exact and context mismatches without quotation relocation (0.4118ms)
+✔ whole section references resolve separately from text ranges and reject stale identity (0.6013ms)
+✔ an empty section remains addressable without permitting an empty text selection (0.2894ms)
+✔ real-source selections and section bookmarks round trip for all 38 plays (3781.4286ms)
+✔ stable serialization sorts object keys recursively and preserves ordered arrays and Unicode (1.8293ms)
+✔ stable serialization rejects non-JSON data rather than silently making digest collisions (0.9698ms)
+✔ content version is a SHA-256 generated-payload digest and is not the source checksum (1.6013ms)
+✔ identical regeneration and object key reordering preserve the version (0.7811ms)
+✔ self-referential contentVersion fields do not change the generated digest (0.5716ms)
+✔ unchanged source still changes version when generated canonical text or separators change (1.5974ms)
+✔ unchanged source still changes version when attribution, formatting, IDs or reference meaning change (2.251ms)
+✔ generated block and section ordering are covered by content versions (0.6956ms)
+✔ content version computation does not mutate its inputs (0.8029ms)
+✔ collection versions hash ordered work and content-version pairs (0.8586ms)
+ℹ tests 132
+ℹ suites 0
+ℹ pass 132
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17415.5417
+
+Command: node scripts/validateGutenbergFidelity.js --source data/source/pg100-images.html --candidate . --report docs/content/production-validation.json --strict
+Exit code: 0
+Strict source validator: 38/38 passed; 0 errors; report identical to post-generation receipt.
+Per-play findings:
+alls-well-that-ends-well: PASS; errors=0; sourceBlocks=1145; generatedBlocks=1145
+antony-and-cleopatra: PASS; errors=0; sourceBlocks=1571; generatedBlocks=1571
+as-you-like-it: PASS; errors=0; sourceBlocks=1008; generatedBlocks=1008
+errors: PASS; errors=0; sourceBlocks=723; generatedBlocks=723
+coriolanus: PASS; errors=0; sourceBlocks=1430; generatedBlocks=1430
+cymbeline: PASS; errors=0; sourceBlocks=1131; generatedBlocks=1131
+hamlet-prince-of-denmark: PASS; errors=0; sourceBlocks=1431; generatedBlocks=1431
+the-first-part-of-king-henry-the-fourth: PASS; errors=0; sourceBlocks=1004; generatedBlocks=1004
+the-second-part-of-king-henry-the-fourth: PASS; errors=0; sourceBlocks=1122; generatedBlocks=1122
+king-henry-the-fifth: PASS; errors=0; sourceBlocks=958; generatedBlocks=958
+the-first-part-of-henry-the-sixth: PASS; errors=0; sourceBlocks=952; generatedBlocks=952
+the-second-part-of-king-henry-the-sixth: PASS; errors=0; sourceBlocks=1060; generatedBlocks=1060
+the-third-part-of-king-henry-the-sixth: PASS; errors=0; sourceBlocks=1083; generatedBlocks=1083
+king-henry-the-eighth: PASS; errors=0; sourceBlocks=908; generatedBlocks=908
+king-john: PASS; errors=0; sourceBlocks=715; generatedBlocks=715
+julius-caesar: PASS; errors=0; sourceBlocks=1032; generatedBlocks=1032
+king-lear: PASS; errors=0; sourceBlocks=1365; generatedBlocks=1365
+loves-labours-lost: PASS; errors=0; sourceBlocks=1204; generatedBlocks=1204
+macbeth: PASS; errors=0; sourceBlocks=914; generatedBlocks=914
+measure-for-measure: PASS; errors=0; sourceBlocks=1113; generatedBlocks=1113
+the-merchant-of-venice: PASS; errors=0; sourceBlocks=815; generatedBlocks=815
+the-merry-wives-of-windsor: PASS; errors=0; sourceBlocks=1305; generatedBlocks=1305
+a-midsummer-nights-dream: PASS; errors=0; sourceBlocks=671; generatedBlocks=671
+much-ado-about-nothing: PASS; errors=0; sourceBlocks=1140; generatedBlocks=1140
+othello-the-moor-of-venice: PASS; errors=0; sourceBlocks=1438; generatedBlocks=1438
+pericles-prince-of-tyre: PASS; errors=0; sourceBlocks=862; generatedBlocks=862
+king-richard-the-second: PASS; errors=0; sourceBlocks=750; generatedBlocks=750
+king-richard-the-third: PASS; errors=0; sourceBlocks=1406; generatedBlocks=1406
+romeo-and-juliet: PASS; errors=0; sourceBlocks=1122; generatedBlocks=1122
+the-taming-of-the-shrew: PASS; errors=0; sourceBlocks=1134; generatedBlocks=1134
+the-tempest: PASS; errors=0; sourceBlocks=803; generatedBlocks=803
+timon-of-athens: PASS; errors=0; sourceBlocks=1017; generatedBlocks=1017
+titus-andronicus: PASS; errors=0; sourceBlocks=777; generatedBlocks=777
+troilus-and-cressida: PASS; errors=0; sourceBlocks=1427; generatedBlocks=1427
+twelfth-night-or-what-you-will: PASS; errors=0; sourceBlocks=1127; generatedBlocks=1127
+the-two-gentlemen-of-verona: PASS; errors=0; sourceBlocks=1048; generatedBlocks=1048
+the-two-noble-kinsmen: PASS; errors=0; sourceBlocks=1127; generatedBlocks=1127
+the-winters-tale: PASS; errors=0; sourceBlocks=920; generatedBlocks=920
+
+Command: node docs/content/bundled-reader-check.cjs
+Exit code: 0
+{"entries":38,"sections":1131,"ordinaryScenes":774,"blocks":40758,"canonicalUTF16":5067252,"emptyCharacterPrefixes":38,"exactReaderMatches":38,"imageImports":76,"jsonImports":1283}
+
+Preservation: 115 protected files and 1171 generated files match the post-generation receipt hashes and byte sizes; 0 mismatches.
+Versions: all 38 generated-payload versions recomputed without mutation and match play/manifest values; collectionVersion=8edeb3e4395f126c5844d4c395b151b1e291653a78396d3b55908e90ef627f32
+Command: git --no-optional-locks -c safe.directory=C:/Users/ibrah/Desktop/Dev/bard -c core.autocrlf=false -c core.whitespace=trailing-space,space-before-tab,cr-at-eol diff --check
+Exit code: 0; no whitespace findings.
+The existing collection was not regenerated. Reader UI and app configuration were not changed.

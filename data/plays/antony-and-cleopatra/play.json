@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "antony-and-cleopatra",
-  "title": "The Tragedy of Antony and Cleopatra",
-  "fullTitle": "The Tragedy of Antony and Cleopatra",
+  "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
   "author": "William Shakespeare",
   "genre": "Tragedy",
+  "fullTitle": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,41 +33,41 @@
           "scene": 1,
           "id": "antony-and-cleopatra-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Alexandria. A Room in Cleopatra's palace.",
+          "title": "SCENE I. Alexandria. A Room in Cleopatra’s palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 65
+          "lineCount": 93
         },
         {
           "scene": 2,
           "id": "antony-and-cleopatra-1-2",
           "label": "Act 1, Scene 2",
-          "title": "Alexandria. Another Room in Cleopatra's palace.",
+          "title": "SCENE II. Alexandria. Another Room in Cleopatra’s palace.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 140
+          "lineCount": 260
         },
         {
           "scene": 3,
           "id": "antony-and-cleopatra-1-3",
           "label": "Act 1, Scene 3",
-          "title": "Alexandria. A Room in Cleopatra's palace.",
+          "title": "SCENE III. Alexandria. A Room in Cleopatra’s palace.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 125
+          "lineCount": 170
         },
         {
           "scene": 4,
           "id": "antony-and-cleopatra-1-4",
           "label": "Act 1, Scene 4",
-          "title": "Rome. An Apartment in Caesar's House.",
+          "title": "SCENE IV. Rome. An Apartment in Caesar’s House.",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 93
+          "lineCount": 112
         },
         {
           "scene": 5,
           "id": "antony-and-cleopatra-1-5",
           "label": "Act 1, Scene 5",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE V. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-1-scene-5.json",
-          "lineCount": 91
+          "lineCount": 126
         }
       ]
     },
@@ -70,57 +78,57 @@
           "scene": 1,
           "id": "antony-and-cleopatra-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Messina. A Room in Pompey's house.",
+          "title": "SCENE I. Messina. A Room in Pompey’s house.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 60
+          "lineCount": 78
         },
         {
           "scene": 2,
           "id": "antony-and-cleopatra-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Rome. A Room in the House of Lepidus.",
+          "title": "SCENE II. Rome. A Room in the House of Lepidus.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 275
+          "lineCount": 370
         },
         {
           "scene": 3,
           "id": "antony-and-cleopatra-2-3",
           "label": "Act 2, Scene 3",
-          "title": "Rome. A Room in Caesar's House.",
+          "title": "SCENE III. Rome. A Room in Caesar’s House.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 35
+          "lineCount": 68
         },
         {
           "scene": 4,
           "id": "antony-and-cleopatra-2-4",
           "label": "Act 2, Scene 4",
-          "title": "Rome. A street.",
+          "title": "SCENE IV. Rome. A street.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 14
+          "lineCount": 24
         },
         {
           "scene": 5,
           "id": "antony-and-cleopatra-2-5",
           "label": "Act 2, Scene 5",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE V. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-2-scene-5.json",
-          "lineCount": 125
+          "lineCount": 215
         },
         {
           "scene": 6,
           "id": "antony-and-cleopatra-2-6",
           "label": "Act 2, Scene 6",
-          "title": "Near Misenum.",
+          "title": "SCENE VI. Near Misenum.",
           "path": "./scenes/act-2-scene-6.json",
-          "lineCount": 137
+          "lineCount": 212
         },
         {
           "scene": 7,
           "id": "antony-and-cleopatra-2-7",
           "label": "Act 2, Scene 7",
-          "title": "On board Pompey's Galley, lying near Misenum.",
+          "title": "SCENE VII. On board Pompey’s Galley, lying near Misenum.",
           "path": "./scenes/act-2-scene-7.json",
-          "lineCount": 135
+          "lineCount": 220
         }
       ]
     },
@@ -131,105 +139,105 @@
           "scene": 1,
           "id": "antony-and-cleopatra-3-1",
           "label": "Act 3, Scene 1",
-          "title": "A plain in Syria.",
+          "title": "SCENE I. A plain in Syria.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 41
+          "lineCount": 51
         },
         {
           "scene": 2,
           "id": "antony-and-cleopatra-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Rome. An Ante-chamber in Caesar's house.",
+          "title": "SCENE II. Rome. An Ante-chamber in Caesar’s house.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 78
+          "lineCount": 124
         },
         {
           "scene": 3,
           "id": "antony-and-cleopatra-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE III. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 65
+          "lineCount": 110
         },
         {
           "scene": 4,
           "id": "antony-and-cleopatra-3-4",
           "label": "Act 3, Scene 4",
-          "title": "Athens. A Room in Antony's House.",
+          "title": "SCENE IV. Athens. A Room in Antony’s House.",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 41
+          "lineCount": 49
         },
         {
           "scene": 5,
           "id": "antony-and-cleopatra-3-5",
           "label": "Act 3, Scene 5",
-          "title": "Athens. Another Room in Antony's House.",
+          "title": "SCENE V. Athens. Another Room in Antony’s House.",
           "path": "./scenes/act-3-scene-5.json",
-          "lineCount": 20
+          "lineCount": 35
         },
         {
           "scene": 6,
           "id": "antony-and-cleopatra-3-6",
           "label": "Act 3, Scene 6",
-          "title": "Rome. A Room in Caesar's House.",
+          "title": "SCENE VI. Rome. A Room in Caesar’s House.",
           "path": "./scenes/act-3-scene-6.json",
-          "lineCount": 111
+          "lineCount": 143
         },
         {
           "scene": 7,
           "id": "antony-and-cleopatra-3-7",
           "label": "Act 3, Scene 7",
-          "title": "Antony's Camp near the Promontory of Actium.",
+          "title": "SCENE VII. Antony’s Camp near the Promontory of Actium.",
           "path": "./scenes/act-3-scene-7.json",
-          "lineCount": 98
+          "lineCount": 146
         },
         {
           "scene": 8,
           "id": "antony-and-cleopatra-3-8",
           "label": "Act 3, Scene 8",
-          "title": "A plain near Actium.",
+          "title": "SCENE VIII. A plain near Actium.",
           "path": "./scenes/act-3-scene-8.json",
-          "lineCount": 6
+          "lineCount": 12
         },
         {
           "scene": 9,
           "id": "antony-and-cleopatra-3-9",
           "label": "Act 3, Scene 9",
-          "title": "Another part of the Plain.",
+          "title": "SCENE IX. Another part of the Plain.",
           "path": "./scenes/act-3-scene-9.json",
-          "lineCount": 4
+          "lineCount": 8
         },
         {
           "scene": 10,
           "id": "antony-and-cleopatra-3-10",
           "label": "Act 3, Scene 10",
-          "title": "Another part of the Plain.",
+          "title": "SCENE X. Another part of the Plain.",
           "path": "./scenes/act-3-scene-10.json",
-          "lineCount": 45
+          "lineCount": 66
         },
         {
           "scene": 11,
           "id": "antony-and-cleopatra-3-11",
           "label": "Act 3, Scene 11",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE XI. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-3-scene-11.json",
-          "lineCount": 82
+          "lineCount": 115
         },
         {
           "scene": 12,
           "id": "antony-and-cleopatra-3-12",
           "label": "Act 3, Scene 12",
-          "title": "Caesar's camp in Egypt.",
+          "title": "SCENE XII. Caesar’s camp in Egypt.",
           "path": "./scenes/act-3-scene-12.json",
-          "lineCount": 35
+          "lineCount": 60
         },
         {
           "scene": 13,
           "id": "antony-and-cleopatra-3-13",
           "label": "Act 3, Scene 13",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE XIII. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-3-scene-13.json",
-          "lineCount": 228
+          "lineCount": 317
         }
       ]
     },
@@ -240,121 +248,121 @@
           "scene": 1,
           "id": "antony-and-cleopatra-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Caesar's Camp at Alexandria.",
+          "title": "SCENE I. Caesar’s Camp at Alexandria.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 18
+          "lineCount": 25
         },
         {
           "scene": 2,
           "id": "antony-and-cleopatra-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE II. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 52
+          "lineCount": 77
         },
         {
           "scene": 3,
           "id": "antony-and-cleopatra-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Alexandria. Before the Palace.",
+          "title": "SCENE III. Alexandria. Before the Palace.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 31
+          "lineCount": 63
         },
         {
           "scene": 4,
           "id": "antony-and-cleopatra-4-4",
           "label": "Act 4, Scene 4",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE IV. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 42
+          "lineCount": 73
         },
         {
           "scene": 5,
           "id": "antony-and-cleopatra-4-5",
           "label": "Act 4, Scene 5",
-          "title": "Antony's camp near Alexandria.",
+          "title": "SCENE V. Antony’s camp near Alexandria.",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 25
+          "lineCount": 39
         },
         {
           "scene": 6,
           "id": "antony-and-cleopatra-4-6",
           "label": "Act 4, Scene 6",
-          "title": "Alexandria. Caesar's camp.",
+          "title": "SCENE VI. Alexandria. Caesar’s camp.",
           "path": "./scenes/act-4-scene-6.json",
-          "lineCount": 43
+          "lineCount": 61
         },
         {
           "scene": 7,
           "id": "antony-and-cleopatra-4-7",
           "label": "Act 4, Scene 7",
-          "title": "Field of battle between the Camps.",
+          "title": "SCENE VII. Field of battle between the Camps.",
           "path": "./scenes/act-4-scene-7.json",
-          "lineCount": 21
+          "lineCount": 38
         },
         {
           "scene": 8,
           "id": "antony-and-cleopatra-4-8",
           "label": "Act 4, Scene 8",
-          "title": "Under the Walls of Alexandria.",
+          "title": "SCENE VIII. Under the Walls of Alexandria.",
           "path": "./scenes/act-4-scene-8.json",
-          "lineCount": 38
+          "lineCount": 53
         },
         {
           "scene": 9,
           "id": "antony-and-cleopatra-4-9",
           "label": "Act 4, Scene 9",
-          "title": "Caesar's camp.",
+          "title": "SCENE IX. Caesar’s camp.",
           "path": "./scenes/act-4-scene-9.json",
-          "lineCount": 36
+          "lineCount": 63
         },
         {
           "scene": 10,
           "id": "antony-and-cleopatra-4-10",
           "label": "Act 4, Scene 10",
-          "title": "Ground between the two Camps.",
+          "title": "SCENE X. Ground between the two Camps.",
           "path": "./scenes/act-4-scene-10.json",
-          "lineCount": 10
+          "lineCount": 16
         },
         {
           "scene": 11,
           "id": "antony-and-cleopatra-4-11",
           "label": "Act 4, Scene 11",
-          "title": "Another part of the Ground.",
+          "title": "SCENE XI. Another part of the Ground.",
           "path": "./scenes/act-4-scene-11.json",
-          "lineCount": 4
+          "lineCount": 8
         },
         {
           "scene": 12,
           "id": "antony-and-cleopatra-4-12",
           "label": "Act 4, Scene 12",
-          "title": "Another part of the Ground.",
+          "title": "SCENE XII. Another part of the Ground.",
           "path": "./scenes/act-4-scene-12.json",
-          "lineCount": 28
+          "lineCount": 66
         },
         {
           "scene": 13,
           "id": "antony-and-cleopatra-4-13",
           "label": "Act 4, Scene 13",
-          "title": "Alexandria. A Room in the Palace.",
+          "title": "SCENE XIII. Alexandria. A Room in the Palace.",
           "path": "./scenes/act-4-scene-13.json",
-          "lineCount": 12
+          "lineCount": 18
         },
         {
           "scene": 14,
           "id": "antony-and-cleopatra-4-14",
           "label": "Act 4, Scene 14",
-          "title": "Alexandria. Another Room.",
+          "title": "SCENE XIV. Alexandria. Another Room.",
           "path": "./scenes/act-4-scene-14.json",
-          "lineCount": 146
+          "lineCount": 239
         },
         {
           "scene": 15,
           "id": "antony-and-cleopatra-4-15",
           "label": "Act 4, Scene 15",
-          "title": "Alexandria. A monument.",
+          "title": "SCENE XV. Alexandria. A monument.",
           "path": "./scenes/act-4-scene-15.json",
-          "lineCount": 94
+          "lineCount": 140
         }
       ]
     },
@@ -365,19 +373,532 @@
           "scene": 1,
           "id": "antony-and-cleopatra-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Caesar's Camp before Alexandria.",
+          "title": "SCENE I. Caesar’s Camp before Alexandria.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 86
+          "lineCount": 121
         },
         {
           "scene": 2,
           "id": "antony-and-cleopatra-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Alexandria. A Room in the Monument.",
+          "title": "SCENE II. Alexandria. A Room in the Monument.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 368
+          "lineCount": 577
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "antony-and-cleopatra-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE TRAGEDY OF ANTONY AND CLEOPATRA"
+    },
+    {
+      "id": "antony-and-cleopatra-contents-128",
+      "kind": "contents",
+      "path": "./sections/contents-128.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "antony-and-cleopatra-cast-5238",
+      "kind": "cast",
+      "path": "./sections/cast-5238.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "antony-and-cleopatra-setting-6525",
+      "kind": "setting",
+      "path": "./sections/setting-6525.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Dispersed, in several parts of the Roman Empire."
+    },
+    {
+      "id": "antony-and-cleopatra-act-6654",
+      "kind": "act",
+      "path": "./sections/act-6654.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "antony-and-cleopatra-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "antony-and-cleopatra-act-6654",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Alexandria. A Room in Cleopatra’s palace."
+    },
+    {
+      "id": "antony-and-cleopatra-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "antony-and-cleopatra-act-6654",
+      "orderInPlay": 7,
+      "heading": "SCENE II. Alexandria. Another Room in Cleopatra’s palace."
+    },
+    {
+      "id": "antony-and-cleopatra-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "antony-and-cleopatra-act-6654",
+      "orderInPlay": 8,
+      "heading": "SCENE III. Alexandria. A Room in Cleopatra’s palace."
+    },
+    {
+      "id": "antony-and-cleopatra-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "antony-and-cleopatra-act-6654",
+      "orderInPlay": 9,
+      "heading": "SCENE IV. Rome. An Apartment in Caesar’s House."
+    },
+    {
+      "id": "antony-and-cleopatra-1-5",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-5.json",
+      "act": 1,
+      "scene": 5,
+      "parentSectionId": "antony-and-cleopatra-act-6654",
+      "orderInPlay": 10,
+      "heading": "SCENE V. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-act-41861",
+      "kind": "act",
+      "path": "./sections/act-41861.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT II"
+    },
+    {
+      "id": "antony-and-cleopatra-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 12,
+      "heading": "SCENE I. Messina. A Room in Pompey’s house."
+    },
+    {
+      "id": "antony-and-cleopatra-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 13,
+      "heading": "SCENE II. Rome. A Room in the House of Lepidus."
+    },
+    {
+      "id": "antony-and-cleopatra-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 14,
+      "heading": "SCENE III. Rome. A Room in Caesar’s House."
+    },
+    {
+      "id": "antony-and-cleopatra-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 15,
+      "heading": "SCENE IV. Rome. A street."
+    },
+    {
+      "id": "antony-and-cleopatra-2-5",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-5.json",
+      "act": 2,
+      "scene": 5,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 16,
+      "heading": "SCENE V. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-2-6",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-6.json",
+      "act": 2,
+      "scene": 6,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 17,
+      "heading": "SCENE VI. Near Misenum."
+    },
+    {
+      "id": "antony-and-cleopatra-2-7",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-7.json",
+      "act": 2,
+      "scene": 7,
+      "parentSectionId": "antony-and-cleopatra-act-41861",
+      "orderInPlay": 18,
+      "heading": "SCENE VII. On board Pompey’s Galley, lying near Misenum."
+    },
+    {
+      "id": "antony-and-cleopatra-act-93812",
+      "kind": "act",
+      "path": "./sections/act-93812.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 19,
+      "heading": "ACT III"
+    },
+    {
+      "id": "antony-and-cleopatra-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 20,
+      "heading": "SCENE I. A plain in Syria."
+    },
+    {
+      "id": "antony-and-cleopatra-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 21,
+      "heading": "SCENE II. Rome. An Ante-chamber in Caesar’s house."
+    },
+    {
+      "id": "antony-and-cleopatra-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 22,
+      "heading": "SCENE III. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 23,
+      "heading": "SCENE IV. Athens. A Room in Antony’s House."
+    },
+    {
+      "id": "antony-and-cleopatra-3-5",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-5.json",
+      "act": 3,
+      "scene": 5,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 24,
+      "heading": "SCENE V. Athens. Another Room in Antony’s House."
+    },
+    {
+      "id": "antony-and-cleopatra-3-6",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-6.json",
+      "act": 3,
+      "scene": 6,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 25,
+      "heading": "SCENE VI. Rome. A Room in Caesar’s House."
+    },
+    {
+      "id": "antony-and-cleopatra-3-7",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-7.json",
+      "act": 3,
+      "scene": 7,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 26,
+      "heading": "SCENE VII. Antony’s Camp near the Promontory of Actium."
+    },
+    {
+      "id": "antony-and-cleopatra-3-8",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-8.json",
+      "act": 3,
+      "scene": 8,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 27,
+      "heading": "SCENE VIII. A plain near Actium."
+    },
+    {
+      "id": "antony-and-cleopatra-3-9",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-9.json",
+      "act": 3,
+      "scene": 9,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 28,
+      "heading": "SCENE IX. Another part of the Plain."
+    },
+    {
+      "id": "antony-and-cleopatra-3-10",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-10.json",
+      "act": 3,
+      "scene": 10,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 29,
+      "heading": "SCENE X. Another part of the Plain."
+    },
+    {
+      "id": "antony-and-cleopatra-3-11",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-11.json",
+      "act": 3,
+      "scene": 11,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 30,
+      "heading": "SCENE XI. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-3-12",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-12.json",
+      "act": 3,
+      "scene": 12,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 31,
+      "heading": "SCENE XII. Caesar’s camp in Egypt."
+    },
+    {
+      "id": "antony-and-cleopatra-3-13",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-13.json",
+      "act": 3,
+      "scene": 13,
+      "parentSectionId": "antony-and-cleopatra-act-93812",
+      "orderInPlay": 32,
+      "heading": "SCENE XIII. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-act-147749",
+      "kind": "act",
+      "path": "./sections/act-147749.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 33,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "antony-and-cleopatra-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 34,
+      "heading": "SCENE I. Caesar’s Camp at Alexandria."
+    },
+    {
+      "id": "antony-and-cleopatra-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 35,
+      "heading": "SCENE II. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 36,
+      "heading": "SCENE III. Alexandria. Before the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 37,
+      "heading": "SCENE IV. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 38,
+      "heading": "SCENE V. Antony’s camp near Alexandria."
+    },
+    {
+      "id": "antony-and-cleopatra-4-6",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-6.json",
+      "act": 4,
+      "scene": 6,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 39,
+      "heading": "SCENE VI. Alexandria. Caesar’s camp."
+    },
+    {
+      "id": "antony-and-cleopatra-4-7",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-7.json",
+      "act": 4,
+      "scene": 7,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 40,
+      "heading": "SCENE VII. Field of battle between the Camps."
+    },
+    {
+      "id": "antony-and-cleopatra-4-8",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-8.json",
+      "act": 4,
+      "scene": 8,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 41,
+      "heading": "SCENE VIII. Under the Walls of Alexandria."
+    },
+    {
+      "id": "antony-and-cleopatra-4-9",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-9.json",
+      "act": 4,
+      "scene": 9,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 42,
+      "heading": "SCENE IX. Caesar’s camp."
+    },
+    {
+      "id": "antony-and-cleopatra-4-10",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-10.json",
+      "act": 4,
+      "scene": 10,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 43,
+      "heading": "SCENE X. Ground between the two Camps."
+    },
+    {
+      "id": "antony-and-cleopatra-4-11",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-11.json",
+      "act": 4,
+      "scene": 11,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 44,
+      "heading": "SCENE XI. Another part of the Ground."
+    },
+    {
+      "id": "antony-and-cleopatra-4-12",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-12.json",
+      "act": 4,
+      "scene": 12,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 45,
+      "heading": "SCENE XII. Another part of the Ground."
+    },
+    {
+      "id": "antony-and-cleopatra-4-13",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-13.json",
+      "act": 4,
+      "scene": 13,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 46,
+      "heading": "SCENE XIII. Alexandria. A Room in the Palace."
+    },
+    {
+      "id": "antony-and-cleopatra-4-14",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-14.json",
+      "act": 4,
+      "scene": 14,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 47,
+      "heading": "SCENE XIV. Alexandria. Another Room."
+    },
+    {
+      "id": "antony-and-cleopatra-4-15",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-15.json",
+      "act": 4,
+      "scene": 15,
+      "parentSectionId": "antony-and-cleopatra-act-147749",
+      "orderInPlay": 48,
+      "heading": "SCENE XV. Alexandria. A monument."
+    },
+    {
+      "id": "antony-and-cleopatra-act-191539",
+      "kind": "act",
+      "path": "./sections/act-191539.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 49,
+      "heading": "ACT V"
+    },
+    {
+      "id": "antony-and-cleopatra-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "antony-and-cleopatra-act-191539",
+      "orderInPlay": 50,
+      "heading": "SCENE I. Caesar’s Camp before Alexandria."
+    },
+    {
+      "id": "antony-and-cleopatra-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "antony-and-cleopatra-act-191539",
+      "orderInPlay": 51,
+      "heading": "SCENE II. Alexandria. A Room in the Monument."
+    }
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

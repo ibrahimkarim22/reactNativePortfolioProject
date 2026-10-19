@@ -1,278 +1,311 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-2-3",
+    "kind": "scene",
+    "heading": "SCENE III. The open Country",
     "act": 2,
     "scene": 3,
-    "label": "Act 2, Scene 3",
-    "title": "SCENE III. The open Country",
-    "location": "The open Country",
-    "orderInPlay": 8
+    "parentSectionId": "king-lear-act-59933",
+    "orderInPlay": 14,
+    "sourceRef": {
+      "start": 3252930,
+      "end": 3252999,
+      "line": 118678,
+      "column": 1,
+      "path": "chap18/h3@79475",
+      "anchor": "sceneII_18.3"
+    }
   },
   "content": [
     {
-      "id": "king-lear-2-3-stage-001",
-      "type": "stage",
-      "text": "Enter Edgar."
-    },
-    {
-      "id": "king-lear-2-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "edgar",
-        "name": "EDGAR",
-        "displayName": "Edgar"
-      },
+      "id": "king-lear/sceneII_18.3/h3@79475",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. The open Country",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 27
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-2-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I heard myself proclaim'd,",
-          "plainText": "I heard myself proclaim'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "And by the happy hollow of a tree",
-          "plainText": "And by the happy hollow of a tree",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Escap'd the hunt. No port is free, no place",
-          "plainText": "Escap'd the hunt No port is free no place",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "That guard and most unusual vigilance",
-          "plainText": "That guard and most unusual vigilance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Does not attend my taking. While I may scape",
-          "plainText": "Does not attend my taking While I may scape",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "I will preserve myself: and am bethought",
-          "plainText": "I will preserve myself and am bethought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "To take the basest and most poorest shape",
-          "plainText": "To take the basest and most poorest shape",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "That ever penury in contempt of man,",
-          "plainText": "That ever penury in contempt of man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Brought near to beast: my face I'll grime with filth,",
-          "plainText": "Brought near to beast my face I'll grime with filth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Blanket my loins; elf all my hair in knots,",
-          "plainText": "Blanket my loins elf all my hair in knots",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "And with presented nakedness outface",
-          "plainText": "And with presented nakedness outface",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "The winds and persecutions of the sky.",
-          "plainText": "The winds and persecutions of the sky",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "The country gives me proof and precedent",
-          "plainText": "The country gives me proof and precedent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Of Bedlam beggars, who, with roaring voices,",
-          "plainText": "Of Bedlam beggars who with roaring voices",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "Strike in their numb'd and mortified bare arms",
-          "plainText": "Strike in their numb'd and mortified bare arms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "Pins, wooden pricks, nails, sprigs of rosemary;",
-          "plainText": "Pins wooden pricks nails sprigs of rosemary",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "And with this horrible object, from low farms,",
-          "plainText": "And with this horrible object from low farms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "Poor pelting villages, sheep-cotes, and mills,",
-          "plainText": "Poor pelting villages sheepcotes and mills",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "Sometime with lunatic bans, sometime with prayers,",
-          "plainText": "Sometime with lunatic bans sometime with prayers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "Enforce their charity. Poor Turlygod! poor Tom,",
-          "plainText": "Enforce their charity Poor Turlygod poor Tom",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-2-3-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "That's something yet: Edgar I nothing am.",
-          "plainText": "That's something yet Edgar I nothing am",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneII_18.3/h3@79475/line-1",
+          "start": 0,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3252930,
+        "end": 3252999,
+        "line": 118678,
+        "column": 1,
+        "path": "chap18/h3@79475",
+        "anchor": "sceneII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-2-3-stage-002",
+      "id": "king-lear/sceneII_18.3/p@79548",
       "type": "stage",
-      "text": "[Exit.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Edgar.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneII_18.3/p@79548/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3253003,
+        "end": 3253070,
+        "line": 118680,
+        "column": 1,
+        "path": "chap18/p@79548",
+        "anchor": "sceneII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneII_18.3/p@79619",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDGAR.\nI heard myself proclaim’d,\nAnd by the happy hollow of a tree\nEscap’d the hunt. No port is free, no place\nThat guard and most unusual vigilance\nDoes not attend my taking. While I may scape\nI will preserve myself: and am bethought\nTo take the basest and most poorest shape\nThat ever penury in contempt of man,\nBrought near to beast: my face I’ll grime with filth,\nBlanket my loins; elf all my hair in knots,\nAnd with presented nakedness outface\nThe winds and persecutions of the sky.\nThe country gives me proof and precedent\nOf Bedlam beggars, who, with roaring voices,\nStrike in their numb’d and mortified bare arms\nPins, wooden pricks, nails, sprigs of rosemary;\nAnd with this horrible object, from low farms,\nPoor pelting villages, sheep-cotes, and mills,\nSometime with lunatic bans, sometime with prayers,\nEnforce their charity. Poor Turlygod! poor Tom,\nThat’s something yet: Edgar I nothing am.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-2",
+          "start": 7,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-3",
+          "start": 34,
+          "end": 67,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-4",
+          "start": 68,
+          "end": 111,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-5",
+          "start": 112,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-6",
+          "start": 150,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-7",
+          "start": 195,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-8",
+          "start": 236,
+          "end": 277,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-9",
+          "start": 278,
+          "end": 314,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-10",
+          "start": 315,
+          "end": 368,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-11",
+          "start": 369,
+          "end": 412,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-12",
+          "start": 413,
+          "end": 449,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-13",
+          "start": 450,
+          "end": 488,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-14",
+          "start": 489,
+          "end": 529,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-15",
+          "start": 530,
+          "end": 574,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-16",
+          "start": 575,
+          "end": 621,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-17",
+          "start": 622,
+          "end": 669,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-18",
+          "start": 670,
+          "end": 716,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-19",
+          "start": 717,
+          "end": 763,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-20",
+          "start": 764,
+          "end": 814,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-21",
+          "start": 815,
+          "end": 862,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneII_18.3/p@79619/line-22",
+          "start": 863,
+          "end": 904,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3253074,
+        "end": 3254108,
+        "line": 118682,
+        "column": 1,
+        "path": "chap18/p@79619",
+        "anchor": "sceneII_18.3"
+      },
+      "speakerLabel": "EDGAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "king-lear/sceneII_18.3/p@80657",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneII_18.3/p@80657/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3254112,
+        "end": 3254147,
+        "line": 118707,
+        "column": 1,
+        "path": "chap18/p@80657",
+        "anchor": "sceneII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

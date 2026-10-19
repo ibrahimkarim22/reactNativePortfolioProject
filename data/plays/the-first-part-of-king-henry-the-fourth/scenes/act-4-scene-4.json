@@ -1,597 +1,707 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-first-part-of-king-henry-the-fourth",
-    "title": "The First Part of King Henry the Fourth",
+    "title": "THE FIRST PART OF KING HENRY THE FOURTH",
     "author": "William Shakespeare",
     "genre": "History"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap09"
   },
-  "scene": {
+  "section": {
     "id": "the-first-part-of-king-henry-the-fourth-4-4",
+    "kind": "scene",
+    "heading": "SCENE IV. York. A Room in the Archbishop’s Palace.",
     "act": 4,
     "scene": 4,
-    "label": "Act 4, Scene 4",
-    "title": "SCENE IV. York. A Room in the Archbishop's Palace.",
-    "location": "York. A Room in the Archbishop's Palace.",
-    "orderInPlay": 14
+    "parentSectionId": "the-first-part-of-king-henry-the-fourth-act-131403",
+    "orderInPlay": 22,
+    "sourceRef": {
+      "start": 1662345,
+      "end": 1662436,
+      "line": 62623,
+      "column": 1,
+      "path": "chap09/h3@151220",
+      "anchor": "sceneIV_9.4"
+    }
   },
   "content": [
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-stage-001",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/h3@151220",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. York. A Room in the Archbishop’s Palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/h3@151220/line-1",
+          "start": 0,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1662345,
+        "end": 1662436,
+        "line": 62623,
+        "column": 1,
+        "path": "chap09/h3@151220",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151315",
       "type": "stage",
-      "text": "Enter the Archbishop of York and Sir Michael."
-    },
-    {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "archbishop",
-        "name": "ARCHBISHOP",
-        "displayName": "Archbishop"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter the Archbishop of York and Sir Michael.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 10,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 33,
+          "end": 44,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Hie, good Sir Michael; bear this sealed brief",
-          "plainText": "Hie good Sir Michael bear this sealed brief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "With winged haste to the Lord Marshal,",
-          "plainText": "With winged haste to the Lord Marshal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "This to my cousin Scroop, and all the rest",
-          "plainText": "This to my cousin Scroop and all the rest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "To whom they are directed. If you knew",
-          "plainText": "To whom they are directed If you knew",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "How much they do import, you would make haste.",
-          "plainText": "How much they do import you would make haste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151315/line-1",
+          "start": 0,
+          "end": 45,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1662440,
+        "end": 1662573,
+        "line": 62625,
+        "column": 1,
+        "path": "chap09/p@151315",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-002",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452",
       "type": "speech",
-      "speaker": {
-        "id": "sir-michael",
-        "name": "SIR MICHAEL",
-        "displayName": "Sir Michael"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARCHBISHOP.\nHie, good Sir Michael; bear this sealed brief\nWith winged haste to the Lord Marshal,\nThis to my cousin Scroop, and all the rest\nTo whom they are directed. If you knew\nHow much they do import, you would make haste.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "My good lord,",
-          "plainText": "My good lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "I guess their tenour.",
-          "plainText": "I guess their tenour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-2",
+          "start": 12,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-3",
+          "start": 58,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-4",
+          "start": 97,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-5",
+          "start": 140,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151452/line-6",
+          "start": 179,
+          "end": 225,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1662577,
+        "end": 1662852,
+        "line": 62629,
+        "column": 1,
+        "path": "chap09/p@151452",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "ARCHBISHOP.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-003",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151731",
       "type": "speech",
-      "speaker": {
-        "id": "archbishop",
-        "name": "ARCHBISHOP",
-        "displayName": "Archbishop"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIR MICHAEL.\nMy good lord,\nI guess their tenour.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Like enough you do.",
-          "plainText": "Like enough you do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151731/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Tomorrow, good Sir Michael, is a day",
-          "plainText": "Tomorrow good Sir Michael is a day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151731/line-2",
+          "start": 13,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "Wherein the fortune of ten thousand men",
-          "plainText": "Wherein the fortune of ten thousand men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "Must bide the touch; for, sir, at Shrewsbury,",
-          "plainText": "Must bide the touch for sir at Shrewsbury",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 5,
-          "text": "As I am truly given to understand,",
-          "plainText": "As I am truly given to understand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 6,
-          "text": "The King with mighty and quick-raised power",
-          "plainText": "The King with mighty and quickraised power",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 7,
-          "text": "Meets with Lord Harry. And, I fear, Sir Michael,",
-          "plainText": "Meets with Lord Harry And I fear Sir Michael",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 8,
-          "text": "What with the sickness of Northumberland,",
-          "plainText": "What with the sickness of Northumberland",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 9,
-          "text": "Whose power was in the first proportion,",
-          "plainText": "Whose power was in the first proportion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 10,
-          "text": "And what with Owen Glendower's absence thence,",
-          "plainText": "And what with Owen Glendower's absence thence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 11,
-          "text": "Who with them was a rated sinew too,",
-          "plainText": "Who with them was a rated sinew too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 12,
-          "text": "And comes not in, o'er-rul'd by prophecies,",
-          "plainText": "And comes not in o'errul'd by prophecies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 13,
-          "text": "I fear the power of Percy is too weak",
-          "plainText": "I fear the power of Percy is too weak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 14,
-          "text": "To wage an instant trial with the King.",
-          "plainText": "To wage an instant trial with the King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151731/line-3",
+          "start": 27,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1662856,
+        "end": 1662939,
+        "line": 62638,
+        "column": 1,
+        "path": "chap09/p@151731",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "SIR MICHAEL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-004",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818",
       "type": "speech",
-      "speaker": {
-        "id": "sir-michael",
-        "name": "SIR MICHAEL",
-        "displayName": "Sir Michael"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARCHBISHOP.\nLike enough you do.\nTomorrow, good Sir Michael, is a day\nWherein the fortune of ten thousand men\nMust bide the touch; for, sir, at Shrewsbury,\nAs I am truly given to understand,\nThe King with mighty and quick-raised power\nMeets with Lord Harry. And, I fear, Sir Michael,\nWhat with the sickness of Northumberland,\nWhose power was in the first proportion,\nAnd what with Owen Glendower’s absence thence,\nWho with them was a rated sinew too,\nAnd comes not in, o’er-rul’d by prophecies,\nI fear the power of Percy is too weak\nTo wage an instant trial with the King.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Why, my good lord, you need not fear,",
-          "plainText": "Why my good lord you need not fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "There is Douglas and Lord Mortimer.",
-          "plainText": "There is Douglas and Lord Mortimer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-2",
+          "start": 12,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-3",
+          "start": 32,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-4",
+          "start": 69,
+          "end": 108,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-5",
+          "start": 109,
+          "end": 154,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-6",
+          "start": 155,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-7",
+          "start": 190,
+          "end": 233,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-8",
+          "start": 234,
+          "end": 282,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-9",
+          "start": 283,
+          "end": 324,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-10",
+          "start": 325,
+          "end": 365,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-11",
+          "start": 366,
+          "end": 412,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-12",
+          "start": 413,
+          "end": 449,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-13",
+          "start": 450,
+          "end": 493,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-14",
+          "start": 494,
+          "end": 531,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@151818/line-15",
+          "start": 532,
+          "end": 571,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1662943,
+        "end": 1663609,
+        "line": 62644,
+        "column": 1,
+        "path": "chap09/p@151818",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "ARCHBISHOP.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-005",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152488",
       "type": "speech",
-      "speaker": {
-        "id": "archbishop",
-        "name": "ARCHBISHOP",
-        "displayName": "Archbishop"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIR MICHAEL.\nWhy, my good lord, you need not fear,\nThere is Douglas and Lord Mortimer.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "No, Mortimer is not there.",
-          "plainText": "No Mortimer is not there",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152488/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152488/line-2",
+          "start": 13,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152488/line-3",
+          "start": 51,
+          "end": 86,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1663613,
+        "end": 1663734,
+        "line": 62662,
+        "column": 1,
+        "path": "chap09/p@152488",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "SIR MICHAEL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-006",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152613",
       "type": "speech",
-      "speaker": {
-        "id": "sir-michael",
-        "name": "SIR MICHAEL",
-        "displayName": "Sir Michael"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARCHBISHOP.\nNo, Mortimer is not there.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "But there is Mordake, Vernon, Lord Harry Percy,",
-          "plainText": "But there is Mordake Vernon Lord Harry Percy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152613/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "And there is my Lord of Worcester, and a head",
-          "plainText": "And there is my Lord of Worcester and a head",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Of gallant warriors, noble gentlemen.",
-          "plainText": "Of gallant warriors noble gentlemen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152613/line-2",
+          "start": 12,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1663738,
+        "end": 1663806,
+        "line": 62668,
+        "column": 1,
+        "path": "chap09/p@152613",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "ARCHBISHOP.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-007",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152685",
       "type": "speech",
-      "speaker": {
-        "id": "archbishop",
-        "name": "ARCHBISHOP",
-        "displayName": "Archbishop"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIR MICHAEL.\nBut there is Mordake, Vernon, Lord Harry Percy,\nAnd there is my Lord of Worcester, and a head\nOf gallant warriors, noble gentlemen.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "And so there is. But yet the King hath drawn",
-          "plainText": "And so there is But yet the King hath drawn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152685/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 2,
-          "text": "The special head of all the land together:",
-          "plainText": "The special head of all the land together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152685/line-2",
+          "start": 13,
+          "end": 60,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 3,
-          "text": "The Prince of Wales, Lord John of Lancaster,",
-          "plainText": "The Prince of Wales Lord John of Lancaster",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152685/line-3",
+          "start": 61,
+          "end": 106,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 4,
-          "text": "The noble Westmoreland, and warlike Blunt,",
-          "plainText": "The noble Westmoreland and warlike Blunt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 5,
-          "text": "And many more corrivals and dear men",
-          "plainText": "And many more corrivals and dear men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 6,
-          "text": "Of estimation and command in arms.",
-          "plainText": "Of estimation and command in arms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152685/line-4",
+          "start": 107,
+          "end": 144,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1663810,
+        "end": 1663994,
+        "line": 62673,
+        "column": 1,
+        "path": "chap09/p@152685",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "SIR MICHAEL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-008",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873",
       "type": "speech",
-      "speaker": {
-        "id": "sir-michael",
-        "name": "SIR MICHAEL",
-        "displayName": "Sir Michael"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARCHBISHOP.\nAnd so there is. But yet the King hath drawn\nThe special head of all the land together:\nThe Prince of Wales, Lord John of Lancaster,\nThe noble Westmoreland, and warlike Blunt,\nAnd many more corrivals and dear men\nOf estimation and command in arms.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Doubt not, my lord, they shall be well opposed.",
-          "plainText": "Doubt not my lord they shall be well opposed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-2",
+          "start": 12,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-3",
+          "start": 57,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-4",
+          "start": 100,
+          "end": 144,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-5",
+          "start": 145,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-6",
+          "start": 188,
+          "end": 224,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@152873/line-7",
+          "start": 225,
+          "end": 259,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1663998,
+        "end": 1664312,
+        "line": 62680,
+        "column": 1,
+        "path": "chap09/p@152873",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "ARCHBISHOP.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-speech-009",
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153191",
       "type": "speech",
-      "speaker": {
-        "id": "archbishop",
-        "name": "ARCHBISHOP",
-        "displayName": "Archbishop"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIR MICHAEL.\nDoubt not, my lord, they shall be well opposed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "I hope no less, yet needful 'tis to fear;",
-          "plainText": "I hope no less yet needful 'tis to fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153191/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0036",
-          "number": 36,
-          "speechLineNumber": 2,
-          "text": "And to prevent the worst, Sir Michael, speed.",
-          "plainText": "And to prevent the worst Sir Michael speed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0037",
-          "number": 37,
-          "speechLineNumber": 3,
-          "text": "For if Lord Percy thrive not, ere the King",
-          "plainText": "For if Lord Percy thrive not ere the King",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0038",
-          "number": 38,
-          "speechLineNumber": 4,
-          "text": "Dismiss his power he means to visit us,",
-          "plainText": "Dismiss his power he means to visit us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0039",
-          "number": 39,
-          "speechLineNumber": 5,
-          "text": "For he hath heard of our confederacy,",
-          "plainText": "For he hath heard of our confederacy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0040",
-          "number": 40,
-          "speechLineNumber": 6,
-          "text": "And 'tis but wisdom to make strong against him.",
-          "plainText": "And 'tis but wisdom to make strong against him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0041",
-          "number": 41,
-          "speechLineNumber": 7,
-          "text": "Therefore make haste. I must go write again",
-          "plainText": "Therefore make haste I must go write again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-first-part-of-king-henry-the-fourth-4-4-line-0042",
-          "number": 42,
-          "speechLineNumber": 8,
-          "text": "To other friends; and so, farewell, Sir Michael.",
-          "plainText": "To other friends and so farewell Sir Michael",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153191/line-2",
+          "start": 13,
+          "end": 60,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1664316,
+        "end": 1664406,
+        "line": 62690,
+        "column": 1,
+        "path": "chap09/p@153191",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "SIR MICHAEL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "the-first-part-of-king-henry-the-fourth-4-4-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARCHBISHOP.\nI hope no less, yet needful ’tis to fear;\nAnd to prevent the worst, Sir Michael, speed.\nFor if Lord Percy thrive not, ere the King\nDismiss his power he means to visit us,\nFor he hath heard of our confederacy,\nAnd ’tis but wisdom to make strong against him.\nTherefore make haste. I must go write again\nTo other friends; and so, farewell, Sir Michael.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-2",
+          "start": 12,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-3",
+          "start": 54,
+          "end": 99,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-4",
+          "start": 100,
+          "end": 142,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-5",
+          "start": 143,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-6",
+          "start": 183,
+          "end": 220,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-7",
+          "start": 221,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-8",
+          "start": 269,
+          "end": 312,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153285/line-9",
+          "start": 313,
+          "end": 361,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1664410,
+        "end": 1664836,
+        "line": 62695,
+        "column": 1,
+        "path": "chap09/p@153285",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": "ARCHBISHOP.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153715",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-first-part-of-king-henry-the-fourth/sceneIV_9.4/p@153715/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1664840,
+        "end": 1664879,
+        "line": 62707,
+        "column": 1,
+        "path": "chap09/p@153715",
+        "anchor": "sceneIV_9.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "077e475bcd5c51971441e2a3fd683e27887022cdeb68b1f9c745d119753e76f4"
 }

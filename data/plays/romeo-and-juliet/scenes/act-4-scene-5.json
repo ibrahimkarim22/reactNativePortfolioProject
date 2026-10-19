@@ -1,2029 +1,2803 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-4-5",
+    "kind": "scene",
+    "heading": "SCENE V. Juliet’s Chamber; Juliet on the bed.",
     "act": 4,
     "scene": 5,
-    "label": "Act 4, Scene 5",
-    "title": "SCENE V. Juliet's Chamber; Juliet on the bed.",
-    "location": "Juliet's Chamber; Juliet on the bed.",
-    "orderInPlay": 21
+    "parentSectionId": "romeo-and-juliet-act-140241",
+    "orderInPlay": 30,
+    "sourceRef": {
+      "start": 5456471,
+      "end": 5456558,
+      "line": 202777,
+      "column": 1,
+      "path": "chap30/h3@157471",
+      "anchor": "sceneIV_30.5"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-4-5-stage-001",
+      "id": "romeo-and-juliet/sceneIV_30.5/h3@157471",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Juliet’s Chamber; Juliet on the bed.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 45
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/h3@157471/line-1",
+          "start": 0,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5456471,
+        "end": 5456558,
+        "line": 202777,
+        "column": 1,
+        "path": "chap30/h3@157471",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@157562",
       "type": "stage",
-      "text": "Enter Nurse."
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Nurse.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Mistress! What, mistress! Juliet! Fast, I warrant her, she.",
-          "plainText": "Mistress What mistress Juliet Fast I warrant her she",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Why, lamb, why, lady, fie, you slug-abed!",
-          "plainText": "Why lamb why lady fie you slugabed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Why, love, I say! Madam! Sweetheart! Why, bride!",
-          "plainText": "Why love I say Madam Sweetheart Why bride",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "What, not a word? You take your pennyworths now.",
-          "plainText": "What not a word You take your pennyworths now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Sleep for a week; for the next night, I warrant,",
-          "plainText": "Sleep for a week for the next night I warrant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "The County Paris hath set up his rest",
-          "plainText": "The County Paris hath set up his rest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "That you shall rest but little. God forgive me!",
-          "plainText": "That you shall rest but little God forgive me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Marry and amen. How sound is she asleep!",
-          "plainText": "Marry and amen How sound is she asleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "I needs must wake her. Madam, madam, madam!",
-          "plainText": "I needs must wake her Madam madam madam",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Ay, let the County take you in your bed,",
-          "plainText": "Ay let the County take you in your bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "He'll fright you up, i'faith. Will it not be?",
-          "plainText": "He'll fright you up i'faith Will it not be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "What, dress'd, and in your clothes, and down again?",
-          "plainText": "What dress'd and in your clothes and down again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "I must needs wake you. Lady! Lady! Lady!",
-          "plainText": "I must needs wake you Lady Lady Lady",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Alas, alas! Help, help! My lady's dead!",
-          "plainText": "Alas alas Help help My lady's dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "O, well-a-day that ever I was born.",
-          "plainText": "O welladay that ever I was born",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "Some aqua vitae, ho! My lord! My lady!",
-          "plainText": "Some aqua vitae ho My lord My lady",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157562/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5456562,
+        "end": 5456629,
+        "line": 202779,
+        "column": 1,
+        "path": "chap30/p@157562",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-stage-002",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@157633",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nMistress! What, mistress! Juliet! Fast, I warrant her, she.\nWhy, lamb, why, lady, fie, you slug-abed!\nWhy, love, I say! Madam! Sweetheart! Why, bride!\nWhat, not a word? You take your pennyworths now.\nSleep for a week; for the next night, I warrant,\nThe County Paris hath set up his rest\nThat you shall rest but little. God forgive me!\nMarry and amen. How sound is she asleep!\nI needs must wake her. Madam, madam, madam!\nAy, let the County take you in your bed,\nHe’ll fright you up, i’faith. Will it not be?\nWhat, dress’d, and in your clothes, and down again?\nI must needs wake you. Lady! Lady! Lady!\nAlas, alas! Help, help! My lady’s dead!\nO, well-a-day that ever I was born.\nSome aqua vitae, ho! My lord! My lady!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-2",
+          "start": 7,
+          "end": 66,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-3",
+          "start": 67,
+          "end": 108,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-4",
+          "start": 109,
+          "end": 157,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-5",
+          "start": 158,
+          "end": 206,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-6",
+          "start": 207,
+          "end": 255,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-7",
+          "start": 256,
+          "end": 293,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-8",
+          "start": 294,
+          "end": 341,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-9",
+          "start": 342,
+          "end": 382,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-10",
+          "start": 383,
+          "end": 426,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-11",
+          "start": 427,
+          "end": 467,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-12",
+          "start": 468,
+          "end": 513,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-13",
+          "start": 514,
+          "end": 565,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-14",
+          "start": 566,
+          "end": 606,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-15",
+          "start": 607,
+          "end": 646,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-16",
+          "start": 647,
+          "end": 682,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@157633/line-17",
+          "start": 683,
+          "end": 721,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5456633,
+        "end": 5457459,
+        "line": 202781,
+        "column": 1,
+        "path": "chap30/p@157633",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158463",
       "type": "stage",
-      "text": "Enter Lady Capulet."
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lady Capulet.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "romeo-and-juliet-4-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "What noise is here?",
-          "plainText": "What noise is here",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "O lamentable day!",
-          "plainText": "O lamentable day",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158463/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5457463,
+        "end": 5457537,
+        "line": 202801,
+        "column": 1,
+        "path": "chap30/p@158463",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-004",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158541",
       "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nWhat noise is here?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "What is the matter?",
-          "plainText": "What is the matter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Look, look! O heavy day!",
-          "plainText": "Look look O heavy day",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "O me, O me! My child, my only life.",
-          "plainText": "O me O me My child my only life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158541/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 2,
-          "text": "Revive, look up, or I will die with thee.",
-          "plainText": "Revive look up or I will die with thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 3,
-          "text": "Help, help! Call help.",
-          "plainText": "Help help Call help",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158541/line-2",
+          "start": 14,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5457541,
+        "end": 5457604,
+        "line": 202803,
+        "column": 1,
+        "path": "chap30/p@158541",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-stage-003",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158608",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nO lamentable day!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158608/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158608/line-2",
+          "start": 7,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5457608,
+        "end": 5457662,
+        "line": 202808,
+        "column": 1,
+        "path": "chap30/p@158608",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158666",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nWhat is the matter?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158666/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158666/line-2",
+          "start": 14,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5457666,
+        "end": 5457729,
+        "line": 202813,
+        "column": 1,
+        "path": "chap30/p@158666",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158733",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nLook, look! O heavy day!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158733/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158733/line-2",
+          "start": 7,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5457733,
+        "end": 5457794,
+        "line": 202818,
+        "column": 1,
+        "path": "chap30/p@158733",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158798",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nO me, O me! My child, my only life.\nRevive, look up, or I will die with thee.\nHelp, help! Call help.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158798/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158798/line-2",
+          "start": 14,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158798/line-3",
+          "start": 50,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158798/line-4",
+          "start": 92,
+          "end": 114,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5457798,
+        "end": 5457952,
+        "line": 202823,
+        "column": 1,
+        "path": "chap30/p@158798",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@158956",
       "type": "stage",
-      "text": "Enter Capulet."
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Capulet.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "romeo-and-juliet-4-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "For shame, bring Juliet forth, her lord is come.",
-          "plainText": "For shame bring Juliet forth her lord is come",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "She's dead, deceas'd, she's dead; alack the day!",
-          "plainText": "She's dead deceas'd she's dead alack the day",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@158956/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5457956,
+        "end": 5458025,
+        "line": 202830,
+        "column": 1,
+        "path": "chap30/p@158956",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-009",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159029",
       "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nFor shame, bring Juliet forth, her lord is come.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Alack the day, she's dead, she's dead, she's dead!",
-          "plainText": "Alack the day she's dead she's dead she's dead",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Ha! Let me see her. Out alas! She's cold,",
-          "plainText": "Ha Let me see her Out alas She's cold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159029/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 2,
-          "text": "Her blood is settled and her joints are stiff.",
-          "plainText": "Her blood is settled and her joints are stiff",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 3,
-          "text": "Life and these lips have long been separated.",
-          "plainText": "Life and these lips have long been separated",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 4,
-          "text": "Death lies on her like an untimely frost",
-          "plainText": "Death lies on her like an untimely frost",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 5,
-          "text": "Upon the sweetest flower of all the field.",
-          "plainText": "Upon the sweetest flower of all the field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159029/line-2",
+          "start": 9,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5458029,
+        "end": 5458116,
+        "line": 202832,
+        "column": 1,
+        "path": "chap30/p@159029",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-011",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159120",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nShe’s dead, deceas’d, she’s dead; alack the day!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "O lamentable day!",
-          "plainText": "O lamentable day",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "O woful time!",
-          "plainText": "O woful time",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Death, that hath ta'en her hence to make me wail,",
-          "plainText": "Death that hath ta'en her hence to make me wail",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159120/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 2,
-          "text": "Ties up my tongue and will not let me speak.",
-          "plainText": "Ties up my tongue and will not let me speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159120/line-2",
+          "start": 7,
+          "end": 55,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5458120,
+        "end": 5458205,
+        "line": 202837,
+        "column": 1,
+        "path": "chap30/p@159120",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-stage-004",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159209",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nAlack the day, she’s dead, she’s dead, she’s dead!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159209/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159209/line-2",
+          "start": 14,
+          "end": 64,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5458209,
+        "end": 5458303,
+        "line": 202842,
+        "column": 1,
+        "path": "chap30/p@159209",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159307",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nHa! Let me see her. Out alas! She’s cold,\nHer blood is settled and her joints are stiff.\nLife and these lips have long been separated.\nDeath lies on her like an untimely frost\nUpon the sweetest flower of all the field.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-3",
+          "start": 51,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-4",
+          "start": 98,
+          "end": 143,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-5",
+          "start": 144,
+          "end": 184,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159307/line-6",
+          "start": 185,
+          "end": 227,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5458307,
+        "end": 5458584,
+        "line": 202847,
+        "column": 1,
+        "path": "chap30/p@159307",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159588",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nO lamentable day!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159588/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159588/line-2",
+          "start": 7,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5458588,
+        "end": 5458642,
+        "line": 202856,
+        "column": 1,
+        "path": "chap30/p@159588",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159646",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nO woful time!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159646/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159646/line-2",
+          "start": 14,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5458646,
+        "end": 5458703,
+        "line": 202861,
+        "column": 1,
+        "path": "chap30/p@159646",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159707",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nDeath, that hath ta’en her hence to make me wail,\nTies up my tongue and will not let me speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159707/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159707/line-2",
+          "start": 9,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159707/line-3",
+          "start": 59,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5458707,
+        "end": 5458845,
+        "line": 202866,
+        "column": 1,
+        "path": "chap30/p@159707",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159849",
       "type": "stage",
-      "text": "Enter Friar Lawrence and Paris with Musicians."
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Friar Lawrence and Paris with Musicians.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 20,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 25,
+          "end": 30,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Come, is the bride ready to go to church?",
-          "plainText": "Come is the bride ready to go to church",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159849/line-1",
+          "start": 0,
+          "end": 46,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5458849,
+        "end": 5458981,
+        "line": 202872,
+        "column": 1,
+        "path": "chap30/p@159849",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-015",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@159985",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nCome, is the bride ready to go to church?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "Ready to go, but never to return.",
-          "plainText": "Ready to go but never to return",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159985/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "O son, the night before thy wedding day",
-          "plainText": "O son the night before thy wedding day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "Hath death lain with thy bride. There she lies,",
-          "plainText": "Hath death lain with thy bride There she lies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 4,
-          "text": "Flower as she was, deflowered by him.",
-          "plainText": "Flower as she was deflowered by him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 5,
-          "text": "Death is my son-in-law, death is my heir;",
-          "plainText": "Death is my soninlaw death is my heir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 6,
-          "text": "My daughter he hath wedded. I will die",
-          "plainText": "My daughter he hath wedded I will die",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 7,
-          "text": "And leave him all; life, living, all is death's.",
-          "plainText": "And leave him all life living all is death's",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@159985/line-2",
+          "start": 16,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5458985,
+        "end": 5459072,
+        "line": 202875,
+        "column": 1,
+        "path": "chap30/p@159985",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-016",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@160076",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nReady to go, but never to return.\nO son, the night before thy wedding day\nHath death lain with thy bride. There she lies,\nFlower as she was, deflowered by him.\nDeath is my son-in-law, death is my heir;\nMy daughter he hath wedded. I will die\nAnd leave him all; life, living, all is death’s.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Have I thought long to see this morning's face,",
-          "plainText": "Have I thought long to see this morning's face",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "And doth it give me such a sight as this?",
-          "plainText": "And doth it give me such a sight as this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-2",
+          "start": 9,
+          "end": 42,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-3",
+          "start": 43,
+          "end": 82,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-4",
+          "start": 83,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-5",
+          "start": 131,
+          "end": 168,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-6",
+          "start": 169,
+          "end": 210,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-7",
+          "start": 211,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160076/line-8",
+          "start": 250,
+          "end": 298,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5459076,
+        "end": 5459434,
+        "line": 202880,
+        "column": 1,
+        "path": "chap30/p@160076",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-017",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@160438",
       "type": "speech",
-      "speaker": {
-        "id": "lady-capulet",
-        "name": "LADY CAPULET",
-        "displayName": "Lady Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nHave I thought long to see this morning’s face,\nAnd doth it give me such a sight as this?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Accurs'd, unhappy, wretched, hateful day.",
-          "plainText": "Accurs'd unhappy wretched hateful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160438/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Most miserable hour that e'er time saw",
-          "plainText": "Most miserable hour that e'er time saw",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160438/line-2",
+          "start": 7,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 3,
-          "text": "In lasting labour of his pilgrimage.",
-          "plainText": "In lasting labour of his pilgrimage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 4,
-          "text": "But one, poor one, one poor and loving child,",
-          "plainText": "But one poor one one poor and loving child",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 5,
-          "text": "But one thing to rejoice and solace in,",
-          "plainText": "But one thing to rejoice and solace in",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 6,
-          "text": "And cruel death hath catch'd it from my sight.",
-          "plainText": "And cruel death hath catch'd it from my sight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160438/line-3",
+          "start": 55,
+          "end": 96,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5459438,
+        "end": 5459569,
+        "line": 202891,
+        "column": 1,
+        "path": "chap30/p@160438",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-018",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@160573",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY CAPULET.\nAccurs’d, unhappy, wretched, hateful day.\nMost miserable hour that e’er time saw\nIn lasting labour of his pilgrimage.\nBut one, poor one, one poor and loving child,\nBut one thing to rejoice and solace in,\nAnd cruel death hath catch’d it from my sight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "O woe! O woeful, woeful, woeful day.",
-          "plainText": "O woe O woeful woeful woeful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Most lamentable day, most woeful day",
-          "plainText": "Most lamentable day most woeful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-2",
+          "start": 14,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "That ever, ever, I did yet behold!",
-          "plainText": "That ever ever I did yet behold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-3",
+          "start": 56,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0055",
-          "number": 55,
-          "speechLineNumber": 4,
-          "text": "O day, O day, O day, O hateful day.",
-          "plainText": "O day O day O day O hateful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-4",
+          "start": 95,
+          "end": 131,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0056",
-          "number": 56,
-          "speechLineNumber": 5,
-          "text": "Never was seen so black a day as this.",
-          "plainText": "Never was seen so black a day as this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-5",
+          "start": 132,
+          "end": 177,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0057",
-          "number": 57,
-          "speechLineNumber": 6,
-          "text": "O woeful day, O woeful day.",
-          "plainText": "O woeful day O woeful day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-6",
+          "start": 178,
+          "end": 217,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160573/line-7",
+          "start": 218,
+          "end": 264,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5459573,
+        "end": 5459892,
+        "line": 202897,
+        "column": 1,
+        "path": "chap30/p@160573",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "LADY CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-019",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@160896",
       "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nO woe! O woeful, woeful, woeful day.\nMost lamentable day, most woeful day\nThat ever, ever, I did yet behold!\nO day, O day, O day, O hateful day.\nNever was seen so black a day as this.\nO woeful day, O woeful day.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "Beguil'd, divorced, wronged, spited, slain.",
-          "plainText": "Beguil'd divorced wronged spited slain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0059",
-          "number": 59,
-          "speechLineNumber": 2,
-          "text": "Most detestable death, by thee beguil'd,",
-          "plainText": "Most detestable death by thee beguil'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-2",
+          "start": 7,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0060",
-          "number": 60,
-          "speechLineNumber": 3,
-          "text": "By cruel, cruel thee quite overthrown.",
-          "plainText": "By cruel cruel thee quite overthrown",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-3",
+          "start": 44,
+          "end": 80,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0061",
-          "number": 61,
-          "speechLineNumber": 4,
-          "text": "O love! O life! Not life, but love in death!",
-          "plainText": "O love O life Not life but love in death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-4",
+          "start": 81,
+          "end": 115,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-5",
+          "start": 116,
+          "end": 151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-6",
+          "start": 152,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@160896/line-7",
+          "start": 191,
+          "end": 218,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5459896,
+        "end": 5460169,
+        "line": 202907,
+        "column": 1,
+        "path": "chap30/p@160896",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-020",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@161173",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nBeguil’d, divorced, wronged, spited, slain.\nMost detestable death, by thee beguil’d,\nBy cruel, cruel thee quite overthrown.\nO love! O life! Not life, but love in death!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "Despis'd, distressed, hated, martyr'd, kill'd.",
-          "plainText": "Despis'd distressed hated martyr'd kill'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161173/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0063",
-          "number": 63,
-          "speechLineNumber": 2,
-          "text": "Uncomfortable time, why cam'st thou now",
-          "plainText": "Uncomfortable time why cam'st thou now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161173/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0064",
-          "number": 64,
-          "speechLineNumber": 3,
-          "text": "To murder, murder our solemnity?",
-          "plainText": "To murder murder our solemnity",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161173/line-3",
+          "start": 51,
+          "end": 91,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0065",
-          "number": 65,
-          "speechLineNumber": 4,
-          "text": "O child! O child! My soul, and not my child,",
-          "plainText": "O child O child My soul and not my child",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161173/line-4",
+          "start": 92,
+          "end": 130,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0066",
-          "number": 66,
-          "speechLineNumber": 5,
-          "text": "Dead art thou. Alack, my child is dead,",
-          "plainText": "Dead art thou Alack my child is dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0067",
-          "number": 67,
-          "speechLineNumber": 6,
-          "text": "And with my child my joys are buried.",
-          "plainText": "And with my child my joys are buried",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161173/line-5",
+          "start": 131,
+          "end": 175,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5460173,
+        "end": 5460393,
+        "line": 202917,
+        "column": 1,
+        "path": "chap30/p@161173",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-021",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@161397",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nDespis’d, distressed, hated, martyr’d, kill’d.\nUncomfortable time, why cam’st thou now\nTo murder, murder our solemnity?\nO child! O child! My soul, and not my child,\nDead art thou. Alack, my child is dead,\nAnd with my child my joys are buried.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "Peace, ho, for shame. Confusion's cure lives not",
-          "plainText": "Peace ho for shame Confusion's cure lives not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0069",
-          "number": 69,
-          "speechLineNumber": 2,
-          "text": "In these confusions. Heaven and yourself",
-          "plainText": "In these confusions Heaven and yourself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0070",
-          "number": 70,
-          "speechLineNumber": 3,
-          "text": "Had part in this fair maid, now heaven hath all,",
-          "plainText": "Had part in this fair maid now heaven hath all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-3",
+          "start": 56,
+          "end": 95,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0071",
-          "number": 71,
-          "speechLineNumber": 4,
-          "text": "And all the better is it for the maid.",
-          "plainText": "And all the better is it for the maid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-4",
+          "start": 96,
+          "end": 128,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0072",
-          "number": 72,
-          "speechLineNumber": 5,
-          "text": "Your part in her you could not keep from death,",
-          "plainText": "Your part in her you could not keep from death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-5",
+          "start": 129,
+          "end": 173,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0073",
-          "number": 73,
-          "speechLineNumber": 6,
-          "text": "But heaven keeps his part in eternal life.",
-          "plainText": "But heaven keeps his part in eternal life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-6",
+          "start": 174,
+          "end": 213,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0074",
-          "number": 74,
-          "speechLineNumber": 7,
-          "text": "The most you sought was her promotion,",
-          "plainText": "The most you sought was her promotion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0075",
-          "number": 75,
-          "speechLineNumber": 8,
-          "text": "For 'twas your heaven she should be advanc'd,",
-          "plainText": "For 'twas your heaven she should be advanc'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0076",
-          "number": 76,
-          "speechLineNumber": 9,
-          "text": "And weep ye now, seeing she is advanc'd",
-          "plainText": "And weep ye now seeing she is advanc'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0077",
-          "number": 77,
-          "speechLineNumber": 10,
-          "text": "Above the clouds, as high as heaven itself?",
-          "plainText": "Above the clouds as high as heaven itself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0078",
-          "number": 78,
-          "speechLineNumber": 11,
-          "text": "O, in this love, you love your child so ill",
-          "plainText": "O in this love you love your child so ill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0079",
-          "number": 79,
-          "speechLineNumber": 12,
-          "text": "That you run mad, seeing that she is well.",
-          "plainText": "That you run mad seeing that she is well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0080",
-          "number": 80,
-          "speechLineNumber": 13,
-          "text": "She's not well married that lives married long,",
-          "plainText": "She's not well married that lives married long",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0081",
-          "number": 81,
-          "speechLineNumber": 14,
-          "text": "But she's best married that dies married young.",
-          "plainText": "But she's best married that dies married young",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0082",
-          "number": 82,
-          "speechLineNumber": 15,
-          "text": "Dry up your tears, and stick your rosemary",
-          "plainText": "Dry up your tears and stick your rosemary",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0083",
-          "number": 83,
-          "speechLineNumber": 16,
-          "text": "On this fair corse, and, as the custom is,",
-          "plainText": "On this fair corse and as the custom is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0084",
-          "number": 84,
-          "speechLineNumber": 17,
-          "text": "And in her best array bear her to church;",
-          "plainText": "And in her best array bear her to church",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0085",
-          "number": 85,
-          "speechLineNumber": 18,
-          "text": "For though fond nature bids us all lament,",
-          "plainText": "For though fond nature bids us all lament",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-4-5-line-0086",
-          "number": 86,
-          "speechLineNumber": 19,
-          "text": "Yet nature's tears are reason's merriment.",
-          "plainText": "Yet nature's tears are reason's merriment",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161397/line-7",
+          "start": 214,
+          "end": 251,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5460397,
+        "end": 5460703,
+        "line": 202925,
+        "column": 1,
+        "path": "chap30/p@161397",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-022",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@161707",
       "type": "speech",
-      "speaker": {
-        "id": "capulet",
-        "name": "CAPULET",
-        "displayName": "Capulet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nPeace, ho, for shame. Confusion’s cure lives not\nIn these confusions. Heaven and yourself\nHad part in this fair maid, now heaven hath all,\nAnd all the better is it for the maid.\nYour part in her you could not keep from death,\nBut heaven keeps his part in eternal life.\nThe most you sought was her promotion,\nFor ’twas your heaven she should be advanc’d,\nAnd weep ye now, seeing she is advanc’d\nAbove the clouds, as high as heaven itself?\nO, in this love, you love your child so ill\nThat you run mad, seeing that she is well.\nShe’s not well married that lives married long,\nBut she’s best married that dies married young.\nDry up your tears, and stick your rosemary\nOn this fair corse, and, as the custom is,\nAnd in her best array bear her to church;\nFor though fond nature bids us all lament,\nYet nature’s tears are reason’s merriment.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "All things that we ordained festival",
-          "plainText": "All things that we ordained festival",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0088",
-          "number": 88,
-          "speechLineNumber": 2,
-          "text": "Turn from their office to black funeral:",
-          "plainText": "Turn from their office to black funeral",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-2",
+          "start": 16,
+          "end": 64,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0089",
-          "number": 89,
-          "speechLineNumber": 3,
-          "text": "Our instruments to melancholy bells,",
-          "plainText": "Our instruments to melancholy bells",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-3",
+          "start": 65,
+          "end": 105,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0090",
-          "number": 90,
-          "speechLineNumber": 4,
-          "text": "Our wedding cheer to a sad burial feast;",
-          "plainText": "Our wedding cheer to a sad burial feast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-4",
+          "start": 106,
+          "end": 154,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0091",
-          "number": 91,
-          "speechLineNumber": 5,
-          "text": "Our solemn hymns to sullen dirges change;",
-          "plainText": "Our solemn hymns to sullen dirges change",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-5",
+          "start": 155,
+          "end": 193,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0092",
-          "number": 92,
-          "speechLineNumber": 6,
-          "text": "Our bridal flowers serve for a buried corse,",
-          "plainText": "Our bridal flowers serve for a buried corse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-6",
+          "start": 194,
+          "end": 241,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0093",
-          "number": 93,
-          "speechLineNumber": 7,
-          "text": "And all things change them to the contrary.",
-          "plainText": "And all things change them to the contrary",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-7",
+          "start": 242,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-8",
+          "start": 285,
+          "end": 323,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-9",
+          "start": 324,
+          "end": 369,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-10",
+          "start": 370,
+          "end": 409,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-11",
+          "start": 410,
+          "end": 453,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-12",
+          "start": 454,
+          "end": 497,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-13",
+          "start": 498,
+          "end": 540,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-14",
+          "start": 541,
+          "end": 588,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-15",
+          "start": 589,
+          "end": 636,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-16",
+          "start": 637,
+          "end": 679,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-17",
+          "start": 680,
+          "end": 722,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-18",
+          "start": 723,
+          "end": 764,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-19",
+          "start": 765,
+          "end": 807,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@161707/line-20",
+          "start": 808,
+          "end": 850,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5460707,
+        "end": 5461677,
+        "line": 202935,
+        "column": 1,
+        "path": "chap30/p@161707",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-023",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@162681",
       "type": "speech",
-      "speaker": {
-        "id": "friar-lawrence",
-        "name": "FRIAR LAWRENCE",
-        "displayName": "Friar Lawrence"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPULET.\nAll things that we ordained festival\nTurn from their office to black funeral:\nOur instruments to melancholy bells,\nOur wedding cheer to a sad burial feast;\nOur solemn hymns to sullen dirges change;\nOur bridal flowers serve for a buried corse,\nAnd all things change them to the contrary.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0094",
-          "number": 94,
-          "speechLineNumber": 1,
-          "text": "Sir, go you in, and, madam, go with him,",
-          "plainText": "Sir go you in and madam go with him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0095",
-          "number": 95,
-          "speechLineNumber": 2,
-          "text": "And go, Sir Paris, everyone prepare",
-          "plainText": "And go Sir Paris everyone prepare",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-2",
+          "start": 9,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0096",
-          "number": 96,
-          "speechLineNumber": 3,
-          "text": "To follow this fair corse unto her grave.",
-          "plainText": "To follow this fair corse unto her grave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-3",
+          "start": 46,
+          "end": 86,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0097",
-          "number": 97,
-          "speechLineNumber": 4,
-          "text": "The heavens do lower upon you for some ill;",
-          "plainText": "The heavens do lower upon you for some ill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-4",
+          "start": 87,
+          "end": 123,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0098",
-          "number": 98,
-          "speechLineNumber": 5,
-          "text": "Move them no more by crossing their high will.",
-          "plainText": "Move them no more by crossing their high will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-5",
+          "start": 124,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-6",
+          "start": 165,
+          "end": 206,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-7",
+          "start": 207,
+          "end": 251,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@162681/line-8",
+          "start": 252,
+          "end": 295,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5461681,
+        "end": 5462036,
+        "line": 202958,
+        "column": 1,
+        "path": "chap30/p@162681",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "CAPULET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-stage-005",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163040",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR LAWRENCE.\nSir, go you in, and, madam, go with him,\nAnd go, Sir Paris, everyone prepare\nTo follow this fair corse unto her grave.\nThe heavens do lower upon you for some ill;\nMove them no more by crossing their high will.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-2",
+          "start": 16,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-3",
+          "start": 57,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-4",
+          "start": 93,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-5",
+          "start": 135,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163040/line-6",
+          "start": 179,
+          "end": 225,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462040,
+        "end": 5462315,
+        "line": 202969,
+        "column": 1,
+        "path": "chap30/p@163040",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FRIAR LAWRENCE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163319",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Capulet, Lady Capulet, Paris and Friar.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 36,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 41,
+          "end": 46,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 47
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163319/line-1",
+          "start": 0,
+          "end": 48,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462319,
+        "end": 5462456,
+        "line": 202978,
+        "column": 1,
+        "path": "chap30/p@163319",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163460",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nFaith, we may put up our pipes and be gone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163460/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163460/line-2",
+          "start": 16,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462460,
+        "end": 5462547,
+        "line": 202981,
+        "column": 1,
+        "path": "chap30/p@163460",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163551",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nHonest good fellows, ah, put up, put up,\nFor well you know this is a pitiful case.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163551/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163551/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163551/line-3",
+          "start": 48,
+          "end": 89,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462551,
+        "end": 5462675,
+        "line": 202985,
+        "column": 1,
+        "path": "chap30/p@163551",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163679",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nAy, by my troth, the case may be amended.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163679/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163679/line-2",
+          "start": 16,
+          "end": 57,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462679,
+        "end": 5462764,
+        "line": 202991,
+        "column": 1,
+        "path": "chap30/p@163679",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163768",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Nurse.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163768/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462768,
+        "end": 5462839,
+        "line": 202995,
+        "column": 1,
+        "path": "chap30/p@163768",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163843",
       "type": "stage",
-      "text": "[Exeunt Capulet, Lady Capulet, Paris and Friar.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Peter.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "romeo-and-juliet-4-5-line-0099",
-          "number": 99,
-          "speechLineNumber": 1,
-          "text": "Faith, we may put up our pipes and be gone.",
-          "plainText": "Faith we may put up our pipes and be gone",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0100",
-          "number": 100,
-          "speechLineNumber": 1,
-          "text": "Honest good fellows, ah, put up, put up,",
-          "plainText": "Honest good fellows ah put up put up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163843/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5462843,
+        "end": 5462910,
+        "line": 202997,
+        "column": 1,
+        "path": "chap30/p@163843",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@163916",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nMusicians, O, musicians, ‘Heart’s ease,’ ‘Heart’s ease’, O, and you will have me live, play ‘Heart’s ease.’",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163916/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0101",
-          "number": 101,
-          "speechLineNumber": 2,
-          "text": "For well you know this is a pitiful case.",
-          "plainText": "For well you know this is a pitiful case",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@163916/line-2",
+          "start": 7,
+          "end": 114,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5462916,
+        "end": 5463062,
+        "line": 203000,
+        "column": 1,
+        "path": "chap30/p@163916",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-026",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164066",
       "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nWhy ‘Heart’s ease’?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0102",
-          "number": 102,
-          "speechLineNumber": 1,
-          "text": "Ay, by my troth, the case may be amended.",
-          "plainText": "Ay by my troth the case may be amended",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-stage-006",
-      "type": "stage",
-      "text": "[Exit Nurse.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-5-stage-007",
-      "type": "stage",
-      "text": "Enter Peter."
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0103",
-          "number": 103,
-          "speechLineNumber": 1,
-          "text": "Musicians, O, musicians, 'Heart's ease,' 'Heart's ease', O, and you will have me live, play 'Heart's ease.'",
-          "plainText": "Musicians O musicians 'Heart's ease' 'Heart's ease' O and you will have me live play 'Heart's ease'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0104",
-          "number": 104,
-          "speechLineNumber": 1,
-          "text": "Why 'Heart's ease'?",
-          "plainText": "Why 'Heart's ease'",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0105",
-          "number": 105,
-          "speechLineNumber": 1,
-          "text": "O musicians, because my heart itself plays 'My heart is full'. O play me some merry dump to comfort me.",
-          "plainText": "O musicians because my heart itself plays 'My heart is full' O play me some merry dump to comfort me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0106",
-          "number": 106,
-          "speechLineNumber": 1,
-          "text": "Not a dump we, 'tis no time to play now.",
-          "plainText": "Not a dump we 'tis no time to play now",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0107",
-          "number": 107,
-          "speechLineNumber": 1,
-          "text": "You will not then?",
-          "plainText": "You will not then",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-032",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0108",
-          "number": 108,
-          "speechLineNumber": 1,
-          "text": "No.",
-          "plainText": "No",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-033",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0109",
-          "number": 109,
-          "speechLineNumber": 1,
-          "text": "I will then give it you soundly.",
-          "plainText": "I will then give it you soundly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-034",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0110",
-          "number": 110,
-          "speechLineNumber": 1,
-          "text": "What will you give us?",
-          "plainText": "What will you give us",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-035",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0111",
-          "number": 111,
-          "speechLineNumber": 1,
-          "text": "No money, on my faith, but the gleek! I will give you the minstrel.",
-          "plainText": "No money on my faith but the gleek I will give you the minstrel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-036",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0112",
-          "number": 112,
-          "speechLineNumber": 1,
-          "text": "Then will I give you the serving-creature.",
-          "plainText": "Then will I give you the servingcreature",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-037",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0113",
-          "number": 113,
-          "speechLineNumber": 1,
-          "text": "Then will I lay the serving-creature's dagger on your pate. I will carry no crotchets. I'll re you, I'll fa you. Do you note me?",
-          "plainText": "Then will I lay the servingcreature's dagger on your pate I will carry no crotchets I'll re you I'll fa you Do you note me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-038",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0114",
-          "number": 114,
-          "speechLineNumber": 1,
-          "text": "And you re us and fa us, you note us.",
-          "plainText": "And you re us and fa us you note us",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-039",
-      "type": "speech",
-      "speaker": {
-        "id": "second-musician",
-        "name": "SECOND MUSICIAN",
-        "displayName": "Second Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0115",
-          "number": 115,
-          "speechLineNumber": 1,
-          "text": "Pray you put up your dagger, and put out your wit.",
-          "plainText": "Pray you put up your dagger and put out your wit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-040",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0116",
-          "number": 116,
-          "speechLineNumber": 1,
-          "text": "Then have at you with my wit. I will dry-beat you with an iron wit, and put up my iron dagger. Answer me like men.",
-          "plainText": "Then have at you with my wit I will drybeat you with an iron wit and put up my iron dagger Answer me like men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164066/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0117",
-          "number": 117,
-          "speechLineNumber": 2,
-          "text": "'When griping griefs the heart doth wound,",
-          "plainText": "'When griping griefs the heart doth wound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164066/line-2",
+          "start": 16,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463066,
+        "end": 5463131,
+        "line": 203007,
+        "column": 1,
+        "path": "chap30/p@164066",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164135",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nO musicians, because my heart itself plays ‘My heart is full’. O play me some merry dump to comfort me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164135/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0118",
-          "number": 118,
-          "speechLineNumber": 3,
-          "text": "And doleful dumps the mind oppress,",
-          "plainText": "And doleful dumps the mind oppress",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164135/line-2",
+          "start": 7,
+          "end": 110,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463135,
+        "end": 5463276,
+        "line": 203012,
+        "column": 1,
+        "path": "chap30/p@164135",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164280",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nNot a dump we, ’tis no time to play now.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164280/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0119",
-          "number": 119,
-          "speechLineNumber": 4,
-          "text": "Then music with her silver sound'—",
-          "plainText": "Then music with her silver sound'",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164280/line-2",
+          "start": 16,
+          "end": 56,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463280,
+        "end": 5463366,
+        "line": 203018,
+        "column": 1,
+        "path": "chap30/p@164280",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164370",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nYou will not then?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164370/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0120",
-          "number": 120,
-          "speechLineNumber": 5,
-          "text": "Why 'silver sound'? Why 'music with her silver sound'? What say you, Simon Catling?",
-          "plainText": "Why 'silver sound' Why 'music with her silver sound' What say you Simon Catling",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164370/line-2",
+          "start": 7,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5463370,
+        "end": 5463425,
+        "line": 203023,
+        "column": 1,
+        "path": "chap30/p@164370",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-041",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164429",
       "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nNo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0121",
-          "number": 121,
-          "speechLineNumber": 1,
-          "text": "Marry, sir, because silver hath a sweet sound.",
-          "plainText": "Marry sir because silver hath a sweet sound",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-042",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0122",
-          "number": 122,
-          "speechLineNumber": 1,
-          "text": "Prates. What say you, Hugh Rebeck?",
-          "plainText": "Prates What say you Hugh Rebeck",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-043",
-      "type": "speech",
-      "speaker": {
-        "id": "second-musician",
-        "name": "SECOND MUSICIAN",
-        "displayName": "Second Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0123",
-          "number": 123,
-          "speechLineNumber": 1,
-          "text": "I say 'silver sound' because musicians sound for silver.",
-          "plainText": "I say 'silver sound' because musicians sound for silver",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-044",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0124",
-          "number": 124,
-          "speechLineNumber": 1,
-          "text": "Prates too! What say you, James Soundpost?",
-          "plainText": "Prates too What say you James Soundpost",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-045",
-      "type": "speech",
-      "speaker": {
-        "id": "third-musician",
-        "name": "THIRD MUSICIAN",
-        "displayName": "Third Musician"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0125",
-          "number": 125,
-          "speechLineNumber": 1,
-          "text": "Faith, I know not what to say.",
-          "plainText": "Faith I know not what to say",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-046",
-      "type": "speech",
-      "speaker": {
-        "id": "peter",
-        "name": "PETER",
-        "displayName": "Peter"
-      },
-      "lines": [
-        {
-          "id": "romeo-and-juliet-4-5-line-0126",
-          "number": 126,
-          "speechLineNumber": 1,
-          "text": "O, I cry you mercy, you are the singer. I will say for you. It is 'music with her silver sound' because musicians have no gold for sounding.",
-          "plainText": "O I cry you mercy you are the singer I will say for you It is 'music with her silver sound' because musicians have no gold for sounding",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164429/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0127",
-          "number": 127,
-          "speechLineNumber": 2,
-          "text": "'Then music with her silver sound",
-          "plainText": "'Then music with her silver sound",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164429/line-2",
+          "start": 16,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463429,
+        "end": 5463476,
+        "line": 203028,
+        "column": 1,
+        "path": "chap30/p@164429",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164480",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nI will then give it you soundly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164480/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-4-5-line-0128",
-          "number": 128,
-          "speechLineNumber": 3,
-          "text": "With speedy help doth lend redress.'",
-          "plainText": "With speedy help doth lend redress'",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164480/line-2",
+          "start": 7,
+          "end": 39,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-4-5-stage-008",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "romeo-and-juliet-4-5-speech-047",
-      "type": "speech",
-      "speaker": {
-        "id": "first-musician",
-        "name": "FIRST MUSICIAN",
-        "displayName": "First Musician"
+      ],
+      "sourceRef": {
+        "start": 5463480,
+        "end": 5463549,
+        "line": 203032,
+        "column": 1,
+        "path": "chap30/p@164480",
+        "anchor": "sceneIV_30.5"
       },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164553",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nWhat will you give us?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0129",
-          "number": 129,
-          "speechLineNumber": 1,
-          "text": "What a pestilent knave is this same!",
-          "plainText": "What a pestilent knave is this same",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164553/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164553/line-2",
+          "start": 16,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5463553,
+        "end": 5463621,
+        "line": 203037,
+        "column": 1,
+        "path": "chap30/p@164553",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-speech-048",
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164625",
       "type": "speech",
-      "speaker": {
-        "id": "second-musician",
-        "name": "SECOND MUSICIAN",
-        "displayName": "Second Musician"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nNo money, on my faith, but the gleek! I will give you the minstrel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-4-5-line-0130",
-          "number": 130,
-          "speechLineNumber": 1,
-          "text": "Hang him, Jack. Come, we'll in here, tarry for the mourners, and stay dinner.",
-          "plainText": "Hang him Jack Come we'll in here tarry for the mourners and stay dinner",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164625/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164625/line-2",
+          "start": 7,
+          "end": 74,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5463625,
+        "end": 5463730,
+        "line": 203042,
+        "column": 1,
+        "path": "chap30/p@164625",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-4-5-stage-009",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164734",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nThen will I give you the serving-creature.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164734/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164734/line-2",
+          "start": 16,
+          "end": 58,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463734,
+        "end": 5463822,
+        "line": 203048,
+        "column": 1,
+        "path": "chap30/p@164734",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164826",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nThen will I lay the serving-creature’s dagger on your pate. I will carry no crotchets. I’ll re you, I’ll fa you. Do you note me?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164826/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164826/line-2",
+          "start": 7,
+          "end": 135,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463826,
+        "end": 5463992,
+        "line": 203053,
+        "column": 1,
+        "path": "chap30/p@164826",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@164996",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nAnd you re us and fa us, you note us.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164996/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@164996/line-2",
+          "start": 16,
+          "end": 53,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5463996,
+        "end": 5464079,
+        "line": 203059,
+        "column": 1,
+        "path": "chap30/p@164996",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165083",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND MUSICIAN.\nPray you put up your dagger, and put out your wit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165083/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165083/line-2",
+          "start": 17,
+          "end": 67,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464083,
+        "end": 5464180,
+        "line": 203064,
+        "column": 1,
+        "path": "chap30/p@165083",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "SECOND MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 16
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165184",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nThen have at you with my wit. I will dry-beat you with an iron wit, and put up my iron dagger. Answer me like men.\n    ‘When griping griefs the heart doth wound,\n      And doleful dumps the mind oppress,\n    Then music with her silver sound’—\nWhy ‘silver sound’? Why ‘music with her silver sound’? What say you, Simon Catling?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-2",
+          "start": 7,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-3",
+          "start": 122,
+          "end": 168,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-4",
+          "start": 169,
+          "end": 210,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-5",
+          "start": 211,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165184/line-6",
+          "start": 250,
+          "end": 333,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464184,
+        "end": 5464569,
+        "line": 203069,
+        "column": 1,
+        "path": "chap30/p@165184",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165573",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nMarry, sir, because silver hath a sweet sound.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165573/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165573/line-2",
+          "start": 16,
+          "end": 62,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464573,
+        "end": 5464665,
+        "line": 203080,
+        "column": 1,
+        "path": "chap30/p@165573",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165669",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nPrates. What say you, Hugh Rebeck?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165669/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165669/line-2",
+          "start": 7,
+          "end": 41,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464669,
+        "end": 5464740,
+        "line": 203085,
+        "column": 1,
+        "path": "chap30/p@165669",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165744",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND MUSICIAN.\nI say ‘silver sound’ because musicians sound for silver.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165744/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165744/line-2",
+          "start": 17,
+          "end": 73,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464744,
+        "end": 5464847,
+        "line": 203090,
+        "column": 1,
+        "path": "chap30/p@165744",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "SECOND MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 16
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165851",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nPrates too! What say you, James Soundpost?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165851/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165851/line-2",
+          "start": 7,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464851,
+        "end": 5464930,
+        "line": 203095,
+        "column": 1,
+        "path": "chap30/p@165851",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@165934",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD MUSICIAN.\nFaith, I know not what to say.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165934/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@165934/line-2",
+          "start": 16,
+          "end": 46,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5464934,
+        "end": 5465010,
+        "line": 203100,
+        "column": 1,
+        "path": "chap30/p@165934",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "THIRD MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@166014",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PETER.\nO, I cry you mercy, you are the singer. I will say for you. It is ‘music with her silver sound’ because musicians have no gold for sounding.\n      ‘Then music with her silver sound\n      With speedy help doth lend redress.’",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166014/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166014/line-2",
+          "start": 7,
+          "end": 147,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166014/line-3",
+          "start": 148,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166014/line-4",
+          "start": 188,
+          "end": 230,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5465014,
+        "end": 5465285,
+        "line": 203105,
+        "column": 1,
+        "path": "chap30/p@166014",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@166289",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166289/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5465289,
+        "end": 5465324,
+        "line": 203113,
+        "column": 1,
+        "path": "chap30/p@166289",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@166328",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST MUSICIAN.\nWhat a pestilent knave is this same!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166328/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166328/line-2",
+          "start": 16,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5465328,
+        "end": 5465410,
+        "line": 203115,
+        "column": 1,
+        "path": "chap30/p@166328",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "FIRST MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 15
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@166414",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND MUSICIAN.\nHang him, Jack. Come, we’ll in here, tarry for the mourners, and stay dinner.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166414/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166414/line-2",
+          "start": 17,
+          "end": 94,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5465414,
+        "end": 5465539,
+        "line": 203120,
+        "column": 1,
+        "path": "chap30/p@166414",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": "SECOND MUSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 16
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneIV_30.5/p@166543",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneIV_30.5/p@166543/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5465543,
+        "end": 5465580,
+        "line": 203126,
+        "column": 1,
+        "path": "chap30/p@166543",
+        "anchor": "sceneIV_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

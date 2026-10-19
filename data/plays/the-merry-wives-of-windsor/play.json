@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "the-merry-wives-of-windsor",
-  "title": "The Merry Wives of Windsor",
-  "fullTitle": "The Merry Wives of Windsor",
+  "title": "THE MERRY WIVES OF WINDSOR",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "THE MERRY WIVES OF WINDSOR",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap23"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,33 +33,33 @@
           "scene": 1,
           "id": "the-merry-wives-of-windsor-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Windsor. Before Page's house",
+          "title": "SCENE I. Windsor. Before Page’s house",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 140
+          "lineCount": 296
         },
         {
           "scene": 2,
           "id": "the-merry-wives-of-windsor-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The same",
+          "title": "SCENE II. The same",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 3
+          "lineCount": 9
         },
         {
           "scene": 3,
           "id": "the-merry-wives-of-windsor-1-3",
           "label": "Act 1, Scene 3",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE III. A room in the Garter Inn",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 58
+          "lineCount": 109
         },
         {
           "scene": 4,
           "id": "the-merry-wives-of-windsor-1-4",
           "label": "Act 1, Scene 4",
-          "title": "A room in Doctor Caius's house",
+          "title": "SCENE IV. A room in Doctor Caius’s house",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 63
+          "lineCount": 145
         }
       ]
     },
@@ -62,25 +70,25 @@
           "scene": 1,
           "id": "the-merry-wives-of-windsor-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Before Page's house",
+          "title": "SCENE I. Before Page’s house",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 92
+          "lineCount": 182
         },
         {
           "scene": 2,
           "id": "the-merry-wives-of-windsor-2-2",
           "label": "Act 2, Scene 2",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE II. A room in the Garter Inn",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 88
+          "lineCount": 184
         },
         {
           "scene": 3,
           "id": "the-merry-wives-of-windsor-2-3",
           "label": "Act 2, Scene 3",
-          "title": "A field near Windsor",
+          "title": "SCENE III. A field near Windsor",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 45
+          "lineCount": 97
         }
       ]
     },
@@ -91,41 +99,41 @@
           "scene": 1,
           "id": "the-merry-wives-of-windsor-3-1",
           "label": "Act 3, Scene 1",
-          "title": "A field near Frogmore",
+          "title": "SCENE I. A field near Frogmore",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 47
+          "lineCount": 118
         },
         {
           "scene": 2,
           "id": "the-merry-wives-of-windsor-3-2",
           "label": "Act 3, Scene 2",
-          "title": "A street in Windsor",
+          "title": "SCENE II. A street in Windsor",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 30
+          "lineCount": 71
         },
         {
           "scene": 3,
           "id": "the-merry-wives-of-windsor-3-3",
           "label": "Act 3, Scene 3",
-          "title": "A room in Ford's house",
+          "title": "SCENE III. A room in Ford’s house",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 92
+          "lineCount": 211
         },
         {
           "scene": 4,
           "id": "the-merry-wives-of-windsor-3-4",
           "label": "Act 3, Scene 4",
-          "title": "A room in Page's house",
+          "title": "SCENE IV. A room in Page’s house",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 81
+          "lineCount": 137
         },
         {
           "scene": 5,
           "id": "the-merry-wives-of-windsor-3-5",
           "label": "Act 3, Scene 5",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE V. A room in the Garter Inn",
           "path": "./scenes/act-3-scene-5.json",
-          "lineCount": 43
+          "lineCount": 99
         }
       ]
     },
@@ -136,49 +144,49 @@
           "scene": 1,
           "id": "the-merry-wives-of-windsor-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The street",
+          "title": "SCENE I. The street",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 47
+          "lineCount": 101
         },
         {
           "scene": 2,
           "id": "the-merry-wives-of-windsor-4-2",
           "label": "Act 4, Scene 2",
-          "title": "A room in Ford's house",
+          "title": "SCENE II. A room in Ford’s house",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 94
+          "lineCount": 202
         },
         {
           "scene": 3,
           "id": "the-merry-wives-of-windsor-4-3",
           "label": "Act 4, Scene 3",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE III. A room in the Garter Inn",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 4
+          "lineCount": 11
         },
         {
           "scene": 4,
           "id": "the-merry-wives-of-windsor-4-4",
           "label": "Act 4, Scene 4",
-          "title": "A room in Ford's house",
+          "title": "SCENE IV. A room in Ford’s house",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 78
+          "lineCount": 116
         },
         {
           "scene": 5,
           "id": "the-merry-wives-of-windsor-4-5",
           "label": "Act 4, Scene 5",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE V. A room in the Garter Inn",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 46
+          "lineCount": 105
         },
         {
           "scene": 6,
           "id": "the-merry-wives-of-windsor-4-6",
           "label": "Act 4, Scene 6",
-          "title": "Another room in the Garter Inn",
+          "title": "SCENE VI. Another room in the Garter Inn",
           "path": "./scenes/act-4-scene-6.json",
-          "lineCount": 52
+          "lineCount": 63
         }
       ]
     },
@@ -189,43 +197,366 @@
           "scene": 1,
           "id": "the-merry-wives-of-windsor-5-1",
           "label": "Act 5, Scene 1",
-          "title": "A room in the Garter Inn",
+          "title": "SCENE I. A room in the Garter Inn",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 5
+          "lineCount": 16
         },
         {
           "scene": 2,
           "id": "the-merry-wives-of-windsor-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Windsor Park",
+          "title": "SCENE II. Windsor Park",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 4
+          "lineCount": 11
         },
         {
           "scene": 3,
           "id": "the-merry-wives-of-windsor-5-3",
           "label": "Act 5, Scene 3",
-          "title": "The street in Windsor",
+          "title": "SCENE III. The street in Windsor",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 11
+          "lineCount": 26
         },
         {
           "scene": 4,
           "id": "the-merry-wives-of-windsor-5-4",
           "label": "Act 5, Scene 4",
-          "title": "Windsor Park",
+          "title": "SCENE IV. Windsor Park",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 1
+          "lineCount": 5
         },
         {
           "scene": 5,
           "id": "the-merry-wives-of-windsor-5-5",
           "label": "Act 5, Scene 5",
-          "title": "Another part of the Park",
+          "title": "SCENE V. Another part of the Park",
           "path": "./scenes/act-5-scene-5.json",
-          "lineCount": 148
+          "lineCount": 242
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "the-merry-wives-of-windsor-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE MERRY WIVES OF WINDSOR"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-contents-119",
+      "kind": "contents",
+      "path": "./sections/contents-119.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-cast-2785",
+      "kind": "cast",
+      "path": "./sections/cast-2785.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-setting-3784",
+      "kind": "setting",
+      "path": "./sections/setting-3784.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Windsor and the neighbourhood"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-act-3894",
+      "kind": "act",
+      "path": "./sections/act-3894.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "the-merry-wives-of-windsor-act-3894",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Windsor. Before Page’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "the-merry-wives-of-windsor-act-3894",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The same"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "the-merry-wives-of-windsor-act-3894",
+      "orderInPlay": 8,
+      "heading": "SCENE III. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "the-merry-wives-of-windsor-act-3894",
+      "orderInPlay": 9,
+      "heading": "SCENE IV. A room in Doctor Caius’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-act-41040",
+      "kind": "act",
+      "path": "./sections/act-41040.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 10,
+      "heading": "ACT II"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "the-merry-wives-of-windsor-act-41040",
+      "orderInPlay": 11,
+      "heading": "SCENE I. Before Page’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "the-merry-wives-of-windsor-act-41040",
+      "orderInPlay": 12,
+      "heading": "SCENE II. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "the-merry-wives-of-windsor-act-41040",
+      "orderInPlay": 13,
+      "heading": "SCENE III. A field near Windsor"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-act-79173",
+      "kind": "act",
+      "path": "./sections/act-79173.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT III"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "the-merry-wives-of-windsor-act-79173",
+      "orderInPlay": 15,
+      "heading": "SCENE I. A field near Frogmore"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "the-merry-wives-of-windsor-act-79173",
+      "orderInPlay": 16,
+      "heading": "SCENE II. A street in Windsor"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "the-merry-wives-of-windsor-act-79173",
+      "orderInPlay": 17,
+      "heading": "SCENE III. A room in Ford’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "the-merry-wives-of-windsor-act-79173",
+      "orderInPlay": 18,
+      "heading": "SCENE IV. A room in Page’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-3-5",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-5.json",
+      "act": 3,
+      "scene": 5,
+      "parentSectionId": "the-merry-wives-of-windsor-act-79173",
+      "orderInPlay": 19,
+      "heading": "SCENE V. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-act-124397",
+      "kind": "act",
+      "path": "./sections/act-124397.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 20,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 21,
+      "heading": "SCENE I. The street"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 22,
+      "heading": "SCENE II. A room in Ford’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 23,
+      "heading": "SCENE III. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 24,
+      "heading": "SCENE IV. A room in Ford’s house"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 25,
+      "heading": "SCENE V. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-4-6",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-6.json",
+      "act": 4,
+      "scene": 6,
+      "parentSectionId": "the-merry-wives-of-windsor-act-124397",
+      "orderInPlay": 26,
+      "heading": "SCENE VI. Another room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-act-161535",
+      "kind": "act",
+      "path": "./sections/act-161535.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 27,
+      "heading": "ACT V"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+      "orderInPlay": 28,
+      "heading": "SCENE I. A room in the Garter Inn"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+      "orderInPlay": 29,
+      "heading": "SCENE II. Windsor Park"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+      "orderInPlay": 30,
+      "heading": "SCENE III. The street in Windsor"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+      "orderInPlay": 31,
+      "heading": "SCENE IV. Windsor Park"
+    },
+    {
+      "id": "the-merry-wives-of-windsor-5-5",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-5.json",
+      "act": 5,
+      "scene": 5,
+      "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+      "orderInPlay": 32,
+      "heading": "SCENE V. Another part of the Park"
+    }
+  ],
+  "contentVersion": "85178433e30dcec1e20531f5171e8e8886a0ec5664cec3e5aa85e1f68f9b8b16"
 }

@@ -1,685 +1,674 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-3-6",
+    "kind": "scene",
+    "heading": "SCENE VI. Forres. A Room in the Palace.",
     "act": 3,
     "scene": 6,
-    "label": "Act 3, Scene 6",
-    "title": "SCENE VI. Forres. A Room in the Palace.",
-    "location": "Forres. A Room in the Palace.",
-    "orderInPlay": 17
+    "parentSectionId": "macbeth-act-59279",
+    "orderInPlay": 24,
+    "sourceRef": {
+      "start": 3650780,
+      "end": 3650863,
+      "line": 134535,
+      "column": 1,
+      "path": "chap20/h3@86588",
+      "anchor": "sceneIII_20.6"
+    }
   },
   "content": [
     {
-      "id": "macbeth-3-6-stage-001",
+      "id": "macbeth/sceneIII_20.6/h3@86588",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VI. Forres. A Room in the Palace.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.6/h3@86588/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3650780,
+        "end": 3650863,
+        "line": 134535,
+        "column": 1,
+        "path": "chap20/h3@86588",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.6/p@86675",
       "type": "stage",
-      "text": "Enter Lennox and another Lord."
-    },
-    {
-      "id": "macbeth-3-6-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "lennox",
-        "name": "LENNOX",
-        "displayName": "Lennox"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Lennox and another Lord.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 25,
+          "end": 29,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "My former speeches have but hit your thoughts,",
-          "plainText": "My former speeches have but hit your thoughts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Which can interpret farther: only, I say,",
-          "plainText": "Which can interpret farther only I say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Thing's have been strangely borne. The gracious Duncan",
-          "plainText": "Thing's have been strangely borne The gracious Duncan",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Was pitied of Macbeth:—marry, he was dead:—",
-          "plainText": "Was pitied of Macbethmarry he was dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "And the right valiant Banquo walk'd too late;",
-          "plainText": "And the right valiant Banquo walk'd too late",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Whom, you may say, if't please you, Fleance kill'd,",
-          "plainText": "Whom you may say if't please you Fleance kill'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "For Fleance fled. Men must not walk too late.",
-          "plainText": "For Fleance fled Men must not walk too late",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Who cannot want the thought, how monstrous",
-          "plainText": "Who cannot want the thought how monstrous",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "It was for Malcolm and for Donalbain",
-          "plainText": "It was for Malcolm and for Donalbain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "To kill their gracious father? damned fact!",
-          "plainText": "To kill their gracious father damned fact",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "How it did grieve Macbeth! did he not straight,",
-          "plainText": "How it did grieve Macbeth did he not straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "In pious rage, the two delinquents tear",
-          "plainText": "In pious rage the two delinquents tear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "That were the slaves of drink and thralls of sleep?",
-          "plainText": "That were the slaves of drink and thralls of sleep",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Was not that nobly done? Ay, and wisely too;",
-          "plainText": "Was not that nobly done Ay and wisely too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "For 'twould have anger'd any heart alive,",
-          "plainText": "For 'twould have anger'd any heart alive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "To hear the men deny't. So that, I say,",
-          "plainText": "To hear the men deny't So that I say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "He has borne all things well: and I do think,",
-          "plainText": "He has borne all things well and I do think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "That had he Duncan's sons under his key",
-          "plainText": "That had he Duncan's sons under his key",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "(As, and't please heaven, he shall not) they should find",
-          "plainText": "As and't please heaven he shall not they should find",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "What 'twere to kill a father; so should Fleance.",
-          "plainText": "What 'twere to kill a father so should Fleance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "But, peace!—for from broad words, and 'cause he fail'd",
-          "plainText": "But peacefor from broad words and 'cause he fail'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0022",
-          "number": 22,
-          "speechLineNumber": 22,
-          "text": "His presence at the tyrant's feast, I hear,",
-          "plainText": "His presence at the tyrant's feast I hear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0023",
-          "number": 23,
-          "speechLineNumber": 23,
-          "text": "Macduff lives in disgrace. Sir, can you tell",
-          "plainText": "Macduff lives in disgrace Sir can you tell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0024",
-          "number": 24,
-          "speechLineNumber": 24,
-          "text": "Where he bestows himself?",
-          "plainText": "Where he bestows himself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86675/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3650867,
+        "end": 3650983,
+        "line": 134538,
+        "column": 1,
+        "path": "chap20/p@86675",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-3-6-speech-002",
+      "id": "macbeth/sceneIII_20.6/p@86795",
       "type": "speech",
-      "speaker": {
-        "id": "lord",
-        "name": "LORD",
-        "displayName": "Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LENNOX.\nMy former speeches have but hit your thoughts,\nWhich can interpret farther: only, I say,\nThing’s have been strangely borne. The gracious Duncan\nWas pitied of Macbeth:—marry, he was dead:—\nAnd the right valiant Banquo walk’d too late;\nWhom, you may say, if’t please you, Fleance kill’d,\nFor Fleance fled. Men must not walk too late.\nWho cannot want the thought, how monstrous\nIt was for Malcolm and for Donalbain\nTo kill their gracious father? damned fact!\nHow it did grieve Macbeth! did he not straight,\nIn pious rage, the two delinquents tear\nThat were the slaves of drink and thralls of sleep?\nWas not that nobly done? Ay, and wisely too;\nFor ’twould have anger’d any heart alive,\nTo hear the men deny’t. So that, I say,\nHe has borne all things well: and I do think,\nThat had he Duncan’s sons under his key\n(As, and’t please heaven, he shall not) they should find\nWhat ’twere to kill a father; so should Fleance.\nBut, peace!—for from broad words, and ’cause he fail’d\nHis presence at the tyrant’s feast, I hear,\nMacduff lives in disgrace. Sir, can you tell\nWhere he bestows himself?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "The son of Duncan,",
-          "plainText": "The son of Duncan",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "From whom this tyrant holds the due of birth,",
-          "plainText": "From whom this tyrant holds the due of birth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0027",
-          "number": 27,
-          "speechLineNumber": 3,
-          "text": "Lives in the English court and is receiv'd",
-          "plainText": "Lives in the English court and is receiv'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-3",
+          "start": 55,
+          "end": 96,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0028",
-          "number": 28,
-          "speechLineNumber": 4,
-          "text": "Of the most pious Edward with such grace",
-          "plainText": "Of the most pious Edward with such grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-4",
+          "start": 97,
+          "end": 151,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0029",
-          "number": 29,
-          "speechLineNumber": 5,
-          "text": "That the malevolence of fortune nothing",
-          "plainText": "That the malevolence of fortune nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-5",
+          "start": 152,
+          "end": 195,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0030",
-          "number": 30,
-          "speechLineNumber": 6,
-          "text": "Takes from his high respect. Thither Macduff",
-          "plainText": "Takes from his high respect Thither Macduff",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-6",
+          "start": 196,
+          "end": 241,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0031",
-          "number": 31,
-          "speechLineNumber": 7,
-          "text": "Is gone to pray the holy king, upon his aid",
-          "plainText": "Is gone to pray the holy king upon his aid",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-7",
+          "start": 242,
+          "end": 293,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0032",
-          "number": 32,
-          "speechLineNumber": 8,
-          "text": "To wake Northumberland, and warlike Siward",
-          "plainText": "To wake Northumberland and warlike Siward",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-8",
+          "start": 294,
+          "end": 339,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0033",
-          "number": 33,
-          "speechLineNumber": 9,
-          "text": "That, by the help of these (with Him above",
-          "plainText": "That by the help of these with Him above",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-9",
+          "start": 340,
+          "end": 382,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0034",
-          "number": 34,
-          "speechLineNumber": 10,
-          "text": "To ratify the work), we may again",
-          "plainText": "To ratify the work we may again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-10",
+          "start": 383,
+          "end": 419,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0035",
-          "number": 35,
-          "speechLineNumber": 11,
-          "text": "Give to our tables meat, sleep to our nights;",
-          "plainText": "Give to our tables meat sleep to our nights",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-11",
+          "start": 420,
+          "end": 463,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0036",
-          "number": 36,
-          "speechLineNumber": 12,
-          "text": "Free from our feasts and banquets bloody knives,",
-          "plainText": "Free from our feasts and banquets bloody knives",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-12",
+          "start": 464,
+          "end": 511,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0037",
-          "number": 37,
-          "speechLineNumber": 13,
-          "text": "Do faithful homage, and receive free honours,",
-          "plainText": "Do faithful homage and receive free honours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-13",
+          "start": 512,
+          "end": 551,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0038",
-          "number": 38,
-          "speechLineNumber": 14,
-          "text": "All which we pine for now. And this report",
-          "plainText": "All which we pine for now And this report",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-14",
+          "start": 552,
+          "end": 603,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0039",
-          "number": 39,
-          "speechLineNumber": 15,
-          "text": "Hath so exasperate the King that he",
-          "plainText": "Hath so exasperate the King that he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-15",
+          "start": 604,
+          "end": 648,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0040",
-          "number": 40,
-          "speechLineNumber": 16,
-          "text": "Prepares for some attempt of war.",
-          "plainText": "Prepares for some attempt of war",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@86795/line-16",
+          "start": 649,
+          "end": 690,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-17",
+          "start": 691,
+          "end": 730,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-18",
+          "start": 731,
+          "end": 776,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-19",
+          "start": 777,
+          "end": 816,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-20",
+          "start": 817,
+          "end": 873,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-21",
+          "start": 874,
+          "end": 922,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-22",
+          "start": 923,
+          "end": 977,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-23",
+          "start": 978,
+          "end": 1021,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-24",
+          "start": 1022,
+          "end": 1066,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@86795/line-25",
+          "start": 1067,
+          "end": 1092,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3650987,
+        "end": 3652224,
+        "line": 134541,
+        "column": 1,
+        "path": "chap20/p@86795",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LENNOX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-3-6-speech-003",
+      "id": "macbeth/sceneIII_20.6/p@88036",
       "type": "speech",
-      "speaker": {
-        "id": "lennox",
-        "name": "LENNOX",
-        "displayName": "Lennox"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LORD.\nThe son of Duncan,\nFrom whom this tyrant holds the due of birth,\nLives in the English court and is receiv’d\nOf the most pious Edward with such grace\nThat the malevolence of fortune nothing\nTakes from his high respect. Thither Macduff\nIs gone to pray the holy king, upon his aid\nTo wake Northumberland, and warlike Siward\nThat, by the help of these (with Him above\nTo ratify the work), we may again\nGive to our tables meat, sleep to our nights;\nFree from our feasts and banquets bloody knives,\nDo faithful homage, and receive free honours,\nAll which we pine for now. And this report\nHath so exasperate the King that he\nPrepares for some attempt of war.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "Sent he to Macduff?",
-          "plainText": "Sent he to Macduff",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.6/p@88036/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-2",
+          "start": 6,
+          "end": 24,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-3",
+          "start": 25,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-4",
+          "start": 71,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-5",
+          "start": 114,
+          "end": 154,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-6",
+          "start": 155,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-7",
+          "start": 195,
+          "end": 239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-8",
+          "start": 240,
+          "end": 283,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-9",
+          "start": 284,
+          "end": 326,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-10",
+          "start": 327,
+          "end": 369,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-11",
+          "start": 370,
+          "end": 403,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-12",
+          "start": 404,
+          "end": 449,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-13",
+          "start": 450,
+          "end": 498,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-14",
+          "start": 499,
+          "end": 544,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-15",
+          "start": 545,
+          "end": 587,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-16",
+          "start": 588,
+          "end": 623,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@88036/line-17",
+          "start": 624,
+          "end": 657,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3652228,
+        "end": 3652990,
+        "line": 134569,
+        "column": 1,
+        "path": "chap20/p@88036",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-3-6-speech-004",
+      "id": "macbeth/sceneIII_20.6/p@88802",
       "type": "speech",
-      "speaker": {
-        "id": "lord",
-        "name": "LORD",
-        "displayName": "Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LENNOX.\nSent he to Macduff?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "He did: and with an absolute \"Sir, not I,\"",
-          "plainText": "He did and with an absolute Sir not I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88802/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0043",
-          "number": 43,
-          "speechLineNumber": 2,
-          "text": "The cloudy messenger turns me his back,",
-          "plainText": "The cloudy messenger turns me his back",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0044",
-          "number": 44,
-          "speechLineNumber": 3,
-          "text": "And hums, as who should say, \"You'll rue the time",
-          "plainText": "And hums as who should say You'll rue the time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0045",
-          "number": 45,
-          "speechLineNumber": 4,
-          "text": "That clogs me with this answer.\"",
-          "plainText": "That clogs me with this answer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88802/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3652994,
+        "end": 3653051,
+        "line": 134589,
+        "column": 1,
+        "path": "chap20/p@88802",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LENNOX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-3-6-speech-005",
+      "id": "macbeth/sceneIII_20.6/p@88863",
       "type": "speech",
-      "speaker": {
-        "id": "lennox",
-        "name": "LENNOX",
-        "displayName": "Lennox"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LORD.\nHe did: and with an absolute “Sir, not I,”\nThe cloudy messenger turns me his back,\nAnd hums, as who should say, “You’ll rue the time\nThat clogs me with this answer.”",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "And that well might",
-          "plainText": "And that well might",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88863/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Advise him to a caution, t' hold what distance",
-          "plainText": "Advise him to a caution t' hold what distance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88863/line-2",
+          "start": 6,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0048",
-          "number": 48,
-          "speechLineNumber": 3,
-          "text": "His wisdom can provide. Some holy angel",
-          "plainText": "His wisdom can provide Some holy angel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88863/line-3",
+          "start": 49,
+          "end": 88,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0049",
-          "number": 49,
-          "speechLineNumber": 4,
-          "text": "Fly to the court of England, and unfold",
-          "plainText": "Fly to the court of England and unfold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88863/line-4",
+          "start": 89,
+          "end": 138,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-3-6-line-0050",
-          "number": 50,
-          "speechLineNumber": 5,
-          "text": "His message ere he come, that a swift blessing",
-          "plainText": "His message ere he come that a swift blessing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0051",
-          "number": 51,
-          "speechLineNumber": 6,
-          "text": "May soon return to this our suffering country",
-          "plainText": "May soon return to this our suffering country",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-3-6-line-0052",
-          "number": 52,
-          "speechLineNumber": 7,
-          "text": "Under a hand accurs'd!",
-          "plainText": "Under a hand accurs'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneIII_20.6/p@88863/line-5",
+          "start": 139,
+          "end": 171,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3653055,
+        "end": 3653271,
+        "line": 134594,
+        "column": 1,
+        "path": "chap20/p@88863",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "macbeth-3-6-speech-006",
+      "id": "macbeth/sceneIII_20.6/p@89083",
       "type": "speech",
-      "speaker": {
-        "id": "lord",
-        "name": "LORD",
-        "displayName": "Lord"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LENNOX.\nAnd that well might\nAdvise him to a caution, t’ hold what distance\nHis wisdom can provide. Some holy angel\nFly to the court of England, and unfold\nHis message ere he come, that a swift blessing\nMay soon return to this our suffering country\nUnder a hand accurs’d!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-3-6-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "I'll send my prayers with him.",
-          "plainText": "I'll send my prayers with him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneIII_20.6/p@89083/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-2",
+          "start": 8,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-3",
+          "start": 28,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-4",
+          "start": 75,
+          "end": 114,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-5",
+          "start": 115,
+          "end": 154,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-6",
+          "start": 155,
+          "end": 201,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-7",
+          "start": 202,
+          "end": 247,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89083/line-8",
+          "start": 248,
+          "end": 270,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3653275,
+        "end": 3653605,
+        "line": 134602,
+        "column": 1,
+        "path": "chap20/p@89083",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LENNOX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-3-6-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneIII_20.6/p@89417",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LORD.\nI’ll send my prayers with him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.6/p@89417/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneIII_20.6/p@89417/line-2",
+          "start": 6,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3653609,
+        "end": 3653675,
+        "line": 134613,
+        "column": 1,
+        "path": "chap20/p@89417",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": "LORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "macbeth/sceneIII_20.6/p@89487",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneIII_20.6/p@89487/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3653679,
+        "end": 3653716,
+        "line": 134618,
+        "column": 1,
+        "path": "chap20/p@89487",
+        "anchor": "sceneIII_20.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

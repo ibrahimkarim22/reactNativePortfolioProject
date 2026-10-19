@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "troilus-and-cressida",
-  "title": "Troilus and Cressida",
-  "fullTitle": "Troilus and Cressida",
+  "title": "TROILUS AND CRESSIDA",
   "author": "William Shakespeare",
   "genre": "Problem Play",
+  "fullTitle": "TROILUS AND CRESSIDA",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap35"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,25 +33,25 @@
           "scene": 1,
           "id": "troilus-and-cressida-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Troy. Before Priam's palace.",
+          "title": "SCENE I. Troy. Before Priam’s palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 92
+          "lineCount": 137
         },
         {
           "scene": 2,
           "id": "troilus-and-cressida-1-2",
           "label": "Act 1, Scene 2",
-          "title": "Troy. A street.",
+          "title": "SCENE II. Troy. A street.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 167
+          "lineCount": 322
         },
         {
           "scene": 3,
           "id": "troilus-and-cressida-1-3",
           "label": "Act 1, Scene 3",
-          "title": "The Grecian camp. Before Agamemnon's tent.",
+          "title": "SCENE III. The Grecian camp. Before Agamemnon’s tent.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 371
+          "lineCount": 452
         }
       ]
     },
@@ -54,25 +62,25 @@
           "scene": 1,
           "id": "troilus-and-cressida-2-1",
           "label": "Act 2, Scene 1",
-          "title": "The Grecian camp.",
+          "title": "SCENE I. The Grecian camp.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 84
+          "lineCount": 169
         },
         {
           "scene": 2,
           "id": "troilus-and-cressida-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Troy. Priam's palace.",
+          "title": "SCENE II. Troy. Priam’s palace.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 218
+          "lineCount": 248
         },
         {
           "scene": 3,
           "id": "troilus-and-cressida-2-3",
           "label": "Act 2, Scene 3",
-          "title": "The Grecian camp. Before the tent of Achilles.",
+          "title": "SCENE III. The Grecian camp. Before the tent of Achilles.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 199
+          "lineCount": 313
         }
       ]
     },
@@ -83,25 +91,25 @@
           "scene": 1,
           "id": "troilus-and-cressida-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Troy. Priam's palace.",
+          "title": "SCENE I. Troy. Priam’s palace.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 93
+          "lineCount": 194
         },
         {
           "scene": 2,
           "id": "troilus-and-cressida-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Troy. Pandarus' orchard.",
+          "title": "SCENE II. Troy. Pandarus’ orchard.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 142
+          "lineCount": 210
         },
         {
           "scene": 3,
           "id": "troilus-and-cressida-3-3",
           "label": "Act 3, Scene 3",
-          "title": "The Greek camp.",
+          "title": "SCENE III. The Greek camp.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 284
+          "lineCount": 369
         }
       ]
     },
@@ -112,41 +120,41 @@
           "scene": 1,
           "id": "troilus-and-cressida-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Troy. A street.",
+          "title": "SCENE I. Troy. A street.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 84
+          "lineCount": 110
         },
         {
           "scene": 2,
           "id": "troilus-and-cressida-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Troy. The court of Pandarus' house.",
+          "title": "SCENE II. Troy. The court of Pandarus’ house.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 90
+          "lineCount": 155
         },
         {
           "scene": 3,
           "id": "troilus-and-cressida-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Troy. A street before Pandarus' house.",
+          "title": "SCENE III. Troy. A street before Pandarus’ house.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 13
+          "lineCount": 20
         },
         {
           "scene": 4,
           "id": "troilus-and-cressida-4-4",
           "label": "Act 4, Scene 4",
-          "title": "Troy. Pandarus' house.",
+          "title": "SCENE IV. Troy. Pandarus’ house.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 139
+          "lineCount": 209
         },
         {
           "scene": 5,
           "id": "troilus-and-cressida-4-5",
           "label": "Act 4, Scene 5",
-          "title": "The Grecian camp. Lists set out.",
+          "title": "SCENE V. The Grecian camp. Lists set out.",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 321
+          "lineCount": 450
         }
       ]
     },
@@ -157,83 +165,426 @@
           "scene": 1,
           "id": "troilus-and-cressida-5-1",
           "label": "Act 5, Scene 1",
-          "title": "The Grecian camp. Before the tent of Achilles.",
+          "title": "SCENE I. The Grecian camp. Before the tent of Achilles.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 61
+          "lineCount": 112
         },
         {
           "scene": 2,
           "id": "troilus-and-cressida-5-2",
           "label": "Act 5, Scene 2",
-          "title": "The Grecian camp. Before Calchas' tent.",
+          "title": "SCENE II. The Grecian camp. Before Calchas’ tent.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 202
+          "lineCount": 336
         },
         {
           "scene": 3,
           "id": "troilus-and-cressida-5-3",
           "label": "Act 5, Scene 3",
-          "title": "Troy. Before Priam's palace.",
+          "title": "SCENE III. Troy. Before Priam’s palace.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 113
+          "lineCount": 177
         },
         {
           "scene": 4,
           "id": "troilus-and-cressida-5-4",
           "label": "Act 5, Scene 4",
-          "title": "The plain between Troy and the Grecian camp.",
+          "title": "SCENE IV. The plain between Troy and the Grecian camp.",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 13
+          "lineCount": 29
         },
         {
           "scene": 5,
           "id": "troilus-and-cressida-5-5",
           "label": "Act 5, Scene 5",
-          "title": "Another part of the plain.",
+          "title": "SCENE V. Another part of the plain.",
           "path": "./scenes/act-5-scene-5.json",
-          "lineCount": 50
+          "lineCount": 70
         },
         {
           "scene": 6,
           "id": "troilus-and-cressida-5-6",
           "label": "Act 5, Scene 6",
-          "title": "Another part of the plain.",
+          "title": "SCENE VI. Another part of the plain.",
           "path": "./scenes/act-5-scene-6.json",
-          "lineCount": 33
+          "lineCount": 63
         },
         {
           "scene": 7,
           "id": "troilus-and-cressida-5-7",
           "label": "Act 5, Scene 7",
-          "title": "Another part of the plain.",
+          "title": "SCENE VII. Another part of the plain.",
           "path": "./scenes/act-5-scene-7.json",
-          "lineCount": 14
+          "lineCount": 29
         },
         {
           "scene": 8,
           "id": "troilus-and-cressida-5-8",
           "label": "Act 5, Scene 8",
-          "title": "Another part of the plain.",
+          "title": "SCENE VIII. Another part of the plain.",
           "path": "./scenes/act-5-scene-8.json",
-          "lineCount": 15
+          "lineCount": 36
         },
         {
           "scene": 9,
           "id": "troilus-and-cressida-5-9",
           "label": "Act 5, Scene 9",
-          "title": "Another part of the plain.",
+          "title": "SCENE IX. Another part of the plain.",
           "path": "./scenes/act-5-scene-9.json",
-          "lineCount": 10
+          "lineCount": 19
         },
         {
           "scene": 10,
           "id": "troilus-and-cressida-5-10",
           "label": "Act 5, Scene 10",
-          "title": "Another part of the plain.",
+          "title": "SCENE X. Another part of the plain.",
           "path": "./scenes/act-5-scene-10.json",
-          "lineCount": 36
+          "lineCount": 66
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "troilus-and-cressida-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "TROILUS AND CRESSIDA"
+    },
+    {
+      "id": "troilus-and-cressida-contents-113",
+      "kind": "contents",
+      "path": "./sections/contents-113.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "troilus-and-cressida-cast-3141",
+      "kind": "cast",
+      "path": "./sections/cast-3141.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "troilus-and-cressida-setting-4126",
+      "kind": "setting",
+      "path": "./sections/setting-4126.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Troy and the Greek camp before it"
+    },
+    {
+      "id": "troilus-and-cressida-prologue-4240",
+      "kind": "prologue",
+      "path": "./sections/prologue-4240.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "PROLOGUE"
+    },
+    {
+      "id": "troilus-and-cressida-act-5838",
+      "kind": "act",
+      "path": "./sections/act-5838.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 6,
+      "heading": "ACT I"
+    },
+    {
+      "id": "troilus-and-cressida-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "troilus-and-cressida-act-5838",
+      "orderInPlay": 7,
+      "heading": "SCENE I. Troy. Before Priam’s palace."
+    },
+    {
+      "id": "troilus-and-cressida-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "troilus-and-cressida-act-5838",
+      "orderInPlay": 8,
+      "heading": "SCENE II. Troy. A street."
+    },
+    {
+      "id": "troilus-and-cressida-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "troilus-and-cressida-act-5838",
+      "orderInPlay": 9,
+      "heading": "SCENE III. The Grecian camp. Before Agamemnon’s tent."
+    },
+    {
+      "id": "troilus-and-cressida-act-52425",
+      "kind": "act",
+      "path": "./sections/act-52425.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 10,
+      "heading": "ACT II"
+    },
+    {
+      "id": "troilus-and-cressida-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "troilus-and-cressida-act-52425",
+      "orderInPlay": 11,
+      "heading": "SCENE I. The Grecian camp."
+    },
+    {
+      "id": "troilus-and-cressida-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "troilus-and-cressida-act-52425",
+      "orderInPlay": 12,
+      "heading": "SCENE II. Troy. Priam’s palace."
+    },
+    {
+      "id": "troilus-and-cressida-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "troilus-and-cressida-act-52425",
+      "orderInPlay": 13,
+      "heading": "SCENE III. The Grecian camp. Before the tent of Achilles."
+    },
+    {
+      "id": "troilus-and-cressida-act-88812",
+      "kind": "act",
+      "path": "./sections/act-88812.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT III"
+    },
+    {
+      "id": "troilus-and-cressida-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "troilus-and-cressida-act-88812",
+      "orderInPlay": 15,
+      "heading": "SCENE I. Troy. Priam’s palace."
+    },
+    {
+      "id": "troilus-and-cressida-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "troilus-and-cressida-act-88812",
+      "orderInPlay": 16,
+      "heading": "SCENE II. Troy. Pandarus’ orchard."
+    },
+    {
+      "id": "troilus-and-cressida-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "troilus-and-cressida-act-88812",
+      "orderInPlay": 17,
+      "heading": "SCENE III. The Greek camp."
+    },
+    {
+      "id": "troilus-and-cressida-act-128967",
+      "kind": "act",
+      "path": "./sections/act-128967.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 18,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "troilus-and-cressida-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "troilus-and-cressida-act-128967",
+      "orderInPlay": 19,
+      "heading": "SCENE I. Troy. A street."
+    },
+    {
+      "id": "troilus-and-cressida-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "troilus-and-cressida-act-128967",
+      "orderInPlay": 20,
+      "heading": "SCENE II. Troy. The court of Pandarus’ house."
+    },
+    {
+      "id": "troilus-and-cressida-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "troilus-and-cressida-act-128967",
+      "orderInPlay": 21,
+      "heading": "SCENE III. Troy. A street before Pandarus’ house."
+    },
+    {
+      "id": "troilus-and-cressida-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "troilus-and-cressida-act-128967",
+      "orderInPlay": 22,
+      "heading": "SCENE IV. Troy. Pandarus’ house."
+    },
+    {
+      "id": "troilus-and-cressida-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "troilus-and-cressida-act-128967",
+      "orderInPlay": 23,
+      "heading": "SCENE V. The Grecian camp. Lists set out."
+    },
+    {
+      "id": "troilus-and-cressida-act-171865",
+      "kind": "act",
+      "path": "./sections/act-171865.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 24,
+      "heading": "ACT V"
+    },
+    {
+      "id": "troilus-and-cressida-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 25,
+      "heading": "SCENE I. The Grecian camp. Before the tent of Achilles."
+    },
+    {
+      "id": "troilus-and-cressida-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 26,
+      "heading": "SCENE II. The Grecian camp. Before Calchas’ tent."
+    },
+    {
+      "id": "troilus-and-cressida-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 27,
+      "heading": "SCENE III. Troy. Before Priam’s palace."
+    },
+    {
+      "id": "troilus-and-cressida-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 28,
+      "heading": "SCENE IV. The plain between Troy and the Grecian camp."
+    },
+    {
+      "id": "troilus-and-cressida-5-5",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-5.json",
+      "act": 5,
+      "scene": 5,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 29,
+      "heading": "SCENE V. Another part of the plain."
+    },
+    {
+      "id": "troilus-and-cressida-5-6",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-6.json",
+      "act": 5,
+      "scene": 6,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 30,
+      "heading": "SCENE VI. Another part of the plain."
+    },
+    {
+      "id": "troilus-and-cressida-5-7",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-7.json",
+      "act": 5,
+      "scene": 7,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 31,
+      "heading": "SCENE VII. Another part of the plain."
+    },
+    {
+      "id": "troilus-and-cressida-5-8",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-8.json",
+      "act": 5,
+      "scene": 8,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 32,
+      "heading": "SCENE VIII. Another part of the plain."
+    },
+    {
+      "id": "troilus-and-cressida-5-9",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-9.json",
+      "act": 5,
+      "scene": 9,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 33,
+      "heading": "SCENE IX. Another part of the plain."
+    },
+    {
+      "id": "troilus-and-cressida-5-10",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-10.json",
+      "act": 5,
+      "scene": 10,
+      "parentSectionId": "troilus-and-cressida-act-171865",
+      "orderInPlay": 34,
+      "heading": "SCENE X. Another part of the plain."
+    }
+  ],
+  "contentVersion": "98381ddbf397306a6c299ef9171cf0026d02d76708c7a34a7fe693057dbc989f"
 }

@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "romeo-and-juliet",
-  "title": "The Tragedy of Romeo and Juliet",
-  "fullTitle": "The Tragedy of Romeo and Juliet",
+  "title": "THE TRAGEDY OF ROMEO AND JULIET",
   "author": "William Shakespeare",
   "genre": "Tragedy",
+  "fullTitle": "THE TRAGEDY OF ROMEO AND JULIET",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,41 +33,41 @@
           "scene": 1,
           "id": "romeo-and-juliet-1-1",
           "label": "Act 1, Scene 1",
-          "title": "A public place.",
+          "title": "SCENE I. A public place.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 221
+          "lineCount": 333
         },
         {
           "scene": 2,
           "id": "romeo-and-juliet-1-2",
           "label": "Act 1, Scene 2",
-          "title": "A Street.",
+          "title": "SCENE II. A Street.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 85
+          "lineCount": 132
         },
         {
           "scene": 3,
           "id": "romeo-and-juliet-1-3",
           "label": "Act 1, Scene 3",
-          "title": "Room in Capulet's House.",
+          "title": "SCENE III. Room in Capulet’s House.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 104
+          "lineCount": 140
         },
         {
           "scene": 4,
           "id": "romeo-and-juliet-1-4",
           "label": "Act 1, Scene 4",
-          "title": "A Street.",
+          "title": "SCENE IV. A Street.",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 120
+          "lineCount": 151
         },
         {
           "scene": 5,
           "id": "romeo-and-juliet-1-5",
           "label": "Act 1, Scene 5",
-          "title": "A Hall in Capulet's House.",
+          "title": "SCENE V. A Hall in Capulet’s House.",
           "path": "./scenes/act-1-scene-5.json",
-          "lineCount": 141
+          "lineCount": 211
         }
       ]
     },
@@ -70,49 +78,49 @@
           "scene": 1,
           "id": "romeo-and-juliet-2-1",
           "label": "Act 2, Scene 1",
-          "title": "An open place adjoining Capulet's Garden.",
+          "title": "SCENE I. An open place adjoining Capulet’s Garden.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 45
+          "lineCount": 60
         },
         {
           "scene": 2,
           "id": "romeo-and-juliet-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Capulet's Garden.",
+          "title": "SCENE II. Capulet’s Garden.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 179
+          "lineCount": 268
         },
         {
           "scene": 3,
           "id": "romeo-and-juliet-2-3",
           "label": "Act 2, Scene 3",
-          "title": "Friar Lawrence's Cell.",
+          "title": "SCENE III. Friar Lawrence’s Cell.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 89
+          "lineCount": 121
         },
         {
           "scene": 4,
           "id": "romeo-and-juliet-2-4",
           "label": "Act 2, Scene 4",
-          "title": "A Street.",
+          "title": "SCENE IV. A Street.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 110
+          "lineCount": 208
         },
         {
           "scene": 5,
           "id": "romeo-and-juliet-2-5",
           "label": "Act 2, Scene 5",
-          "title": "Capulet's Garden.",
+          "title": "SCENE V. Capulet’s Garden.",
           "path": "./scenes/act-2-scene-5.json",
-          "lineCount": 69
+          "lineCount": 96
         },
         {
           "scene": 6,
           "id": "romeo-and-juliet-2-6",
           "label": "Act 2, Scene 6",
-          "title": "Friar Lawrence's Cell.",
+          "title": "SCENE VI. Friar Lawrence’s Cell.",
           "path": "./scenes/act-2-scene-6.json",
-          "lineCount": 32
+          "lineCount": 51
         }
       ]
     },
@@ -123,41 +131,41 @@
           "scene": 1,
           "id": "romeo-and-juliet-3-1",
           "label": "Act 3, Scene 1",
-          "title": "A public Place.",
+          "title": "SCENE I. A public Place.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 162
+          "lineCount": 237
         },
         {
           "scene": 2,
           "id": "romeo-and-juliet-3-2",
           "label": "Act 3, Scene 2",
-          "title": "A Room in Capulet's House.",
+          "title": "SCENE II. A Room in Capulet’s House.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 145
+          "lineCount": 175
         },
         {
           "scene": 3,
           "id": "romeo-and-juliet-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Friar Lawrence's cell.",
+          "title": "SCENE III. Friar Lawrence’s cell.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 176
+          "lineCount": 228
         },
         {
           "scene": 4,
           "id": "romeo-and-juliet-3-4",
           "label": "Act 3, Scene 4",
-          "title": "A Room in Capulet's House.",
+          "title": "SCENE IV. A Room in Capulet’s House.",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 36
+          "lineCount": 47
         },
         {
           "scene": 5,
           "id": "romeo-and-juliet-3-5",
           "label": "Act 3, Scene 5",
-          "title": "An open Gallery to Juliet's Chamber, overlooking the Garden.",
+          "title": "SCENE V. An open Gallery to Juliet’s Chamber, overlooking the Garden.",
           "path": "./scenes/act-3-scene-5.json",
-          "lineCount": 254
+          "lineCount": 334
         }
       ]
     },
@@ -168,41 +176,41 @@
           "scene": 1,
           "id": "romeo-and-juliet-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Friar Lawrence's Cell.",
+          "title": "SCENE I. Friar Lawrence’s Cell.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 127
+          "lineCount": 165
         },
         {
           "scene": 2,
           "id": "romeo-and-juliet-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Hall in Capulet's House.",
+          "title": "SCENE II. Hall in Capulet’s House.",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 42
+          "lineCount": 70
         },
         {
           "scene": 3,
           "id": "romeo-and-juliet-4-3",
           "label": "Act 4, Scene 3",
-          "title": "Juliet's Chamber.",
+          "title": "SCENE III. Juliet’s Chamber.",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 24
+          "lineCount": 70
         },
         {
           "scene": 4,
           "id": "romeo-and-juliet-4-4",
           "label": "Act 4, Scene 4",
-          "title": "Hall in Capulet's House.",
+          "title": "SCENE IV. Hall in Capulet’s House.",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 22
+          "lineCount": 51
         },
         {
           "scene": 5,
           "id": "romeo-and-juliet-4-5",
           "label": "Act 4, Scene 5",
-          "title": "Juliet's Chamber; Juliet on the bed.",
+          "title": "SCENE V. Juliet’s Chamber; Juliet on the bed.",
           "path": "./scenes/act-4-scene-5.json",
-          "lineCount": 130
+          "lineCount": 188
         }
       ]
     },
@@ -213,27 +221,370 @@
           "scene": 1,
           "id": "romeo-and-juliet-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Mantua. A Street.",
+          "title": "SCENE I. Mantua. A Street.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 60
+          "lineCount": 110
         },
         {
           "scene": 2,
           "id": "romeo-and-juliet-5-2",
           "label": "Act 5, Scene 2",
-          "title": "Friar Lawrence's Cell.",
+          "title": "SCENE II. Friar Lawrence’s Cell.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 30
+          "lineCount": 43
         },
         {
           "scene": 3,
           "id": "romeo-and-juliet-5-3",
           "label": "Act 5, Scene 3",
-          "title": "A churchyard; in it a Monument belonging to the Capulets.",
+          "title": "SCENE III. A churchyard; in it a Monument belonging to the Capulets.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 255
+          "lineCount": 413
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "romeo-and-juliet-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE TRAGEDY OF ROMEO AND JULIET"
+    },
+    {
+      "id": "romeo-and-juliet-contents-124",
+      "kind": "contents",
+      "path": "./sections/contents-124.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "romeo-and-juliet-cast-3142",
+      "kind": "cast",
+      "path": "./sections/cast-3142.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "romeo-and-juliet-setting-4301",
+      "kind": "setting",
+      "path": "./sections/setting-4301.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE. During the greater part of the Play in Verona; once, in the Fifth Act, at Mantua."
+    },
+    {
+      "id": "romeo-and-juliet-prologue-4464",
+      "kind": "prologue",
+      "path": "./sections/prologue-4464.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "THE PROLOGUE"
+    },
+    {
+      "id": "romeo-and-juliet-act-5424",
+      "kind": "act",
+      "path": "./sections/act-5424.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 6,
+      "heading": "ACT I"
+    },
+    {
+      "id": "romeo-and-juliet-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "romeo-and-juliet-act-5424",
+      "orderInPlay": 7,
+      "heading": "SCENE I. A public place."
+    },
+    {
+      "id": "romeo-and-juliet-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "romeo-and-juliet-act-5424",
+      "orderInPlay": 8,
+      "heading": "SCENE II. A Street."
+    },
+    {
+      "id": "romeo-and-juliet-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "romeo-and-juliet-act-5424",
+      "orderInPlay": 9,
+      "heading": "SCENE III. Room in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "romeo-and-juliet-act-5424",
+      "orderInPlay": 10,
+      "heading": "SCENE IV. A Street."
+    },
+    {
+      "id": "romeo-and-juliet-1-5",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-5.json",
+      "act": 1,
+      "scene": 5,
+      "parentSectionId": "romeo-and-juliet-act-5424",
+      "orderInPlay": 11,
+      "heading": "SCENE V. A Hall in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-act-50512",
+      "kind": "act",
+      "path": "./sections/act-50512.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 12,
+      "heading": "ACT II"
+    },
+    {
+      "id": "romeo-and-juliet-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 13,
+      "heading": "SCENE I. An open place adjoining Capulet’s Garden."
+    },
+    {
+      "id": "romeo-and-juliet-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 14,
+      "heading": "SCENE II. Capulet’s Garden."
+    },
+    {
+      "id": "romeo-and-juliet-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 15,
+      "heading": "SCENE III. Friar Lawrence’s Cell."
+    },
+    {
+      "id": "romeo-and-juliet-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 16,
+      "heading": "SCENE IV. A Street."
+    },
+    {
+      "id": "romeo-and-juliet-2-5",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-5.json",
+      "act": 2,
+      "scene": 5,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 17,
+      "heading": "SCENE V. Capulet’s Garden."
+    },
+    {
+      "id": "romeo-and-juliet-2-6",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-6.json",
+      "act": 2,
+      "scene": 6,
+      "parentSectionId": "romeo-and-juliet-act-50512",
+      "orderInPlay": 18,
+      "heading": "SCENE VI. Friar Lawrence’s Cell."
+    },
+    {
+      "id": "romeo-and-juliet-act-91751",
+      "kind": "act",
+      "path": "./sections/act-91751.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 19,
+      "heading": "ACT III"
+    },
+    {
+      "id": "romeo-and-juliet-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "romeo-and-juliet-act-91751",
+      "orderInPlay": 20,
+      "heading": "SCENE I. A public Place."
+    },
+    {
+      "id": "romeo-and-juliet-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "romeo-and-juliet-act-91751",
+      "orderInPlay": 21,
+      "heading": "SCENE II. A Room in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "romeo-and-juliet-act-91751",
+      "orderInPlay": 22,
+      "heading": "SCENE III. Friar Lawrence’s cell."
+    },
+    {
+      "id": "romeo-and-juliet-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "romeo-and-juliet-act-91751",
+      "orderInPlay": 23,
+      "heading": "SCENE IV. A Room in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-3-5",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-5.json",
+      "act": 3,
+      "scene": 5,
+      "parentSectionId": "romeo-and-juliet-act-91751",
+      "orderInPlay": 24,
+      "heading": "SCENE V. An open Gallery to Juliet’s Chamber, overlooking the Garden."
+    },
+    {
+      "id": "romeo-and-juliet-act-140241",
+      "kind": "act",
+      "path": "./sections/act-140241.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 25,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "romeo-and-juliet-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "romeo-and-juliet-act-140241",
+      "orderInPlay": 26,
+      "heading": "SCENE I. Friar Lawrence’s Cell."
+    },
+    {
+      "id": "romeo-and-juliet-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "romeo-and-juliet-act-140241",
+      "orderInPlay": 27,
+      "heading": "SCENE II. Hall in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "romeo-and-juliet-act-140241",
+      "orderInPlay": 28,
+      "heading": "SCENE III. Juliet’s Chamber."
+    },
+    {
+      "id": "romeo-and-juliet-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "romeo-and-juliet-act-140241",
+      "orderInPlay": 29,
+      "heading": "SCENE IV. Hall in Capulet’s House."
+    },
+    {
+      "id": "romeo-and-juliet-4-5",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-5.json",
+      "act": 4,
+      "scene": 5,
+      "parentSectionId": "romeo-and-juliet-act-140241",
+      "orderInPlay": 30,
+      "heading": "SCENE V. Juliet’s Chamber; Juliet on the bed."
+    },
+    {
+      "id": "romeo-and-juliet-act-166637",
+      "kind": "act",
+      "path": "./sections/act-166637.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 31,
+      "heading": "ACT V"
+    },
+    {
+      "id": "romeo-and-juliet-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "romeo-and-juliet-act-166637",
+      "orderInPlay": 32,
+      "heading": "SCENE I. Mantua. A Street."
+    },
+    {
+      "id": "romeo-and-juliet-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "romeo-and-juliet-act-166637",
+      "orderInPlay": 33,
+      "heading": "SCENE II. Friar Lawrence’s Cell."
+    },
+    {
+      "id": "romeo-and-juliet-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "romeo-and-juliet-act-166637",
+      "orderInPlay": 34,
+      "heading": "SCENE III. A churchyard; in it a Monument belonging to the Capulets."
+    }
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

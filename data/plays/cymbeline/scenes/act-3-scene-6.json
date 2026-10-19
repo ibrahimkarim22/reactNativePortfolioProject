@@ -1,344 +1,347 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "cymbeline",
-    "title": "Cymbeline",
+    "title": "CYMBELINE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap07"
   },
-  "scene": {
+  "section": {
     "id": "cymbeline-3-6",
+    "kind": "scene",
+    "heading": "SCENE VI. Wales. Before the cave of Belarius.",
     "act": 3,
     "scene": 6,
-    "label": "Act 3, Scene 6",
-    "title": "SCENE VI. Wales. Before the cave of Belarius.",
-    "location": "Wales. Before the cave of Belarius.",
-    "orderInPlay": 18
+    "parentSectionId": "cymbeline-act-81754",
+    "orderInPlay": 25,
+    "sourceRef": {
+      "start": 1168834,
+      "end": 1168921,
+      "line": 44277,
+      "column": 1,
+      "path": "chap07/h3@119995",
+      "anchor": "sceneIII_7.6"
+    }
   },
   "content": [
     {
-      "id": "cymbeline-3-6-stage-001",
-      "type": "stage",
-      "text": "Enter Imogen alone, in boy's clothes."
-    },
-    {
-      "id": "cymbeline-3-6-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "id": "cymbeline/sceneIII_7.6/h3@119995",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VI. Wales. Before the cave of Belarius.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 45
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-3-6-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I see a man's life is a tedious one.",
-          "plainText": "I see a man's life is a tedious one",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "I have tir'd myself, and for two nights together",
-          "plainText": "I have tir'd myself and for two nights together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Have made the ground my bed. I should be sick",
-          "plainText": "Have made the ground my bed I should be sick",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "But that my resolution helps me. Milford,",
-          "plainText": "But that my resolution helps me Milford",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "When from the mountain-top Pisanio show'd thee,",
-          "plainText": "When from the mountaintop Pisanio show'd thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Thou wast within a ken. O Jove! I think",
-          "plainText": "Thou wast within a ken O Jove I think",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Foundations fly the wretched; such, I mean,",
-          "plainText": "Foundations fly the wretched such I mean",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Where they should be reliev'd. Two beggars told me",
-          "plainText": "Where they should be reliev'd Two beggars told me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "I could not miss my way. Will poor folks lie,",
-          "plainText": "I could not miss my way Will poor folks lie",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "That have afflictions on them, knowing 'tis",
-          "plainText": "That have afflictions on them knowing 'tis",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "A punishment or trial? Yes; no wonder,",
-          "plainText": "A punishment or trial Yes no wonder",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "When rich ones scarce tell true. To lapse in fulness",
-          "plainText": "When rich ones scarce tell true To lapse in fulness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "Is sorer than to lie for need; and falsehood",
-          "plainText": "Is sorer than to lie for need and falsehood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Is worse in kings than beggars. My dear lord!",
-          "plainText": "Is worse in kings than beggars My dear lord",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "Thou art one o' th' false ones. Now I think on thee",
-          "plainText": "Thou art one o' th' false ones Now I think on thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "My hunger's gone; but even before, I was",
-          "plainText": "My hunger's gone but even before I was",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "At point to sink for food. But what is this?",
-          "plainText": "At point to sink for food But what is this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "Here is a path to't; 'tis some savage hold.",
-          "plainText": "Here is a path to't 'tis some savage hold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "I were best not call; I dare not call. Yet famine,",
-          "plainText": "I were best not call I dare not call Yet famine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "Ere clean it o'erthrow nature, makes it valiant.",
-          "plainText": "Ere clean it o'erthrow nature makes it valiant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "Plenty and peace breeds cowards; hardness ever",
-          "plainText": "Plenty and peace breeds cowards hardness ever",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0022",
-          "number": 22,
-          "speechLineNumber": 22,
-          "text": "Of hardiness is mother. Ho! who's here?",
-          "plainText": "Of hardiness is mother Ho who's here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0023",
-          "number": 23,
-          "speechLineNumber": 23,
-          "text": "If anything that's civil, speak; if savage,",
-          "plainText": "If anything that's civil speak if savage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0024",
-          "number": 24,
-          "speechLineNumber": 24,
-          "text": "Take or lend. Ho! No answer? Then I'll enter.",
-          "plainText": "Take or lend Ho No answer Then I'll enter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0025",
-          "number": 25,
-          "speechLineNumber": 25,
-          "text": "Best draw my sword; and if mine enemy",
-          "plainText": "Best draw my sword and if mine enemy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0026",
-          "number": 26,
-          "speechLineNumber": 26,
-          "text": "But fear the sword, like me, he'll scarcely look on't.",
-          "plainText": "But fear the sword like me he'll scarcely look on't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-3-6-line-0027",
-          "number": 27,
-          "speechLineNumber": 27,
-          "text": "Such a foe, good heavens!",
-          "plainText": "Such a foe good heavens",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneIII_7.6/h3@119995/line-1",
+          "start": 0,
+          "end": 45,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1168834,
+        "end": 1168921,
+        "line": 44277,
+        "column": 1,
+        "path": "chap07/h3@119995",
+        "anchor": "sceneIII_7.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-3-6-stage-002",
+      "id": "cymbeline/sceneIII_7.6/p@120086",
       "type": "stage",
-      "text": "[Exit into the cave.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Imogen alone, in boy’s clothes.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120086/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1168925,
+        "end": 1169018,
+        "line": 44279,
+        "column": 1,
+        "path": "chap07/p@120086",
+        "anchor": "sceneIII_7.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.6/p@120183",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nI see a man’s life is a tedious one.\nI have tir’d myself, and for two nights together\nHave made the ground my bed. I should be sick\nBut that my resolution helps me. Milford,\nWhen from the mountain-top Pisanio show’d thee,\nThou wast within a ken. O Jove! I think\nFoundations fly the wretched; such, I mean,\nWhere they should be reliev’d. Two beggars told me\nI could not miss my way. Will poor folks lie,\nThat have afflictions on them, knowing ’tis\nA punishment or trial? Yes; no wonder,\nWhen rich ones scarce tell true. To lapse in fulness\nIs sorer than to lie for need; and falsehood\nIs worse in kings than beggars. My dear lord!\nThou art one o’ th’ false ones. Now I think on thee\nMy hunger’s gone; but even before, I was\nAt point to sink for food. But what is this?\nHere is a path to’t; ’tis some savage hold.\nI were best not call; I dare not call. Yet famine,\nEre clean it o’erthrow nature, makes it valiant.\nPlenty and peace breeds cowards; hardness ever\nOf hardiness is mother. Ho! who’s here?\nIf anything that’s civil, speak; if savage,\nTake or lend. Ho! No answer? Then I’ll enter.\nBest draw my sword; and if mine enemy\nBut fear the sword, like me, he’ll scarcely look on’t.\nSuch a foe, good heavens!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-2",
+          "start": 8,
+          "end": 44,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-3",
+          "start": 45,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-4",
+          "start": 94,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-5",
+          "start": 140,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-6",
+          "start": 182,
+          "end": 229,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-7",
+          "start": 230,
+          "end": 269,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-8",
+          "start": 270,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-9",
+          "start": 314,
+          "end": 364,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-10",
+          "start": 365,
+          "end": 410,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-11",
+          "start": 411,
+          "end": 454,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-12",
+          "start": 455,
+          "end": 493,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-13",
+          "start": 494,
+          "end": 546,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-14",
+          "start": 547,
+          "end": 591,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-15",
+          "start": 592,
+          "end": 637,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-16",
+          "start": 638,
+          "end": 689,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-17",
+          "start": 690,
+          "end": 730,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-18",
+          "start": 731,
+          "end": 775,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-19",
+          "start": 776,
+          "end": 819,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-20",
+          "start": 820,
+          "end": 870,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-21",
+          "start": 871,
+          "end": 919,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-22",
+          "start": 920,
+          "end": 966,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-23",
+          "start": 967,
+          "end": 1006,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-24",
+          "start": 1007,
+          "end": 1050,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-25",
+          "start": 1051,
+          "end": 1096,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-26",
+          "start": 1097,
+          "end": 1134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-27",
+          "start": 1135,
+          "end": 1189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneIII_7.6/p@120183/line-28",
+          "start": 1190,
+          "end": 1215,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1169022,
+        "end": 1170397,
+        "line": 44281,
+        "column": 1,
+        "path": "chap07/p@120183",
+        "anchor": "sceneIII_7.6"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "cymbeline/sceneIII_7.6/p@121562",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit into the cave.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 20
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneIII_7.6/p@121562/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1170401,
+        "end": 1170451,
+        "line": 44312,
+        "column": 1,
+        "path": "chap07/p@121562",
+        "anchor": "sceneIII_7.6"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75"
 }

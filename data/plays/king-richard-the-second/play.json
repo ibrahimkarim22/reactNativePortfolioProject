@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "king-richard-the-second",
-  "title": "The Life and Death of King Richard the Second",
-  "fullTitle": "The Life and Death of King Richard the Second",
+  "title": "THE LIFE AND DEATH OF KING RICHARD THE SECOND",
   "author": "William Shakespeare",
   "genre": "History",
+  "fullTitle": "THE LIFE AND DEATH OF KING RICHARD THE SECOND",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap28"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,33 +33,33 @@
           "scene": 1,
           "id": "king-richard-the-second-1-1",
           "label": "Act 1, Scene 1",
-          "title": "London. A Room in the palace.",
+          "title": "SCENE I. London. A Room in the palace.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 207
+          "lineCount": 241
         },
         {
           "scene": 2,
           "id": "king-richard-the-second-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The same. A room in the Duke of Lancaster's palace.",
+          "title": "SCENE II. The same. A room in the Duke of Lancaster’s palace.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 74
+          "lineCount": 85
         },
         {
           "scene": 3,
           "id": "king-richard-the-second-1-3",
           "label": "Act 1, Scene 3",
-          "title": "Open Space, near Coventry. Lists set out, and a Throne. Heralds, &c., attending.",
+          "title": "SCENE III. Open Space, near Coventry. Lists set out, and a Throne. Heralds, &c., attending.",
           "path": "./scenes/act-1-scene-3.json",
-          "lineCount": 269
+          "lineCount": 382
         },
         {
           "scene": 4,
           "id": "king-richard-the-second-1-4",
           "label": "Act 1, Scene 4",
-          "title": "London. A Room in the King's Castle",
+          "title": "SCENE IV. London. A Room in the King’s Castle",
           "path": "./scenes/act-1-scene-4.json",
-          "lineCount": 64
+          "lineCount": 83
         }
       ]
     },
@@ -62,33 +70,33 @@
           "scene": 1,
           "id": "king-richard-the-second-2-1",
           "label": "Act 2, Scene 1",
-          "title": "London. An Apartment in Ely House.",
+          "title": "SCENE I. London. An Apartment in Ely House.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 302
+          "lineCount": 367
         },
         {
           "scene": 2,
           "id": "king-richard-the-second-2-2",
           "label": "Act 2, Scene 2",
-          "title": "The Same. A Room in the Castle.",
+          "title": "SCENE II. The Same. A Room in the Castle.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 137
+          "lineCount": 196
         },
         {
           "scene": 3,
           "id": "king-richard-the-second-2-3",
           "label": "Act 2, Scene 3",
-          "title": "The Wolds in Gloucestershire.",
+          "title": "SCENE III. The Wolds in Gloucestershire.",
           "path": "./scenes/act-2-scene-3.json",
-          "lineCount": 172
+          "lineCount": 220
         },
         {
           "scene": 4,
           "id": "king-richard-the-second-2-4",
           "label": "Act 2, Scene 4",
-          "title": "A camp in Wales.",
+          "title": "SCENE IV. A camp in Wales.",
           "path": "./scenes/act-2-scene-4.json",
-          "lineCount": 24
+          "lineCount": 32
         }
       ]
     },
@@ -99,33 +107,33 @@
           "scene": 1,
           "id": "king-richard-the-second-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Bristol. Bolingbroke's camp.",
+          "title": "SCENE I. Bristol. Bolingbroke’s camp.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 40
+          "lineCount": 54
         },
         {
           "scene": 2,
           "id": "king-richard-the-second-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The coast of Wales. A castle in view.",
+          "title": "SCENE II. The coast of Wales. A castle in view.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 219
+          "lineCount": 254
         },
         {
           "scene": 3,
           "id": "king-richard-the-second-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Wales. Before Flint Castle.",
+          "title": "SCENE III. Wales. Before Flint Castle.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 202
+          "lineCount": 254
         },
         {
           "scene": 4,
           "id": "king-richard-the-second-3-4",
           "label": "Act 3, Scene 4",
-          "title": "Langley. The Duke of York's garden.",
+          "title": "SCENE IV. Langley. The Duke of York’s garden.",
           "path": "./scenes/act-3-scene-4.json",
-          "lineCount": 103
+          "lineCount": 142
         }
       ]
     },
@@ -136,9 +144,9 @@
           "scene": 1,
           "id": "king-richard-the-second-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Westminster Hall.",
+          "title": "SCENE I. Westminster Hall.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 320
+          "lineCount": 424
         }
       ]
     },
@@ -149,51 +157,334 @@
           "scene": 1,
           "id": "king-richard-the-second-5-1",
           "label": "Act 5, Scene 1",
-          "title": "London. A street leading to the Tower.",
+          "title": "SCENE I. London. A street leading to the Tower.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 91
+          "lineCount": 127
         },
         {
           "scene": 2,
           "id": "king-richard-the-second-5-2",
           "label": "Act 5, Scene 2",
-          "title": "The same. A room in the Duke of York's palace.",
+          "title": "SCENE II. The same. A room in the Duke of York’s palace.",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 125
+          "lineCount": 180
         },
         {
           "scene": 3,
           "id": "king-richard-the-second-5-3",
           "label": "Act 5, Scene 3",
-          "title": "Windsor. A room in the Castle.",
+          "title": "SCENE III. Windsor. A room in the Castle.",
           "path": "./scenes/act-5-scene-3.json",
-          "lineCount": 148
+          "lineCount": 209
         },
         {
           "scene": 4,
           "id": "king-richard-the-second-5-4",
           "label": "Act 5, Scene 4",
-          "title": "Another room in the Castle.",
+          "title": "SCENE IV. Another room in the Castle.",
           "path": "./scenes/act-5-scene-4.json",
-          "lineCount": 12
+          "lineCount": 20
         },
         {
           "scene": 5,
           "id": "king-richard-the-second-5-5",
           "label": "Act 5, Scene 5",
-          "title": "Pomfret. The dungeon of the Castle.",
+          "title": "SCENE V. Pomfret. The dungeon of the Castle.",
           "path": "./scenes/act-5-scene-5.json",
-          "lineCount": 113
+          "lineCount": 148
         },
         {
           "scene": 6,
           "id": "king-richard-the-second-5-6",
           "label": "Act 5, Scene 6",
-          "title": "Windsor. An Apartment in the Castle.",
+          "title": "SCENE VI. Windsor. An Apartment in the Castle.",
           "path": "./scenes/act-5-scene-6.json",
-          "lineCount": 51
+          "lineCount": 70
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "king-richard-the-second-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE LIFE AND DEATH OF KING RICHARD THE SECOND"
+    },
+    {
+      "id": "king-richard-the-second-contents-138",
+      "kind": "contents",
+      "path": "./sections/contents-138.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "king-richard-the-second-cast-2612",
+      "kind": "cast",
+      "path": "./sections/cast-2612.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "king-richard-the-second-setting-3703",
+      "kind": "setting",
+      "path": "./sections/setting-3703.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Dispersedly in England and Wales."
+    },
+    {
+      "id": "king-richard-the-second-act-3817",
+      "kind": "act",
+      "path": "./sections/act-3817.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "king-richard-the-second-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "king-richard-the-second-act-3817",
+      "orderInPlay": 6,
+      "heading": "SCENE I. London. A Room in the palace."
+    },
+    {
+      "id": "king-richard-the-second-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "king-richard-the-second-act-3817",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The same. A room in the Duke of Lancaster’s palace."
+    },
+    {
+      "id": "king-richard-the-second-1-3",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-3.json",
+      "act": 1,
+      "scene": 3,
+      "parentSectionId": "king-richard-the-second-act-3817",
+      "orderInPlay": 8,
+      "heading": "SCENE III. Open Space, near Coventry. Lists set out, and a Throne. Heralds, &c., attending."
+    },
+    {
+      "id": "king-richard-the-second-1-4",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-4.json",
+      "act": 1,
+      "scene": 4,
+      "parentSectionId": "king-richard-the-second-act-3817",
+      "orderInPlay": 9,
+      "heading": "SCENE IV. London. A Room in the King’s Castle"
+    },
+    {
+      "id": "king-richard-the-second-act-41693",
+      "kind": "act",
+      "path": "./sections/act-41693.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 10,
+      "heading": "ACT II"
+    },
+    {
+      "id": "king-richard-the-second-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "king-richard-the-second-act-41693",
+      "orderInPlay": 11,
+      "heading": "SCENE I. London. An Apartment in Ely House."
+    },
+    {
+      "id": "king-richard-the-second-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "king-richard-the-second-act-41693",
+      "orderInPlay": 12,
+      "heading": "SCENE II. The Same. A Room in the Castle."
+    },
+    {
+      "id": "king-richard-the-second-2-3",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-3.json",
+      "act": 2,
+      "scene": 3,
+      "parentSectionId": "king-richard-the-second-act-41693",
+      "orderInPlay": 13,
+      "heading": "SCENE III. The Wolds in Gloucestershire."
+    },
+    {
+      "id": "king-richard-the-second-2-4",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-4.json",
+      "act": 2,
+      "scene": 4,
+      "parentSectionId": "king-richard-the-second-act-41693",
+      "orderInPlay": 14,
+      "heading": "SCENE IV. A camp in Wales."
+    },
+    {
+      "id": "king-richard-the-second-act-80234",
+      "kind": "act",
+      "path": "./sections/act-80234.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 15,
+      "heading": "ACT III"
+    },
+    {
+      "id": "king-richard-the-second-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "king-richard-the-second-act-80234",
+      "orderInPlay": 16,
+      "heading": "SCENE I. Bristol. Bolingbroke’s camp."
+    },
+    {
+      "id": "king-richard-the-second-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "king-richard-the-second-act-80234",
+      "orderInPlay": 17,
+      "heading": "SCENE II. The coast of Wales. A castle in view."
+    },
+    {
+      "id": "king-richard-the-second-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "king-richard-the-second-act-80234",
+      "orderInPlay": 18,
+      "heading": "SCENE III. Wales. Before Flint Castle."
+    },
+    {
+      "id": "king-richard-the-second-3-4",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-4.json",
+      "act": 3,
+      "scene": 4,
+      "parentSectionId": "king-richard-the-second-act-80234",
+      "orderInPlay": 19,
+      "heading": "SCENE IV. Langley. The Duke of York’s garden."
+    },
+    {
+      "id": "king-richard-the-second-act-114554",
+      "kind": "act",
+      "path": "./sections/act-114554.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 20,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "king-richard-the-second-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "king-richard-the-second-act-114554",
+      "orderInPlay": 21,
+      "heading": "SCENE I. Westminster Hall."
+    },
+    {
+      "id": "king-richard-the-second-act-134634",
+      "kind": "act",
+      "path": "./sections/act-134634.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 22,
+      "heading": "ACT V"
+    },
+    {
+      "id": "king-richard-the-second-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 23,
+      "heading": "SCENE I. London. A street leading to the Tower."
+    },
+    {
+      "id": "king-richard-the-second-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 24,
+      "heading": "SCENE II. The same. A room in the Duke of York’s palace."
+    },
+    {
+      "id": "king-richard-the-second-5-3",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-3.json",
+      "act": 5,
+      "scene": 3,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 25,
+      "heading": "SCENE III. Windsor. A room in the Castle."
+    },
+    {
+      "id": "king-richard-the-second-5-4",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-4.json",
+      "act": 5,
+      "scene": 4,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 26,
+      "heading": "SCENE IV. Another room in the Castle."
+    },
+    {
+      "id": "king-richard-the-second-5-5",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-5.json",
+      "act": 5,
+      "scene": 5,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 27,
+      "heading": "SCENE V. Pomfret. The dungeon of the Castle."
+    },
+    {
+      "id": "king-richard-the-second-5-6",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-6.json",
+      "act": 5,
+      "scene": 6,
+      "parentSectionId": "king-richard-the-second-act-134634",
+      "orderInPlay": 28,
+      "heading": "SCENE VI. Windsor. An Apartment in the Castle."
+    }
+  ],
+  "contentVersion": "e4f9d9b12e7d6466fb1b40c610c98105fd37937578c9a065d832ce29eb058dbb"
 }

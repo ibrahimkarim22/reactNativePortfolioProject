@@ -1,157 +1,257 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "timon-of-athens",
-    "title": "The Life of Timon of Athens",
+    "title": "THE LIFE OF TIMON OF ATHENS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap33"
   },
-  "scene": {
+  "section": {
     "id": "timon-of-athens-5-4",
+    "kind": "scene",
+    "heading": "SCENE IV. The woods. Timon’s cave, and a rude tomb seen",
     "act": 5,
     "scene": 4,
-    "label": "Act 5, Scene 4",
-    "title": "SCENE IV. The woods. Timon's cave, and a rude tomb seen",
-    "location": "The woods. Timon's cave, and a rude tomb seen",
-    "orderInPlay": 17
+    "parentSectionId": "timon-of-athens-act-133250",
+    "orderInPlay": 26,
+    "sourceRef": {
+      "start": 5935083,
+      "end": 5935179,
+      "line": 221221,
+      "column": 1,
+      "path": "chap33/h3@149426",
+      "anchor": "sceneV_33.4"
+    }
   },
   "content": [
     {
-      "id": "timon-of-athens-5-4-stage-001",
-      "type": "stage",
-      "text": "Enter a Soldier in the woods, seeking Timon."
-    },
-    {
-      "id": "timon-of-athens-5-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "soldier",
-        "name": "SOLDIER",
-        "displayName": "Soldier"
-      },
+      "id": "timon-of-athens/sceneV_33.4/h3@149426",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. The woods. Timon’s cave, and a rude tomb seen",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 55
+        }
+      ],
       "lines": [
         {
-          "id": "timon-of-athens-5-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "By all description this should be the place.",
-          "plainText": "By all description this should be the place",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Who's here? Speak, ho! No answer? What is this?",
-          "plainText": "Who's here Speak ho No answer What is this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Timon is dead, who hath outstretched his span.",
-          "plainText": "Timon is dead who hath outstretched his span",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Some beast read this; there does not live a man.",
-          "plainText": "Some beast read this there does not live a man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Dead, sure, and this his grave. What's on this tomb",
-          "plainText": "Dead sure and this his grave What's on this tomb",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "I cannot read. The character I'll take with wax.",
-          "plainText": "I cannot read The character I'll take with wax",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Our captain hath in every figure skill,",
-          "plainText": "Our captain hath in every figure skill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "An aged interpreter, though young in days.",
-          "plainText": "An aged interpreter though young in days",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Before proud Athens he's set down by this,",
-          "plainText": "Before proud Athens he's set down by this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-5-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Whose fall the mark of his ambition is.",
-          "plainText": "Whose fall the mark of his ambition is",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneV_33.4/h3@149426/line-1",
+          "start": 0,
+          "end": 55,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5935083,
+        "end": 5935179,
+        "line": 221221,
+        "column": 1,
+        "path": "chap33/h3@149426",
+        "anchor": "sceneV_33.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "timon-of-athens-5-4-stage-002",
+      "id": "timon-of-athens/sceneV_33.4/p@149526",
       "type": "stage",
-      "text": "[Exit.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Soldier in the woods, seeking Timon.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 38,
+          "end": 43,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149526/line-1",
+          "start": 0,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5935183,
+        "end": 5935317,
+        "line": 221223,
+        "column": 1,
+        "path": "chap33/p@149526",
+        "anchor": "sceneV_33.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneV_33.4/p@149664",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLDIER.\nBy all description this should be the place.\nWho’s here? Speak, ho! No answer? What is this?\nTimon is dead, who hath outstretched his span.\nSome beast read this; there does not live a man.\nDead, sure, and this his grave. What’s on this tomb\nI cannot read. The character I’ll take with wax.\nOur captain hath in every figure skill,\nAn aged interpreter, though young in days.\nBefore proud Athens he’s set down by this,\nWhose fall the mark of his ambition is.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 102,
+          "end": 197
+        }
+      ],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-3",
+          "start": 54,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-4",
+          "start": 102,
+          "end": 148,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-5",
+          "start": 149,
+          "end": 197,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-6",
+          "start": 198,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-7",
+          "start": 250,
+          "end": 298,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-8",
+          "start": 299,
+          "end": 338,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-9",
+          "start": 339,
+          "end": 381,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-10",
+          "start": 382,
+          "end": 424,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@149664/line-11",
+          "start": 425,
+          "end": 464,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5935321,
+        "end": 5935867,
+        "line": 221228,
+        "column": 1,
+        "path": "chap33/p@149664",
+        "anchor": "sceneV_33.4"
+      },
+      "speakerLabel": "SOLDIER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneV_33.4/p@150214",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneV_33.4/p@150214/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5935871,
+        "end": 5935906,
+        "line": 221242,
+        "column": 1,
+        "path": "chap33/p@150214",
+        "anchor": "sceneV_33.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "abe3b87a6564ebd9425b190d6e821ec032886bbdad4c452d25e315e8556598f4"
 }

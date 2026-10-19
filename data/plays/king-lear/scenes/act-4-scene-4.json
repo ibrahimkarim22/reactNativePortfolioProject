@@ -1,420 +1,615 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-4-4",
+    "kind": "scene",
+    "heading": "SCENE IV. The French camp. A Tent",
     "act": 4,
     "scene": 4,
-    "label": "Act 4, Scene 4",
-    "title": "SCENE IV. The French camp. A Tent",
-    "location": "The French camp. A Tent",
-    "orderInPlay": 20
+    "parentSectionId": "king-lear-act-139632",
+    "orderInPlay": 28,
+    "sourceRef": {
+      "start": 3328612,
+      "end": 3328687,
+      "line": 121537,
+      "column": 1,
+      "path": "chap18/h3@155157",
+      "anchor": "sceneIV_18.4"
+    }
   },
   "content": [
     {
-      "id": "king-lear-4-4-stage-001",
+      "id": "king-lear/sceneIV_18.4/h3@155157",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. The French camp. A Tent",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/h3@155157/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3328612,
+        "end": 3328687,
+        "line": 121537,
+        "column": 1,
+        "path": "chap18/h3@155157",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@155236",
       "type": "stage",
-      "text": "Enter with drum and colours, Cordelia, Physician and Soldiers."
-    },
-    {
-      "id": "king-lear-4-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "cordelia",
-        "name": "CORDELIA",
-        "displayName": "Cordelia"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter with drum and colours, Cordelia, Physician and Soldiers.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 29,
+          "end": 48,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 53,
+          "end": 61,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-4-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Alack, 'tis he: why, he was met even now",
-          "plainText": "Alack 'tis he why he was met even now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "As mad as the vex'd sea; singing aloud;",
-          "plainText": "As mad as the vex'd sea singing aloud",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Crown'd with rank fumiter and furrow weeds,",
-          "plainText": "Crown'd with rank fumiter and furrow weeds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "With harlocks, hemlock, nettles, cuckoo-flowers,",
-          "plainText": "With harlocks hemlock nettles cuckooflowers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Darnel, and all the idle weeds that grow",
-          "plainText": "Darnel and all the idle weeds that grow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "In our sustaining corn. A century send forth;",
-          "plainText": "In our sustaining corn A century send forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Search every acre in the high-grown field,",
-          "plainText": "Search every acre in the highgrown field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "And bring him to our eye.",
-          "plainText": "And bring him to our eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@155236/line-1",
+          "start": 0,
+          "end": 62,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3328691,
+        "end": 3328839,
+        "line": 121539,
+        "column": 1,
+        "path": "chap18/p@155236",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-4-4-stage-002",
+      "id": "king-lear/sceneIV_18.4/p@155388",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORDELIA.\nAlack, ’tis he: why, he was met even now\nAs mad as the vex’d sea; singing aloud;\nCrown’d with rank fumiter and furrow weeds,\nWith harlocks, hemlock, nettles, cuckoo-flowers,\nDarnel, and all the idle weeds that grow\nIn our sustaining corn. A century send forth;\nSearch every acre in the high-grown field,\nAnd bring him to our eye.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-3",
+          "start": 51,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-4",
+          "start": 91,
+          "end": 134,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-5",
+          "start": 135,
+          "end": 183,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-6",
+          "start": 184,
+          "end": 224,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-7",
+          "start": 225,
+          "end": 270,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-8",
+          "start": 271,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155388/line-9",
+          "start": 314,
+          "end": 339,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3328843,
+        "end": 3329247,
+        "line": 121542,
+        "column": 1,
+        "path": "chap18/p@155388",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": "CORDELIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@155796",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit an Officer.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 17
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/p@155796/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3329251,
+        "end": 3329297,
+        "line": 121554,
+        "column": 1,
+        "path": "chap18/p@155796",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@155846",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "What can man’s wisdom\nIn the restoring his bereaved sense,\nHe that helps him take all my outward worth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/p@155846/line-1",
+          "start": 0,
+          "end": 21,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155846/line-2",
+          "start": 22,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155846/line-3",
+          "start": 59,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3329301,
+        "end": 3329439,
+        "line": 121556,
+        "column": 1,
+        "path": "chap18/p@155846",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@155988",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHYSICIAN.\nThere is means, madam:\nOur foster nurse of nature is repose,\nThe which he lacks; that to provoke in him\nAre many simples operative, whose power\nWill close the eye of anguish.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-2",
+          "start": 11,
+          "end": 33,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-3",
+          "start": 34,
+          "end": 71,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-4",
+          "start": 72,
+          "end": 114,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-5",
+          "start": 115,
+          "end": 154,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@155988/line-6",
+          "start": 155,
+          "end": 185,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3329443,
+        "end": 3329678,
+        "line": 121562,
+        "column": 1,
+        "path": "chap18/p@155988",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": "PHYSICIAN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@156227",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORDELIA.\nAll bless’d secrets,\nAll you unpublish’d virtues of the earth,\nSpring with my tears! Be aidant and remediate\nIn the good man’s distress! Seek, seek for him;\nLest his ungovern’d rage dissolve the life\nThat wants the means to lead it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-3",
+          "start": 31,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-4",
+          "start": 73,
+          "end": 118,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-5",
+          "start": 119,
+          "end": 166,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-6",
+          "start": 167,
+          "end": 209,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156227/line-7",
+          "start": 210,
+          "end": 242,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3329682,
+        "end": 3329979,
+        "line": 121571,
+        "column": 1,
+        "path": "chap18/p@156227",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": "CORDELIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@156528",
       "type": "stage",
-      "text": "[Exit an Officer.]"
-    },
-    {
-      "id": "king-lear-4-4-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "physician",
-        "name": "PHYSICIAN",
-        "displayName": "Physician"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Messenger.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 17,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-4-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "There is means, madam:",
-          "plainText": "There is means madam",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 2,
-          "text": "Our foster nurse of nature is repose,",
-          "plainText": "Our foster nurse of nature is repose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 3,
-          "text": "The which he lacks; that to provoke in him",
-          "plainText": "The which he lacks that to provoke in him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 4,
-          "text": "Are many simples operative, whose power",
-          "plainText": "Are many simples operative whose power",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 5,
-          "text": "Will close the eye of anguish.",
-          "plainText": "Will close the eye of anguish",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156528/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3329983,
+        "end": 3330056,
+        "line": 121581,
+        "column": 1,
+        "path": "chap18/p@156528",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-4-4-speech-003",
+      "id": "king-lear/sceneIV_18.4/p@156605",
       "type": "speech",
-      "speaker": {
-        "id": "cordelia",
-        "name": "CORDELIA",
-        "displayName": "Cordelia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MESSENGER.\nNews, madam;\nThe British powers are marching hitherward.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-4-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "All bless'd secrets,",
-          "plainText": "All bless'd secrets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156605/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-4-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "All you unpublish'd virtues of the earth,",
-          "plainText": "All you unpublish'd virtues of the earth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156605/line-2",
+          "start": 11,
+          "end": 23,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-4-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "Spring with my tears! Be aidant and remediate",
-          "plainText": "Spring with my tears Be aidant and remediate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "In the good man's distress! Seek, seek for him;",
-          "plainText": "In the good man's distress Seek seek for him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 5,
-          "text": "Lest his ungovern'd rage dissolve the life",
-          "plainText": "Lest his ungovern'd rage dissolve the life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 6,
-          "text": "That wants the means to lead it.",
-          "plainText": "That wants the means to lead it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156605/line-3",
+          "start": 24,
+          "end": 67,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "king-lear-4-4-stage-003",
-      "type": "stage",
-      "text": "Enter a Messenger."
-    },
-    {
-      "id": "king-lear-4-4-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "messenger",
-        "name": "MESSENGER",
-        "displayName": "Messenger"
+      ],
+      "sourceRef": {
+        "start": 3330060,
+        "end": 3330162,
+        "line": 121583,
+        "column": 1,
+        "path": "chap18/p@156605",
+        "anchor": "sceneIV_18.4"
       },
+      "speakerLabel": "MESSENGER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "king-lear/sceneIV_18.4/p@156711",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORDELIA.\n’Tis known before. Our preparation stands\nIn expectation of them. O dear father,\nIt is thy business that I go about;\nTherefore great France\nMy mourning and important tears hath pitied.\nNo blown ambition doth our arms incite,\nBut love, dear love, and our ag’d father’s right:\nSoon may I hear and see him!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-4-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "News, madam;",
-          "plainText": "News madam",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156711/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-4-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 2,
-          "text": "The British powers are marching hitherward.",
-          "plainText": "The British powers are marching hitherward",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@156711/line-2",
+          "start": 10,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-3",
+          "start": 52,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-4",
+          "start": 91,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-5",
+          "start": 127,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-6",
+          "start": 150,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-7",
+          "start": 195,
+          "end": 234,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-8",
+          "start": 235,
+          "end": 284,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIV_18.4/p@156711/line-9",
+          "start": 285,
+          "end": 313,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3330166,
+        "end": 3330544,
+        "line": 121589,
+        "column": 1,
+        "path": "chap18/p@156711",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": "CORDELIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "king-lear-4-4-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "cordelia",
-        "name": "CORDELIA",
-        "displayName": "Cordelia"
-      },
+      "id": "king-lear/sceneIV_18.4/p@157093",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-4-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "'Tis known before. Our preparation stands",
-          "plainText": "'Tis known before Our preparation stands",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "In expectation of them. O dear father,",
-          "plainText": "In expectation of them O dear father",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "It is thy business that I go about;",
-          "plainText": "It is thy business that I go about",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "Therefore great France",
-          "plainText": "Therefore great France",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "My mourning and important tears hath pitied.",
-          "plainText": "My mourning and important tears hath pitied",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 6,
-          "text": "No blown ambition doth our arms incite,",
-          "plainText": "No blown ambition doth our arms incite",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 7,
-          "text": "But love, dear love, and our ag'd father's right:",
-          "plainText": "But love dear love and our ag'd father's right",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-4-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 8,
-          "text": "Soon may I hear and see him!",
-          "plainText": "Soon may I hear and see him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIV_18.4/p@157093/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "king-lear-4-4-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      ],
+      "sourceRef": {
+        "start": 3330548,
+        "end": 3330585,
+        "line": 121601,
+        "column": 1,
+        "path": "chap18/p@157093",
+        "anchor": "sceneIV_18.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

@@ -1,1850 +1,1889 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "as-you-like-it",
-    "title": "As You Like It",
+    "title": "AS YOU LIKE IT",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap04"
   },
-  "scene": {
+  "section": {
     "id": "as-you-like-it-3-5",
+    "kind": "scene",
+    "heading": "SCENE V. Another part of the Forest",
     "act": 3,
     "scene": 5,
-    "label": "Act 3, Scene 5",
-    "title": "SCENE V. Another part of the Forest",
-    "location": "Another part of the Forest",
-    "orderInPlay": 15
+    "parentSectionId": "as-you-like-it-act-72251",
+    "orderInPlay": 21,
+    "sourceRef": {
+      "start": 638537,
+      "end": 638614,
+      "line": 23950,
+      "column": 1,
+      "path": "chap04/h3@108162",
+      "anchor": "sceneIII_4.5"
+    }
   },
   "content": [
     {
-      "id": "as-you-like-it-3-5-stage-001",
+      "id": "as-you-like-it/sceneIII_4.5/h3@108162",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Another part of the Forest",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneIII_4.5/h3@108162/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 638537,
+        "end": 638614,
+        "line": 23950,
+        "column": 1,
+        "path": "chap04/h3@108162",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneIII_4.5/p@108243",
       "type": "stage",
-      "text": "Enter Silvius and Phoebe."
-    },
-    {
-      "id": "as-you-like-it-3-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Silvius and Phoebe.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 18,
+          "end": 24,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Sweet Phoebe, do not scorn me, do not, Phoebe.",
-          "plainText": "Sweet Phoebe do not scorn me do not Phoebe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Say that you love me not, but say not so",
-          "plainText": "Say that you love me not but say not so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "In bitterness. The common executioner,",
-          "plainText": "In bitterness The common executioner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Whose heart th' accustomed sight of death makes hard,",
-          "plainText": "Whose heart th' accustomed sight of death makes hard",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Falls not the axe upon the humbled neck",
-          "plainText": "Falls not the axe upon the humbled neck",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "But first begs pardon. Will you sterner be",
-          "plainText": "But first begs pardon Will you sterner be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Than he that dies and lives by bloody drops?",
-          "plainText": "Than he that dies and lives by bloody drops",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108243/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 638618,
+        "end": 638733,
+        "line": 23952,
+        "column": 1,
+        "path": "chap04/p@108243",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "as-you-like-it-3-5-stage-002",
+      "id": "as-you-like-it/sceneIII_4.5/p@108362",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nSweet Phoebe, do not scorn me, do not, Phoebe.\nSay that you love me not, but say not so\nIn bitterness. The common executioner,\nWhose heart th’ accustomed sight of death makes hard,\nFalls not the axe upon the humbled neck\nBut first begs pardon. Will you sterner be\nThan he that dies and lives by bloody drops?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-3",
+          "start": 56,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-4",
+          "start": 97,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-5",
+          "start": 136,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-6",
+          "start": 190,
+          "end": 229,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-7",
+          "start": 230,
+          "end": 272,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108362/line-8",
+          "start": 273,
+          "end": 317,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 638737,
+        "end": 639114,
+        "line": 23957,
+        "column": 1,
+        "path": "chap04/p@108362",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneIII_4.5/p@108743",
       "type": "stage",
-      "text": "Enter Rosalind, Celia and Corin, at a distance."
-    },
-    {
-      "id": "as-you-like-it-3-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Rosalind, Celia and Corin, at a distance.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 21,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 26,
+          "end": 31,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "I would not be thy executioner;",
-          "plainText": "I would not be thy executioner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "I fly thee, for I would not injure thee.",
-          "plainText": "I fly thee for I would not injure thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "Thou tell'st me there is murder in mine eye.",
-          "plainText": "Thou tell'st me there is murder in mine eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "'Tis pretty, sure, and very probable",
-          "plainText": "'Tis pretty sure and very probable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 5,
-          "text": "That eyes, that are the frail'st and softest things,",
-          "plainText": "That eyes that are the frail'st and softest things",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 6,
-          "text": "Who shut their coward gates on atomies,",
-          "plainText": "Who shut their coward gates on atomies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 7,
-          "text": "Should be called tyrants, butchers, murderers.",
-          "plainText": "Should be called tyrants butchers murderers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 8,
-          "text": "Now I do frown on thee with all my heart,",
-          "plainText": "Now I do frown on thee with all my heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 9,
-          "text": "And if mine eyes can wound, now let them kill thee.",
-          "plainText": "And if mine eyes can wound now let them kill thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 10,
-          "text": "Now counterfeit to swoon; why, now fall down;",
-          "plainText": "Now counterfeit to swoon why now fall down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 11,
-          "text": "Or if thou canst not, O, for shame, for shame,",
-          "plainText": "Or if thou canst not O for shame for shame",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 12,
-          "text": "Lie not, to say mine eyes are murderers.",
-          "plainText": "Lie not to say mine eyes are murderers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 13,
-          "text": "Now show the wound mine eye hath made in thee.",
-          "plainText": "Now show the wound mine eye hath made in thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 14,
-          "text": "Scratch thee but with a pin, and there remains",
-          "plainText": "Scratch thee but with a pin and there remains",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 15,
-          "text": "Some scar of it; lean upon a rush,",
-          "plainText": "Some scar of it lean upon a rush",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 16,
-          "text": "The cicatrice and capable impressure",
-          "plainText": "The cicatrice and capable impressure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 17,
-          "text": "Thy palm some moment keeps. But now mine eyes,",
-          "plainText": "Thy palm some moment keeps But now mine eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 18,
-          "text": "Which I have darted at thee, hurt thee not;",
-          "plainText": "Which I have darted at thee hurt thee not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 19,
-          "text": "Nor I am sure there is not force in eyes",
-          "plainText": "Nor I am sure there is not force in eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 20,
-          "text": "That can do hurt.",
-          "plainText": "That can do hurt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108743/line-1",
+          "start": 0,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 639118,
+        "end": 639255,
+        "line": 23968,
+        "column": 1,
+        "path": "chap04/p@108743",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-003",
+      "id": "as-you-like-it/sceneIII_4.5/p@108884",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nI would not be thy executioner;\nI fly thee, for I would not injure thee.\nThou tell’st me there is murder in mine eye.\n’Tis pretty, sure, and very probable\nThat eyes, that are the frail’st and softest things,\nWho shut their coward gates on atomies,\nShould be called tyrants, butchers, murderers.\nNow I do frown on thee with all my heart,\nAnd if mine eyes can wound, now let them kill thee.\nNow counterfeit to swoon; why, now fall down;\nOr if thou canst not, O, for shame, for shame,\nLie not, to say mine eyes are murderers.\nNow show the wound mine eye hath made in thee.\nScratch thee but with a pin, and there remains\nSome scar of it; lean upon a rush,\nThe cicatrice and capable impressure\nThy palm some moment keeps. But now mine eyes,\nWhich I have darted at thee, hurt thee not;\nNor I am sure there is not force in eyes\nThat can do hurt.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "O dear Phoebe,",
-          "plainText": "O dear Phoebe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 2,
-          "text": "If ever—as that ever may be near—",
-          "plainText": "If everas that ever may be near",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-2",
+          "start": 8,
+          "end": 39,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 3,
-          "text": "You meet in some fresh cheek the power of fancy,",
-          "plainText": "You meet in some fresh cheek the power of fancy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-3",
+          "start": 40,
+          "end": 80,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 4,
-          "text": "Then shall you know the wounds invisible",
-          "plainText": "Then shall you know the wounds invisible",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-4",
+          "start": 81,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 5,
-          "text": "That love's keen arrows make.",
-          "plainText": "That love's keen arrows make",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-5",
+          "start": 126,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-6",
+          "start": 163,
+          "end": 215,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-7",
+          "start": 216,
+          "end": 255,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-8",
+          "start": 256,
+          "end": 302,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-9",
+          "start": 303,
+          "end": 344,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-10",
+          "start": 345,
+          "end": 396,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-11",
+          "start": 397,
+          "end": 442,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-12",
+          "start": 443,
+          "end": 489,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-13",
+          "start": 490,
+          "end": 530,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-14",
+          "start": 531,
+          "end": 577,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-15",
+          "start": 578,
+          "end": 624,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-16",
+          "start": 625,
+          "end": 659,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-17",
+          "start": 660,
+          "end": 696,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-18",
+          "start": 697,
+          "end": 743,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-19",
+          "start": 744,
+          "end": 787,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-20",
+          "start": 788,
+          "end": 828,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@108884/line-21",
+          "start": 829,
+          "end": 846,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 639259,
+        "end": 640230,
+        "line": 23973,
+        "column": 1,
+        "path": "chap04/p@108884",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-004",
+      "id": "as-you-like-it/sceneIII_4.5/p@109859",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nO dear Phoebe,\nIf ever—as that ever may be near—\nYou meet in some fresh cheek the power of fancy,\nThen shall you know the wounds invisible\nThat love’s keen arrows make.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "But till that time",
-          "plainText": "But till that time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Come not thou near me. And when that time comes,",
-          "plainText": "Come not thou near me And when that time comes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-2",
+          "start": 9,
+          "end": 23,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "Afflict me with thy mocks, pity me not,",
-          "plainText": "Afflict me with thy mocks pity me not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-3",
+          "start": 24,
+          "end": 57,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "As till that time I shall not pity thee.",
-          "plainText": "As till that time I shall not pity thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-4",
+          "start": 58,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-5",
+          "start": 107,
+          "end": 147,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@109859/line-6",
+          "start": 148,
+          "end": 177,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 640234,
+        "end": 640461,
+        "line": 23997,
+        "column": 1,
+        "path": "chap04/p@109859",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-005",
+      "id": "as-you-like-it/sceneIII_4.5/p@110090",
       "type": "speech",
-      "speaker": {
-        "id": "rosalind",
-        "name": "ROSALIND",
-        "displayName": "Rosalind"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nBut till that time\nCome not thou near me. And when that time comes,\nAfflict me with thy mocks, pity me not,\nAs till that time I shall not pity thee.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "[Advancing.] And why, I pray you? Who might be your mother,",
-          "plainText": "Advancing And why I pray you Who might be your mother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110090/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 2,
-          "text": "That you insult, exult, and all at once,",
-          "plainText": "That you insult exult and all at once",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110090/line-2",
+          "start": 8,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 3,
-          "text": "Over the wretched? What though you have no beauty—",
-          "plainText": "Over the wretched What though you have no beauty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110090/line-3",
+          "start": 27,
+          "end": 75,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 4,
-          "text": "As, by my faith, I see no more in you",
-          "plainText": "As by my faith I see no more in you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110090/line-4",
+          "start": 76,
+          "end": 115,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 5,
-          "text": "Than without candle may go dark to bed—",
-          "plainText": "Than without candle may go dark to bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 6,
-          "text": "Must you be therefore proud and pitiless?",
-          "plainText": "Must you be therefore proud and pitiless",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 7,
-          "text": "Why, what means this? Why do you look on me?",
-          "plainText": "Why what means this Why do you look on me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 8,
-          "text": "I see no more in you than in the ordinary",
-          "plainText": "I see no more in you than in the ordinary",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 9,
-          "text": "Of nature's sale-work. 'Od's my little life,",
-          "plainText": "Of nature's salework 'Od's my little life",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 10,
-          "text": "I think she means to tangle my eyes too!",
-          "plainText": "I think she means to tangle my eyes too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 11,
-          "text": "No, faith, proud mistress, hope not after it.",
-          "plainText": "No faith proud mistress hope not after it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 12,
-          "text": "'Tis not your inky brows, your black silk hair,",
-          "plainText": "'Tis not your inky brows your black silk hair",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 13,
-          "text": "Your bugle eyeballs, nor your cheek of cream,",
-          "plainText": "Your bugle eyeballs nor your cheek of cream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 14,
-          "text": "That can entame my spirits to your worship.",
-          "plainText": "That can entame my spirits to your worship",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 15,
-          "text": "You foolish shepherd, wherefore do you follow her,",
-          "plainText": "You foolish shepherd wherefore do you follow her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 16,
-          "text": "Like foggy south, puffing with wind and rain?",
-          "plainText": "Like foggy south puffing with wind and rain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 17,
-          "text": "You are a thousand times a properer man",
-          "plainText": "You are a thousand times a properer man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 18,
-          "text": "Than she a woman. 'Tis such fools as you",
-          "plainText": "Than she a woman 'Tis such fools as you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0055",
-          "number": 55,
-          "speechLineNumber": 19,
-          "text": "That makes the world full of ill-favoured children.",
-          "plainText": "That makes the world full of illfavoured children",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0056",
-          "number": 56,
-          "speechLineNumber": 20,
-          "text": "'Tis not her glass but you that flatters her,",
-          "plainText": "'Tis not her glass but you that flatters her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0057",
-          "number": 57,
-          "speechLineNumber": 21,
-          "text": "And out of you she sees herself more proper",
-          "plainText": "And out of you she sees herself more proper",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0058",
-          "number": 58,
-          "speechLineNumber": 22,
-          "text": "Than any of her lineaments can show her.",
-          "plainText": "Than any of her lineaments can show her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0059",
-          "number": 59,
-          "speechLineNumber": 23,
-          "text": "But, mistress, know yourself; down on your knees,",
-          "plainText": "But mistress know yourself down on your knees",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0060",
-          "number": 60,
-          "speechLineNumber": 24,
-          "text": "And thank heaven, fasting, for a good man's love.",
-          "plainText": "And thank heaven fasting for a good man's love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0061",
-          "number": 61,
-          "speechLineNumber": 25,
-          "text": "For I must tell you friendly in your ear,",
-          "plainText": "For I must tell you friendly in your ear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0062",
-          "number": 62,
-          "speechLineNumber": 26,
-          "text": "Sell when you can; you are not for all markets.",
-          "plainText": "Sell when you can you are not for all markets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0063",
-          "number": 63,
-          "speechLineNumber": 27,
-          "text": "Cry the man mercy, love him, take his offer;",
-          "plainText": "Cry the man mercy love him take his offer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0064",
-          "number": 64,
-          "speechLineNumber": 28,
-          "text": "Foul is most foul, being foul to be a scoffer.",
-          "plainText": "Foul is most foul being foul to be a scoffer",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0065",
-          "number": 65,
-          "speechLineNumber": 29,
-          "text": "So take her to thee, shepherd. Fare you well.",
-          "plainText": "So take her to thee shepherd Fare you well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110090/line-5",
+          "start": 116,
+          "end": 156,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 640465,
+        "end": 640666,
+        "line": 24006,
+        "column": 1,
+        "path": "chap04/p@110090",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-006",
+      "id": "as-you-like-it/sceneIII_4.5/p@110295",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSALIND.\n[Advancing.] And why, I pray you? Who might be your mother,\nThat you insult, exult, and all at once,\nOver the wretched? What though you have no beauty—\nAs, by my faith, I see no more in you\nThan without candle may go dark to bed—\nMust you be therefore proud and pitiless?\nWhy, what means this? Why do you look on me?\nI see no more in you than in the ordinary\nOf nature’s sale-work. ’Od’s my little life,\nI think she means to tangle my eyes too!\nNo, faith, proud mistress, hope not after it.\n’Tis not your inky brows, your black silk hair,\nYour bugle eyeballs, nor your cheek of cream,\nThat can entame my spirits to your worship.\nYou foolish shepherd, wherefore do you follow her,\nLike foggy south, puffing with wind and rain?\nYou are a thousand times a properer man\nThan she a woman. ’Tis such fools as you\nThat makes the world full of ill-favoured children.\n’Tis not her glass but you that flatters her,\nAnd out of you she sees herself more proper\nThan any of her lineaments can show her.\nBut, mistress, know yourself; down on your knees,\nAnd thank heaven, fasting, for a good man’s love.\nFor I must tell you friendly in your ear,\nSell when you can; you are not for all markets.\nCry the man mercy, love him, take his offer;\nFoul is most foul, being foul to be a scoffer.\nSo take her to thee, shepherd. Fare you well.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 11,
+          "end": 20
+        }
+      ],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "Sweet youth, I pray you chide a year together!",
-          "plainText": "Sweet youth I pray you chide a year together",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0067",
-          "number": 67,
-          "speechLineNumber": 2,
-          "text": "I had rather hear you chide than this man woo.",
-          "plainText": "I had rather hear you chide than this man woo",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-2",
+          "start": 10,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-3",
+          "start": 70,
+          "end": 110,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-4",
+          "start": 111,
+          "end": 161,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-5",
+          "start": 162,
+          "end": 199,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-6",
+          "start": 200,
+          "end": 239,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-7",
+          "start": 240,
+          "end": 281,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-8",
+          "start": 282,
+          "end": 326,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-9",
+          "start": 327,
+          "end": 368,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-10",
+          "start": 369,
+          "end": 413,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-11",
+          "start": 414,
+          "end": 454,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-12",
+          "start": 455,
+          "end": 500,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-13",
+          "start": 501,
+          "end": 548,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-14",
+          "start": 549,
+          "end": 594,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-15",
+          "start": 595,
+          "end": 638,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-16",
+          "start": 639,
+          "end": 689,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-17",
+          "start": 690,
+          "end": 735,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-18",
+          "start": 736,
+          "end": 775,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-19",
+          "start": 776,
+          "end": 816,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-20",
+          "start": 817,
+          "end": 868,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-21",
+          "start": 869,
+          "end": 914,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-22",
+          "start": 915,
+          "end": 958,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-23",
+          "start": 959,
+          "end": 999,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-24",
+          "start": 1000,
+          "end": 1049,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-25",
+          "start": 1050,
+          "end": 1099,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-26",
+          "start": 1100,
+          "end": 1141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-27",
+          "start": 1142,
+          "end": 1189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-28",
+          "start": 1190,
+          "end": 1234,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-29",
+          "start": 1235,
+          "end": 1281,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@110295/line-30",
+          "start": 1282,
+          "end": 1327,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 640670,
+        "end": 642174,
+        "line": 24014,
+        "column": 1,
+        "path": "chap04/p@110295",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "ROSALIND.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-007",
+      "id": "as-you-like-it/sceneIII_4.5/p@111803",
       "type": "speech",
-      "speaker": {
-        "id": "rosalind",
-        "name": "ROSALIND",
-        "displayName": "Rosalind"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nSweet youth, I pray you chide a year together!\nI had rather hear you chide than this man woo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "He's fall'n in love with your foulness, and she'll fall in love with my anger. If it be so, as fast as she answers thee with frowning looks, I'll sauce her with bitter words. Why look you so upon me?",
-          "plainText": "He's fall'n in love with your foulness and she'll fall in love with my anger If it be so as fast as she answers thee with frowning looks I'll sauce her with bitter words Why look you so upon me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@111803/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@111803/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@111803/line-3",
+          "start": 55,
+          "end": 101,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 642178,
+        "end": 642314,
+        "line": 24047,
+        "column": 1,
+        "path": "chap04/p@111803",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-008",
+      "id": "as-you-like-it/sceneIII_4.5/p@111943",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSALIND.\nHe’s fall’n in love with your foulness, and she’ll fall in love with my anger. If it be so, as fast as she answers thee with frowning looks, I’ll sauce her with bitter words. Why look you so upon me?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "For no ill will I bear you.",
-          "plainText": "For no ill will I bear you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@111943/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@111943/line-2",
+          "start": 10,
+          "end": 209,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 642318,
+        "end": 642559,
+        "line": 24053,
+        "column": 1,
+        "path": "chap04/p@111943",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "ROSALIND.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-009",
+      "id": "as-you-like-it/sceneIII_4.5/p@112188",
       "type": "speech",
-      "speaker": {
-        "id": "rosalind",
-        "name": "ROSALIND",
-        "displayName": "Rosalind"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nFor no ill will I bear you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "I pray you do not fall in love with me,",
-          "plainText": "I pray you do not fall in love with me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@112188/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0071",
-          "number": 71,
-          "speechLineNumber": 2,
-          "text": "For I am falser than vows made in wine.",
-          "plainText": "For I am falser than vows made in wine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0072",
-          "number": 72,
-          "speechLineNumber": 3,
-          "text": "Besides, I like you not. If you will know my house,",
-          "plainText": "Besides I like you not If you will know my house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0073",
-          "number": 73,
-          "speechLineNumber": 4,
-          "text": "'Tis at the tuft of olives here hard by.",
-          "plainText": "'Tis at the tuft of olives here hard by",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0074",
-          "number": 74,
-          "speechLineNumber": 5,
-          "text": "Will you go, sister? Shepherd, ply her hard.",
-          "plainText": "Will you go sister Shepherd ply her hard",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0075",
-          "number": 75,
-          "speechLineNumber": 6,
-          "text": "Come, sister. Shepherdess, look on him better,",
-          "plainText": "Come sister Shepherdess look on him better",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0076",
-          "number": 76,
-          "speechLineNumber": 7,
-          "text": "And be not proud. Though all the world could see,",
-          "plainText": "And be not proud Though all the world could see",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0077",
-          "number": 77,
-          "speechLineNumber": 8,
-          "text": "None could be so abused in sight as he.",
-          "plainText": "None could be so abused in sight as he",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0078",
-          "number": 78,
-          "speechLineNumber": 9,
-          "text": "Come, to our flock.",
-          "plainText": "Come to our flock",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@112188/line-2",
+          "start": 8,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "as-you-like-it-3-5-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Rosalind, Celia and Corin.]"
-    },
-    {
-      "id": "as-you-like-it-3-5-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
+      ],
+      "sourceRef": {
+        "start": 642563,
+        "end": 642628,
+        "line": 24060,
+        "column": 1,
+        "path": "chap04/p@112188",
+        "anchor": "sceneIII_4.5"
       },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneIII_4.5/p@112257",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSALIND.\nI pray you do not fall in love with me,\nFor I am falser than vows made in wine.\nBesides, I like you not. If you will know my house,\n’Tis at the tuft of olives here hard by.\nWill you go, sister? Shepherd, ply her hard.\nCome, sister. Shepherdess, look on him better,\nAnd be not proud. Though all the world could see,\nNone could be so abused in sight as he.\nCome, to our flock.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0079",
-          "number": 79,
-          "speechLineNumber": 1,
-          "text": "Dead shepherd, now I find thy saw of might:",
-          "plainText": "Dead shepherd now I find thy saw of might",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0080",
-          "number": 80,
-          "speechLineNumber": 2,
-          "text": "\"Who ever loved that loved not at first sight?\"",
-          "plainText": "Who ever loved that loved not at first sight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-2",
+          "start": 10,
+          "end": 49,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-3",
+          "start": 50,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-4",
+          "start": 90,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-5",
+          "start": 142,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-6",
+          "start": 183,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-7",
+          "start": 228,
+          "end": 274,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-8",
+          "start": 275,
+          "end": 324,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-9",
+          "start": 325,
+          "end": 364,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112257/line-10",
+          "start": 365,
+          "end": 384,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 642632,
+        "end": 643086,
+        "line": 24065,
+        "column": 1,
+        "path": "chap04/p@112257",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "ROSALIND.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "id": "as-you-like-it/sceneIII_4.5/p@112715",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Rosalind, Celia and Corin.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 23,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 33,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 34
+        }
+      ],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0081",
-          "number": 81,
-          "speechLineNumber": 1,
-          "text": "Sweet Phoebe—",
-          "plainText": "Sweet Phoebe",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@112715/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643090,
+        "end": 643218,
+        "line": 24078,
+        "column": 1,
+        "path": "chap04/p@112715",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-012",
+      "id": "as-you-like-it/sceneIII_4.5/p@112847",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nDead shepherd, now I find thy saw of might:\n“Who ever loved that loved not at first sight?”",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "Ha, what sayst thou, Silvius?",
-          "plainText": "Ha what sayst thou Silvius",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@112847/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112847/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112847/line-3",
+          "start": 52,
+          "end": 99,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643222,
+        "end": 643356,
+        "line": 24083,
+        "column": 1,
+        "path": "chap04/p@112847",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-013",
+      "id": "as-you-like-it/sceneIII_4.5/p@112985",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nSweet Phoebe—",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0083",
-          "number": 83,
-          "speechLineNumber": 1,
-          "text": "Sweet Phoebe, pity me.",
-          "plainText": "Sweet Phoebe pity me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@112985/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@112985/line-2",
+          "start": 9,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643360,
+        "end": 643412,
+        "line": 24089,
+        "column": 1,
+        "path": "chap04/p@112985",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-014",
+      "id": "as-you-like-it/sceneIII_4.5/p@113041",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nHa, what sayst thou, Silvius?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "Why, I am sorry for thee, gentle Silvius.",
-          "plainText": "Why I am sorry for thee gentle Silvius",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@113041/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113041/line-2",
+          "start": 8,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643416,
+        "end": 643483,
+        "line": 24094,
+        "column": 1,
+        "path": "chap04/p@113041",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-015",
+      "id": "as-you-like-it/sceneIII_4.5/p@113112",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nSweet Phoebe, pity me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0085",
-          "number": 85,
-          "speechLineNumber": 1,
-          "text": "Wherever sorrow is, relief would be.",
-          "plainText": "Wherever sorrow is relief would be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113112/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0086",
-          "number": 86,
-          "speechLineNumber": 2,
-          "text": "If you do sorrow at my grief in love,",
-          "plainText": "If you do sorrow at my grief in love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0087",
-          "number": 87,
-          "speechLineNumber": 3,
-          "text": "By giving love your sorrow and my grief",
-          "plainText": "By giving love your sorrow and my grief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0088",
-          "number": 88,
-          "speechLineNumber": 4,
-          "text": "Were both extermined.",
-          "plainText": "Were both extermined",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113112/line-2",
+          "start": 9,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643487,
+        "end": 643548,
+        "line": 24099,
+        "column": 1,
+        "path": "chap04/p@113112",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-016",
+      "id": "as-you-like-it/sceneIII_4.5/p@113177",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nWhy, I am sorry for thee, gentle Silvius.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0089",
-          "number": 89,
-          "speechLineNumber": 1,
-          "text": "Thou hast my love. Is not that neighbourly?",
-          "plainText": "Thou hast my love Is not that neighbourly",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@113177/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113177/line-2",
+          "start": 8,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643552,
+        "end": 643631,
+        "line": 24104,
+        "column": 1,
+        "path": "chap04/p@113177",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-017",
+      "id": "as-you-like-it/sceneIII_4.5/p@113260",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nWherever sorrow is, relief would be.\nIf you do sorrow at my grief in love,\nBy giving love your sorrow and my grief\nWere both extermined.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0090",
-          "number": 90,
-          "speechLineNumber": 1,
-          "text": "I would have you.",
-          "plainText": "I would have you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@113260/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113260/line-2",
+          "start": 9,
+          "end": 45,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113260/line-3",
+          "start": 46,
+          "end": 83,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113260/line-4",
+          "start": 84,
+          "end": 123,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113260/line-5",
+          "start": 124,
+          "end": 145,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643635,
+        "end": 643825,
+        "line": 24109,
+        "column": 1,
+        "path": "chap04/p@113260",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-018",
+      "id": "as-you-like-it/sceneIII_4.5/p@113454",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nThou hast my love. Is not that neighbourly?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0091",
-          "number": 91,
-          "speechLineNumber": 1,
-          "text": "Why, that were covetousness.",
-          "plainText": "Why that were covetousness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113454/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0092",
-          "number": 92,
-          "speechLineNumber": 2,
-          "text": "Silvius, the time was that I hated thee;",
-          "plainText": "Silvius the time was that I hated thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0093",
-          "number": 93,
-          "speechLineNumber": 3,
-          "text": "And yet it is not that I bear thee love;",
-          "plainText": "And yet it is not that I bear thee love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0094",
-          "number": 94,
-          "speechLineNumber": 4,
-          "text": "But since that thou canst talk of love so well,",
-          "plainText": "But since that thou canst talk of love so well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0095",
-          "number": 95,
-          "speechLineNumber": 5,
-          "text": "Thy company, which erst was irksome to me,",
-          "plainText": "Thy company which erst was irksome to me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0096",
-          "number": 96,
-          "speechLineNumber": 6,
-          "text": "I will endure, and I'll employ thee too.",
-          "plainText": "I will endure and I'll employ thee too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0097",
-          "number": 97,
-          "speechLineNumber": 7,
-          "text": "But do not look for further recompense",
-          "plainText": "But do not look for further recompense",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0098",
-          "number": 98,
-          "speechLineNumber": 8,
-          "text": "Than thine own gladness that thou art employed.",
-          "plainText": "Than thine own gladness that thou art employed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113454/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643829,
+        "end": 643910,
+        "line": 24117,
+        "column": 1,
+        "path": "chap04/p@113454",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-019",
+      "id": "as-you-like-it/sceneIII_4.5/p@113539",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nI would have you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0099",
-          "number": 99,
-          "speechLineNumber": 1,
-          "text": "So holy and so perfect is my love,",
-          "plainText": "So holy and so perfect is my love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113539/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0100",
-          "number": 100,
-          "speechLineNumber": 2,
-          "text": "And I in such a poverty of grace,",
-          "plainText": "And I in such a poverty of grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0101",
-          "number": 101,
-          "speechLineNumber": 3,
-          "text": "That I shall think it a most plenteous crop",
-          "plainText": "That I shall think it a most plenteous crop",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0102",
-          "number": 102,
-          "speechLineNumber": 4,
-          "text": "To glean the broken ears after the man",
-          "plainText": "To glean the broken ears after the man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0103",
-          "number": 103,
-          "speechLineNumber": 5,
-          "text": "That the main harvest reaps. Loose now and then",
-          "plainText": "That the main harvest reaps Loose now and then",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0104",
-          "number": 104,
-          "speechLineNumber": 6,
-          "text": "A scattered smile, and that I'll live upon.",
-          "plainText": "A scattered smile and that I'll live upon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@113539/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643914,
+        "end": 643970,
+        "line": 24122,
+        "column": 1,
+        "path": "chap04/p@113539",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-020",
+      "id": "as-you-like-it/sceneIII_4.5/p@113599",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nWhy, that were covetousness.\nSilvius, the time was that I hated thee;\nAnd yet it is not that I bear thee love;\nBut since that thou canst talk of love so well,\nThy company, which erst was irksome to me,\nI will endure, and I’ll employ thee too.\nBut do not look for further recompense\nThan thine own gladness that thou art employed.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0105",
-          "number": 105,
-          "speechLineNumber": 1,
-          "text": "Know'st thou the youth that spoke to me erewhile?",
-          "plainText": "Know'st thou the youth that spoke to me erewhile",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-3",
+          "start": 37,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-4",
+          "start": 78,
+          "end": 118,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-5",
+          "start": 119,
+          "end": 166,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-6",
+          "start": 167,
+          "end": 209,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-7",
+          "start": 210,
+          "end": 250,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-8",
+          "start": 251,
+          "end": 289,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@113599/line-9",
+          "start": 290,
+          "end": 337,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 643974,
+        "end": 644376,
+        "line": 24127,
+        "column": 1,
+        "path": "chap04/p@113599",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-021",
+      "id": "as-you-like-it/sceneIII_4.5/p@114005",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nSo holy and so perfect is my love,\nAnd I in such a poverty of grace,\nThat I shall think it a most plenteous crop\nTo glean the broken ears after the man\nThat the main harvest reaps. Loose now and then\nA scattered smile, and that I’ll live upon.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0106",
-          "number": 106,
-          "speechLineNumber": 1,
-          "text": "Not very well, but I have met him oft,",
-          "plainText": "Not very well but I have met him oft",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0107",
-          "number": 107,
-          "speechLineNumber": 2,
-          "text": "And he hath bought the cottage and the bounds",
-          "plainText": "And he hath bought the cottage and the bounds",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-2",
+          "start": 9,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0108",
-          "number": 108,
-          "speechLineNumber": 3,
-          "text": "That the old carlot once was master of.",
-          "plainText": "That the old carlot once was master of",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-3",
+          "start": 44,
+          "end": 77,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-4",
+          "start": 78,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-5",
+          "start": 122,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-6",
+          "start": 161,
+          "end": 208,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114005/line-7",
+          "start": 209,
+          "end": 252,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 644380,
+        "end": 644687,
+        "line": 24139,
+        "column": 1,
+        "path": "chap04/p@114005",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-022",
+      "id": "as-you-like-it/sceneIII_4.5/p@114316",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nKnow’st thou the youth that spoke to me erewhile?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0109",
-          "number": 109,
-          "speechLineNumber": 1,
-          "text": "Think not I love him, though I ask for him.",
-          "plainText": "Think not I love him though I ask for him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114316/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0110",
-          "number": 110,
-          "speechLineNumber": 2,
-          "text": "'Tis but a peevish boy—yet he talks well.",
-          "plainText": "'Tis but a peevish boyyet he talks well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0111",
-          "number": 111,
-          "speechLineNumber": 3,
-          "text": "But what care I for words? Yet words do well",
-          "plainText": "But what care I for words Yet words do well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0112",
-          "number": 112,
-          "speechLineNumber": 4,
-          "text": "When he that speaks them pleases those that hear.",
-          "plainText": "When he that speaks them pleases those that hear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0113",
-          "number": 113,
-          "speechLineNumber": 5,
-          "text": "It is a pretty youth—not very pretty—",
-          "plainText": "It is a pretty youthnot very pretty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0114",
-          "number": 114,
-          "speechLineNumber": 6,
-          "text": "But sure he's proud, and yet his pride becomes him.",
-          "plainText": "But sure he's proud and yet his pride becomes him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0115",
-          "number": 115,
-          "speechLineNumber": 7,
-          "text": "He'll make a proper man. The best thing in him",
-          "plainText": "He'll make a proper man The best thing in him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0116",
-          "number": 116,
-          "speechLineNumber": 8,
-          "text": "Is his complexion; and faster than his tongue",
-          "plainText": "Is his complexion and faster than his tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0117",
-          "number": 117,
-          "speechLineNumber": 9,
-          "text": "Did make offence, his eye did heal it up.",
-          "plainText": "Did make offence his eye did heal it up",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0118",
-          "number": 118,
-          "speechLineNumber": 10,
-          "text": "He is not very tall, yet for his years he's tall;",
-          "plainText": "He is not very tall yet for his years he's tall",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0119",
-          "number": 119,
-          "speechLineNumber": 11,
-          "text": "His leg is but so-so, and yet 'tis well.",
-          "plainText": "His leg is but soso and yet 'tis well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0120",
-          "number": 120,
-          "speechLineNumber": 12,
-          "text": "There was a pretty redness in his lip,",
-          "plainText": "There was a pretty redness in his lip",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0121",
-          "number": 121,
-          "speechLineNumber": 13,
-          "text": "A little riper and more lusty red",
-          "plainText": "A little riper and more lusty red",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0122",
-          "number": 122,
-          "speechLineNumber": 14,
-          "text": "Than that mixed in his cheek. 'Twas just the difference",
-          "plainText": "Than that mixed in his cheek 'Twas just the difference",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0123",
-          "number": 123,
-          "speechLineNumber": 15,
-          "text": "Betwixt the constant red and mingled damask.",
-          "plainText": "Betwixt the constant red and mingled damask",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0124",
-          "number": 124,
-          "speechLineNumber": 16,
-          "text": "There be some women, Silvius, had they marked him",
-          "plainText": "There be some women Silvius had they marked him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0125",
-          "number": 125,
-          "speechLineNumber": 17,
-          "text": "In parcels as I did, would have gone near",
-          "plainText": "In parcels as I did would have gone near",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0126",
-          "number": 126,
-          "speechLineNumber": 18,
-          "text": "To fall in love with him; but for my part",
-          "plainText": "To fall in love with him but for my part",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0127",
-          "number": 127,
-          "speechLineNumber": 19,
-          "text": "I love him not nor hate him not; and yet",
-          "plainText": "I love him not nor hate him not and yet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0128",
-          "number": 128,
-          "speechLineNumber": 20,
-          "text": "I have more cause to hate him than to love him.",
-          "plainText": "I have more cause to hate him than to love him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0129",
-          "number": 129,
-          "speechLineNumber": 21,
-          "text": "For what had he to do to chide at me?",
-          "plainText": "For what had he to do to chide at me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0130",
-          "number": 130,
-          "speechLineNumber": 22,
-          "text": "He said mine eyes were black and my hair black,",
-          "plainText": "He said mine eyes were black and my hair black",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0131",
-          "number": 131,
-          "speechLineNumber": 23,
-          "text": "And now I am remembered, scorned at me.",
-          "plainText": "And now I am remembered scorned at me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0132",
-          "number": 132,
-          "speechLineNumber": 24,
-          "text": "I marvel why I answered not again.",
-          "plainText": "I marvel why I answered not again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0133",
-          "number": 133,
-          "speechLineNumber": 25,
-          "text": "But that's all one: omittance is no quittance.",
-          "plainText": "But that's all one omittance is no quittance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0134",
-          "number": 134,
-          "speechLineNumber": 26,
-          "text": "I'll write to him a very taunting letter,",
-          "plainText": "I'll write to him a very taunting letter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "as-you-like-it-3-5-line-0135",
-          "number": 135,
-          "speechLineNumber": 27,
-          "text": "And thou shalt bear it. Wilt thou, Silvius?",
-          "plainText": "And thou shalt bear it Wilt thou Silvius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114316/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 644691,
+        "end": 644778,
+        "line": 24149,
+        "column": 1,
+        "path": "chap04/p@114316",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-023",
+      "id": "as-you-like-it/sceneIII_4.5/p@114407",
       "type": "speech",
-      "speaker": {
-        "id": "silvius",
-        "name": "SILVIUS",
-        "displayName": "Silvius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nNot very well, but I have met him oft,\nAnd he hath bought the cottage and the bounds\nThat the old carlot once was master of.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0136",
-          "number": 136,
-          "speechLineNumber": 1,
-          "text": "Phoebe, with all my heart.",
-          "plainText": "Phoebe with all my heart",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "as-you-like-it/sceneIII_4.5/p@114407/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114407/line-2",
+          "start": 9,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114407/line-3",
+          "start": 48,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114407/line-4",
+          "start": 94,
+          "end": 133,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 644782,
+        "end": 644955,
+        "line": 24154,
+        "column": 1,
+        "path": "chap04/p@114407",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "as-you-like-it-3-5-speech-024",
+      "id": "as-you-like-it/sceneIII_4.5/p@114584",
       "type": "speech",
-      "speaker": {
-        "id": "phoebe",
-        "name": "PHOEBE",
-        "displayName": "Phoebe"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nThink not I love him, though I ask for him.\n’Tis but a peevish boy—yet he talks well.\nBut what care I for words? Yet words do well\nWhen he that speaks them pleases those that hear.\nIt is a pretty youth—not very pretty—\nBut sure he’s proud, and yet his pride becomes him.\nHe’ll make a proper man. The best thing in him\nIs his complexion; and faster than his tongue\nDid make offence, his eye did heal it up.\nHe is not very tall, yet for his years he’s tall;\nHis leg is but so-so, and yet ’tis well.\nThere was a pretty redness in his lip,\nA little riper and more lusty red\nThan that mixed in his cheek. ’Twas just the difference\nBetwixt the constant red and mingled damask.\nThere be some women, Silvius, had they marked him\nIn parcels as I did, would have gone near\nTo fall in love with him; but for my part\nI love him not nor hate him not; and yet\nI have more cause to hate him than to love him.\nFor what had he to do to chide at me?\nHe said mine eyes were black and my hair black,\nAnd now I am remembered, scorned at me.\nI marvel why I answered not again.\nBut that’s all one: omittance is no quittance.\nI’ll write to him a very taunting letter,\nAnd thou shalt bear it. Wilt thou, Silvius?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "as-you-like-it-3-5-line-0137",
-          "number": 137,
-          "speechLineNumber": 1,
-          "text": "I'll write it straight,",
-          "plainText": "I'll write it straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0138",
-          "number": 138,
-          "speechLineNumber": 2,
-          "text": "The matter's in my head and in my heart.",
-          "plainText": "The matter's in my head and in my heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0139",
-          "number": 139,
-          "speechLineNumber": 3,
-          "text": "I will be bitter with him and passing short.",
-          "plainText": "I will be bitter with him and passing short",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-3",
+          "start": 52,
+          "end": 93,
+          "sourceLineNumber": null
         },
         {
-          "id": "as-you-like-it-3-5-line-0140",
-          "number": 140,
-          "speechLineNumber": 4,
-          "text": "Go with me, Silvius.",
-          "plainText": "Go with me Silvius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-4",
+          "start": 94,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-5",
+          "start": 139,
+          "end": 188,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-6",
+          "start": 189,
+          "end": 226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-7",
+          "start": 227,
+          "end": 278,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-8",
+          "start": 279,
+          "end": 325,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-9",
+          "start": 326,
+          "end": 371,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-10",
+          "start": 372,
+          "end": 413,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-11",
+          "start": 414,
+          "end": 463,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-12",
+          "start": 464,
+          "end": 504,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-13",
+          "start": 505,
+          "end": 543,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-14",
+          "start": 544,
+          "end": 577,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-15",
+          "start": 578,
+          "end": 633,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-16",
+          "start": 634,
+          "end": 678,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-17",
+          "start": 679,
+          "end": 728,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-18",
+          "start": 729,
+          "end": 770,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-19",
+          "start": 771,
+          "end": 812,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-20",
+          "start": 813,
+          "end": 853,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-21",
+          "start": 854,
+          "end": 901,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-22",
+          "start": 902,
+          "end": 939,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-23",
+          "start": 940,
+          "end": 987,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-24",
+          "start": 988,
+          "end": 1027,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-25",
+          "start": 1028,
+          "end": 1062,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-26",
+          "start": 1063,
+          "end": 1109,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-27",
+          "start": 1110,
+          "end": 1151,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@114584/line-28",
+          "start": 1152,
+          "end": 1195,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 644959,
+        "end": 646314,
+        "line": 24161,
+        "column": 1,
+        "path": "chap04/p@114584",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "as-you-like-it-3-5-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "as-you-like-it/sceneIII_4.5/p@115943",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILVIUS.\nPhoebe, with all my heart.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@115943/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@115943/line-2",
+          "start": 9,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 646318,
+        "end": 646383,
+        "line": 24192,
+        "column": 1,
+        "path": "chap04/p@115943",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "SILVIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneIII_4.5/p@116012",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PHOEBE.\nI’ll write it straight,\nThe matter’s in my head and in my heart.\nI will be bitter with him and passing short.\nGo with me, Silvius.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116012/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116012/line-2",
+          "start": 8,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116012/line-3",
+          "start": 32,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116012/line-4",
+          "start": 73,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116012/line-5",
+          "start": 118,
+          "end": 138,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 646387,
+        "end": 646570,
+        "line": 24197,
+        "column": 1,
+        "path": "chap04/p@116012",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": "PHOEBE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "as-you-like-it/sceneIII_4.5/p@116199",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "as-you-like-it/sceneIII_4.5/p@116199/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 646574,
+        "end": 646611,
+        "line": 24205,
+        "column": 1,
+        "path": "chap04/p@116199",
+        "anchor": "sceneIII_4.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540"
 }

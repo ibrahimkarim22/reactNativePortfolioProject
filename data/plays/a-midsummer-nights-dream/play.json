@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "a-midsummer-nights-dream",
-  "title": "A Midsummer Night'S Dream",
-  "fullTitle": "A Midsummer Night'S Dream",
+  "title": "A MIDSUMMER NIGHT’S DREAM",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "A MIDSUMMER NIGHT’S DREAM",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap24"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "a-midsummer-nights-dream-1-1",
           "label": "Act 1, Scene 1",
-          "title": "Athens. A room in the Palace of Theseus",
+          "title": "SCENE I. Athens. A room in the Palace of Theseus",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 249
+          "lineCount": 314
         },
         {
           "scene": 2,
           "id": "a-midsummer-nights-dream-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The Same. A Room in a Cottage",
+          "title": "SCENE II. The Same. A Room in a Cottage",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 52
+          "lineCount": 98
         }
       ]
     },
@@ -46,17 +54,17 @@
           "scene": 1,
           "id": "a-midsummer-nights-dream-2-1",
           "label": "Act 2, Scene 1",
-          "title": "A wood near Athens",
+          "title": "SCENE I. A wood near Athens",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 270
+          "lineCount": 325
         },
         {
           "scene": 2,
           "id": "a-midsummer-nights-dream-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Another part of the wood",
+          "title": "SCENE II. Another part of the wood",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 148
+          "lineCount": 198
         }
       ]
     },
@@ -67,17 +75,17 @@
           "scene": 1,
           "id": "a-midsummer-nights-dream-3-1",
           "label": "Act 3, Scene 1",
-          "title": "The Wood.",
+          "title": "SCENE I. The Wood.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 121
+          "lineCount": 212
         },
         {
           "scene": 2,
           "id": "a-midsummer-nights-dream-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Another part of the wood",
+          "title": "SCENE II. Another part of the wood",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 467
+          "lineCount": 621
         }
       ]
     },
@@ -88,17 +96,17 @@
           "scene": 1,
           "id": "a-midsummer-nights-dream-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The Wood",
+          "title": "SCENE I. The Wood",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 169
+          "lineCount": 258
         },
         {
           "scene": 2,
           "id": "a-midsummer-nights-dream-4-2",
           "label": "Act 4, Scene 2",
-          "title": "Athens. A Room in Quince's House",
+          "title": "SCENE II. Athens. A Room in Quince’s House",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 14
+          "lineCount": 34
         }
       ]
     },
@@ -109,11 +117,194 @@
           "scene": 1,
           "id": "a-midsummer-nights-dream-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Athens. An Apartment in the Palace of Theseus",
+          "title": "SCENE I. Athens. An Apartment in the Palace of Theseus",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 373
+          "lineCount": 521
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "a-midsummer-nights-dream-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "A MIDSUMMER NIGHT’S DREAM"
+    },
+    {
+      "id": "a-midsummer-nights-dream-contents-118",
+      "kind": "contents",
+      "path": "./sections/contents-118.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "a-midsummer-nights-dream-cast-1351",
+      "kind": "cast",
+      "path": "./sections/cast-1351.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "a-midsummer-nights-dream-setting-2293",
+      "kind": "setting",
+      "path": "./sections/setting-2293.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Athens, and a wood not far from it"
+    },
+    {
+      "id": "a-midsummer-nights-dream-act-2408",
+      "kind": "act",
+      "path": "./sections/act-2408.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "a-midsummer-nights-dream-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "a-midsummer-nights-dream-act-2408",
+      "orderInPlay": 6,
+      "heading": "SCENE I. Athens. A room in the Palace of Theseus"
+    },
+    {
+      "id": "a-midsummer-nights-dream-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "a-midsummer-nights-dream-act-2408",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The Same. A Room in a Cottage"
+    },
+    {
+      "id": "a-midsummer-nights-dream-act-22993",
+      "kind": "act",
+      "path": "./sections/act-22993.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "a-midsummer-nights-dream-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "a-midsummer-nights-dream-act-22993",
+      "orderInPlay": 9,
+      "heading": "SCENE I. A wood near Athens"
+    },
+    {
+      "id": "a-midsummer-nights-dream-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "a-midsummer-nights-dream-act-22993",
+      "orderInPlay": 10,
+      "heading": "SCENE II. Another part of the wood"
+    },
+    {
+      "id": "a-midsummer-nights-dream-act-47085",
+      "kind": "act",
+      "path": "./sections/act-47085.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT III"
+    },
+    {
+      "id": "a-midsummer-nights-dream-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "a-midsummer-nights-dream-act-47085",
+      "orderInPlay": 12,
+      "heading": "SCENE I. The Wood."
+    },
+    {
+      "id": "a-midsummer-nights-dream-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "a-midsummer-nights-dream-act-47085",
+      "orderInPlay": 13,
+      "heading": "SCENE II. Another part of the wood"
+    },
+    {
+      "id": "a-midsummer-nights-dream-act-87370",
+      "kind": "act",
+      "path": "./sections/act-87370.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "a-midsummer-nights-dream-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "a-midsummer-nights-dream-act-87370",
+      "orderInPlay": 15,
+      "heading": "SCENE I. The Wood"
+    },
+    {
+      "id": "a-midsummer-nights-dream-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "a-midsummer-nights-dream-act-87370",
+      "orderInPlay": 16,
+      "heading": "SCENE II. Athens. A Room in Quince’s House"
+    },
+    {
+      "id": "a-midsummer-nights-dream-act-103482",
+      "kind": "act",
+      "path": "./sections/act-103482.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 17,
+      "heading": "ACT V"
+    },
+    {
+      "id": "a-midsummer-nights-dream-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "a-midsummer-nights-dream-act-103482",
+      "orderInPlay": 18,
+      "heading": "SCENE I. Athens. An Apartment in the Palace of Theseus"
+    }
+  ],
+  "contentVersion": "8aa631f1bdba8a8599f5ac0f0dc846dd8e9c009203187a0da7353d5e68a96e75"
 }

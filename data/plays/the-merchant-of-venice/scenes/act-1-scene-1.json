@@ -1,2427 +1,2460 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-merchant-of-venice",
-    "title": "The Merchant of Venice",
+    "title": "THE MERCHANT OF VENICE",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap22"
   },
-  "scene": {
+  "section": {
     "id": "the-merchant-of-venice-1-1",
+    "kind": "scene",
+    "heading": "SCENE I. Venice. A street.",
     "act": 1,
     "scene": 1,
-    "label": "Act 1, Scene 1",
-    "title": "SCENE I. Venice. A street.",
-    "location": "Venice. A street.",
-    "orderInPlay": 1
+    "parentSectionId": "the-merchant-of-venice-act-3661",
+    "orderInPlay": 6,
+    "sourceRef": {
+      "start": 3887707,
+      "end": 3887750,
+      "line": 143886,
+      "column": 1,
+      "path": "chap22/h3@3711",
+      "anchor": "sceneI_22.1"
+    }
   },
   "content": [
     {
-      "id": "the-merchant-of-venice-1-1-stage-001",
+      "id": "the-merchant-of-venice/sceneI_22.1/h3@3711",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Venice. A street.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/h3@3711/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3887707,
+        "end": 3887750,
+        "line": 143886,
+        "column": 1,
+        "path": "chap22/h3@3711",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@3758",
       "type": "stage",
-      "text": "Enter Antonio, Salarino and Solanio."
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Antonio, Salarino and Solanio.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 23,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 35,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "In sooth I know not why I am so sad,",
-          "plainText": "In sooth I know not why I am so sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "It wearies me, you say it wearies you;",
-          "plainText": "It wearies me you say it wearies you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "But how I caught it, found it, or came by it,",
-          "plainText": "But how I caught it found it or came by it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "What stuff 'tis made of, whereof it is born,",
-          "plainText": "What stuff 'tis made of whereof it is born",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "I am to learn.",
-          "plainText": "I am to learn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "And such a want-wit sadness makes of me,",
-          "plainText": "And such a wantwit sadness makes of me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "That I have much ado to know myself.",
-          "plainText": "That I have much ado to know myself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3758/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3887754,
+        "end": 3887876,
+        "line": 143888,
+        "column": 1,
+        "path": "chap22/p@3758",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-002",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@3884",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nIn sooth I know not why I am so sad,\nIt wearies me, you say it wearies you;\nBut how I caught it, found it, or came by it,\nWhat stuff ’tis made of, whereof it is born,\nI am to learn.\nAnd such a want-wit sadness makes of me,\nThat I have much ado to know myself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Your mind is tossing on the ocean,",
-          "plainText": "Your mind is tossing on the ocean",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "There where your argosies, with portly sail",
-          "plainText": "There where your argosies with portly sail",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-2",
+          "start": 9,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 3,
-          "text": "Like signiors and rich burghers on the flood,",
-          "plainText": "Like signiors and rich burghers on the flood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-3",
+          "start": 46,
+          "end": 84,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 4,
-          "text": "Or as it were the pageants of the sea,",
-          "plainText": "Or as it were the pageants of the sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-4",
+          "start": 85,
+          "end": 130,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 5,
-          "text": "Do overpeer the petty traffickers",
-          "plainText": "Do overpeer the petty traffickers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-5",
+          "start": 131,
+          "end": 175,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 6,
-          "text": "That curtsy to them, do them reverence,",
-          "plainText": "That curtsy to them do them reverence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-6",
+          "start": 176,
+          "end": 190,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 7,
-          "text": "As they fly by them with their woven wings.",
-          "plainText": "As they fly by them with their woven wings",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-7",
+          "start": 191,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@3884/line-8",
+          "start": 232,
+          "end": 268,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3887880,
+        "end": 3888208,
+        "line": 143891,
+        "column": 1,
+        "path": "chap22/p@3884",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-003",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@4216",
       "type": "speech",
-      "speaker": {
-        "id": "solanio",
-        "name": "SOLANIO",
-        "displayName": "Solanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nYour mind is tossing on the ocean,\nThere where your argosies, with portly sail\nLike signiors and rich burghers on the flood,\nOr as it were the pageants of the sea,\nDo overpeer the petty traffickers\nThat curtsy to them, do them reverence,\nAs they fly by them with their woven wings.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Believe me, sir, had I such venture forth,",
-          "plainText": "Believe me sir had I such venture forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "The better part of my affections would",
-          "plainText": "The better part of my affections would",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-2",
+          "start": 10,
+          "end": 44,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 3,
-          "text": "Be with my hopes abroad. I should be still",
-          "plainText": "Be with my hopes abroad I should be still",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-3",
+          "start": 45,
+          "end": 88,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 4,
-          "text": "Plucking the grass to know where sits the wind,",
-          "plainText": "Plucking the grass to know where sits the wind",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-4",
+          "start": 89,
+          "end": 134,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 5,
-          "text": "Peering in maps for ports, and piers and roads;",
-          "plainText": "Peering in maps for ports and piers and roads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-5",
+          "start": 135,
+          "end": 173,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 6,
-          "text": "And every object that might make me fear",
-          "plainText": "And every object that might make me fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-6",
+          "start": 174,
+          "end": 207,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 7,
-          "text": "Misfortune to my ventures, out of doubt",
-          "plainText": "Misfortune to my ventures out of doubt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-7",
+          "start": 208,
+          "end": 247,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 8,
-          "text": "Would make me sad.",
-          "plainText": "Would make me sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4216/line-8",
+          "start": 248,
+          "end": 291,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3888212,
+        "end": 3888563,
+        "line": 143902,
+        "column": 1,
+        "path": "chap22/p@4216",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-004",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@4571",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLANIO.\nBelieve me, sir, had I such venture forth,\nThe better part of my affections would\nBe with my hopes abroad. I should be still\nPlucking the grass to know where sits the wind,\nPeering in maps for ports, and piers and roads;\nAnd every object that might make me fear\nMisfortune to my ventures, out of doubt\nWould make me sad.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "My wind cooling my broth",
-          "plainText": "My wind cooling my broth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Would blow me to an ague when I thought",
-          "plainText": "Would blow me to an ague when I thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 3,
-          "text": "What harm a wind too great might do at sea.",
-          "plainText": "What harm a wind too great might do at sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-3",
+          "start": 52,
+          "end": 90,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 4,
-          "text": "I should not see the sandy hour-glass run",
-          "plainText": "I should not see the sandy hourglass run",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-4",
+          "start": 91,
+          "end": 133,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 5,
-          "text": "But I should think of shallows and of flats,",
-          "plainText": "But I should think of shallows and of flats",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-5",
+          "start": 134,
+          "end": 181,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 6,
-          "text": "And see my wealthy Andrew dock'd in sand,",
-          "plainText": "And see my wealthy Andrew dock'd in sand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-6",
+          "start": 182,
+          "end": 229,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 7,
-          "text": "Vailing her high top lower than her ribs",
-          "plainText": "Vailing her high top lower than her ribs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-7",
+          "start": 230,
+          "end": 270,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 8,
-          "text": "To kiss her burial. Should I go to church",
-          "plainText": "To kiss her burial Should I go to church",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-8",
+          "start": 271,
+          "end": 310,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 9,
-          "text": "And see the holy edifice of stone",
-          "plainText": "And see the holy edifice of stone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 10,
-          "text": "And not bethink me straight of dangerous rocks,",
-          "plainText": "And not bethink me straight of dangerous rocks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 11,
-          "text": "Which, touching but my gentle vessel's side,",
-          "plainText": "Which touching but my gentle vessel's side",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 12,
-          "text": "Would scatter all her spices on the stream,",
-          "plainText": "Would scatter all her spices on the stream",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 13,
-          "text": "Enrobe the roaring waters with my silks,",
-          "plainText": "Enrobe the roaring waters with my silks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 14,
-          "text": "And, in a word, but even now worth this,",
-          "plainText": "And in a word but even now worth this",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 15,
-          "text": "And now worth nothing? Shall I have the thought",
-          "plainText": "And now worth nothing Shall I have the thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 16,
-          "text": "To think on this, and shall I lack the thought",
-          "plainText": "To think on this and shall I lack the thought",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 17,
-          "text": "That such a thing bechanc'd would make me sad?",
-          "plainText": "That such a thing bechanc'd would make me sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 18,
-          "text": "But tell not me, I know Antonio",
-          "plainText": "But tell not me I know Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 19,
-          "text": "Is sad to think upon his merchandise.",
-          "plainText": "Is sad to think upon his merchandise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4571/line-9",
+          "start": 311,
+          "end": 329,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3888567,
+        "end": 3888961,
+        "line": 143913,
+        "column": 1,
+        "path": "chap22/p@4571",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SOLANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-005",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@4969",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nMy wind cooling my broth\nWould blow me to an ague when I thought\nWhat harm a wind too great might do at sea.\nI should not see the sandy hour-glass run\nBut I should think of shallows and of flats,\nAnd see my wealthy Andrew dock’d in sand,\nVailing her high top lower than her ribs\nTo kiss her burial. Should I go to church\nAnd see the holy edifice of stone\nAnd not bethink me straight of dangerous rocks,\nWhich, touching but my gentle vessel’s side,\nWould scatter all her spices on the stream,\nEnrobe the roaring waters with my silks,\nAnd, in a word, but even now worth this,\nAnd now worth nothing? Shall I have the thought\nTo think on this, and shall I lack the thought\nThat such a thing bechanc’d would make me sad?\nBut tell not me, I know Antonio\nIs sad to think upon his merchandise.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "Believe me, no. I thank my fortune for it,",
-          "plainText": "Believe me no I thank my fortune for it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 2,
-          "text": "My ventures are not in one bottom trusted,",
-          "plainText": "My ventures are not in one bottom trusted",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-2",
+          "start": 10,
+          "end": 34,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 3,
-          "text": "Nor to one place; nor is my whole estate",
-          "plainText": "Nor to one place nor is my whole estate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-3",
+          "start": 35,
+          "end": 74,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 4,
-          "text": "Upon the fortune of this present year.",
-          "plainText": "Upon the fortune of this present year",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-4",
+          "start": 75,
+          "end": 118,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 5,
-          "text": "Therefore my merchandise makes me not sad.",
-          "plainText": "Therefore my merchandise makes me not sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-5",
+          "start": 119,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-6",
+          "start": 161,
+          "end": 205,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-7",
+          "start": 206,
+          "end": 247,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-8",
+          "start": 248,
+          "end": 288,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-9",
+          "start": 289,
+          "end": 330,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-10",
+          "start": 331,
+          "end": 364,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-11",
+          "start": 365,
+          "end": 412,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-12",
+          "start": 413,
+          "end": 457,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-13",
+          "start": 458,
+          "end": 501,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-14",
+          "start": 502,
+          "end": 542,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-15",
+          "start": 543,
+          "end": 583,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-16",
+          "start": 584,
+          "end": 631,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-17",
+          "start": 632,
+          "end": 678,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-18",
+          "start": 679,
+          "end": 725,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-19",
+          "start": 726,
+          "end": 757,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@4969/line-20",
+          "start": 758,
+          "end": 795,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3888965,
+        "end": 3889880,
+        "line": 143925,
+        "column": 1,
+        "path": "chap22/p@4969",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-006",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@5888",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nBelieve me, no. I thank my fortune for it,\nMy ventures are not in one bottom trusted,\nNor to one place; nor is my whole estate\nUpon the fortune of this present year.\nTherefore my merchandise makes me not sad.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "Why then you are in love.",
-          "plainText": "Why then you are in love",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-4",
+          "start": 95,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-5",
+          "start": 136,
+          "end": 174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@5888/line-6",
+          "start": 175,
+          "end": 217,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3889884,
+        "end": 3890151,
+        "line": 143948,
+        "column": 1,
+        "path": "chap22/p@5888",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-007",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@6159",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nWhy then you are in love.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Fie, fie!",
-          "plainText": "Fie fie",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6159/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6159/line-2",
+          "start": 10,
+          "end": 35,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3890155,
+        "end": 3890220,
+        "line": 143957,
+        "column": 1,
+        "path": "chap22/p@6159",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-008",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@6228",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nFie, fie!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Not in love neither? Then let us say you are sad",
-          "plainText": "Not in love neither Then let us say you are sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6228/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 2,
-          "text": "Because you are not merry; and 'twere as easy",
-          "plainText": "Because you are not merry and 'twere as easy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 3,
-          "text": "For you to laugh and leap and say you are merry",
-          "plainText": "For you to laugh and leap and say you are merry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 4,
-          "text": "Because you are not sad. Now, by two-headed Janus,",
-          "plainText": "Because you are not sad Now by twoheaded Janus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 5,
-          "text": "Nature hath fram'd strange fellows in her time:",
-          "plainText": "Nature hath fram'd strange fellows in her time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 6,
-          "text": "Some that will evermore peep through their eyes,",
-          "plainText": "Some that will evermore peep through their eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 7,
-          "text": "And laugh like parrots at a bagpiper.",
-          "plainText": "And laugh like parrots at a bagpiper",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 8,
-          "text": "And other of such vinegar aspect",
-          "plainText": "And other of such vinegar aspect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 9,
-          "text": "That they'll not show their teeth in way of smile",
-          "plainText": "That they'll not show their teeth in way of smile",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 10,
-          "text": "Though Nestor swear the jest be laughable.",
-          "plainText": "Though Nestor swear the jest be laughable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6228/line-2",
+          "start": 9,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3890224,
+        "end": 3890272,
+        "line": 143962,
+        "column": 1,
+        "path": "chap22/p@6228",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-stage-002",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@6280",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nNot in love neither? Then let us say you are sad\nBecause you are not merry; and ’twere as easy\nFor you to laugh and leap and say you are merry\nBecause you are not sad. Now, by two-headed Janus,\nNature hath fram’d strange fellows in her time:\nSome that will evermore peep through their eyes,\nAnd laugh like parrots at a bagpiper.\nAnd other of such vinegar aspect\nThat they’ll not show their teeth in way of smile\nThough Nestor swear the jest be laughable.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-2",
+          "start": 10,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-3",
+          "start": 59,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-4",
+          "start": 105,
+          "end": 152,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-5",
+          "start": 153,
+          "end": 203,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-6",
+          "start": 204,
+          "end": 251,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-7",
+          "start": 252,
+          "end": 300,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-8",
+          "start": 301,
+          "end": 338,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-9",
+          "start": 339,
+          "end": 371,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-10",
+          "start": 372,
+          "end": 421,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6280/line-11",
+          "start": 422,
+          "end": 464,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3890276,
+        "end": 3890815,
+        "line": 143967,
+        "column": 1,
+        "path": "chap22/p@6280",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@6823",
       "type": "stage",
-      "text": "Enter Bassanio, Lorenzo and Gratiano."
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "solanio",
-        "name": "SOLANIO",
-        "displayName": "Solanio"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Bassanio, Lorenzo and Gratiano.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 23,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 28,
+          "end": 36,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "Here comes Bassanio, your most noble kinsman,",
-          "plainText": "Here comes Bassanio your most noble kinsman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 2,
-          "text": "Gratiano, and Lorenzo. Fare ye well.",
-          "plainText": "Gratiano and Lorenzo Fare ye well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0061",
-          "number": 61,
-          "speechLineNumber": 3,
-          "text": "We leave you now with better company.",
-          "plainText": "We leave you now with better company",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6823/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3890819,
+        "end": 3890942,
+        "line": 143981,
+        "column": 1,
+        "path": "chap22/p@6823",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-010",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@6950",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLANIO.\nHere comes Bassanio, your most noble kinsman,\nGratiano, and Lorenzo. Fare ye well.\nWe leave you now with better company.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "I would have stay'd till I had made you merry,",
-          "plainText": "I would have stay'd till I had made you merry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6950/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0063",
-          "number": 63,
-          "speechLineNumber": 2,
-          "text": "If worthier friends had not prevented me.",
-          "plainText": "If worthier friends had not prevented me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6950/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6950/line-3",
+          "start": 55,
+          "end": 91,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@6950/line-4",
+          "start": 92,
+          "end": 129,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3890946,
+        "end": 3891115,
+        "line": 143984,
+        "column": 1,
+        "path": "chap22/p@6950",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SOLANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-011",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7123",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nI would have stay’d till I had made you merry,\nIf worthier friends had not prevented me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "Your worth is very dear in my regard.",
-          "plainText": "Your worth is very dear in my regard",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7123/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0065",
-          "number": 65,
-          "speechLineNumber": 2,
-          "text": "I take it your own business calls on you,",
-          "plainText": "I take it your own business calls on you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7123/line-2",
+          "start": 10,
+          "end": 56,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0066",
-          "number": 66,
-          "speechLineNumber": 3,
-          "text": "And you embrace th' occasion to depart.",
-          "plainText": "And you embrace th' occasion to depart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7123/line-3",
+          "start": 57,
+          "end": 98,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891119,
+        "end": 3891252,
+        "line": 143991,
+        "column": 1,
+        "path": "chap22/p@7123",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-012",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7260",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nYour worth is very dear in my regard.\nI take it your own business calls on you,\nAnd you embrace th’ occasion to depart.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "Good morrow, my good lords.",
-          "plainText": "Good morrow my good lords",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7260/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7260/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7260/line-3",
+          "start": 47,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7260/line-4",
+          "start": 89,
+          "end": 128,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891256,
+        "end": 3891424,
+        "line": 143997,
+        "column": 1,
+        "path": "chap22/p@7260",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-013",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7432",
       "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nGood morrow, my good lords.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "Good signiors both, when shall we laugh? Say, when?",
-          "plainText": "Good signiors both when shall we laugh Say when",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7432/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0069",
-          "number": 69,
-          "speechLineNumber": 2,
-          "text": "You grow exceeding strange. Must it be so?",
-          "plainText": "You grow exceeding strange Must it be so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7432/line-2",
+          "start": 10,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891428,
+        "end": 3891495,
+        "line": 144004,
+        "column": 1,
+        "path": "chap22/p@7432",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-014",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7503",
       "type": "speech",
-      "speaker": {
-        "id": "salarino",
-        "name": "SALARINO",
-        "displayName": "Salarino"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\nGood signiors both, when shall we laugh? Say, when?\nYou grow exceeding strange. Must it be so?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "We'll make our leisures to attend on yours.",
-          "plainText": "We'll make our leisures to attend on yours",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7503/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7503/line-2",
+          "start": 10,
+          "end": 61,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7503/line-3",
+          "start": 62,
+          "end": 104,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Salarino and Solanio.]"
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "lorenzo",
-        "name": "LORENZO",
-        "displayName": "Lorenzo"
+      ],
+      "sourceRef": {
+        "start": 3891499,
+        "end": 3891638,
+        "line": 144009,
+        "column": 1,
+        "path": "chap22/p@7503",
+        "anchor": "sceneI_22.1"
       },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7646",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SALARINO.\nWe’ll make our leisures to attend on yours.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "My Lord Bassanio, since you have found Antonio,",
-          "plainText": "My Lord Bassanio since you have found Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7646/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0072",
-          "number": 72,
-          "speechLineNumber": 2,
-          "text": "We two will leave you, but at dinner-time",
-          "plainText": "We two will leave you but at dinnertime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0073",
-          "number": 73,
-          "speechLineNumber": 3,
-          "text": "I pray you have in mind where we must meet.",
-          "plainText": "I pray you have in mind where we must meet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7646/line-2",
+          "start": 10,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891642,
+        "end": 3891725,
+        "line": 144015,
+        "column": 1,
+        "path": "chap22/p@7646",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "SALARINO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7733",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Salarino and Solanio.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 16,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 21,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 29
+        }
+      ],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "I will not fail you.",
-          "plainText": "I will not fail you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7733/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891729,
+        "end": 3891848,
+        "line": 144020,
+        "column": 1,
+        "path": "chap22/p@7733",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-017",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@7856",
       "type": "speech",
-      "speaker": {
-        "id": "gratiano",
-        "name": "GRATIANO",
-        "displayName": "Gratiano"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LORENZO.\nMy Lord Bassanio, since you have found Antonio,\nWe two will leave you, but at dinner-time\nI pray you have in mind where we must meet.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "You look not well, Signior Antonio,",
-          "plainText": "You look not well Signior Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7856/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0076",
-          "number": 76,
-          "speechLineNumber": 2,
-          "text": "You have too much respect upon the world.",
-          "plainText": "You have too much respect upon the world",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7856/line-2",
+          "start": 9,
+          "end": 56,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0077",
-          "number": 77,
-          "speechLineNumber": 3,
-          "text": "They lose it that do buy it with much care.",
-          "plainText": "They lose it that do buy it with much care",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7856/line-3",
+          "start": 57,
+          "end": 98,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0078",
-          "number": 78,
-          "speechLineNumber": 4,
-          "text": "Believe me, you are marvellously chang'd.",
-          "plainText": "Believe me you are marvellously chang'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@7856/line-4",
+          "start": 99,
+          "end": 142,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3891852,
+        "end": 3892034,
+        "line": 144023,
+        "column": 1,
+        "path": "chap22/p@7856",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "LORENZO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-018",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@8042",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\nI will not fail you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0079",
-          "number": 79,
-          "speechLineNumber": 1,
-          "text": "I hold the world but as the world, Gratiano,",
-          "plainText": "I hold the world but as the world Gratiano",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8042/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0080",
-          "number": 80,
-          "speechLineNumber": 2,
-          "text": "A stage, where every man must play a part,",
-          "plainText": "A stage where every man must play a part",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0081",
-          "number": 81,
-          "speechLineNumber": 3,
-          "text": "And mine a sad one.",
-          "plainText": "And mine a sad one",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8042/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3892038,
+        "end": 3892098,
+        "line": 144030,
+        "column": 1,
+        "path": "chap22/p@8042",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-019",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@8106",
       "type": "speech",
-      "speaker": {
-        "id": "gratiano",
-        "name": "GRATIANO",
-        "displayName": "Gratiano"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GRATIANO.\nYou look not well, Signior Antonio,\nYou have too much respect upon the world.\nThey lose it that do buy it with much care.\nBelieve me, you are marvellously chang’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "Let me play the fool,",
-          "plainText": "Let me play the fool",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8106/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0083",
-          "number": 83,
-          "speechLineNumber": 2,
-          "text": "With mirth and laughter let old wrinkles come,",
-          "plainText": "With mirth and laughter let old wrinkles come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8106/line-2",
+          "start": 10,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0084",
-          "number": 84,
-          "speechLineNumber": 3,
-          "text": "And let my liver rather heat with wine",
-          "plainText": "And let my liver rather heat with wine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8106/line-3",
+          "start": 46,
+          "end": 87,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0085",
-          "number": 85,
-          "speechLineNumber": 4,
-          "text": "Than my heart cool with mortifying groans.",
-          "plainText": "Than my heart cool with mortifying groans",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8106/line-4",
+          "start": 88,
+          "end": 131,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0086",
-          "number": 86,
-          "speechLineNumber": 5,
-          "text": "Why should a man whose blood is warm within",
-          "plainText": "Why should a man whose blood is warm within",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0087",
-          "number": 87,
-          "speechLineNumber": 6,
-          "text": "Sit like his grandsire cut in alabaster?",
-          "plainText": "Sit like his grandsire cut in alabaster",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0088",
-          "number": 88,
-          "speechLineNumber": 7,
-          "text": "Sleep when he wakes? And creep into the jaundice",
-          "plainText": "Sleep when he wakes And creep into the jaundice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0089",
-          "number": 89,
-          "speechLineNumber": 8,
-          "text": "By being peevish? I tell thee what, Antonio,",
-          "plainText": "By being peevish I tell thee what Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0090",
-          "number": 90,
-          "speechLineNumber": 9,
-          "text": "(I love thee, and 'tis my love that speaks):",
-          "plainText": "I love thee and 'tis my love that speaks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0091",
-          "number": 91,
-          "speechLineNumber": 10,
-          "text": "There are a sort of men whose visages",
-          "plainText": "There are a sort of men whose visages",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0092",
-          "number": 92,
-          "speechLineNumber": 11,
-          "text": "Do cream and mantle like a standing pond,",
-          "plainText": "Do cream and mantle like a standing pond",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0093",
-          "number": 93,
-          "speechLineNumber": 12,
-          "text": "And do a wilful stillness entertain,",
-          "plainText": "And do a wilful stillness entertain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0094",
-          "number": 94,
-          "speechLineNumber": 13,
-          "text": "With purpose to be dress'd in an opinion",
-          "plainText": "With purpose to be dress'd in an opinion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0095",
-          "number": 95,
-          "speechLineNumber": 14,
-          "text": "Of wisdom, gravity, profound conceit,",
-          "plainText": "Of wisdom gravity profound conceit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0096",
-          "number": 96,
-          "speechLineNumber": 15,
-          "text": "As who should say, \"I am Sir Oracle,",
-          "plainText": "As who should say I am Sir Oracle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0097",
-          "number": 97,
-          "speechLineNumber": 16,
-          "text": "And when I ope my lips, let no dog bark.\"",
-          "plainText": "And when I ope my lips let no dog bark",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0098",
-          "number": 98,
-          "speechLineNumber": 17,
-          "text": "O my Antonio, I do know of these",
-          "plainText": "O my Antonio I do know of these",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0099",
-          "number": 99,
-          "speechLineNumber": 18,
-          "text": "That therefore only are reputed wise",
-          "plainText": "That therefore only are reputed wise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0100",
-          "number": 100,
-          "speechLineNumber": 19,
-          "text": "For saying nothing; when, I am very sure,",
-          "plainText": "For saying nothing when I am very sure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0101",
-          "number": 101,
-          "speechLineNumber": 20,
-          "text": "If they should speak, would almost damn those ears",
-          "plainText": "If they should speak would almost damn those ears",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0102",
-          "number": 102,
-          "speechLineNumber": 21,
-          "text": "Which, hearing them, would call their brothers fools.",
-          "plainText": "Which hearing them would call their brothers fools",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0103",
-          "number": 103,
-          "speechLineNumber": 22,
-          "text": "I'll tell thee more of this another time.",
-          "plainText": "I'll tell thee more of this another time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0104",
-          "number": 104,
-          "speechLineNumber": 23,
-          "text": "But fish not with this melancholy bait",
-          "plainText": "But fish not with this melancholy bait",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0105",
-          "number": 105,
-          "speechLineNumber": 24,
-          "text": "For this fool gudgeon, this opinion.",
-          "plainText": "For this fool gudgeon this opinion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0106",
-          "number": 106,
-          "speechLineNumber": 25,
-          "text": "Come, good Lorenzo. Fare ye well a while.",
-          "plainText": "Come good Lorenzo Fare ye well a while",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0107",
-          "number": 107,
-          "speechLineNumber": 26,
-          "text": "I'll end my exhortation after dinner.",
-          "plainText": "I'll end my exhortation after dinner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8106/line-5",
+          "start": 132,
+          "end": 173,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3892102,
+        "end": 3892320,
+        "line": 144035,
+        "column": 1,
+        "path": "chap22/p@8106",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "GRATIANO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-020",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@8328",
       "type": "speech",
-      "speaker": {
-        "id": "lorenzo",
-        "name": "LORENZO",
-        "displayName": "Lorenzo"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nI hold the world but as the world, Gratiano,\nA stage, where every man must play a part,\nAnd mine a sad one.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0108",
-          "number": 108,
-          "speechLineNumber": 1,
-          "text": "Well, we will leave you then till dinner-time.",
-          "plainText": "Well we will leave you then till dinnertime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8328/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0109",
-          "number": 109,
-          "speechLineNumber": 2,
-          "text": "I must be one of these same dumb wise men,",
-          "plainText": "I must be one of these same dumb wise men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8328/line-2",
+          "start": 9,
+          "end": 53,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0110",
-          "number": 110,
-          "speechLineNumber": 3,
-          "text": "For Gratiano never lets me speak.",
-          "plainText": "For Gratiano never lets me speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8328/line-3",
+          "start": 54,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8328/line-4",
+          "start": 97,
+          "end": 116,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3892324,
+        "end": 3892480,
+        "line": 144043,
+        "column": 1,
+        "path": "chap22/p@8328",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-021",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@8488",
       "type": "speech",
-      "speaker": {
-        "id": "gratiano",
-        "name": "GRATIANO",
-        "displayName": "Gratiano"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GRATIANO.\nLet me play the fool,\nWith mirth and laughter let old wrinkles come,\nAnd let my liver rather heat with wine\nThan my heart cool with mortifying groans.\nWhy should a man whose blood is warm within\nSit like his grandsire cut in alabaster?\nSleep when he wakes? And creep into the jaundice\nBy being peevish? I tell thee what, Antonio,\n(I love thee, and ’tis my love that speaks):\nThere are a sort of men whose visages\nDo cream and mantle like a standing pond,\nAnd do a wilful stillness entertain,\nWith purpose to be dress’d in an opinion\nOf wisdom, gravity, profound conceit,\nAs who should say, “I am Sir Oracle,\nAnd when I ope my lips, let no dog bark.”\nO my Antonio, I do know of these\nThat therefore only are reputed wise\nFor saying nothing; when, I am very sure,\nIf they should speak, would almost damn those ears\nWhich, hearing them, would call their brothers fools.\nI’ll tell thee more of this another time.\nBut fish not with this melancholy bait\nFor this fool gudgeon, this opinion.\nCome, good Lorenzo. Fare ye well a while.\nI’ll end my exhortation after dinner.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0111",
-          "number": 111,
-          "speechLineNumber": 1,
-          "text": "Well, keep me company but two years moe,",
-          "plainText": "Well keep me company but two years moe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0112",
-          "number": 112,
-          "speechLineNumber": 2,
-          "text": "Thou shalt not know the sound of thine own tongue.",
-          "plainText": "Thou shalt not know the sound of thine own tongue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-2",
+          "start": 10,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-3",
+          "start": 32,
+          "end": 78,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-4",
+          "start": 79,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-5",
+          "start": 118,
+          "end": 160,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-6",
+          "start": 161,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-7",
+          "start": 205,
+          "end": 245,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-8",
+          "start": 246,
+          "end": 294,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-9",
+          "start": 295,
+          "end": 339,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-10",
+          "start": 340,
+          "end": 384,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-11",
+          "start": 385,
+          "end": 422,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-12",
+          "start": 423,
+          "end": 464,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-13",
+          "start": 465,
+          "end": 501,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-14",
+          "start": 502,
+          "end": 542,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-15",
+          "start": 543,
+          "end": 580,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-16",
+          "start": 581,
+          "end": 617,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-17",
+          "start": 618,
+          "end": 659,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-18",
+          "start": 660,
+          "end": 692,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-19",
+          "start": 693,
+          "end": 729,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-20",
+          "start": 730,
+          "end": 771,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-21",
+          "start": 772,
+          "end": 822,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-22",
+          "start": 823,
+          "end": 876,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-23",
+          "start": 877,
+          "end": 918,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-24",
+          "start": 919,
+          "end": 957,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-25",
+          "start": 958,
+          "end": 994,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-26",
+          "start": 995,
+          "end": 1036,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@8488/line-27",
+          "start": 1037,
+          "end": 1074,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3892484,
+        "end": 3893713,
+        "line": 144050,
+        "column": 1,
+        "path": "chap22/p@8488",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "GRATIANO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-022",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@9721",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LORENZO.\nWell, we will leave you then till dinner-time.\nI must be one of these same dumb wise men,\nFor Gratiano never lets me speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0113",
-          "number": 113,
-          "speechLineNumber": 1,
-          "text": "Fare you well. I'll grow a talker for this gear.",
-          "plainText": "Fare you well I'll grow a talker for this gear",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9721/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9721/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9721/line-3",
+          "start": 56,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9721/line-4",
+          "start": 99,
+          "end": 132,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3893717,
+        "end": 3893889,
+        "line": 144080,
+        "column": 1,
+        "path": "chap22/p@9721",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "LORENZO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-023",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@9897",
       "type": "speech",
-      "speaker": {
-        "id": "gratiano",
-        "name": "GRATIANO",
-        "displayName": "Gratiano"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GRATIANO.\nWell, keep me company but two years moe,\nThou shalt not know the sound of thine own tongue.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0114",
-          "number": 114,
-          "speechLineNumber": 1,
-          "text": "Thanks, i' faith, for silence is only commendable",
-          "plainText": "Thanks i' faith for silence is only commendable",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9897/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0115",
-          "number": 115,
-          "speechLineNumber": 2,
-          "text": "In a neat's tongue dried, and a maid not vendible.",
-          "plainText": "In a neat's tongue dried and a maid not vendible",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9897/line-2",
+          "start": 10,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@9897/line-3",
+          "start": 51,
+          "end": 101,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-stage-004",
-      "type": "stage",
-      "text": "[Exeunt Gratiano and Lorenzo.]"
-    },
-    {
-      "id": "the-merchant-of-venice-1-1-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
+      ],
+      "sourceRef": {
+        "start": 3893893,
+        "end": 3894029,
+        "line": 144087,
+        "column": 1,
+        "path": "chap22/p@9897",
+        "anchor": "sceneI_22.1"
       },
+      "speakerLabel": "GRATIANO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10037",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nFare you well. I’ll grow a talker for this gear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0116",
-          "number": 116,
-          "speechLineNumber": 1,
-          "text": "Is that anything now?",
-          "plainText": "Is that anything now",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10037/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10037/line-2",
+          "start": 9,
+          "end": 57,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894033,
+        "end": 3894120,
+        "line": 144093,
+        "column": 1,
+        "path": "chap22/p@10037",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-025",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10128",
       "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GRATIANO.\nThanks, i’ faith, for silence is only commendable\nIn a neat’s tongue dried, and a maid not vendible.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0117",
-          "number": 117,
-          "speechLineNumber": 1,
-          "text": "Gratiano speaks an infinite deal of nothing, more than any man in all Venice. His reasons are as two grains of wheat hid in two bushels of chaff: you shall seek all day ere you find them, and when you have them they are not worth the search.",
-          "plainText": "Gratiano speaks an infinite deal of nothing more than any man in all Venice His reasons are as two grains of wheat hid in two bushels of chaff you shall seek all day ere you find them and when you have them they are not worth the search",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10128/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10128/line-2",
+          "start": 10,
+          "end": 59,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10128/line-3",
+          "start": 60,
+          "end": 110,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894124,
+        "end": 3894269,
+        "line": 144098,
+        "column": 1,
+        "path": "chap22/p@10128",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "GRATIANO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10277",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Gratiano and Lorenzo.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 16,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 21,
+          "end": 28,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 29
+        }
+      ],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0118",
-          "number": 118,
-          "speechLineNumber": 1,
-          "text": "Well, tell me now what lady is the same",
-          "plainText": "Well tell me now what lady is the same",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0119",
-          "number": 119,
-          "speechLineNumber": 2,
-          "text": "To whom you swore a secret pilgrimage,",
-          "plainText": "To whom you swore a secret pilgrimage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0120",
-          "number": 120,
-          "speechLineNumber": 3,
-          "text": "That you today promis'd to tell me of?",
-          "plainText": "That you today promis'd to tell me of",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10277/line-1",
+          "start": 0,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894273,
+        "end": 3894392,
+        "line": 144104,
+        "column": 1,
+        "path": "chap22/p@10277",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-027",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10400",
       "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nIs that anything now?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0121",
-          "number": 121,
-          "speechLineNumber": 1,
-          "text": "'Tis not unknown to you, Antonio,",
-          "plainText": "'Tis not unknown to you Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10400/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0122",
-          "number": 122,
-          "speechLineNumber": 2,
-          "text": "How much I have disabled mine estate",
-          "plainText": "How much I have disabled mine estate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0123",
-          "number": 123,
-          "speechLineNumber": 3,
-          "text": "By something showing a more swelling port",
-          "plainText": "By something showing a more swelling port",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0124",
-          "number": 124,
-          "speechLineNumber": 4,
-          "text": "Than my faint means would grant continuance.",
-          "plainText": "Than my faint means would grant continuance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0125",
-          "number": 125,
-          "speechLineNumber": 5,
-          "text": "Nor do I now make moan to be abridg'd",
-          "plainText": "Nor do I now make moan to be abridg'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0126",
-          "number": 126,
-          "speechLineNumber": 6,
-          "text": "From such a noble rate, but my chief care",
-          "plainText": "From such a noble rate but my chief care",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0127",
-          "number": 127,
-          "speechLineNumber": 7,
-          "text": "Is to come fairly off from the great debts",
-          "plainText": "Is to come fairly off from the great debts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0128",
-          "number": 128,
-          "speechLineNumber": 8,
-          "text": "Wherein my time, something too prodigal,",
-          "plainText": "Wherein my time something too prodigal",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0129",
-          "number": 129,
-          "speechLineNumber": 9,
-          "text": "Hath left me gag'd. To you, Antonio,",
-          "plainText": "Hath left me gag'd To you Antonio",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0130",
-          "number": 130,
-          "speechLineNumber": 10,
-          "text": "I owe the most in money and in love,",
-          "plainText": "I owe the most in money and in love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0131",
-          "number": 131,
-          "speechLineNumber": 11,
-          "text": "And from your love I have a warranty",
-          "plainText": "And from your love I have a warranty",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0132",
-          "number": 132,
-          "speechLineNumber": 12,
-          "text": "To unburden all my plots and purposes",
-          "plainText": "To unburden all my plots and purposes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0133",
-          "number": 133,
-          "speechLineNumber": 13,
-          "text": "How to get clear of all the debts I owe.",
-          "plainText": "How to get clear of all the debts I owe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10400/line-2",
+          "start": 9,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894396,
+        "end": 3894456,
+        "line": 144107,
+        "column": 1,
+        "path": "chap22/p@10400",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-028",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10464",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\nGratiano speaks an infinite deal of nothing, more than any man in all Venice. His reasons are as two grains of wheat hid in two bushels of chaff: you shall seek all day ere you find them, and when you have them they are not worth the search.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0134",
-          "number": 134,
-          "speechLineNumber": 1,
-          "text": "I pray you, good Bassanio, let me know it;",
-          "plainText": "I pray you good Bassanio let me know it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10464/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0135",
-          "number": 135,
-          "speechLineNumber": 2,
-          "text": "And if it stand, as you yourself still do,",
-          "plainText": "And if it stand as you yourself still do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0136",
-          "number": 136,
-          "speechLineNumber": 3,
-          "text": "Within the eye of honour, be assur'd",
-          "plainText": "Within the eye of honour be assur'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0137",
-          "number": 137,
-          "speechLineNumber": 4,
-          "text": "My purse, my person, my extremest means",
-          "plainText": "My purse my person my extremest means",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0138",
-          "number": 138,
-          "speechLineNumber": 5,
-          "text": "Lie all unlock'd to your occasions.",
-          "plainText": "Lie all unlock'd to your occasions",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10464/line-2",
+          "start": 10,
+          "end": 251,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894460,
+        "end": 3894744,
+        "line": 144112,
+        "column": 1,
+        "path": "chap22/p@10464",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-029",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10752",
       "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nWell, tell me now what lady is the same\nTo whom you swore a secret pilgrimage,\nThat you today promis’d to tell me of?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0139",
-          "number": 139,
-          "speechLineNumber": 1,
-          "text": "In my school-days, when I had lost one shaft,",
-          "plainText": "In my schooldays when I had lost one shaft",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10752/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0140",
-          "number": 140,
-          "speechLineNumber": 2,
-          "text": "I shot his fellow of the self-same flight",
-          "plainText": "I shot his fellow of the selfsame flight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10752/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0141",
-          "number": 141,
-          "speechLineNumber": 3,
-          "text": "The self-same way, with more advised watch",
-          "plainText": "The selfsame way with more advised watch",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10752/line-3",
+          "start": 49,
+          "end": 87,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0142",
-          "number": 142,
-          "speechLineNumber": 4,
-          "text": "To find the other forth; and by adventuring both",
-          "plainText": "To find the other forth and by adventuring both",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0143",
-          "number": 143,
-          "speechLineNumber": 5,
-          "text": "I oft found both. I urge this childhood proof",
-          "plainText": "I oft found both I urge this childhood proof",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0144",
-          "number": 144,
-          "speechLineNumber": 6,
-          "text": "Because what follows is pure innocence.",
-          "plainText": "Because what follows is pure innocence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0145",
-          "number": 145,
-          "speechLineNumber": 7,
-          "text": "I owe you much, and, like a wilful youth,",
-          "plainText": "I owe you much and like a wilful youth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0146",
-          "number": 146,
-          "speechLineNumber": 8,
-          "text": "That which I owe is lost. But if you please",
-          "plainText": "That which I owe is lost But if you please",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0147",
-          "number": 147,
-          "speechLineNumber": 9,
-          "text": "To shoot another arrow that self way",
-          "plainText": "To shoot another arrow that self way",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0148",
-          "number": 148,
-          "speechLineNumber": 10,
-          "text": "Which you did shoot the first, I do not doubt,",
-          "plainText": "Which you did shoot the first I do not doubt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0149",
-          "number": 149,
-          "speechLineNumber": 11,
-          "text": "As I will watch the aim, or to find both,",
-          "plainText": "As I will watch the aim or to find both",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0150",
-          "number": 150,
-          "speechLineNumber": 12,
-          "text": "Or bring your latter hazard back again,",
-          "plainText": "Or bring your latter hazard back again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0151",
-          "number": 151,
-          "speechLineNumber": 13,
-          "text": "And thankfully rest debtor for the first.",
-          "plainText": "And thankfully rest debtor for the first",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10752/line-4",
+          "start": 88,
+          "end": 126,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894748,
+        "end": 3894914,
+        "line": 144120,
+        "column": 1,
+        "path": "chap22/p@10752",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-030",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@10922",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\n’Tis not unknown to you, Antonio,\nHow much I have disabled mine estate\nBy something showing a more swelling port\nThan my faint means would grant continuance.\nNor do I now make moan to be abridg’d\nFrom such a noble rate, but my chief care\nIs to come fairly off from the great debts\nWherein my time, something too prodigal,\nHath left me gag’d. To you, Antonio,\nI owe the most in money and in love,\nAnd from your love I have a warranty\nTo unburden all my plots and purposes\nHow to get clear of all the debts I owe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0152",
-          "number": 152,
-          "speechLineNumber": 1,
-          "text": "You know me well, and herein spend but time",
-          "plainText": "You know me well and herein spend but time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0153",
-          "number": 153,
-          "speechLineNumber": 2,
-          "text": "To wind about my love with circumstance;",
-          "plainText": "To wind about my love with circumstance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-2",
+          "start": 10,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0154",
-          "number": 154,
-          "speechLineNumber": 3,
-          "text": "And out of doubt you do me now more wrong",
-          "plainText": "And out of doubt you do me now more wrong",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-3",
+          "start": 44,
+          "end": 80,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0155",
-          "number": 155,
-          "speechLineNumber": 4,
-          "text": "In making question of my uttermost",
-          "plainText": "In making question of my uttermost",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-4",
+          "start": 81,
+          "end": 122,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0156",
-          "number": 156,
-          "speechLineNumber": 5,
-          "text": "Than if you had made waste of all I have.",
-          "plainText": "Than if you had made waste of all I have",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-5",
+          "start": 123,
+          "end": 167,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0157",
-          "number": 157,
-          "speechLineNumber": 6,
-          "text": "Then do but say to me what I should do",
-          "plainText": "Then do but say to me what I should do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-6",
+          "start": 168,
+          "end": 205,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0158",
-          "number": 158,
-          "speechLineNumber": 7,
-          "text": "That in your knowledge may by me be done,",
-          "plainText": "That in your knowledge may by me be done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-7",
+          "start": 206,
+          "end": 247,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0159",
-          "number": 159,
-          "speechLineNumber": 8,
-          "text": "And I am prest unto it. Therefore, speak.",
-          "plainText": "And I am prest unto it Therefore speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-8",
+          "start": 248,
+          "end": 290,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-9",
+          "start": 291,
+          "end": 331,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-10",
+          "start": 332,
+          "end": 368,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-11",
+          "start": 369,
+          "end": 405,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-12",
+          "start": 406,
+          "end": 442,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-13",
+          "start": 443,
+          "end": 480,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@10922/line-14",
+          "start": 481,
+          "end": 521,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3894918,
+        "end": 3895529,
+        "line": 144127,
+        "column": 1,
+        "path": "chap22/p@10922",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-031",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@11537",
       "type": "speech",
-      "speaker": {
-        "id": "bassanio",
-        "name": "BASSANIO",
-        "displayName": "Bassanio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nI pray you, good Bassanio, let me know it;\nAnd if it stand, as you yourself still do,\nWithin the eye of honour, be assur’d\nMy purse, my person, my extremest means\nLie all unlock’d to your occasions.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0160",
-          "number": 160,
-          "speechLineNumber": 1,
-          "text": "In Belmont is a lady richly left,",
-          "plainText": "In Belmont is a lady richly left",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0161",
-          "number": 161,
-          "speechLineNumber": 2,
-          "text": "And she is fair, and, fairer than that word,",
-          "plainText": "And she is fair and fairer than that word",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0162",
-          "number": 162,
-          "speechLineNumber": 3,
-          "text": "Of wondrous virtues. Sometimes from her eyes",
-          "plainText": "Of wondrous virtues Sometimes from her eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-3",
+          "start": 52,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0163",
-          "number": 163,
-          "speechLineNumber": 4,
-          "text": "I did receive fair speechless messages:",
-          "plainText": "I did receive fair speechless messages",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-4",
+          "start": 95,
+          "end": 131,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0164",
-          "number": 164,
-          "speechLineNumber": 5,
-          "text": "Her name is Portia, nothing undervalu'd",
-          "plainText": "Her name is Portia nothing undervalu'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-5",
+          "start": 132,
+          "end": 171,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0165",
-          "number": 165,
-          "speechLineNumber": 6,
-          "text": "To Cato's daughter, Brutus' Portia.",
-          "plainText": "To Cato's daughter Brutus' Portia",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0166",
-          "number": 166,
-          "speechLineNumber": 7,
-          "text": "Nor is the wide world ignorant of her worth,",
-          "plainText": "Nor is the wide world ignorant of her worth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0167",
-          "number": 167,
-          "speechLineNumber": 8,
-          "text": "For the four winds blow in from every coast",
-          "plainText": "For the four winds blow in from every coast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0168",
-          "number": 168,
-          "speechLineNumber": 9,
-          "text": "Renowned suitors, and her sunny locks",
-          "plainText": "Renowned suitors and her sunny locks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0169",
-          "number": 169,
-          "speechLineNumber": 10,
-          "text": "Hang on her temples like a golden fleece,",
-          "plainText": "Hang on her temples like a golden fleece",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0170",
-          "number": 170,
-          "speechLineNumber": 11,
-          "text": "Which makes her seat of Belmont Colchos' strond,",
-          "plainText": "Which makes her seat of Belmont Colchos' strond",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0171",
-          "number": 171,
-          "speechLineNumber": 12,
-          "text": "And many Jasons come in quest of her.",
-          "plainText": "And many Jasons come in quest of her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0172",
-          "number": 172,
-          "speechLineNumber": 13,
-          "text": "O my Antonio, had I but the means",
-          "plainText": "O my Antonio had I but the means",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0173",
-          "number": 173,
-          "speechLineNumber": 14,
-          "text": "To hold a rival place with one of them,",
-          "plainText": "To hold a rival place with one of them",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0174",
-          "number": 174,
-          "speechLineNumber": 15,
-          "text": "I have a mind presages me such thrift",
-          "plainText": "I have a mind presages me such thrift",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-1-1-line-0175",
-          "number": 175,
-          "speechLineNumber": 16,
-          "text": "That I should questionless be fortunate.",
-          "plainText": "That I should questionless be fortunate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11537/line-6",
+          "start": 172,
+          "end": 207,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3895533,
+        "end": 3895790,
+        "line": 144144,
+        "column": 1,
+        "path": "chap22/p@11537",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-speech-032",
+      "id": "the-merchant-of-venice/sceneI_22.1/p@11798",
       "type": "speech",
-      "speaker": {
-        "id": "antonio",
-        "name": "ANTONIO",
-        "displayName": "Antonio"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\nIn my school-days, when I had lost one shaft,\nI shot his fellow of the self-same flight\nThe self-same way, with more advised watch\nTo find the other forth; and by adventuring both\nI oft found both. I urge this childhood proof\nBecause what follows is pure innocence.\nI owe you much, and, like a wilful youth,\nThat which I owe is lost. But if you please\nTo shoot another arrow that self way\nWhich you did shoot the first, I do not doubt,\nAs I will watch the aim, or to find both,\nOr bring your latter hazard back again,\nAnd thankfully rest debtor for the first.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-1-1-line-0176",
-          "number": 176,
-          "speechLineNumber": 1,
-          "text": "Thou know'st that all my fortunes are at sea;",
-          "plainText": "Thou know'st that all my fortunes are at sea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0177",
-          "number": 177,
-          "speechLineNumber": 2,
-          "text": "Neither have I money nor commodity",
-          "plainText": "Neither have I money nor commodity",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-2",
+          "start": 10,
+          "end": 55,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0178",
-          "number": 178,
-          "speechLineNumber": 3,
-          "text": "To raise a present sum, therefore go forth",
-          "plainText": "To raise a present sum therefore go forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-3",
+          "start": 56,
+          "end": 97,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0179",
-          "number": 179,
-          "speechLineNumber": 4,
-          "text": "Try what my credit can in Venice do;",
-          "plainText": "Try what my credit can in Venice do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-4",
+          "start": 98,
+          "end": 140,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0180",
-          "number": 180,
-          "speechLineNumber": 5,
-          "text": "That shall be rack'd even to the uttermost,",
-          "plainText": "That shall be rack'd even to the uttermost",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-5",
+          "start": 141,
+          "end": 189,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0181",
-          "number": 181,
-          "speechLineNumber": 6,
-          "text": "To furnish thee to Belmont to fair Portia.",
-          "plainText": "To furnish thee to Belmont to fair Portia",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-6",
+          "start": 190,
+          "end": 235,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0182",
-          "number": 182,
-          "speechLineNumber": 7,
-          "text": "Go presently inquire, and so will I,",
-          "plainText": "Go presently inquire and so will I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-7",
+          "start": 236,
+          "end": 275,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0183",
-          "number": 183,
-          "speechLineNumber": 8,
-          "text": "Where money is, and I no question make",
-          "plainText": "Where money is and I no question make",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-8",
+          "start": 276,
+          "end": 317,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-1-1-line-0184",
-          "number": 184,
-          "speechLineNumber": 9,
-          "text": "To have it of my trust or for my sake.",
-          "plainText": "To have it of my trust or for my sake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-9",
+          "start": 318,
+          "end": 361,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-10",
+          "start": 362,
+          "end": 398,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-11",
+          "start": 399,
+          "end": 445,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-12",
+          "start": 446,
+          "end": 487,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-13",
+          "start": 488,
+          "end": 527,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@11798/line-14",
+          "start": 528,
+          "end": 569,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3895794,
+        "end": 3896453,
+        "line": 144153,
+        "column": 1,
+        "path": "chap22/p@11798",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merchant-of-venice-1-1-stage-005",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "the-merchant-of-venice/sceneI_22.1/p@12461",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nYou know me well, and herein spend but time\nTo wind about my love with circumstance;\nAnd out of doubt you do me now more wrong\nIn making question of my uttermost\nThan if you had made waste of all I have.\nThen do but say to me what I should do\nThat in your knowledge may by me be done,\nAnd I am prest unto it. Therefore, speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-2",
+          "start": 9,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-3",
+          "start": 53,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-4",
+          "start": 94,
+          "end": 135,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-5",
+          "start": 136,
+          "end": 170,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-6",
+          "start": 171,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-7",
+          "start": 213,
+          "end": 251,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-8",
+          "start": 252,
+          "end": 293,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12461/line-9",
+          "start": 294,
+          "end": 335,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3896457,
+        "end": 3896857,
+        "line": 144170,
+        "column": 1,
+        "path": "chap22/p@12461",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@12865",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "BASSANIO.\nIn Belmont is a lady richly left,\nAnd she is fair, and, fairer than that word,\nOf wondrous virtues. Sometimes from her eyes\nI did receive fair speechless messages:\nHer name is Portia, nothing undervalu’d\nTo Cato’s daughter, Brutus’ Portia.\nNor is the wide world ignorant of her worth,\nFor the four winds blow in from every coast\nRenowned suitors, and her sunny locks\nHang on her temples like a golden fleece,\nWhich makes her seat of Belmont Colchos’ strond,\nAnd many Jasons come in quest of her.\nO my Antonio, had I but the means\nTo hold a rival place with one of them,\nI have a mind presages me such thrift\nThat I should questionless be fortunate.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-2",
+          "start": 10,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-3",
+          "start": 44,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-4",
+          "start": 89,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-5",
+          "start": 134,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-6",
+          "start": 174,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-7",
+          "start": 214,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-8",
+          "start": 250,
+          "end": 294,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-9",
+          "start": 295,
+          "end": 338,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-10",
+          "start": 339,
+          "end": 376,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-11",
+          "start": 377,
+          "end": 418,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-12",
+          "start": 419,
+          "end": 467,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-13",
+          "start": 468,
+          "end": 505,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-14",
+          "start": 506,
+          "end": 539,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-15",
+          "start": 540,
+          "end": 579,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-16",
+          "start": 580,
+          "end": 617,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@12865/line-17",
+          "start": 618,
+          "end": 658,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3896861,
+        "end": 3897624,
+        "line": 144182,
+        "column": 1,
+        "path": "chap22/p@12865",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "BASSANIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@13632",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ANTONIO.\nThou know’st that all my fortunes are at sea;\nNeither have I money nor commodity\nTo raise a present sum, therefore go forth\nTry what my credit can in Venice do;\nThat shall be rack’d even to the uttermost,\nTo furnish thee to Belmont to fair Portia.\nGo presently inquire, and so will I,\nWhere money is, and I no question make\nTo have it of my trust or for my sake.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-2",
+          "start": 9,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-3",
+          "start": 55,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-4",
+          "start": 90,
+          "end": 132,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-5",
+          "start": 133,
+          "end": 169,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-6",
+          "start": 170,
+          "end": 213,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-7",
+          "start": 214,
+          "end": 256,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-8",
+          "start": 257,
+          "end": 293,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-9",
+          "start": 294,
+          "end": 332,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@13632/line-10",
+          "start": 333,
+          "end": 371,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3897628,
+        "end": 3898069,
+        "line": 144202,
+        "column": 1,
+        "path": "chap22/p@13632",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": "ANTONIO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneI_22.1/p@14077",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneI_22.1/p@14077/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3898073,
+        "end": 3898110,
+        "line": 144215,
+        "column": 1,
+        "path": "chap22/p@14077",
+        "anchor": "sceneI_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc"
 }

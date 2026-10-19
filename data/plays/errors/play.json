@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "errors",
-  "title": "The Comedy of Errors",
-  "fullTitle": "The Comedy of Errors",
+  "title": "THE COMEDY OF ERRORS",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "THE COMEDY OF ERRORS",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap05"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "errors-1-1",
           "label": "Act 1, Scene 1",
-          "title": "A hall in the Duke's palace",
+          "title": "SCENE I. A hall in the Duke’s palace",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 158
+          "lineCount": 173
         },
         {
           "scene": 2,
           "id": "errors-1-2",
           "label": "Act 1, Scene 2",
-          "title": "A public place",
+          "title": "SCENE II. A public place",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 103
+          "lineCount": 136
         }
       ]
     },
@@ -46,17 +54,17 @@
           "scene": 1,
           "id": "errors-2-1",
           "label": "Act 2, Scene 1",
-          "title": "A public place",
+          "title": "SCENE I. A public place",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 113
+          "lineCount": 157
         },
         {
           "scene": 2,
           "id": "errors-2-2",
           "label": "Act 2, Scene 2",
-          "title": "The same",
+          "title": "SCENE II. The same",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 189
+          "lineCount": 283
         }
       ]
     },
@@ -67,17 +75,17 @@
           "scene": 1,
           "id": "errors-3-1",
           "label": "Act 3, Scene 1",
-          "title": "The same",
+          "title": "SCENE I. The same",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 129
+          "lineCount": 195
         },
         {
           "scene": 2,
           "id": "errors-3-2",
           "label": "Act 3, Scene 2",
-          "title": "The same",
+          "title": "SCENE II. The same",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 147
+          "lineCount": 217
         }
       ]
     },
@@ -88,33 +96,33 @@
           "scene": 1,
           "id": "errors-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The same",
+          "title": "SCENE I. The same",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 113
+          "lineCount": 161
         },
         {
           "scene": 2,
           "id": "errors-4-2",
           "label": "Act 4, Scene 2",
-          "title": "The same",
+          "title": "SCENE II. The same",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 67
+          "lineCount": 108
         },
         {
           "scene": 3,
           "id": "errors-4-3",
           "label": "Act 4, Scene 3",
-          "title": "The same",
+          "title": "SCENE III. The same",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 68
+          "lineCount": 101
         },
         {
           "scene": 4,
           "id": "errors-4-4",
           "label": "Act 4, Scene 4",
-          "title": "The same",
+          "title": "SCENE IV. The same",
           "path": "./scenes/act-4-scene-4.json",
-          "lineCount": 136
+          "lineCount": 238
         }
       ]
     },
@@ -125,11 +133,214 @@
           "scene": 1,
           "id": "errors-5-1",
           "label": "Act 5, Scene 1",
-          "title": "The same",
+          "title": "SCENE I. The same",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 427
+          "lineCount": 589
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "errors-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE COMEDY OF ERRORS"
+    },
+    {
+      "id": "errors-contents-113",
+      "kind": "contents",
+      "path": "./sections/contents-113.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "errors-cast-1395",
+      "kind": "cast",
+      "path": "./sections/cast-1395.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "errors-setting-2119",
+      "kind": "setting",
+      "path": "./sections/setting-2119.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Ephesus"
+    },
+    {
+      "id": "errors-act-2207",
+      "kind": "act",
+      "path": "./sections/act-2207.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "errors-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "errors-act-2207",
+      "orderInPlay": 6,
+      "heading": "SCENE I. A hall in the Duke’s palace"
+    },
+    {
+      "id": "errors-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "errors-act-2207",
+      "orderInPlay": 7,
+      "heading": "SCENE II. A public place"
+    },
+    {
+      "id": "errors-act-17046",
+      "kind": "act",
+      "path": "./sections/act-17046.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "errors-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "errors-act-17046",
+      "orderInPlay": 9,
+      "heading": "SCENE I. A public place"
+    },
+    {
+      "id": "errors-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "errors-act-17046",
+      "orderInPlay": 10,
+      "heading": "SCENE II. The same"
+    },
+    {
+      "id": "errors-act-38607",
+      "kind": "act",
+      "path": "./sections/act-38607.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT III"
+    },
+    {
+      "id": "errors-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "errors-act-38607",
+      "orderInPlay": 12,
+      "heading": "SCENE I. The same"
+    },
+    {
+      "id": "errors-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "errors-act-38607",
+      "orderInPlay": 13,
+      "heading": "SCENE II. The same"
+    },
+    {
+      "id": "errors-act-60716",
+      "kind": "act",
+      "path": "./sections/act-60716.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 14,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "errors-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "errors-act-60716",
+      "orderInPlay": 15,
+      "heading": "SCENE I. The same"
+    },
+    {
+      "id": "errors-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "errors-act-60716",
+      "orderInPlay": 16,
+      "heading": "SCENE II. The same"
+    },
+    {
+      "id": "errors-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "errors-act-60716",
+      "orderInPlay": 17,
+      "heading": "SCENE III. The same"
+    },
+    {
+      "id": "errors-4-4",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-4.json",
+      "act": 4,
+      "scene": 4,
+      "parentSectionId": "errors-act-60716",
+      "orderInPlay": 18,
+      "heading": "SCENE IV. The same"
+    },
+    {
+      "id": "errors-act-92302",
+      "kind": "act",
+      "path": "./sections/act-92302.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 19,
+      "heading": "ACT V"
+    },
+    {
+      "id": "errors-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "errors-act-92302",
+      "orderInPlay": 20,
+      "heading": "SCENE I. The same"
+    }
+  ],
+  "contentVersion": "6ae091bfea46b85124af5d2cf4072be110636367ae358e5b3e15017b5b57bd63"
 }

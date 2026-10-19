@@ -1,289 +1,560 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-1-1",
+    "kind": "scene",
+    "heading": "SCENE I. An open Place.",
     "act": 1,
     "scene": 1,
-    "label": "Act 1, Scene 1",
-    "title": "SCENE I. An open Place.",
-    "location": "An open Place.",
-    "orderInPlay": 1
+    "parentSectionId": "macbeth-act-4789",
+    "orderInPlay": 6,
+    "sourceRef": {
+      "start": 3569032,
+      "end": 3569072,
+      "line": 131391,
+      "column": 1,
+      "path": "chap20/h3@4840",
+      "anchor": "sceneI_20.1"
+    }
   },
   "content": [
     {
-      "id": "macbeth-1-1-stage-001",
+      "id": "macbeth/sceneI_20.1/h3@4840",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. An open Place.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/h3@4840/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569032,
+        "end": 3569072,
+        "line": 131391,
+        "column": 1,
+        "path": "chap20/h3@4840",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@4884",
       "type": "stage",
-      "text": "Thunder and Lightning. Enter three Witches."
-    },
-    {
-      "id": "macbeth-1-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "first-witch",
-        "name": "FIRST WITCH",
-        "displayName": "First Witch"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Thunder and Lightning. Enter three Witches.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 35,
+          "end": 42,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-1-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "When shall we three meet again?",
-          "plainText": "When shall we three meet again",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.1/p@4884/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569076,
+        "end": 3569175,
+        "line": 131393,
+        "column": 1,
+        "path": "chap20/p@4884",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@4987",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST WITCH.\nWhen shall we three meet again?\nIn thunder, lightning, or in rain?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@4987/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "In thunder, lightning, or in rain?",
-          "plainText": "In thunder lightning or in rain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "second-witch",
-        "name": "SECOND WITCH",
-        "displayName": "Second Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "When the hurlyburly's done,",
-          "plainText": "When the hurlyburly's done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.1/p@4987/line-2",
+          "start": 13,
+          "end": 44,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "When the battle's lost and won.",
-          "plainText": "When the battle's lost and won",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.1/p@4987/line-3",
+          "start": 45,
+          "end": 79,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3569179,
+        "end": 3569293,
+        "line": 131396,
+        "column": 1,
+        "path": "chap20/p@4987",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "FIRST WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
     },
     {
-      "id": "macbeth-1-1-speech-003",
+      "id": "macbeth/sceneI_20.1/p@5105",
       "type": "speech",
-      "speaker": {
-        "id": "third-witch",
-        "name": "THIRD WITCH",
-        "displayName": "Third Witch"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND WITCH.\nWhen the hurlyburly’s done,\nWhen the battle’s lost and won.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-1-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "That will be ere the set of sun.",
-          "plainText": "That will be ere the set of sun",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "first-witch",
-        "name": "FIRST WITCH",
-        "displayName": "First Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Where the place?",
-          "plainText": "Where the place",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "second-witch",
-        "name": "SECOND WITCH",
-        "displayName": "Second Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "Upon the heath.",
-          "plainText": "Upon the heath",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "third-witch",
-        "name": "THIRD WITCH",
-        "displayName": "Third Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "There to meet with Macbeth.",
-          "plainText": "There to meet with Macbeth",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "first-witch",
-        "name": "FIRST WITCH",
-        "displayName": "First Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "I come, Graymalkin!",
-          "plainText": "I come Graymalkin",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "second-witch",
-        "name": "SECOND WITCH",
-        "displayName": "Second Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Paddock calls.",
-          "plainText": "Paddock calls",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "third-witch",
-        "name": "THIRD WITCH",
-        "displayName": "Third Witch"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Anon.",
-          "plainText": "Anon",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "macbeth-1-1-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "all",
-        "name": "ALL",
-        "displayName": "All"
-      },
-      "lines": [
-        {
-          "id": "macbeth-1-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Fair is foul, and foul is fair:",
-          "plainText": "Fair is foul and foul is fair",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.1/p@5105/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-1-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Hover through the fog and filthy air.",
-          "plainText": "Hover through the fog and filthy air",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneI_20.1/p@5105/line-2",
+          "start": 14,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5105/line-3",
+          "start": 42,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3569297,
+        "end": 3569405,
+        "line": 131402,
+        "column": 1,
+        "path": "chap20/p@5105",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "SECOND WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
     },
     {
-      "id": "macbeth-1-1-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "macbeth/sceneI_20.1/p@5217",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD WITCH.\nThat will be ere the set of sun.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5217/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5217/line-2",
+          "start": 13,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569409,
+        "end": 3569484,
+        "line": 131408,
+        "column": 1,
+        "path": "chap20/p@5217",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "THIRD WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5296",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST WITCH.\nWhere the place?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5296/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5296/line-2",
+          "start": 13,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569488,
+        "end": 3569547,
+        "line": 131413,
+        "column": 1,
+        "path": "chap20/p@5296",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "FIRST WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5359",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND WITCH.\nUpon the heath.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5359/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5359/line-2",
+          "start": 14,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569551,
+        "end": 3569610,
+        "line": 131418,
+        "column": 1,
+        "path": "chap20/p@5359",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "SECOND WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5422",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD WITCH.\nThere to meet with Macbeth.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5422/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5422/line-2",
+          "start": 13,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569614,
+        "end": 3569684,
+        "line": 131423,
+        "column": 1,
+        "path": "chap20/p@5422",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "THIRD WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5496",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FIRST WITCH.\nI come, Graymalkin!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5496/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5496/line-2",
+          "start": 13,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569688,
+        "end": 3569750,
+        "line": 131428,
+        "column": 1,
+        "path": "chap20/p@5496",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "FIRST WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5562",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SECOND WITCH.\nPaddock calls.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5562/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5562/line-2",
+          "start": 14,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569754,
+        "end": 3569812,
+        "line": 131433,
+        "column": 1,
+        "path": "chap20/p@5562",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "SECOND WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 13
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5624",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THIRD WITCH.\nAnon.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5624/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5624/line-2",
+          "start": 13,
+          "end": 18,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569816,
+        "end": 3569864,
+        "line": 131438,
+        "column": 1,
+        "path": "chap20/p@5624",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "THIRD WITCH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5676",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ALL.\nFair is foul, and foul is fair:\nHover through the fog and filthy air.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5676/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5676/line-2",
+          "start": 5,
+          "end": 36,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneI_20.1/p@5676/line-3",
+          "start": 37,
+          "end": 74,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569868,
+        "end": 3569977,
+        "line": 131443,
+        "column": 1,
+        "path": "chap20/p@5676",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": "ALL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
+    },
+    {
+      "id": "macbeth/sceneI_20.1/p@5789",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneI_20.1/p@5789/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3569981,
+        "end": 3570018,
+        "line": 131449,
+        "column": 1,
+        "path": "chap20/p@5789",
+        "anchor": "sceneI_20.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

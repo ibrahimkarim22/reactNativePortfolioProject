@@ -1,277 +1,694 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "coriolanus",
-    "title": "The Tragedy of Coriolanus",
+    "title": "THE TRAGEDY OF CORIOLANUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap06"
   },
-  "scene": {
+  "section": {
     "id": "coriolanus-4-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Antium. Before Aufidius’s house",
     "act": 4,
     "scene": 4,
-    "label": "Act 4, Scene 4",
-    "title": "SCENE IV. Antium. Before Aufidius's house",
-    "location": "Antium. Before Aufidius's house",
-    "orderInPlay": 20
+    "parentSectionId": "coriolanus-act-145219",
+    "orderInPlay": 28,
+    "sourceRef": {
+      "start": 976163,
+      "end": 976245,
+      "line": 37122,
+      "column": 1,
+      "path": "chap06/h3@156451",
+      "anchor": "sceneIV_6.4"
+    }
   },
   "content": [
     {
-      "id": "coriolanus-4-4-stage-001",
+      "id": "coriolanus/sceneIV_6.4/h3@156451",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Antium. Before Aufidius’s house",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/h3@156451/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 976163,
+        "end": 976245,
+        "line": 37122,
+        "column": 1,
+        "path": "chap06/h3@156451",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@156537",
       "type": "stage",
-      "text": "Enter Coriolanus in mean apparel, disguised and muffled."
-    },
-    {
-      "id": "coriolanus-4-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Coriolanus in mean apparel, disguised and muffled.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 16,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "A goodly city is this Antium. City,",
-          "plainText": "A goodly city is this Antium City",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-4-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "'Tis I that made thy widows. Many an heir",
-          "plainText": "'Tis I that made thy widows Many an heir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-4-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Of these fair edifices 'fore my wars",
-          "plainText": "Of these fair edifices 'fore my wars",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-4-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Have I heard groan and drop. Then know me not,",
-          "plainText": "Have I heard groan and drop Then know me not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-4-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Lest that thy wives with spits and boys with stones",
-          "plainText": "Lest that thy wives with spits and boys with stones",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-4-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "In puny battle slay me.",
-          "plainText": "In puny battle slay me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneIV_6.4/p@156537/line-1",
+          "start": 0,
+          "end": 56,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 976249,
+        "end": 976365,
+        "line": 37124,
+        "column": 1,
+        "path": "chap06/p@156537",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "coriolanus-4-4-stage-002",
+      "id": "coriolanus/sceneIV_6.4/p@156657",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nA goodly city is this Antium. City,\n’Tis I that made thy widows. Many an heir\nOf these fair edifices ’fore my wars\nHave I heard groan and drop. Then know me not,\nLest that thy wives with spits and boys with stones\nIn puny battle slay me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-2",
+          "start": 12,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-3",
+          "start": 48,
+          "end": 89,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-4",
+          "start": 90,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-5",
+          "start": 127,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-6",
+          "start": 174,
+          "end": 225,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@156657/line-7",
+          "start": 226,
+          "end": 249,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 976369,
+        "end": 976673,
+        "line": 37129,
+        "column": 1,
+        "path": "chap06/p@156657",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@156965",
       "type": "stage",
-      "text": "Enter a Citizen."
-    },
-    {
-      "id": "coriolanus-4-4-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "citizen",
-        "name": "CITIZEN",
-        "displayName": "Citizen"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Citizen.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "coriolanus-4-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 1,
-          "text": "And you.",
-          "plainText": "And you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "coriolanus-4-4-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      ],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Direct me, if it be your will,",
-          "plainText": "Direct me if it be your will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneIV_6.4/p@156965/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 976677,
+        "end": 976752,
+        "line": 37139,
+        "column": 1,
+        "path": "chap06/p@156965",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@157044",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "Save you, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157044/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 976756,
+        "end": 976795,
+        "line": 37143,
+        "column": 1,
+        "path": "chap06/p@157044",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@157087",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CITIZEN.\nAnd you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157087/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-4-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 2,
-          "text": "Where great Aufidius lies. Is he in Antium?",
-          "plainText": "Where great Aufidius lies Is he in Antium",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneIV_6.4/p@157087/line-2",
+          "start": 9,
+          "end": 17,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 976799,
+        "end": 976846,
+        "line": 37147,
+        "column": 1,
+        "path": "chap06/p@157087",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-4-4-speech-004",
+      "id": "coriolanus/sceneIV_6.4/p@157138",
       "type": "speech",
-      "speaker": {
-        "id": "citizen",
-        "name": "CITIZEN",
-        "displayName": "Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nDirect me, if it be your will,\nWhere great Aufidius lies. Is he in Antium?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "He is, and feasts the nobles of the state",
-          "plainText": "He is and feasts the nobles of the state",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneIV_6.4/p@157138/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-4-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "At his house this night.",
-          "plainText": "At his house this night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneIV_6.4/p@157138/line-2",
+          "start": 12,
+          "end": 42,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157138/line-3",
+          "start": 43,
+          "end": 86,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 976850,
+        "end": 976971,
+        "line": 37152,
+        "column": 1,
+        "path": "chap06/p@157138",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-4-4-speech-005",
+      "id": "coriolanus/sceneIV_6.4/p@157263",
       "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CITIZEN.\nHe is, and feasts the nobles of the state\nAt his house this night.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Which is his house, beseech you?",
-          "plainText": "Which is his house beseech you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneIV_6.4/p@157263/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157263/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157263/line-3",
+          "start": 51,
+          "end": 75,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 976975,
+        "end": 977085,
+        "line": 37158,
+        "column": 1,
+        "path": "chap06/p@157263",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-4-4-speech-006",
+      "id": "coriolanus/sceneIV_6.4/p@157377",
       "type": "speech",
-      "speaker": {
-        "id": "citizen",
-        "name": "CITIZEN",
-        "displayName": "Citizen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nWhich is his house, beseech you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "This here before you.",
-          "plainText": "This here before you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneIV_6.4/p@157377/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157377/line-2",
+          "start": 12,
+          "end": 44,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 977089,
+        "end": 977163,
+        "line": 37164,
+        "column": 1,
+        "path": "chap06/p@157377",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-4-4-speech-007",
+      "id": "coriolanus/sceneIV_6.4/p@157455",
       "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CITIZEN.\nThis here before you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-4-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Thank you, sir. Farewell.",
-          "plainText": "Thank you sir Farewell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneIV_6.4/p@157455/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157455/line-2",
+          "start": 9,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 977167,
+        "end": 977227,
+        "line": 37169,
+        "column": 1,
+        "path": "chap06/p@157455",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CITIZEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-4-4-stage-003",
-      "type": "stage",
-      "text": "[Exit Citizen.]"
+      "id": "coriolanus/sceneIV_6.4/p@157519",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nThank you, sir. Farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157519/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157519/line-2",
+          "start": 12,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 977231,
+        "end": 977298,
+        "line": 37174,
+        "column": 1,
+        "path": "chap06/p@157519",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-4-4-stage-004",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "coriolanus/sceneIV_6.4/p@157590",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Citizen.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157590/line-1",
+          "start": 0,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 977302,
+        "end": 977375,
+        "line": 37179,
+        "column": 1,
+        "path": "chap06/p@157590",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@157667",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "O world, thy slippery turns! Friends now fast sworn,\nWhose double bosoms seems to wear one heart,\nWhose hours, whose bed, whose meal and exercise\nAre still together, who twin, as ’twere, in love\nUnseparable, shall within this hour,\nOn a dissension of a doit, break out\nTo bitterest enmity; so fellest foes,\nWhose passions and whose plots have broke their sleep\nTo take the one the other, by some chance,\nSome trick not worth an egg, shall grow dear friends\nAnd interjoin their issues. So with me:\nMy birthplace hate I, and my love’s upon\nThis enemy town. I’ll enter. If he slay me,\nHe does fair justice; if he give me way,\nI’ll do his country service.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-1",
+          "start": 0,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-2",
+          "start": 53,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-3",
+          "start": 98,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-4",
+          "start": 146,
+          "end": 194,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-5",
+          "start": 195,
+          "end": 231,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-6",
+          "start": 232,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-7",
+          "start": 269,
+          "end": 306,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-8",
+          "start": 307,
+          "end": 360,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-9",
+          "start": 361,
+          "end": 403,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-10",
+          "start": 404,
+          "end": 456,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-11",
+          "start": 457,
+          "end": 496,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-12",
+          "start": 497,
+          "end": 537,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-13",
+          "start": 538,
+          "end": 581,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-14",
+          "start": 582,
+          "end": 622,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneIV_6.4/p@157667/line-15",
+          "start": 623,
+          "end": 651,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 977379,
+        "end": 978125,
+        "line": 37181,
+        "column": 1,
+        "path": "chap06/p@157667",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "coriolanus/sceneIV_6.4/p@158417",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneIV_6.4/p@158417/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 978129,
+        "end": 978164,
+        "line": 37199,
+        "column": 1,
+        "path": "chap06/p@158417",
+        "anchor": "sceneIV_6.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40"
 }

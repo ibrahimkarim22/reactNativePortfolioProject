@@ -1,399 +1,377 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-winters-tale",
-    "title": "The Winter'S Tale",
+    "title": "THE WINTER’S TALE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap39"
   },
-  "scene": {
+  "section": {
     "id": "the-winters-tale-4-1",
+    "kind": "scene",
+    "heading": "SCENE I.",
     "act": 4,
     "scene": 1,
-    "label": "Act 4, Scene 1",
-    "title": "SCENE I.",
-    "location": "",
-    "orderInPlay": 9
+    "parentSectionId": "the-winters-tale-act-88559",
+    "orderInPlay": 17,
+    "sourceRef": {
+      "start": 6909811,
+      "end": 6909837,
+      "line": 259548,
+      "column": 1,
+      "path": "chap39/h3@88611",
+      "anchor": "sceneIV_39.1"
+    }
   },
   "content": [
     {
-      "id": "the-winters-tale-4-1-stage-001",
-      "type": "stage",
-      "text": "Enter Time, the Chorus."
-    },
-    {
-      "id": "the-winters-tale-4-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "time",
-        "name": "TIME",
-        "displayName": "Time"
-      },
+      "id": "the-winters-tale/sceneIV_39.1/h3@88611",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 8
+        }
+      ],
       "lines": [
         {
-          "id": "the-winters-tale-4-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "I that please some, try all: both joy and terror",
-          "plainText": "I that please some try all both joy and terror",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Of good and bad, that makes and unfolds error,",
-          "plainText": "Of good and bad that makes and unfolds error",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Now take upon me, in the name of Time,",
-          "plainText": "Now take upon me in the name of Time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "To use my wings. Impute it not a crime",
-          "plainText": "To use my wings Impute it not a crime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "To me or my swift passage, that I slide",
-          "plainText": "To me or my swift passage that I slide",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "O'er sixteen years, and leave the growth untried",
-          "plainText": "O'er sixteen years and leave the growth untried",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Of that wide gap, since it is in my power",
-          "plainText": "Of that wide gap since it is in my power",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "To o'erthrow law, and in one self-born hour",
-          "plainText": "To o'erthrow law and in one selfborn hour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "To plant and o'erwhelm custom. Let me pass",
-          "plainText": "To plant and o'erwhelm custom Let me pass",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "The same I am, ere ancient'st order was",
-          "plainText": "The same I am ere ancient'st order was",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Or what is now received. I witness to",
-          "plainText": "Or what is now received I witness to",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "The times that brought them in; so shall I do",
-          "plainText": "The times that brought them in so shall I do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "To th' freshest things now reigning, and make stale",
-          "plainText": "To th' freshest things now reigning and make stale",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "The glistering of this present, as my tale",
-          "plainText": "The glistering of this present as my tale",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "Now seems to it. Your patience this allowing,",
-          "plainText": "Now seems to it Your patience this allowing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "I turn my glass, and give my scene such growing",
-          "plainText": "I turn my glass and give my scene such growing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "As you had slept between. Leontes leaving",
-          "plainText": "As you had slept between Leontes leaving",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 18,
-          "text": "Th' effects of his fond jealousies, so grieving",
-          "plainText": "Th' effects of his fond jealousies so grieving",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 19,
-          "text": "That he shuts up himself, imagine me,",
-          "plainText": "That he shuts up himself imagine me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 20,
-          "text": "Gentle spectators, that I now may be",
-          "plainText": "Gentle spectators that I now may be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 21,
-          "text": "In fair Bohemia, and remember well,",
-          "plainText": "In fair Bohemia and remember well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 22,
-          "text": "I mentioned a son o' th' king's, which Florizel",
-          "plainText": "I mentioned a son o' th' king's which Florizel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 23,
-          "text": "I now name to you; and with speed so pace",
-          "plainText": "I now name to you and with speed so pace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 24,
-          "text": "To speak of Perdita, now grown in grace",
-          "plainText": "To speak of Perdita now grown in grace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 25,
-          "text": "Equal with wondering. What of her ensues",
-          "plainText": "Equal with wondering What of her ensues",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 26,
-          "text": "I list not prophesy; but let Time's news",
-          "plainText": "I list not prophesy but let Time's news",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 27,
-          "text": "Be known when 'tis brought forth. A shepherd's daughter,",
-          "plainText": "Be known when 'tis brought forth A shepherd's daughter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 28,
-          "text": "And what to her adheres, which follows after,",
-          "plainText": "And what to her adheres which follows after",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 29,
-          "text": "Is th' argument of Time. Of this allow,",
-          "plainText": "Is th' argument of Time Of this allow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 30,
-          "text": "If ever you have spent time worse ere now;",
-          "plainText": "If ever you have spent time worse ere now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 31,
-          "text": "If never, yet that Time himself doth say",
-          "plainText": "If never yet that Time himself doth say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-winters-tale-4-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 32,
-          "text": "He wishes earnestly you never may.",
-          "plainText": "He wishes earnestly you never may",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-winters-tale/sceneIV_39.1/h3@88611/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6909811,
+        "end": 6909837,
+        "line": 259548,
+        "column": 1,
+        "path": "chap39/h3@88611",
+        "anchor": "sceneIV_39.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-winters-tale-4-1-stage-002",
+      "id": "the-winters-tale/sceneIV_39.1/p@88641",
       "type": "stage",
-      "text": "[Exit.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Time, the Chorus.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88641/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6909841,
+        "end": 6909923,
+        "line": 259550,
+        "column": 1,
+        "path": "chap39/p@88641",
+        "anchor": "sceneIV_39.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-winters-tale/sceneIV_39.1/p@88727",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TIME.\nI that please some, try all: both joy and terror\nOf good and bad, that makes and unfolds error,\nNow take upon me, in the name of Time,\nTo use my wings. Impute it not a crime\nTo me or my swift passage, that I slide\nO’er sixteen years, and leave the growth untried\nOf that wide gap, since it is in my power\nTo o’erthrow law, and in one self-born hour\nTo plant and o’erwhelm custom. Let me pass\nThe same I am, ere ancient’st order was\nOr what is now received. I witness to\nThe times that brought them in; so shall I do\nTo th’ freshest things now reigning, and make stale\nThe glistering of this present, as my tale\nNow seems to it. Your patience this allowing,\nI turn my glass, and give my scene such growing\nAs you had slept between. Leontes leaving\nTh’ effects of his fond jealousies, so grieving\nThat he shuts up himself, imagine me,\nGentle spectators, that I now may be\nIn fair Bohemia, and remember well,\nI mentioned a son o’ th’ king’s, which Florizel\nI now name to you; and with speed so pace\nTo speak of Perdita, now grown in grace\nEqual with wondering. What of her ensues\nI list not prophesy; but let Time’s news\nBe known when ’tis brought forth. A shepherd’s daughter,\nAnd what to her adheres, which follows after,\nIs th’ argument of Time. Of this allow,\nIf ever you have spent time worse ere now;\nIf never, yet that Time himself doth say\nHe wishes earnestly you never may.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-2",
+          "start": 6,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-3",
+          "start": 55,
+          "end": 101,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-4",
+          "start": 102,
+          "end": 140,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-5",
+          "start": 141,
+          "end": 179,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-6",
+          "start": 180,
+          "end": 219,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-7",
+          "start": 220,
+          "end": 268,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-8",
+          "start": 269,
+          "end": 310,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-9",
+          "start": 311,
+          "end": 354,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-10",
+          "start": 355,
+          "end": 397,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-11",
+          "start": 398,
+          "end": 437,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-12",
+          "start": 438,
+          "end": 475,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-13",
+          "start": 476,
+          "end": 521,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-14",
+          "start": 522,
+          "end": 573,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-15",
+          "start": 574,
+          "end": 616,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-16",
+          "start": 617,
+          "end": 662,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-17",
+          "start": 663,
+          "end": 710,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-18",
+          "start": 711,
+          "end": 752,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-19",
+          "start": 753,
+          "end": 800,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-20",
+          "start": 801,
+          "end": 838,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-21",
+          "start": 839,
+          "end": 875,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-22",
+          "start": 876,
+          "end": 911,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-23",
+          "start": 912,
+          "end": 959,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-24",
+          "start": 960,
+          "end": 1001,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-25",
+          "start": 1002,
+          "end": 1041,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-26",
+          "start": 1042,
+          "end": 1082,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-27",
+          "start": 1083,
+          "end": 1123,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-28",
+          "start": 1124,
+          "end": 1180,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-29",
+          "start": 1181,
+          "end": 1226,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-30",
+          "start": 1227,
+          "end": 1266,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-31",
+          "start": 1267,
+          "end": 1309,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-32",
+          "start": 1310,
+          "end": 1350,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@88727/line-33",
+          "start": 1351,
+          "end": 1385,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6909927,
+        "end": 6911497,
+        "line": 259554,
+        "column": 1,
+        "path": "chap39/p@88727",
+        "anchor": "sceneIV_39.1"
+      },
+      "speakerLabel": "TIME.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "the-winters-tale/sceneIV_39.1/p@90301",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-winters-tale/sceneIV_39.1/p@90301/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6911501,
+        "end": 6911540,
+        "line": 259590,
+        "column": 1,
+        "path": "chap39/p@90301",
+        "anchor": "sceneIV_39.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "3b2018ebb4b2981236a8c226b1716dab8982fa351be093a6b280355a960d4761"
 }

@@ -1,652 +1,683 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-merchant-of-venice",
-    "title": "The Merchant of Venice",
+    "title": "THE MERCHANT OF VENICE",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap22"
   },
-  "scene": {
+  "section": {
     "id": "the-merchant-of-venice-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. Belmont. A room in Portia’s house.",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. Belmont. A room in Portia's house.",
-    "location": "Belmont. A room in Portia's house.",
-    "orderInPlay": 4
+    "parentSectionId": "the-merchant-of-venice-act-32074",
+    "orderInPlay": 10,
+    "sourceRef": {
+      "start": 3916122,
+      "end": 3916182,
+      "line": 144816,
+      "column": 1,
+      "path": "chap22/h3@32126",
+      "anchor": "sceneII_22.1"
+    }
   },
   "content": [
     {
-      "id": "the-merchant-of-venice-2-1-stage-001",
+      "id": "the-merchant-of-venice/sceneII_22.1/h3@32126",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Belmont. A room in Portia’s house.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 43
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/h3@32126/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3916122,
+        "end": 3916182,
+        "line": 144816,
+        "column": 1,
+        "path": "chap22/h3@32126",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneII_22.1/p@32190",
       "type": "stage",
-      "text": "Flourish of cornets. Enter the Prince of Morocco, a tawny Moor all in white, and three or four followers accordingly, with Portia, Nerissa and their train."
-    },
-    {
-      "id": "the-merchant-of-venice-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "prince-of-morocco",
-        "name": "PRINCE OF MOROCCO",
-        "displayName": "Prince Of Morocco"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Flourish of cornets. Enter the Prince of Morocco, a tawny Moor all in white, and three or four followers accordingly, with Portia, Nerissa and their train.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 48,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 123,
+          "end": 138,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-merchant-of-venice-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Mislike me not for my complexion,",
-          "plainText": "Mislike me not for my complexion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "The shadowed livery of the burnish'd sun,",
-          "plainText": "The shadowed livery of the burnish'd sun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "To whom I am a neighbour, and near bred.",
-          "plainText": "To whom I am a neighbour and near bred",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Bring me the fairest creature northward born,",
-          "plainText": "Bring me the fairest creature northward born",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Where Phœbus' fire scarce thaws the icicles,",
-          "plainText": "Where Phbus' fire scarce thaws the icicles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "And let us make incision for your love",
-          "plainText": "And let us make incision for your love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "To prove whose blood is reddest, his or mine.",
-          "plainText": "To prove whose blood is reddest his or mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "I tell thee, lady, this aspect of mine",
-          "plainText": "I tell thee lady this aspect of mine",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Hath fear'd the valiant; by my love I swear",
-          "plainText": "Hath fear'd the valiant by my love I swear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "The best-regarded virgins of our clime",
-          "plainText": "The bestregarded virgins of our clime",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Have lov'd it too. I would not change this hue,",
-          "plainText": "Have lov'd it too I would not change this hue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "Except to steal your thoughts, my gentle queen.",
-          "plainText": "Except to steal your thoughts my gentle queen",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32190/line-1",
+          "start": 0,
+          "end": 155,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3916186,
+        "end": 3916428,
+        "line": 144818,
+        "column": 1,
+        "path": "chap22/p@32190",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merchant-of-venice-2-1-speech-002",
+      "id": "the-merchant-of-venice/sceneII_22.1/p@32436",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PRINCE OF MOROCCO.\nMislike me not for my complexion,\nThe shadowed livery of the burnish’d sun,\nTo whom I am a neighbour, and near bred.\nBring me the fairest creature northward born,\nWhere Phœbus’ fire scarce thaws the icicles,\nAnd let us make incision for your love\nTo prove whose blood is reddest, his or mine.\nI tell thee, lady, this aspect of mine\nHath fear’d the valiant; by my love I swear\nThe best-regarded virgins of our clime\nHave lov’d it too. I would not change this hue,\nExcept to steal your thoughts, my gentle queen.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "In terms of choice I am not solely led",
-          "plainText": "In terms of choice I am not solely led",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 2,
-          "text": "By nice direction of a maiden's eyes;",
-          "plainText": "By nice direction of a maiden's eyes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-2",
+          "start": 19,
+          "end": 52,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 3,
-          "text": "Besides, the lott'ry of my destiny",
-          "plainText": "Besides the lott'ry of my destiny",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-3",
+          "start": 53,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 4,
-          "text": "Bars me the right of voluntary choosing.",
-          "plainText": "Bars me the right of voluntary choosing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-4",
+          "start": 95,
+          "end": 135,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 5,
-          "text": "But if my father had not scanted me",
-          "plainText": "But if my father had not scanted me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-5",
+          "start": 136,
+          "end": 181,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 6,
-          "text": "And hedg'd me by his wit to yield myself",
-          "plainText": "And hedg'd me by his wit to yield myself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-6",
+          "start": 182,
+          "end": 226,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 7,
-          "text": "His wife who wins me by that means I told you,",
-          "plainText": "His wife who wins me by that means I told you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-7",
+          "start": 227,
+          "end": 265,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 8,
-          "text": "Yourself, renowned Prince, then stood as fair",
-          "plainText": "Yourself renowned Prince then stood as fair",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-8",
+          "start": 266,
+          "end": 311,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 9,
-          "text": "As any comer I have look'd on yet",
-          "plainText": "As any comer I have look'd on yet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-9",
+          "start": 312,
+          "end": 350,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 10,
-          "text": "For my affection.",
-          "plainText": "For my affection",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-10",
+          "start": 351,
+          "end": 394,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-11",
+          "start": 395,
+          "end": 433,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-12",
+          "start": 434,
+          "end": 481,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@32436/line-13",
+          "start": 482,
+          "end": 529,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3916432,
+        "end": 3917046,
+        "line": 144822,
+        "column": 1,
+        "path": "chap22/p@32436",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PRINCE OF MOROCCO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 18
+      }
     },
     {
-      "id": "the-merchant-of-venice-2-1-speech-003",
+      "id": "the-merchant-of-venice/sceneII_22.1/p@33054",
       "type": "speech",
-      "speaker": {
-        "id": "prince-of-morocco",
-        "name": "PRINCE OF MOROCCO",
-        "displayName": "Prince Of Morocco"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nIn terms of choice I am not solely led\nBy nice direction of a maiden’s eyes;\nBesides, the lott’ry of my destiny\nBars me the right of voluntary choosing.\nBut if my father had not scanted me\nAnd hedg’d me by his wit to yield myself\nHis wife who wins me by that means I told you,\nYourself, renowned Prince, then stood as fair\nAs any comer I have look’d on yet\nFor my affection.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "Even for that I thank you.",
-          "plainText": "Even for that I thank you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Therefore I pray you lead me to the caskets",
-          "plainText": "Therefore I pray you lead me to the caskets",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-2",
+          "start": 8,
+          "end": 46,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 3,
-          "text": "To try my fortune. By this scimitar",
-          "plainText": "To try my fortune By this scimitar",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-3",
+          "start": 47,
+          "end": 84,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 4,
-          "text": "That slew the Sophy and a Persian prince,",
-          "plainText": "That slew the Sophy and a Persian prince",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-4",
+          "start": 85,
+          "end": 119,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 5,
-          "text": "That won three fields of Sultan Solyman,",
-          "plainText": "That won three fields of Sultan Solyman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-5",
+          "start": 120,
+          "end": 160,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 6,
-          "text": "I would o'erstare the sternest eyes that look,",
-          "plainText": "I would o'erstare the sternest eyes that look",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-6",
+          "start": 161,
+          "end": 196,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 7,
-          "text": "Outbrave the heart most daring on the earth,",
-          "plainText": "Outbrave the heart most daring on the earth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-7",
+          "start": 197,
+          "end": 237,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 8,
-          "text": "Pluck the young sucking cubs from the she-bear,",
-          "plainText": "Pluck the young sucking cubs from the shebear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-8",
+          "start": 238,
+          "end": 284,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 9,
-          "text": "Yea, mock the lion when he roars for prey,",
-          "plainText": "Yea mock the lion when he roars for prey",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-9",
+          "start": 285,
+          "end": 330,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 10,
-          "text": "To win thee, lady. But, alas the while!",
-          "plainText": "To win thee lady But alas the while",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-10",
+          "start": 331,
+          "end": 364,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 11,
-          "text": "If Hercules and Lichas play at dice",
-          "plainText": "If Hercules and Lichas play at dice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 12,
-          "text": "Which is the better man, the greater throw",
-          "plainText": "Which is the better man the greater throw",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 13,
-          "text": "May turn by fortune from the weaker hand:",
-          "plainText": "May turn by fortune from the weaker hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 14,
-          "text": "So is Alcides beaten by his rage,",
-          "plainText": "So is Alcides beaten by his rage",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 15,
-          "text": "And so may I, blind Fortune leading me,",
-          "plainText": "And so may I blind Fortune leading me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 16,
-          "text": "Miss that which one unworthier may attain,",
-          "plainText": "Miss that which one unworthier may attain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "the-merchant-of-venice-2-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 17,
-          "text": "And die with grieving.",
-          "plainText": "And die with grieving",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33054/line-11",
+          "start": 365,
+          "end": 382,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3917050,
+        "end": 3917507,
+        "line": 144838,
+        "column": 1,
+        "path": "chap22/p@33054",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "the-merchant-of-venice-2-1-speech-004",
+      "id": "the-merchant-of-venice/sceneII_22.1/p@33515",
       "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PRINCE OF MOROCCO.\nEven for that I thank you.\nTherefore I pray you lead me to the caskets\nTo try my fortune. By this scimitar\nThat slew the Sophy and a Persian prince,\nThat won three fields of Sultan Solyman,\nI would o’erstare the sternest eyes that look,\nOutbrave the heart most daring on the earth,\nPluck the young sucking cubs from the she-bear,\nYea, mock the lion when he roars for prey,\nTo win thee, lady. But, alas the while!\nIf Hercules and Lichas play at dice\nWhich is the better man, the greater throw\nMay turn by fortune from the weaker hand:\nSo is Alcides beaten by his rage,\nAnd so may I, blind Fortune leading me,\nMiss that which one unworthier may attain,\nAnd die with grieving.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-2-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "You must take your chance,",
-          "plainText": "You must take your chance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 2,
-          "text": "And either not attempt to choose at all,",
-          "plainText": "And either not attempt to choose at all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-2",
+          "start": 19,
+          "end": 45,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 3,
-          "text": "Or swear before you choose, if you choose wrong",
-          "plainText": "Or swear before you choose if you choose wrong",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-3",
+          "start": 46,
+          "end": 89,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 4,
-          "text": "Never to speak to lady afterward",
-          "plainText": "Never to speak to lady afterward",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-4",
+          "start": 90,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 5,
-          "text": "In way of marriage. Therefore be advis'd.",
-          "plainText": "In way of marriage Therefore be advis'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-5",
+          "start": 126,
+          "end": 167,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-6",
+          "start": 168,
+          "end": 208,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-7",
+          "start": 209,
+          "end": 255,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-8",
+          "start": 256,
+          "end": 300,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-9",
+          "start": 301,
+          "end": 348,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-10",
+          "start": 349,
+          "end": 391,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-11",
+          "start": 392,
+          "end": 431,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-12",
+          "start": 432,
+          "end": 467,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-13",
+          "start": 468,
+          "end": 510,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-14",
+          "start": 511,
+          "end": 552,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-15",
+          "start": 553,
+          "end": 586,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-16",
+          "start": 587,
+          "end": 626,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-17",
+          "start": 627,
+          "end": 669,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@33515/line-18",
+          "start": 670,
+          "end": 692,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3917511,
+        "end": 3918313,
+        "line": 144852,
+        "column": 1,
+        "path": "chap22/p@33515",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PRINCE OF MOROCCO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 18
+      }
     },
     {
-      "id": "the-merchant-of-venice-2-1-speech-005",
+      "id": "the-merchant-of-venice/sceneII_22.1/p@34321",
       "type": "speech",
-      "speaker": {
-        "id": "prince-of-morocco",
-        "name": "PRINCE OF MOROCCO",
-        "displayName": "Prince Of Morocco"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nYou must take your chance,\nAnd either not attempt to choose at all,\nOr swear before you choose, if you choose wrong\nNever to speak to lady afterward\nIn way of marriage. Therefore be advis’d.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merchant-of-venice-2-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Nor will not. Come, bring me unto my chance.",
-          "plainText": "Nor will not Come bring me unto my chance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "the-merchant-of-venice-2-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "portia",
-        "name": "PORTIA",
-        "displayName": "Portia"
-      },
-      "lines": [
-        {
-          "id": "the-merchant-of-venice-2-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "First, forward to the temple. After dinner",
-          "plainText": "First forward to the temple After dinner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "Your hazard shall be made.",
-          "plainText": "Your hazard shall be made",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        }
-      ]
-    },
-    {
-      "id": "the-merchant-of-venice-2-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "prince-of-morocco",
-        "name": "PRINCE OF MOROCCO",
-        "displayName": "Prince Of Morocco"
-      },
-      "lines": [
-        {
-          "id": "the-merchant-of-venice-2-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Good fortune then,",
-          "plainText": "Good fortune then",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-2",
+          "start": 8,
+          "end": 34,
+          "sourceLineNumber": null
         },
         {
-          "id": "the-merchant-of-venice-2-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "To make me blest or cursed'st among men!",
-          "plainText": "To make me blest or cursed'st among men",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-3",
+          "start": 35,
+          "end": 75,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-4",
+          "start": 76,
+          "end": 123,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-5",
+          "start": 124,
+          "end": 156,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34321/line-6",
+          "start": 157,
+          "end": 198,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3918317,
+        "end": 3918565,
+        "line": 144873,
+        "column": 1,
+        "path": "chap22/p@34321",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "the-merchant-of-venice-2-1-stage-002",
-      "type": "stage",
-      "text": "[Cornets. Exeunt.]"
+      "id": "the-merchant-of-venice/sceneII_22.1/p@34573",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PRINCE OF MOROCCO.\nNor will not. Come, bring me unto my chance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34573/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34573/line-2",
+          "start": 19,
+          "end": 63,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3918569,
+        "end": 3918662,
+        "line": 144882,
+        "column": 1,
+        "path": "chap22/p@34573",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PRINCE OF MOROCCO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 18
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneII_22.1/p@34670",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PORTIA.\nFirst, forward to the temple. After dinner\nYour hazard shall be made.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34670/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34670/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34670/line-3",
+          "start": 51,
+          "end": 77,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3918666,
+        "end": 3918778,
+        "line": 144887,
+        "column": 1,
+        "path": "chap22/p@34670",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PORTIA.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneII_22.1/p@34786",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PRINCE OF MOROCCO.\nGood fortune then,\nTo make me blest or cursed’st among men!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34786/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34786/line-2",
+          "start": 19,
+          "end": 37,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34786/line-3",
+          "start": 38,
+          "end": 78,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3918782,
+        "end": 3918895,
+        "line": 144893,
+        "column": 1,
+        "path": "chap22/p@34786",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": "PRINCE OF MOROCCO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 18
+      }
+    },
+    {
+      "id": "the-merchant-of-venice/sceneII_22.1/p@34903",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Cornets. Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 17
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merchant-of-venice/sceneII_22.1/p@34903/line-1",
+          "start": 0,
+          "end": 18,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3918899,
+        "end": 3918945,
+        "line": 144899,
+        "column": 1,
+        "path": "chap22/p@34903",
+        "anchor": "sceneII_22.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc"
 }

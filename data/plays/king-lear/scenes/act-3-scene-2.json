@@ -1,1212 +1,1265 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-3-2",
+    "kind": "scene",
+    "heading": "SCENE II. Another part of the heath",
     "act": 3,
     "scene": 2,
-    "label": "Act 3, Scene 2",
-    "title": "SCENE II. Another part of the heath",
-    "location": "Another part of the heath",
-    "orderInPlay": 11
+    "parentSectionId": "king-lear-act-100249",
+    "orderInPlay": 18,
+    "sourceRef": {
+      "start": 3277032,
+      "end": 3277110,
+      "line": 119585,
+      "column": 1,
+      "path": "chap18/h3@103577",
+      "anchor": "sceneIII_18.2"
+    }
   },
   "content": [
     {
-      "id": "king-lear-3-2-stage-001",
+      "id": "king-lear/sceneIII_18.2/h3@103577",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Another part of the heath",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.2/h3@103577/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3277032,
+        "end": 3277110,
+        "line": 119585,
+        "column": 1,
+        "path": "chap18/h3@103577",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.2/p@103659",
       "type": "stage",
-      "text": "Storm continues. Enter Lear and Fool."
-    },
-    {
-      "id": "king-lear-3-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Storm continues. Enter Lear and Fool.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 23,
+          "end": 27,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 32,
+          "end": 36,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Blow, winds, and crack your cheeks! Rage! blow!",
-          "plainText": "Blow winds and crack your cheeks Rage blow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "You cataracts and hurricanoes, spout",
-          "plainText": "You cataracts and hurricanoes spout",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Till you have drench'd our steeples, drown'd the cocks!",
-          "plainText": "Till you have drench'd our steeples drown'd the cocks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "You sulphurous and thought-executing fires,",
-          "plainText": "You sulphurous and thoughtexecuting fires",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Vaunt-couriers to oak-cleaving thunderbolts,",
-          "plainText": "Vauntcouriers to oakcleaving thunderbolts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Singe my white head! And thou, all-shaking thunder,",
-          "plainText": "Singe my white head And thou allshaking thunder",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Strike flat the thick rotundity o' the world!",
-          "plainText": "Strike flat the thick rotundity o' the world",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Crack nature's moulds, all germens spill at once,",
-          "plainText": "Crack nature's moulds all germens spill at once",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "That make ingrateful man!",
-          "plainText": "That make ingrateful man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@103659/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3277114,
+        "end": 3277237,
+        "line": 119587,
+        "column": 1,
+        "path": "chap18/p@103659",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-3-2-speech-002",
+      "id": "king-lear/sceneIII_18.2/p@103786",
       "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nBlow, winds, and crack your cheeks! Rage! blow!\nYou cataracts and hurricanoes, spout\nTill you have drench’d our steeples, drown’d the cocks!\nYou sulphurous and thought-executing fires,\nVaunt-couriers to oak-cleaving thunderbolts,\nSinge my white head! And thou, all-shaking thunder,\nStrike flat the thick rotundity o’ the world!\nCrack nature’s moulds, all germens spill at once,\nThat make ingrateful man!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "O nuncle, court holy-water in a dry house is better than this rain-water out o' door. Good nuncle, in; and ask thy daughters blessing: here's a night pities neither wise men nor fools.",
-          "plainText": "O nuncle court holywater in a dry house is better than this rainwater out o' door Good nuncle in and ask thy daughters blessing here's a night pities neither wise men nor fools",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneIII_18.2/p@103786/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-2",
+          "start": 6,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-3",
+          "start": 54,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-4",
+          "start": 91,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-5",
+          "start": 147,
+          "end": 190,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-6",
+          "start": 191,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-7",
+          "start": 236,
+          "end": 287,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-8",
+          "start": 288,
+          "end": 333,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-9",
+          "start": 334,
+          "end": 383,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@103786/line-10",
+          "start": 384,
+          "end": 409,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3277241,
+        "end": 3277720,
+        "line": 119590,
+        "column": 1,
+        "path": "chap18/p@103786",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-003",
+      "id": "king-lear/sceneIII_18.2/p@104269",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nO nuncle, court holy-water in a dry house is better than this rain-water out o’ door. Good nuncle, in; and ask thy daughters blessing: here’s a night pities neither wise men nor fools.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "Rumble thy bellyful! Spit, fire! spout, rain!",
-          "plainText": "Rumble thy bellyful Spit fire spout rain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104269/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Nor rain, wind, thunder, fire are my daughters;",
-          "plainText": "Nor rain wind thunder fire are my daughters",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "I tax not you, you elements, with unkindness.",
-          "plainText": "I tax not you you elements with unkindness",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 4,
-          "text": "I never gave you kingdom, call'd you children;",
-          "plainText": "I never gave you kingdom call'd you children",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 5,
-          "text": "You owe me no subscription: then let fall",
-          "plainText": "You owe me no subscription then let fall",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 6,
-          "text": "Your horrible pleasure. Here I stand your slave,",
-          "plainText": "Your horrible pleasure Here I stand your slave",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 7,
-          "text": "A poor, infirm, weak, and despis'd old man:",
-          "plainText": "A poor infirm weak and despis'd old man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 8,
-          "text": "But yet I call you servile ministers,",
-          "plainText": "But yet I call you servile ministers",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 9,
-          "text": "That will with two pernicious daughters join",
-          "plainText": "That will with two pernicious daughters join",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 10,
-          "text": "Your high-engender'd battles 'gainst a head",
-          "plainText": "Your highengender'd battles 'gainst a head",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 11,
-          "text": "So old and white as this! O! O! 'tis foul!",
-          "plainText": "So old and white as this O O 'tis foul",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104269/line-2",
+          "start": 6,
+          "end": 190,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3277724,
+        "end": 3277944,
+        "line": 119603,
+        "column": 1,
+        "path": "chap18/p@104269",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-004",
+      "id": "king-lear/sceneIII_18.2/p@104493",
       "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nRumble thy bellyful! Spit, fire! spout, rain!\nNor rain, wind, thunder, fire are my daughters;\nI tax not you, you elements, with unkindness.\nI never gave you kingdom, call’d you children;\nYou owe me no subscription: then let fall\nYour horrible pleasure. Here I stand your slave,\nA poor, infirm, weak, and despis’d old man:\nBut yet I call you servile ministers,\nThat will with two pernicious daughters join\nYour high-engender’d battles ’gainst a head\nSo old and white as this! O! O! ’tis foul!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "He that has a house to put's head in has a good head-piece.",
-          "plainText": "He that has a house to put's head in has a good headpiece",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "The codpiece that will house",
-          "plainText": "The codpiece that will house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-2",
+          "start": 6,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "Before the head has any,",
-          "plainText": "Before the head has any",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-3",
+          "start": 52,
+          "end": 99,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "The head and he shall louse:",
-          "plainText": "The head and he shall louse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-4",
+          "start": 100,
+          "end": 145,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "So beggars marry many.",
-          "plainText": "So beggars marry many",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-5",
+          "start": 146,
+          "end": 192,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 6,
-          "text": "The man that makes his toe",
-          "plainText": "The man that makes his toe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-6",
+          "start": 193,
+          "end": 234,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 7,
-          "text": "What he his heart should make",
-          "plainText": "What he his heart should make",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-7",
+          "start": 235,
+          "end": 283,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 8,
-          "text": "Shall of a corn cry woe,",
-          "plainText": "Shall of a corn cry woe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-8",
+          "start": 284,
+          "end": 327,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 9,
-          "text": "And turn his sleep to wake.",
-          "plainText": "And turn his sleep to wake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-9",
+          "start": 328,
+          "end": 365,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 10,
-          "text": "For there was never yet fair woman but she made mouths in a glass.",
-          "plainText": "For there was never yet fair woman but she made mouths in a glass",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@104493/line-10",
+          "start": 366,
+          "end": 410,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@104493/line-11",
+          "start": 411,
+          "end": 454,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@104493/line-12",
+          "start": 455,
+          "end": 497,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3277948,
+        "end": 3278525,
+        "line": 119609,
+        "column": 1,
+        "path": "chap18/p@104493",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-005",
+      "id": "king-lear/sceneIII_18.2/p@105074",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nHe that has a house to put’s head in has a good head-piece.\n   The codpiece that will house\n     Before the head has any,\n   The head and he shall louse:\n     So beggars marry many.\n   The man that makes his toe\n     What he his heart should make\n   Shall of a corn cry woe,\n     And turn his sleep to wake.\nFor there was never yet fair woman but she made mouths in a glass.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "No, I will be the pattern of all patience;",
-          "plainText": "No I will be the pattern of all patience",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105074/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0033",
-          "number": 33,
-          "speechLineNumber": 2,
-          "text": "I will say nothing.",
-          "plainText": "I will say nothing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105074/line-2",
+          "start": 6,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-3",
+          "start": 66,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-4",
+          "start": 98,
+          "end": 127,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-5",
+          "start": 128,
+          "end": 159,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-6",
+          "start": 160,
+          "end": 187,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-7",
+          "start": 188,
+          "end": 217,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-8",
+          "start": 218,
+          "end": 252,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-9",
+          "start": 253,
+          "end": 280,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-10",
+          "start": 281,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105074/line-11",
+          "start": 314,
+          "end": 380,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3278529,
+        "end": 3278984,
+        "line": 119624,
+        "column": 1,
+        "path": "chap18/p@105074",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-stage-002",
+      "id": "king-lear/sceneIII_18.2/p@105533",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nNo, I will be the pattern of all patience;\nI will say nothing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.2/p@105533/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105533/line-2",
+          "start": 6,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105533/line-3",
+          "start": 49,
+          "end": 68,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3278988,
+        "end": 3279091,
+        "line": 119638,
+        "column": 1,
+        "path": "chap18/p@105533",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.2/p@105640",
       "type": "stage",
-      "text": "Enter Kent."
-    },
-    {
-      "id": "king-lear-3-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "kent",
-        "name": "KENT",
-        "displayName": "Kent"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Kent.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "Who's there?",
-          "plainText": "Who's there",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneIII_18.2/p@105640/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3279095,
+        "end": 3279161,
+        "line": 119644,
+        "column": 1,
+        "path": "chap18/p@105640",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-3-2-speech-007",
+      "id": "king-lear/sceneIII_18.2/p@105710",
       "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KENT.\nWho’s there?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Marry, here's grace and a codpiece; that's a wise man and a fool.",
-          "plainText": "Marry here's grace and a codpiece that's a wise man and a fool",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneIII_18.2/p@105710/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@105710/line-2",
+          "start": 6,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3279165,
+        "end": 3279213,
+        "line": 119646,
+        "column": 1,
+        "path": "chap18/p@105710",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "KENT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-008",
+      "id": "king-lear/sceneIII_18.2/p@105762",
       "type": "speech",
-      "speaker": {
-        "id": "kent",
-        "name": "KENT",
-        "displayName": "Kent"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nMarry, here’s grace and a codpiece; that’s a wise man and a fool.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Alas, sir, are you here? Things that love night",
-          "plainText": "Alas sir are you here Things that love night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105762/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "Love not such nights as these; the wrathful skies",
-          "plainText": "Love not such nights as these the wrathful skies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0038",
-          "number": 38,
-          "speechLineNumber": 3,
-          "text": "Gallow the very wanderers of the dark,",
-          "plainText": "Gallow the very wanderers of the dark",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0039",
-          "number": 39,
-          "speechLineNumber": 4,
-          "text": "And make them keep their caves. Since I was man,",
-          "plainText": "And make them keep their caves Since I was man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0040",
-          "number": 40,
-          "speechLineNumber": 5,
-          "text": "Such sheets of fire, such bursts of horrid thunder,",
-          "plainText": "Such sheets of fire such bursts of horrid thunder",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0041",
-          "number": 41,
-          "speechLineNumber": 6,
-          "text": "Such groans of roaring wind and rain I never",
-          "plainText": "Such groans of roaring wind and rain I never",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0042",
-          "number": 42,
-          "speechLineNumber": 7,
-          "text": "Remember to have heard. Man's nature cannot carry",
-          "plainText": "Remember to have heard Man's nature cannot carry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0043",
-          "number": 43,
-          "speechLineNumber": 8,
-          "text": "Th'affliction, nor the fear.",
-          "plainText": "Th'affliction nor the fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105762/line-2",
+          "start": 6,
+          "end": 71,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3279217,
+        "end": 3279319,
+        "line": 119651,
+        "column": 1,
+        "path": "chap18/p@105762",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-009",
+      "id": "king-lear/sceneIII_18.2/p@105868",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KENT.\nAlas, sir, are you here? Things that love night\nLove not such nights as these; the wrathful skies\nGallow the very wanderers of the dark,\nAnd make them keep their caves. Since I was man,\nSuch sheets of fire, such bursts of horrid thunder,\nSuch groans of roaring wind and rain I never\nRemember to have heard. Man’s nature cannot carry\nTh’affliction, nor the fear.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Let the great gods,",
-          "plainText": "Let the great gods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0045",
-          "number": 45,
-          "speechLineNumber": 2,
-          "text": "That keep this dreadful pudder o'er our heads,",
-          "plainText": "That keep this dreadful pudder o'er our heads",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-2",
+          "start": 6,
+          "end": 53,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0046",
-          "number": 46,
-          "speechLineNumber": 3,
-          "text": "Find out their enemies now. Tremble, thou wretch,",
-          "plainText": "Find out their enemies now Tremble thou wretch",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-3",
+          "start": 54,
+          "end": 103,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0047",
-          "number": 47,
-          "speechLineNumber": 4,
-          "text": "That hast within thee undivulged crimes",
-          "plainText": "That hast within thee undivulged crimes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-4",
+          "start": 104,
+          "end": 142,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0048",
-          "number": 48,
-          "speechLineNumber": 5,
-          "text": "Unwhipp'd of justice. Hide thee, thou bloody hand;",
-          "plainText": "Unwhipp'd of justice Hide thee thou bloody hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-5",
+          "start": 143,
+          "end": 191,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0049",
-          "number": 49,
-          "speechLineNumber": 6,
-          "text": "Thou perjur'd, and thou simular of virtue",
-          "plainText": "Thou perjur'd and thou simular of virtue",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-6",
+          "start": 192,
+          "end": 243,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0050",
-          "number": 50,
-          "speechLineNumber": 7,
-          "text": "That art incestuous. Caitiff, to pieces shake",
-          "plainText": "That art incestuous Caitiff to pieces shake",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-7",
+          "start": 244,
+          "end": 288,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0051",
-          "number": 51,
-          "speechLineNumber": 8,
-          "text": "That under covert and convenient seeming",
-          "plainText": "That under covert and convenient seeming",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-8",
+          "start": 289,
+          "end": 338,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0052",
-          "number": 52,
-          "speechLineNumber": 9,
-          "text": "Hast practis'd on man's life: close pent-up guilts,",
-          "plainText": "Hast practis'd on man's life close pentup guilts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0053",
-          "number": 53,
-          "speechLineNumber": 10,
-          "text": "Rive your concealing continents, and cry",
-          "plainText": "Rive your concealing continents and cry",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0054",
-          "number": 54,
-          "speechLineNumber": 11,
-          "text": "These dreadful summoners grace. I am a man",
-          "plainText": "These dreadful summoners grace I am a man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0055",
-          "number": 55,
-          "speechLineNumber": 12,
-          "text": "More sinn'd against than sinning.",
-          "plainText": "More sinn'd against than sinning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@105868/line-9",
+          "start": 339,
+          "end": 367,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3279323,
+        "end": 3279755,
+        "line": 119657,
+        "column": 1,
+        "path": "chap18/p@105868",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "KENT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-010",
+      "id": "king-lear/sceneIII_18.2/p@106304",
       "type": "speech",
-      "speaker": {
-        "id": "kent",
-        "name": "KENT",
-        "displayName": "Kent"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nLet the great gods,\nThat keep this dreadful pudder o’er our heads,\nFind out their enemies now. Tremble, thou wretch,\nThat hast within thee undivulged crimes\nUnwhipp’d of justice. Hide thee, thou bloody hand;\nThou perjur’d, and thou simular of virtue\nThat art incestuous. Caitiff, to pieces shake\nThat under covert and convenient seeming\nHast practis’d on man’s life: close pent-up guilts,\nRive your concealing continents, and cry\nThese dreadful summoners grace. I am a man\nMore sinn’d against than sinning.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "Alack, bareheaded!",
-          "plainText": "Alack bareheaded",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0057",
-          "number": 57,
-          "speechLineNumber": 2,
-          "text": "Gracious my lord, hard by here is a hovel;",
-          "plainText": "Gracious my lord hard by here is a hovel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-2",
+          "start": 6,
+          "end": 25,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0058",
-          "number": 58,
-          "speechLineNumber": 3,
-          "text": "Some friendship will it lend you 'gainst the tempest:",
-          "plainText": "Some friendship will it lend you 'gainst the tempest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-3",
+          "start": 26,
+          "end": 72,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0059",
-          "number": 59,
-          "speechLineNumber": 4,
-          "text": "Repose you there, whilst I to this hard house,—",
-          "plainText": "Repose you there whilst I to this hard house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-4",
+          "start": 73,
+          "end": 122,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0060",
-          "number": 60,
-          "speechLineNumber": 5,
-          "text": "More harder than the stones whereof 'tis rais'd;",
-          "plainText": "More harder than the stones whereof 'tis rais'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-5",
+          "start": 123,
+          "end": 162,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0061",
-          "number": 61,
-          "speechLineNumber": 6,
-          "text": "Which even but now, demanding after you,",
-          "plainText": "Which even but now demanding after you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-6",
+          "start": 163,
+          "end": 213,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0062",
-          "number": 62,
-          "speechLineNumber": 7,
-          "text": "Denied me to come in,—return, and force",
-          "plainText": "Denied me to come inreturn and force",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-7",
+          "start": 214,
+          "end": 255,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0063",
-          "number": 63,
-          "speechLineNumber": 8,
-          "text": "Their scanted courtesy.",
-          "plainText": "Their scanted courtesy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106304/line-8",
+          "start": 256,
+          "end": 301,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106304/line-9",
+          "start": 302,
+          "end": 342,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106304/line-10",
+          "start": 343,
+          "end": 394,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106304/line-11",
+          "start": 395,
+          "end": 435,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106304/line-12",
+          "start": 436,
+          "end": 478,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106304/line-13",
+          "start": 479,
+          "end": 512,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3279759,
+        "end": 3280356,
+        "line": 119669,
+        "column": 1,
+        "path": "chap18/p@106304",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-011",
+      "id": "king-lear/sceneIII_18.2/p@106905",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "KENT.\nAlack, bareheaded!\nGracious my lord, hard by here is a hovel;\nSome friendship will it lend you ’gainst the tempest:\nRepose you there, whilst I to this hard house,—\nMore harder than the stones whereof ’tis rais’d;\nWhich even but now, demanding after you,\nDenied me to come in,—return, and force\nTheir scanted courtesy.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "My wits begin to turn.",
-          "plainText": "My wits begin to turn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0065",
-          "number": 65,
-          "speechLineNumber": 2,
-          "text": "Come on, my boy. How dost, my boy? Art cold?",
-          "plainText": "Come on my boy How dost my boy Art cold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-2",
+          "start": 6,
+          "end": 24,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0066",
-          "number": 66,
-          "speechLineNumber": 3,
-          "text": "I am cold myself. Where is this straw, my fellow?",
-          "plainText": "I am cold myself Where is this straw my fellow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-3",
+          "start": 25,
+          "end": 67,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0067",
-          "number": 67,
-          "speechLineNumber": 4,
-          "text": "The art of our necessities is strange,",
-          "plainText": "The art of our necessities is strange",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-4",
+          "start": 68,
+          "end": 121,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0068",
-          "number": 68,
-          "speechLineNumber": 5,
-          "text": "That can make vile things precious. Come, your hovel.",
-          "plainText": "That can make vile things precious Come your hovel",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-5",
+          "start": 122,
+          "end": 169,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0069",
-          "number": 69,
-          "speechLineNumber": 6,
-          "text": "Poor fool and knave, I have one part in my heart",
-          "plainText": "Poor fool and knave I have one part in my heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-6",
+          "start": 170,
+          "end": 218,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0070",
-          "number": 70,
-          "speechLineNumber": 7,
-          "text": "That's sorry yet for thee.",
-          "plainText": "That's sorry yet for thee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@106905/line-7",
+          "start": 219,
+          "end": 259,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106905/line-8",
+          "start": 260,
+          "end": 299,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@106905/line-9",
+          "start": 300,
+          "end": 323,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3280360,
+        "end": 3280748,
+        "line": 119685,
+        "column": 1,
+        "path": "chap18/p@106905",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "KENT.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-012",
+      "id": "king-lear/sceneIII_18.2/p@107297",
       "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nMy wits begin to turn.\nCome on, my boy. How dost, my boy? Art cold?\nI am cold myself. Where is this straw, my fellow?\nThe art of our necessities is strange,\nThat can make vile things precious. Come, your hovel.\nPoor fool and knave, I have one part in my heart\nThat’s sorry yet for thee.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "[Singing.]",
-          "plainText": "Singing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107297/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0072",
-          "number": 72,
-          "speechLineNumber": 2,
-          "text": "He that has and a little tiny wit,",
-          "plainText": "He that has and a little tiny wit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107297/line-2",
+          "start": 6,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0073",
-          "number": 73,
-          "speechLineNumber": 3,
-          "text": "With heigh-ho, the wind and the rain,",
-          "plainText": "With heighho the wind and the rain",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107297/line-3",
+          "start": 29,
+          "end": 73,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0074",
-          "number": 74,
-          "speechLineNumber": 4,
-          "text": "Must make content with his fortunes fit,",
-          "plainText": "Must make content with his fortunes fit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107297/line-4",
+          "start": 74,
+          "end": 123,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0075",
-          "number": 75,
-          "speechLineNumber": 5,
-          "text": "Though the rain it raineth every day.",
-          "plainText": "Though the rain it raineth every day",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107297/line-5",
+          "start": 124,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107297/line-6",
+          "start": 163,
+          "end": 216,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107297/line-7",
+          "start": 217,
+          "end": 265,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107297/line-8",
+          "start": 266,
+          "end": 292,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3280752,
+        "end": 3281104,
+        "line": 119697,
+        "column": 1,
+        "path": "chap18/p@107297",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-speech-013",
+      "id": "king-lear/sceneIII_18.2/p@107653",
       "type": "speech",
-      "speaker": {
-        "id": "lear",
-        "name": "LEAR",
-        "displayName": "Lear"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\n[Singing.]\n   He that has and a little tiny wit,\n     With heigh-ho, the wind and the rain,\n   Must make content with his fortunes fit,\n     Though the rain it raineth every day.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 7,
+          "end": 15
+        }
+      ],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0076",
-          "number": 76,
-          "speechLineNumber": 1,
-          "text": "True, boy. Come, bring us to this hovel.",
-          "plainText": "True boy Come bring us to this hovel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "king-lear/sceneIII_18.2/p@107653/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107653/line-2",
+          "start": 6,
+          "end": 16,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107653/line-3",
+          "start": 17,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107653/line-4",
+          "start": 55,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107653/line-5",
+          "start": 98,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@107653/line-6",
+          "start": 142,
+          "end": 184,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "king-lear-3-2-stage-003",
-      "type": "stage",
-      "text": "[Exeunt Lear and Kent.]"
-    },
-    {
-      "id": "king-lear-3-2-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "fool",
-        "name": "FOOL",
-        "displayName": "Fool"
+      ],
+      "sourceRef": {
+        "start": 3281108,
+        "end": 3281349,
+        "line": 119708,
+        "column": 1,
+        "path": "chap18/p@107653",
+        "anchor": "sceneIII_18.2"
       },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.2/p@107898",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LEAR.\nTrue, boy. Come, bring us to this hovel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "king-lear-3-2-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "This is a brave night to cool a courtezan. I'll speak a prophecy ere I go:",
-          "plainText": "This is a brave night to cool a courtezan I'll speak a prophecy ere I go",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107898/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "king-lear-3-2-line-0078",
-          "number": 78,
-          "speechLineNumber": 2,
-          "text": "When priests are more in word than matter;",
-          "plainText": "When priests are more in word than matter",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0079",
-          "number": 79,
-          "speechLineNumber": 3,
-          "text": "When brewers mar their malt with water;",
-          "plainText": "When brewers mar their malt with water",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0080",
-          "number": 80,
-          "speechLineNumber": 4,
-          "text": "When nobles are their tailors' tutors;",
-          "plainText": "When nobles are their tailors' tutors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0081",
-          "number": 81,
-          "speechLineNumber": 5,
-          "text": "No heretics burn'd, but wenches' suitors;",
-          "plainText": "No heretics burn'd but wenches' suitors",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0082",
-          "number": 82,
-          "speechLineNumber": 6,
-          "text": "When every case in law is right;",
-          "plainText": "When every case in law is right",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0083",
-          "number": 83,
-          "speechLineNumber": 7,
-          "text": "No squire in debt, nor no poor knight;",
-          "plainText": "No squire in debt nor no poor knight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0084",
-          "number": 84,
-          "speechLineNumber": 8,
-          "text": "When slanders do not live in tongues;",
-          "plainText": "When slanders do not live in tongues",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0085",
-          "number": 85,
-          "speechLineNumber": 9,
-          "text": "Nor cut-purses come not to throngs;",
-          "plainText": "Nor cutpurses come not to throngs",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0086",
-          "number": 86,
-          "speechLineNumber": 10,
-          "text": "When usurers tell their gold i' the field;",
-          "plainText": "When usurers tell their gold i' the field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0087",
-          "number": 87,
-          "speechLineNumber": 11,
-          "text": "And bawds and whores do churches build,",
-          "plainText": "And bawds and whores do churches build",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0088",
-          "number": 88,
-          "speechLineNumber": 12,
-          "text": "Then shall the realm of Albion",
-          "plainText": "Then shall the realm of Albion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0089",
-          "number": 89,
-          "speechLineNumber": 13,
-          "text": "Come to great confusion:",
-          "plainText": "Come to great confusion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0090",
-          "number": 90,
-          "speechLineNumber": 14,
-          "text": "Then comes the time, who lives to see't,",
-          "plainText": "Then comes the time who lives to see't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0091",
-          "number": 91,
-          "speechLineNumber": 15,
-          "text": "That going shall be us'd with feet.",
-          "plainText": "That going shall be us'd with feet",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-2-line-0092",
-          "number": 92,
-          "speechLineNumber": 16,
-          "text": "This prophecy Merlin shall make; for I live before his time.",
-          "plainText": "This prophecy Merlin shall make for I live before his time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "king-lear/sceneIII_18.2/p@107898/line-2",
+          "start": 6,
+          "end": 46,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3281353,
+        "end": 3281429,
+        "line": 119717,
+        "column": 1,
+        "path": "chap18/p@107898",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "LEAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "king-lear-3-2-stage-004",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "king-lear/sceneIII_18.2/p@107978",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt Lear and Kent.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 17,
+          "end": 21,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 22
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.2/p@107978/line-1",
+          "start": 0,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3281433,
+        "end": 3281544,
+        "line": 119722,
+        "column": 1,
+        "path": "chap18/p@107978",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.2/p@108093",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FOOL.\nThis is a brave night to cool a courtezan. I’ll speak a prophecy ere I go:\n   When priests are more in word than matter;\n   When brewers mar their malt with water;\n   When nobles are their tailors’ tutors;\n   No heretics burn’d, but wenches’ suitors;\n   When every case in law is right;\n   No squire in debt, nor no poor knight;\n   When slanders do not live in tongues;\n   Nor cut-purses come not to throngs;\n   When usurers tell their gold i’ the field;\n   And bawds and whores do churches build,\n   Then shall the realm of Albion\n   Come to great confusion:\n   Then comes the time, who lives to see’t,\n   That going shall be us’d with feet.\nThis prophecy Merlin shall make; for I live before his time.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-2",
+          "start": 6,
+          "end": 80,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-3",
+          "start": 81,
+          "end": 126,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-4",
+          "start": 127,
+          "end": 169,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-5",
+          "start": 170,
+          "end": 211,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-6",
+          "start": 212,
+          "end": 256,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-7",
+          "start": 257,
+          "end": 292,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-8",
+          "start": 293,
+          "end": 334,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-9",
+          "start": 335,
+          "end": 375,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-10",
+          "start": 376,
+          "end": 414,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-11",
+          "start": 415,
+          "end": 460,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-12",
+          "start": 461,
+          "end": 503,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-13",
+          "start": 504,
+          "end": 537,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-14",
+          "start": 538,
+          "end": 565,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-15",
+          "start": 566,
+          "end": 609,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-16",
+          "start": 610,
+          "end": 648,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.2/p@108093/line-17",
+          "start": 649,
+          "end": 709,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3281548,
+        "end": 3282363,
+        "line": 119724,
+        "column": 1,
+        "path": "chap18/p@108093",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": "FOOL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.2/p@108912",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.2/p@108912/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282367,
+        "end": 3282402,
+        "line": 119745,
+        "column": 1,
+        "path": "chap18/p@108912",
+        "anchor": "sceneIII_18.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

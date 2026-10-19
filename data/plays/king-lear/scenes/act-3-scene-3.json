@@ -1,173 +1,375 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "king-lear",
-    "title": "The Tragedy of King Lear",
+    "title": "THE TRAGEDY OF KING LEAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap18"
   },
-  "scene": {
+  "section": {
     "id": "king-lear-3-3",
+    "kind": "scene",
+    "heading": "SCENE III. A Room in Gloucester’s Castle",
     "act": 3,
     "scene": 3,
-    "label": "Act 3, Scene 3",
-    "title": "SCENE III. A Room in Gloucester's Castle",
-    "location": "A Room in Gloucester's Castle",
-    "orderInPlay": 12
+    "parentSectionId": "king-lear-act-100249",
+    "orderInPlay": 19,
+    "sourceRef": {
+      "start": 3282406,
+      "end": 3282489,
+      "line": 119747,
+      "column": 1,
+      "path": "chap18/h3@108951",
+      "anchor": "sceneIII_18.3"
+    }
   },
   "content": [
     {
-      "id": "king-lear-3-3-stage-001",
+      "id": "king-lear/sceneIII_18.3/h3@108951",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. A Room in Gloucester’s Castle",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 40
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/h3@108951/line-1",
+          "start": 0,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282406,
+        "end": 3282489,
+        "line": 119747,
+        "column": 1,
+        "path": "chap18/h3@108951",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@109038",
       "type": "stage",
-      "text": "Enter Gloucester and Edmund."
-    },
-    {
-      "id": "king-lear-3-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Gloucester and Edmund.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "king-lear-3-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Alack, alack, Edmund, I like not this unnatural dealing. When I desired their leave that I might pity him, they took from me the use of mine own house; charged me on pain of perpetual displeasure, neither to speak of him, entreat for him, or any way sustain him.",
-          "plainText": "Alack alack Edmund I like not this unnatural dealing When I desired their leave that I might pity him they took from me the use of mine own house charged me on pain of perpetual displeasure neither to speak of him entreat for him or any way sustain him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-3-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "edmund",
-        "name": "EDMUND",
-        "displayName": "Edmund"
-      },
-      "lines": [
-        {
-          "id": "king-lear-3-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Most savage and unnatural!",
-          "plainText": "Most savage and unnatural",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-3-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "gloucester",
-        "name": "GLOUCESTER",
-        "displayName": "Gloucester"
-      },
-      "lines": [
-        {
-          "id": "king-lear-3-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Go to; say you nothing. There is division between the Dukes, and a worse matter than that: I have received a letter this night;—'tis dangerous to be spoken;—I have locked the letter in my closet: these injuries the King now bears will be revenged home; there's part of a power already footed: we must incline to the King. I will look him, and privily relieve him: go you and maintain talk with the Duke, that my charity be not of him perceived: if he ask for me, I am ill, and gone to bed. If I die for it, as no less is threatened me, the King my old master must be relieved. There is some strange thing toward, Edmund; pray you be careful.",
-          "plainText": "Go to say you nothing There is division between the Dukes and a worse matter than that I have received a letter this night'tis dangerous to be spokenI have locked the letter in my closet these injuries the King now bears will be revenged home there's part of a power already footed we must incline to the King I will look him and privily relieve him go you and maintain talk with the Duke that my charity be not of him perceived if he ask for me I am ill and gone to bed If I die for it as no less is threatened me the King my old master must be relieved There is some strange thing toward Edmund pray you be careful",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "king-lear-3-3-stage-002",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "king-lear-3-3-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "edmund",
-        "name": "EDMUND",
-        "displayName": "Edmund"
-      },
-      "lines": [
-        {
-          "id": "king-lear-3-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "This courtesy, forbid thee, shall the Duke",
-          "plainText": "This courtesy forbid thee shall the Duke",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 16,
+          "className": "charname"
         },
         {
-          "id": "king-lear-3-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 2,
-          "text": "Instantly know; and of that letter too.",
-          "plainText": "Instantly know and of that letter too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 3,
-          "text": "This seems a fair deserving, and must draw me",
-          "plainText": "This seems a fair deserving and must draw me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 4,
-          "text": "That which my father loses, no less than all:",
-          "plainText": "That which my father loses no less than all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "king-lear-3-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 5,
-          "text": "The younger rises when the old doth fall.",
-          "plainText": "The younger rises when the old doth fall",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 21,
+          "end": 27,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@109038/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282493,
+        "end": 3282606,
+        "line": 119749,
+        "column": 1,
+        "path": "chap18/p@109038",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "king-lear-3-3-stage-003",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "king-lear/sceneIII_18.3/p@109155",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nAlack, alack, Edmund, I like not this unnatural dealing. When I desired their leave that I might pity him, they took from me the use of mine own house; charged me on pain of perpetual displeasure, neither to speak of him, entreat for him, or any way sustain him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@109155/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@109155/line-2",
+          "start": 12,
+          "end": 274,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282610,
+        "end": 3282915,
+        "line": 119751,
+        "column": 1,
+        "path": "chap18/p@109155",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@109464",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDMUND.\nMost savage and unnatural!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@109464/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@109464/line-2",
+          "start": 8,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282919,
+        "end": 3282983,
+        "line": 119758,
+        "column": 1,
+        "path": "chap18/p@109464",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": "EDMUND.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@109532",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "GLOUCESTER.\nGo to; say you nothing. There is division between the Dukes, and a worse matter than that: I have received a letter this night;—’tis dangerous to be spoken;—I have locked the letter in my closet: these injuries the King now bears will be revenged home; there’s part of a power already footed: we must incline to the King. I will look him, and privily relieve him: go you and maintain talk with the Duke, that my charity be not of him perceived: if he ask for me, I am ill, and gone to bed. If I die for it, as no less is threatened me, the King my old master must be relieved. There is some strange thing toward, Edmund; pray you be careful.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@109532/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@109532/line-2",
+          "start": 12,
+          "end": 653,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3282987,
+        "end": 3283678,
+        "line": 119763,
+        "column": 1,
+        "path": "chap18/p@109532",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": "GLOUCESTER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@110227",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@110227/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3283682,
+        "end": 3283717,
+        "line": 119777,
+        "column": 1,
+        "path": "chap18/p@110227",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@110266",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "EDMUND.\nThis courtesy, forbid thee, shall the Duke\nInstantly know; and of that letter too.\nThis seems a fair deserving, and must draw me\nThat which my father loses, no less than all:\nThe younger rises when the old doth fall.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-3",
+          "start": 51,
+          "end": 90,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-4",
+          "start": 91,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-5",
+          "start": 137,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "king-lear/sceneIII_18.3/p@110266/line-6",
+          "start": 183,
+          "end": 224,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3283721,
+        "end": 3283995,
+        "line": 119779,
+        "column": 1,
+        "path": "chap18/p@110266",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": "EDMUND.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "king-lear/sceneIII_18.3/p@110544",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "king-lear/sceneIII_18.3/p@110544/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3283999,
+        "end": 3284034,
+        "line": 119788,
+        "column": 1,
+        "path": "chap18/p@110544",
+        "anchor": "sceneIII_18.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d"
 }

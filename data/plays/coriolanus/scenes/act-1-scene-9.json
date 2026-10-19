@@ -1,1283 +1,1564 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "coriolanus",
-    "title": "The Tragedy of Coriolanus",
+    "title": "THE TRAGEDY OF CORIOLANUS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap06"
   },
-  "scene": {
+  "section": {
     "id": "coriolanus-1-9",
+    "kind": "scene",
+    "heading": "SCENE IX. The Roman camp",
     "act": 1,
     "scene": 9,
-    "label": "Act 1, Scene 9",
-    "title": "SCENE IX. The Roman camp",
-    "location": "The Roman camp",
-    "orderInPlay": 9
+    "parentSectionId": "coriolanus-act-4550",
+    "orderInPlay": 14,
+    "sourceRef": {
+      "start": 868256,
+      "end": 868320,
+      "line": 32750,
+      "column": 1,
+      "path": "chap06/h3@48544",
+      "anchor": "sceneI_6.9"
+    }
   },
   "content": [
     {
-      "id": "coriolanus-1-9-stage-001",
+      "id": "coriolanus/sceneI_6.9/h3@48544",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IX. The Roman camp",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/h3@48544/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 868256,
+        "end": 868320,
+        "line": 32750,
+        "column": 1,
+        "path": "chap06/h3@48544",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@48612",
       "type": "stage",
-      "text": "Alarum. A retreat is sounded. Flourish. Enter, at one door, Cominius with the Romans; at another door, Martius, with his arm in a scarf."
-    },
-    {
-      "id": "coriolanus-1-9-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Alarum. A retreat is sounded. Flourish. Enter, at one door, Cominius with the Romans; at another door, Martius, with his arm in a scarf.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 60,
+          "end": 68,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 103,
+          "end": 110,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "If I should tell thee o'er this thy day's work,",
-          "plainText": "If I should tell thee o'er this thy day's work",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Thou't not believe thy deeds. But I'll report it",
-          "plainText": "Thou't not believe thy deeds But I'll report it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Where senators shall mingle tears with smiles;",
-          "plainText": "Where senators shall mingle tears with smiles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Where great patricians shall attend and shrug,",
-          "plainText": "Where great patricians shall attend and shrug",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "I' th' end admire; where ladies shall be frighted",
-          "plainText": "I' th' end admire where ladies shall be frighted",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "And, gladly quaked, hear more; where the dull tribunes,",
-          "plainText": "And gladly quaked hear more where the dull tribunes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "That with the fusty plebeians hate thine honours,",
-          "plainText": "That with the fusty plebeians hate thine honours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Shall say against their hearts \"We thank the gods",
-          "plainText": "Shall say against their hearts We thank the gods",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Our Rome hath such a soldier.\"",
-          "plainText": "Our Rome hath such a soldier",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Yet cam'st thou to a morsel of this feast,",
-          "plainText": "Yet cam'st thou to a morsel of this feast",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Having fully dined before.",
-          "plainText": "Having fully dined before",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@48612/line-1",
+          "start": 0,
+          "end": 136,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 868324,
+        "end": 868549,
+        "line": 32752,
+        "column": 1,
+        "path": "chap06/p@48612",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "coriolanus-1-9-stage-002",
+      "id": "coriolanus/sceneI_6.9/p@48841",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nIf I should tell thee o’er this thy day’s work,\nThou’t not believe thy deeds. But I’ll report it\nWhere senators shall mingle tears with smiles;\nWhere great patricians shall attend and shrug,\nI’ th’ end admire; where ladies shall be frighted\nAnd, gladly quaked, hear more; where the dull tribunes,\nThat with the fusty plebeians hate thine honours,\nShall say against their hearts “We thank the gods\nOur Rome hath such a soldier.”\nYet cam’st thou to a morsel of this feast,\nHaving fully dined before.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-2",
+          "start": 10,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-3",
+          "start": 58,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-4",
+          "start": 107,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-5",
+          "start": 154,
+          "end": 200,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-6",
+          "start": 201,
+          "end": 250,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-7",
+          "start": 251,
+          "end": 306,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-8",
+          "start": 307,
+          "end": 356,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-9",
+          "start": 357,
+          "end": 406,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-10",
+          "start": 407,
+          "end": 437,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-11",
+          "start": 438,
+          "end": 480,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@48841/line-12",
+          "start": 481,
+          "end": 507,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 868553,
+        "end": 869140,
+        "line": 32756,
+        "column": 1,
+        "path": "chap06/p@48841",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@49432",
       "type": "stage",
-      "text": "Enter Titus Lartius with his power, from the pursuit."
-    },
-    {
-      "id": "coriolanus-1-9-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "lartius",
-        "name": "LARTIUS",
-        "displayName": "Lartius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Titus Lartius with his power, from the pursuit.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 19,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "O general,",
-          "plainText": "O general",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Here is the steed, we the caparison.",
-          "plainText": "Here is the steed we the caparison",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "Hadst thou beheld—",
-          "plainText": "Hadst thou beheld",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49432/line-1",
+          "start": 0,
+          "end": 53,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 869144,
+        "end": 869256,
+        "line": 32771,
+        "column": 1,
+        "path": "chap06/p@49432",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-003",
+      "id": "coriolanus/sceneI_6.9/p@49548",
       "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LARTIUS.\nO general,\nHere is the steed, we the caparison.\nHadst thou beheld—",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Pray now, no more. My mother,",
-          "plainText": "Pray now no more My mother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49548/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0016",
-          "number": 16,
-          "speechLineNumber": 2,
-          "text": "Who has a charter to extol her blood,",
-          "plainText": "Who has a charter to extol her blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49548/line-2",
+          "start": 9,
+          "end": 19,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0017",
-          "number": 17,
-          "speechLineNumber": 3,
-          "text": "When she does praise me grieves me. I have done",
-          "plainText": "When she does praise me grieves me I have done",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49548/line-3",
+          "start": 20,
+          "end": 56,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0018",
-          "number": 18,
-          "speechLineNumber": 4,
-          "text": "As you have done—that's what I can;",
-          "plainText": "As you have donethat's what I can",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0019",
-          "number": 19,
-          "speechLineNumber": 5,
-          "text": "Induced as you have been—that's for my country.",
-          "plainText": "Induced as you have beenthat's for my country",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0020",
-          "number": 20,
-          "speechLineNumber": 6,
-          "text": "He that has but effected his good will",
-          "plainText": "He that has but effected his good will",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0021",
-          "number": 21,
-          "speechLineNumber": 7,
-          "text": "Hath overta'en mine act.",
-          "plainText": "Hath overta'en mine act",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49548/line-4",
+          "start": 57,
+          "end": 75,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 869260,
+        "end": 869375,
+        "line": 32775,
+        "column": 1,
+        "path": "chap06/p@49548",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "LARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-004",
+      "id": "coriolanus/sceneI_6.9/p@49667",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nPray now, no more. My mother,\nWho has a charter to extol her blood,\nWhen she does praise me grieves me. I have done\nAs you have done—that’s what I can;\nInduced as you have been—that’s for my country.\nHe that has but effected his good will\nHath overta’en mine act.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "You shall not be",
-          "plainText": "You shall not be",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "The grave of your deserving. Rome must know",
-          "plainText": "The grave of your deserving Rome must know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-2",
+          "start": 9,
+          "end": 38,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "The value of her own. 'Twere a concealment",
-          "plainText": "The value of her own 'Twere a concealment",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-3",
+          "start": 39,
+          "end": 76,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "Worse than a theft, no less than a traducement,",
-          "plainText": "Worse than a theft no less than a traducement",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-4",
+          "start": 77,
+          "end": 124,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "To hide your doings and to silence that",
-          "plainText": "To hide your doings and to silence that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-5",
+          "start": 125,
+          "end": 160,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0027",
-          "number": 27,
-          "speechLineNumber": 6,
-          "text": "Which, to the spire and top of praises vouched,",
-          "plainText": "Which to the spire and top of praises vouched",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-6",
+          "start": 161,
+          "end": 208,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0028",
-          "number": 28,
-          "speechLineNumber": 7,
-          "text": "Would seem but modest. Therefore, I beseech you—",
-          "plainText": "Would seem but modest Therefore I beseech you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-7",
+          "start": 209,
+          "end": 247,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0029",
-          "number": 29,
-          "speechLineNumber": 8,
-          "text": "In sign of what you are, not to reward",
-          "plainText": "In sign of what you are not to reward",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0030",
-          "number": 30,
-          "speechLineNumber": 9,
-          "text": "What you have done—before our army hear me.",
-          "plainText": "What you have donebefore our army hear me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@49667/line-8",
+          "start": 248,
+          "end": 272,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 869379,
+        "end": 869711,
+        "line": 32782,
+        "column": 1,
+        "path": "chap06/p@49667",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-005",
+      "id": "coriolanus/sceneI_6.9/p@50003",
       "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nYou shall not be\nThe grave of your deserving. Rome must know\nThe value of her own. ’Twere a concealment\nWorse than a theft, no less than a traducement,\nTo hide your doings and to silence that\nWhich, to the spire and top of praises vouched,\nWould seem but modest. Therefore, I beseech you—\nIn sign of what you are, not to reward\nWhat you have done—before our army hear me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "I have some wounds upon me, and they smart",
-          "plainText": "I have some wounds upon me and they smart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50003/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0032",
-          "number": 32,
-          "speechLineNumber": 2,
-          "text": "To hear themselves remembered.",
-          "plainText": "To hear themselves remembered",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50003/line-2",
+          "start": 10,
+          "end": 26,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-3",
+          "start": 27,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-4",
+          "start": 71,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-5",
+          "start": 114,
+          "end": 161,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-6",
+          "start": 162,
+          "end": 201,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-7",
+          "start": 202,
+          "end": 249,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-8",
+          "start": 250,
+          "end": 298,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-9",
+          "start": 299,
+          "end": 337,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50003/line-10",
+          "start": 338,
+          "end": 381,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 869715,
+        "end": 870166,
+        "line": 32793,
+        "column": 1,
+        "path": "chap06/p@50003",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-006",
+      "id": "coriolanus/sceneI_6.9/p@50458",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nI have some wounds upon me, and they smart\nTo hear themselves remembered.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "Should they not,",
-          "plainText": "Should they not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50458/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "Well might they fester 'gainst ingratitude",
-          "plainText": "Well might they fester 'gainst ingratitude",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50458/line-2",
+          "start": 9,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "And tent themselves with death. Of all the horses—",
-          "plainText": "And tent themselves with death Of all the horses",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "Whereof we have ta'en good and good store—of all",
-          "plainText": "Whereof we have ta'en good and good storeof all",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0037",
-          "number": 37,
-          "speechLineNumber": 5,
-          "text": "The treasure in this field achieved and city,",
-          "plainText": "The treasure in this field achieved and city",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0038",
-          "number": 38,
-          "speechLineNumber": 6,
-          "text": "We render you the tenth, to be ta'en forth",
-          "plainText": "We render you the tenth to be ta'en forth",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0039",
-          "number": 39,
-          "speechLineNumber": 7,
-          "text": "Before the common distribution",
-          "plainText": "Before the common distribution",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0040",
-          "number": 40,
-          "speechLineNumber": 8,
-          "text": "At your only choice.",
-          "plainText": "At your only choice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50458/line-3",
+          "start": 52,
+          "end": 82,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 870170,
+        "end": 870287,
+        "line": 32806,
+        "column": 1,
+        "path": "chap06/p@50458",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-007",
+      "id": "coriolanus/sceneI_6.9/p@50579",
       "type": "speech",
-      "speaker": {
-        "id": "martius",
-        "name": "MARTIUS",
-        "displayName": "Martius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nShould they not,\nWell might they fester ’gainst ingratitude\nAnd tent themselves with death. Of all the horses—\nWhereof we have ta’en good and good store—of all\nThe treasure in this field achieved and city,\nWe render you the tenth, to be ta’en forth\nBefore the common distribution\nAt your only choice.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "I thank you, general,",
-          "plainText": "I thank you general",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50579/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0042",
-          "number": 42,
-          "speechLineNumber": 2,
-          "text": "But cannot make my heart consent to take",
-          "plainText": "But cannot make my heart consent to take",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50579/line-2",
+          "start": 10,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0043",
-          "number": 43,
-          "speechLineNumber": 3,
-          "text": "A bribe to pay my sword. I do refuse it;",
-          "plainText": "A bribe to pay my sword I do refuse it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50579/line-3",
+          "start": 27,
+          "end": 69,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0044",
-          "number": 44,
-          "speechLineNumber": 4,
-          "text": "And stand upon my common part with those",
-          "plainText": "And stand upon my common part with those",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50579/line-4",
+          "start": 70,
+          "end": 120,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0045",
-          "number": 45,
-          "speechLineNumber": 5,
-          "text": "That have beheld the doing.",
-          "plainText": "That have beheld the doing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50579/line-5",
+          "start": 121,
+          "end": 169,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50579/line-6",
+          "start": 170,
+          "end": 215,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50579/line-7",
+          "start": 216,
+          "end": 258,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50579/line-8",
+          "start": 259,
+          "end": 289,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@50579/line-9",
+          "start": 290,
+          "end": 310,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "coriolanus-1-9-stage-003",
-      "type": "stage",
-      "text": "[A long flourish. They all cry \"Martius, Martius!\" and cast up their caps and lances. Cominius and Lartius stand bare.]"
-    },
-    {
-      "id": "coriolanus-1-9-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
+      ],
+      "sourceRef": {
+        "start": 870291,
+        "end": 870666,
+        "line": 32812,
+        "column": 1,
+        "path": "chap06/p@50579",
+        "anchor": "sceneI_6.9"
       },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@50958",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MARTIUS.\nI thank you, general,\nBut cannot make my heart consent to take\nA bribe to pay my sword. I do refuse it;\nAnd stand upon my common part with those\nThat have beheld the doing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "Too modest are you,",
-          "plainText": "Too modest are you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0047",
-          "number": 47,
-          "speechLineNumber": 2,
-          "text": "More cruel to your good report than grateful",
-          "plainText": "More cruel to your good report than grateful",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-2",
+          "start": 9,
+          "end": 30,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0048",
-          "number": 48,
-          "speechLineNumber": 3,
-          "text": "To us that give you truly. By your patience,",
-          "plainText": "To us that give you truly By your patience",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-3",
+          "start": 31,
+          "end": 71,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0049",
-          "number": 49,
-          "speechLineNumber": 4,
-          "text": "If 'gainst yourself you be incensed, we'll put you,",
-          "plainText": "If 'gainst yourself you be incensed we'll put you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-4",
+          "start": 72,
+          "end": 112,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0050",
-          "number": 50,
-          "speechLineNumber": 5,
-          "text": "Like one that means his proper harm, in manacles,",
-          "plainText": "Like one that means his proper harm in manacles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-5",
+          "start": 113,
+          "end": 153,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0051",
-          "number": 51,
-          "speechLineNumber": 6,
-          "text": "Then reason safely with you. Therefore be it known,",
-          "plainText": "Then reason safely with you Therefore be it known",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0052",
-          "number": 52,
-          "speechLineNumber": 7,
-          "text": "As to us to all the world, that Caius Martius",
-          "plainText": "As to us to all the world that Caius Martius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0053",
-          "number": 53,
-          "speechLineNumber": 8,
-          "text": "Wears this war's garland, in token of the which",
-          "plainText": "Wears this war's garland in token of the which",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0054",
-          "number": 54,
-          "speechLineNumber": 9,
-          "text": "My noble steed, known to the camp, I give him,",
-          "plainText": "My noble steed known to the camp I give him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0055",
-          "number": 55,
-          "speechLineNumber": 10,
-          "text": "With all his trim belonging. And from this time,",
-          "plainText": "With all his trim belonging And from this time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0056",
-          "number": 56,
-          "speechLineNumber": 11,
-          "text": "For what he did before Corioles, call him,",
-          "plainText": "For what he did before Corioles call him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0057",
-          "number": 57,
-          "speechLineNumber": 12,
-          "text": "With all th' applause and clamour of the host,",
-          "plainText": "With all th' applause and clamour of the host",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0058",
-          "number": 58,
-          "speechLineNumber": 13,
-          "text": "Caius Martius Coriolanus! Bear",
-          "plainText": "Caius Martius Coriolanus Bear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0059",
-          "number": 59,
-          "speechLineNumber": 14,
-          "text": "Th' addition nobly ever!",
-          "plainText": "Th' addition nobly ever",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@50958/line-6",
+          "start": 154,
+          "end": 181,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "coriolanus-1-9-stage-004",
-      "type": "stage",
-      "text": "[Flourish. Trumpets sound, and drums.]"
-    },
-    {
-      "id": "coriolanus-1-9-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "all",
-        "name": "ALL",
-        "displayName": "All"
+      ],
+      "sourceRef": {
+        "start": 870670,
+        "end": 870901,
+        "line": 32824,
+        "column": 1,
+        "path": "chap06/p@50958",
+        "anchor": "sceneI_6.9"
       },
+      "speakerLabel": "MARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@51193",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[A long flourish. They all cry “Martius, Martius!” and cast up their caps and lances. Cominius and Lartius stand bare.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 86,
+          "end": 94,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 99,
+          "end": 106,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 118
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "Caius Martius Coriolanus!",
-          "plainText": "Caius Martius Coriolanus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneI_6.9/p@51193/line-1",
+          "start": 0,
+          "end": 119,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 870905,
+        "end": 871117,
+        "line": 32833,
+        "column": 1,
+        "path": "chap06/p@51193",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "id": "coriolanus/sceneI_6.9/p@51409",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "May these same instruments which, you profane,\nNever sound more! When drums and trumpets shall\nI’ th’ field prove flatterers, let courts and cities be\nMade all of false-faced soothing! When steel grows soft\nSoft as the parasite’s silk, let him be made\nAn ovator for the wars! No more, I say.\nFor that I have not washed my nose that bled,\nOr foiled some debile wretch—which, without note,\nHere’s many else have done—you shout me forth\nIn acclamations hyperbolical,\nAs if I loved my little should be dieted\nIn praises sauced with lies.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "I will go wash;",
-          "plainText": "I will go wash",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-1",
+          "start": 0,
+          "end": 46,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0062",
-          "number": 62,
-          "speechLineNumber": 2,
-          "text": "And when my face is fair, you shall perceive",
-          "plainText": "And when my face is fair you shall perceive",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-2",
+          "start": 47,
+          "end": 94,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0063",
-          "number": 63,
-          "speechLineNumber": 3,
-          "text": "Whether I blush or no. Howbeit, I thank you.",
-          "plainText": "Whether I blush or no Howbeit I thank you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-3",
+          "start": 95,
+          "end": 150,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0064",
-          "number": 64,
-          "speechLineNumber": 4,
-          "text": "I mean to stride your steed and at all times",
-          "plainText": "I mean to stride your steed and at all times",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-4",
+          "start": 151,
+          "end": 206,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0065",
-          "number": 65,
-          "speechLineNumber": 5,
-          "text": "To undercrest your good addition",
-          "plainText": "To undercrest your good addition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-5",
+          "start": 207,
+          "end": 251,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0066",
-          "number": 66,
-          "speechLineNumber": 6,
-          "text": "To th' fairness of my power.",
-          "plainText": "To th' fairness of my power",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@51409/line-6",
+          "start": 252,
+          "end": 291,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-7",
+          "start": 292,
+          "end": 337,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-8",
+          "start": 338,
+          "end": 387,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-9",
+          "start": 388,
+          "end": 433,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-10",
+          "start": 434,
+          "end": 463,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-11",
+          "start": 464,
+          "end": 504,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@51409/line-12",
+          "start": 505,
+          "end": 533,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 871121,
+        "end": 871734,
+        "line": 32838,
+        "column": 1,
+        "path": "chap06/p@51409",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-011",
+      "id": "coriolanus/sceneI_6.9/p@52026",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nToo modest are you,\nMore cruel to your good report than grateful\nTo us that give you truly. By your patience,\nIf ’gainst yourself you be incensed, we’ll put you,\nLike one that means his proper harm, in manacles,\nThen reason safely with you. Therefore be it known,\nAs to us to all the world, that Caius Martius\nWears this war’s garland, in token of the which\nMy noble steed, known to the camp, I give him,\nWith all his trim belonging. And from this time,\nFor what he did before Corioles, call him,\nWith all th’ applause and clamour of the host,\nCaius Martius Coriolanus! Bear\nTh’ addition nobly ever!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "So, to our tent,",
-          "plainText": "So to our tent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0068",
-          "number": 68,
-          "speechLineNumber": 2,
-          "text": "Where, ere we do repose us, we will write",
-          "plainText": "Where ere we do repose us we will write",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0069",
-          "number": 69,
-          "speechLineNumber": 3,
-          "text": "To Rome of our success.—You, Titus Lartius,",
-          "plainText": "To Rome of our successYou Titus Lartius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-3",
+          "start": 30,
+          "end": 74,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0070",
-          "number": 70,
-          "speechLineNumber": 4,
-          "text": "Must to Corioles back. Send us to Rome",
-          "plainText": "Must to Corioles back Send us to Rome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-4",
+          "start": 75,
+          "end": 119,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0071",
-          "number": 71,
-          "speechLineNumber": 5,
-          "text": "The best, with whom we may articulate",
-          "plainText": "The best with whom we may articulate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-5",
+          "start": 120,
+          "end": 171,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0072",
-          "number": 72,
-          "speechLineNumber": 6,
-          "text": "For their own good and ours.",
-          "plainText": "For their own good and ours",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52026/line-6",
+          "start": 172,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-7",
+          "start": 222,
+          "end": 273,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-8",
+          "start": 274,
+          "end": 319,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-9",
+          "start": 320,
+          "end": 367,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-10",
+          "start": 368,
+          "end": 414,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-11",
+          "start": 415,
+          "end": 463,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-12",
+          "start": 464,
+          "end": 506,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-13",
+          "start": 507,
+          "end": 553,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-14",
+          "start": 554,
+          "end": 584,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52026/line-15",
+          "start": 585,
+          "end": 609,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 871738,
+        "end": 872442,
+        "line": 32853,
+        "column": 1,
+        "path": "chap06/p@52026",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "lartius",
-        "name": "LARTIUS",
-        "displayName": "Lartius"
-      },
+      "id": "coriolanus/sceneI_6.9/p@52734",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Flourish. Trumpets sound, and drums.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 37
+        }
+      ],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0073",
-          "number": 73,
-          "speechLineNumber": 1,
-          "text": "I shall, my lord.",
-          "plainText": "I shall my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneI_6.9/p@52734/line-1",
+          "start": 0,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 872446,
+        "end": 872512,
+        "line": 32871,
+        "column": 1,
+        "path": "chap06/p@52734",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-013",
+      "id": "coriolanus/sceneI_6.9/p@52804",
       "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ALL.\nCaius Martius Coriolanus!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "The gods begin to mock me. I, that now",
-          "plainText": "The gods begin to mock me I that now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52804/line-1",
+          "start": 0,
+          "end": 4,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0075",
-          "number": 75,
-          "speechLineNumber": 2,
-          "text": "Refused most princely gifts, am bound to beg",
-          "plainText": "Refused most princely gifts am bound to beg",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0076",
-          "number": 76,
-          "speechLineNumber": 3,
-          "text": "Of my lord general.",
-          "plainText": "Of my lord general",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@52804/line-2",
+          "start": 5,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 872516,
+        "end": 872576,
+        "line": 32873,
+        "column": 1,
+        "path": "chap06/p@52804",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "ALL.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 4
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-014",
+      "id": "coriolanus/sceneI_6.9/p@52868",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nI will go wash;\nAnd when my face is fair, you shall perceive\nWhether I blush or no. Howbeit, I thank you.\nI mean to stride your steed and at all times\nTo undercrest your good addition\nTo th’ fairness of my power.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0077",
-          "number": 77,
-          "speechLineNumber": 1,
-          "text": "Take't, 'tis yours. What is't?",
-          "plainText": "Take't 'tis yours What is't",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneI_6.9/p@52868/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-2",
+          "start": 12,
+          "end": 27,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-3",
+          "start": 28,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-4",
+          "start": 73,
+          "end": 117,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-5",
+          "start": 118,
+          "end": 162,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-6",
+          "start": 163,
+          "end": 195,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@52868/line-7",
+          "start": 196,
+          "end": 224,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 872580,
+        "end": 872859,
+        "line": 32878,
+        "column": 1,
+        "path": "chap06/p@52868",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-015",
+      "id": "coriolanus/sceneI_6.9/p@53151",
       "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nSo, to our tent,\nWhere, ere we do repose us, we will write\nTo Rome of our success.—You, Titus Lartius,\nMust to Corioles back. Send us to Rome\nThe best, with whom we may articulate\nFor their own good and ours.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0078",
-          "number": 78,
-          "speechLineNumber": 1,
-          "text": "I sometime lay here in Corioles",
-          "plainText": "I sometime lay here in Corioles",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0079",
-          "number": 79,
-          "speechLineNumber": 2,
-          "text": "At a poor man's house; he used me kindly.",
-          "plainText": "At a poor man's house he used me kindly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-2",
+          "start": 10,
+          "end": 26,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0080",
-          "number": 80,
-          "speechLineNumber": 3,
-          "text": "He cried to me; I saw him prisoner;",
-          "plainText": "He cried to me I saw him prisoner",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-3",
+          "start": 27,
+          "end": 68,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0081",
-          "number": 81,
-          "speechLineNumber": 4,
-          "text": "But then Aufidius was within my view,",
-          "plainText": "But then Aufidius was within my view",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-4",
+          "start": 69,
+          "end": 112,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0082",
-          "number": 82,
-          "speechLineNumber": 5,
-          "text": "And wrath o'erwhelmed my pity. I request you",
-          "plainText": "And wrath o'erwhelmed my pity I request you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-5",
+          "start": 113,
+          "end": 151,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0083",
-          "number": 83,
-          "speechLineNumber": 6,
-          "text": "To give my poor host freedom.",
-          "plainText": "To give my poor host freedom",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53151/line-6",
+          "start": 152,
+          "end": 189,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53151/line-7",
+          "start": 190,
+          "end": 218,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 872863,
+        "end": 873136,
+        "line": 32888,
+        "column": 1,
+        "path": "chap06/p@53151",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-016",
+      "id": "coriolanus/sceneI_6.9/p@53428",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LARTIUS.\nI shall, my lord.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "O, well begged!",
-          "plainText": "O well begged",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53428/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0085",
-          "number": 85,
-          "speechLineNumber": 2,
-          "text": "Were he the butcher of my son, he should",
-          "plainText": "Were he the butcher of my son he should",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0086",
-          "number": 86,
-          "speechLineNumber": 3,
-          "text": "Be free as is the wind.—Deliver him, Titus.",
-          "plainText": "Be free as is the windDeliver him Titus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53428/line-2",
+          "start": 9,
+          "end": 26,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 873140,
+        "end": 873196,
+        "line": 32898,
+        "column": 1,
+        "path": "chap06/p@53428",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "LARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-017",
+      "id": "coriolanus/sceneI_6.9/p@53488",
       "type": "speech",
-      "speaker": {
-        "id": "lartius",
-        "name": "LARTIUS",
-        "displayName": "Lartius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nThe gods begin to mock me. I, that now\nRefused most princely gifts, am bound to beg\nOf my lord general.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0087",
-          "number": 87,
-          "speechLineNumber": 1,
-          "text": "Martius, his name?",
-          "plainText": "Martius his name",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "coriolanus/sceneI_6.9/p@53488/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53488/line-2",
+          "start": 12,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53488/line-3",
+          "start": 51,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53488/line-4",
+          "start": 96,
+          "end": 115,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 873200,
+        "end": 873355,
+        "line": 32903,
+        "column": 1,
+        "path": "chap06/p@53488",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-018",
+      "id": "coriolanus/sceneI_6.9/p@53647",
       "type": "speech",
-      "speaker": {
-        "id": "coriolanus",
-        "name": "CORIOLANUS",
-        "displayName": "Coriolanus"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nTake’t, ’tis yours. What is’t?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0088",
-          "number": 88,
-          "speechLineNumber": 1,
-          "text": "By Jupiter, forgot!",
-          "plainText": "By Jupiter forgot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53647/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0089",
-          "number": 89,
-          "speechLineNumber": 2,
-          "text": "I am weary; yea, my memory is tired.",
-          "plainText": "I am weary yea my memory is tired",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "coriolanus-1-9-line-0090",
-          "number": 90,
-          "speechLineNumber": 3,
-          "text": "Have we no wine here?",
-          "plainText": "Have we no wine here",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53647/line-2",
+          "start": 10,
+          "end": 40,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 873359,
+        "end": 873429,
+        "line": 32910,
+        "column": 1,
+        "path": "chap06/p@53647",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "coriolanus-1-9-speech-019",
+      "id": "coriolanus/sceneI_6.9/p@53721",
       "type": "speech",
-      "speaker": {
-        "id": "cominius",
-        "name": "COMINIUS",
-        "displayName": "Cominius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nI sometime lay here in Corioles\nAt a poor man’s house; he used me kindly.\nHe cried to me; I saw him prisoner;\nBut then Aufidius was within my view,\nAnd wrath o’erwhelmed my pity. I request you\nTo give my poor host freedom.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "coriolanus-1-9-line-0091",
-          "number": 91,
-          "speechLineNumber": 1,
-          "text": "Go we to our tent.",
-          "plainText": "Go we to our tent",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53721/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0092",
-          "number": 92,
-          "speechLineNumber": 2,
-          "text": "The blood upon your visage dries; 'tis time",
-          "plainText": "The blood upon your visage dries 'tis time",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53721/line-2",
+          "start": 12,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "coriolanus-1-9-line-0093",
-          "number": 93,
-          "speechLineNumber": 3,
-          "text": "It should be looked to. Come.",
-          "plainText": "It should be looked to Come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "coriolanus/sceneI_6.9/p@53721/line-3",
+          "start": 44,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53721/line-4",
+          "start": 86,
+          "end": 121,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53721/line-5",
+          "start": 122,
+          "end": 159,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53721/line-6",
+          "start": 160,
+          "end": 204,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@53721/line-7",
+          "start": 205,
+          "end": 234,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 873433,
+        "end": 873722,
+        "line": 32915,
+        "column": 1,
+        "path": "chap06/p@53721",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "coriolanus-1-9-stage-005",
-      "type": "stage",
-      "text": "[A flourish of cornets. Exeunt.]"
+      "id": "coriolanus/sceneI_6.9/p@54014",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nO, well begged!\nWere he the butcher of my son, he should\nBe free as is the wind.—Deliver him, Titus.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@54014/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54014/line-2",
+          "start": 10,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54014/line-3",
+          "start": 26,
+          "end": 66,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54014/line-4",
+          "start": 67,
+          "end": 110,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 873726,
+        "end": 873876,
+        "line": 32925,
+        "column": 1,
+        "path": "chap06/p@54014",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@54168",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LARTIUS.\nMartius, his name?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@54168/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54168/line-2",
+          "start": 9,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 873880,
+        "end": 873937,
+        "line": 32932,
+        "column": 1,
+        "path": "chap06/p@54168",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "LARTIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@54229",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CORIOLANUS.\nBy Jupiter, forgot!\nI am weary; yea, my memory is tired.\nHave we no wine here?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@54229/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54229/line-2",
+          "start": 12,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54229/line-3",
+          "start": 32,
+          "end": 68,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54229/line-4",
+          "start": 69,
+          "end": 90,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 873941,
+        "end": 874071,
+        "line": 32937,
+        "column": 1,
+        "path": "chap06/p@54229",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "CORIOLANUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@54363",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "COMINIUS.\nGo we to our tent.\nThe blood upon your visage dries; ’tis time\nIt should be looked to. Come.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@54363/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54363/line-2",
+          "start": 10,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54363/line-3",
+          "start": 29,
+          "end": 72,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "coriolanus/sceneI_6.9/p@54363/line-4",
+          "start": 73,
+          "end": 102,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 874075,
+        "end": 874217,
+        "line": 32944,
+        "column": 1,
+        "path": "chap06/p@54363",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": "COMINIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "coriolanus/sceneI_6.9/p@54509",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[A flourish of cornets. Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 31
+        }
+      ],
+      "lines": [
+        {
+          "id": "coriolanus/sceneI_6.9/p@54509/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 874221,
+        "end": 874281,
+        "line": 32951,
+        "column": 1,
+        "path": "chap06/p@54509",
+        "anchor": "sceneI_6.9"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40"
 }

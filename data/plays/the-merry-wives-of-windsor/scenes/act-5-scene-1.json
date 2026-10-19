@@ -1,156 +1,465 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "the-merry-wives-of-windsor",
-    "title": "The Merry Wives of Windsor",
+    "title": "THE MERRY WIVES OF WINDSOR",
     "author": "William Shakespeare",
     "genre": "Comedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap23"
   },
-  "scene": {
+  "section": {
     "id": "the-merry-wives-of-windsor-5-1",
+    "kind": "scene",
+    "heading": "SCENE I. A room in the Garter Inn",
     "act": 5,
     "scene": 1,
-    "label": "Act 5, Scene 1",
-    "title": "SCENE I. A room in the Garter Inn",
-    "location": "A room in the Garter Inn",
-    "orderInPlay": 19
+    "parentSectionId": "the-merry-wives-of-windsor-act-161535",
+    "orderInPlay": 28,
+    "sourceRef": {
+      "start": 4205047,
+      "end": 4205097,
+      "line": 155744,
+      "column": 1,
+      "path": "chap23/h3@161585",
+      "anchor": "sceneV_23.1"
+    }
   },
   "content": [
     {
-      "id": "the-merry-wives-of-windsor-5-1-stage-001",
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/h3@161585",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. A room in the Garter Inn",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/h3@161585/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4205047,
+        "end": 4205097,
+        "line": 155744,
+        "column": 1,
+        "path": "chap23/h3@161585",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@161639",
       "type": "stage",
-      "text": "Enter Falstaff and Mistress Quickly."
-    },
-    {
-      "id": "the-merry-wives-of-windsor-5-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Falstaff and Mistress Quickly.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 19,
+          "end": 35,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-5-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Prithee, no more prattling. Go. I'll hold. This is the third time; I hope good luck lies in odd numbers. Away, go! They say there is divinity in odd numbers, either in nativity, chance, or death. Away!",
-          "plainText": "Prithee no more prattling Go I'll hold This is the third time I hope good luck lies in odd numbers Away go They say there is divinity in odd numbers either in nativity chance or death Away",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@161639/line-1",
+          "start": 0,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4205101,
+        "end": 4205227,
+        "line": 155746,
+        "column": 1,
+        "path": "chap23/p@161639",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-5-1-speech-002",
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@161769",
       "type": "speech",
-      "speaker": {
-        "id": "mistress-quickly",
-        "name": "MISTRESS QUICKLY",
-        "displayName": "Mistress Quickly"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nPrithee, no more prattling. Go. I’ll hold. This is the third time; I hope good luck lies in odd numbers. Away, go! They say there is divinity in odd numbers, either in nativity, chance, or death. Away!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-5-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "I'll provide you a chain, and I'll do what I can to get you a pair of horns.",
-          "plainText": "I'll provide you a chain and I'll do what I can to get you a pair of horns",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@161769/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@161769/line-2",
+          "start": 10,
+          "end": 211,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4205231,
+        "end": 4205474,
+        "line": 155751,
+        "column": 1,
+        "path": "chap23/p@161769",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-5-1-speech-003",
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162016",
       "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MISTRESS QUICKLY.\nI’ll provide you a chain, and I’ll do what I can to get you a pair of horns.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-5-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Away, I say; time wears. Hold up your head, and mince.",
-          "plainText": "Away I say time wears Hold up your head and mince",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162016/line-1",
+          "start": 0,
+          "end": 17,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162016/line-2",
+          "start": 18,
+          "end": 94,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4205478,
+        "end": 4205602,
+        "line": 155758,
+        "column": 1,
+        "path": "chap23/p@162016",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": "MISTRESS QUICKLY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 17
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-5-1-stage-002",
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162144",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nAway, I say; time wears. Hold up your head, and mince.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162144/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162144/line-2",
+          "start": 10,
+          "end": 64,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4205606,
+        "end": 4205700,
+        "line": 155763,
+        "column": 1,
+        "path": "chap23/p@162144",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162242",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Mistress Quickly.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 22,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162242/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4205704,
+        "end": 4205788,
+        "line": 155768,
+        "column": 1,
+        "path": "chap23/p@162242",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162330",
       "type": "stage",
-      "text": "[Exit Mistress Quickly.]"
-    },
-    {
-      "id": "the-merry-wives-of-windsor-5-1-stage-003",
-      "type": "stage",
-      "text": "Enter Ford."
-    },
-    {
-      "id": "the-merry-wives-of-windsor-5-1-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "ford",
-        "name": "FORD",
-        "displayName": "Ford"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Ford.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-5-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Went you not to her yesterday, sir, as you told me you had appointed?",
-          "plainText": "Went you not to her yesterday sir as you told me you had appointed",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162330/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4205792,
+        "end": 4205862,
+        "line": 155771,
+        "column": 1,
+        "path": "chap23/p@162330",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-5-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "falstaff",
-        "name": "FALSTAFF",
-        "displayName": "Falstaff"
-      },
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162404",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "How now, Master Brook! Master Brook, the matter will be known tonight or never. Be you in the park about midnight, at Herne’s oak, and you shall see wonders.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "the-merry-wives-of-windsor-5-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "I went to her, Master Brook, as you see, like a poor old man, but I came from her, Master Brook, like a poor old woman. That same knave Ford, her husband, hath the finest mad devil of jealousy in him, Master Brook, that ever governed frenzy. I will tell you he beat me grievously, in the shape of a woman; for in the shape of man, Master Brook, I fear not Goliath with a weaver's beam, because I know also life is a shuttle. I am in haste. Go along with me; I'll tell you all, Master Brook. Since I plucked geese, played truant, and whipped top, I knew not what 'twas to be beaten till lately. Follow me, I'll tell you strange things of this knave Ford, on whom tonight I will be revenged, and I will deliver his wife into your hand. Follow. Strange things in hand, Master Brook! Follow.",
-          "plainText": "I went to her Master Brook as you see like a poor old man but I came from her Master Brook like a poor old woman That same knave Ford her husband hath the finest mad devil of jealousy in him Master Brook that ever governed frenzy I will tell you he beat me grievously in the shape of a woman for in the shape of man Master Brook I fear not Goliath with a weaver's beam because I know also life is a shuttle I am in haste Go along with me I'll tell you all Master Brook Since I plucked geese played truant and whipped top I knew not what 'twas to be beaten till lately Follow me I'll tell you strange things of this knave Ford on whom tonight I will be revenged and I will deliver his wife into your hand Follow Strange things in hand Master Brook Follow",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162404/line-1",
+          "start": 0,
+          "end": 157,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 4205866,
+        "end": 4206050,
+        "line": 155775,
+        "column": 1,
+        "path": "chap23/p@162404",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "the-merry-wives-of-windsor-5-1-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162592",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FORD.\nWent you not to her yesterday, sir, as you told me you had appointed?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162592/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162592/line-2",
+          "start": 6,
+          "end": 75,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4206054,
+        "end": 4206159,
+        "line": 155781,
+        "column": 1,
+        "path": "chap23/p@162592",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": "FORD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162701",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FALSTAFF.\nI went to her, Master Brook, as you see, like a poor old man, but I came from her, Master Brook, like a poor old woman. That same knave Ford, her husband, hath the finest mad devil of jealousy in him, Master Brook, that ever governed frenzy. I will tell you he beat me grievously, in the shape of a woman; for in the shape of man, Master Brook, I fear not Goliath with a weaver’s beam, because I know also life is a shuttle. I am in haste. Go along with me; I’ll tell you all, Master Brook. Since I plucked geese, played truant, and whipped top, I knew not what ’twas to be beaten till lately. Follow me, I’ll tell you strange things of this knave Ford, on whom tonight I will be revenged, and I will deliver his wife into your hand. Follow. Strange things in hand, Master Brook! Follow.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162701/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@162701/line-2",
+          "start": 10,
+          "end": 797,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4206163,
+        "end": 4207000,
+        "line": 155786,
+        "column": 1,
+        "path": "chap23/p@162701",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": "FALSTAFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "the-merry-wives-of-windsor/sceneV_23.1/p@163542",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "the-merry-wives-of-windsor/sceneV_23.1/p@163542/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 4207004,
+        "end": 4207041,
+        "line": 155801,
+        "column": 1,
+        "path": "chap23/p@163542",
+        "anchor": "sceneV_23.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "85178433e30dcec1e20531f5171e8e8886a0ec5664cec3e5aa85e1f68f9b8b16"
 }

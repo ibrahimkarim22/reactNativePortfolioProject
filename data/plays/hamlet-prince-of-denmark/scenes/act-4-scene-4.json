@@ -1,606 +1,1421 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "hamlet-prince-of-denmark",
-    "title": "The Tragedy of Hamlet, Prince of Denmark",
+    "title": "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap08"
   },
-  "scene": {
+  "section": {
     "id": "hamlet-prince-of-denmark-4-4",
+    "kind": "scene",
+    "heading": "SCENE IV. A plain in Denmark.",
     "act": 4,
     "scene": 4,
-    "label": "Act 4, Scene 4",
-    "title": "SCENE IV. A plain in Denmark.",
-    "location": "A plain in Denmark.",
-    "orderInPlay": 15
+    "parentSectionId": "hamlet-prince-of-denmark-act-158263",
+    "orderInPlay": 23,
+    "sourceRef": {
+      "start": 1433437,
+      "end": 1433508,
+      "line": 54095,
+      "column": 1,
+      "path": "chap08/h3@168594",
+      "anchor": "sceneIV_8.4"
+    }
   },
   "content": [
     {
-      "id": "hamlet-prince-of-denmark-4-4-stage-001",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/h3@168594",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. A plain in Denmark.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 29
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/h3@168594/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1433437,
+        "end": 1433508,
+        "line": 54095,
+        "column": 1,
+        "path": "chap08/h3@168594",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168669",
       "type": "stage",
-      "text": "Enter Fortinbras and Forces marching."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "fortinbras",
-        "name": "FORTINBRAS",
-        "displayName": "Fortinbras"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Fortinbras and Forces marching.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 16,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 21,
+          "end": 27,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Go, Captain, from me greet the Danish king.",
-          "plainText": "Go Captain from me greet the Danish king",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Tell him that by his license, Fortinbras",
-          "plainText": "Tell him that by his license Fortinbras",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Craves the conveyance of a promis'd march",
-          "plainText": "Craves the conveyance of a promis'd march",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Over his kingdom. You know the rendezvous.",
-          "plainText": "Over his kingdom You know the rendezvous",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "If that his Majesty would aught with us,",
-          "plainText": "If that his Majesty would aught with us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "We shall express our duty in his eye;",
-          "plainText": "We shall express our duty in his eye",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "And let him know so.",
-          "plainText": "And let him know so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168669/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1433512,
+        "end": 1433638,
+        "line": 54098,
+        "column": 1,
+        "path": "chap08/p@168669",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-002",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799",
       "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FORTINBRAS.\nGo, Captain, from me greet the Danish king.\nTell him that by his license, Fortinbras\nCraves the conveyance of a promis’d march\nOver his kingdom. You know the rendezvous.\nIf that his Majesty would aught with us,\nWe shall express our duty in his eye;\nAnd let him know so.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "I will do't, my lord.",
-          "plainText": "I will do't my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-2",
+          "start": 12,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-3",
+          "start": 56,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-4",
+          "start": 97,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-5",
+          "start": 139,
+          "end": 181,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-6",
+          "start": 182,
+          "end": 222,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-7",
+          "start": 223,
+          "end": 260,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-8",
+          "start": 261,
+          "end": 281,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@168799/line-9",
+          "start": 282,
+          "end": 282,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1433642,
+        "end": 1433987,
+        "line": 54102,
+        "column": 1,
+        "path": "chap08/p@168799",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "FORTINBRAS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-003",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169148",
       "type": "speech",
-      "speaker": {
-        "id": "fortinbras",
-        "name": "FORTINBRAS",
-        "displayName": "Fortinbras"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nI will do’t, my lord.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "Go softly on.",
-          "plainText": "Go softly on",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169148/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169148/line-2",
+          "start": 9,
+          "end": 30,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169148/line-3",
+          "start": 31,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1433991,
+        "end": 1434055,
+        "line": 54113,
+        "column": 1,
+        "path": "chap08/p@169148",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-stage-002",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169216",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FORTINBRAS.\nGo softly on.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169216/line-1",
+          "start": 0,
+          "end": 11,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169216/line-2",
+          "start": 12,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169216/line-3",
+          "start": 26,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1434059,
+        "end": 1434118,
+        "line": 54118,
+        "column": 1,
+        "path": "chap08/p@169216",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "FORTINBRAS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 11
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169279",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt all but the Captain.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 20,
+          "end": 27,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 28
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169279/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1434122,
+        "end": 1434213,
+        "line": 54123,
+        "column": 1,
+        "path": "chap08/p@169279",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169374",
       "type": "stage",
-      "text": "[Exeunt all but the Captain.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-stage-003",
-      "type": "stage",
-      "text": "Enter Hamlet, Rosencrantz, Guildenstern &c."
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Hamlet, Rosencrantz, Guildenstern &c.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Good sir, whose powers are these?",
-          "plainText": "Good sir whose powers are these",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "tag": "span",
+          "start": 6,
+          "end": 42,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
+      ],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "They are of Norway, sir.",
-          "plainText": "They are of Norway sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169374/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434217,
+        "end": 1434323,
+        "line": 54127,
+        "column": 1,
+        "path": "chap08/p@169374",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-006",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169484",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nGood sir, whose powers are these?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "How purpos'd, sir, I pray you?",
-          "plainText": "How purpos'd sir I pray you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Against some part of Poland.",
-          "plainText": "Against some part of Poland",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "Who commands them, sir?",
-          "plainText": "Who commands them sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "The nephew to old Norway, Fortinbras.",
-          "plainText": "The nephew to old Norway Fortinbras",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Goes it against the main of Poland, sir,",
-          "plainText": "Goes it against the main of Poland sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169484/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 2,
-          "text": "Or for some frontier?",
-          "plainText": "Or for some frontier",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169484/line-2",
+          "start": 8,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169484/line-3",
+          "start": 42,
+          "end": 42,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434327,
+        "end": 1434402,
+        "line": 54131,
+        "column": 1,
+        "path": "chap08/p@169484",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-011",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169563",
       "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nThey are of Norway, sir.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Truly to speak, and with no addition,",
-          "plainText": "Truly to speak and with no addition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169563/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 2,
-          "text": "We go to gain a little patch of ground",
-          "plainText": "We go to gain a little patch of ground",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169563/line-2",
+          "start": 9,
+          "end": 33,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 3,
-          "text": "That hath in it no profit but the name.",
-          "plainText": "That hath in it no profit but the name",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 4,
-          "text": "To pay five ducats, five, I would not farm it;",
-          "plainText": "To pay five ducats five I would not farm it",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 5,
-          "text": "Nor will it yield to Norway or the Pole",
-          "plainText": "Nor will it yield to Norway or the Pole",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 6,
-          "text": "A ranker rate, should it be sold in fee.",
-          "plainText": "A ranker rate should it be sold in fee",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169563/line-3",
+          "start": 34,
+          "end": 34,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434406,
+        "end": 1434473,
+        "line": 54136,
+        "column": 1,
+        "path": "chap08/p@169563",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-012",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169634",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nHow purpos’d, sir, I pray you?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "Why, then the Polack never will defend it.",
-          "plainText": "Why then the Polack never will defend it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Yes, it is already garrison'd.",
-          "plainText": "Yes it is already garrison'd",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
-      "lines": [
-        {
-          "id": "hamlet-prince-of-denmark-4-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Two thousand souls and twenty thousand ducats",
-          "plainText": "Two thousand souls and twenty thousand ducats",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169634/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 2,
-          "text": "Will not debate the question of this straw!",
-          "plainText": "Will not debate the question of this straw",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169634/line-2",
+          "start": 8,
+          "end": 38,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0028",
-          "number": 28,
-          "speechLineNumber": 3,
-          "text": "This is th'imposthume of much wealth and peace,",
-          "plainText": "This is th'imposthume of much wealth and peace",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169634/line-3",
+          "start": 39,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1434477,
+        "end": 1434549,
+        "line": 54141,
+        "column": 1,
+        "path": "chap08/p@169634",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169710",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nAgainst some part of Poland.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169710/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0029",
-          "number": 29,
-          "speechLineNumber": 4,
-          "text": "That inward breaks, and shows no cause without",
-          "plainText": "That inward breaks and shows no cause without",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169710/line-2",
+          "start": 9,
+          "end": 37,
+          "sourceLineNumber": null
         },
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0030",
-          "number": 30,
-          "speechLineNumber": 5,
-          "text": "Why the man dies. I humbly thank you, sir.",
-          "plainText": "Why the man dies I humbly thank you sir",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169710/line-3",
+          "start": 38,
+          "end": 38,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434553,
+        "end": 1434624,
+        "line": 54146,
+        "column": 1,
+        "path": "chap08/p@169710",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-015",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169785",
       "type": "speech",
-      "speaker": {
-        "id": "captain",
-        "name": "CAPTAIN",
-        "displayName": "Captain"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nWho commands them, sir?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "God b' wi' you, sir.",
-          "plainText": "God b' wi' you sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169785/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169785/line-2",
+          "start": 8,
+          "end": 31,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169785/line-3",
+          "start": 32,
+          "end": 32,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-stage-004",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "hamlet-prince-of-denmark-4-4-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "rosencrantz",
-        "name": "ROSENCRANTZ",
-        "displayName": "Rosencrantz"
+      ],
+      "sourceRef": {
+        "start": 1434628,
+        "end": 1434693,
+        "line": 54151,
+        "column": 1,
+        "path": "chap08/p@169785",
+        "anchor": "sceneIV_8.4"
       },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169854",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nThe nephew to old Norway, Fortinbras.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Will't please you go, my lord?",
-          "plainText": "Will't please you go my lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169854/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169854/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169854/line-3",
+          "start": 47,
+          "end": 47,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434697,
+        "end": 1434777,
+        "line": 54156,
+        "column": 1,
+        "path": "chap08/p@169854",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-speech-017",
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169938",
       "type": "speech",
-      "speaker": {
-        "id": "hamlet",
-        "name": "HAMLET",
-        "displayName": "Hamlet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nGoes it against the main of Poland, sir,\nOr for some frontier?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "hamlet-prince-of-denmark-4-4-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "I'll be with you straight. Go a little before.",
-          "plainText": "I'll be with you straight Go a little before",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169938/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169938/line-2",
+          "start": 8,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169938/line-3",
+          "start": 49,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@169938/line-4",
+          "start": 71,
+          "end": 71,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1434781,
+        "end": 1434890,
+        "line": 54161,
+        "column": 1,
+        "path": "chap08/p@169938",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-stage-005",
-      "type": "stage",
-      "text": "[Exeunt all but Hamlet.]"
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nTruly to speak, and with no addition,\nWe go to gain a little patch of ground\nThat hath in it no profit but the name.\nTo pay five ducats, five, I would not farm it;\nNor will it yield to Norway or the Pole\nA ranker rate, should it be sold in fee.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-2",
+          "start": 9,
+          "end": 46,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-3",
+          "start": 47,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-4",
+          "start": 86,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-5",
+          "start": 126,
+          "end": 172,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-6",
+          "start": 173,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-7",
+          "start": 213,
+          "end": 253,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170051/line-8",
+          "start": 254,
+          "end": 254,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1434894,
+        "end": 1435206,
+        "line": 54167,
+        "column": 1,
+        "path": "chap08/p@170051",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "hamlet-prince-of-denmark-4-4-stage-006",
-      "type": "stage",
-      "text": "[Exit.]"
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170367",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nWhy, then the Polack never will defend it.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170367/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170367/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170367/line-3",
+          "start": 51,
+          "end": 51,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435210,
+        "end": 1435294,
+        "line": 54177,
+        "column": 1,
+        "path": "chap08/p@170367",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170455",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nYes, it is already garrison’d.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170455/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170455/line-2",
+          "start": 9,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170455/line-3",
+          "start": 40,
+          "end": 40,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435298,
+        "end": 1435371,
+        "line": 54182,
+        "column": 1,
+        "path": "chap08/p@170455",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nTwo thousand souls and twenty thousand ducats\nWill not debate the question of this straw!\nThis is th’imposthume of much wealth and peace,\nThat inward breaks, and shows no cause without\nWhy the man dies. I humbly thank you, sir.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-2",
+          "start": 8,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-3",
+          "start": 54,
+          "end": 97,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-4",
+          "start": 98,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-5",
+          "start": 146,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-6",
+          "start": 193,
+          "end": 235,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170532/line-7",
+          "start": 236,
+          "end": 236,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435375,
+        "end": 1435664,
+        "line": 54187,
+        "column": 1,
+        "path": "chap08/p@170532",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170825",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPTAIN.\nGod b’ wi’ you, sir.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170825/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170825/line-2",
+          "start": 9,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170825/line-3",
+          "start": 30,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435668,
+        "end": 1435731,
+        "line": 54196,
+        "column": 1,
+        "path": "chap08/p@170825",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "CAPTAIN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170892",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170892/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435735,
+        "end": 1435774,
+        "line": 54201,
+        "column": 1,
+        "path": "chap08/p@170892",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170935",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ROSENCRANTZ.\nWill’t please you go, my lord?\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170935/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170935/line-2",
+          "start": 13,
+          "end": 43,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@170935/line-3",
+          "start": 44,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435778,
+        "end": 1435855,
+        "line": 54205,
+        "column": 1,
+        "path": "chap08/p@170935",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "ROSENCRANTZ.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171016",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "HAMLET.\nI’ll be with you straight. Go a little before.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171016/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171016/line-2",
+          "start": 8,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171016/line-3",
+          "start": 55,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435859,
+        "end": 1435947,
+        "line": 54210,
+        "column": 1,
+        "path": "chap08/p@171016",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": "HAMLET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171108",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt all but Hamlet.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 22,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 23
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171108/line-1",
+          "start": 0,
+          "end": 24,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1435951,
+        "end": 1436037,
+        "line": 54215,
+        "column": 1,
+        "path": "chap08/p@171108",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "How all occasions do inform against me,\nAnd spur my dull revenge. What is a man\nIf his chief good and market of his time\nBe but to sleep and feed? A beast, no more.\nSure he that made us with such large discourse,\nLooking before and after, gave us not\nThat capability and godlike reason\nTo fust in us unus’d. Now whether it be\nBestial oblivion, or some craven scruple\nOf thinking too precisely on th’event,—\nA thought which, quarter’d, hath but one part wisdom\nAnd ever three parts coward,—I do not know\nWhy yet I live to say this thing’s to do,\nSith I have cause, and will, and strength, and means\nTo do’t. Examples gross as earth exhort me,\nWitness this army of such mass and charge,\nLed by a delicate and tender prince,\nWhose spirit, with divine ambition puff’d,\nMakes mouths at the invisible event,\nExposing what is mortal and unsure\nTo all that fortune, death, and danger dare,\nEven for an eggshell. Rightly to be great\nIs not to stir without great argument,\nBut greatly to find quarrel in a straw\nWhen honour’s at the stake. How stand I then,\nThat have a father kill’d, a mother stain’d,\nExcitements of my reason and my blood,\nAnd let all sleep, while to my shame I see\nThe imminent death of twenty thousand men\nThat, for a fantasy and trick of fame,\nGo to their graves like beds, fight for a plot\nWhereon the numbers cannot try the cause,\nWhich is not tomb enough and continent\nTo hide the slain? O, from this time forth,\nMy thoughts be bloody or be nothing worth.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-2",
+          "start": 40,
+          "end": 79,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-3",
+          "start": 80,
+          "end": 120,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-4",
+          "start": 121,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-5",
+          "start": 165,
+          "end": 212,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-6",
+          "start": 213,
+          "end": 250,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-7",
+          "start": 251,
+          "end": 285,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-8",
+          "start": 286,
+          "end": 325,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-9",
+          "start": 326,
+          "end": 366,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-10",
+          "start": 367,
+          "end": 406,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-11",
+          "start": 407,
+          "end": 459,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-12",
+          "start": 460,
+          "end": 502,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-13",
+          "start": 503,
+          "end": 544,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-14",
+          "start": 545,
+          "end": 597,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-15",
+          "start": 598,
+          "end": 641,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-16",
+          "start": 642,
+          "end": 684,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-17",
+          "start": 685,
+          "end": 721,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-18",
+          "start": 722,
+          "end": 764,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-19",
+          "start": 765,
+          "end": 801,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-20",
+          "start": 802,
+          "end": 836,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-21",
+          "start": 837,
+          "end": 881,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-22",
+          "start": 882,
+          "end": 923,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-23",
+          "start": 924,
+          "end": 962,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-24",
+          "start": 963,
+          "end": 1001,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-25",
+          "start": 1002,
+          "end": 1047,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-26",
+          "start": 1048,
+          "end": 1092,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-27",
+          "start": 1093,
+          "end": 1131,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-28",
+          "start": 1132,
+          "end": 1174,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-29",
+          "start": 1175,
+          "end": 1216,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-30",
+          "start": 1217,
+          "end": 1255,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-31",
+          "start": 1256,
+          "end": 1302,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-32",
+          "start": 1303,
+          "end": 1344,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-33",
+          "start": 1345,
+          "end": 1383,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-34",
+          "start": 1384,
+          "end": 1427,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-35",
+          "start": 1428,
+          "end": 1470,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@171198/line-36",
+          "start": 1471,
+          "end": 1471,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1436041,
+        "end": 1437710,
+        "line": 54219,
+        "column": 1,
+        "path": "chap08/p@171198",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@172871",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "hamlet-prince-of-denmark/sceneIV_8.4/p@172871/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1437714,
+        "end": 1437753,
+        "line": 54257,
+        "column": 1,
+        "path": "chap08/p@172871",
+        "anchor": "sceneIV_8.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6"
 }

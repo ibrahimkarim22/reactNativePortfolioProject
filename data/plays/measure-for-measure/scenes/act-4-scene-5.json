@@ -1,233 +1,422 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "measure-for-measure",
-    "title": "Measure For Measure",
+    "title": "MEASURE FOR MEASURE",
     "author": "William Shakespeare",
     "genre": "Problem Play"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap21"
   },
-  "scene": {
+  "section": {
     "id": "measure-for-measure-4-5",
+    "kind": "scene",
+    "heading": "SCENE V. Fields without the town.",
     "act": 4,
     "scene": 5,
-    "label": "Act 4, Scene 5",
-    "title": "SCENE V. Fields without the town.",
-    "location": "Fields without the town.",
-    "orderInPlay": 15
+    "parentSectionId": "measure-for-measure-act-105265",
+    "orderInPlay": 23,
+    "sourceRef": {
+      "start": 3847843,
+      "end": 3847918,
+      "line": 142315,
+      "column": 1,
+      "path": "chap21/h3@137451",
+      "anchor": "sceneIV_21.5"
+    }
   },
   "content": [
     {
-      "id": "measure-for-measure-4-5-stage-001",
-      "type": "stage",
-      "text": "Enter Duke, in his own habit, and Friar Peter."
-    },
-    {
-      "id": "measure-for-measure-4-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
-      },
+      "id": "measure-for-measure/sceneIV_21.5/h3@137451",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Fields without the town.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 33
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "These letters at fit time deliver me.",
-          "plainText": "These letters at fit time deliver me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "The Provost knows our purpose and our plot.",
-          "plainText": "The Provost knows our purpose and our plot",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "The matter being afoot, keep your instruction",
-          "plainText": "The matter being afoot keep your instruction",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And hold you ever to our special drift,",
-          "plainText": "And hold you ever to our special drift",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Though sometimes you do blench from this to that",
-          "plainText": "Though sometimes you do blench from this to that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "As cause doth minister. Go call at Flavius' house,",
-          "plainText": "As cause doth minister Go call at Flavius' house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "And tell him where I stay. Give the like notice",
-          "plainText": "And tell him where I stay Give the like notice",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "To Valencius, Rowland, and to Crassus,",
-          "plainText": "To Valencius Rowland and to Crassus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "And bid them bring the trumpets to the gate.",
-          "plainText": "And bid them bring the trumpets to the gate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "measure-for-measure-4-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "But send me Flavius first.",
-          "plainText": "But send me Flavius first",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.5/h3@137451/line-1",
+          "start": 0,
+          "end": 33,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3847843,
+        "end": 3847918,
+        "line": 142315,
+        "column": 1,
+        "path": "chap21/h3@137451",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "measure-for-measure-4-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "friar-peter",
-        "name": "FRIAR PETER",
-        "displayName": "Friar Peter"
-      },
+      "id": "measure-for-measure/sceneIV_21.5/p@137530",
+      "type": "stage",
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Duke, in his own habit, and Friar Peter.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 34,
+          "end": 45,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "measure-for-measure-4-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "It shall be speeded well.",
-          "plainText": "It shall be speeded well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "measure-for-measure/sceneIV_21.5/p@137530/line-1",
+          "start": 0,
+          "end": 46,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "measure-for-measure-4-5-stage-002",
-      "type": "stage",
-      "text": "[Exit Friar Peter.]"
-    },
-    {
-      "id": "measure-for-measure-4-5-stage-003",
-      "type": "stage",
-      "text": "Enter Varrius."
-    },
-    {
-      "id": "measure-for-measure-4-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "duke",
-        "name": "DUKE",
-        "displayName": "Duke"
+      ],
+      "sourceRef": {
+        "start": 3847922,
+        "end": 3848058,
+        "line": 142317,
+        "column": 1,
+        "path": "chap21/p@137530",
+        "anchor": "sceneIV_21.5"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.5/p@137670",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nThese letters at fit time deliver me.\nThe Provost knows our purpose and our plot.\nThe matter being afoot, keep your instruction\nAnd hold you ever to our special drift,\nThough sometimes you do blench from this to that\nAs cause doth minister. Go call at Flavius’ house,\nAnd tell him where I stay. Give the like notice\nTo Valencius, Rowland, and to Crassus,\nAnd bid them bring the trumpets to the gate.\nBut send me Flavius first.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "measure-for-measure-4-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "I thank thee, Varrius, thou hast made good haste.",
-          "plainText": "I thank thee Varrius thou hast made good haste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 2,
-          "text": "Come, we will walk. There's other of our friends",
-          "plainText": "Come we will walk There's other of our friends",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-2",
+          "start": 6,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "measure-for-measure-4-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 3,
-          "text": "Will greet us here anon. My gentle Varrius.",
-          "plainText": "Will greet us here anon My gentle Varrius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-3",
+          "start": 44,
+          "end": 87,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-4",
+          "start": 88,
+          "end": 133,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-5",
+          "start": 134,
+          "end": 173,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-6",
+          "start": 174,
+          "end": 222,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-7",
+          "start": 223,
+          "end": 273,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-8",
+          "start": 274,
+          "end": 321,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-9",
+          "start": 322,
+          "end": 360,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-10",
+          "start": 361,
+          "end": 405,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@137670/line-11",
+          "start": 406,
+          "end": 432,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3848062,
+        "end": 3848569,
+        "line": 142322,
+        "column": 1,
+        "path": "chap21/p@137670",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "measure-for-measure-4-5-stage-004",
+      "id": "measure-for-measure/sceneIV_21.5/p@138181",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "FRIAR PETER.\nIt shall be speeded well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138181/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138181/line-2",
+          "start": 13,
+          "end": 38,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3848573,
+        "end": 3848641,
+        "line": 142336,
+        "column": 1,
+        "path": "chap21/p@138181",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": "FRIAR PETER.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.5/p@138253",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Friar Peter.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 17,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138253/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3848645,
+        "end": 3848722,
+        "line": 142341,
+        "column": 1,
+        "path": "chap21/p@138253",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.5/p@138334",
       "type": "stage",
-      "text": "[Exeunt.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Varrius.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 13,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138334/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3848726,
+        "end": 3848799,
+        "line": 142343,
+        "column": 1,
+        "path": "chap21/p@138334",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.5/p@138411",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "DUKE.\nI thank thee, Varrius, thou hast made good haste.\nCome, we will walk. There’s other of our friends\nWill greet us here anon. My gentle Varrius.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138411/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138411/line-2",
+          "start": 6,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138411/line-3",
+          "start": 56,
+          "end": 104,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138411/line-4",
+          "start": 105,
+          "end": 148,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3848803,
+        "end": 3848991,
+        "line": 142347,
+        "column": 1,
+        "path": "chap21/p@138411",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": "DUKE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "measure-for-measure/sceneIV_21.5/p@138603",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "measure-for-measure/sceneIV_21.5/p@138603/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3848995,
+        "end": 3849032,
+        "line": 142354,
+        "column": 1,
+        "path": "chap21/p@138603",
+        "anchor": "sceneIV_21.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "e7d046d1e7c46c174daaf36c393ed5289ff84f42ff534dc0553d2b3039562f23"
 }

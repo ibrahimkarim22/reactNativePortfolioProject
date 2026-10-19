@@ -1,1014 +1,1323 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "romeo-and-juliet",
-    "title": "The Tragedy of Romeo and Juliet",
+    "title": "THE TRAGEDY OF ROMEO AND JULIET",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap30"
   },
-  "scene": {
+  "section": {
     "id": "romeo-and-juliet-2-5",
+    "kind": "scene",
+    "heading": "SCENE V. Capulet’s Garden.",
     "act": 2,
     "scene": 5,
-    "label": "Act 2, Scene 5",
-    "title": "SCENE V. Capulet's Garden.",
-    "location": "Capulet's Garden.",
-    "orderInPlay": 10
+    "parentSectionId": "romeo-and-juliet-act-50512",
+    "orderInPlay": 17,
+    "sourceRef": {
+      "start": 5383426,
+      "end": 5383494,
+      "line": 200199,
+      "column": 1,
+      "path": "chap30/h3@84426",
+      "anchor": "sceneII_30.5"
+    }
   },
   "content": [
     {
-      "id": "romeo-and-juliet-2-5-stage-001",
+      "id": "romeo-and-juliet/sceneII_30.5/h3@84426",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE V. Capulet’s Garden.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/h3@84426/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5383426,
+        "end": 5383494,
+        "line": 200199,
+        "column": 1,
+        "path": "chap30/h3@84426",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@84498",
       "type": "stage",
-      "text": "Enter Juliet."
-    },
-    {
-      "id": "romeo-and-juliet-2-5-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Juliet.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "The clock struck nine when I did send the Nurse,",
-          "plainText": "The clock struck nine when I did send the Nurse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "In half an hour she promised to return.",
-          "plainText": "In half an hour she promised to return",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Perchance she cannot meet him. That's not so.",
-          "plainText": "Perchance she cannot meet him That's not so",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "O, she is lame. Love's heralds should be thoughts,",
-          "plainText": "O she is lame Love's heralds should be thoughts",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Which ten times faster glides than the sun's beams,",
-          "plainText": "Which ten times faster glides than the sun's beams",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Driving back shadows over lowering hills:",
-          "plainText": "Driving back shadows over lowering hills",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "Therefore do nimble-pinion'd doves draw love,",
-          "plainText": "Therefore do nimblepinion'd doves draw love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "And therefore hath the wind-swift Cupid wings.",
-          "plainText": "And therefore hath the windswift Cupid wings",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Now is the sun upon the highmost hill",
-          "plainText": "Now is the sun upon the highmost hill",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "Of this day's journey, and from nine till twelve",
-          "plainText": "Of this day's journey and from nine till twelve",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "Is three long hours, yet she is not come.",
-          "plainText": "Is three long hours yet she is not come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "Had she affections and warm youthful blood,",
-          "plainText": "Had she affections and warm youthful blood",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "She'd be as swift in motion as a ball;",
-          "plainText": "She'd be as swift in motion as a ball",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "My words would bandy her to my sweet love,",
-          "plainText": "My words would bandy her to my sweet love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0015",
-          "number": 15,
-          "speechLineNumber": 15,
-          "text": "And his to me.",
-          "plainText": "And his to me",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0016",
-          "number": 16,
-          "speechLineNumber": 16,
-          "text": "But old folks, many feign as they were dead;",
-          "plainText": "But old folks many feign as they were dead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0017",
-          "number": 17,
-          "speechLineNumber": 17,
-          "text": "Unwieldy, slow, heavy and pale as lead.",
-          "plainText": "Unwieldy slow heavy and pale as lead",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@84498/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5383498,
+        "end": 5383566,
+        "line": 200201,
+        "column": 1,
+        "path": "chap30/p@84498",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-stage-002",
+      "id": "romeo-and-juliet/sceneII_30.5/p@84570",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nThe clock struck nine when I did send the Nurse,\nIn half an hour she promised to return.\nPerchance she cannot meet him. That’s not so.\nO, she is lame. Love’s heralds should be thoughts,\nWhich ten times faster glides than the sun’s beams,\nDriving back shadows over lowering hills:\nTherefore do nimble-pinion’d doves draw love,\nAnd therefore hath the wind-swift Cupid wings.\nNow is the sun upon the highmost hill\nOf this day’s journey, and from nine till twelve\nIs three long hours, yet she is not come.\nHad she affections and warm youthful blood,\nShe’d be as swift in motion as a ball;\nMy words would bandy her to my sweet love,\nAnd his to me.\nBut old folks, many feign as they were dead;\nUnwieldy, slow, heavy and pale as lead.\n",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-2",
+          "start": 8,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-3",
+          "start": 57,
+          "end": 96,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-4",
+          "start": 97,
+          "end": 142,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-5",
+          "start": 143,
+          "end": 193,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-6",
+          "start": 194,
+          "end": 245,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-7",
+          "start": 246,
+          "end": 287,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-8",
+          "start": 288,
+          "end": 333,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-9",
+          "start": 334,
+          "end": 380,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-10",
+          "start": 381,
+          "end": 418,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-11",
+          "start": 419,
+          "end": 467,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-12",
+          "start": 468,
+          "end": 509,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-13",
+          "start": 510,
+          "end": 553,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-14",
+          "start": 554,
+          "end": 592,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-15",
+          "start": 593,
+          "end": 635,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-16",
+          "start": 636,
+          "end": 650,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-17",
+          "start": 651,
+          "end": 695,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-18",
+          "start": 696,
+          "end": 735,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@84570/line-19",
+          "start": 736,
+          "end": 736,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5383570,
+        "end": 5384419,
+        "line": 200203,
+        "column": 1,
+        "path": "chap30/p@84570",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@85423",
       "type": "stage",
-      "text": "Enter Nurse and Peter."
-    },
-    {
-      "id": "romeo-and-juliet-2-5-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Nurse and Peter.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 16,
+          "end": 21,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "Peter, stay at the gate.",
-          "plainText": "Peter stay at the gate",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85423/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "romeo-and-juliet-2-5-stage-003",
-      "type": "stage",
-      "text": "[Exit Peter.]"
-    },
-    {
-      "id": "romeo-and-juliet-2-5-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
+      ],
+      "sourceRef": {
+        "start": 5384423,
+        "end": 5384531,
+        "line": 200224,
+        "column": 1,
+        "path": "chap30/p@85423",
+        "anchor": "sceneII_30.5"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@85535",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "O God, she comes. O honey Nurse, what news?\nHast thou met with him? Send thy man away.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Now, good sweet Nurse,—O Lord, why look'st thou sad?",
-          "plainText": "Now good sweet NurseO Lord why look'st thou sad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85535/line-1",
+          "start": 0,
+          "end": 43,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "Though news be sad, yet tell them merrily;",
-          "plainText": "Though news be sad yet tell them merrily",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "If good, thou sham'st the music of sweet news",
-          "plainText": "If good thou sham'st the music of sweet news",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0022",
-          "number": 22,
-          "speechLineNumber": 4,
-          "text": "By playing it to me with so sour a face.",
-          "plainText": "By playing it to me with so sour a face",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85535/line-2",
+          "start": 44,
+          "end": 86,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5384535,
+        "end": 5384651,
+        "line": 200227,
+        "column": 1,
+        "path": "chap30/p@85535",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-004",
+      "id": "romeo-and-juliet/sceneII_30.5/p@85655",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nPeter, stay at the gate.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "I am aweary, give me leave awhile;",
-          "plainText": "I am aweary give me leave awhile",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85655/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0024",
-          "number": 24,
-          "speechLineNumber": 2,
-          "text": "Fie, how my bones ache! What a jaunt have I had!",
-          "plainText": "Fie how my bones ache What a jaunt have I had",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85655/line-2",
+          "start": 7,
+          "end": 31,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5384655,
+        "end": 5384716,
+        "line": 200232,
+        "column": 1,
+        "path": "chap30/p@85655",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "id": "romeo-and-juliet/sceneII_30.5/p@85720",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Peter.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 11,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "I would thou hadst my bones, and I thy news:",
-          "plainText": "I would thou hadst my bones and I thy news",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0026",
-          "number": 26,
-          "speechLineNumber": 2,
-          "text": "Nay come, I pray thee speak; good, good Nurse, speak.",
-          "plainText": "Nay come I pray thee speak good good Nurse speak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85720/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5384720,
+        "end": 5384791,
+        "line": 200237,
+        "column": 1,
+        "path": "chap30/p@85720",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-006",
+      "id": "romeo-and-juliet/sceneII_30.5/p@85795",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nNow, good sweet Nurse,—O Lord, why look’st thou sad?\nThough news be sad, yet tell them merrily;\nIf good, thou sham’st the music of sweet news\nBy playing it to me with so sour a face.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Jesu, what haste? Can you not stay a while? Do you not see that I am out of breath?",
-          "plainText": "Jesu what haste Can you not stay a while Do you not see that I am out of breath",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@85795/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@85795/line-2",
+          "start": 8,
+          "end": 60,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@85795/line-3",
+          "start": 61,
+          "end": 103,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@85795/line-4",
+          "start": 104,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@85795/line-5",
+          "start": 150,
+          "end": 190,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5384795,
+        "end": 5385030,
+        "line": 200239,
+        "column": 1,
+        "path": "chap30/p@85795",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-007",
+      "id": "romeo-and-juliet/sceneII_30.5/p@86034",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nI am aweary, give me leave awhile;\nFie, how my bones ache! What a jaunt have I had!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "How art thou out of breath, when thou hast breath",
-          "plainText": "How art thou out of breath when thou hast breath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86034/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0029",
-          "number": 29,
-          "speechLineNumber": 2,
-          "text": "To say to me that thou art out of breath?",
-          "plainText": "To say to me that thou art out of breath",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86034/line-2",
+          "start": 7,
+          "end": 41,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0030",
-          "number": 30,
-          "speechLineNumber": 3,
-          "text": "The excuse that thou dost make in this delay",
-          "plainText": "The excuse that thou dost make in this delay",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0031",
-          "number": 31,
-          "speechLineNumber": 4,
-          "text": "Is longer than the tale thou dost excuse.",
-          "plainText": "Is longer than the tale thou dost excuse",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0032",
-          "number": 32,
-          "speechLineNumber": 5,
-          "text": "Is thy news good or bad? Answer to that;",
-          "plainText": "Is thy news good or bad Answer to that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0033",
-          "number": 33,
-          "speechLineNumber": 6,
-          "text": "Say either, and I'll stay the circumstance.",
-          "plainText": "Say either and I'll stay the circumstance",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0034",
-          "number": 34,
-          "speechLineNumber": 7,
-          "text": "Let me be satisfied, is't good or bad?",
-          "plainText": "Let me be satisfied is't good or bad",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86034/line-3",
+          "start": 42,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5385034,
+        "end": 5385159,
+        "line": 200247,
+        "column": 1,
+        "path": "chap30/p@86034",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-008",
+      "id": "romeo-and-juliet/sceneII_30.5/p@86163",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nI would thou hadst my bones, and I thy news:\nNay come, I pray thee speak; good, good Nurse, speak.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Well, you have made a simple choice; you know not how to choose a man. Romeo? No, not he. Though his face be better than any man's, yet his leg excels all men's, and for a hand and a foot, and a body, though they be not to be talked on, yet they are past compare. He is not the flower of courtesy, but I'll warrant him as gentle as a lamb. Go thy ways, wench, serve God. What, have you dined at home?",
-          "plainText": "Well you have made a simple choice you know not how to choose a man Romeo No not he Though his face be better than any man's yet his leg excels all men's and for a hand and a foot and a body though they be not to be talked on yet they are past compare He is not the flower of courtesy but I'll warrant him as gentle as a lamb Go thy ways wench serve God What have you dined at home",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86163/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@86163/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@86163/line-3",
+          "start": 53,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5385163,
+        "end": 5385304,
+        "line": 200253,
+        "column": 1,
+        "path": "chap30/p@86163",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-009",
+      "id": "romeo-and-juliet/sceneII_30.5/p@86308",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nJesu, what haste? Can you not stay a while? Do you not see that I am out of breath?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "No, no. But all this did I know before.",
-          "plainText": "No no But all this did I know before",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86308/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0037",
-          "number": 37,
-          "speechLineNumber": 2,
-          "text": "What says he of our marriage? What of that?",
-          "plainText": "What says he of our marriage What of that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86308/line-2",
+          "start": 7,
+          "end": 90,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5385308,
+        "end": 5385429,
+        "line": 200259,
+        "column": 1,
+        "path": "chap30/p@86308",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-010",
+      "id": "romeo-and-juliet/sceneII_30.5/p@86433",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nHow art thou out of breath, when thou hast breath\nTo say to me that thou art out of breath?\nThe excuse that thou dost make in this delay\nIs longer than the tale thou dost excuse.\nIs thy news good or bad? Answer to that;\nSay either, and I’ll stay the circumstance.\nLet me be satisfied, is’t good or bad?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Lord, how my head aches! What a head have I!",
-          "plainText": "Lord how my head aches What a head have I",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0039",
-          "number": 39,
-          "speechLineNumber": 2,
-          "text": "It beats as it would fall in twenty pieces.",
-          "plainText": "It beats as it would fall in twenty pieces",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0040",
-          "number": 40,
-          "speechLineNumber": 3,
-          "text": "My back o' t'other side,—O my back, my back!",
-          "plainText": "My back o' t'other sideO my back my back",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-3",
+          "start": 58,
+          "end": 99,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0041",
-          "number": 41,
-          "speechLineNumber": 4,
-          "text": "Beshrew your heart for sending me about",
-          "plainText": "Beshrew your heart for sending me about",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-4",
+          "start": 100,
+          "end": 144,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0042",
-          "number": 42,
-          "speechLineNumber": 5,
-          "text": "To catch my death with jauncing up and down.",
-          "plainText": "To catch my death with jauncing up and down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-5",
+          "start": 145,
+          "end": 186,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-6",
+          "start": 187,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-7",
+          "start": 228,
+          "end": 271,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@86433/line-8",
+          "start": 272,
+          "end": 310,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5385433,
+        "end": 5385803,
+        "line": 200265,
+        "column": 1,
+        "path": "chap30/p@86433",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-011",
+      "id": "romeo-and-juliet/sceneII_30.5/p@86807",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nWell, you have made a simple choice; you know not how to choose a man. Romeo? No, not he. Though his face be better than any man’s, yet his leg excels all men’s, and for a hand and a foot, and a body, though they be not to be talked on, yet they are past compare. He is not the flower of courtesy, but I’ll warrant him as gentle as a lamb. Go thy ways, wench, serve God. What, have you dined at home?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "I'faith, I am sorry that thou art not well.",
-          "plainText": "I'faith I am sorry that thou art not well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86807/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0044",
-          "number": 44,
-          "speechLineNumber": 2,
-          "text": "Sweet, sweet, sweet Nurse, tell me, what says my love?",
-          "plainText": "Sweet sweet sweet Nurse tell me what says my love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@86807/line-2",
+          "start": 7,
+          "end": 407,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5385807,
+        "end": 5386249,
+        "line": 200276,
+        "column": 1,
+        "path": "chap30/p@86807",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-012",
+      "id": "romeo-and-juliet/sceneII_30.5/p@87253",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nNo, no. But all this did I know before.\nWhat says he of our marriage? What of that?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "Your love says like an honest gentleman,",
-          "plainText": "Your love says like an honest gentleman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87253/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0046",
-          "number": 46,
-          "speechLineNumber": 2,
-          "text": "And a courteous, and a kind, and a handsome,",
-          "plainText": "And a courteous and a kind and a handsome",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87253/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0047",
-          "number": 47,
-          "speechLineNumber": 3,
-          "text": "And I warrant a virtuous,—Where is your mother?",
-          "plainText": "And I warrant a virtuousWhere is your mother",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87253/line-3",
+          "start": 48,
+          "end": 91,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5386253,
+        "end": 5386379,
+        "line": 200286,
+        "column": 1,
+        "path": "chap30/p@87253",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-013",
+      "id": "romeo-and-juliet/sceneII_30.5/p@87383",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nLord, how my head aches! What a head have I!\nIt beats as it would fall in twenty pieces.\nMy back o’ t’other side,—O my back, my back!\nBeshrew your heart for sending me about\nTo catch my death with jauncing up and down.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Where is my mother? Why, she is within.",
-          "plainText": "Where is my mother Why she is within",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0049",
-          "number": 49,
-          "speechLineNumber": 2,
-          "text": "Where should she be? How oddly thou repliest.",
-          "plainText": "Where should she be How oddly thou repliest",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-2",
+          "start": 7,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0050",
-          "number": 50,
-          "speechLineNumber": 3,
-          "text": "'Your love says, like an honest gentleman,",
-          "plainText": "'Your love says like an honest gentleman",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-3",
+          "start": 52,
+          "end": 95,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0051",
-          "number": 51,
-          "speechLineNumber": 4,
-          "text": "'Where is your mother?'",
-          "plainText": "'Where is your mother'",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-4",
+          "start": 96,
+          "end": 140,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-5",
+          "start": 141,
+          "end": 180,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87383/line-6",
+          "start": 181,
+          "end": 225,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5386383,
+        "end": 5386658,
+        "line": 200292,
+        "column": 1,
+        "path": "chap30/p@87383",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-014",
+      "id": "romeo-and-juliet/sceneII_30.5/p@87662",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nI’faith, I am sorry that thou art not well.\nSweet, sweet, sweet Nurse, tell me, what says my love?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "O God's lady dear,",
-          "plainText": "O God's lady dear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87662/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0053",
-          "number": 53,
-          "speechLineNumber": 2,
-          "text": "Are you so hot? Marry, come up, I trow.",
-          "plainText": "Are you so hot Marry come up I trow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87662/line-2",
+          "start": 8,
+          "end": 51,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0054",
-          "number": 54,
-          "speechLineNumber": 3,
-          "text": "Is this the poultice for my aching bones?",
-          "plainText": "Is this the poultice for my aching bones",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0055",
-          "number": 55,
-          "speechLineNumber": 4,
-          "text": "Henceforward do your messages yourself.",
-          "plainText": "Henceforward do your messages yourself",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87662/line-3",
+          "start": 52,
+          "end": 106,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5386662,
+        "end": 5386803,
+        "line": 200301,
+        "column": 1,
+        "path": "chap30/p@87662",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-015",
+      "id": "romeo-and-juliet/sceneII_30.5/p@87807",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nYour love says like an honest gentleman,\nAnd a courteous, and a kind, and a handsome,\nAnd I warrant a virtuous,—Where is your mother?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "Here's such a coil. Come, what says Romeo?",
-          "plainText": "Here's such a coil Come what says Romeo",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87807/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87807/line-2",
+          "start": 7,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87807/line-3",
+          "start": 48,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87807/line-4",
+          "start": 93,
+          "end": 140,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5386807,
+        "end": 5386987,
+        "line": 200307,
+        "column": 1,
+        "path": "chap30/p@87807",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-016",
+      "id": "romeo-and-juliet/sceneII_30.5/p@87991",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nWhere is my mother? Why, she is within.\nWhere should she be? How oddly thou repliest.\n‘Your love says, like an honest gentleman,\n‘Where is your mother?’",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "Have you got leave to go to shrift today?",
-          "plainText": "Have you got leave to go to shrift today",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@87991/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87991/line-2",
+          "start": 8,
+          "end": 47,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87991/line-3",
+          "start": 48,
+          "end": 93,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87991/line-4",
+          "start": 94,
+          "end": 136,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@87991/line-5",
+          "start": 137,
+          "end": 160,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5386991,
+        "end": 5387196,
+        "line": 200314,
+        "column": 1,
+        "path": "chap30/p@87991",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-017",
+      "id": "romeo-and-juliet/sceneII_30.5/p@88200",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nO God’s lady dear,\nAre you so hot? Marry, come up, I trow.\nIs this the poultice for my aching bones?\nHenceforward do your messages yourself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "I have.",
-          "plainText": "I have",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@88200/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88200/line-2",
+          "start": 7,
+          "end": 25,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88200/line-3",
+          "start": 26,
+          "end": 65,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88200/line-4",
+          "start": 66,
+          "end": 107,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88200/line-5",
+          "start": 108,
+          "end": 147,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5387200,
+        "end": 5387392,
+        "line": 200322,
+        "column": 1,
+        "path": "chap30/p@88200",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-018",
+      "id": "romeo-and-juliet/sceneII_30.5/p@88396",
       "type": "speech",
-      "speaker": {
-        "id": "nurse",
-        "name": "NURSE",
-        "displayName": "Nurse"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nHere’s such a coil. Come, what says Romeo?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "Then hie you hence to Friar Lawrence' cell;",
-          "plainText": "Then hie you hence to Friar Lawrence' cell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@88396/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "romeo-and-juliet-2-5-line-0060",
-          "number": 60,
-          "speechLineNumber": 2,
-          "text": "There stays a husband to make you a wife.",
-          "plainText": "There stays a husband to make you a wife",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0061",
-          "number": 61,
-          "speechLineNumber": 3,
-          "text": "Now comes the wanton blood up in your cheeks,",
-          "plainText": "Now comes the wanton blood up in your cheeks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0062",
-          "number": 62,
-          "speechLineNumber": 4,
-          "text": "They'll be in scarlet straight at any news.",
-          "plainText": "They'll be in scarlet straight at any news",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0063",
-          "number": 63,
-          "speechLineNumber": 5,
-          "text": "Hie you to church. I must another way,",
-          "plainText": "Hie you to church I must another way",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0064",
-          "number": 64,
-          "speechLineNumber": 6,
-          "text": "To fetch a ladder by the which your love",
-          "plainText": "To fetch a ladder by the which your love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0065",
-          "number": 65,
-          "speechLineNumber": 7,
-          "text": "Must climb a bird's nest soon when it is dark.",
-          "plainText": "Must climb a bird's nest soon when it is dark",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0066",
-          "number": 66,
-          "speechLineNumber": 8,
-          "text": "I am the drudge, and toil in your delight;",
-          "plainText": "I am the drudge and toil in your delight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0067",
-          "number": 67,
-          "speechLineNumber": 9,
-          "text": "But you shall bear the burden soon at night.",
-          "plainText": "But you shall bear the burden soon at night",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "romeo-and-juliet-2-5-line-0068",
-          "number": 68,
-          "speechLineNumber": 10,
-          "text": "Go. I'll to dinner; hie you to the cell.",
-          "plainText": "Go I'll to dinner hie you to the cell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "romeo-and-juliet/sceneII_30.5/p@88396/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5387396,
+        "end": 5387476,
+        "line": 200330,
+        "column": 1,
+        "path": "chap30/p@88396",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-speech-019",
+      "id": "romeo-and-juliet/sceneII_30.5/p@88480",
       "type": "speech",
-      "speaker": {
-        "id": "juliet",
-        "name": "JULIET",
-        "displayName": "Juliet"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nHave you got leave to go to shrift today?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "romeo-and-juliet-2-5-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "Hie to high fortune! Honest Nurse, farewell.",
-          "plainText": "Hie to high fortune Honest Nurse farewell",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "romeo-and-juliet/sceneII_30.5/p@88480/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88480/line-2",
+          "start": 7,
+          "end": 48,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5387480,
+        "end": 5387558,
+        "line": 200335,
+        "column": 1,
+        "path": "chap30/p@88480",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "romeo-and-juliet-2-5-stage-004",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "romeo-and-juliet/sceneII_30.5/p@88562",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nI have.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88562/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88562/line-2",
+          "start": 8,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5387562,
+        "end": 5387607,
+        "line": 200340,
+        "column": 1,
+        "path": "chap30/p@88562",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@88611",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "NURSE.\nThen hie you hence to Friar Lawrence’ cell;\nThere stays a husband to make you a wife.\nNow comes the wanton blood up in your cheeks,\nThey’ll be in scarlet straight at any news.\nHie you to church. I must another way,\nTo fetch a ladder by the which your love\nMust climb a bird’s nest soon when it is dark.\nI am the drudge, and toil in your delight;\nBut you shall bear the burden soon at night.\nGo. I’ll to dinner; hie you to the cell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-2",
+          "start": 7,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-3",
+          "start": 51,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-4",
+          "start": 93,
+          "end": 138,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-5",
+          "start": 139,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-6",
+          "start": 183,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-7",
+          "start": 222,
+          "end": 262,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-8",
+          "start": 263,
+          "end": 309,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-9",
+          "start": 310,
+          "end": 352,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-10",
+          "start": 353,
+          "end": 397,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@88611/line-11",
+          "start": 398,
+          "end": 438,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5387611,
+        "end": 5388124,
+        "line": 200345,
+        "column": 1,
+        "path": "chap30/p@88611",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "NURSE.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@89128",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "JULIET.\nHie to high fortune! Honest Nurse, farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@89128/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@89128/line-2",
+          "start": 8,
+          "end": 52,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5388128,
+        "end": 5388210,
+        "line": 200359,
+        "column": 1,
+        "path": "chap30/p@89128",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": "JULIET.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "romeo-and-juliet/sceneII_30.5/p@89214",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "romeo-and-juliet/sceneII_30.5/p@89214/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5388214,
+        "end": 5388251,
+        "line": 200364,
+        "column": 1,
+        "path": "chap30/p@89214",
+        "anchor": "sceneII_30.5"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8"
 }

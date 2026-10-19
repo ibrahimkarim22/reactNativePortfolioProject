@@ -1,135 +1,245 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "julius-caesar",
-    "title": "The Tragedy of Julius Caesar",
+    "title": "THE TRAGEDY OF JULIUS CAESAR",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap17"
   },
-  "scene": {
+  "section": {
     "id": "julius-caesar-2-3",
+    "kind": "scene",
+    "heading": "SCENE III. A street near the Capitol.",
     "act": 2,
     "scene": 3,
-    "label": "Act 2, Scene 3",
-    "title": "SCENE III. A street near the Capitol.",
-    "location": "A street near the Capitol.",
-    "orderInPlay": 6
+    "parentSectionId": "julius-caesar-act-36992",
+    "orderInPlay": 12,
+    "sourceRef": {
+      "start": 3076083,
+      "end": 3076163,
+      "line": 111438,
+      "column": 1,
+      "path": "chap17/h3@65686",
+      "anchor": "sceneII_17.3"
+    }
   },
   "content": [
     {
-      "id": "julius-caesar-2-3-stage-001",
-      "type": "stage",
-      "text": "Enter Artemidorus, reading a paper."
-    },
-    {
-      "id": "julius-caesar-2-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "artemidorus",
-        "name": "ARTEMIDORUS",
-        "displayName": "Artemidorus"
-      },
+      "id": "julius-caesar/sceneII_17.3/h3@65686",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. A street near the Capitol.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 37
+        }
+      ],
       "lines": [
         {
-          "id": "julius-caesar-2-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "\"Caesar, beware of Brutus; take heed of Cassius; come not near Casca; have an eye to Cinna; trust not Trebonius; mark well Metellus Cimber; Decius Brutus loves thee not; thou hast wrong'd Caius Ligarius. There is but one mind in all these men, and it is bent against Caesar. If thou be'st not immortal, look about you: security gives way to conspiracy. The mighty gods defend thee!",
-          "plainText": "Caesar beware of Brutus take heed of Cassius come not near Casca have an eye to Cinna trust not Trebonius mark well Metellus Cimber Decius Brutus loves thee not thou hast wrong'd Caius Ligarius There is but one mind in all these men and it is bent against Caesar If thou be'st not immortal look about you security gives way to conspiracy The mighty gods defend thee",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Thy lover, Artemidorus.\"",
-          "plainText": "Thy lover Artemidorus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Here will I stand till Caesar pass along,",
-          "plainText": "Here will I stand till Caesar pass along",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "And as a suitor will I give him this.",
-          "plainText": "And as a suitor will I give him this",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "My heart laments that virtue cannot live",
-          "plainText": "My heart laments that virtue cannot live",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "Out of the teeth of emulation.",
-          "plainText": "Out of the teeth of emulation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "If thou read this, O Caesar, thou mayest live;",
-          "plainText": "If thou read this O Caesar thou mayest live",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
-        },
-        {
-          "id": "julius-caesar-2-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "If not, the Fates with traitors do contrive.",
-          "plainText": "If not the Fates with traitors do contrive",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "long average line length"
+          "id": "julius-caesar/sceneII_17.3/h3@65686/line-1",
+          "start": 0,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3076083,
+        "end": 3076163,
+        "line": 111438,
+        "column": 1,
+        "path": "chap17/h3@65686",
+        "anchor": "sceneII_17.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "julius-caesar-2-3-stage-002",
+      "id": "julius-caesar/sceneII_17.3/p@65770",
       "type": "stage",
-      "text": "[Exit.]"
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Artemidorus, reading a paper.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 18,
+          "className": "charname"
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65770/line-1",
+          "start": 0,
+          "end": 35,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3076167,
+        "end": 3076261,
+        "line": 111441,
+        "column": 1,
+        "path": "chap17/p@65770",
+        "anchor": "sceneII_17.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.3/p@65868",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ARTEMIDORUS.\n“Caesar, beware of Brutus; take heed of Cassius; come not near Casca; have an eye to Cinna; trust not Trebonius; mark well Metellus Cimber; Decius Brutus loves thee not; thou hast wrong’d Caius Ligarius. There is but one mind in all these men, and it is bent against Caesar. If thou be’st not immortal, look about you: security gives way to conspiracy. The mighty gods defend thee!\nThy lover, Artemidorus.”\nHere will I stand till Caesar pass along,\nAnd as a suitor will I give him this.\nMy heart laments that virtue cannot live\nOut of the teeth of emulation.\nIf thou read this, O Caesar, thou mayest live;\nIf not, the Fates with traitors do contrive.\n",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 13,
+          "end": 419
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-2",
+          "start": 13,
+          "end": 394,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-3",
+          "start": 395,
+          "end": 419,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-4",
+          "start": 420,
+          "end": 461,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-5",
+          "start": 462,
+          "end": 499,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-6",
+          "start": 500,
+          "end": 540,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-7",
+          "start": 541,
+          "end": 571,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-8",
+          "start": 572,
+          "end": 618,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-9",
+          "start": 619,
+          "end": 663,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "julius-caesar/sceneII_17.3/p@65868/line-10",
+          "start": 664,
+          "end": 664,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3076265,
+        "end": 3077004,
+        "line": 111445,
+        "column": 1,
+        "path": "chap17/p@65868",
+        "anchor": "sceneII_17.3"
+      },
+      "speakerLabel": "ARTEMIDORUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 12
+      }
+    },
+    {
+      "id": "julius-caesar/sceneII_17.3/p@66611",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "lines": [
+        {
+          "id": "julius-caesar/sceneII_17.3/p@66611/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3077008,
+        "end": 3077047,
+        "line": 111457,
+        "column": 1,
+        "path": "chap17/p@66611",
+        "anchor": "sceneII_17.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "1cf51df3eb2e8e6722750509336e211f0990b92999ea104fb68c92da0277edf1"
 }

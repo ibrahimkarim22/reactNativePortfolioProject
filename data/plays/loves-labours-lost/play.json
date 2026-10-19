@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "loves-labours-lost",
-  "title": "Love'S Labour'S Lost",
-  "fullTitle": "Love'S Labour'S Lost",
+  "title": "LOVE’S LABOUR’S LOST",
   "author": "William Shakespeare",
   "genre": "Comedy",
+  "fullTitle": "LOVE’S LABOUR’S LOST",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap19"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "loves-labours-lost-1-1",
           "label": "Act 1, Scene 1",
-          "title": "The King of Navarre's park",
+          "title": "SCENE I. The King of Navarre’s park",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 241
+          "lineCount": 350
         },
         {
           "scene": 2,
           "id": "loves-labours-lost-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The park",
+          "title": "SCENE II. The park",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 100
+          "lineCount": 198
         }
       ]
     },
@@ -46,9 +54,9 @@
           "scene": 1,
           "id": "loves-labours-lost-2-1",
           "label": "Act 2, Scene 1",
-          "title": "The King of Navarre's park. A pavilion and tents at a distance",
+          "title": "SCENE I. The King of Navarre’s park. A pavilion and tents at a distance",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 263
+          "lineCount": 394
         }
       ]
     },
@@ -59,9 +67,9 @@
           "scene": 1,
           "id": "loves-labours-lost-3-1",
           "label": "Act 3, Scene 1",
-          "title": "The King of Navarre's park",
+          "title": "SCENE I. The King of Navarre’s park",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 142
+          "lineCount": 230
         }
       ]
     },
@@ -72,25 +80,25 @@
           "scene": 1,
           "id": "loves-labours-lost-4-1",
           "label": "Act 4, Scene 1",
-          "title": "The King of Navarre's park",
+          "title": "SCENE I. The King of Navarre’s park",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 125
+          "lineCount": 198
         },
         {
           "scene": 2,
           "id": "loves-labours-lost-4-2",
           "label": "Act 4, Scene 2",
-          "title": "The same",
+          "title": "SCENE II. The same",
           "path": "./scenes/act-4-scene-2.json",
-          "lineCount": 85
+          "lineCount": 136
         },
         {
           "scene": 3,
           "id": "loves-labours-lost-4-3",
           "label": "Act 4, Scene 3",
-          "title": "The same",
+          "title": "SCENE III. The same",
           "path": "./scenes/act-4-scene-3.json",
-          "lineCount": 341
+          "lineCount": 471
         }
       ]
     },
@@ -101,19 +109,202 @@
           "scene": 1,
           "id": "loves-labours-lost-5-1",
           "label": "Act 5, Scene 1",
-          "title": "The King of Navarre's park",
+          "title": "SCENE I. The King of Navarre’s park",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 56
+          "lineCount": 117
         },
         {
           "scene": 2,
           "id": "loves-labours-lost-5-2",
           "label": "Act 5, Scene 2",
-          "title": "The same. Before the Princess's pavilion",
+          "title": "SCENE II. The same. Before the Princess’s pavilion",
           "path": "./scenes/act-5-scene-2.json",
-          "lineCount": 881
+          "lineCount": 1336
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "loves-labours-lost-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "LOVE’S LABOUR’S LOST"
+    },
+    {
+      "id": "loves-labours-lost-contents-105",
+      "kind": "contents",
+      "path": "./sections/contents-105.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "loves-labours-lost-cast-1339",
+      "kind": "cast",
+      "path": "./sections/cast-1339.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "loves-labours-lost-setting-2238",
+      "kind": "setting",
+      "path": "./sections/setting-2238.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: Navarre"
+    },
+    {
+      "id": "loves-labours-lost-act-2326",
+      "kind": "act",
+      "path": "./sections/act-2326.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "loves-labours-lost-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "loves-labours-lost-act-2326",
+      "orderInPlay": 6,
+      "heading": "SCENE I. The King of Navarre’s park"
+    },
+    {
+      "id": "loves-labours-lost-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "loves-labours-lost-act-2326",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The park"
+    },
+    {
+      "id": "loves-labours-lost-act-31712",
+      "kind": "act",
+      "path": "./sections/act-31712.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "loves-labours-lost-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "loves-labours-lost-act-31712",
+      "orderInPlay": 9,
+      "heading": "SCENE I. The King of Navarre’s park. A pavilion and tents at a distance"
+    },
+    {
+      "id": "loves-labours-lost-act-49170",
+      "kind": "act",
+      "path": "./sections/act-49170.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 10,
+      "heading": "ACT III"
+    },
+    {
+      "id": "loves-labours-lost-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "loves-labours-lost-act-49170",
+      "orderInPlay": 11,
+      "heading": "SCENE I. The King of Navarre’s park"
+    },
+    {
+      "id": "loves-labours-lost-act-61783",
+      "kind": "act",
+      "path": "./sections/act-61783.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 12,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "loves-labours-lost-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "loves-labours-lost-act-61783",
+      "orderInPlay": 13,
+      "heading": "SCENE I. The King of Navarre’s park"
+    },
+    {
+      "id": "loves-labours-lost-4-2",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-2.json",
+      "act": 4,
+      "scene": 2,
+      "parentSectionId": "loves-labours-lost-act-61783",
+      "orderInPlay": 14,
+      "heading": "SCENE II. The same"
+    },
+    {
+      "id": "loves-labours-lost-4-3",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-3.json",
+      "act": 4,
+      "scene": 3,
+      "parentSectionId": "loves-labours-lost-act-61783",
+      "orderInPlay": 15,
+      "heading": "SCENE III. The same"
+    },
+    {
+      "id": "loves-labours-lost-act-105860",
+      "kind": "act",
+      "path": "./sections/act-105860.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 16,
+      "heading": "ACT V"
+    },
+    {
+      "id": "loves-labours-lost-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "loves-labours-lost-act-105860",
+      "orderInPlay": 17,
+      "heading": "SCENE I. The King of Navarre’s park"
+    },
+    {
+      "id": "loves-labours-lost-5-2",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-2.json",
+      "act": 5,
+      "scene": 2,
+      "parentSectionId": "loves-labours-lost-act-105860",
+      "orderInPlay": 18,
+      "heading": "SCENE II. The same. Before the Princess’s pavilion"
+    }
+  ],
+  "contentVersion": "c0c134a5827fa63a0394caf75fa1eb85aa9d8b13eda00600fdacc5aa5b8b8e5b"
 }

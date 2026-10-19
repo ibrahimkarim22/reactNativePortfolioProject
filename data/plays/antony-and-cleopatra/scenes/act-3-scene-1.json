@@ -1,564 +1,641 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "antony-and-cleopatra",
-    "title": "The Tragedy of Antony and Cleopatra",
+    "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
-  "scene": {
+  "section": {
     "id": "antony-and-cleopatra-3-1",
+    "kind": "scene",
+    "heading": "SCENE I. A plain in Syria.",
     "act": 3,
     "scene": 1,
-    "label": "Act 3, Scene 1",
-    "title": "SCENE I. A plain in Syria.",
-    "location": "A plain in Syria.",
-    "orderInPlay": 13
+    "parentSectionId": "antony-and-cleopatra-act-93812",
+    "orderInPlay": 20,
+    "sourceRef": {
+      "start": 401604,
+      "end": 401647,
+      "line": 14348,
+      "column": 1,
+      "path": "chap03/h3@93865",
+      "anchor": "sceneIII_3.1"
+    }
   },
   "content": [
     {
-      "id": "antony-and-cleopatra-3-1-stage-001",
+      "id": "antony-and-cleopatra/sceneIII_3.1/h3@93865",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. A plain in Syria.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/h3@93865/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 401604,
+        "end": 401647,
+        "line": 14348,
+        "column": 1,
+        "path": "chap03/h3@93865",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@93912",
       "type": "stage",
-      "text": "Enter Ventidius as it were in triumph, with Silius and other Romans, Officers and Soldiers; the dead body of Pacorus borne before him."
-    },
-    {
-      "id": "antony-and-cleopatra-3-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "ventidius",
-        "name": "VENTIDIUS",
-        "displayName": "Ventidius"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Ventidius as it were in triumph, with Silius and other Romans, Officers and Soldiers; the dead body of Pacorus borne before him.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 15,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 44,
+          "end": 50,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 109,
+          "end": 116,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Now, darting Parthia, art thou struck, and now",
-          "plainText": "Now darting Parthia art thou struck and now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "Pleased Fortune does of Marcus Crassus' death",
-          "plainText": "Pleased Fortune does of Marcus Crassus' death",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Make me revenger. Bear the king's son's body",
-          "plainText": "Make me revenger Bear the king's son's body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Before our army. Thy Pacorus, Orodes,",
-          "plainText": "Before our army Thy Pacorus Orodes",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "Pays this for Marcus Crassus.",
-          "plainText": "Pays this for Marcus Crassus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@93912/line-1",
+          "start": 0,
+          "end": 134,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 401651,
+        "end": 401905,
+        "line": 14350,
+        "column": 1,
+        "path": "chap03/p@93912",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-002",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@94170",
       "type": "speech",
-      "speaker": {
-        "id": "silius",
-        "name": "SILIUS",
-        "displayName": "Silius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VENTIDIUS.\nNow, darting Parthia, art thou struck, and now\nPleased Fortune does of Marcus Crassus’ death\nMake me revenger. Bear the king’s son’s body\nBefore our army. Thy Pacorus, Orodes,\nPays this for Marcus Crassus.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Noble Ventidius,",
-          "plainText": "Noble Ventidius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "Whilst yet with Parthian blood thy sword is warm,",
-          "plainText": "Whilst yet with Parthian blood thy sword is warm",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-2",
+          "start": 11,
+          "end": 57,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "The fugitive Parthians follow. Spur through Media,",
-          "plainText": "The fugitive Parthians follow Spur through Media",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-3",
+          "start": 58,
+          "end": 103,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 4,
-          "text": "Mesopotamia, and the shelters whither",
-          "plainText": "Mesopotamia and the shelters whither",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-4",
+          "start": 104,
+          "end": 148,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 5,
-          "text": "The routed fly. So thy grand captain Antony",
-          "plainText": "The routed fly So thy grand captain Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-5",
+          "start": 149,
+          "end": 186,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 6,
-          "text": "Shall set thee on triumphant chariots, and",
-          "plainText": "Shall set thee on triumphant chariots and",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 7,
-          "text": "Put garlands on thy head.",
-          "plainText": "Put garlands on thy head",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94170/line-6",
+          "start": 187,
+          "end": 216,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 401909,
+        "end": 402175,
+        "line": 14355,
+        "column": 1,
+        "path": "chap03/p@94170",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "VENTIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-003",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@94440",
       "type": "speech",
-      "speaker": {
-        "id": "ventidius",
-        "name": "VENTIDIUS",
-        "displayName": "Ventidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILIUS.\nNoble Ventidius,\nWhilst yet with Parthian blood thy sword is warm,\nThe fugitive Parthians follow. Spur through Media,\nMesopotamia, and the shelters whither\nThe routed fly. So thy grand captain Antony\nShall set thee on triumphant chariots, and\nPut garlands on thy head.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "O Silius, Silius,",
-          "plainText": "O Silius Silius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 2,
-          "text": "I have done enough. A lower place, note well,",
-          "plainText": "I have done enough A lower place note well",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 3,
-          "text": "May make too great an act. For learn this, Silius:",
-          "plainText": "May make too great an act For learn this Silius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-3",
+          "start": 25,
+          "end": 74,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 4,
-          "text": "Better to leave undone than by our deed",
-          "plainText": "Better to leave undone than by our deed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-4",
+          "start": 75,
+          "end": 125,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 5,
-          "text": "Acquire too high a fame when him we serve's away.",
-          "plainText": "Acquire too high a fame when him we serve's away",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-5",
+          "start": 126,
+          "end": 163,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 6,
-          "text": "Caesar and Antony have ever won",
-          "plainText": "Caesar and Antony have ever won",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-6",
+          "start": 164,
+          "end": 207,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 7,
-          "text": "More in their officer, than person. Sossius,",
-          "plainText": "More in their officer than person Sossius",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-7",
+          "start": 208,
+          "end": 250,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 8,
-          "text": "One of my place in Syria, his lieutenant,",
-          "plainText": "One of my place in Syria his lieutenant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 9,
-          "text": "For quick accumulation of renown,",
-          "plainText": "For quick accumulation of renown",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 10,
-          "text": "Which he achieved by th' minute, lost his favour.",
-          "plainText": "Which he achieved by th' minute lost his favour",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 11,
-          "text": "Who does i' th' wars more than his captain can",
-          "plainText": "Who does i' th' wars more than his captain can",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 12,
-          "text": "Becomes his captain's captain; and ambition,",
-          "plainText": "Becomes his captain's captain and ambition",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 13,
-          "text": "The soldier's virtue, rather makes choice of loss",
-          "plainText": "The soldier's virtue rather makes choice of loss",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 14,
-          "text": "Than gain which darkens him.",
-          "plainText": "Than gain which darkens him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 15,
-          "text": "I could do more to do Antonius good,",
-          "plainText": "I could do more to do Antonius good",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 16,
-          "text": "But 'twould offend him, and in his offence",
-          "plainText": "But 'twould offend him and in his offence",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 17,
-          "text": "Should my performance perish.",
-          "plainText": "Should my performance perish",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94440/line-8",
+          "start": 251,
+          "end": 276,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 402179,
+        "end": 402515,
+        "line": 14364,
+        "column": 1,
+        "path": "chap03/p@94440",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "SILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-004",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@94780",
       "type": "speech",
-      "speaker": {
-        "id": "silius",
-        "name": "SILIUS",
-        "displayName": "Silius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VENTIDIUS.\nO Silius, Silius,\nI have done enough. A lower place, note well,\nMay make too great an act. For learn this, Silius:\nBetter to leave undone than by our deed\nAcquire too high a fame when him we serve’s away.\nCaesar and Antony have ever won\nMore in their officer, than person. Sossius,\nOne of my place in Syria, his lieutenant,\nFor quick accumulation of renown,\nWhich he achieved by th’ minute, lost his favour.\nWho does i’ th’ wars more than his captain can\nBecomes his captain’s captain; and ambition,\nThe soldier’s virtue, rather makes choice of loss\nThan gain which darkens him.\nI could do more to do Antonius good,\nBut ’twould offend him, and in his offence\nShould my performance perish.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "Thou hast, Ventidius, that",
-          "plainText": "Thou hast Ventidius that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 2,
-          "text": "Without the which a soldier and his sword",
-          "plainText": "Without the which a soldier and his sword",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-2",
+          "start": 11,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 3,
-          "text": "Grants scarce distinction. Thou wilt write to Antony?",
-          "plainText": "Grants scarce distinction Thou wilt write to Antony",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-3",
+          "start": 29,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-4",
+          "start": 75,
+          "end": 125,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-5",
+          "start": 126,
+          "end": 165,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-6",
+          "start": 166,
+          "end": 215,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-7",
+          "start": 216,
+          "end": 247,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-8",
+          "start": 248,
+          "end": 292,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-9",
+          "start": 293,
+          "end": 334,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-10",
+          "start": 335,
+          "end": 368,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-11",
+          "start": 369,
+          "end": 418,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-12",
+          "start": 419,
+          "end": 465,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-13",
+          "start": 466,
+          "end": 510,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-14",
+          "start": 511,
+          "end": 560,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-15",
+          "start": 561,
+          "end": 589,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-16",
+          "start": 590,
+          "end": 626,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-17",
+          "start": 627,
+          "end": 669,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@94780/line-18",
+          "start": 670,
+          "end": 699,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 402519,
+        "end": 403328,
+        "line": 14375,
+        "column": 1,
+        "path": "chap03/p@94780",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "VENTIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-005",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@95593",
       "type": "speech",
-      "speaker": {
-        "id": "ventidius",
-        "name": "VENTIDIUS",
-        "displayName": "Ventidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILIUS.\nThou hast, Ventidius, that\nWithout the which a soldier and his sword\nGrants scarce distinction. Thou wilt write to Antony?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 1,
-          "text": "I'll humbly signify what in his name,",
-          "plainText": "I'll humbly signify what in his name",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95593/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 2,
-          "text": "That magical word of war, we have effected;",
-          "plainText": "That magical word of war we have effected",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95593/line-2",
+          "start": 8,
+          "end": 34,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 3,
-          "text": "How, with his banners, and his well-paid ranks,",
-          "plainText": "How with his banners and his wellpaid ranks",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95593/line-3",
+          "start": 35,
+          "end": 76,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 4,
-          "text": "The ne'er-yet-beaten horse of Parthia",
-          "plainText": "The ne'eryetbeaten horse of Parthia",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 5,
-          "text": "We have jaded out o' th' field.",
-          "plainText": "We have jaded out o' th' field",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95593/line-4",
+          "start": 77,
+          "end": 130,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 403332,
+        "end": 403502,
+        "line": 14396,
+        "column": 1,
+        "path": "chap03/p@95593",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "SILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-006",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@95767",
       "type": "speech",
-      "speaker": {
-        "id": "silius",
-        "name": "SILIUS",
-        "displayName": "Silius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VENTIDIUS.\nI’ll humbly signify what in his name,\nThat magical word of war, we have effected;\nHow, with his banners, and his well-paid ranks,\nThe ne’er-yet-beaten horse of Parthia\nWe have jaded out o’ th’ field.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Where is he now?",
-          "plainText": "Where is he now",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-2",
+          "start": 11,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-3",
+          "start": 49,
+          "end": 92,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-4",
+          "start": 93,
+          "end": 140,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-5",
+          "start": 141,
+          "end": 178,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@95767/line-6",
+          "start": 179,
+          "end": 210,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 403506,
+        "end": 403766,
+        "line": 14403,
+        "column": 1,
+        "path": "chap03/p@95767",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "VENTIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-speech-007",
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@96031",
       "type": "speech",
-      "speaker": {
-        "id": "ventidius",
-        "name": "VENTIDIUS",
-        "displayName": "Ventidius"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SILIUS.\nWhere is he now?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "antony-and-cleopatra-3-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "He purposeth to Athens, whither, with what haste",
-          "plainText": "He purposeth to Athens whither with what haste",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96031/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "antony-and-cleopatra-3-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 2,
-          "text": "The weight we must convey with 's will permit,",
-          "plainText": "The weight we must convey with 's will permit",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 3,
-          "text": "We shall appear before him.—On there, pass along!",
-          "plainText": "We shall appear before himOn there pass along",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96031/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 403770,
+        "end": 403824,
+        "line": 14412,
+        "column": 1,
+        "path": "chap03/p@96031",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "SILIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-1-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@96089",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "VENTIDIUS.\nHe purposeth to Athens, whither, with what haste\nThe weight we must convey with ’s will permit,\nWe shall appear before him.—On there, pass along!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96089/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96089/line-2",
+          "start": 11,
+          "end": 59,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96089/line-3",
+          "start": 60,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96089/line-4",
+          "start": 107,
+          "end": 156,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 403828,
+        "end": 404024,
+        "line": 14417,
+        "column": 1,
+        "path": "chap03/p@96089",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": "VENTIDIUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.1/p@96289",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.1/p@96289/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 404028,
+        "end": 404069,
+        "line": 14424,
+        "column": 1,
+        "path": "chap03/p@96289",
+        "anchor": "sceneIII_3.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

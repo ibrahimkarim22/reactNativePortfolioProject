@@ -1,21 +1,29 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "id": "the-tempest",
-  "title": "The Tempest",
-  "fullTitle": "The Tempest",
+  "title": "THE TEMPEST",
   "author": "William Shakespeare",
   "genre": "Romance",
+  "fullTitle": "THE TEMPEST",
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap32"
   },
   "paths": {
     "characters": "./characters.json",
     "synopsis": "./synopsis.json",
     "quiz": "./quiz.json",
-    "scenes": "./scenes/"
+    "scenes": "./scenes/",
+    "sections": "./sections/"
   },
   "acts": [
     {
@@ -25,17 +33,17 @@
           "scene": 1,
           "id": "the-tempest-1-1",
           "label": "Act 1, Scene 1",
-          "title": "On a ship at sea; a tempestuous noise of thunder and lightning heard.",
+          "title": "SCENE I. On a ship at sea; a tempestuous noise of thunder and lightning heard.",
           "path": "./scenes/act-1-scene-1.json",
-          "lineCount": 34
+          "lineCount": 82
         },
         {
           "scene": 2,
           "id": "the-tempest-1-2",
           "label": "Act 1, Scene 2",
-          "title": "The Island. Before the cell of Prospero.",
+          "title": "SCENE II. The Island. Before the cell of Prospero.",
           "path": "./scenes/act-1-scene-2.json",
-          "lineCount": 567
+          "lineCount": 744
         }
       ]
     },
@@ -46,17 +54,17 @@
           "scene": 1,
           "id": "the-tempest-2-1",
           "label": "Act 2, Scene 1",
-          "title": "Another part of the island.",
+          "title": "SCENE I. Another part of the island.",
           "path": "./scenes/act-2-scene-1.json",
-          "lineCount": 331
+          "lineCount": 510
         },
         {
           "scene": 2,
           "id": "the-tempest-2-2",
           "label": "Act 2, Scene 2",
-          "title": "Another part of the island.",
+          "title": "SCENE II. Another part of the island.",
           "path": "./scenes/act-2-scene-2.json",
-          "lineCount": 82
+          "lineCount": 152
         }
       ]
     },
@@ -67,25 +75,25 @@
           "scene": 1,
           "id": "the-tempest-3-1",
           "label": "Act 3, Scene 1",
-          "title": "Before Prospero's cell.",
+          "title": "SCENE I. Before Prospero’s cell.",
           "path": "./scenes/act-3-scene-1.json",
-          "lineCount": 114
+          "lineCount": 144
         },
         {
           "scene": 2,
           "id": "the-tempest-3-2",
           "label": "Act 3, Scene 2",
-          "title": "Another part of the island.",
+          "title": "SCENE II. Another part of the island.",
           "path": "./scenes/act-3-scene-2.json",
-          "lineCount": 105
+          "lineCount": 182
         },
         {
           "scene": 3,
           "id": "the-tempest-3-3",
           "label": "Act 3, Scene 3",
-          "title": "Another part of the island.",
+          "title": "SCENE III. Another part of the island.",
           "path": "./scenes/act-3-scene-3.json",
-          "lineCount": 104
+          "lineCount": 165
         }
       ]
     },
@@ -96,9 +104,9 @@
           "scene": 1,
           "id": "the-tempest-4-1",
           "label": "Act 4, Scene 1",
-          "title": "Before Prospero's cell.",
+          "title": "SCENE I. Before Prospero’s cell.",
           "path": "./scenes/act-4-scene-1.json",
-          "lineCount": 256
+          "lineCount": 361
         }
       ]
     },
@@ -109,11 +117,204 @@
           "scene": 1,
           "id": "the-tempest-5-1",
           "label": "Act 5, Scene 1",
-          "title": "Before the cell of Prospero.",
+          "title": "SCENE I. Before the cell of Prospero.",
           "path": "./scenes/act-5-scene-1.json",
-          "lineCount": 318
+          "lineCount": 451
         }
       ]
     }
-  ]
+  ],
+  "sections": [
+    {
+      "id": "the-tempest-title-0",
+      "kind": "title",
+      "path": "./sections/title-0.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 1,
+      "heading": "THE TEMPEST"
+    },
+    {
+      "id": "the-tempest-contents-104",
+      "kind": "contents",
+      "path": "./sections/contents-104.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 2,
+      "heading": "Contents"
+    },
+    {
+      "id": "the-tempest-cast-1484",
+      "kind": "cast",
+      "path": "./sections/cast-1484.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 3,
+      "heading": "Dramatis Personæ"
+    },
+    {
+      "id": "the-tempest-setting-2309",
+      "kind": "setting",
+      "path": "./sections/setting-2309.json",
+      "act": null,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 4,
+      "heading": "SCENE: The sea, with a Ship; afterwards an Island."
+    },
+    {
+      "id": "the-tempest-act-2433",
+      "kind": "act",
+      "path": "./sections/act-2433.json",
+      "act": 1,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 5,
+      "heading": "ACT I"
+    },
+    {
+      "id": "the-tempest-1-1",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-1.json",
+      "act": 1,
+      "scene": 1,
+      "parentSectionId": "the-tempest-act-2433",
+      "orderInPlay": 6,
+      "heading": "SCENE I. On a ship at sea; a tempestuous noise of thunder and lightning heard."
+    },
+    {
+      "id": "the-tempest-1-2",
+      "kind": "scene",
+      "path": "./scenes/act-1-scene-2.json",
+      "act": 1,
+      "scene": 2,
+      "parentSectionId": "the-tempest-act-2433",
+      "orderInPlay": 7,
+      "heading": "SCENE II. The Island. Before the cell of Prospero."
+    },
+    {
+      "id": "the-tempest-act-39157",
+      "kind": "act",
+      "path": "./sections/act-39157.json",
+      "act": 2,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 8,
+      "heading": "ACT II"
+    },
+    {
+      "id": "the-tempest-2-1",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-1.json",
+      "act": 2,
+      "scene": 1,
+      "parentSectionId": "the-tempest-act-39157",
+      "orderInPlay": 9,
+      "heading": "SCENE I. Another part of the island."
+    },
+    {
+      "id": "the-tempest-2-2",
+      "kind": "scene",
+      "path": "./scenes/act-2-scene-2.json",
+      "act": 2,
+      "scene": 2,
+      "parentSectionId": "the-tempest-act-39157",
+      "orderInPlay": 10,
+      "heading": "SCENE II. Another part of the island."
+    },
+    {
+      "id": "the-tempest-act-71659",
+      "kind": "act",
+      "path": "./sections/act-71659.json",
+      "act": 3,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 11,
+      "heading": "ACT III"
+    },
+    {
+      "id": "the-tempest-3-1",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-1.json",
+      "act": 3,
+      "scene": 1,
+      "parentSectionId": "the-tempest-act-71659",
+      "orderInPlay": 12,
+      "heading": "SCENE I. Before Prospero’s cell."
+    },
+    {
+      "id": "the-tempest-3-2",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-2.json",
+      "act": 3,
+      "scene": 2,
+      "parentSectionId": "the-tempest-act-71659",
+      "orderInPlay": 13,
+      "heading": "SCENE II. Another part of the island."
+    },
+    {
+      "id": "the-tempest-3-3",
+      "kind": "scene",
+      "path": "./scenes/act-3-scene-3.json",
+      "act": 3,
+      "scene": 3,
+      "parentSectionId": "the-tempest-act-71659",
+      "orderInPlay": 14,
+      "heading": "SCENE III. Another part of the island."
+    },
+    {
+      "id": "the-tempest-act-95596",
+      "kind": "act",
+      "path": "./sections/act-95596.json",
+      "act": 4,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 15,
+      "heading": "ACT IV"
+    },
+    {
+      "id": "the-tempest-4-1",
+      "kind": "scene",
+      "path": "./scenes/act-4-scene-1.json",
+      "act": 4,
+      "scene": 1,
+      "parentSectionId": "the-tempest-act-95596",
+      "orderInPlay": 16,
+      "heading": "SCENE I. Before Prospero’s cell."
+    },
+    {
+      "id": "the-tempest-act-112994",
+      "kind": "act",
+      "path": "./sections/act-112994.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": null,
+      "orderInPlay": 17,
+      "heading": "ACT V"
+    },
+    {
+      "id": "the-tempest-5-1",
+      "kind": "scene",
+      "path": "./scenes/act-5-scene-1.json",
+      "act": 5,
+      "scene": 1,
+      "parentSectionId": "the-tempest-act-112994",
+      "orderInPlay": 18,
+      "heading": "SCENE I. Before the cell of Prospero."
+    },
+    {
+      "id": "the-tempest-epilogue-133971",
+      "kind": "epilogue",
+      "path": "./sections/epilogue-133971.json",
+      "act": 5,
+      "scene": null,
+      "parentSectionId": "the-tempest-act-112994",
+      "orderInPlay": 19,
+      "heading": "EPILOGUE"
+    }
+  ],
+  "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b"
 }

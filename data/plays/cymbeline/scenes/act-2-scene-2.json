@@ -1,474 +1,903 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "cymbeline",
-    "title": "Cymbeline",
+    "title": "CYMBELINE",
     "author": "William Shakespeare",
     "genre": "Romance"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap07"
   },
-  "scene": {
+  "section": {
     "id": "cymbeline-2-2",
+    "kind": "scene",
+    "heading": "SCENE II. Britain. Imogen’s bedchamber in Cymbeline’s palace; a trunk in one corner.",
     "act": 2,
     "scene": 2,
-    "label": "Act 2, Scene 2",
-    "title": "SCENE II. Britain. Imogen's bedchamber in Cymbeline's palace; a trunk in one corner.",
-    "location": "Britain. Imogen's bedchamber in Cymbeline's palace; a trunk in one corner.",
-    "orderInPlay": 9
+    "parentSectionId": "cymbeline-act-51402",
+    "orderInPlay": 15,
+    "sourceRef": {
+      "start": 1104432,
+      "end": 1104558,
+      "line": 42020,
+      "column": 1,
+      "path": "chap07/h3@55593",
+      "anchor": "sceneII_7.2"
+    }
   },
   "content": [
     {
-      "id": "cymbeline-2-2-stage-001",
-      "type": "stage",
-      "text": "Enter Imogen in her bed, and a Lady attending."
-    },
-    {
-      "id": "cymbeline-2-2-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "id": "cymbeline/sceneII_7.2/h3@55593",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE II. Britain. Imogen’s bedchamber in Cymbeline’s palace; a trunk in one corner.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 84
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Who's there? My woman Helen?",
-          "plainText": "Who's there My woman Helen",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.2/h3@55593/line-1",
+          "start": 0,
+          "end": 84,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1104432,
+        "end": 1104558,
+        "line": 42020,
+        "column": 1,
+        "path": "chap07/h3@55593",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-2-2-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "lady",
-        "name": "LADY",
-        "displayName": "Lady"
-      },
+      "id": "cymbeline/sceneII_7.2/p@55723",
+      "type": "stage",
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Imogen in her bed, and a Lady attending.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 31,
+          "end": 35,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Please you, madam.",
-          "plainText": "Please you madam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.2/p@55723/line-1",
+          "start": 0,
+          "end": 46,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1104562,
+        "end": 1104695,
+        "line": 42023,
+        "column": 1,
+        "path": "chap07/p@55723",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "cymbeline-2-2-speech-003",
+      "id": "cymbeline/sceneII_7.2/p@55860",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nWho’s there? My woman Helen?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "What hour is it?",
-          "plainText": "What hour is it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.2/p@55860/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@55860/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1104699,
+        "end": 1104765,
+        "line": 42026,
+        "column": 1,
+        "path": "chap07/p@55860",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-2-speech-004",
+      "id": "cymbeline/sceneII_7.2/p@55930",
       "type": "speech",
-      "speaker": {
-        "id": "lady",
-        "name": "LADY",
-        "displayName": "Lady"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY.\nPlease you, madam.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "Almost midnight, madam.",
-          "plainText": "Almost midnight madam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "cymbeline/sceneII_7.2/p@55930/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@55930/line-2",
+          "start": 6,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1104769,
+        "end": 1104823,
+        "line": 42031,
+        "column": 1,
+        "path": "chap07/p@55930",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": "LADY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "cymbeline-2-2-speech-005",
+      "id": "cymbeline/sceneII_7.2/p@55988",
       "type": "speech",
-      "speaker": {
-        "id": "imogen",
-        "name": "IMOGEN",
-        "displayName": "Imogen"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nWhat hour is it?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "I have read three hours then. Mine eyes are weak;",
-          "plainText": "I have read three hours then Mine eyes are weak",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneII_7.2/p@55988/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-2-2-line-0006",
-          "number": 6,
-          "speechLineNumber": 2,
-          "text": "Fold down the leaf where I have left. To bed.",
-          "plainText": "Fold down the leaf where I have left To bed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0007",
-          "number": 7,
-          "speechLineNumber": 3,
-          "text": "Take not away the taper, leave it burning;",
-          "plainText": "Take not away the taper leave it burning",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0008",
-          "number": 8,
-          "speechLineNumber": 4,
-          "text": "And if thou canst awake by four o' th' clock,",
-          "plainText": "And if thou canst awake by four o' th' clock",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0009",
-          "number": 9,
-          "speechLineNumber": 5,
-          "text": "I prithee call me. Sleep hath seiz'd me wholly.",
-          "plainText": "I prithee call me Sleep hath seiz'd me wholly",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneII_7.2/p@55988/line-2",
+          "start": 8,
+          "end": 24,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "cymbeline-2-2-stage-002",
-      "type": "stage",
-      "text": "[Exit Lady.]"
-    },
-    {
-      "id": "cymbeline-2-2-stage-003",
-      "type": "stage",
-      "text": "[Sleeps. Iachimo comes from the trunk.]"
-    },
-    {
-      "id": "cymbeline-2-2-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "iachimo",
-        "name": "IACHIMO",
-        "displayName": "Iachimo"
+      ],
+      "sourceRef": {
+        "start": 1104827,
+        "end": 1104881,
+        "line": 42036,
+        "column": 1,
+        "path": "chap07/p@55988",
+        "anchor": "sceneII_7.2"
       },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@56046",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "LADY.\nAlmost midnight, madam.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "cymbeline-2-2-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "The crickets sing, and man's o'er-labour'd sense",
-          "plainText": "The crickets sing and man's o'erlabour'd sense",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneII_7.2/p@56046/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "cymbeline-2-2-line-0011",
-          "number": 11,
-          "speechLineNumber": 2,
-          "text": "Repairs itself by rest. Our Tarquin thus",
-          "plainText": "Repairs itself by rest Our Tarquin thus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0012",
-          "number": 12,
-          "speechLineNumber": 3,
-          "text": "Did softly press the rushes ere he waken'd",
-          "plainText": "Did softly press the rushes ere he waken'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0013",
-          "number": 13,
-          "speechLineNumber": 4,
-          "text": "The chastity he wounded. Cytherea,",
-          "plainText": "The chastity he wounded Cytherea",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0014",
-          "number": 14,
-          "speechLineNumber": 5,
-          "text": "How bravely thou becom'st thy bed! fresh lily,",
-          "plainText": "How bravely thou becom'st thy bed fresh lily",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0015",
-          "number": 15,
-          "speechLineNumber": 6,
-          "text": "And whiter than the sheets! That I might touch!",
-          "plainText": "And whiter than the sheets That I might touch",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0016",
-          "number": 16,
-          "speechLineNumber": 7,
-          "text": "But kiss; one kiss! Rubies unparagon'd,",
-          "plainText": "But kiss one kiss Rubies unparagon'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0017",
-          "number": 17,
-          "speechLineNumber": 8,
-          "text": "How dearly they do't! 'Tis her breathing that",
-          "plainText": "How dearly they do't 'Tis her breathing that",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0018",
-          "number": 18,
-          "speechLineNumber": 9,
-          "text": "Perfumes the chamber thus. The flame o' th' taper",
-          "plainText": "Perfumes the chamber thus The flame o' th' taper",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0019",
-          "number": 19,
-          "speechLineNumber": 10,
-          "text": "Bows toward her and would under-peep her lids",
-          "plainText": "Bows toward her and would underpeep her lids",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0020",
-          "number": 20,
-          "speechLineNumber": 11,
-          "text": "To see th' enclosed lights, now canopied",
-          "plainText": "To see th' enclosed lights now canopied",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0021",
-          "number": 21,
-          "speechLineNumber": 12,
-          "text": "Under these windows white and azure, lac'd",
-          "plainText": "Under these windows white and azure lac'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0022",
-          "number": 22,
-          "speechLineNumber": 13,
-          "text": "With blue of heaven's own tinct. But my design",
-          "plainText": "With blue of heaven's own tinct But my design",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0023",
-          "number": 23,
-          "speechLineNumber": 14,
-          "text": "To note the chamber. I will write all down:",
-          "plainText": "To note the chamber I will write all down",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0024",
-          "number": 24,
-          "speechLineNumber": 15,
-          "text": "Such and such pictures; there the window; such",
-          "plainText": "Such and such pictures there the window such",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0025",
-          "number": 25,
-          "speechLineNumber": 16,
-          "text": "Th' adornment of her bed; the arras, figures,",
-          "plainText": "Th' adornment of her bed the arras figures",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0026",
-          "number": 26,
-          "speechLineNumber": 17,
-          "text": "Why, such and such; and the contents o' th' story.",
-          "plainText": "Why such and such and the contents o' th' story",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0027",
-          "number": 27,
-          "speechLineNumber": 18,
-          "text": "Ah, but some natural notes about her body",
-          "plainText": "Ah but some natural notes about her body",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0028",
-          "number": 28,
-          "speechLineNumber": 19,
-          "text": "Above ten thousand meaner movables",
-          "plainText": "Above ten thousand meaner movables",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0029",
-          "number": 29,
-          "speechLineNumber": 20,
-          "text": "Would testify, t' enrich mine inventory.",
-          "plainText": "Would testify t' enrich mine inventory",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0030",
-          "number": 30,
-          "speechLineNumber": 21,
-          "text": "O sleep, thou ape of death, lie dull upon her!",
-          "plainText": "O sleep thou ape of death lie dull upon her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0031",
-          "number": 31,
-          "speechLineNumber": 22,
-          "text": "And be her sense but as a monument,",
-          "plainText": "And be her sense but as a monument",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "cymbeline-2-2-line-0032",
-          "number": 32,
-          "speechLineNumber": 23,
-          "text": "Thus in a chapel lying! Come off, come off;",
-          "plainText": "Thus in a chapel lying Come off come off",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "cymbeline/sceneII_7.2/p@56046/line-2",
+          "start": 6,
+          "end": 29,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 1104885,
+        "end": 1104944,
+        "line": 42041,
+        "column": 1,
+        "path": "chap07/p@56046",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": "LADY.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "cymbeline-2-2-stage-004",
-      "type": "stage",
-      "text": "[Taking off her bracelet.]"
+      "id": "cymbeline/sceneII_7.2/p@56109",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IMOGEN.\nI have read three hours then. Mine eyes are weak;\nFold down the leaf where I have left. To bed.\nTake not away the taper, leave it burning;\nAnd if thou canst awake by four o’ th’ clock,\nI prithee call me. Sleep hath seiz’d me wholly.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-2",
+          "start": 8,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-3",
+          "start": 58,
+          "end": 103,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-4",
+          "start": 104,
+          "end": 146,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-5",
+          "start": 147,
+          "end": 192,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56109/line-6",
+          "start": 193,
+          "end": 240,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1104948,
+        "end": 1105238,
+        "line": 42046,
+        "column": 1,
+        "path": "chap07/p@56109",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": "IMOGEN.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "cymbeline-2-2-stage-005",
-      "type": "stage",
-      "text": "[Clock strikes.]"
+      "id": "cymbeline/sceneII_7.2/p@56403",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit Lady.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@56403/line-1",
+          "start": 0,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1105242,
+        "end": 1105313,
+        "line": 42055,
+        "column": 1,
+        "path": "chap07/p@56403",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "cymbeline-2-2-stage-006",
-      "type": "stage",
-      "text": "[Exit into the trunk.]"
+      "id": "cymbeline/sceneII_7.2/p@56478",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "To your protection I commend me, gods.\nFrom fairies and the tempters of the night\nGuard me, beseech ye!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@56478/line-1",
+          "start": 0,
+          "end": 38,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56478/line-2",
+          "start": 39,
+          "end": 81,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56478/line-3",
+          "start": 82,
+          "end": 103,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1105317,
+        "end": 1105455,
+        "line": 42057,
+        "column": 1,
+        "path": "chap07/p@56478",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@56620",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Sleeps. Iachimo comes from the trunk.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 38
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@56620/line-1",
+          "start": 0,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1105459,
+        "end": 1105527,
+        "line": 42063,
+        "column": 1,
+        "path": "chap07/p@56620",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@56692",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "IACHIMO.\nThe crickets sing, and man’s o’er-labour’d sense\nRepairs itself by rest. Our Tarquin thus\nDid softly press the rushes ere he waken’d\nThe chastity he wounded. Cytherea,\nHow bravely thou becom’st thy bed! fresh lily,\nAnd whiter than the sheets! That I might touch!\nBut kiss; one kiss! Rubies unparagon’d,\nHow dearly they do’t! ’Tis her breathing that\nPerfumes the chamber thus. The flame o’ th’ taper\nBows toward her and would under-peep her lids\nTo see th’ enclosed lights, now canopied\nUnder these windows white and azure, lac’d\nWith blue of heaven’s own tinct. But my design\nTo note the chamber. I will write all down:\nSuch and such pictures; there the window; such\nTh’ adornment of her bed; the arras, figures,\nWhy, such and such; and the contents o’ th’ story.\nAh, but some natural notes about her body\nAbove ten thousand meaner movables\nWould testify, t’ enrich mine inventory.\nO sleep, thou ape of death, lie dull upon her!\nAnd be her sense but as a monument,\nThus in a chapel lying! Come off, come off;",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-2",
+          "start": 9,
+          "end": 57,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-3",
+          "start": 58,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-4",
+          "start": 99,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-5",
+          "start": 142,
+          "end": 176,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-6",
+          "start": 177,
+          "end": 223,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-7",
+          "start": 224,
+          "end": 271,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-8",
+          "start": 272,
+          "end": 311,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-9",
+          "start": 312,
+          "end": 357,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-10",
+          "start": 358,
+          "end": 407,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-11",
+          "start": 408,
+          "end": 453,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-12",
+          "start": 454,
+          "end": 494,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-13",
+          "start": 495,
+          "end": 537,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-14",
+          "start": 538,
+          "end": 584,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-15",
+          "start": 585,
+          "end": 628,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-16",
+          "start": 629,
+          "end": 675,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-17",
+          "start": 676,
+          "end": 721,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-18",
+          "start": 722,
+          "end": 772,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-19",
+          "start": 773,
+          "end": 814,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-20",
+          "start": 815,
+          "end": 849,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-21",
+          "start": 850,
+          "end": 890,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-22",
+          "start": 891,
+          "end": 937,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-23",
+          "start": 938,
+          "end": 973,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@56692/line-24",
+          "start": 974,
+          "end": 1017,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1105531,
+        "end": 1106688,
+        "line": 42065,
+        "column": 1,
+        "path": "chap07/p@56692",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": "IACHIMO.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@57853",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Taking off her bracelet.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 25
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@57853/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1106692,
+        "end": 1106747,
+        "line": 42092,
+        "column": 1,
+        "path": "chap07/p@57853",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@57912",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "As slippery as the Gordian knot was hard!\n’Tis mine; and this will witness outwardly,\nAs strongly as the conscience does within,\nTo th’ madding of her lord. On her left breast\nA mole cinque-spotted, like the crimson drops\nI’ th’ bottom of a cowslip. Here’s a voucher\nStronger than ever law could make; this secret\nWill force him think I have pick’d the lock and ta’en\nThe treasure of her honour. No more. To what end?\nWhy should I write this down that’s riveted,\nScrew’d to my memory? She hath been reading late\nThe tale of Tereus; here the leaf’s turn’d down\nWhere Philomel gave up. I have enough.\nTo th’ trunk again, and shut the spring of it.\nSwift, swift, you dragons of the night, that dawning\nMay bare the raven’s eye! I lodge in fear;\nThough this a heavenly angel, hell is here.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-1",
+          "start": 0,
+          "end": 41,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-2",
+          "start": 42,
+          "end": 85,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-3",
+          "start": 86,
+          "end": 128,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-4",
+          "start": 129,
+          "end": 175,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-5",
+          "start": 176,
+          "end": 221,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-6",
+          "start": 222,
+          "end": 266,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-7",
+          "start": 267,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-8",
+          "start": 314,
+          "end": 367,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-9",
+          "start": 368,
+          "end": 417,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-10",
+          "start": 418,
+          "end": 462,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-11",
+          "start": 463,
+          "end": 511,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-12",
+          "start": 512,
+          "end": 559,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-13",
+          "start": 560,
+          "end": 598,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-14",
+          "start": 599,
+          "end": 645,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-15",
+          "start": 646,
+          "end": 698,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-16",
+          "start": 699,
+          "end": 741,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "cymbeline/sceneII_7.2/p@57912/line-17",
+          "start": 742,
+          "end": 785,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1106751,
+        "end": 1107641,
+        "line": 42094,
+        "column": 1,
+        "path": "chap07/p@57912",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@58806",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Clock strikes.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 15
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@58806/line-1",
+          "start": 0,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1107645,
+        "end": 1107690,
+        "line": 42114,
+        "column": 1,
+        "path": "chap07/p@58806",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@58855",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "One, two, three. Time, time!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@58855/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1107694,
+        "end": 1107747,
+        "line": 42116,
+        "column": 1,
+        "path": "chap07/p@58855",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "cymbeline/sceneII_7.2/p@58912",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit into the trunk.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 21
+        }
+      ],
+      "lines": [
+        {
+          "id": "cymbeline/sceneII_7.2/p@58912/line-1",
+          "start": 0,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 1107751,
+        "end": 1107802,
+        "line": 42120,
+        "column": 1,
+        "path": "chap07/p@58912",
+        "anchor": "sceneII_7.2"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75"
 }

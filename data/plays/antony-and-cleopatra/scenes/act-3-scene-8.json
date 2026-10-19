@@ -1,135 +1,293 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "antony-and-cleopatra",
-    "title": "The Tragedy of Antony and Cleopatra",
+    "title": "THE TRAGEDY OF ANTONY AND CLEOPATRA",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap03"
   },
-  "scene": {
+  "section": {
     "id": "antony-and-cleopatra-3-8",
+    "kind": "scene",
+    "heading": "SCENE VIII. A plain near Actium.",
     "act": 3,
     "scene": 8,
-    "label": "Act 3, Scene 8",
-    "title": "SCENE VIII. A plain near Actium.",
-    "location": "A plain near Actium.",
-    "orderInPlay": 20
+    "parentSectionId": "antony-and-cleopatra-act-93812",
+    "orderInPlay": 27,
+    "sourceRef": {
+      "start": 430098,
+      "end": 430172,
+      "line": 15613,
+      "column": 1,
+      "path": "chap03/h3@122359",
+      "anchor": "sceneIII_3.8"
+    }
   },
   "content": [
     {
-      "id": "antony-and-cleopatra-3-8-stage-001",
+      "id": "antony-and-cleopatra/sceneIII_3.8/h3@122359",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE VIII. A plain near Actium.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 32
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/h3@122359/line-1",
+          "start": 0,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430098,
+        "end": 430172,
+        "line": 15613,
+        "column": 1,
+        "path": "chap03/h3@122359",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.8/p@122437",
       "type": "stage",
-      "text": "Enter Caesar with his army and Taurus marching."
-    },
-    {
-      "id": "antony-and-cleopatra-3-8-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Caesar with his army and Taurus marching.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "antony-and-cleopatra-3-8-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Taurus!",
-          "plainText": "Taurus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "antony-and-cleopatra-3-8-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "taurus",
-        "name": "TAURUS",
-        "displayName": "Taurus"
-      },
-      "lines": [
-        {
-          "id": "antony-and-cleopatra-3-8-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "My lord?",
-          "plainText": "My lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "antony-and-cleopatra-3-8-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "caesar",
-        "name": "CAESAR",
-        "displayName": "Caesar"
-      },
-      "lines": [
-        {
-          "id": "antony-and-cleopatra-3-8-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Strike not by land; keep whole; provoke not battle",
-          "plainText": "Strike not by land keep whole provoke not battle",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
         },
         {
-          "id": "antony-and-cleopatra-3-8-line-0004",
-          "number": 4,
-          "speechLineNumber": 2,
-          "text": "Till we have done at sea. Do not exceed",
-          "plainText": "Till we have done at sea Do not exceed",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-8-line-0005",
-          "number": 5,
-          "speechLineNumber": 3,
-          "text": "The prescript of this scroll. Our fortune lies",
-          "plainText": "The prescript of this scroll Our fortune lies",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "antony-and-cleopatra-3-8-line-0006",
-          "number": 6,
-          "speechLineNumber": 4,
-          "text": "Upon this jump.",
-          "plainText": "Upon this jump",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 31,
+          "end": 37,
+          "className": "charname"
         }
-      ]
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122437/line-1",
+          "start": 0,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430176,
+        "end": 430312,
+        "line": 15615,
+        "column": 1,
+        "path": "chap03/p@122437",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "antony-and-cleopatra-3-8-stage-002",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "antony-and-cleopatra/sceneIII_3.8/p@122577",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nTaurus!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122577/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122577/line-2",
+          "start": 8,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430316,
+        "end": 430361,
+        "line": 15619,
+        "column": 1,
+        "path": "chap03/p@122577",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.8/p@122626",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TAURUS.\nMy lord?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122626/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122626/line-2",
+          "start": 8,
+          "end": 16,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430365,
+        "end": 430411,
+        "line": 15624,
+        "column": 1,
+        "path": "chap03/p@122626",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": "TAURUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.8/p@122676",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAESAR.\nStrike not by land; keep whole; provoke not battle\nTill we have done at sea. Do not exceed\nThe prescript of this scroll. Our fortune lies\nUpon this jump.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122676/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122676/line-2",
+          "start": 8,
+          "end": 58,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122676/line-3",
+          "start": 59,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122676/line-4",
+          "start": 99,
+          "end": 145,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122676/line-5",
+          "start": 146,
+          "end": 161,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430415,
+        "end": 430621,
+        "line": 15629,
+        "column": 1,
+        "path": "chap03/p@122676",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": "CAESAR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "antony-and-cleopatra/sceneIII_3.8/p@122886",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "antony-and-cleopatra/sceneIII_3.8/p@122886/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 430625,
+        "end": 430666,
+        "line": 15637,
+        "column": 1,
+        "path": "chap03/p@122886",
+        "anchor": "sceneIII_3.8"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "9fd25963907fd58788e9507ff167dcc74b8f3318ca3fc46b8bb2e7c60834d93a"
 }

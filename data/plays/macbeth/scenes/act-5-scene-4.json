@@ -1,443 +1,650 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "macbeth",
-    "title": "The Tragedy of Macbeth",
+    "title": "THE TRAGEDY OF MACBETH",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap20"
   },
-  "scene": {
+  "section": {
     "id": "macbeth-5-4",
+    "kind": "scene",
+    "heading": "SCENE IV. Country near Dunsinane: a Wood in view.",
     "act": 5,
     "scene": 4,
-    "label": "Act 5, Scene 4",
-    "title": "SCENE IV. Country near Dunsinane: a Wood in view.",
-    "location": "Country near Dunsinane: a Wood in view.",
-    "orderInPlay": 24
+    "parentSectionId": "macbeth-act-120641",
+    "orderInPlay": 33,
+    "sourceRef": {
+      "start": 3696312,
+      "end": 3696403,
+      "line": 136344,
+      "column": 1,
+      "path": "chap20/h3@132120",
+      "anchor": "sceneV_20.4"
+    }
   },
   "content": [
     {
-      "id": "macbeth-5-4-stage-001",
+      "id": "macbeth/sceneV_20.4/h3@132120",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE IV. Country near Dunsinane: a Wood in view.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.4/h3@132120/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3696312,
+        "end": 3696403,
+        "line": 136344,
+        "column": 1,
+        "path": "chap20/h3@132120",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.4/p@132215",
       "type": "stage",
-      "text": "Enter, with drum and colours Malcolm, old Siward and his Son, Macduff, Menteith, Caithness, Angus, Lennox, Ross and Soldiers, marching."
-    },
-    {
-      "id": "macbeth-5-4-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "malcolm",
-        "name": "MALCOLM",
-        "displayName": "Malcolm"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter, with drum and colours Malcolm, old Siward and his Son, Macduff, Menteith, Caithness, Angus, Lennox, Ross and Soldiers, marching.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 29,
+          "end": 48,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 62,
+          "end": 111,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Cousins, I hope the days are near at hand",
-          "plainText": "Cousins I hope the days are near at hand",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "That chambers will be safe.",
-          "plainText": "That chambers will be safe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@132215/line-1",
+          "start": 0,
+          "end": 135,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696407,
+        "end": 3696629,
+        "line": 136347,
+        "column": 1,
+        "path": "chap20/p@132215",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "macbeth-5-4-speech-002",
+      "id": "macbeth/sceneV_20.4/p@132441",
       "type": "speech",
-      "speaker": {
-        "id": "menteith",
-        "name": "MENTEITH",
-        "displayName": "Menteith"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MALCOLM.\nCousins, I hope the days are near at hand\nThat chambers will be safe.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "We doubt it nothing.",
-          "plainText": "We doubt it nothing",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.4/p@132441/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132441/line-2",
+          "start": 9,
+          "end": 50,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132441/line-3",
+          "start": 51,
+          "end": 78,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696633,
+        "end": 3696746,
+        "line": 136351,
+        "column": 1,
+        "path": "chap20/p@132441",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MALCOLM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-4-speech-003",
+      "id": "macbeth/sceneV_20.4/p@132558",
       "type": "speech",
-      "speaker": {
-        "id": "siward",
-        "name": "SIWARD",
-        "displayName": "Siward"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENTEITH.\nWe doubt it nothing.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "What wood is this before us?",
-          "plainText": "What wood is this before us",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.4/p@132558/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132558/line-2",
+          "start": 10,
+          "end": 30,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696750,
+        "end": 3696810,
+        "line": 136357,
+        "column": 1,
+        "path": "chap20/p@132558",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MENTEITH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "macbeth-5-4-speech-004",
+      "id": "macbeth/sceneV_20.4/p@132622",
       "type": "speech",
-      "speaker": {
-        "id": "menteith",
-        "name": "MENTEITH",
-        "displayName": "Menteith"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIWARD.\nWhat wood is this before us?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "The wood of Birnam.",
-          "plainText": "The wood of Birnam",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.4/p@132622/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132622/line-2",
+          "start": 8,
+          "end": 36,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696814,
+        "end": 3696880,
+        "line": 136362,
+        "column": 1,
+        "path": "chap20/p@132622",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "SIWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-4-speech-005",
+      "id": "macbeth/sceneV_20.4/p@132692",
       "type": "speech",
-      "speaker": {
-        "id": "malcolm",
-        "name": "MALCOLM",
-        "displayName": "Malcolm"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MENTEITH.\nThe wood of Birnam.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Let every soldier hew him down a bough,",
-          "plainText": "Let every soldier hew him down a bough",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@132692/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "And bear't before him. Thereby shall we shadow",
-          "plainText": "And bear't before him Thereby shall we shadow",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "The numbers of our host, and make discovery",
-          "plainText": "The numbers of our host and make discovery",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0009",
-          "number": 9,
-          "speechLineNumber": 4,
-          "text": "Err in report of us.",
-          "plainText": "Err in report of us",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@132692/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696884,
+        "end": 3696943,
+        "line": 136367,
+        "column": 1,
+        "path": "chap20/p@132692",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MENTEITH.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "macbeth-5-4-speech-006",
+      "id": "macbeth/sceneV_20.4/p@132755",
       "type": "speech",
-      "speaker": {
-        "id": "soldiers",
-        "name": "SOLDIERS",
-        "displayName": "Soldiers"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MALCOLM.\nLet every soldier hew him down a bough,\nAnd bear’t before him. Thereby shall we shadow\nThe numbers of our host, and make discovery\nErr in report of us.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "It shall be done.",
-          "plainText": "It shall be done",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "macbeth/sceneV_20.4/p@132755/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132755/line-2",
+          "start": 9,
+          "end": 48,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132755/line-3",
+          "start": 49,
+          "end": 95,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132755/line-4",
+          "start": 96,
+          "end": 139,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@132755/line-5",
+          "start": 140,
+          "end": 160,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3696947,
+        "end": 3697152,
+        "line": 136372,
+        "column": 1,
+        "path": "chap20/p@132755",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MALCOLM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-4-speech-007",
+      "id": "macbeth/sceneV_20.4/p@132964",
       "type": "speech",
-      "speaker": {
-        "id": "siward",
-        "name": "SIWARD",
-        "displayName": "Siward"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SOLDIERS.\nIt shall be done.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "We learn no other but the confident tyrant",
-          "plainText": "We learn no other but the confident tyrant",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@132964/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "Keeps still in Dunsinane, and will endure",
-          "plainText": "Keeps still in Dunsinane and will endure",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "Our setting down before't.",
-          "plainText": "Our setting down before't",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@132964/line-2",
+          "start": 10,
+          "end": 27,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3697156,
+        "end": 3697213,
+        "line": 136380,
+        "column": 1,
+        "path": "chap20/p@132964",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "SOLDIERS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "macbeth-5-4-speech-008",
+      "id": "macbeth/sceneV_20.4/p@133025",
       "type": "speech",
-      "speaker": {
-        "id": "malcolm",
-        "name": "MALCOLM",
-        "displayName": "Malcolm"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIWARD.\nWe learn no other but the confident tyrant\nKeeps still in Dunsinane, and will endure\nOur setting down before’t.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "'Tis his main hope;",
-          "plainText": "'Tis his main hope",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133025/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0015",
-          "number": 15,
-          "speechLineNumber": 2,
-          "text": "For where there is advantage to be given,",
-          "plainText": "For where there is advantage to be given",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133025/line-2",
+          "start": 8,
+          "end": 50,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0016",
-          "number": 16,
-          "speechLineNumber": 3,
-          "text": "Both more and less have given him the revolt,",
-          "plainText": "Both more and less have given him the revolt",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133025/line-3",
+          "start": 51,
+          "end": 92,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0017",
-          "number": 17,
-          "speechLineNumber": 4,
-          "text": "And none serve with him but constrained things,",
-          "plainText": "And none serve with him but constrained things",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0018",
-          "number": 18,
-          "speechLineNumber": 5,
-          "text": "Whose hearts are absent too.",
-          "plainText": "Whose hearts are absent too",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133025/line-4",
+          "start": 93,
+          "end": 119,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3697217,
+        "end": 3697376,
+        "line": 136385,
+        "column": 1,
+        "path": "chap20/p@133025",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "SIWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "macbeth-5-4-speech-009",
+      "id": "macbeth/sceneV_20.4/p@133188",
       "type": "speech",
-      "speaker": {
-        "id": "macduff",
-        "name": "MACDUFF",
-        "displayName": "Macduff"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MALCOLM.\n’Tis his main hope;\nFor where there is advantage to be given,\nBoth more and less have given him the revolt,\nAnd none serve with him but constrained things,\nWhose hearts are absent too.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Let our just censures",
-          "plainText": "Let our just censures",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133188/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0020",
-          "number": 20,
-          "speechLineNumber": 2,
-          "text": "Attend the true event, and put we on",
-          "plainText": "Attend the true event and put we on",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133188/line-2",
+          "start": 9,
+          "end": 28,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0021",
-          "number": 21,
-          "speechLineNumber": 3,
-          "text": "Industrious soldiership.",
-          "plainText": "Industrious soldiership",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133188/line-3",
+          "start": 29,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133188/line-4",
+          "start": 71,
+          "end": 116,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133188/line-5",
+          "start": 117,
+          "end": 164,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133188/line-6",
+          "start": 165,
+          "end": 193,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3697380,
+        "end": 3697623,
+        "line": 136392,
+        "column": 1,
+        "path": "chap20/p@133188",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MALCOLM.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-4-speech-010",
+      "id": "macbeth/sceneV_20.4/p@133435",
       "type": "speech",
-      "speaker": {
-        "id": "siward",
-        "name": "SIWARD",
-        "displayName": "Siward"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "MACDUFF.\nLet our just censures\nAttend the true event, and put we on\nIndustrious soldiership.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "macbeth-5-4-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "The time approaches,",
-          "plainText": "The time approaches",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133435/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0023",
-          "number": 23,
-          "speechLineNumber": 2,
-          "text": "That will with due decision make us know",
-          "plainText": "That will with due decision make us know",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133435/line-2",
+          "start": 9,
+          "end": 30,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0024",
-          "number": 24,
-          "speechLineNumber": 3,
-          "text": "What we shall say we have, and what we owe.",
-          "plainText": "What we shall say we have and what we owe",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133435/line-3",
+          "start": 31,
+          "end": 67,
+          "sourceLineNumber": null
         },
         {
-          "id": "macbeth-5-4-line-0025",
-          "number": 25,
-          "speechLineNumber": 4,
-          "text": "Thoughts speculative their unsure hopes relate,",
-          "plainText": "Thoughts speculative their unsure hopes relate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0026",
-          "number": 26,
-          "speechLineNumber": 5,
-          "text": "But certain issue strokes must arbitrate;",
-          "plainText": "But certain issue strokes must arbitrate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "macbeth-5-4-line-0027",
-          "number": 27,
-          "speechLineNumber": 6,
-          "text": "Towards which advance the war.",
-          "plainText": "Towards which advance the war",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "macbeth/sceneV_20.4/p@133435/line-4",
+          "start": 68,
+          "end": 92,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 3697627,
+        "end": 3697759,
+        "line": 136401,
+        "column": 1,
+        "path": "chap20/p@133435",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "MACDUFF.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "macbeth-5-4-stage-002",
-      "type": "stage",
-      "text": "[Exeunt, marching.]"
+      "id": "macbeth/sceneV_20.4/p@133571",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SIWARD.\nThe time approaches,\nThat will with due decision make us know\nWhat we shall say we have, and what we owe.\nThoughts speculative their unsure hopes relate,\nBut certain issue strokes must arbitrate;\nTowards which advance the war.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-2",
+          "start": 8,
+          "end": 28,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-3",
+          "start": 29,
+          "end": 69,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-4",
+          "start": 70,
+          "end": 113,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-5",
+          "start": 114,
+          "end": 161,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-6",
+          "start": 162,
+          "end": 203,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "macbeth/sceneV_20.4/p@133571/line-7",
+          "start": 204,
+          "end": 234,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3697763,
+        "end": 3698052,
+        "line": 136408,
+        "column": 1,
+        "path": "chap20/p@133571",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": "SIWARD.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "macbeth/sceneV_20.4/p@133864",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt, marching.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 18
+        }
+      ],
+      "lines": [
+        {
+          "id": "macbeth/sceneV_20.4/p@133864/line-1",
+          "start": 0,
+          "end": 19,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 3698056,
+        "end": 3698103,
+        "line": 136418,
+        "column": 1,
+        "path": "chap20/p@133864",
+        "anchor": "sceneV_20.4"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "36e4184f69dfb8809b81338692c07e9470cf22503d9b157ec588e9c94fb44bce"
 }

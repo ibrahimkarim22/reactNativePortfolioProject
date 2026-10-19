@@ -1,536 +1,649 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "timon-of-athens",
-    "title": "The Life of Timon of Athens",
+    "title": "THE LIFE OF TIMON OF ATHENS",
     "author": "William Shakespeare",
     "genre": "Tragedy"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap33"
   },
-  "scene": {
+  "section": {
     "id": "timon-of-athens-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. Athens. A room in a senator’s house",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. Athens. A room in a senator's house",
-    "location": "Athens. A room in a senator's house",
-    "orderInPlay": 3
+    "parentSectionId": "timon-of-athens-act-40885",
+    "orderInPlay": 9,
+    "sourceRef": {
+      "start": 5826594,
+      "end": 5826655,
+      "line": 216994,
+      "column": 1,
+      "path": "chap33/h3@40937",
+      "anchor": "sceneII_33.1"
+    }
   },
   "content": [
     {
-      "id": "timon-of-athens-2-1-stage-001",
+      "id": "timon-of-athens/sceneII_33.1/h3@40937",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. Athens. A room in a senator’s house",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 44
+        }
+      ],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneII_33.1/h3@40937/line-1",
+          "start": 0,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5826594,
+        "end": 5826655,
+        "line": 216994,
+        "column": 1,
+        "path": "chap33/h3@40937",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneII_33.1/p@41002",
       "type": "stage",
-      "text": "Enter a Senator with papers."
-    },
-    {
-      "id": "timon-of-athens-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "senator",
-        "name": "SENATOR",
-        "displayName": "Senator"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter a Senator with papers.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 8,
+          "end": 15,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "And late five thousand. To Varro and to Isidore",
-          "plainText": "And late five thousand To Varro and to Isidore",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "He owes nine thousand, besides my former sum,",
-          "plainText": "He owes nine thousand besides my former sum",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Which makes it five-and-twenty. Still in motion",
-          "plainText": "Which makes it fiveandtwenty Still in motion",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Of raging waste! It cannot hold; it will not.",
-          "plainText": "Of raging waste It cannot hold it will not",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "If I want gold, steal but a beggar's dog",
-          "plainText": "If I want gold steal but a beggar's dog",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 6,
-          "text": "And give it Timon, why, the dog coins gold.",
-          "plainText": "And give it Timon why the dog coins gold",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 7,
-          "text": "If I would sell my horse, and buy twenty more",
-          "plainText": "If I would sell my horse and buy twenty more",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 8,
-          "text": "Better than he, why, give my horse to Timon—",
-          "plainText": "Better than he why give my horse to Timon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 9,
-          "text": "Ask nothing, give it him—it foals me straight,",
-          "plainText": "Ask nothing give it himit foals me straight",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 10,
-          "text": "And able horses. No porter at his gate,",
-          "plainText": "And able horses No porter at his gate",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 11,
-          "text": "But rather one that smiles and still invites",
-          "plainText": "But rather one that smiles and still invites",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 12,
-          "text": "All that pass by. It cannot hold; no reason",
-          "plainText": "All that pass by It cannot hold no reason",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 13,
-          "text": "Can sound his state in safety. Caphis, ho!",
-          "plainText": "Can sound his state in safety Caphis ho",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 14,
-          "text": "Caphis, I say!",
-          "plainText": "Caphis I say",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneII_33.1/p@41002/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5826659,
+        "end": 5826746,
+        "line": 216996,
+        "column": 1,
+        "path": "chap33/p@41002",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "timon-of-athens-2-1-stage-002",
+      "id": "timon-of-athens/sceneII_33.1/p@41093",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SENATOR.\nAnd late five thousand. To Varro and to Isidore\nHe owes nine thousand, besides my former sum,\nWhich makes it five-and-twenty. Still in motion\nOf raging waste! It cannot hold; it will not.\nIf I want gold, steal but a beggar’s dog\nAnd give it Timon, why, the dog coins gold.\nIf I would sell my horse, and buy twenty more\nBetter than he, why, give my horse to Timon—\nAsk nothing, give it him—it foals me straight,\nAnd able horses. No porter at his gate,\nBut rather one that smiles and still invites\nAll that pass by. It cannot hold; no reason\nCan sound his state in safety. Caphis, ho!\nCaphis, I say!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-2",
+          "start": 9,
+          "end": 56,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-3",
+          "start": 57,
+          "end": 102,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-4",
+          "start": 103,
+          "end": 150,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-5",
+          "start": 151,
+          "end": 196,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-6",
+          "start": 197,
+          "end": 237,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-7",
+          "start": 238,
+          "end": 281,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-8",
+          "start": 282,
+          "end": 327,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-9",
+          "start": 328,
+          "end": 372,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-10",
+          "start": 373,
+          "end": 419,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-11",
+          "start": 420,
+          "end": 459,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-12",
+          "start": 460,
+          "end": 504,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-13",
+          "start": 505,
+          "end": 548,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-14",
+          "start": 549,
+          "end": 591,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41093/line-15",
+          "start": 592,
+          "end": 606,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5826750,
+        "end": 5827451,
+        "line": 217000,
+        "column": 1,
+        "path": "chap33/p@41093",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "SENATOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneII_33.1/p@41798",
       "type": "stage",
-      "text": "Enter Caphis."
-    },
-    {
-      "id": "timon-of-athens-2-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "caphis",
-        "name": "CAPHIS",
-        "displayName": "Caphis"
-      },
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Caphis.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 12,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Here, sir, what is your pleasure?",
-          "plainText": "Here sir what is your pleasure",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "timon-of-athens/sceneII_33.1/p@41798/line-1",
+          "start": 0,
+          "end": 13,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5827455,
+        "end": 5827527,
+        "line": 217018,
+        "column": 1,
+        "path": "chap33/p@41798",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "timon-of-athens-2-1-speech-003",
+      "id": "timon-of-athens/sceneII_33.1/p@41874",
       "type": "speech",
-      "speaker": {
-        "id": "senator",
-        "name": "SENATOR",
-        "displayName": "Senator"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPHIS.\nHere, sir, what is your pleasure?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Get on your cloak and haste you to Lord Timon.",
-          "plainText": "Get on your cloak and haste you to Lord Timon",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneII_33.1/p@41874/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
         },
         {
-          "id": "timon-of-athens-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 2,
-          "text": "Importune him for my moneys; be not ceased",
-          "plainText": "Importune him for my moneys be not ceased",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 3,
-          "text": "With slight denial, nor then silenced when",
-          "plainText": "With slight denial nor then silenced when",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 4,
-          "text": "\"Commend me to your master\", and the cap",
-          "plainText": "Commend me to your master and the cap",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 5,
-          "text": "Plays in the right hand, thus; but tell him,",
-          "plainText": "Plays in the right hand thus but tell him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 6,
-          "text": "My uses cry to me, I must serve my turn",
-          "plainText": "My uses cry to me I must serve my turn",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 7,
-          "text": "Out of mine own, his days and times are past,",
-          "plainText": "Out of mine own his days and times are past",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 8,
-          "text": "And my reliances on his fracted dates",
-          "plainText": "And my reliances on his fracted dates",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 9,
-          "text": "Have smit my credit. I love and honour him,",
-          "plainText": "Have smit my credit I love and honour him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 10,
-          "text": "But must not break my back to heal his finger.",
-          "plainText": "But must not break my back to heal his finger",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 11,
-          "text": "Immediate are my needs, and my relief",
-          "plainText": "Immediate are my needs and my relief",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 12,
-          "text": "Must not be tossed and turned to me in words,",
-          "plainText": "Must not be tossed and turned to me in words",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 13,
-          "text": "But find supply immediate. Get you gone.",
-          "plainText": "But find supply immediate Get you gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 14,
-          "text": "Put on a most importunate aspect,",
-          "plainText": "Put on a most importunate aspect",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 15,
-          "text": "A visage of demand, for I do fear",
-          "plainText": "A visage of demand for I do fear",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 16,
-          "text": "When every feather sticks in his own wing,",
-          "plainText": "When every feather sticks in his own wing",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 17,
-          "text": "Lord Timon will be left a naked gull,",
-          "plainText": "Lord Timon will be left a naked gull",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "timon-of-athens-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 18,
-          "text": "Which flashes now a phoenix. Get you gone.",
-          "plainText": "Which flashes now a phoenix Get you gone",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneII_33.1/p@41874/line-2",
+          "start": 8,
+          "end": 41,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5827531,
+        "end": 5827602,
+        "line": 217022,
+        "column": 1,
+        "path": "chap33/p@41874",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "CAPHIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "timon-of-athens-2-1-speech-004",
+      "id": "timon-of-athens/sceneII_33.1/p@41949",
       "type": "speech",
-      "speaker": {
-        "id": "caphis",
-        "name": "CAPHIS",
-        "displayName": "Caphis"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SENATOR.\nGet on your cloak and haste you to Lord Timon.\nImportune him for my moneys; be not ceased\nWith slight denial, nor then silenced when\n“Commend me to your master”, and the cap\nPlays in the right hand, thus; but tell him,\nMy uses cry to me, I must serve my turn\nOut of mine own, his days and times are past,\nAnd my reliances on his fracted dates\nHave smit my credit. I love and honour him,\nBut must not break my back to heal his finger.\nImmediate are my needs, and my relief\nMust not be tossed and turned to me in words,\nBut find supply immediate. Get you gone.\nPut on a most importunate aspect,\nA visage of demand, for I do fear\nWhen every feather sticks in his own wing,\nLord Timon will be left a naked gull,\nWhich flashes now a phoenix. Get you gone.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "I go, sir.",
-          "plainText": "I go sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "timon-of-athens-2-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "senator",
-        "name": "SENATOR",
-        "displayName": "Senator"
-      },
-      "lines": [
-        {
-          "id": "timon-of-athens-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Take the bonds along with you,",
-          "plainText": "Take the bonds along with you",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
         },
         {
-          "id": "timon-of-athens-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 2,
-          "text": "And have the dates in. Come.",
-          "plainText": "And have the dates in Come",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-2",
+          "start": 9,
+          "end": 55,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-3",
+          "start": 56,
+          "end": 98,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-4",
+          "start": 99,
+          "end": 141,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-5",
+          "start": 142,
+          "end": 182,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-6",
+          "start": 183,
+          "end": 227,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-7",
+          "start": 228,
+          "end": 267,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-8",
+          "start": 268,
+          "end": 313,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-9",
+          "start": 314,
+          "end": 351,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-10",
+          "start": 352,
+          "end": 395,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-11",
+          "start": 396,
+          "end": 442,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-12",
+          "start": 443,
+          "end": 480,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-13",
+          "start": 481,
+          "end": 526,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-14",
+          "start": 527,
+          "end": 567,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-15",
+          "start": 568,
+          "end": 601,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-16",
+          "start": 602,
+          "end": 635,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-17",
+          "start": 636,
+          "end": 678,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-18",
+          "start": 679,
+          "end": 716,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@41949/line-19",
+          "start": 717,
+          "end": 759,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5827606,
+        "end": 5828480,
+        "line": 217027,
+        "column": 1,
+        "path": "chap33/p@41949",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "SENATOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "timon-of-athens-2-1-speech-006",
+      "id": "timon-of-athens/sceneII_33.1/p@42827",
       "type": "speech",
-      "speaker": {
-        "id": "caphis",
-        "name": "CAPHIS",
-        "displayName": "Caphis"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPHIS.\nI go, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "I will, sir.",
-          "plainText": "I will sir",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "timon-of-athens/sceneII_33.1/p@42827/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@42827/line-2",
+          "start": 8,
+          "end": 18,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5828484,
+        "end": 5828532,
+        "line": 217049,
+        "column": 1,
+        "path": "chap33/p@42827",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "CAPHIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
     },
     {
-      "id": "timon-of-athens-2-1-speech-007",
+      "id": "timon-of-athens/sceneII_33.1/p@42879",
       "type": "speech",
-      "speaker": {
-        "id": "senator",
-        "name": "SENATOR",
-        "displayName": "Senator"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SENATOR.\nTake the bonds along with you,\nAnd have the dates in. Come.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "timon-of-athens-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Go.",
-          "plainText": "Go",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "timon-of-athens/sceneII_33.1/p@42879/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@42879/line-2",
+          "start": 9,
+          "end": 39,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@42879/line-3",
+          "start": 40,
+          "end": 68,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 5828536,
+        "end": 5828639,
+        "line": 217054,
+        "column": 1,
+        "path": "chap33/p@42879",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "SENATOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
     },
     {
-      "id": "timon-of-athens-2-1-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "timon-of-athens/sceneII_33.1/p@42986",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "CAPHIS.\nI will, sir.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@42986/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@42986/line-2",
+          "start": 8,
+          "end": 20,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5828643,
+        "end": 5828693,
+        "line": 217060,
+        "column": 1,
+        "path": "chap33/p@42986",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "CAPHIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 7
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneII_33.1/p@43040",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "SENATOR.\nGo.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@43040/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@43040/line-2",
+          "start": 9,
+          "end": 12,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5828697,
+        "end": 5828739,
+        "line": 217065,
+        "column": 1,
+        "path": "chap33/p@43040",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": "SENATOR.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "timon-of-athens/sceneII_33.1/p@43086",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "lines": [
+        {
+          "id": "timon-of-athens/sceneII_33.1/p@43086/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 5828743,
+        "end": 5828780,
+        "line": 217070,
+        "column": 1,
+        "path": "chap33/p@43086",
+        "anchor": "sceneII_33.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "abe3b87a6564ebd9425b190d6e821ec032886bbdad4c452d25e315e8556598f4"
 }

@@ -1,1826 +1,3405 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "troilus-and-cressida",
-    "title": "Troilus and Cressida",
+    "title": "TROILUS AND CRESSIDA",
     "author": "William Shakespeare",
     "genre": "Problem Play"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap35"
   },
-  "scene": {
+  "section": {
     "id": "troilus-and-cressida-2-1",
+    "kind": "scene",
+    "heading": "SCENE I. The Grecian camp.",
     "act": 2,
     "scene": 1,
-    "label": "Act 2, Scene 1",
-    "title": "SCENE I. The Grecian camp.",
-    "location": "The Grecian camp.",
-    "orderInPlay": 4
+    "parentSectionId": "troilus-and-cressida-act-52425",
+    "orderInPlay": 11,
+    "sourceRef": {
+      "start": 6154432,
+      "end": 6154475,
+      "line": 228973,
+      "column": 1,
+      "path": "chap35/h3@52477",
+      "anchor": "sceneII_35.1"
+    }
   },
   "content": [
     {
-      "id": "troilus-and-cressida-2-1-stage-001",
+      "id": "troilus-and-cressida/sceneII_35.1/h3@52477",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE I. The Grecian camp.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/h3@52477/line-1",
+          "start": 0,
+          "end": 26,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6154432,
+        "end": 6154475,
+        "line": 228973,
+        "column": 1,
+        "path": "chap35/h3@52477",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@52524",
       "type": "stage",
-      "text": "Enter Ajax and Thersites."
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Ajax and Thersites.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "troilus-and-cressida-2-1-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "Thersites!",
-          "plainText": "Thersites",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0002",
-          "number": 2,
-          "speechLineNumber": 1,
-          "text": "Agamemnon—how if he had boils, full, all over, generally?",
-          "plainText": "Agamemnonhow if he had boils full all over generally",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0003",
-          "number": 3,
-          "speechLineNumber": 1,
-          "text": "Thersites!",
-          "plainText": "Thersites",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-004",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0004",
-          "number": 4,
-          "speechLineNumber": 1,
-          "text": "And those boils did run—say so. Did not the general run then? Were not that a botchy core?",
-          "plainText": "And those boils did runsay so Did not the general run then Were not that a botchy core",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-005",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0005",
-          "number": 5,
-          "speechLineNumber": 1,
-          "text": "Dog!",
-          "plainText": "Dog",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-006",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Then there would come some matter from him;",
-          "plainText": "Then there would come some matter from him",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 10,
+          "className": "charname"
         },
         {
-          "id": "troilus-and-cressida-2-1-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "I see none now.",
-          "plainText": "I see none now",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 15,
+          "end": 24,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-007",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
+      ],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0008",
-          "number": 8,
-          "speechLineNumber": 1,
-          "text": "Thou bitch-wolf's son, canst thou not hear? Feel, then.",
-          "plainText": "Thou bitchwolf's son canst thou not hear Feel then",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52524/line-1",
+          "start": 0,
+          "end": 25,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-stage-002",
-      "type": "stage",
-      "text": "[Strikes him.]"
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-008",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
+      ],
+      "sourceRef": {
+        "start": 6154479,
+        "end": 6154593,
+        "line": 228975,
+        "column": 1,
+        "path": "chap35/p@52524",
+        "anchor": "sceneII_35.1"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@52642",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nThersites!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0009",
-          "number": 9,
-          "speechLineNumber": 1,
-          "text": "The plague of Greece upon thee, thou mongrel beef-witted lord!",
-          "plainText": "The plague of Greece upon thee thou mongrel beefwitted lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-009",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0010",
-          "number": 10,
-          "speechLineNumber": 1,
-          "text": "Speak, then, thou unsalted leaven, speak. I will beat thee into handsomeness.",
-          "plainText": "Speak then thou unsalted leaven speak I will beat thee into handsomeness",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-010",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I shall sooner rail thee into wit and holiness; but I think thy horse will sooner con an oration than thou learn a prayer without book. Thou canst strike, canst thou? A red murrain o' thy jade's tricks!",
-          "plainText": "I shall sooner rail thee into wit and holiness but I think thy horse will sooner con an oration than thou learn a prayer without book Thou canst strike canst thou A red murrain o' thy jade's tricks",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-011",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0012",
-          "number": 12,
-          "speechLineNumber": 1,
-          "text": "Toadstool, learn me the proclamation.",
-          "plainText": "Toadstool learn me the proclamation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-012",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0013",
-          "number": 13,
-          "speechLineNumber": 1,
-          "text": "Dost thou think I have no sense, thou strikest me thus?",
-          "plainText": "Dost thou think I have no sense thou strikest me thus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-013",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0014",
-          "number": 14,
-          "speechLineNumber": 1,
-          "text": "The proclamation!",
-          "plainText": "The proclamation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-014",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0015",
-          "number": 15,
-          "speechLineNumber": 1,
-          "text": "Thou art proclaim'd fool, I think.",
-          "plainText": "Thou art proclaim'd fool I think",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-015",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0016",
-          "number": 16,
-          "speechLineNumber": 1,
-          "text": "Do not, porpentine, do not; my fingers itch.",
-          "plainText": "Do not porpentine do not my fingers itch",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-016",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0017",
-          "number": 17,
-          "speechLineNumber": 1,
-          "text": "I would thou didst itch from head to foot and I had the scratching of thee; I would make thee the loathsomest scab in Greece. When thou art forth in the incursions, thou strikest as slow as another.",
-          "plainText": "I would thou didst itch from head to foot and I had the scratching of thee I would make thee the loathsomest scab in Greece When thou art forth in the incursions thou strikest as slow as another",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-017",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0018",
-          "number": 18,
-          "speechLineNumber": 1,
-          "text": "I say, the proclamation.",
-          "plainText": "I say the proclamation",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-018",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0019",
-          "number": 19,
-          "speechLineNumber": 1,
-          "text": "Thou grumblest and railest every hour on Achilles; and thou art as full of envy at his greatness as Cerberus is at Proserpina's beauty—ay, that thou bark'st at him.",
-          "plainText": "Thou grumblest and railest every hour on Achilles and thou art as full of envy at his greatness as Cerberus is at Proserpina's beautyay that thou bark'st at him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-019",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0020",
-          "number": 20,
-          "speechLineNumber": 1,
-          "text": "Mistress Thersites!",
-          "plainText": "Mistress Thersites",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-020",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0021",
-          "number": 21,
-          "speechLineNumber": 1,
-          "text": "Thou shouldst strike him.",
-          "plainText": "Thou shouldst strike him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-021",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0022",
-          "number": 22,
-          "speechLineNumber": 1,
-          "text": "Cobloaf!",
-          "plainText": "Cobloaf",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-022",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0023",
-          "number": 23,
-          "speechLineNumber": 1,
-          "text": "He would pun thee into shivers with his fist, as a sailor breaks a biscuit.",
-          "plainText": "He would pun thee into shivers with his fist as a sailor breaks a biscuit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-023",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0024",
-          "number": 24,
-          "speechLineNumber": 1,
-          "text": "You whoreson cur!",
-          "plainText": "You whoreson cur",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-stage-003",
-      "type": "stage",
-      "text": "[Strikes him.]"
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-024",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0025",
-          "number": 25,
-          "speechLineNumber": 1,
-          "text": "Do, do.",
-          "plainText": "Do do",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-025",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0026",
-          "number": 26,
-          "speechLineNumber": 1,
-          "text": "Thou stool for a witch!",
-          "plainText": "Thou stool for a witch",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-026",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0027",
-          "number": 27,
-          "speechLineNumber": 1,
-          "text": "Ay, do, do; thou sodden-witted lord! Thou hast no more brain than I have in mine elbows; an asinico may tutor thee. You scurvy valiant ass! Thou art here but to thrash Trojans, and thou art bought and sold among those of any wit like a barbarian slave. If thou use to beat me, I will begin at thy heel and tell what thou art by inches, thou thing of no bowels, thou!",
-          "plainText": "Ay do do thou soddenwitted lord Thou hast no more brain than I have in mine elbows an asinico may tutor thee You scurvy valiant ass Thou art here but to thrash Trojans and thou art bought and sold among those of any wit like a barbarian slave If thou use to beat me I will begin at thy heel and tell what thou art by inches thou thing of no bowels thou",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-027",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0028",
-          "number": 28,
-          "speechLineNumber": 1,
-          "text": "You dog!",
-          "plainText": "You dog",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-028",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0029",
-          "number": 29,
-          "speechLineNumber": 1,
-          "text": "You scurvy lord!",
-          "plainText": "You scurvy lord",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-029",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0030",
-          "number": 30,
-          "speechLineNumber": 1,
-          "text": "You cur!",
-          "plainText": "You cur",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-stage-004",
-      "type": "stage",
-      "text": "[Strikes him.]"
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-030",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0031",
-          "number": 31,
-          "speechLineNumber": 1,
-          "text": "Mars his idiot! Do, rudeness; do, camel; do, do.",
-          "plainText": "Mars his idiot Do rudeness do camel do do",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-stage-005",
-      "type": "stage",
-      "text": "Enter Achilles and Patroclus."
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-031",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0032",
-          "number": 32,
-          "speechLineNumber": 1,
-          "text": "Why, how now, Ajax! Wherefore do ye thus?",
-          "plainText": "Why how now Ajax Wherefore do ye thus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52642/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
         },
         {
-          "id": "troilus-and-cressida-2-1-line-0033",
-          "number": 33,
-          "speechLineNumber": 2,
-          "text": "How now, Thersites! What's the matter, man?",
-          "plainText": "How now Thersites What's the matter man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52642/line-2",
+          "start": 6,
+          "end": 16,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154597,
+        "end": 6154643,
+        "line": 228979,
+        "column": 1,
+        "path": "chap35/p@52642",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-032",
+      "id": "troilus-and-cressida/sceneII_35.1/p@52692",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nAgamemnon—how if he had boils, full, all over, generally?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0034",
-          "number": 34,
-          "speechLineNumber": 1,
-          "text": "You see him there, do you?",
-          "plainText": "You see him there do you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52692/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@52692/line-2",
+          "start": 11,
+          "end": 68,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154647,
+        "end": 6154745,
+        "line": 228984,
+        "column": 1,
+        "path": "chap35/p@52692",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-033",
+      "id": "troilus-and-cressida/sceneII_35.1/p@52794",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nThersites!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0035",
-          "number": 35,
-          "speechLineNumber": 1,
-          "text": "Ay; what's the matter?",
-          "plainText": "Ay what's the matter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52794/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@52794/line-2",
+          "start": 6,
+          "end": 16,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154749,
+        "end": 6154795,
+        "line": 228989,
+        "column": 1,
+        "path": "chap35/p@52794",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-034",
+      "id": "troilus-and-cressida/sceneII_35.1/p@52844",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nAnd those boils did run—say so. Did not the general run then? Were not that a botchy core?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0036",
-          "number": 36,
-          "speechLineNumber": 1,
-          "text": "Nay, look upon him.",
-          "plainText": "Nay look upon him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52844/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@52844/line-2",
+          "start": 11,
+          "end": 101,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154799,
+        "end": 6154931,
+        "line": 228994,
+        "column": 1,
+        "path": "chap35/p@52844",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-035",
+      "id": "troilus-and-cressida/sceneII_35.1/p@52980",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nDog!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0037",
-          "number": 37,
-          "speechLineNumber": 1,
-          "text": "So I do. What's the matter?",
-          "plainText": "So I do What's the matter",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@52980/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@52980/line-2",
+          "start": 6,
+          "end": 10,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154935,
+        "end": 6154975,
+        "line": 229000,
+        "column": 1,
+        "path": "chap35/p@52980",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-036",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53024",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThen there would come some matter from him;\nI see none now.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0038",
-          "number": 38,
-          "speechLineNumber": 1,
-          "text": "Nay, but regard him well.",
-          "plainText": "Nay but regard him well",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53024/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53024/line-2",
+          "start": 11,
+          "end": 54,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53024/line-3",
+          "start": 55,
+          "end": 70,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6154979,
+        "end": 6155084,
+        "line": 229005,
+        "column": 1,
+        "path": "chap35/p@53024",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-037",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53133",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nThou bitch-wolf’s son, canst thou not hear? Feel, then.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0039",
-          "number": 39,
-          "speechLineNumber": 1,
-          "text": "Well! why, so I do.",
-          "plainText": "Well why so I do",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53133/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53133/line-2",
+          "start": 6,
+          "end": 61,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155088,
+        "end": 6155179,
+        "line": 229011,
+        "column": 1,
+        "path": "chap35/p@53133",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-038",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "id": "troilus-and-cressida/sceneII_35.1/p@53228",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Strikes him.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0040",
-          "number": 40,
-          "speechLineNumber": 1,
-          "text": "But yet you look not well upon him; for whosomever you take him to be, he is Ajax.",
-          "plainText": "But yet you look not well upon him for whosomever you take him to be he is Ajax",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53228/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155183,
+        "end": 6155229,
+        "line": 229016,
+        "column": 1,
+        "path": "chap35/p@53228",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-039",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53278",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThe plague of Greece upon thee, thou mongrel beef-witted lord!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0041",
-          "number": 41,
-          "speechLineNumber": 1,
-          "text": "I know that, fool.",
-          "plainText": "I know that fool",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53278/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53278/line-2",
+          "start": 11,
+          "end": 73,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155233,
+        "end": 6155336,
+        "line": 229020,
+        "column": 1,
+        "path": "chap35/p@53278",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-040",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53385",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nSpeak, then, thou unsalted leaven, speak. I will beat thee into handsomeness.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0042",
-          "number": 42,
-          "speechLineNumber": 1,
-          "text": "Ay, but that fool knows not himself.",
-          "plainText": "Ay but that fool knows not himself",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53385/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53385/line-2",
+          "start": 6,
+          "end": 83,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155340,
+        "end": 6155453,
+        "line": 229025,
+        "column": 1,
+        "path": "chap35/p@53385",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-041",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53502",
       "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI shall sooner rail thee into wit and holiness; but I think thy horse will sooner con an oration than thou learn a prayer without book. Thou canst strike, canst thou? A red murrain o’ thy jade’s tricks!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0043",
-          "number": 43,
-          "speechLineNumber": 1,
-          "text": "Therefore I beat thee.",
-          "plainText": "Therefore I beat thee",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53502/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53502/line-2",
+          "start": 11,
+          "end": 213,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155457,
+        "end": 6155702,
+        "line": 229030,
+        "column": 1,
+        "path": "chap35/p@53502",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-042",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53751",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nToadstool, learn me the proclamation.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0044",
-          "number": 44,
-          "speechLineNumber": 1,
-          "text": "Lo, lo, lo, lo, what modicums of wit he utters! His evasions have ears thus long. I have bobb'd his brain more than he has beat my bones. I will buy nine sparrows for a penny, and his pia mater is not worth the ninth part of a sparrow. This lord, Achilles—Ajax, who wears his wit in his belly and his guts in his head—I'll tell you what I say of him.",
-          "plainText": "Lo lo lo lo what modicums of wit he utters His evasions have ears thus long I have bobb'd his brain more than he has beat my bones I will buy nine sparrows for a penny and his pia mater is not worth the ninth part of a sparrow This lord AchillesAjax who wears his wit in his belly and his guts in his headI'll tell you what I say of him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53751/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53751/line-2",
+          "start": 6,
+          "end": 43,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155706,
+        "end": 6155779,
+        "line": 229037,
+        "column": 1,
+        "path": "chap35/p@53751",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-043",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53828",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nDost thou think I have no sense, thou strikest me thus?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0045",
-          "number": 45,
-          "speechLineNumber": 1,
-          "text": "What?",
-          "plainText": "What",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53828/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53828/line-2",
+          "start": 11,
+          "end": 66,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155783,
+        "end": 6155879,
+        "line": 229042,
+        "column": 1,
+        "path": "chap35/p@53828",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-044",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53928",
       "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nThe proclamation!",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0046",
-          "number": 46,
-          "speechLineNumber": 1,
-          "text": "I say this Ajax—",
-          "plainText": "I say this Ajax",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@53928/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53928/line-2",
+          "start": 6,
+          "end": 23,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6155883,
+        "end": 6155936,
+        "line": 229047,
+        "column": 1,
+        "path": "chap35/p@53928",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-stage-006",
+      "id": "troilus-and-cressida/sceneII_35.1/p@53985",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThou art proclaim’d fool, I think.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53985/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@53985/line-2",
+          "start": 11,
+          "end": 45,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6155940,
+        "end": 6156015,
+        "line": 229052,
+        "column": 1,
+        "path": "chap35/p@53985",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54064",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nDo not, porpentine, do not; my fingers itch.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54064/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54064/line-2",
+          "start": 6,
+          "end": 50,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156019,
+        "end": 6156099,
+        "line": 229057,
+        "column": 1,
+        "path": "chap35/p@54064",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54148",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI would thou didst itch from head to foot and I had the scratching of thee; I would make thee the loathsomest scab in Greece. When thou art forth in the incursions, thou strikest as slow as another.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54148/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54148/line-2",
+          "start": 11,
+          "end": 209,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156103,
+        "end": 6156344,
+        "line": 229062,
+        "column": 1,
+        "path": "chap35/p@54148",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54393",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nI say, the proclamation.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54393/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54393/line-2",
+          "start": 6,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156348,
+        "end": 6156408,
+        "line": 229069,
+        "column": 1,
+        "path": "chap35/p@54393",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54457",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThou grumblest and railest every hour on Achilles; and thou art as full of envy at his greatness as Cerberus is at Proserpina’s beauty—ay, that thou bark’st at him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54457/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54457/line-2",
+          "start": 11,
+          "end": 175,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156412,
+        "end": 6156619,
+        "line": 229074,
+        "column": 1,
+        "path": "chap35/p@54457",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54668",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nMistress Thersites!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54668/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54668/line-2",
+          "start": 6,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156623,
+        "end": 6156678,
+        "line": 229081,
+        "column": 1,
+        "path": "chap35/p@54668",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54727",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThou shouldst strike him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54727/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54727/line-2",
+          "start": 11,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156682,
+        "end": 6156748,
+        "line": 229086,
+        "column": 1,
+        "path": "chap35/p@54727",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54797",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nCobloaf!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54797/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54797/line-2",
+          "start": 6,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156752,
+        "end": 6156796,
+        "line": 229091,
+        "column": 1,
+        "path": "chap35/p@54797",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54845",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nHe would pun thee into shivers with his fist, as a sailor breaks a biscuit.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54845/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54845/line-2",
+          "start": 11,
+          "end": 86,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156800,
+        "end": 6156916,
+        "line": 229096,
+        "column": 1,
+        "path": "chap35/p@54845",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@54965",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nYou whoreson cur!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54965/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@54965/line-2",
+          "start": 6,
+          "end": 23,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156920,
+        "end": 6156973,
+        "line": 229101,
+        "column": 1,
+        "path": "chap35/p@54965",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55022",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Strikes him.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55022/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6156977,
+        "end": 6157023,
+        "line": 229106,
+        "column": 1,
+        "path": "chap35/p@55022",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55072",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nDo, do.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55072/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55072/line-2",
+          "start": 11,
+          "end": 18,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157027,
+        "end": 6157075,
+        "line": 229110,
+        "column": 1,
+        "path": "chap35/p@55072",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55124",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nThou stool for a witch!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55124/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55124/line-2",
+          "start": 6,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157079,
+        "end": 6157138,
+        "line": 229115,
+        "column": 1,
+        "path": "chap35/p@55124",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55187",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nAy, do, do; thou sodden-witted lord! Thou hast no more brain than I have in mine elbows; an asinico may tutor thee. You scurvy valiant ass! Thou art here but to thrash Trojans, and thou art bought and sold among those of any wit like a barbarian slave. If thou use to beat me, I will begin at thy heel and tell what thou art by inches, thou thing of no bowels, thou!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55187/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55187/line-2",
+          "start": 11,
+          "end": 377,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157142,
+        "end": 6157553,
+        "line": 229120,
+        "column": 1,
+        "path": "chap35/p@55187",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55602",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nYou dog!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55602/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55602/line-2",
+          "start": 6,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157557,
+        "end": 6157601,
+        "line": 229129,
+        "column": 1,
+        "path": "chap35/p@55602",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55650",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nYou scurvy lord!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55650/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55650/line-2",
+          "start": 11,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157605,
+        "end": 6157662,
+        "line": 229134,
+        "column": 1,
+        "path": "chap35/p@55650",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55711",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nYou cur!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55711/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55711/line-2",
+          "start": 6,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157666,
+        "end": 6157710,
+        "line": 229139,
+        "column": 1,
+        "path": "chap35/p@55711",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55759",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Strikes him.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55759/line-1",
+          "start": 0,
+          "end": 14,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157714,
+        "end": 6157760,
+        "line": 229144,
+        "column": 1,
+        "path": "chap35/p@55759",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55809",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nMars his idiot! Do, rudeness; do, camel; do, do.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55809/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@55809/line-2",
+          "start": 11,
+          "end": 59,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6157764,
+        "end": 6157853,
+        "line": 229148,
+        "column": 1,
+        "path": "chap35/p@55809",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@55902",
       "type": "stage",
-      "text": "[Ajax offers to strike him.]"
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-045",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Achilles and Patroclus.",
+      "separatorAfter": "\n\n",
+      "spans": [
         {
-          "id": "troilus-and-cressida-2-1-line-0047",
-          "number": 47,
-          "speechLineNumber": 1,
-          "text": "Nay, good Ajax.",
-          "plainText": "Nay good Ajax",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-046",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0048",
-          "number": 48,
-          "speechLineNumber": 1,
-          "text": "Has not so much wit—",
-          "plainText": "Has not so much wit",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-047",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0049",
-          "number": 49,
-          "speechLineNumber": 1,
-          "text": "Nay, I must hold you.",
-          "plainText": "Nay I must hold you",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-048",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0050",
-          "number": 50,
-          "speechLineNumber": 1,
-          "text": "As will stop the eye of Helen's needle, for whom he comes to fight.",
-          "plainText": "As will stop the eye of Helen's needle for whom he comes to fight",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-049",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0051",
-          "number": 51,
-          "speechLineNumber": 1,
-          "text": "Peace, fool.",
-          "plainText": "Peace fool",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-050",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0052",
-          "number": 52,
-          "speechLineNumber": 1,
-          "text": "I would have peace and quietness, but the fool will not— he there; that he; look you there.",
-          "plainText": "I would have peace and quietness but the fool will not he there that he look you there",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-051",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0053",
-          "number": 53,
-          "speechLineNumber": 1,
-          "text": "O thou damned cur! I shall—",
-          "plainText": "O thou damned cur I shall",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-052",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0054",
-          "number": 54,
-          "speechLineNumber": 1,
-          "text": "Will you set your wit to a fool's?",
-          "plainText": "Will you set your wit to a fool's",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-053",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0055",
-          "number": 55,
-          "speechLineNumber": 1,
-          "text": "No, I warrant you, the fool's will shame it.",
-          "plainText": "No I warrant you the fool's will shame it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-054",
-      "type": "speech",
-      "speaker": {
-        "id": "patroclus",
-        "name": "PATROCLUS",
-        "displayName": "Patroclus"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0056",
-          "number": 56,
-          "speechLineNumber": 1,
-          "text": "Good words, Thersites.",
-          "plainText": "Good words Thersites",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-055",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0057",
-          "number": 57,
-          "speechLineNumber": 1,
-          "text": "What's the quarrel?",
-          "plainText": "What's the quarrel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-056",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0058",
-          "number": 58,
-          "speechLineNumber": 1,
-          "text": "I bade the vile owl go learn me the tenour of the proclamation, and he rails upon me.",
-          "plainText": "I bade the vile owl go learn me the tenour of the proclamation and he rails upon me",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-057",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0059",
-          "number": 59,
-          "speechLineNumber": 1,
-          "text": "I serve thee not.",
-          "plainText": "I serve thee not",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-058",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0060",
-          "number": 60,
-          "speechLineNumber": 1,
-          "text": "Well, go to, go to.",
-          "plainText": "Well go to go to",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-059",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0061",
-          "number": 61,
-          "speechLineNumber": 1,
-          "text": "I serve here voluntary.",
-          "plainText": "I serve here voluntary",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-060",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0062",
-          "number": 62,
-          "speechLineNumber": 1,
-          "text": "Your last service was suff'rance; 'twas not voluntary. No man is beaten voluntary. Ajax was here the voluntary, and you as under an impress.",
-          "plainText": "Your last service was suff'rance 'twas not voluntary No man is beaten voluntary Ajax was here the voluntary and you as under an impress",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-061",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0063",
-          "number": 63,
-          "speechLineNumber": 1,
-          "text": "E'en so; a great deal of your wit too lies in your sinews, or else there be liars. Hector shall have a great catch and knock out either of your brains: a' were as good crack a fusty nut with no kernel.",
-          "plainText": "E'en so a great deal of your wit too lies in your sinews or else there be liars Hector shall have a great catch and knock out either of your brains a' were as good crack a fusty nut with no kernel",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-062",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0064",
-          "number": 64,
-          "speechLineNumber": 1,
-          "text": "What, with me too, Thersites?",
-          "plainText": "What with me too Thersites",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-063",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0065",
-          "number": 65,
-          "speechLineNumber": 1,
-          "text": "There's Ulysses and old Nestor—whose wit was mouldy ere your grandsires had nails on their toes—yoke you like draught oxen, and make you plough up the wars.",
-          "plainText": "There's Ulysses and old Nestorwhose wit was mouldy ere your grandsires had nails on their toesyoke you like draught oxen and make you plough up the wars",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-064",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0066",
-          "number": 66,
-          "speechLineNumber": 1,
-          "text": "What, what?",
-          "plainText": "What what",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-065",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0067",
-          "number": 67,
-          "speechLineNumber": 1,
-          "text": "Yes, good sooth. To Achilles, to Ajax, to—",
-          "plainText": "Yes good sooth To Achilles to Ajax to",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-066",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0068",
-          "number": 68,
-          "speechLineNumber": 1,
-          "text": "I shall cut out your tongue.",
-          "plainText": "I shall cut out your tongue",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-067",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0069",
-          "number": 69,
-          "speechLineNumber": 1,
-          "text": "'Tis no matter; I shall speak as much as thou afterwards.",
-          "plainText": "'Tis no matter I shall speak as much as thou afterwards",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-068",
-      "type": "speech",
-      "speaker": {
-        "id": "patroclus",
-        "name": "PATROCLUS",
-        "displayName": "Patroclus"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0070",
-          "number": 70,
-          "speechLineNumber": 1,
-          "text": "No more words, Thersites; peace!",
-          "plainText": "No more words Thersites peace",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-069",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0071",
-          "number": 71,
-          "speechLineNumber": 1,
-          "text": "I will hold my peace when Achilles' brach bids me, shall I?",
-          "plainText": "I will hold my peace when Achilles' brach bids me shall I",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-070",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0072",
-          "number": 72,
-          "speechLineNumber": 1,
-          "text": "There's for you, Patroclus.",
-          "plainText": "There's for you Patroclus",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-071",
-      "type": "speech",
-      "speaker": {
-        "id": "thersites",
-        "name": "THERSITES",
-        "displayName": "Thersites"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0073",
-          "number": 73,
-          "speechLineNumber": 1,
-          "text": "I will see you hang'd like clotpoles ere I come any more to your tents. I will keep where there is wit stirring, and leave the faction of fools.",
-          "plainText": "I will see you hang'd like clotpoles ere I come any more to your tents I will keep where there is wit stirring and leave the faction of fools",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-stage-007",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-072",
-      "type": "speech",
-      "speaker": {
-        "id": "patroclus",
-        "name": "PATROCLUS",
-        "displayName": "Patroclus"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0074",
-          "number": 74,
-          "speechLineNumber": 1,
-          "text": "A good riddance.",
-          "plainText": "A good riddance",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
-        }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-073",
-      "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
-      "lines": [
-        {
-          "id": "troilus-and-cressida-2-1-line-0075",
-          "number": 75,
-          "speechLineNumber": 1,
-          "text": "Marry, this, sir, is proclaim'd through all our host,",
-          "plainText": "Marry this sir is proclaim'd through all our host",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 6,
+          "end": 14,
+          "className": "charname"
         },
         {
-          "id": "troilus-and-cressida-2-1-line-0076",
-          "number": 76,
-          "speechLineNumber": 2,
-          "text": "That Hector, by the fifth hour of the sun,",
-          "plainText": "That Hector by the fifth hour of the sun",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-2-1-line-0077",
-          "number": 77,
-          "speechLineNumber": 3,
-          "text": "Will with a trumpet 'twixt our tents and Troy,",
-          "plainText": "Will with a trumpet 'twixt our tents and Troy",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-2-1-line-0078",
-          "number": 78,
-          "speechLineNumber": 4,
-          "text": "Tomorrow morning, call some knight to arms",
-          "plainText": "Tomorrow morning call some knight to arms",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-2-1-line-0079",
-          "number": 79,
-          "speechLineNumber": 5,
-          "text": "That hath a stomach; and such a one that dare",
-          "plainText": "That hath a stomach and such a one that dare",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-2-1-line-0080",
-          "number": 80,
-          "speechLineNumber": 6,
-          "text": "Maintain I know not what; 'tis trash. Farewell.",
-          "plainText": "Maintain I know not what 'tis trash Farewell",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "tag": "span",
+          "start": 19,
+          "end": 28,
+          "className": "charname"
         }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-2-1-speech-074",
-      "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
+      ],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0081",
-          "number": 81,
-          "speechLineNumber": 1,
-          "text": "Farewell. Who shall answer him?",
-          "plainText": "Farewell Who shall answer him",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@55902/line-1",
+          "start": 0,
+          "end": 29,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6157857,
+        "end": 6157975,
+        "line": 229153,
+        "column": 1,
+        "path": "chap35/p@55902",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-075",
+      "id": "troilus-and-cressida/sceneII_35.1/p@56024",
       "type": "speech",
-      "speaker": {
-        "id": "achilles",
-        "name": "ACHILLES",
-        "displayName": "Achilles"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWhy, how now, Ajax! Wherefore do ye thus?\nHow now, Thersites! What’s the matter, man?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0082",
-          "number": 82,
-          "speechLineNumber": 1,
-          "text": "I know not; 'tis put to lott'ry, otherwise,",
-          "plainText": "I know not 'tis put to lott'ry otherwise",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneII_35.1/p@56024/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
         },
         {
-          "id": "troilus-and-cressida-2-1-line-0083",
-          "number": 83,
-          "speechLineNumber": 2,
-          "text": "He knew his man.",
-          "plainText": "He knew his man",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneII_35.1/p@56024/line-2",
+          "start": 10,
+          "end": 51,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56024/line-3",
+          "start": 52,
+          "end": 95,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6157979,
+        "end": 6158109,
+        "line": 229157,
+        "column": 1,
+        "path": "chap35/p@56024",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-speech-076",
+      "id": "troilus-and-cressida/sceneII_35.1/p@56158",
       "type": "speech",
-      "speaker": {
-        "id": "ajax",
-        "name": "AJAX",
-        "displayName": "Ajax"
-      },
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nYou see him there, do you?",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-2-1-line-0084",
-          "number": 84,
-          "speechLineNumber": 1,
-          "text": "O, meaning you? I will go learn more of it.",
-          "plainText": "O meaning you I will go learn more of it",
-          "lineType": "prose",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "single-line speech block"
+          "id": "troilus-and-cressida/sceneII_35.1/p@56158/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56158/line-2",
+          "start": 11,
+          "end": 37,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6158113,
+        "end": 6158180,
+        "line": 229163,
+        "column": 1,
+        "path": "chap35/p@56158",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
     },
     {
-      "id": "troilus-and-cressida-2-1-stage-008",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "troilus-and-cressida/sceneII_35.1/p@56229",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nAy; what’s the matter?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56229/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56229/line-2",
+          "start": 10,
+          "end": 32,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158184,
+        "end": 6158246,
+        "line": 229168,
+        "column": 1,
+        "path": "chap35/p@56229",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56295",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nNay, look upon him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56295/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56295/line-2",
+          "start": 11,
+          "end": 30,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158250,
+        "end": 6158310,
+        "line": 229173,
+        "column": 1,
+        "path": "chap35/p@56295",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56359",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nSo I do. What’s the matter?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56359/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56359/line-2",
+          "start": 10,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158314,
+        "end": 6158381,
+        "line": 229178,
+        "column": 1,
+        "path": "chap35/p@56359",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56430",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nNay, but regard him well.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56430/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56430/line-2",
+          "start": 11,
+          "end": 36,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158385,
+        "end": 6158451,
+        "line": 229183,
+        "column": 1,
+        "path": "chap35/p@56430",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56500",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWell! why, so I do.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56500/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56500/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158455,
+        "end": 6158514,
+        "line": 229188,
+        "column": 1,
+        "path": "chap35/p@56500",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56563",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nBut yet you look not well upon him; for whosomever you take him to be, he is Ajax.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56563/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56563/line-2",
+          "start": 11,
+          "end": 93,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158518,
+        "end": 6158642,
+        "line": 229193,
+        "column": 1,
+        "path": "chap35/p@56563",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56691",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nI know that, fool.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56691/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56691/line-2",
+          "start": 10,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158646,
+        "end": 6158704,
+        "line": 229199,
+        "column": 1,
+        "path": "chap35/p@56691",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56753",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nAy, but that fool knows not himself.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56753/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56753/line-2",
+          "start": 11,
+          "end": 47,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158708,
+        "end": 6158785,
+        "line": 229204,
+        "column": 1,
+        "path": "chap35/p@56753",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56834",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nTherefore I beat thee.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56834/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56834/line-2",
+          "start": 6,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158789,
+        "end": 6158847,
+        "line": 229209,
+        "column": 1,
+        "path": "chap35/p@56834",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@56896",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nLo, lo, lo, lo, what modicums of wit he utters! His evasions have ears thus long. I have bobb’d his brain more than he has beat my bones. I will buy nine sparrows for a penny, and his pia mater is not worth the ninth part of a sparrow. This lord, Achilles—Ajax, who wears his wit in his belly and his guts in his head—I’ll tell you what I say of him.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56896/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@56896/line-2",
+          "start": 11,
+          "end": 361,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6158851,
+        "end": 6159246,
+        "line": 229214,
+        "column": 1,
+        "path": "chap35/p@56896",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57295",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWhat?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57295/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57295/line-2",
+          "start": 10,
+          "end": 15,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159250,
+        "end": 6159295,
+        "line": 229223,
+        "column": 1,
+        "path": "chap35/p@57295",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57344",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI say this Ajax—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57344/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57344/line-2",
+          "start": 11,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159299,
+        "end": 6159356,
+        "line": 229228,
+        "column": 1,
+        "path": "chap35/p@57344",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57405",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Ajax offers to strike him.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 1,
+          "end": 5,
+          "className": "charname"
+        },
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 26
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57405/line-1",
+          "start": 0,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159360,
+        "end": 6159450,
+        "line": 229233,
+        "column": 1,
+        "path": "chap35/p@57405",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57499",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nNay, good Ajax.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57499/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57499/line-2",
+          "start": 10,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159454,
+        "end": 6159509,
+        "line": 229237,
+        "column": 1,
+        "path": "chap35/p@57499",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57558",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nHas not so much wit—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57558/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57558/line-2",
+          "start": 11,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159513,
+        "end": 6159574,
+        "line": 229242,
+        "column": 1,
+        "path": "chap35/p@57558",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57623",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nNay, I must hold you.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57623/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57623/line-2",
+          "start": 10,
+          "end": 31,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159578,
+        "end": 6159639,
+        "line": 229247,
+        "column": 1,
+        "path": "chap35/p@57623",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57688",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nAs will stop the eye of Helen’s needle, for whom he comes to fight.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57688/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57688/line-2",
+          "start": 11,
+          "end": 78,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159643,
+        "end": 6159751,
+        "line": 229252,
+        "column": 1,
+        "path": "chap35/p@57688",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57800",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nPeace, fool.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57800/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57800/line-2",
+          "start": 10,
+          "end": 22,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159755,
+        "end": 6159807,
+        "line": 229257,
+        "column": 1,
+        "path": "chap35/p@57800",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57856",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI would have peace and quietness, but the fool will not— he there; that he; look you there.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57856/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57856/line-2",
+          "start": 11,
+          "end": 102,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159811,
+        "end": 6159944,
+        "line": 229262,
+        "column": 1,
+        "path": "chap35/p@57856",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@57993",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nO thou damned cur! I shall—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57993/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@57993/line-2",
+          "start": 6,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6159948,
+        "end": 6160011,
+        "line": 229268,
+        "column": 1,
+        "path": "chap35/p@57993",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58060",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWill you set your wit to a fool’s?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58060/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58060/line-2",
+          "start": 10,
+          "end": 44,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160015,
+        "end": 6160089,
+        "line": 229273,
+        "column": 1,
+        "path": "chap35/p@58060",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58138",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nNo, I warrant you, the fool’s will shame it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58138/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58138/line-2",
+          "start": 11,
+          "end": 55,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160093,
+        "end": 6160178,
+        "line": 229278,
+        "column": 1,
+        "path": "chap35/p@58138",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58227",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PATROCLUS.\nGood words, Thersites.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58227/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58227/line-2",
+          "start": 11,
+          "end": 33,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160182,
+        "end": 6160245,
+        "line": 229283,
+        "column": 1,
+        "path": "chap35/p@58227",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "PATROCLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58294",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWhat’s the quarrel?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58294/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58294/line-2",
+          "start": 10,
+          "end": 29,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160249,
+        "end": 6160308,
+        "line": 229288,
+        "column": 1,
+        "path": "chap35/p@58294",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58357",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nI bade the vile owl go learn me the tenour of the proclamation, and he rails upon me.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58357/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58357/line-2",
+          "start": 6,
+          "end": 91,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160312,
+        "end": 6160434,
+        "line": 229293,
+        "column": 1,
+        "path": "chap35/p@58357",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58483",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI serve thee not.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58483/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58483/line-2",
+          "start": 11,
+          "end": 28,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160438,
+        "end": 6160496,
+        "line": 229299,
+        "column": 1,
+        "path": "chap35/p@58483",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58545",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nWell, go to, go to.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58545/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58545/line-2",
+          "start": 6,
+          "end": 25,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160500,
+        "end": 6160555,
+        "line": 229304,
+        "column": 1,
+        "path": "chap35/p@58545",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58604",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI serve here voluntary.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58604/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58604/line-2",
+          "start": 11,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160559,
+        "end": 6160623,
+        "line": 229309,
+        "column": 1,
+        "path": "chap35/p@58604",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58672",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nYour last service was suff’rance; ’twas not voluntary. No man is beaten voluntary. Ajax was here the voluntary, and you as under an impress.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58672/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58672/line-2",
+          "start": 10,
+          "end": 150,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160627,
+        "end": 6160808,
+        "line": 229314,
+        "column": 1,
+        "path": "chap35/p@58672",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@58857",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nE’en so; a great deal of your wit too lies in your sinews, or else there be liars. Hector shall have a great catch and knock out either of your brains: a’ were as good crack a fusty nut with no kernel.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58857/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@58857/line-2",
+          "start": 11,
+          "end": 212,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6160812,
+        "end": 6161056,
+        "line": 229320,
+        "column": 1,
+        "path": "chap35/p@58857",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59105",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWhat, with me too, Thersites?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59105/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59105/line-2",
+          "start": 10,
+          "end": 39,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161060,
+        "end": 6161129,
+        "line": 229327,
+        "column": 1,
+        "path": "chap35/p@59105",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59178",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nThere’s Ulysses and old Nestor—whose wit was mouldy ere your grandsires had nails on their toes—yoke you like draught oxen, and make you plough up the wars.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59178/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59178/line-2",
+          "start": 11,
+          "end": 167,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161133,
+        "end": 6161332,
+        "line": 229332,
+        "column": 1,
+        "path": "chap35/p@59178",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59381",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nWhat, what?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59381/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59381/line-2",
+          "start": 10,
+          "end": 21,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161336,
+        "end": 6161387,
+        "line": 229339,
+        "column": 1,
+        "path": "chap35/p@59381",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59436",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nYes, good sooth. To Achilles, to Ajax, to—",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59436/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59436/line-2",
+          "start": 11,
+          "end": 53,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161391,
+        "end": 6161474,
+        "line": 229344,
+        "column": 1,
+        "path": "chap35/p@59436",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59523",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nI shall cut out your tongue.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59523/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59523/line-2",
+          "start": 6,
+          "end": 34,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161478,
+        "end": 6161542,
+        "line": 229349,
+        "column": 1,
+        "path": "chap35/p@59523",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59591",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\n’Tis no matter; I shall speak as much as thou afterwards.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59591/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59591/line-2",
+          "start": 11,
+          "end": 68,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161546,
+        "end": 6161644,
+        "line": 229354,
+        "column": 1,
+        "path": "chap35/p@59591",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59693",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PATROCLUS.\nNo more words, Thersites; peace!",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59693/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59693/line-2",
+          "start": 11,
+          "end": 43,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161648,
+        "end": 6161721,
+        "line": 229359,
+        "column": 1,
+        "path": "chap35/p@59693",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "PATROCLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59770",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI will hold my peace when Achilles’ brach bids me, shall I?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59770/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59770/line-2",
+          "start": 11,
+          "end": 70,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161725,
+        "end": 6161825,
+        "line": 229364,
+        "column": 1,
+        "path": "chap35/p@59770",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59874",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nThere’s for you, Patroclus.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59874/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59874/line-2",
+          "start": 10,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161829,
+        "end": 6161896,
+        "line": 229369,
+        "column": 1,
+        "path": "chap35/p@59874",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@59945",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "THERSITES.\nI will see you hang’d like clotpoles ere I come any more to your tents. I will keep where there is wit stirring, and leave the faction of fools.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59945/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@59945/line-2",
+          "start": 11,
+          "end": 155,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6161900,
+        "end": 6162086,
+        "line": 229374,
+        "column": 1,
+        "path": "chap35/p@59945",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "THERSITES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60135",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 5
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60135/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162090,
+        "end": 6162129,
+        "line": 229380,
+        "column": 1,
+        "path": "chap35/p@60135",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60178",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PATROCLUS.\nA good riddance.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60178/line-1",
+          "start": 0,
+          "end": 10,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60178/line-2",
+          "start": 11,
+          "end": 27,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162133,
+        "end": 6162190,
+        "line": 229384,
+        "column": 1,
+        "path": "chap35/p@60178",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "PATROCLUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 10
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60239",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nMarry, this, sir, is proclaim’d through all our host,\nThat Hector, by the fifth hour of the sun,\nWill with a trumpet ’twixt our tents and Troy,\nTomorrow morning, call some knight to arms\nThat hath a stomach; and such a one that dare\nMaintain I know not what; ’tis trash. Farewell.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-2",
+          "start": 10,
+          "end": 63,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-3",
+          "start": 64,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-4",
+          "start": 107,
+          "end": 153,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-5",
+          "start": 154,
+          "end": 196,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-6",
+          "start": 197,
+          "end": 242,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60239/line-7",
+          "start": 243,
+          "end": 290,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162194,
+        "end": 6162539,
+        "line": 229389,
+        "column": 1,
+        "path": "chap35/p@60239",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60588",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nFarewell. Who shall answer him?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60588/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60588/line-2",
+          "start": 6,
+          "end": 37,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162543,
+        "end": 6162610,
+        "line": 229399,
+        "column": 1,
+        "path": "chap35/p@60588",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60659",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "ACHILLES.\nI know not; ’tis put to lott’ry, otherwise,\nHe knew his man.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60659/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60659/line-2",
+          "start": 10,
+          "end": 53,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60659/line-3",
+          "start": 54,
+          "end": 70,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162614,
+        "end": 6162719,
+        "line": 229404,
+        "column": 1,
+        "path": "chap35/p@60659",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "ACHILLES.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 9
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60768",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "AJAX.\nO, meaning you? I will go learn more of it.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60768/line-1",
+          "start": 0,
+          "end": 5,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60768/line-2",
+          "start": 6,
+          "end": 49,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162723,
+        "end": 6162802,
+        "line": 229410,
+        "column": 1,
+        "path": "chap35/p@60768",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": "AJAX.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 5
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneII_35.1/p@60851",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneII_35.1/p@60851/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6162806,
+        "end": 6162847,
+        "line": 229415,
+        "column": 1,
+        "path": "chap35/p@60851",
+        "anchor": "sceneII_35.1"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "98381ddbf397306a6c299ef9171cf0026d02d76708c7a34a7fe693057dbc989f"
 }

@@ -1,217 +1,372 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
+  "canonicalTextVersion": "1",
   "work": {
     "id": "troilus-and-cressida",
-    "title": "Troilus and Cressida",
+    "title": "TROILUS AND CRESSIDA",
     "author": "William Shakespeare",
     "genre": "Problem Play"
   },
   "source": {
     "name": "Project Gutenberg",
     "ebookNumber": 100,
+    "sourceFile": "pg100-images.html",
     "rights": "Public domain in the USA",
-    "sourceFile": "pg100-images.html"
+    "sha256": "d7116e381ba4f0164ba059f6d0e135e07af068b4ab486b57fa7deec6a305d5c3",
+    "releaseDate": "1994-01-01",
+    "visibleUpdate": "2025-08-24",
+    "htmlModified": "2026-05-01T07:55:46.077975+00:00",
+    "generator": "Ebookmaker 0.13.9 by Project Gutenberg",
+    "chapterId": "chap35"
   },
-  "scene": {
+  "section": {
     "id": "troilus-and-cressida-4-3",
+    "kind": "scene",
+    "heading": "SCENE III. Troy. A street before Pandarus’ house.",
     "act": 4,
     "scene": 3,
-    "label": "Act 4, Scene 3",
-    "title": "SCENE III. Troy. A street before Pandarus' house.",
-    "location": "Troy. A street before Pandarus' house.",
-    "orderInPlay": 12
+    "parentSectionId": "troilus-and-cressida-act-128967",
+    "orderInPlay": 21,
+    "sourceRef": {
+      "start": 6243593,
+      "end": 6243685,
+      "line": 232561,
+      "column": 1,
+      "path": "chap35/h3@141638",
+      "anchor": "sceneIV_35.3"
+    }
   },
   "content": [
     {
-      "id": "troilus-and-cressida-4-3-stage-001",
-      "type": "stage",
-      "text": "Enter Paris, Troilus, Aeneas, Deiphobus, Antenor and Diomedes."
-    },
-    {
-      "id": "troilus-and-cressida-4-3-speech-001",
-      "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
-      },
+      "id": "troilus-and-cressida/sceneIV_35.3/h3@141638",
+      "type": "heading",
+      "tag": "h3",
+      "classes": [],
+      "text": "SCENE III. Troy. A street before Pandarus’ house.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "b",
+          "start": 0,
+          "end": 49
+        }
+      ],
       "lines": [
         {
-          "id": "troilus-and-cressida-4-3-line-0001",
-          "number": 1,
-          "speechLineNumber": 1,
-          "text": "It is great morning; and the hour prefix'd",
-          "plainText": "It is great morning and the hour prefix'd",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0002",
-          "number": 2,
-          "speechLineNumber": 2,
-          "text": "For her delivery to this valiant Greek",
-          "plainText": "For her delivery to this valiant Greek",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0003",
-          "number": 3,
-          "speechLineNumber": 3,
-          "text": "Comes fast upon. Good my brother Troilus,",
-          "plainText": "Comes fast upon Good my brother Troilus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0004",
-          "number": 4,
-          "speechLineNumber": 4,
-          "text": "Tell you the lady what she is to do",
-          "plainText": "Tell you the lady what she is to do",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0005",
-          "number": 5,
-          "speechLineNumber": 5,
-          "text": "And haste her to the purpose.",
-          "plainText": "And haste her to the purpose",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneIV_35.3/h3@141638/line-1",
+          "start": 0,
+          "end": 49,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6243593,
+        "end": 6243685,
+        "line": 232561,
+        "column": 1,
+        "path": "chap35/h3@141638",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
     },
     {
-      "id": "troilus-and-cressida-4-3-speech-002",
-      "type": "speech",
-      "speaker": {
-        "id": "troilus",
-        "name": "TROILUS",
-        "displayName": "Troilus"
-      },
+      "id": "troilus-and-cressida/sceneIV_35.3/p@141734",
+      "type": "stage",
+      "tag": "p",
+      "classes": [
+        "scenedesc"
+      ],
+      "text": "Enter Paris, Troilus, Aeneas, Deiphobus, Antenor and Diomedes.",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "span",
+          "start": 6,
+          "end": 48,
+          "className": "charname"
+        },
+        {
+          "tag": "span",
+          "start": 53,
+          "end": 61,
+          "className": "charname"
+        }
+      ],
       "lines": [
         {
-          "id": "troilus-and-cressida-4-3-line-0006",
-          "number": 6,
-          "speechLineNumber": 1,
-          "text": "Walk into her house.",
-          "plainText": "Walk into her house",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0007",
-          "number": 7,
-          "speechLineNumber": 2,
-          "text": "I'll bring her to the Grecian presently;",
-          "plainText": "I'll bring her to the Grecian presently",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0008",
-          "number": 8,
-          "speechLineNumber": 3,
-          "text": "And to his hand when I deliver her,",
-          "plainText": "And to his hand when I deliver her",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0009",
-          "number": 9,
-          "speechLineNumber": 4,
-          "text": "Think it an altar, and thy brother Troilus",
-          "plainText": "Think it an altar and thy brother Troilus",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
-        },
-        {
-          "id": "troilus-and-cressida-4-3-line-0010",
-          "number": 10,
-          "speechLineNumber": 5,
-          "text": "A priest, there off'ring to it his own heart.",
-          "plainText": "A priest there off'ring to it his own heart",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141734/line-1",
+          "start": 0,
+          "end": 62,
+          "sourceLineNumber": null
         }
-      ]
-    },
-    {
-      "id": "troilus-and-cressida-4-3-stage-002",
-      "type": "stage",
-      "text": "[Exit.]"
-    },
-    {
-      "id": "troilus-and-cressida-4-3-speech-003",
-      "type": "speech",
-      "speaker": {
-        "id": "paris",
-        "name": "PARIS",
-        "displayName": "Paris"
+      ],
+      "sourceRef": {
+        "start": 6243689,
+        "end": 6243841,
+        "line": 232564,
+        "column": 1,
+        "path": "chap35/p@141734",
+        "anchor": "sceneIV_35.3"
       },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "not-applicable"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneIV_35.3/p@141890",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nIt is great morning; and the hour prefix’d\nFor her delivery to this valiant Greek\nComes fast upon. Good my brother Troilus,\nTell you the lady what she is to do\nAnd haste her to the purpose.",
+      "separatorAfter": "\n\n",
+      "spans": [],
       "lines": [
         {
-          "id": "troilus-and-cressida-4-3-line-0011",
-          "number": 11,
-          "speechLineNumber": 1,
-          "text": "I know what 'tis to love,",
-          "plainText": "I know what 'tis to love",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
         },
         {
-          "id": "troilus-and-cressida-4-3-line-0012",
-          "number": 12,
-          "speechLineNumber": 2,
-          "text": "And would, as I shall pity, I could help!",
-          "plainText": "And would as I shall pity I could help",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-2",
+          "start": 7,
+          "end": 49,
+          "sourceLineNumber": null
         },
         {
-          "id": "troilus-and-cressida-4-3-line-0013",
-          "number": 13,
-          "speechLineNumber": 3,
-          "text": "Please you walk in, my lords?",
-          "plainText": "Please you walk in my lords",
-          "lineType": "verse",
-          "lineTypeDetection": "auto",
-          "lineTypeConfidence": "medium",
-          "lineTypeReason": "multiple short line breaks"
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-3",
+          "start": 50,
+          "end": 88,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-4",
+          "start": 89,
+          "end": 130,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-5",
+          "start": 131,
+          "end": 166,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@141890/line-6",
+          "start": 167,
+          "end": 196,
+          "sourceLineNumber": null
         }
-      ]
+      ],
+      "sourceRef": {
+        "start": 6243845,
+        "end": 6244091,
+        "line": 232569,
+        "column": 1,
+        "path": "chap35/p@141890",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
     },
     {
-      "id": "troilus-and-cressida-4-3-stage-003",
-      "type": "stage",
-      "text": "[Exeunt.]"
+      "id": "troilus-and-cressida/sceneIV_35.3/p@142140",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "TROILUS.\nWalk into her house.\nI’ll bring her to the Grecian presently;\nAnd to his hand when I deliver her,\nThink it an altar, and thy brother Troilus\nA priest, there off’ring to it his own heart.",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-1",
+          "start": 0,
+          "end": 8,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-2",
+          "start": 9,
+          "end": 29,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-3",
+          "start": 30,
+          "end": 70,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-4",
+          "start": 71,
+          "end": 106,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-5",
+          "start": 107,
+          "end": 149,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142140/line-6",
+          "start": 150,
+          "end": 195,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6244095,
+        "end": 6244340,
+        "line": 232578,
+        "column": 1,
+        "path": "chap35/p@142140",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": "TROILUS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 8
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneIV_35.3/p@142389",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exit.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 5
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142389/line-1",
+          "start": 0,
+          "end": 7,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6244344,
+        "end": 6244383,
+        "line": 232587,
+        "column": 1,
+        "path": "chap35/p@142389",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneIV_35.3/p@142432",
+      "type": "speech",
+      "tag": "p",
+      "classes": [
+        "drama"
+      ],
+      "text": "PARIS.\nI know what ’tis to love,\nAnd would, as I shall pity, I could help!\nPlease you walk in, my lords?",
+      "separatorAfter": "\n\n",
+      "spans": [],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142432/line-1",
+          "start": 0,
+          "end": 6,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142432/line-2",
+          "start": 7,
+          "end": 32,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142432/line-3",
+          "start": 33,
+          "end": 74,
+          "sourceLineNumber": null
+        },
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142432/line-4",
+          "start": 75,
+          "end": 104,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6244387,
+        "end": 6244531,
+        "line": 232591,
+        "column": 1,
+        "path": "chap35/p@142432",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": "PARIS.",
+      "attribution": {
+        "status": "explicit",
+        "cueStart": 0,
+        "cueEnd": 6
+      }
+    },
+    {
+      "id": "troilus-and-cressida/sceneIV_35.3/p@142580",
+      "type": "passage",
+      "tag": "p",
+      "classes": [
+        "right"
+      ],
+      "text": "[Exeunt.]",
+      "separatorAfter": "\n\n",
+      "spans": [
+        {
+          "tag": "i",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "lines": [
+        {
+          "id": "troilus-and-cressida/sceneIV_35.3/p@142580/line-1",
+          "start": 0,
+          "end": 9,
+          "sourceLineNumber": null
+        }
+      ],
+      "sourceRef": {
+        "start": 6244535,
+        "end": 6244576,
+        "line": 232598,
+        "column": 1,
+        "path": "chap35/p@142580",
+        "anchor": "sceneIV_35.3"
+      },
+      "speakerLabel": null,
+      "attribution": {
+        "status": "source-unlabelled"
+      }
     }
-  ]
+  ],
+  "contentVersion": "98381ddbf397306a6c299ef9171cf0026d02d76708c7a34a7fe693057dbc989f"
 }

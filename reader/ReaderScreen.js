@@ -6,6 +6,7 @@ import { getLocalPlayEntry } from "../shared/localPlayService";
 import ReaderSurface from "./ReaderSurface";
 import ReaderAppearanceModal from "./ReaderAppearanceModal";
 import ReaderContentsModal from "./ReaderContentsModal";
+import ReaderSelectionVerifier from "./ReaderSelectionVerifier";
 import { createReaderDocument } from "./readerDocument";
 import { buildReaderNavigation } from "./readerNavigation";
 import { THEMES } from "./readerConstants";
@@ -52,6 +53,7 @@ export default function ReaderScreen({ id }) {
   }, [fontSelection, hydrated, result.document, preferences.fontId, fontRetry]);
 
   const openAppearance = useCallback(() => {
+    readerNavigation.surfaceRef.current?.clearSelection?.("modal");
     cancelFocusReturn();
     readerNavigation.dismissContents();
     setAppearanceOpen(true);
@@ -106,6 +108,7 @@ export default function ReaderScreen({ id }) {
       backgroundColor: theme.background,
     });
     return () => {
+      readerNavigation.surfaceRef.current?.clearSelection?.("document");
       cancelFocusReturn();
       readerNavigation.deactivate();
       if (status != null) StatusBar.popStackEntry(status);
@@ -146,6 +149,7 @@ export default function ReaderScreen({ id }) {
         </View>
       )}
       </View>
+      <ReaderSelectionVerifier surfaceRef={readerNavigation.surfaceRef} documentId={result.document?.identity.documentId} theme={theme} />
       <ReaderContentsModal
         visible={readerNavigation.contentsOpen}
         model={result.model}

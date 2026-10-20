@@ -4,6 +4,8 @@ import { WebView } from "react-native-webview";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
 import { buildAppearanceScript, buildNavigationScript, buildSectionFocusScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
+import { createReaderSelectionController } from "./readerSelectionController";
+import { buildSelectionScript } from "./readerSelectionProtocol";
 
 const ReaderSurface = forwardRef(function ReaderSurface({
   document,
@@ -19,6 +21,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   const readinessTimer = useRef(null);
   const activeDocument = useRef(document.identity.documentId);
   const latestAppearance = useRef(null);
+  const latestOnMessage = useRef(onMessage);
   const { fontScale } = useWindowDimensions();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -27,17 +30,38 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   // its reading position alive. Only a different reading document changes HTML.
   const source = useMemo(() => ({ html: document.html, baseUrl: "about:blank" }), [document.html]);
   latestAppearance.current = { preferences, fontScale, fontFaces };
+  latestOnMessage.current = onMessage;
 
-  const report = useCallback(message => { onMessage?.(message); }, [onMessage]);
+  const report = useCallback(message => { latestOnMessage.current?.(message); }, []);
+  const selectionController = useMemo(() => createReaderSelectionController({
+    identity: document.identity,
+    canonical: document.canonical,
+    onChange: report,
+    send: (kind, payload) => {
+      if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) {
+        throw Object.assign(new Error("The reading surface is unavailable."), { code: "SURFACE_UNAVAILABLE" });
+      }
+      webView.current.injectJavaScript(buildSelectionScript(document.identity, payload.selectionRequestId, kind, kind === "capture" ? payload.captureToken : payload.reason));
+    },
+  }), [document.identity, document.canonical, report]);
+  useLayoutEffect(() => () => {
+    selectionController.clear("document");
+    selectionController.dispose();
+  }, [selectionController]);
+
   const applyAppearance = useCallback(() => {
+    selectionController.clear("appearance");
     if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) return;
     const nextRequest = ++requestId.current;
     webView.current.injectJavaScript(buildAppearanceScript(document.identity, nextRequest, latestAppearance.current));
-  }, [document.identity]);
+  }, [document.identity, selectionController]);
 
   useImperativeHandle(forwardedRef, () => ({
     applyAppearance,
+    captureSelection: () => selectionController.capture(),
+    clearSelection: (reason = "cancel") => selectionController.clear(reason),
     jumpToSection: reference => {
+      selectionController.clear("navigation");
       if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) return null;
       const next = navigationId.current + 1;
       const script = buildNavigationScript(document.identity, next, reference, document.canonical);
@@ -50,7 +74,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       webView.current?.injectJavaScript(buildSectionFocusScript(document.identity, expectedId, reference, document.canonical));
       return true;
     },
-  }), [applyAppearance]);
+  }), [applyAppearance, document.identity, document.canonical, selectionController]);
 
   useLayoutEffect(() => {
     activeDocument.current = document.identity.documentId;
@@ -61,6 +85,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     setError(null);
     readinessTimer.current = setTimeout(() => {
       if (ready.current || activeDocument.current !== document.identity.documentId) return;
+      selectionController.clear("document");
       setLoading(false);
       setError("Unable to display this play. Go back and open it again.");
       report({ ...document.identity, type: "error", code: "DOCUMENT_READY_TIMEOUT", message: "The reading document did not become ready." });
@@ -87,6 +112,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       return;
     }
     if (message.type === "error" && message.requestId == null && !ready.current) {
+      selectionController.clear("document");
       clearTimeout(readinessTimer.current);
       setLoading(false);
       setError("Unable to display this play. Go back and open it again.");
@@ -94,6 +120,10 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       return;
     }
     if (!ready.current) return;
+    if (message.type === "selectionChange" || message.type === "selectionCapture") {
+      selectionController.receive(message);
+      return;
+    }
     if (message.type === "location") {
       if (message.locationSeq <= locationSeq.current) return;
       locationSeq.current = message.locationSeq;
@@ -106,20 +136,22 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     }
     if (message.requestId != null && message.requestId !== requestId.current) return;
     if (message.type === "error") {
+      selectionController.clear("appearance");
       setLoading(false);
       setError("The reading appearance could not be updated. Your play is still open.");
     }
     if (message.type === "applied") setError(null);
     report(message);
-  }, [applyAppearance, document.identity, report]);
+  }, [applyAppearance, document.identity, document.canonical, report, selectionController]);
 
   const loadError = useCallback(() => {
     ready.current = false;
+    selectionController.clear("document");
     clearTimeout(readinessTimer.current);
     setLoading(false);
     setError("Unable to display this play. Go back and open it again.");
     report({ ...document.identity, type: "error", code: "SURFACE_LOAD_FAILED", message: "The reading surface could not load its local document." });
-  }, [document.identity, report]);
+  }, [document.identity, report, selectionController]);
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>

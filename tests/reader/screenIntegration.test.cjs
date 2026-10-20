@@ -93,6 +93,7 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
     './ReaderSurface': 'ReaderSurface',
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
     './ReaderContentsModal': 'ReaderContentsModal',
+    './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
     './useReaderPreferences': { __esModule: true, default: usePreferences, useReaderPreferences: usePreferences },
     './readerFonts': { loadReaderFont: fontId => { const pending = deferred(); fonts.push({ fontId, ...pending }); return pending.promise; } },
   };

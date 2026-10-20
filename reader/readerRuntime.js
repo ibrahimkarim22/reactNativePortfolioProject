@@ -1,10 +1,12 @@
 const { THEMES, FONTS, LINE_SPACING } = require('./readerConstants');
 const { scriptJson } = require('./readerProtocol');
 const { NAVIGATION_RUNTIME_SOURCE } = require('./readerNavigationRuntime');
+const { SELECTION_DOM_SOURCE } = require('./readerSelectionDom');
+const { SELECTION_RUNTIME_SOURCE } = require('./readerSelectionRuntime');
 
 // A fixed application-owned program survives Hermes bytecode and Metro transforms.
 // Keep the WebView runtime here once, as source data rather than a native function.
-const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing, installNavigation) {
+const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing, installNavigation, installSelection, createSelectionDom) {
   'use strict';
   let latestRequest = 0;
   // A burst of requests shares the point captured before its first reflow.
@@ -15,6 +17,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
   let blocks = Array.prototype.slice.call(document.querySelectorAll('[data-reader-block]'));
   const fontCache = Object.create(null);
   let navigation = null;
+  const selection = installSelection({ identity: identity, root: document.querySelector('main'), send: send }, createSelectionDom);
 
   function userInteraction() {
     interactionVersion += 1;
@@ -160,6 +163,8 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     const pending = Promise.all(faces.map(function (face) {
       return new FontFace(family, 'url(data:font/ttf;base64,' + face.data + ')', { weight: String(face.weight), style: face.style }).load();
     })).then(function (loaded) {
+      // Registration can reflow text even if the requesting appearance is obsolete.
+      selection.invalidate('font');
       loaded.forEach(function (face) { document.fonts.add(face); });
       return family;
     }).catch(function (error) {
@@ -172,6 +177,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
 
   async function applyAppearance(payload) {
     if (!valid(payload)) return false;
+    selection.invalidate('appearance');
     let requestId = payload.requestId;
     latestRequest = requestId;
     observeScroll();
@@ -191,6 +197,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
       }
       let style = document.documentElement.style;
       let preferences = payload.preferences;
+      selection.invalidate('layout');
       style.setProperty('--reader-font-family', '"' + family + '", ' + (preferences.fontId === 'source-sans-3' ? 'sans-serif' : 'serif'));
       style.setProperty('--reader-font-size', preferences.fontSize + 'px');
       style.setProperty('--reader-font-scale', String(payload.fontScale));
@@ -223,12 +230,20 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     observeScroll: observeScroll,
     newIntent: userInteraction, interactionVersion: function () { return interactionVersion; },
     markOwnScroll: function () { observedScrollY = window.scrollY || window.pageYOffset || 0; } });
-  window.BardReader = Object.freeze({ applyAppearance: applyAppearance, jumpToSection: navigation.jumpToSection, focusSection: navigation.focusSection });
+  function jumpToSection(payload) {
+    const jumped = navigation.jumpToSection(payload);
+    if (jumped) selection.invalidate('navigation');
+    return jumped;
+  }
+  window.BardReader = Object.freeze({ applyAppearance: applyAppearance, jumpToSection: jumpToSection, focusSection: navigation.focusSection,
+    captureSelection: selection.captureSelection, clearSelection: selection.clearSelection });
   window.addEventListener('message', function (event) {
     if (event.source !== window.parent || !event.data) return;
     if (event.data.type === 'bard-reader-appearance') applyAppearance(event.data.payload);
-    else if (event.data.type === 'bard-reader-jump') navigation.jumpToSection(event.data.payload);
+    else if (event.data.type === 'bard-reader-jump') jumpToSection(event.data.payload);
     else if (event.data.type === 'bard-reader-focus') navigation.focusSection(event.data.payload);
+    else if (event.data.type === 'bard-reader-selection-capture') selection.captureSelection(event.data.payload);
+    else if (event.data.type === 'bard-reader-selection-clear') selection.clearSelection(event.data.payload);
   });
   window.addEventListener('scroll', observeScroll, { passive: true });
   ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (type) {
@@ -242,7 +257,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
 }`;
 
 function createReaderRuntimeScript(identity) {
-  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ',' + NAVIGATION_RUNTIME_SOURCE + ');';
+  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ',' + NAVIGATION_RUNTIME_SOURCE + ',' + SELECTION_RUNTIME_SOURCE + ',' + SELECTION_DOM_SOURCE + ');';
 }
 
 module.exports = { createReaderRuntimeScript };

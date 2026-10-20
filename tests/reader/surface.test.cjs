@@ -4,10 +4,16 @@ const path = require('node:path');
 const vm = require('node:vm');
 const test = require('node:test');
 const babel = require('@babel/core');
+const { buildCanonicalDocument } = require('../../shared/contentText');
 
 const root = path.resolve(__dirname, '../..');
 const identity = { documentId: 'surface-fixture', workId: 'hamlet', contentVersion: 'fixture-1', canonicalTextVersion: '1' };
-const document = { html: '<!doctype html><html><body>A play</body></html>', identity, canonical: {} };
+const canonical = buildCanonicalDocument({
+  play: { id: 'hamlet', contentVersion: 'fixture-1', canonicalTextVersion: '1', sections: [{ id: 'scene-one' }] },
+  sections: [{ work: { id: 'hamlet' }, contentVersion: 'fixture-1', canonicalTextVersion: '1', section: { id: 'scene-one' }, content: [{ id: 'line-one', text: 'Alpha beta', separatorAfter: '' }] }],
+});
+const document = { html: '<!doctype html><html><body>Alpha beta</body></html>', identity, canonical };
+const selection = { kind: 'text-range', workId: 'hamlet', contentVersion: 'fixture-1', canonicalTextVersion: '1', offsetUnit: 'utf16', start: 0, end: 5, startRef: { textId: 'line-one', sectionId: 'scene-one', offsetUtf16: 0 }, endRef: { textId: 'line-one', sectionId: 'scene-one', offsetUtf16: 5 }, exact: 'Alpha', prefix: '', suffix: ' beta' };
 const preferences = { schemaVersion: 1, fontId: 'literata', fontSize: 20, lineSpacing: 'comfortable', theme: 'paper' };
 const native = { View: 'View', Text: 'Text', Pressable: 'Pressable', ActivityIndicator: 'ActivityIndicator', AccessibilityInfo: { setAccessibilityFocus() {} }, findNodeHandle: () => null, Platform: { OS: 'android' }, StatusBar: { pushStackEntry() {}, popStackEntry() {} }, StyleSheet: { create: value => value, absoluteFillObject: {} } };
 
@@ -54,6 +60,7 @@ function host(relativeFile, overrides = {}) {
     '../Componenets/Loader': 'Loader',
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
     './ReaderContentsModal': 'ReaderContentsModal',
+    './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
     // These screen cases isolate surface/header lifetimes. Navigation's real
     // model and screen integration are exercised by their dedicated suites.
     './readerNavigation': { buildReaderNavigation: () => ({ items: [], initialSectionId: null }) },
@@ -93,6 +100,7 @@ function host(relativeFile, overrides = {}) {
     render(props, ref) { cursor = 0; effects = []; const tree = module.exports.default(props, ref); for (const run of effects) run(); return tree; },
     scale(value) { scale = value; },
     expireTimers() { for (const [id, callback] of timers) { timers.delete(id); callback(); } },
+    unmount() { for (const slot of slots) slot?.cleanup?.(); },
   };
 }
 
@@ -104,22 +112,25 @@ function nodes(tree, type) {
 test('native appearance changes inject into the ready document without replacing its source', () => {
   const surface = host('reader/ReaderSurface.native.js');
   const diagnostics = [];
-  const props = { document, preferences, onMessage: message => diagnostics.push(message) };
+  const props = { document, preferences, onMessage: message => { if (message.type !== 'selectionChange') diagnostics.push(message); } };
   let tree = surface.render(props);
   let view = nodes(tree, 'WebView')[0];
   const source = view.props.source;
   const scripts = [];
   view.props.ref.current = { injectJavaScript: script => scripts.push(script) };
   view.props.onMessage({ nativeEvent: { data: JSON.stringify({ ...identity, type: 'ready' }) } });
-  assert.equal(scripts.length, 1, 'the ready handshake applies initial appearance');
+  assert.equal(scripts.filter(script => script.includes('applyAppearance')).length, 1, 'the ready handshake applies initial appearance');
+  assert.equal(scripts.filter(script => script.includes('clearSelection')).length, 1, 'appearance explicitly invalidates runtime selection');
   tree = surface.render({ ...props, preferences: { ...preferences, fontSize: 24 } });
   view = nodes(tree, 'WebView')[0];
   assert.equal(view.props.source, source, 'appearance must not reload the reading document');
-  assert.equal(scripts.length, 2);
+  assert.equal(scripts.filter(script => script.includes('applyAppearance')).length, 2);
+  assert.equal(scripts.filter(script => script.includes('clearSelection')).length, 2);
   surface.scale(1.5);
   tree = surface.render({ ...props, preferences: { ...preferences, fontSize: 24 } });
   assert.equal(nodes(tree, 'WebView')[0].props.source, source);
-  assert.equal(scripts.length, 3, 'system font scale also updates the mounted document');
+  assert.equal(scripts.filter(script => script.includes('applyAppearance')).length, 3, 'system font scale also updates the mounted document');
+  assert.equal(scripts.filter(script => script.includes('clearSelection')).length, 3);
   assert.equal(view.props.textZoom, 100, 'CSS owns system text scaling exactly once');
   assert.equal(diagnostics[0].type, 'ready');
 });
@@ -141,7 +152,7 @@ test('native navigation rejects external and file URLs before they can leave the
 });
 
 test('native section commands remain typed, mounted and independent of appearance IDs', () => {
-  const canonical = { ...identity, text: 'A play', sections: [{ id: 'scene-one', start: 0, end: 6 }] };
+  const canonical = { ...identity, text: 'A play', units: [{ id: 'line-one', sectionId: 'scene-one', start: 0, textEnd: 6, end: 6 }], sections: [{ id: 'scene-one', start: 0, end: 6 }] };
   const doc = { ...document, canonical };
   const reference = { kind: 'section', workId: identity.workId, contentVersion: identity.contentVersion, canonicalTextVersion: '1', sectionId: 'scene-one' };
   const received = [], ref = { current: null }, scripts = [];
@@ -172,7 +183,7 @@ test('native section commands remain typed, mounted and independent of appearanc
 test('native messages ignore foreign documents and stale completions while load errors remain visible', () => {
   const surface = host('reader/ReaderSurface.native.js');
   const diagnostics = [];
-  const props = { document, onMessage: message => diagnostics.push(message) };
+  const props = { document, onMessage: message => { if (message.type !== 'selectionChange') diagnostics.push(message); } };
   let tree = surface.render(props);
   const view = nodes(tree, 'WebView')[0];
   const scripts = [];
@@ -183,7 +194,8 @@ test('native messages ignore foreign documents and stale completions while load 
   assert.equal(diagnostics.length, 0);
   send({ ...identity, type: 'ready' });
   send({ ...identity, type: 'ready' });
-  assert.equal(scripts.length, 1, 'duplicate ready messages do not start another request');
+  assert.equal(scripts.filter(script => script.includes('applyAppearance')).length, 1, 'duplicate ready messages do not start another request');
+  assert.equal(scripts.filter(script => script.includes('clearSelection')).length, 1, 'duplicate ready does not clear selection again');
   tree = surface.render({ ...props, preferences: { ...preferences, fontSize: 24 } });
   send({ ...identity, type: 'applied', requestId: 1 });
   assert.equal(diagnostics.length, 1, 'a prior valid request cannot complete the latest appearance');
@@ -280,12 +292,12 @@ test('web appearance messages require the owned frame and do not replace srcDoc'
     receive({ source: {}, data: JSON.stringify({ ...identity, type: 'ready' }) });
     assert.equal(messages.length, 0, 'another window cannot initialize this reader');
     receive({ source: frameWindow, data: JSON.stringify({ ...identity, type: 'ready' }) });
-    assert.equal(messages.length, 1);
+    assert.deepEqual(messages.map(message => message.type), ['bard-reader-selection-clear', 'bard-reader-appearance']);
     frame = nodes(surface.render({ ...props, preferences: { ...preferences, theme: 'night' } }), 'iframe')[0];
     assert.equal(frame.props.srcDoc, srcDoc);
-    assert.equal(messages.length, 2);
-    assert.equal(messages[1].payload.preferences.theme, 'night');
-    assert.ok(messages[1].payload.requestId > messages[0].payload.requestId);
+    assert.deepEqual(messages.map(message => message.type), ['bard-reader-selection-clear', 'bard-reader-appearance', 'bard-reader-selection-clear', 'bard-reader-appearance']);
+    assert.equal(messages[3].payload.preferences.theme, 'night');
+    assert.ok(messages[3].payload.requestId > messages[1].payload.requestId);
     assert.equal(frame.props.sandbox, 'allow-scripts');
   } finally {
     global.window = previousWindow;
@@ -322,7 +334,7 @@ test('web section commands keep the frame, reject foreign senders and ignore old
   const previousWindow = global.window;
   global.window = { addEventListener(type, callback) { if (type === 'message') receive = callback; }, removeEventListener() {} };
   try {
-    const canonical = { ...identity, text: 'A play', sections: [{ id: 'scene-one', start: 0, end: 6 }] };
+    const canonical = { ...identity, text: 'A play', units: [{ id: 'line-one', sectionId: 'scene-one', start: 0, textEnd: 6, end: 6 }], sections: [{ id: 'scene-one', start: 0, end: 6 }] };
     const reference = { kind: 'section', workId: identity.workId, contentVersion: identity.contentVersion, canonicalTextVersion: '1', sectionId: 'scene-one' };
     const doc = { ...document, canonical }, received = [], outbound = [], ref = { current: null };
     const surface = host('reader/ReaderSurface.web.js');
@@ -346,3 +358,129 @@ test('web section commands keep the frame, reject foreign senders and ignore old
     assert.throws(() => ref.current.jumpToSection({ ...reference, contentVersion: 'old' }));
   } finally { global.window = previousWindow; }
 });
+
+// These tests keep the production controller and protocol. Only the device
+// transport is replaced, so forged replies must survive both boundary parsers.
+function selectionBoundary(platform, onMessage) {
+  let receive;
+  const previousWindow = global.window;
+  if (platform === 'web') global.window = { addEventListener(type, callback) { if (type === 'message') receive = callback; }, removeEventListener() {} };
+  const surface = host(`reader/ReaderSurface.${platform}.js`);
+  const ref = { current: null }, commands = [];
+  let props = { document, preferences, onMessage };
+  let tree = surface.render(props, ref);
+  const type = platform === 'web' ? 'iframe' : 'WebView';
+  let view = nodes(tree, type)[0];
+  let focusRequests = 0;
+  const frameWindow = { postMessage(message, target) { assert.equal(target, '*'); commands.push(message); } };
+  if (platform === 'web') view.props.ref.current = { contentWindow: frameWindow };
+  else view.props.ref.current = {
+    requestFocus() { focusRequests++; },
+    injectJavaScript(script) {
+      const methods = { applyAppearance: 'appearance', jumpToSection: 'jump', focusSection: 'focus', captureSelection: 'selection-capture', clearSelection: 'selection-clear' };
+      const BardReader = Object.fromEntries(Object.entries(methods).map(([method, kind]) => [method, payload => commands.push({ type: `bard-reader-${kind}`, payload: JSON.parse(JSON.stringify(payload)) })]));
+      vm.runInNewContext(script, { window: { BardReader } });
+    },
+  };
+  return {
+    surface, ref, commands, frameWindow,
+    get view() { return view; },
+    get focusRequests() { return focusRequests; },
+    send(message, source = frameWindow) {
+      const data = JSON.stringify({ ...identity, ...message });
+      if (platform === 'web') receive({ source, data });
+      else view.props.onMessage({ nativeEvent: { data } });
+    },
+    render(update) { props = { ...props, ...update }; tree = surface.render(props, ref); view = nodes(tree, type)[0]; return tree; },
+    close() { surface.unmount(); if (platform === 'web') global.window = previousWindow; },
+  };
+}
+
+function captureReply(command, changes = {}) {
+  return { ...command.payload, type: 'selectionCapture', selectionSeq: 1, status: 'captured', selection: structuredClone(selection), ...changes };
+}
+
+for (const platform of ['native', 'web']) {
+  test(`${platform} captures live validated selection through a typed command and keeps latest callbacks`, async () => {
+    const received = [], latest = [];
+    const boundary = selectionBoundary(platform, message => received.push(message));
+    try {
+      const { ref, commands } = boundary;
+      assert.equal(typeof ref.current.captureSelection, 'function');
+      assert.equal(typeof ref.current.injectJavaScript, 'undefined');
+      assert.equal(boundary.view.props.menuItems, undefined, 'Android keeps the normal selection and Copy menu');
+      await assert.rejects(ref.current.captureSelection(), { code: 'SURFACE_UNAVAILABLE' });
+      boundary.send({ type: 'selectionChange', selectionRequestId: 0, selectionSeq: 1, state: 'range' });
+      assert.equal(received.filter(message => message.origin !== 'native').length, 0, 'wire selection is ignored before ready');
+      boundary.send({ type: 'ready' });
+      const source = boundary.view.props.source || boundary.view.props.srcDoc;
+      const pending = ref.current.captureSelection();
+      const command = commands.at(-1);
+      assert.equal(command.type, 'bard-reader-selection-capture');
+      assert.equal(command.payload.documentId, identity.documentId);
+      assert.ok(command.payload.selectionRequestId > 0);
+      boundary.render({ onMessage: message => latest.push(message) });
+      assert.equal(commands.at(-1), command, 'callback changes do not recreate the controller or reapply appearance');
+      boundary.send({ type: 'selectionChange', selectionRequestId: command.payload.selectionRequestId, selectionSeq: 2, state: 'range' });
+      boundary.send(captureReply(command, { selectionSeq: 1 }));
+      boundary.send(captureReply(command, { selectionSeq: 2, selection: { ...selection, exact: 'forged' } }));
+      if (platform === 'web') boundary.send(captureReply(command, { selectionSeq: 2 }), {});
+      boundary.send(captureReply(command, { selectionSeq: 2 }));
+      const snapshot = await pending;
+      assert.deepEqual(snapshot.selection, selection);
+      assert.equal(snapshot.selectionSeq, 2);
+      assert.equal(Object.isFrozen(snapshot.selection.startRef), true);
+      assert.deepEqual(latest.filter(message => message.origin !== 'native').map(message => message.type), ['selectionChange'], 'captured quotation is delivered only through its Promise');
+      assert.equal(received.filter(message => message.origin !== 'native').length, 1, 'stable callback ref directs wire provisional state to the latest listener');
+      const second = ref.current.captureSelection();
+      const next = commands.at(-1);
+      assert.notEqual(next.payload.captureToken, command.payload.captureToken);
+      boundary.send(captureReply(command, { selectionSeq: 3 }));
+      boundary.send({ ...next.payload, type: 'selectionCapture', selectionSeq: 3, status: 'rejected', code: 'NO_SELECTION' });
+      await assert.rejects(second, { code: 'NO_SELECTION' });
+      assert.equal(boundary.view.props.source || boundary.view.props.srcDoc, source);
+      assert.equal(boundary.focusRequests, 0);
+    } finally { boundary.close(); }
+  });
+
+  for (const action of ['cancel', 'appearance', 'navigation', 'error', 'appearanceError', 'document', 'unmount']) {
+    test(`${platform} ${action} invalidates a pending capture before its late runtime reply`, async () => {
+      const received = [];
+      const boundary = selectionBoundary(platform, message => received.push(message));
+      try {
+        boundary.send({ type: 'ready' });
+        const pending = boundary.ref.current.captureSelection();
+        const command = boundary.commands.at(-1);
+        const rejected = assert.rejects(pending, error => ['CANCELLED', 'DISPOSED'].includes(error.code));
+        if (action === 'cancel') boundary.ref.current.clearSelection();
+        if (action === 'appearance') boundary.ref.current.applyAppearance();
+        if (action === 'navigation') boundary.ref.current.jumpToSection({ kind: 'section', workId: 'hamlet', contentVersion: 'fixture-1', canonicalTextVersion: '1', sectionId: 'scene-one' });
+        if (action === 'error') boundary.view.props.onError();
+        if (action === 'appearanceError') boundary.send({ type: 'error', requestId: 1, code: 'FONT_LOAD_FAILED', message: 'Unable to load the selected font.' });
+        if (action === 'document') boundary.render({ document: { ...document, identity: { ...identity, documentId: 'replacement' } } });
+        if (action === 'unmount') boundary.surface.unmount();
+        boundary.send(captureReply(command));
+        await rejected;
+        assert.equal(received.some(message => message.type === 'selectionCapture'), false);
+        if (['cancel', 'appearance', 'navigation', 'appearanceError'].includes(action)) {
+          const clear = boundary.commands.findLast(message => message.type === 'bard-reader-selection-clear');
+          assert.equal(clear.payload.reason, action === 'appearanceError' ? 'appearance' : action);
+          assert.ok(clear.payload.selectionRequestId > command.payload.selectionRequestId);
+        }
+        if (action === 'document') {
+          await assert.rejects(boundary.ref.current.captureSelection(), { code: 'SURFACE_UNAVAILABLE' });
+          boundary.send({ type: 'ready' });
+          await assert.rejects(boundary.ref.current.captureSelection(), { code: 'SURFACE_UNAVAILABLE' });
+          boundary.send({ type: 'ready', documentId: 'replacement' });
+          const next = boundary.ref.current.captureSelection();
+          const nextCommand = boundary.commands.at(-1);
+          assert.equal(nextCommand.payload.documentId, 'replacement');
+          assert.notEqual(nextCommand.payload.captureToken, command.payload.captureToken);
+          boundary.send(captureReply(command));
+          boundary.send(captureReply(nextCommand));
+          assert.equal((await next).documentId, 'replacement');
+        }
+      } finally { boundary.close(); }
+    });
+  }
+}

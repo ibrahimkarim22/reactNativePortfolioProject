@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
 import { parseReaderMessage, sectionCommandPayload } from "./readerProtocol";
+import { createReaderSelectionController } from "./readerSelectionController";
+import { selectionCommandPayload } from "./readerSelectionProtocol";
 
 // The web target uses the same app-owned document in a script-only sandbox.
 // Its opaque origin prevents access to the parent app; messages are scoped to
@@ -21,24 +23,50 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   const readinessTimer = useRef(null);
   const activeDocument = useRef(document.identity.documentId);
   const latestAppearance = useRef(null);
+  const latestOnMessage = useRef(onMessage);
   const { fontScale } = useWindowDimensions();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const theme = THEMES[preferences.theme] || THEMES.paper;
   const srcDoc = useMemo(() => document.html, [document.html]);
   latestAppearance.current = { preferences, fontScale, fontFaces };
+  latestOnMessage.current = onMessage;
+
+  const report = useCallback(message => { latestOnMessage.current?.(message); }, []);
+  const selectionController = useMemo(() => createReaderSelectionController({
+    identity: document.identity,
+    canonical: document.canonical,
+    onChange: report,
+    send: (kind, payload) => {
+      if (!ready.current || !frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) {
+        throw Object.assign(new Error("The reading surface is unavailable."), { code: "SURFACE_UNAVAILABLE" });
+      }
+      frame.current.contentWindow.postMessage({
+        type: kind === "capture" ? "bard-reader-selection-capture" : "bard-reader-selection-clear",
+        payload: selectionCommandPayload(document.identity, payload.selectionRequestId, kind, kind === "capture" ? payload.captureToken : payload.reason),
+      }, "*");
+    },
+  }), [document.identity, document.canonical, report]);
+  useLayoutEffect(() => () => {
+    selectionController.clear("document");
+    selectionController.dispose();
+  }, [selectionController]);
 
   const applyAppearance = useCallback(() => {
+    selectionController.clear("appearance");
     if (!ready.current || !frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) return;
     frame.current.contentWindow.postMessage({
       type: "bard-reader-appearance",
       payload: { ...document.identity, requestId: ++requestId.current, ...latestAppearance.current },
     }, "*");
-  }, [document.identity]);
+  }, [document.identity, selectionController]);
 
   useImperativeHandle(forwardedRef, () => ({
     applyAppearance,
+    captureSelection: () => selectionController.capture(),
+    clearSelection: (reason = "cancel") => selectionController.clear(reason),
     jumpToSection: reference => {
+      selectionController.clear("navigation");
       if (!ready.current || !frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) return null;
       const next = navigationId.current + 1;
       const payload = sectionCommandPayload(document.identity, next, reference, document.canonical);
@@ -51,7 +79,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       frame.current?.contentWindow?.postMessage({ type: "bard-reader-focus", payload: sectionCommandPayload(document.identity, expectedId, reference, document.canonical) }, "*");
       return true;
     },
-  }), [applyAppearance, document.identity]);
+  }), [applyAppearance, document.identity, document.canonical, selectionController]);
 
   useLayoutEffect(() => {
     activeDocument.current = document.identity.documentId;
@@ -62,9 +90,10 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     setError(null);
     readinessTimer.current = setTimeout(() => {
       if (ready.current || activeDocument.current !== document.identity.documentId) return;
+      selectionController.clear("document");
       setLoading(false);
       setError("Unable to display this play. Go back and open it again.");
-      onMessage?.({ ...document.identity, type: "error", code: "DOCUMENT_READY_TIMEOUT", message: "The reading document did not become ready." });
+      report({ ...document.identity, type: "error", code: "DOCUMENT_READY_TIMEOUT", message: "The reading document did not become ready." });
     }, 15000);
     return () => clearTimeout(readinessTimer.current);
   }, [document.identity.documentId]);
@@ -80,36 +109,44 @@ const ReaderSurface = forwardRef(function ReaderSurface({
         clearTimeout(readinessTimer.current);
         setLoading(false);
         setError(null);
-        onMessage?.(message);
+        report(message);
         applyAppearance();
         return;
       }
       if (message.type === "error" && message.requestId == null && !ready.current) {
+        selectionController.clear("document");
         clearTimeout(readinessTimer.current);
         setLoading(false);
         setError("Unable to display this play. Go back and open it again.");
-        onMessage?.(message);
+        report(message);
         return;
       }
       if (!ready.current) return;
+      if (message.type === "selectionChange" || message.type === "selectionCapture") {
+        selectionController.receive(message);
+        return;
+      }
       if (message.type === "location") {
         if (message.locationSeq <= locationSeq.current) return;
         locationSeq.current = message.locationSeq;
-        onMessage?.(message);
+        report(message);
         return;
       }
       if (message.type === "jumped") {
-        if (message.navigationId === navigationId.current) onMessage?.(message);
+        if (message.navigationId === navigationId.current) report(message);
         return;
       }
       if (message.requestId != null && message.requestId !== requestId.current) return;
-      if (message.type === "error") setError("The reading appearance could not be updated. Your play is still open.");
+      if (message.type === "error") {
+        selectionController.clear("appearance");
+        setError("The reading appearance could not be updated. Your play is still open.");
+      }
       if (message.type === "applied") setError(null);
-      onMessage?.(message);
+      report(message);
     };
     window.addEventListener("message", receiveMessage);
     return () => window.removeEventListener("message", receiveMessage);
-  }, [applyAppearance, document.identity, onMessage]);
+  }, [applyAppearance, document.identity, document.canonical, report, selectionController]);
 
   useEffect(() => {
     applyAppearance();
@@ -117,11 +154,12 @@ const ReaderSurface = forwardRef(function ReaderSurface({
 
   const loadError = useCallback(() => {
     ready.current = false;
+    selectionController.clear("document");
     clearTimeout(readinessTimer.current);
     setLoading(false);
     setError("Unable to display this play. Go back and open it again.");
-    onMessage?.({ ...document.identity, type: "error", code: "SURFACE_LOAD_FAILED", message: "The reading surface could not load its local document." });
-  }, [document.identity, onMessage]);
+    report({ ...document.identity, type: "error", code: "SURFACE_LOAD_FAILED", message: "The reading surface could not load its local document." });
+  }, [document.identity, report, selectionController]);
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>

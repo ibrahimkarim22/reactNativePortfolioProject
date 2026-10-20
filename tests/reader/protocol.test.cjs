@@ -4,6 +4,16 @@ const vm = require('node:vm');
 const identity = { documentId: 'doc-1', workId: 'hamlet', contentVersion: 'v1', canonicalTextVersion: '1' };
 const preferences = { schemaVersion: 1, fontId: 'literata', fontSize: 20, lineSpacing: 'comfortable', theme: 'paper' };
 
+test('main bridge admits large validated captures without widening other message limits', () => {
+  const { createSelection } = require('../../shared/contentText');
+  const { parseReaderMessage } = require('../../reader/readerProtocol');
+  const canonical = { ...identity, text: 'a'.repeat(12000), units: [{ id: 'block', sectionId: 'scene', start: 0, textEnd: 12000, end: 12000 }] };
+  const captured = { ...identity, type: 'selectionCapture', selectionRequestId: 1, captureToken: 'capture-1', selectionSeq: 1, status: 'captured', selection: createSelection(canonical, 0, 10000) };
+  assert.equal(parseReaderMessage(JSON.stringify(captured), identity, canonical)?.selection.exact.length, 10000);
+  assert.equal(parseReaderMessage(JSON.stringify({ ...captured, type: 'applied' }), identity, canonical), null);
+  assert.equal(parseReaderMessage(JSON.stringify({ ...captured, documentId: 'old' }), identity, canonical), null);
+});
+
 test('protocol accepts only bounded allowlisted messages for the exact versioned document', () => {
   const { parseReaderMessage } = require('../../reader/readerProtocol');
   for (const type of ['ready', 'applied', 'error']) {

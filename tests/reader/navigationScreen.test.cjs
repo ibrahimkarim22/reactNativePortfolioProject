@@ -32,7 +32,7 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
   let cursor = 0, effects = [], dirty = false, options, focusCleanup, backs = 0;
   let preferences = { ...defaults };
   let preferenceWrites = 0;
-  const frames = new Map(), focused = [], jumps = [], sectionFocus = [];
+  const frames = new Map(), focused = [], jumps = [], sectionFocus = [], selectionClears = [];
   let frameId = 0;
   const same = (a, b) => a && b && a.length === b.length && a.every((value, index) => Object.is(value, b[index]));
   const memo = (factory, deps) => {
@@ -77,7 +77,7 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     },
     'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView', useSafeAreaInsets: () => ({ top: 24, bottom: 24 }) },
     '../shared/localPlayService': { getLocalPlayEntry: id => id === selectedEntry.slug ? selectedEntry : undefined },
-    './ReaderSurface': 'ReaderSurface', './ReaderAppearanceModal': 'ReaderAppearanceModal', './ReaderContentsModal': 'ReaderContentsModal',
+    './ReaderSurface': 'ReaderSurface', './ReaderAppearanceModal': 'ReaderAppearanceModal', './ReaderContentsModal': 'ReaderContentsModal', './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
     './useReaderPreferences': { __esModule: true, default: () => ({ ...settings, preferences }) },
     './readerFonts': { loadReaderFont: () => new Promise(() => {}) },
   };
@@ -97,10 +97,10 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     return module.exports;
   }
   const screen = load(path.join(root, 'reader/ReaderScreen.js')).default;
-  const surface = { jumpToSection: reference => { jumps.push(reference); return jumps.length; }, focusSection: (reference, id) => { sectionFocus.push({ reference, id }); return true; } };
+  const surface = { jumpToSection: reference => { jumps.push(reference); return jumps.length; }, focusSection: (reference, id) => { sectionFocus.push({ reference, id }); return true; }, clearSelection: reason => selectionClears.push(reason) };
   let latest;
   const api = {
-    focused, jumps, sectionFocus, update,
+    focused, jumps, sectionFocus, update, selectionClears,
     get options() { return options; }, get backs() { return backs; }, get preferenceWrites() { return preferenceWrites; },
     render() {
       let attempts = 0;
@@ -329,4 +329,14 @@ test('invalid navigation metadata fails visibly before mounting a surface or sta
   const tree = screen.render();
   assert.equal(nodes(tree, 'ReaderSurface').length, 0);
   assert.match(text(tree), /Unable to open this play/);
+});
+
+test('modal opening and route blur clear live selection before moving focus', () => {
+  const screen = host(); let tree = ready(screen);
+  screen.options.headerRight().props.onPress();
+  assert.equal(screen.selectionClears.at(-1), 'modal');
+  tree = screen.render(); open(screen, tree);
+  assert.equal(screen.selectionClears.at(-1), 'contents');
+  screen.blur();
+  assert.equal(screen.selectionClears.at(-1), 'document');
 });

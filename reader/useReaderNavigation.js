@@ -105,6 +105,7 @@ export default function useReaderNavigation({ document, model }) {
   }, [itemsById, cancel]);
 
   const openContents = useCallback(() => {
+    surfaceRef.current?.clearSelection?.("contents");
     cancel();
     setContentsOpen(true);
   }, [cancel]);

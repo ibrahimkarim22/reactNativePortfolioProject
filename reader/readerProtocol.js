@@ -1,5 +1,6 @@
 const { FONTS, THEMES, LINE_SPACING } = require('./readerConstants');
 const { resolveSectionReference } = require('../shared/contentText');
+const { parseSelectionMessage } = require('./readerSelectionProtocol');
 
 const IDENTITY_FIELDS = ['documentId', 'workId', 'contentVersion', 'canonicalTextVersion'];
 const MAX_MESSAGE_LENGTH = 8192;
@@ -18,11 +19,14 @@ function validDiagnostics(value) {
 }
 
 function parseReaderMessage(raw, identity, canonical) {
-  if (!isIdentity(identity) || typeof raw !== 'string' || raw.length === 0 || raw.length > MAX_MESSAGE_LENGTH) return null;
+  if (!isIdentity(identity) || typeof raw !== 'string' || raw.length === 0) return null;
+  // Only a validated captured quotation may use the larger response envelope.
+  if (raw.length > MAX_MESSAGE_LENGTH) return parseSelectionMessage(raw, identity, canonical);
   let message;
   try { message = JSON.parse(raw); } catch (_) { return null; }
   if (!message || typeof message !== 'object' || Array.isArray(message)
       || !IDENTITY_FIELDS.every(key => message[key] === identity[key])) return null;
+  if (message.type === 'selectionChange' || message.type === 'selectionCapture') return parseSelectionMessage(raw, identity, canonical);
   if (message.type === 'location' || message.type === 'jumped') {
     const sequence = message.type === 'location' ? 'locationSeq' : 'navigationId';
     const allowed = [...IDENTITY_FIELDS, 'type', 'sectionId', sequence];

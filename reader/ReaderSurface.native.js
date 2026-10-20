@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import { WebView } from "react-native-webview";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
-import { buildAppearanceScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
+import { buildAppearanceScript, buildNavigationScript, buildSectionFocusScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
 
 const ReaderSurface = forwardRef(function ReaderSurface({
   document,
@@ -14,6 +14,8 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   const webView = useRef(null);
   const ready = useRef(false);
   const requestId = useRef(0);
+  const navigationId = useRef(0);
+  const locationSeq = useRef(0);
   const readinessTimer = useRef(null);
   const activeDocument = useRef(document.identity.documentId);
   const latestAppearance = useRef(null);
@@ -35,12 +37,26 @@ const ReaderSurface = forwardRef(function ReaderSurface({
 
   useImperativeHandle(forwardedRef, () => ({
     applyAppearance,
-    injectJavaScript: script => webView.current?.injectJavaScript(script),
+    jumpToSection: reference => {
+      if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) return null;
+      const next = navigationId.current + 1;
+      const script = buildNavigationScript(document.identity, next, reference, document.canonical);
+      navigationId.current = next;
+      webView.current.injectJavaScript(script);
+      return next;
+    },
+    focusSection: (reference, expectedId) => {
+      if (!ready.current || expectedId !== navigationId.current || activeDocument.current !== document.identity.documentId) return false;
+      webView.current?.injectJavaScript(buildSectionFocusScript(document.identity, expectedId, reference, document.canonical));
+      return true;
+    },
   }), [applyAppearance]);
 
   useLayoutEffect(() => {
     activeDocument.current = document.identity.documentId;
     ready.current = false;
+    navigationId.current = 0;
+    locationSeq.current = 0;
     setLoading(true);
     setError(null);
     readinessTimer.current = setTimeout(() => {
@@ -58,7 +74,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
 
   const receiveMessage = useCallback(event => {
     if (activeDocument.current !== document.identity.documentId) return;
-    const message = parseReaderMessage(event.nativeEvent?.data, document.identity);
+    const message = parseReaderMessage(event.nativeEvent?.data, document.identity, document.canonical);
     if (!message) return;
     if (message.type === "ready") {
       if (ready.current) return;
@@ -77,7 +93,18 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       report(message);
       return;
     }
-    if (!ready.current || (message.requestId != null && message.requestId !== requestId.current)) return;
+    if (!ready.current) return;
+    if (message.type === "location") {
+      if (message.locationSeq <= locationSeq.current) return;
+      locationSeq.current = message.locationSeq;
+      report(message);
+      return;
+    }
+    if (message.type === "jumped") {
+      if (message.navigationId === navigationId.current) report(message);
+      return;
+    }
+    if (message.requestId != null && message.requestId !== requestId.current) return;
     if (message.type === "error") {
       setLoading(false);
       setError("The reading appearance could not be updated. Your play is still open.");

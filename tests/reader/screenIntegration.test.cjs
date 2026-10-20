@@ -92,6 +92,7 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
     '../shared/localPlayService': { getLocalPlayEntry: id => { lookups.push(id); return id == null || id === selectedEntry?.slug ? selectedEntry : undefined; } },
     './ReaderSurface': 'ReaderSurface',
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
+    './ReaderContentsModal': 'ReaderContentsModal',
     './useReaderPreferences': { __esModule: true, default: usePreferences, useReaderPreferences: usePreferences },
     './readerFonts': { loadReaderFont: fontId => { const pending = deferred(); fonts.push({ fontId, ...pending }); return pending.promise; } },
   };
@@ -99,8 +100,8 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
   const module = { exports: {} };
   const localRequire = specifier => {
     if (specifier in dependencies) return dependencies[specifier];
-    if (specifier === './useReaderModalFocus') {
-      const hookFile = path.join(root, 'reader/useReaderModalFocus.js');
+    if (specifier === './useReaderModalFocus' || specifier === './useReaderNavigation') {
+      const hookFile = path.join(root, 'reader', specifier.slice(2) + '.js');
       const hookCode = babel.transformFileSync(hookFile, { babelrc: false, configFile: false, plugins: ['@babel/plugin-transform-modules-commonjs'] }).code;
       const hook = { exports: {} };
       vm.runInThisContext('(function(require,module,exports,requestAnimationFrame,cancelAnimationFrame){' + hookCode + '\n})', { filename: hookFile })(

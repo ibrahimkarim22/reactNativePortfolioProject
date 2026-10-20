@@ -53,6 +53,10 @@ function host(relativeFile, overrides = {}) {
     'react-native-webview': { WebView: 'WebView' },
     '../Componenets/Loader': 'Loader',
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
+    './ReaderContentsModal': 'ReaderContentsModal',
+    // These screen cases isolate surface/header lifetimes. Navigation's real
+    // model and screen integration are exercised by their dedicated suites.
+    './readerNavigation': { buildReaderNavigation: () => ({ items: [], initialSectionId: null }) },
     './useReaderModalFocus': { __esModule: true, default: () => ({ triggerRef: React.useRef(null), restoreAfterClose() {}, onDismiss() {}, cancel() {} }) },
     './useReaderPreferences': { __esModule: true, default: () => ({ preferences, hydrated: true, error: null, saving: false, update() {}, reset() {}, retry() {}, flush() {} }) },
     './readerFonts': { loadReaderFont: () => new Promise(() => {}) },
@@ -69,6 +73,14 @@ function host(relativeFile, overrides = {}) {
   let timerId = 0;
   const requireDependency = specifier => {
     if (specifier in dependencies) return dependencies[specifier];
+    if (specifier === './useReaderNavigation') {
+      const file = path.join(root, 'reader/useReaderNavigation.js');
+      const code = babel.transformFileSync(file, { babelrc: false, configFile: false, plugins: ['@babel/plugin-transform-modules-commonjs'] }).code;
+      const hook = { exports: {} };
+      vm.runInThisContext('(function(require,module,exports,requestAnimationFrame,cancelAnimationFrame){' + code + '\n})')(requireDependency, hook, hook.exports,
+        callback => { timers.set(++timerId, callback); return timerId; }, id => timers.delete(id));
+      return hook.exports;
+    }
     return require(path.resolve(path.dirname(file), specifier));
   };
   vm.runInThisContext('(function(require,module,exports,setTimeout,clearTimeout,__DEV__){' + compiled + '\n})', { filename: file })(
@@ -126,6 +138,35 @@ test('native navigation rejects external and file URLs before they can leave the
   assert.equal(view.props.javaScriptCanOpenWindowsAutomatically, false);
   assert.equal(view.props.domStorageEnabled, false);
   assert.equal(view.props.webviewDebuggingEnabled, false, 'release surfaces do not expose development inspection');
+});
+
+test('native section commands remain typed, mounted and independent of appearance IDs', () => {
+  const canonical = { ...identity, text: 'A play', sections: [{ id: 'scene-one', start: 0, end: 6 }] };
+  const doc = { ...document, canonical };
+  const reference = { kind: 'section', workId: identity.workId, contentVersion: identity.contentVersion, canonicalTextVersion: '1', sectionId: 'scene-one' };
+  const received = [], ref = { current: null }, scripts = [];
+  let nativeFocusRequests = 0;
+  const surface = host('reader/ReaderSurface.native.js');
+  const props = { document: doc, preferences, onMessage: message => received.push(message) };
+  const view = nodes(surface.render(props, ref), 'WebView')[0];
+  view.props.ref.current = { injectJavaScript: script => scripts.push(script), requestFocus: () => nativeFocusRequests++ };
+  assert.equal(typeof ref.current.injectJavaScript, 'undefined', 'callers cannot send arbitrary source');
+  assert.equal(typeof ref.current.jumpToSection, 'function');
+  assert.equal(ref.current.jumpToSection(reference), null, 'wait for the document handshake');
+  const send = value => view.props.onMessage({ nativeEvent: { data: JSON.stringify({ ...identity, ...value }) } });
+  send({ type: 'ready' });
+  assert.equal(ref.current.jumpToSection(reference), 1);
+  surface.render({ ...props, preferences: { ...preferences, fontSize: 24 } }, ref);
+  send({ type: 'location', sectionId: 'scene-one', locationSeq: 2 });
+  send({ type: 'location', sectionId: 'scene-one', locationSeq: 1 });
+  send({ type: 'jumped', sectionId: 'scene-one', navigationId: 1 });
+  send({ type: 'jumped', sectionId: 'scene-one', navigationId: 99 });
+  assert.equal(received.filter(m => m.type === 'location').length, 1);
+  assert.equal(received.filter(m => m.type === 'jumped').length, 1);
+  assert.equal(nodes(surface.render(props, ref), 'WebView')[0].props.source, view.props.source);
+  assert.ok(scripts.some(script => script.includes('jumpToSection')));
+  ref.current.focusSection(reference, 1);
+  assert.equal(nativeFocusRequests, 0, 'only the runtime may focus after validating the surviving jump intent');
 });
 
 test('native messages ignore foreign documents and stale completions while load errors remain visible', () => {
@@ -274,4 +315,34 @@ test('web clears an appearance error once a newer request applies successfully',
   } finally {
     global.window = previousWindow;
   }
+});
+
+test('web section commands keep the frame, reject foreign senders and ignore old location sequences', () => {
+  let receive;
+  const previousWindow = global.window;
+  global.window = { addEventListener(type, callback) { if (type === 'message') receive = callback; }, removeEventListener() {} };
+  try {
+    const canonical = { ...identity, text: 'A play', sections: [{ id: 'scene-one', start: 0, end: 6 }] };
+    const reference = { kind: 'section', workId: identity.workId, contentVersion: identity.contentVersion, canonicalTextVersion: '1', sectionId: 'scene-one' };
+    const doc = { ...document, canonical }, received = [], outbound = [], ref = { current: null };
+    const surface = host('reader/ReaderSurface.web.js');
+    const props = { document: doc, preferences, onMessage: m => received.push(m) };
+    const frame = nodes(surface.render(props, ref), 'iframe')[0];
+    const frameWindow = { postMessage: message => outbound.push(message) };
+    frame.props.ref.current = { contentWindow: frameWindow };
+    assert.equal(ref.current.jumpToSection(reference), null);
+    const send = value => receive({ source: frameWindow, data: JSON.stringify({ ...identity, ...value }) });
+    send({ type: 'ready' });
+    assert.equal(ref.current.jumpToSection(reference), 1);
+    assert.equal(outbound.at(-1).type, 'bard-reader-jump');
+    assert.equal(outbound.at(-1).payload.sectionId, 'scene-one');
+    receive({ source: {}, data: JSON.stringify({ ...identity, type: 'location', locationSeq: 1, sectionId: 'scene-one' }) });
+    send({ type: 'location', sectionId: 'scene-one', locationSeq: 2 });
+    send({ type: 'location', sectionId: 'scene-one', locationSeq: 1 });
+    send({ type: 'jumped', sectionId: 'scene-one', navigationId: 1 });
+    assert.equal(received.filter(m => m.type === 'location').length, 1);
+    assert.equal(received.filter(m => m.type === 'jumped').length, 1);
+    assert.equal(nodes(surface.render(props, ref), 'iframe')[0].props.srcDoc, frame.props.srcDoc);
+    assert.throws(() => ref.current.jumpToSection({ ...reference, contentVersion: 'old' }));
+  } finally { global.window = previousWindow; }
 });

@@ -2,7 +2,7 @@ import React, { forwardRef, useCallback, useEffect, useImperativeHandle, useLayo
 import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
-import { parseReaderMessage } from "./readerProtocol";
+import { parseReaderMessage, sectionCommandPayload } from "./readerProtocol";
 
 // The web target uses the same app-owned document in a script-only sandbox.
 // Its opaque origin prevents access to the parent app; messages are scoped to
@@ -16,6 +16,8 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   const frame = useRef(null);
   const ready = useRef(false);
   const requestId = useRef(0);
+  const navigationId = useRef(0);
+  const locationSeq = useRef(0);
   const readinessTimer = useRef(null);
   const activeDocument = useRef(document.identity.documentId);
   const latestAppearance = useRef(null);
@@ -34,11 +36,28 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     }, "*");
   }, [document.identity]);
 
-  useImperativeHandle(forwardedRef, () => ({ applyAppearance }), [applyAppearance]);
+  useImperativeHandle(forwardedRef, () => ({
+    applyAppearance,
+    jumpToSection: reference => {
+      if (!ready.current || !frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) return null;
+      const next = navigationId.current + 1;
+      const payload = sectionCommandPayload(document.identity, next, reference, document.canonical);
+      navigationId.current = next;
+      frame.current.contentWindow.postMessage({ type: "bard-reader-jump", payload }, "*");
+      return next;
+    },
+    focusSection: (reference, expectedId) => {
+      if (!ready.current || expectedId !== navigationId.current || activeDocument.current !== document.identity.documentId) return false;
+      frame.current?.contentWindow?.postMessage({ type: "bard-reader-focus", payload: sectionCommandPayload(document.identity, expectedId, reference, document.canonical) }, "*");
+      return true;
+    },
+  }), [applyAppearance, document.identity]);
 
   useLayoutEffect(() => {
     activeDocument.current = document.identity.documentId;
     ready.current = false;
+    navigationId.current = 0;
+    locationSeq.current = 0;
     setLoading(true);
     setError(null);
     readinessTimer.current = setTimeout(() => {
@@ -53,7 +72,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   useLayoutEffect(() => {
     const receiveMessage = event => {
       if (event.source !== frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) return;
-      const message = parseReaderMessage(event.data, document.identity);
+      const message = parseReaderMessage(event.data, document.identity, document.canonical);
       if (!message) return;
       if (message.type === "ready") {
         if (ready.current) return;
@@ -72,7 +91,18 @@ const ReaderSurface = forwardRef(function ReaderSurface({
         onMessage?.(message);
         return;
       }
-      if (!ready.current || (message.requestId != null && message.requestId !== requestId.current)) return;
+      if (!ready.current) return;
+      if (message.type === "location") {
+        if (message.locationSeq <= locationSeq.current) return;
+        locationSeq.current = message.locationSeq;
+        onMessage?.(message);
+        return;
+      }
+      if (message.type === "jumped") {
+        if (message.navigationId === navigationId.current) onMessage?.(message);
+        return;
+      }
+      if (message.requestId != null && message.requestId !== requestId.current) return;
       if (message.type === "error") setError("The reading appearance could not be updated. Your play is still open.");
       if (message.type === "applied") setError(null);
       onMessage?.(message);

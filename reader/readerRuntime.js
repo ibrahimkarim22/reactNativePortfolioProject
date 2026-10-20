@@ -1,9 +1,10 @@
 const { THEMES, FONTS, LINE_SPACING } = require('./readerConstants');
 const { scriptJson } = require('./readerProtocol');
+const { NAVIGATION_RUNTIME_SOURCE } = require('./readerNavigationRuntime');
 
 // A fixed application-owned program survives Hermes bytecode and Metro transforms.
 // Keep the WebView runtime here once, as source data rather than a native function.
-const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing) {
+const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing, installNavigation) {
   'use strict';
   let latestRequest = 0;
   // A burst of requests shares the point captured before its first reflow.
@@ -13,10 +14,12 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
   let own = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   let blocks = Array.prototype.slice.call(document.querySelectorAll('[data-reader-block]'));
   const fontCache = Object.create(null);
+  let navigation = null;
 
   function userInteraction() {
     interactionVersion += 1;
     pendingPoint = null;
+    if (navigation) navigation.cancel();
   }
 
   function observeScroll() {
@@ -199,25 +202,33 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
       await layout();
       if (requestId !== latestRequest) return false;
       observeScroll();
-      if (pointVersion === interactionVersion) restorePoint(point);
+      if (!navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
       pendingPoint = null;
+      navigation.refresh();
       send('applied', { requestId: requestId, diagnostics: diagnostics() });
       return true;
     } catch (_) {
       if (requestId === latestRequest) {
         observeScroll();
-        if (pointVersion === interactionVersion) restorePoint(point);
+        if (!navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
         pendingPoint = null;
+        navigation.refresh();
         send('error', { requestId: requestId, code: 'FONT_LOAD_FAILED', message: 'The local reading font could not be applied.' });
       }
       return false;
     }
   }
 
-  window.BardReader = Object.freeze({ applyAppearance: applyAppearance });
+  navigation = installNavigation({ identity: identity, blocks: blocks, send: send, layout: layout,
+    observeScroll: observeScroll,
+    newIntent: userInteraction, interactionVersion: function () { return interactionVersion; },
+    markOwnScroll: function () { observedScrollY = window.scrollY || window.pageYOffset || 0; } });
+  window.BardReader = Object.freeze({ applyAppearance: applyAppearance, jumpToSection: navigation.jumpToSection, focusSection: navigation.focusSection });
   window.addEventListener('message', function (event) {
-    if (event.source !== window.parent || !event.data || event.data.type !== 'bard-reader-appearance') return;
-    applyAppearance(event.data.payload);
+    if (event.source !== window.parent || !event.data) return;
+    if (event.data.type === 'bard-reader-appearance') applyAppearance(event.data.payload);
+    else if (event.data.type === 'bard-reader-jump') navigation.jumpToSection(event.data.payload);
+    else if (event.data.type === 'bard-reader-focus') navigation.focusSection(event.data.payload);
   });
   window.addEventListener('scroll', observeScroll, { passive: true });
   ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (type) {
@@ -227,10 +238,11 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     if (event.target && event.target.closest && event.target.closest('a')) event.preventDefault();
   });
   send('ready', { diagnostics: diagnostics() });
+  navigation.refresh();
 }`;
 
 function createReaderRuntimeScript(identity) {
-  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ');';
+  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ',' + NAVIGATION_RUNTIME_SOURCE + ');';
 }
 
 module.exports = { createReaderRuntimeScript };

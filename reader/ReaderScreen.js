@@ -5,12 +5,15 @@ import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context"
 import { getLocalPlayEntry } from "../shared/localPlayService";
 import ReaderSurface from "./ReaderSurface";
 import ReaderAppearanceModal from "./ReaderAppearanceModal";
+import ReaderContentsModal from "./ReaderContentsModal";
 import { createReaderDocument } from "./readerDocument";
+import { buildReaderNavigation } from "./readerNavigation";
 import { THEMES } from "./readerConstants";
 import { createFontSelection } from "./fontSelection";
 import { loadReaderFont } from "./readerFonts";
 import useReaderPreferences from "./useReaderPreferences";
 import useReaderModalFocus from "./useReaderModalFocus";
+import useReaderNavigation from "./useReaderNavigation";
 
 let nextDocumentId = 0;
 
@@ -32,11 +35,13 @@ export default function ReaderScreen({ id }) {
   const result = useMemo(() => {
     if (!entry) return { error: "This play could not be found in the local library." };
     try {
-      return { document: createReaderDocument(entry, { documentId: `reader-${++nextDocumentId}` }) };
+      const document = createReaderDocument(entry, { documentId: `reader-${++nextDocumentId}` });
+      return { document, model: buildReaderNavigation(entry, document.canonical) };
     } catch (error) {
       return { error: "The local text could not be prepared. Go back and open this play again." };
     }
   }, [entry, entry?.play?.contentVersion, entry?.play?.canonicalTextVersion]);
+  const readerNavigation = useReaderNavigation(result);
   const title = entry?.play?.title || entry?.name || "Read play";
   const fontSelection = useMemo(() => createFontSelection(loadReaderFont, setFontStatus), []);
 
@@ -48,13 +53,19 @@ export default function ReaderScreen({ id }) {
 
   const openAppearance = useCallback(() => {
     cancelFocusReturn();
+    readerNavigation.dismissContents();
     setAppearanceOpen(true);
-  }, [cancelFocusReturn]);
+  }, [cancelFocusReturn, readerNavigation.dismissContents]);
   const closeAppearance = useCallback(() => {
     restoreAfterClose();
     setAppearanceOpen(false);
     flush();
   }, [flush, restoreAfterClose]);
+  const openContents = useCallback(() => {
+    cancelFocusReturn();
+    setAppearanceOpen(false);
+    readerNavigation.openContents();
+  }, [cancelFocusReturn, readerNavigation.openContents]);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -89,21 +100,40 @@ export default function ReaderScreen({ id }) {
   }, [navigation, theme, title, fontScale, insets.top, openAppearance]);
 
   useFocusEffect(useCallback(() => {
+    readerNavigation.activate();
     const status = Platform.OS === "web" ? null : StatusBar.pushStackEntry({
       barStyle: preferences.theme === "night" ? "light-content" : "dark-content",
       backgroundColor: theme.background,
     });
     return () => {
       cancelFocusReturn();
+      readerNavigation.deactivate();
       if (status != null) StatusBar.popStackEntry(status);
     };
-  }, [preferences.theme, theme.background, cancelFocusReturn]));
+  }, [preferences.theme, theme.background, cancelFocusReturn, readerNavigation.activate, readerNavigation.deactivate]));
 
   return (
     <SafeAreaView edges={["bottom"]} style={[styles.container, { backgroundColor: theme.background }]}>
-      <View style={styles.container} accessibilityElementsHidden={appearanceOpen} importantForAccessibility={appearanceOpen ? "no-hide-descendants" : "auto"}>
+      <View style={styles.container} accessibilityElementsHidden={appearanceOpen || readerNavigation.contentsOpen} importantForAccessibility={appearanceOpen || readerNavigation.contentsOpen ? "no-hide-descendants" : "auto"}>
+      {result.document && (
+        <Pressable
+          ref={readerNavigation.contentsButton}
+          accessibilityRole="button"
+          accessibilityLabel={readerNavigation.current ? `Contents, ${readerNavigation.current.locationLabel}` : "Contents"}
+          accessibilityHint="Choose an act, scene or other section"
+          accessibilityActions={readerNavigation.ready ? [{ name: "readCurrentSection", label: "Read from current section" }] : []}
+          onAccessibilityAction={event => {
+            if (event.nativeEvent.actionName === "readCurrentSection") readerNavigation.jumpToSection(readerNavigation.currentSectionId);
+          }}
+          onPress={openContents}
+          style={[styles.locationRow, { backgroundColor: theme.background, borderBottomColor: theme.border }]}
+        >
+          <Text style={[styles.locationLabel, { color: theme.secondary }]}>{readerNavigation.current?.locationLabel || "Preparing play contents…"}</Text>
+          <Text accessibilityElementsHidden importantForAccessibility="no" style={[styles.locationChevron, { color: theme.accent }]}>›</Text>
+        </Pressable>
+      )}
       {result.document && hydrated ? (
-        <ReaderSurface document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} />
+        <ReaderSurface ref={readerNavigation.surfaceRef} document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} onMessage={readerNavigation.onMessage} />
       ) : result.document ? (
         <View style={styles.loading} accessibilityLabel="Loading reading settings">
           <ActivityIndicator color={theme.accent} />
@@ -116,6 +146,16 @@ export default function ReaderScreen({ id }) {
         </View>
       )}
       </View>
+      <ReaderContentsModal
+        visible={readerNavigation.contentsOpen}
+        model={result.model}
+        currentSectionId={readerNavigation.currentSectionId}
+        theme={theme}
+        ready={hydrated && readerNavigation.ready}
+        onSelect={readerNavigation.jumpToSection}
+        onClose={readerNavigation.closeContents}
+        onDismiss={readerNavigation.onDismiss}
+      />
       <ReaderAppearanceModal
         visible={appearanceOpen}
         preferences={preferences}
@@ -140,6 +180,9 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 17, lineHeight: 22, fontWeight: "600" },
   appearanceButton: { minWidth: 48, minHeight: 48, alignItems: "center", justifyContent: "center", marginRight: 8 },
   appearanceLabel: { fontSize: 22, fontWeight: "600" },
+  locationRow: { minWidth: 48, minHeight: 48, alignSelf: "stretch", flexDirection: "row", alignItems: "center", borderBottomWidth: StyleSheet.hairlineWidth, paddingHorizontal: 20, paddingVertical: 12 },
+  locationLabel: { flex: 1, fontSize: 15, lineHeight: 22, flexShrink: 1 },
+  locationChevron: { flexShrink: 0, marginLeft: 12, fontSize: 24, lineHeight: 28 },
   loading: { flex: 1, alignItems: "center", justifyContent: "center", gap: 16, padding: 24 },
   error: { flex: 1, justifyContent: "center", paddingHorizontal: 24 },
   errorTitle: { fontSize: 22, fontWeight: "600", marginBottom: 12 },

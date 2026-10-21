@@ -1,6 +1,7 @@
 const { FONTS, THEMES, LINE_SPACING } = require('./readerConstants');
 const { resolveSectionReference } = require('../shared/contentText');
 const { parseSelectionMessage } = require('./readerSelectionProtocol');
+const { parseHighlightMessage } = require('./readerHighlightProtocol');
 
 const IDENTITY_FIELDS = ['documentId', 'workId', 'contentVersion', 'canonicalTextVersion'];
 const MAX_MESSAGE_LENGTH = 8192;
@@ -27,6 +28,7 @@ function parseReaderMessage(raw, identity, canonical) {
   if (!message || typeof message !== 'object' || Array.isArray(message)
       || !IDENTITY_FIELDS.every(key => message[key] === identity[key])) return null;
   if (message.type === 'selectionChange' || message.type === 'selectionCapture') return parseSelectionMessage(raw, identity, canonical);
+  if (message.type === 'highlightsApplied' || message.type === 'highlightShown') return parseHighlightMessage(raw, identity);
   if (message.type === 'location' || message.type === 'jumped') {
     const sequence = message.type === 'location' ? 'locationSeq' : 'navigationId';
     const allowed = [...IDENTITY_FIELDS, 'type', 'sectionId', sequence];

@@ -14,6 +14,7 @@ export default function useReaderNavigation({ document, model }) {
   const visible = useRef(contentsOpen);
   const activeDocument = useRef(document);
   const surfaceReady = useRef(false);
+  const initializedDocument = useRef(null);
   const locationSeq = useRef(0);
   const pending = useRef(null);
   const frame = useRef(null);
@@ -54,6 +55,11 @@ export default function useReaderNavigation({ document, model }) {
   }, [cancel]);
 
   useEffect(() => {
+    // Effect replay/Fast Refresh cannot ask the already mounted source to emit
+    // its one ready handshake again. A new document identity starts a new run.
+    const identity = document?.identity.documentId;
+    if (identity === initializedDocument.current) return;
+    initializedDocument.current = identity;
     cancel();
     surfaceReady.current = false;
     locationSeq.current = 0;

@@ -172,7 +172,24 @@ function createSelectionDom(root, identity) {
       offsetUnit: 'utf16', start: start, end: end, startRef: reference(start, false), endRef: reference(end, true),
       exact: text.slice(start, end), prefix: text.slice(prefixStart, start), suffix: text.slice(end, suffixEnd) };
   }
-  return { read: read };
+  function rangesFor(start, end, createRange) {
+    validateIndex();
+    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start < 0 || end > text.length || start >= end
+        || typeof createRange !== 'function') fail('INVALID_RANGE', 'A bounded canonical text range is required.');
+    if (splitsSurrogate(start) || splitsSurrogate(end)) fail('SURROGATE_BOUNDARY', 'A range endpoint cannot divide a UTF-16 surrogate pair.');
+    if (end - start > MAX_CAPTURE) fail('SELECTION_TOO_LARGE', 'The selection exceeds 16,384 UTF-16 units.');
+    const ranges = [];
+    snapshots.forEach(function(record) {
+      if (record.type !== 3 || record.end <= start || record.start >= end || record.start === record.end) return;
+      const range = createRange();
+      range.setStart(record.node, Math.max(start, record.start) - record.start);
+      range.setEnd(record.node, Math.min(end, record.end) - record.start);
+      ranges.push(range);
+    });
+    if (!ranges.length) fail('SEPARATOR_ONLY', 'A highlight must include original source text.');
+    return ranges;
+  }
+  return { read: read, rangesFor: rangesFor };
 }
 `;
 

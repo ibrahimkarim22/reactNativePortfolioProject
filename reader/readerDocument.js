@@ -1,6 +1,7 @@
 const { buildCanonicalDocument } = require('../shared/contentText');
 const { DEFAULT_PREFERENCES, THEMES } = require('./readerConstants');
 const { createReaderRuntimeScript } = require('./readerRuntime');
+const { HIGHLIGHT_PALETTE } = require('./readerHighlights');
 
 const BLOCK_TAGS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'pre', 'blockquote']);
 const INLINE_TAGS = new Set(['b', 'i', 'em', 'strong', 'u', 's', 'sup', 'sub', 'small', 'span', 'code']);
@@ -83,7 +84,8 @@ function createReaderDocument(entry, options) {
     return `<${tag}${attributes({ 'data-reader-block': 'true', 'data-text-id': unit.id, 'data-section-id': unit.sectionId, 'data-start': unit.start, 'data-text-end': unit.textEnd, 'data-end': unit.end, 'data-separator': separator, 'data-boundary': boundaryOf(separator), 'data-reader-role': semanticRole(block, section), 'data-source-tag': block.tag || '', 'data-source-classes': JSON.stringify(sourceClasses), ...(mapped.length ? { class: mapped.join(' ') } : {}) })}>${renderText(block)}</${tag}>`;
   }).join('');
   const csp = "default-src 'none'; script-src 'nonce-bard-reader-v1'; style-src 'unsafe-inline'; font-src data:; connect-src 'none'; img-src 'none'; media-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'";
-  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="${escapeHtml(csp)}"><title>${escapeHtml(entry.play.title || entry.play.id)}</title><style>${styles()}</style></head><body><main>${body}</main><script nonce="bard-reader-v1">${createReaderRuntimeScript(identity)}</script></body></html>`;
+  const highlightStyles = Object.entries(HIGHLIGHT_PALETTE).map(([id, color]) => `::highlight(bard-highlight-${id}){background-color:var(--highlight-${id},${color.background.paper});color:var(--reader-text)}`).join('');
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="${escapeHtml(csp)}"><title>${escapeHtml(entry.play.title || entry.play.id)}</title><style>${styles()}${highlightStyles}</style></head><body><main>${body}</main><script nonce="bard-reader-v1">${createReaderRuntimeScript(identity)}</script></body></html>`;
   return { html, identity, canonical };
 }
 

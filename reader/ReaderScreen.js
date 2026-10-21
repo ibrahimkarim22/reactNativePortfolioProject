@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useLayoutEffect, useMemo, useState } from "react";
-import { ActivityIndicator, Platform, Pressable, StatusBar, StyleSheet, Text, View, useWindowDimensions } from "react-native";
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { ActivityIndicator, Alert, Platform, Pressable, StatusBar, StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
 import { getLocalPlayEntry } from "../shared/localPlayService";
@@ -7,6 +7,11 @@ import ReaderSurface from "./ReaderSurface";
 import ReaderAppearanceModal from "./ReaderAppearanceModal";
 import ReaderContentsModal from "./ReaderContentsModal";
 import ReaderSelectionVerifier from "./ReaderSelectionVerifier";
+import ReaderHighlightControl from "./ReaderHighlightControl";
+import ReaderHighlightPicker from "./ReaderHighlightPicker";
+import ReaderHighlightsModal from "./ReaderHighlightsModal";
+import useReaderHighlights from "./useReaderHighlights";
+import { errorMessage, findCreateConflict, validateSelectionRef } from "./readerHighlights";
 import { createReaderDocument } from "./readerDocument";
 import { buildReaderNavigation } from "./readerNavigation";
 import { THEMES } from "./readerConstants";
@@ -43,6 +48,141 @@ export default function ReaderScreen({ id }) {
     }
   }, [entry, entry?.play?.contentVersion, entry?.play?.canonicalTextVersion]);
   const readerNavigation = useReaderNavigation(result);
+  const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready);
+  const [highlightState, setHighlightState] = useState("none");
+  const [surfaceFailure, setSurfaceFailure] = useState(false);
+  const [highlightDraft, setHighlightDraft] = useState(null);
+  const [highlightColor, setHighlightColor] = useState("yellow");
+  const [highlightSaving, setHighlightSaving] = useState(false);
+  const [highlightError, setHighlightError] = useState(null);
+  const [highlightListScope, setHighlightListScope] = useState(null);
+  const [removingHighlight, setRemovingHighlight] = useState(null);
+  const highlightOperation = useRef(0);
+  const highlightScope = highlights.scope;
+  const currentScope = scope => {
+    const current = highlights.session?.getSnapshot().scope;
+    return !!scope && !!current && ["uid", "workId", "documentId", "ownerGeneration"].every(key => scope[key] === current[key]);
+  };
+  const activeDraft = highlightDraft?.scope === highlightScope ? highlightDraft : null;
+  const highlightsOpen = !!highlightListScope && highlightListScope === highlightScope;
+  const highlightFocus = useReaderModalFocus({ visible: !!activeDraft || highlightsOpen });
+  const draftContext = useRef(null);
+  draftContext.current = { scope: highlightScope, error: highlights.error, session: highlights.session };
+  const abandonDraft = useCallback(() => {
+    const context = draftContext.current;
+    if (context.scope && context.error) context.session?.cancelPending?.(context.scope)?.catch(() => {});
+    setHighlightDraft(null);
+  }, []);
+  const highlightCount = highlights.records.length + highlights.unresolved.length + highlights.unreadable.length;
+  const highlightItems = useMemo(() => {
+    const sections = new Map((result.model?.items || []).map(item => [item.id, item.locationLabel]));
+    const conflicts = new Set(highlights.conflicts);
+    const item = (record, status) => ({ id: record.id, quotation: record.selectionRef.exact,
+      locationLabel: status === "unresolved" ? "Different text version" : sections.get(record.selectionRef.startRef.sectionId) || "Saved quotation", colorId: record.colorId,
+      status, start: record.selectionRef.start });
+    return [...highlights.records.map(record => item(record, conflicts.has(record.id) ? "conflict" : "resolved")),
+      ...highlights.unresolved.map(({ record }) => item(record, "unresolved"))].sort((a, b) => a.start - b.start || a.id.localeCompare(b.id))
+      .concat(highlights.unreadable.map(record => ({ id: record.id, status: "unreadable", detail: errorMessage(record.code) })));
+  }, [highlights.records, highlights.unresolved, highlights.unreadable, highlights.conflicts, result.model]);
+  const highlightMessage = error => error ? errorMessage(error.code) : null;
+  const onReaderMessage = useCallback(message => {
+    readerNavigation.onMessage(message);
+    if (message.documentId !== result.document?.identity.documentId) return;
+    if (message.type === "ready") setSurfaceFailure(false);
+    if (message.type === "error" && ["DOCUMENT_READY_TIMEOUT", "SURFACE_LOAD_FAILED"].includes(message.code)) setSurfaceFailure(true);
+    if (message.type === "selectionChange" && message.documentId === result.document?.identity.documentId) setHighlightState(message.state);
+  }, [readerNavigation.onMessage, result.document]);
+  const openHighlights = scope => {
+    if (!currentScope(scope)) return;
+    scope = highlights.session.getSnapshot().scope;
+    readerNavigation.surfaceRef.current?.clearSelection?.("modal");
+    cancelFocusReturn(); readerNavigation.dismissContents(); setAppearanceOpen(false);
+    setHighlightDraft(null); setHighlightError(null); setRemovingHighlight(null); setHighlightListScope(scope);
+  };
+  const acceptHighlight = (snapshot, scope) => {
+    if (!currentScope(scope) || snapshot?.documentId !== scope.documentId || !highlights.enabled) return;
+    scope = highlights.session.getSnapshot().scope;
+    let duplicate;
+    try {
+      validateSelectionRef(snapshot.selection, result.document.canonical);
+      const conflict = findCreateConflict(highlights.records, snapshot.selection, result.document.canonical);
+      if (conflict.kind === "duplicate") duplicate = conflict.record;
+    } catch (error) {
+      Alert.alert("Unable to highlight passage", errorMessage(error.code), [{ text: "Cancel", style: "cancel" }, { text: "Open highlights", onPress: () => openHighlights(scope) }]);
+      return;
+    }
+    setHighlightDraft({ snapshot, scope, editingId: duplicate?.id });
+    setHighlightColor(duplicate?.colorId || "yellow");
+    setHighlightError(null);
+    setHighlightListScope(null); setRemovingHighlight(null);
+    cancelFocusReturn(); readerNavigation.dismissContents(); setAppearanceOpen(false);
+    readerNavigation.surfaceRef.current?.clearSelection?.("modal");
+  };
+  const closeHighlight = () => {
+    if (highlightSaving) return;
+    abandonDraft();
+    highlightFocus.restoreAfterClose(); setHighlightListScope(null); setRemovingHighlight(null); setHighlightError(null);
+  };
+  const saveHighlight = async () => {
+    const draft = activeDraft;
+    if (!draft || highlightSaving || !currentScope(draft.scope)) return;
+    const operation = ++highlightOperation.current;
+    setHighlightSaving(true); setHighlightError(null);
+    try {
+      const saved = draft.editingId ? await highlights.session.recolor(draft.editingId, highlightColor, draft.scope)
+        : await highlights.session.create(draft.snapshot, highlightColor, draft.scope);
+      if (!currentScope(draft.scope)) return;
+      if (saved?.kind === "duplicate") {
+        setHighlightDraft({ ...draft, editingId: saved.record.id }); setHighlightColor(saved.record.colorId);
+      } else { highlightFocus.restoreAfterClose(); setHighlightDraft(null); }
+    } catch (error) { if (currentScope(draft.scope)) setHighlightError(errorMessage(error.code)); }
+    finally { if (highlightOperation.current === operation) setHighlightSaving(false); }
+  };
+  const retryHighlights = async () => {
+    const scope = highlightScope;
+    if (!currentScope(scope) || highlightSaving) return;
+    const operation = ++highlightOperation.current;
+    const replayingDraft = !!activeDraft && !!highlights.error;
+    setHighlightSaving(true); setHighlightError(null);
+    try {
+      const retried = await highlights.session.retry(scope);
+      if (currentScope(scope) && replayingDraft && retried?.kind === "duplicate") {
+        setHighlightDraft({ ...activeDraft, editingId: retried.record.id }); setHighlightColor(retried.record.colorId);
+      } else if (currentScope(scope) && replayingDraft && !highlights.session.getSnapshot().error) {
+        highlightFocus.restoreAfterClose(); setHighlightDraft(null);
+      }
+      if (currentScope(scope)) setRemovingHighlight(null);
+    } catch (error) { if (currentScope(scope)) setHighlightError(errorMessage(error.code)); }
+    finally { if (highlightOperation.current === operation) setHighlightSaving(false); }
+  };
+  const editHighlight = id => {
+    const record = highlights.records.find(item => item.id === id);
+    if (!record || highlights.conflicts.includes(id) || !currentScope(highlightScope)) return;
+    setHighlightDraft({ snapshot: { selection: record.selectionRef, documentId: highlightScope.documentId }, scope: highlightScope, editingId: id });
+    setHighlightColor(record.colorId); setHighlightError(null); setHighlightListScope(null);
+  };
+  const showHighlight = async id => {
+    const scope = highlightScope, record = highlights.records.find(item => item.id === id);
+    if (!record || !currentScope(scope)) return;
+    try {
+      await highlights.session.show(record, scope);
+      if (currentScope(scope)) { highlightFocus.cancel(); setHighlightListScope(null); }
+    } catch (error) { if (currentScope(scope)) setHighlightError(errorMessage(error.code)); }
+  };
+  const removeHighlight = async () => {
+    const scope = highlightScope, id = removingHighlight;
+    if (!id || !currentScope(scope) || highlightSaving) return;
+    const operation = ++highlightOperation.current;
+    setHighlightSaving(true); setHighlightError(null);
+    try { await highlights.session.remove(id, scope); if (currentScope(scope)) setRemovingHighlight(null); }
+    catch (error) { if (currentScope(scope)) setHighlightError(errorMessage(error.code)); }
+    finally { if (highlightOperation.current === operation) setHighlightSaving(false); }
+  };
+  useEffect(() => {
+    highlightOperation.current++;
+    setHighlightSaving(false); setHighlightError(null); setHighlightDraft(null); setHighlightListScope(null); setRemovingHighlight(null);
+    highlightFocus.cancel();
+  }, [highlightScope]);
   const title = entry?.play?.title || entry?.name || "Read play";
   const fontSelection = useMemo(() => createFontSelection(loadReaderFont, setFontStatus), []);
 
@@ -56,16 +196,20 @@ export default function ReaderScreen({ id }) {
     readerNavigation.surfaceRef.current?.clearSelection?.("modal");
     cancelFocusReturn();
     readerNavigation.dismissContents();
+    abandonDraft();
+    setHighlightListScope(null); highlightFocus.cancel();
     setAppearanceOpen(true);
   }, [cancelFocusReturn, readerNavigation.dismissContents]);
   const closeAppearance = useCallback(() => {
     restoreAfterClose();
     setAppearanceOpen(false);
+    setHighlightDraft(null);
     flush();
   }, [flush, restoreAfterClose]);
   const openContents = useCallback(() => {
     cancelFocusReturn();
     setAppearanceOpen(false);
+    abandonDraft(); setHighlightListScope(null); highlightFocus.cancel();
     readerNavigation.openContents();
   }, [cancelFocusReturn, readerNavigation.openContents]);
 
@@ -109,6 +253,8 @@ export default function ReaderScreen({ id }) {
     });
     return () => {
       readerNavigation.surfaceRef.current?.clearSelection?.("document");
+      abandonDraft();
+      setHighlightListScope(null); highlightFocus.cancel();
       cancelFocusReturn();
       readerNavigation.deactivate();
       if (status != null) StatusBar.popStackEntry(status);
@@ -117,8 +263,9 @@ export default function ReaderScreen({ id }) {
 
   return (
     <SafeAreaView edges={["bottom"]} style={[styles.container, { backgroundColor: theme.background }]}>
-      <View style={styles.container} accessibilityElementsHidden={appearanceOpen || readerNavigation.contentsOpen} importantForAccessibility={appearanceOpen || readerNavigation.contentsOpen ? "no-hide-descendants" : "auto"}>
+      <View style={styles.container} accessibilityElementsHidden={appearanceOpen || readerNavigation.contentsOpen || !!activeDraft || highlightsOpen} importantForAccessibility={appearanceOpen || readerNavigation.contentsOpen || !!activeDraft || highlightsOpen ? "no-hide-descendants" : "auto"}>
       {result.document && (
+        <View style={[styles.locationControls, { backgroundColor: theme.background, borderBottomColor: theme.border }]}>
         <Pressable
           ref={readerNavigation.contentsButton}
           accessibilityRole="button"
@@ -131,12 +278,27 @@ export default function ReaderScreen({ id }) {
           onPress={openContents}
           style={[styles.locationRow, { backgroundColor: theme.background, borderBottomColor: theme.border }]}
         >
-          <Text style={[styles.locationLabel, { color: theme.secondary }]}>{readerNavigation.current?.locationLabel || "Preparing play contents…"}</Text>
+          <Text numberOfLines={2} style={[styles.locationLabel, { color: theme.secondary }]}>{readerNavigation.current?.locationLabel || "Preparing play contents…"}</Text>
           <Text accessibilityElementsHidden importantForAccessibility="no" style={[styles.locationChevron, { color: theme.accent }]}>›</Text>
         </Pressable>
+        <ReaderHighlightControl mode={highlightState === "range" ? "highlight" : "list"} count={highlightCount}
+          disabled={!readerNavigation.ready || !highlightScope?.uid || !highlights.privacyReady || (highlightState === "range" && !highlights.enabled)}
+          theme={theme} capture={() => readerNavigation.surfaceRef.current.captureSelection()}
+          triggerRef={highlightFocus.triggerRef}
+          getScope={() => highlightScope} onPicker={acceptHighlight}
+          onList={openHighlights}
+          onError={() => Alert.alert("Unable to capture selection", "Select the passage again, then choose Highlight.")} />
+        </View>
       )}
       {result.document && hydrated ? (
-        <ReaderSurface ref={readerNavigation.surfaceRef} document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} onMessage={readerNavigation.onMessage} />
+        <View style={styles.container}>
+          <ReaderSurface ref={readerNavigation.surfaceRef} document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} onMessage={onReaderMessage} />
+          {!highlights.privacyReady && <View accessibilityLabel="Preparing account highlights" style={[StyleSheet.absoluteFillObject, styles.loading, { backgroundColor: theme.background }]}>
+            {!surfaceFailure && <ActivityIndicator color={theme.accent} />}
+            <Text accessibilityRole={surfaceFailure ? "alert" : undefined} style={[styles.errorDetail, { color: theme.secondary }]}>{surfaceFailure ? "The reading document could not open. Go back and reopen this play." : highlights.renderError ? "Previous highlights could not be cleared." : "Preparing highlights\u2026"}</Text>
+            {!surfaceFailure && !!highlights.renderError && <Pressable accessibilityRole="button" onPress={retryHighlights} style={styles.backButton}><Text style={{ color: theme.accent }}>Retry highlights</Text></Pressable>}
+          </View>}
+        </View>
       ) : result.document ? (
         <View style={styles.loading} accessibilityLabel="Loading reading settings">
           <ActivityIndicator color={theme.accent} />
@@ -150,6 +312,14 @@ export default function ReaderScreen({ id }) {
       )}
       </View>
       <ReaderSelectionVerifier surfaceRef={readerNavigation.surfaceRef} documentId={result.document?.identity.documentId} theme={theme} />
+      <ReaderHighlightPicker visible={!!activeDraft} snapshot={activeDraft?.snapshot} colorId={highlightColor} theme={theme}
+        onColor={setHighlightColor} onClose={closeHighlight} onSave={saveHighlight} saving={highlightSaving || highlights.saving}
+        error={highlightError || highlightMessage(highlights.error)} onRetry={highlights.error ? retryHighlights : undefined} onDismiss={highlightFocus.onDismiss} />
+      <ReaderHighlightsModal visible={highlightsOpen} items={highlightsOpen ? highlightItems : []} theme={theme}
+        loading={highlights.loading} saving={highlightSaving || highlights.saving} painting={highlights.rendering} error={highlightsOpen ? highlightError || highlightMessage(highlights.error) : null}
+        renderError={highlightsOpen ? highlightMessage(highlights.renderError) : null} onRetry={retryHighlights}
+        removingId={removingHighlight} onRequestRemove={setRemovingHighlight} onCancelRemove={() => { abandonDraft(); setRemovingHighlight(null); setHighlightError(null); }} onConfirmRemove={removeHighlight}
+        onShow={showHighlight} onEdit={editHighlight} onClose={closeHighlight} onDismiss={highlightFocus.onDismiss} />
       <ReaderContentsModal
         visible={readerNavigation.contentsOpen}
         model={result.model}
@@ -184,7 +354,8 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 17, lineHeight: 22, fontWeight: "600" },
   appearanceButton: { minWidth: 48, minHeight: 48, alignItems: "center", justifyContent: "center", marginRight: 8 },
   appearanceLabel: { fontSize: 22, fontWeight: "600" },
-  locationRow: { minWidth: 48, minHeight: 48, alignSelf: "stretch", flexDirection: "row", alignItems: "center", borderBottomWidth: StyleSheet.hairlineWidth, paddingHorizontal: 20, paddingVertical: 12 },
+  locationControls: { flexDirection: "row", alignItems: "center", borderBottomWidth: StyleSheet.hairlineWidth },
+  locationRow: { flex: 1, minWidth: 48, minHeight: 48, alignSelf: "stretch", flexDirection: "row", alignItems: "center", paddingHorizontal: 12, paddingVertical: 8 },
   locationLabel: { flex: 1, fontSize: 15, lineHeight: 22, flexShrink: 1 },
   locationChevron: { flexShrink: 0, marginLeft: 12, fontSize: 24, lineHeight: 28 },
   loading: { flex: 1, alignItems: "center", justifyContent: "center", gap: 16, padding: 24 },

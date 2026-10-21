@@ -1,5 +1,15 @@
 const assert = require('node:assert/strict');
 const test = require('node:test');
+
+test('main reader bridge routes bounded highlight acknowledgements without widening ordinary messages', () => {
+  const { parseReaderMessage } = require('../../reader/readerProtocol');
+  const identity = { documentId: 'highlight-doc', workId: 'highlight-work', contentVersion: 'v1', canonicalTextVersion: '1' };
+  const ack = { ...identity, type: 'highlightsApplied', ownerGeneration: 1, revision: 1, status: 'applied' };
+  assert.equal(parseReaderMessage(JSON.stringify(ack), identity)?.type, 'highlightsApplied');
+  assert.equal(parseReaderMessage(JSON.stringify({ ...ack, unknown: true }), identity), null);
+  assert.equal(parseReaderMessage(JSON.stringify({ ...ack, documentId: 'old' }), identity), null);
+  assert.equal(parseReaderMessage(JSON.stringify({ ...ack, padding: 'x'.repeat(8192) }), identity), null);
+});
 const vm = require('node:vm');
 const identity = { documentId: 'doc-1', workId: 'hamlet', contentVersion: 'v1', canonicalTextVersion: '1' };
 const preferences = { schemaVersion: 1, fontId: 'literata', fontSize: 20, lineSpacing: 'comfortable', theme: 'paper' };

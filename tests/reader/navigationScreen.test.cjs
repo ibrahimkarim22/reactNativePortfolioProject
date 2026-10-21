@@ -44,7 +44,7 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     const index = cursor++;
     if (!slots[index] || !same(slots[index].deps, deps)) effects.push(() => {
       slots[index]?.cleanup?.();
-      slots[index] = { deps, cleanup: callback() };
+      slots[index] = { deps, callback, cleanup: callback() };
     });
   };
   const React = {
@@ -78,6 +78,12 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView', useSafeAreaInsets: () => ({ top: 24, bottom: 24 }) },
     '../shared/localPlayService': { getLocalPlayEntry: id => id === selectedEntry.slug ? selectedEntry : undefined },
     './ReaderSurface': 'ReaderSurface', './ReaderAppearanceModal': 'ReaderAppearanceModal', './ReaderContentsModal': 'ReaderContentsModal', './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
+    './ReaderHighlightControl': 'ReaderHighlightControl', './ReaderHighlightPicker': 'ReaderHighlightPicker',
+    './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useReaderHighlights': { __esModule: true, default: document => React.useMemo(() => {
+      const state = { scope: { uid: 'test-account', workId: document?.identity.workId, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: true };
+      return { ...state, session: { getSnapshot: () => state } };
+    }, [document]) },
     './useReaderPreferences': { __esModule: true, default: () => ({ ...settings, preferences }) },
     './readerFonts': { loadReaderFont: () => new Promise(() => {}) },
   };
@@ -121,6 +127,7 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     frame() { for (const [id, callback] of [...frames]) { frames.delete(id); callback(); } },
     blur() { focusCleanup?.(); focusCleanup = undefined; },
     unmount() { for (const slot of slots) slot?.cleanup?.(); },
+    replay() { const active = slots.filter(slot => slot?.callback); active.forEach(slot => slot.cleanup?.()); active.forEach(slot => { slot.cleanup = slot.callback(); }); },
   };
   return api;
 }
@@ -154,7 +161,8 @@ test('the native location row wraps below the existing header and follows theme 
   tree = screen.render();
   assert.match(text(tree), /Act I · Scene II/);
   const locationText = nodes(tree, 'Text').find(node => node.props.children.join('') === 'Act I · Scene II');
-  assert.equal(locationText.props.numberOfLines, undefined, 'large text may wrap without truncation');
+  assert.equal(locationText.props.numberOfLines, 2, 'the reserved row bounds visible wrapping while its Contents label retains the complete location');
+  assert.match(contentsButton(tree).props.accessibilityLabel, /Act I · Scene II/);
   assert.equal(locationText.props.accessibilityLiveRegion, undefined, 'passive reading changes are not announced');
   assert.equal(locationText.props.accessibilityRole, undefined, 'the passive location is not exposed as a fake control');
   screen.update({ theme: 'night' });
@@ -169,7 +177,7 @@ test('the native location row wraps below the existing header and follows theme 
   assert.equal(screen.options.headerRight().props.accessibilityLabel, 'Reading appearance');
 });
 
-test('the compact location row is one full-width Contents control with its current label and a fixed-space chevron', () => {
+test('the location row retains Contents and reserves a separate stable highlight control', () => {
   const screen = host();
   const tree = ready(screen);
   const controls = nodes(tree, 'Pressable');
@@ -178,12 +186,35 @@ test('the compact location row is one full-width Contents control with its curre
   assert.equal(row.props.accessibilityLabel, 'Contents, Title');
   assert.match(text(row), /Title/);
   assert.ok(style(row).minHeight >= 48);
+  assert.equal(nodes(tree, 'ReaderHighlightControl').length, 1);
   assert.equal(style(row).alignSelf, 'stretch');
   const chevron = nodes(row, 'Text').find(node => node.props.children.join('') === '›');
   assert.ok(chevron, 'a chevron indicates that the location opens Contents');
   assert.equal(chevron.props.accessibilityElementsHidden, true);
   assert.equal(style(chevron).flexShrink, 0, 'the label may wrap without taking the chevron space');
   assert.doesNotMatch(text(tree), /Read from here/);
+});
+
+test('live selection changes only the reserved action and a validated action draft opens the native picker', () => {
+  const screen = host(); let tree = ready(screen);
+  const document = nodes(tree, 'ReaderSurface')[0].props.document;
+  assert.equal(nodes(tree, 'ReaderHighlightControl')[0].props.mode, 'list');
+  screen.message({ type: 'selectionChange', state: 'range', selectionSeq: 1, selectionRequestId: 0 });
+  tree = screen.render();
+  const control = nodes(tree, 'ReaderHighlightControl')[0];
+  assert.equal(control.props.mode, 'highlight');
+  assert.equal(nodes(tree, 'ReaderSurface')[0].props.document, document);
+  assert.equal(nodes(tree, 'ReaderHighlightPicker')[0].props.visible, false);
+  const { createSelection } = require('../../shared/contentText');
+  const snapshot = { documentId: document.identity.documentId, selection: createSelection(document.canonical, 0, 3) };
+  control.props.onPicker(snapshot, control.props.getScope());
+  tree = screen.render();
+  assert.equal(nodes(tree, 'ReaderHighlightPicker')[0].props.snapshot, snapshot);
+  assert.equal(nodes(tree, 'ReaderHighlightPicker')[0].props.visible, true);
+  assert.equal(screen.selectionClears.at(-1), 'modal');
+  nodes(tree, 'ReaderHighlightPicker')[0].props.onClose(); tree = screen.render();
+  assert.equal(nodes(tree, 'ReaderHighlightPicker')[0].props.visible, false);
+  assert.equal(screen.jumps.length, 0);
 });
 
 test('opening and cancelling Contents retains the surface document and restores only its trigger after dismissal', () => {
@@ -339,4 +370,15 @@ test('modal opening and route blur clear live selection before moving focus', ()
   assert.equal(screen.selectionClears.at(-1), 'contents');
   screen.blur();
   assert.equal(screen.selectionClears.at(-1), 'document');
+});
+
+test('effect replay preserves acknowledged navigation readiness and location in the same mounted document', () => {
+  const screen = host(); let tree = ready(screen);
+  screen.message({ type: 'location', sectionId: 'scene-2', locationSeq: 1 }); tree = screen.render();
+  const document = nodes(tree, 'ReaderSurface')[0].props.document;
+  screen.replay(); tree = screen.render();
+  assert.equal(nodes(tree, 'ReaderSurface')[0].props.document, document);
+  assert.match(contentsButton(tree).props.accessibilityLabel, /Scene II/);
+  contentsButton(tree).props.onAccessibilityAction({ nativeEvent: { actionName: 'readCurrentSection' } });
+  assert.equal(screen.jumps.at(-1)?.sectionId, 'scene-2');
 });

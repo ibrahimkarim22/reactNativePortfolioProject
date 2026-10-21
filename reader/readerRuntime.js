@@ -3,10 +3,12 @@ const { scriptJson } = require('./readerProtocol');
 const { NAVIGATION_RUNTIME_SOURCE } = require('./readerNavigationRuntime');
 const { SELECTION_DOM_SOURCE } = require('./readerSelectionDom');
 const { SELECTION_RUNTIME_SOURCE } = require('./readerSelectionRuntime');
+const { HIGHLIGHT_RUNTIME_SOURCE } = require('./readerHighlightRuntime');
+const { HIGHLIGHT_PALETTE } = require('./readerHighlights');
 
 // A fixed application-owned program survives Hermes bytecode and Metro transforms.
 // Keep the WebView runtime here once, as source data rather than a native function.
-const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing, installNavigation, installSelection, createSelectionDom) {
+const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes, fonts, spacing, installNavigation, installSelection, createSelectionDom, installHighlights, palette) {
   'use strict';
   let latestRequest = 0;
   // A burst of requests shares the point captured before its first reflow.
@@ -16,13 +18,18 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
   let own = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   let blocks = Array.prototype.slice.call(document.querySelectorAll('[data-reader-block]'));
   const fontCache = Object.create(null);
-  let navigation = null;
+  let navigation = null, highlights = null;
   const selection = installSelection({ identity: identity, root: document.querySelector('main'), send: send }, createSelectionDom);
+  highlights = installHighlights({ identity: identity, root: document.querySelector('main'), send: send,
+    observeScroll: observeScroll, newIntent: userInteraction, interactionVersion: function () { return interactionVersion; },
+    markOwnScroll: function () { observedScrollY = window.scrollY || window.pageYOffset || 0; },
+    refreshLocation: function () { if (navigation) navigation.refresh(); } }, createSelectionDom, palette);
 
   function userInteraction() {
     interactionVersion += 1;
     pendingPoint = null;
     if (navigation) navigation.cancel();
+    if (highlights) highlights.cancel();
   }
 
   function observeScroll() {
@@ -203,13 +210,14 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
       style.setProperty('--reader-font-scale', String(payload.fontScale));
       style.setProperty('--reader-line-height', String(spacing[preferences.lineSpacing]));
       Object.keys(themes[preferences.theme]).forEach(function (key) { style.setProperty('--reader-' + key, themes[preferences.theme][key]); });
+      Object.keys(palette).forEach(function (key) { style.setProperty('--highlight-' + key, palette[key].background[preferences.theme]); });
       observedScrollY = window.scrollY || window.pageYOffset || 0;
       if (document.fonts && document.fonts.ready) await document.fonts.ready;
       if (requestId !== latestRequest) return false;
       await layout();
       if (requestId !== latestRequest) return false;
       observeScroll();
-      if (!navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
+      if (!highlights.restore() && !navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
       pendingPoint = null;
       navigation.refresh();
       send('applied', { requestId: requestId, diagnostics: diagnostics() });
@@ -217,7 +225,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     } catch (_) {
       if (requestId === latestRequest) {
         observeScroll();
-        if (!navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
+        if (!highlights.restore() && !navigation.restore() && pointVersion === interactionVersion) restorePoint(point);
         pendingPoint = null;
         navigation.refresh();
         send('error', { requestId: requestId, code: 'FONT_LOAD_FAILED', message: 'The local reading font could not be applied.' });
@@ -235,8 +243,14 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     if (jumped) selection.invalidate('navigation');
     return jumped;
   }
+  function showHighlight(payload) {
+    const shown = highlights.show(payload);
+    if (shown) selection.invalidate('navigation');
+    return shown;
+  }
   window.BardReader = Object.freeze({ applyAppearance: applyAppearance, jumpToSection: jumpToSection, focusSection: navigation.focusSection,
-    captureSelection: selection.captureSelection, clearSelection: selection.clearSelection });
+    captureSelection: selection.captureSelection, clearSelection: selection.clearSelection,
+    updateHighlights: highlights.update, showHighlight: showHighlight });
   window.addEventListener('message', function (event) {
     if (event.source !== window.parent || !event.data) return;
     if (event.data.type === 'bard-reader-appearance') applyAppearance(event.data.payload);
@@ -244,8 +258,14 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     else if (event.data.type === 'bard-reader-focus') navigation.focusSection(event.data.payload);
     else if (event.data.type === 'bard-reader-selection-capture') selection.captureSelection(event.data.payload);
     else if (event.data.type === 'bard-reader-selection-clear') selection.clearSelection(event.data.payload);
+    else if (event.data.type === 'bard-reader-highlights') highlights.update(event.data.payload);
+    else if (event.data.type === 'bard-reader-highlight-show') showHighlight(event.data.payload);
   });
   window.addEventListener('scroll', observeScroll, { passive: true });
+  function restoreHighlightLayout() { layout().then(function () { highlights.restore(); }); }
+  window.addEventListener('resize', restoreHighlightLayout);
+  if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', restoreHighlightLayout);
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(restoreHighlightLayout).observe(document.body);
   ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (type) {
     window.addEventListener(type, userInteraction, { passive: true });
   });
@@ -257,7 +277,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
 }`;
 
 function createReaderRuntimeScript(identity) {
-  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ',' + NAVIGATION_RUNTIME_SOURCE + ',' + SELECTION_RUNTIME_SOURCE + ',' + SELECTION_DOM_SOURCE + ');';
+  return '(' + READER_RUNTIME_SOURCE + ')(' + [identity, THEMES, FONTS, LINE_SPACING].map(scriptJson).join(',') + ',' + NAVIGATION_RUNTIME_SOURCE + ',' + SELECTION_RUNTIME_SOURCE + ',' + SELECTION_DOM_SOURCE + ',' + HIGHLIGHT_RUNTIME_SOURCE + ',' + scriptJson(HIGHLIGHT_PALETTE) + ');';
 }
 
 module.exports = { createReaderRuntimeScript };

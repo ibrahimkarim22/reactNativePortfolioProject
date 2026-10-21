@@ -6,6 +6,8 @@ import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
 import { buildAppearanceScript, buildNavigationScript, buildSectionFocusScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
 import { createReaderSelectionController } from "./readerSelectionController";
 import { buildSelectionScript } from "./readerSelectionProtocol";
+import { createReaderHighlightController } from "./readerHighlightController";
+import { buildHighlightCommandScript } from "./readerHighlightProtocol";
 
 const ReaderSurface = forwardRef(function ReaderSurface({
   document,
@@ -20,6 +22,9 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   const locationSeq = useRef(0);
   const readinessTimer = useRef(null);
   const activeDocument = useRef(document.identity.documentId);
+  const surfaceActive = useRef(true);
+  const initializedDocument = useRef(null);
+  const controllerLifetimes = useRef(new Map());
   const latestAppearance = useRef(null);
   const latestOnMessage = useRef(onMessage);
   const { fontScale } = useWindowDimensions();
@@ -38,16 +43,43 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     canonical: document.canonical,
     onChange: report,
     send: (kind, payload) => {
-      if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) {
+      if (!surfaceActive.current || !ready.current || !webView.current || activeDocument.current !== document.identity.documentId) {
         throw Object.assign(new Error("The reading surface is unavailable."), { code: "SURFACE_UNAVAILABLE" });
       }
       webView.current.injectJavaScript(buildSelectionScript(document.identity, payload.selectionRequestId, kind, kind === "capture" ? payload.captureToken : payload.reason));
     },
   }), [document.identity, document.canonical, report]);
-  useLayoutEffect(() => () => {
-    selectionController.clear("document");
-    selectionController.dispose();
-  }, [selectionController]);
+  const highlightController = useMemo(() => createReaderHighlightController({
+    identity: document.identity,
+    canonical: document.canonical,
+    send: (kind, payloads) => {
+      if (!surfaceActive.current || !ready.current || !webView.current || activeDocument.current !== document.identity.documentId) {
+        throw Object.assign(new Error("The reading surface is unavailable."), { code: "SURFACE_UNAVAILABLE" });
+      }
+      for (const payload of payloads) webView.current.injectJavaScript(buildHighlightCommandScript(kind, payload, document.canonical));
+    },
+  }), [document.identity, document.canonical]);
+  useLayoutEffect(() => {
+    const lifetimes = controllerLifetimes.current;
+    const lifetime = lifetimes.get(highlightController) || { mounts: 0 };
+    lifetimes.set(highlightController, lifetime);
+    lifetime.mounts++;
+    surfaceActive.current = true;
+    return () => {
+      selectionController.clear("document");
+      highlightController.invalidate();
+      surfaceActive.current = false;
+      lifetime.mounts--;
+      // Effect replay reuses the same controllers. Pending work is retired
+      // immediately; only irreversible disposal waits for a replayed setup.
+      queueMicrotask(() => {
+        if (lifetime.mounts === 0) {
+          selectionController.dispose(); highlightController.dispose();
+          lifetimes.delete(highlightController);
+        }
+      });
+    };
+  }, [selectionController, highlightController]);
 
   const applyAppearance = useCallback(() => {
     selectionController.clear("appearance");
@@ -60,6 +92,8 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     applyAppearance,
     captureSelection: () => selectionController.capture(),
     clearSelection: (reason = "cancel") => selectionController.clear(reason),
+    applyHighlights: (records, ownerGeneration) => highlightController.apply(records, ownerGeneration),
+    showHighlight: (record, ownerGeneration) => highlightController.show(record, ownerGeneration),
     jumpToSection: reference => {
       selectionController.clear("navigation");
       if (!ready.current || !webView.current || activeDocument.current !== document.identity.documentId) return null;
@@ -74,18 +108,23 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       webView.current?.injectJavaScript(buildSectionFocusScript(document.identity, expectedId, reference, document.canonical));
       return true;
     },
-  }), [applyAppearance, document.identity, document.canonical, selectionController]);
+  }), [applyAppearance, document.identity, document.canonical, selectionController, highlightController]);
 
   useLayoutEffect(() => {
-    activeDocument.current = document.identity.documentId;
-    ready.current = false;
-    navigationId.current = 0;
-    locationSeq.current = 0;
-    setLoading(true);
-    setError(null);
+    if (initializedDocument.current !== document.identity.documentId) {
+      initializedDocument.current = document.identity.documentId;
+      activeDocument.current = document.identity.documentId;
+      ready.current = false;
+      navigationId.current = 0;
+      locationSeq.current = 0;
+      setLoading(true);
+      setError(null);
+    }
+    if (ready.current) return undefined;
     readinessTimer.current = setTimeout(() => {
       if (ready.current || activeDocument.current !== document.identity.documentId) return;
       selectionController.clear("document");
+      highlightController.dispose();
       setLoading(false);
       setError("Unable to display this play. Go back and open it again.");
       report({ ...document.identity, type: "error", code: "DOCUMENT_READY_TIMEOUT", message: "The reading document did not become ready." });
@@ -98,7 +137,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
   }, [applyAppearance, preferences, fontFaces, fontScale]);
 
   const receiveMessage = useCallback(event => {
-    if (activeDocument.current !== document.identity.documentId) return;
+    if (!surfaceActive.current || activeDocument.current !== document.identity.documentId) return;
     const message = parseReaderMessage(event.nativeEvent?.data, document.identity, document.canonical);
     if (!message) return;
     if (message.type === "ready") {
@@ -113,6 +152,7 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     }
     if (message.type === "error" && message.requestId == null && !ready.current) {
       selectionController.clear("document");
+      highlightController.dispose();
       clearTimeout(readinessTimer.current);
       setLoading(false);
       setError("Unable to display this play. Go back and open it again.");
@@ -120,6 +160,10 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       return;
     }
     if (!ready.current) return;
+    if (message.type === "highlightsApplied" || message.type === "highlightShown") {
+      if (highlightController.receive(message)) report(message);
+      return;
+    }
     if (message.type === "selectionChange" || message.type === "selectionCapture") {
       selectionController.receive(message);
       return;
@@ -142,16 +186,17 @@ const ReaderSurface = forwardRef(function ReaderSurface({
     }
     if (message.type === "applied") setError(null);
     report(message);
-  }, [applyAppearance, document.identity, document.canonical, report, selectionController]);
+  }, [applyAppearance, document.identity, document.canonical, report, selectionController, highlightController]);
 
   const loadError = useCallback(() => {
     ready.current = false;
     selectionController.clear("document");
+    highlightController.dispose();
     clearTimeout(readinessTimer.current);
     setLoading(false);
     setError("Unable to display this play. Go back and open it again.");
     report({ ...document.identity, type: "error", code: "SURFACE_LOAD_FAILED", message: "The reading surface could not load its local document." });
-  }, [document.identity, report, selectionController]);
+  }, [document.identity, report, selectionController, highlightController]);
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>

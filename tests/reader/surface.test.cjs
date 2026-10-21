@@ -35,7 +35,7 @@ function host(relativeFile, overrides = {}) {
   const effect = (callback, deps) => {
     const index = cursor++;
     if (!slots[index] || !same(slots[index].deps, deps)) {
-      effects.push(() => { slots[index]?.cleanup?.(); slots[index] = { deps, cleanup: callback() }; });
+      effects.push(() => { slots[index]?.cleanup?.(); slots[index] = { deps, callback, cleanup: callback() }; });
     }
   };
   const React = {
@@ -61,6 +61,10 @@ function host(relativeFile, overrides = {}) {
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
     './ReaderContentsModal': 'ReaderContentsModal',
     './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
+    './ReaderHighlightControl': 'ReaderHighlightControl',
+    './ReaderHighlightPicker': 'ReaderHighlightPicker',
+    './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useReaderHighlights': { __esModule: true, default: document => React.useMemo(() => ({ scope: { uid: null, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: false }), [document]) },
     // These screen cases isolate surface/header lifetimes. Navigation's real
     // model and screen integration are exercised by their dedicated suites.
     './readerNavigation': { buildReaderNavigation: () => ({ items: [], initialSectionId: null }) },
@@ -100,6 +104,7 @@ function host(relativeFile, overrides = {}) {
     render(props, ref) { cursor = 0; effects = []; const tree = module.exports.default(props, ref); for (const run of effects) run(); return tree; },
     scale(value) { scale = value; },
     expireTimers() { for (const [id, callback] of timers) { timers.delete(id); callback(); } },
+    replayEffects() { const active = slots.filter(slot => slot?.callback); active.forEach(slot => slot.cleanup?.()); active.forEach(slot => { slot.cleanup = slot.callback(); }); },
     unmount() { for (const slot of slots) slot?.cleanup?.(); },
   };
 }
@@ -377,7 +382,7 @@ function selectionBoundary(platform, onMessage) {
   else view.props.ref.current = {
     requestFocus() { focusRequests++; },
     injectJavaScript(script) {
-      const methods = { applyAppearance: 'appearance', jumpToSection: 'jump', focusSection: 'focus', captureSelection: 'selection-capture', clearSelection: 'selection-clear' };
+      const methods = { applyAppearance: 'appearance', jumpToSection: 'jump', focusSection: 'focus', captureSelection: 'selection-capture', clearSelection: 'selection-clear', updateHighlights: 'highlights', showHighlight: 'highlight-show' };
       const BardReader = Object.fromEntries(Object.entries(methods).map(([method, kind]) => [method, payload => commands.push({ type: `bard-reader-${kind}`, payload: JSON.parse(JSON.stringify(payload)) })]));
       vm.runInNewContext(script, { window: { BardReader } });
     },
@@ -401,6 +406,100 @@ function captureReply(command, changes = {}) {
 }
 
 for (const platform of ['native', 'web']) {
+  test(`${platform} effect replay retires pending work while keeping live typed controllers and document readiness`, async () => {
+    const boundary = selectionBoundary(platform);
+    try {
+      boundary.send({ type: 'ready' });
+      const source = boundary.view.props.source || boundary.view.props.srcDoc;
+      const capture = boundary.ref.current.captureSelection();
+      const staleCapture = boundary.commands.at(-1);
+      const captureRejected = assert.rejects(capture, error => ['CANCELLED', 'DISPOSED'].includes(error.code));
+      const paint = boundary.ref.current.applyHighlights([], 1);
+      const stalePaint = boundary.commands.at(-1).payload;
+      const paintRejected = assert.rejects(paint, { code: 'DISPOSED' });
+      boundary.surface.replayEffects();
+      await Promise.all([captureRejected, paintRejected]);
+      await Promise.resolve();
+      boundary.send(captureReply(staleCapture));
+      boundary.send({ type: 'highlightsApplied', ownerGeneration: 1, revision: stalePaint.revision, status: 'applied' });
+      const nextCapture = boundary.ref.current.captureSelection();
+      nextCapture.catch(() => {});
+      const command = boundary.commands.at(-1);
+      assert.equal(command.type, 'bard-reader-selection-capture');
+      boundary.send(captureReply(command));
+      assert.deepEqual((await nextCapture).selection, selection);
+      const nextPaint = boundary.ref.current.applyHighlights([], 1);
+      const payload = boundary.commands.at(-1).payload;
+      assert.ok(payload.revision > stalePaint.revision);
+      boundary.send({ type: 'highlightsApplied', ownerGeneration: 1, revision: payload.revision, status: 'applied' });
+      await nextPaint;
+      assert.equal(boundary.view.props.source || boundary.view.props.srcDoc, source);
+    } finally { boundary.close(); }
+  });
+
+  test(`${platform} highlight painting is typed, acknowledged and keeps the mounted document`, async () => {
+    const received = [], boundary = selectionBoundary(platform, message => received.push(message));
+    try {
+      const { ref, commands } = boundary;
+      assert.equal(typeof ref.current.applyHighlights, 'function');
+      assert.equal(typeof ref.current.showHighlight, 'function');
+      assert.equal(ref.current.injectJavaScript, undefined);
+      const record = { id: 'surface-highlight', colorId: 'yellow', selectionRef: selection };
+      await assert.rejects(ref.current.applyHighlights([record], 1), { code: 'SURFACE_UNAVAILABLE' });
+      boundary.send({ type: 'ready' });
+      const source = boundary.view.props.source || boundary.view.props.srcDoc;
+      const selectionClears = commands.filter(m => m.type === 'bard-reader-selection-clear').length;
+      const pending = ref.current.applyHighlights([record], 1);
+      const paint = commands.at(-1).payload;
+      assert.equal(commands.at(-1).type, 'bard-reader-highlights');
+      assert.equal(paint.phase, 'commit');
+      assert.deepEqual(commands.filter(m => m.type === 'bard-reader-highlights').slice(-3).map(m => m.payload.phase), ['begin', 'chunk', 'commit']);
+      const ack = { type: 'highlightsApplied', ownerGeneration: 1, revision: paint.revision, status: 'applied' };
+      boundary.send({ ...ack, ownerGeneration: 2 });
+      boundary.send({ ...ack, extra: true });
+      if (platform === 'web') boundary.send(ack, {});
+      assert.equal(received.filter(m => m.type === 'highlightsApplied').length, 0);
+      boundary.send(ack);
+      assert.equal((await pending).revision, paint.revision);
+      assert.equal(received.filter(m => m.type === 'highlightsApplied').length, 1);
+      const showing = ref.current.showHighlight(record, 1);
+      const show = commands.at(-1).payload;
+      assert.equal(commands.at(-1).type, 'bard-reader-highlight-show');
+      boundary.send({ type: 'highlightShown', ownerGeneration: 1, revision: paint.revision, showId: show.showId, id: record.id, status: 'applied' });
+      await showing;
+      for (const records of [[{ ...record, colorId: 'sage' }], []]) {
+        const update = ref.current.applyHighlights(records, 1);
+        const latest = commands.at(-1).payload;
+        boundary.send({ type: 'highlightsApplied', ownerGeneration: 1, revision: latest.revision, status: 'applied' });
+        await update;
+        const commandCount = commands.length;
+        boundary.render({ onMessage: message => received.push(message) });
+        assert.equal(commands.length, commandCount, 'callback changes do not recreate controllers or replay commands');
+        assert.equal(boundary.view.props.source || boundary.view.props.srcDoc, source);
+      }
+      assert.equal(commands.filter(m => m.type === 'bard-reader-selection-clear').length, selectionClears, 'paint, recolor, Show and clear do not discard live native selection');
+      assert.equal(boundary.focusRequests, 0);
+    } finally { boundary.close(); }
+  });
+
+  for (const action of ['document', 'error', 'unmount']) {
+    test(`${platform} ${action} retires pending highlight acknowledgements`, async () => {
+      const boundary = selectionBoundary(platform);
+      try {
+        boundary.send({ type: 'ready' });
+        assert.equal(typeof boundary.ref.current.applyHighlights, 'function');
+        const pending = boundary.ref.current.applyHighlights([], 1);
+        const paint = boundary.commands.at(-1).payload;
+        const rejected = assert.rejects(pending, { code: 'DISPOSED' });
+        if (action === 'document') boundary.render({ document: { ...document, identity: { ...identity, documentId: 'new-highlights-doc' } } });
+        if (action === 'error') boundary.view.props.onError();
+        if (action === 'unmount') boundary.surface.unmount();
+        boundary.send({ type: 'highlightsApplied', ownerGeneration: 1, revision: paint.revision, status: 'applied' });
+        await rejected;
+      } finally { boundary.close(); }
+    });
+  }
+
   test(`${platform} captures live validated selection through a typed command and keeps latest callbacks`, async () => {
     const received = [], latest = [];
     const boundary = selectionBoundary(platform, message => received.push(message));

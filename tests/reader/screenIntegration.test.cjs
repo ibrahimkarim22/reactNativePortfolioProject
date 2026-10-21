@@ -69,6 +69,17 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
   let options;
   let backs = 0;
   let focusCleanup;
+  let highlightSnapshot;
+  const highlightCalls = [];
+  const highlightSession = {
+    getSnapshot: () => highlightSnapshot,
+    create: async (...args) => { highlightCalls.push(['create', ...args]); return { kind: 'created', record: { id: 'new-highlight' } }; },
+    recolor: async (...args) => { highlightCalls.push(['recolor', ...args]); },
+    remove: async (...args) => { highlightCalls.push(['remove', ...args]); },
+    show: async (...args) => { highlightCalls.push(['show', ...args]); },
+    retry: async (...args) => { highlightCalls.push(['retry', ...args]); },
+    cancelPending: async (...args) => { highlightCalls.push(['cancelPending', ...args]); },
+  };
   const navigation = { setOptions: value => { options = value; }, goBack: () => backs++ };
   const usePreferences = () => ({ ...store.getSnapshot(), update: store.update, reset: store.reset, retry: store.retry, flush: store.flush });
   const native = Object.fromEntries(['Pressable', 'Text', 'View', 'ActivityIndicator'].map(name => [name, name]));
@@ -93,6 +104,13 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
     './ReaderSurface': 'ReaderSurface',
     './ReaderAppearanceModal': 'ReaderAppearanceModal',
     './ReaderContentsModal': 'ReaderContentsModal',
+    './ReaderHighlightControl': 'ReaderHighlightControl',
+    './ReaderHighlightPicker': 'ReaderHighlightPicker',
+    './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useReaderHighlights': { __esModule: true, default: document => {
+      if (!highlightSnapshot) highlightSnapshot = { scope: { uid: 'test-account', workId: document?.identity.workId, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: true };
+      return { ...highlightSnapshot, session: highlightSession };
+    } },
     './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
     './useReaderPreferences': { __esModule: true, default: usePreferences, useReaderPreferences: usePreferences },
     './readerFonts': { loadReaderFont: fontId => { const pending = deferred(); fonts.push({ fontId, ...pending }); return pending.promise; } },
@@ -118,7 +136,9 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
     () => {},
   );
   return {
-    store, storage, fonts, focused, lookups,
+    store, storage, fonts, focused, lookups, highlightCalls,
+    get highlightSnapshot() { return highlightSnapshot; },
+    setHighlights(change) { highlightSnapshot = { ...highlightSnapshot, ...change }; },
     get options() { return options; },
     get backs() { return backs; },
     blur() { focusCleanup?.(); focusCleanup = undefined; },
@@ -258,4 +278,104 @@ test('a selected play with invalid canonical content fails visibly before loadin
   assert.equal(nodes(tree, 'ReaderSurface').length, 0);
   assert.ok(nodes(tree, 'Text').some(node => node.props.children.join('').includes('Unable to open this play')));
   assert.equal(screen.fonts.length, 0, 'a failed canonical document must not start asset loading');
+});
+
+test('highlight panel exposes only the current owner and keeps the same mounted reading document', async () => {
+  const screen = await host(); let tree = screen.render();
+  const document = nodes(tree, 'ReaderSurface')[0].props.document;
+  nodes(tree, 'ReaderHighlightControl')[0].props.onList(Object.freeze({ ...screen.highlightSnapshot.scope }));
+  tree = screen.render(); assert.equal(nodes(tree, 'ReaderHighlightsModal')[0].props.visible, true);
+  screen.setHighlights({ scope: { ...screen.highlightSnapshot.scope, uid: 'other-account', ownerGeneration: 2 }, privacyReady: false });
+  tree = screen.render(); assert.equal(nodes(tree, 'ReaderHighlightsModal')[0].props.visible, false);
+  assert.equal(nodes(tree, 'ReaderHighlightControl')[0].props.count, 0);
+  assert.equal(nodes(tree, 'ReaderSurface')[0].props.document, document);
+  assert.ok(nodes(tree, 'View').some(n => n.props.accessibilityLabel === 'Preparing account highlights'));
+});
+
+test('confirmed Remove uses the original scope and Show passage receives the actual record', async () => {
+  const screen = await host(); let tree = screen.render();
+  const record = { id: 'saved', colorId: 'sage', revision: 1, selectionRef: { exact: 'passage', startRef: { sectionId: 'front' }, start: 1, end: 8 } };
+  screen.setHighlights({ records: [record] }); tree = screen.render();
+  nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope); tree = screen.render();
+  let panel = nodes(tree, 'ReaderHighlightsModal')[0];
+  panel.props.onRequestRemove('saved'); assert.deepEqual(screen.highlightCalls, []);
+  tree = screen.render(); panel = nodes(tree, 'ReaderHighlightsModal')[0];
+  panel.props.onCancelRemove(); tree = screen.render();
+  assert.deepEqual(screen.highlightCalls, []);
+  panel = nodes(tree, 'ReaderHighlightsModal')[0]; await panel.props.onShow('saved');
+  assert.deepEqual(screen.highlightCalls[0], ['show', record, screen.highlightSnapshot.scope]);
+  nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  panel = nodes(screen.render(), 'ReaderHighlightsModal')[0]; panel.props.onRequestRemove('saved');
+  panel = nodes(screen.render(), 'ReaderHighlightsModal')[0]; await panel.props.onConfirmRemove();
+  assert.deepEqual(screen.highlightCalls[1], ['remove', 'saved', screen.highlightSnapshot.scope]);
+});
+
+test('highlight privacy cover exposes bounded document failure guidance rather than an endless spinner', async () => {
+  for (const code of ['DOCUMENT_READY_TIMEOUT', 'SURFACE_LOAD_FAILED']) {
+    const screen = await host(); let tree = screen.render();
+    const page = nodes(tree, 'ReaderSurface')[0];
+    page.props.onMessage({ ...page.props.document.identity, type: 'error', code });
+    screen.setHighlights({ privacyReady: false }); tree = screen.render();
+    assert.ok(nodes(tree, 'Text').some(n => n.props.children.join('').includes('Go back and reopen this play.')), code);
+  }
+});
+
+test('real activation preserves a cloned scope and original passage through selection collapse, then Save uses that draft', async () => {
+  const { createHighlightAction } = require('../../reader/readerHighlightAction');
+  const { createSelection } = require('../../shared/contentText');
+  const screen = await host(); let tree = screen.render();
+  const page = nodes(tree, 'ReaderSurface')[0], document = page.props.document;
+  const snapshot = Object.freeze({ documentId: document.identity.documentId, selection: require('../../reader/readerHighlights').validateSelectionRef(createSelection(document.canonical, 0, 7), document.canonical) });
+  page.props.ref.current = { captureSelection: async () => snapshot, clearSelection() {} };
+  page.props.onMessage({ ...document.identity, type: 'selectionChange', state: 'range' });
+  tree = screen.render(); const props = nodes(tree, 'ReaderHighlightControl')[0].props;
+  const action = createHighlightAction(props); const token = action.begin('highlight');
+  page.props.onMessage({ ...document.identity, type: 'selectionChange', state: 'none' }); screen.render();
+  action.activate('list', token); await settle(); tree = screen.render();
+  assert.equal(nodes(tree, 'ReaderHighlightsModal')[0].props.visible, false);
+  let picker = nodes(tree, 'ReaderHighlightPicker')[0]; assert.equal(picker.props.visible, true);
+  assert.equal(picker.props.snapshot, snapshot); picker.props.onColor('rose');
+  picker = nodes(screen.render(), 'ReaderHighlightPicker')[0]; await picker.props.onSave();
+  assert.deepEqual(screen.highlightCalls, [['create', snapshot, 'rose', screen.highlightSnapshot.scope]]);
+  assert.equal(nodes(screen.render(), 'ReaderHighlightPicker')[0].props.visible, false);
+  assert.equal(nodes(screen.render(), 'ReaderSurface')[0].props.document, document);
+});
+
+test('duplicate capture edits the existing color and Cancel performs no storage mutation', async () => {
+  const { createSelection } = require('../../shared/contentText');
+  const screen = await host(); let tree = screen.render();
+  const page = nodes(tree, 'ReaderSurface')[0], document = page.props.document;
+  page.props.ref.current = { clearSelection() {} };
+  const selectionRef = createSelection(document.canonical, 0, 7);
+  screen.setHighlights({ records: [{ id: 'existing', colorId: 'blue', selectionRef }] }); tree = screen.render();
+  const props = nodes(tree, 'ReaderHighlightControl')[0].props;
+  props.onPicker(Object.freeze({ documentId: document.identity.documentId, selection: selectionRef }), Object.freeze({ ...props.getScope() }));
+  let picker = nodes(screen.render(), 'ReaderHighlightPicker')[0]; assert.equal(picker.props.colorId, 'blue');
+  picker.props.onClose(); screen.render(); assert.deepEqual(screen.highlightCalls, []);
+  props.onPicker(Object.freeze({ documentId: document.identity.documentId, selection: selectionRef }), props.getScope());
+  picker = nodes(screen.render(), 'ReaderHighlightPicker')[0]; picker.props.onColor('yellow');
+  picker = nodes(screen.render(), 'ReaderHighlightPicker')[0]; await picker.props.onSave();
+  assert.deepEqual(screen.highlightCalls, [['recolor', 'existing', 'yellow', screen.highlightSnapshot.scope]]);
+});
+
+test('cancelling a failed removal abandons replay without hiding the storage error or deleting a record', async () => {
+  const screen = await host(); let tree = screen.render();
+  const record = { id: 'saved', colorId: 'sage', selectionRef: { exact: 'passage', startRef: { sectionId: 'front' }, start: 1, end: 8 } };
+  screen.setHighlights({ records: [record] }); tree = screen.render();
+  nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  let panel = nodes(screen.render(), 'ReaderHighlightsModal')[0]; panel.props.onRequestRemove('saved');
+  screen.setHighlights({ error: { code: 'WRITE_FAILED' } }); panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  panel.props.onCancelRemove(); panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.deepEqual(screen.highlightCalls, [['cancelPending', screen.highlightSnapshot.scope]]);
+  assert.equal(panel.props.removingId, null); assert.ok(panel.props.error); assert.equal(panel.props.items.length, 1);
+});
+
+test('unresolved versions never acquire a location label from the current text version', async () => {
+  const screen = await host(); let tree = screen.render();
+  const record = { id: 'older', colorId: 'blue', selectionRef: { exact: 'Earlier quotation', startRef: { sectionId: 'front' }, start: 1, end: 8 } };
+  screen.setHighlights({ unresolved: [{ record, code: 'CONTENT_VERSION_MISMATCH' }] }); tree = screen.render();
+  nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  const item = nodes(screen.render(), 'ReaderHighlightsModal')[0].props.items[0];
+  assert.equal(item.status, 'unresolved'); assert.equal(item.quotation, 'Earlier quotation');
+  assert.equal(item.locationLabel, 'Different text version');
 });

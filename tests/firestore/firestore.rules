@@ -1,0 +1,120 @@
+rules_version = '2';
+// ISOLATED DEMO FIXTURE. Deployed profile/course rules are unknown. This file
+// must not be used as a production replacement without a separate review.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owned(uid) { return request.auth != null && request.auth.uid == uid; }
+    function id(value) { return value is string && value.size() > 0 && value.size() <= 128 && !value.matches('.*[/\\\\].*'); }
+    function opId(value) { return value is string && value.matches('^[A-Za-z0-9_-]{1,128}$'); }
+    function natural(value) { return value is int && value >= 0; }
+    function color(value) { return value in ['yellow', 'sage', 'blue', 'rose']; }
+    function endpoint(value) {
+      return value is map && value.keys().hasAll(['textId', 'sectionId', 'offsetUtf16'])
+        && value.keys().hasOnly(['textId', 'sectionId', 'offsetUtf16'])
+        && value.textId is string && value.textId.size() > 0 && value.textId.size() <= 512
+        && value.sectionId is string && value.sectionId.size() > 0 && value.sectionId.size() <= 512 && natural(value.offsetUtf16);
+    }
+    function selection(s, workId) {
+      return s is map && s.keys().hasAll(['kind', 'workId', 'contentVersion', 'canonicalTextVersion', 'offsetUnit', 'start', 'end', 'startRef', 'endRef', 'exact', 'prefix', 'suffix'])
+        && s.keys().hasOnly(['kind', 'workId', 'contentVersion', 'canonicalTextVersion', 'offsetUnit', 'start', 'end', 'startRef', 'endRef', 'exact', 'prefix', 'suffix'])
+        && s.kind == 'text-range' && s.workId == workId
+        && s.contentVersion is string && s.contentVersion.matches('^[a-f0-9]{64}$')
+        && s.canonicalTextVersion == '1' && s.offsetUnit == 'utf16'
+        && natural(s.start) && s.end is int && s.end > s.start && s.end - s.start <= 16384
+        && endpoint(s.startRef) && endpoint(s.endRef)
+        && s.exact is string && s.exact.size() > 0 && s.exact.size() <= 16384
+        && s.prefix is string && s.prefix.size() <= 32 && s.suffix is string && s.suffix.size() <= 32;
+    }
+    function keyFor(s) { return 'h1_' + s.contentVersion + '_1_' + string(s.start) + '_' + string(s.end); }
+    function cloudShape(c, workId, cloudKey) {
+      return c.keys().hasAll(['schemaVersion', 'workId', 'selectionRef', 'colorId', 'generation', 'serverRevision', 'deleted', 'payloadBytes', 'lastOperationId', 'createdAt', 'updatedAt'])
+        && c.keys().hasOnly(['schemaVersion', 'workId', 'selectionRef', 'colorId', 'generation', 'serverRevision', 'deleted', 'payloadBytes', 'lastOperationId', 'createdAt', 'updatedAt'])
+        && c.schemaVersion == 1 && c.workId == workId && selection(c.selectionRef, workId) && keyFor(c.selectionRef) == cloudKey
+        && color(c.colorId) && c.generation is int && c.generation >= 1
+        && c.serverRevision is int && c.serverRevision >= 1 && c.deleted is bool
+        && c.payloadBytes is int && c.payloadBytes > 0 && c.payloadBytes <= 131072
+        && opId(c.lastOperationId) && c.createdAt is timestamp && c.updatedAt == request.time;
+    }
+    function metadataShape(m) {
+      return m.keys().hasAll(['schemaVersion', 'activeCount', 'activeBytes', 'revision', 'lastOperationId'])
+        && m.keys().hasOnly(['schemaVersion', 'activeCount', 'activeBytes', 'revision', 'lastOperationId'])
+        && m.schemaVersion == 1 && natural(m.activeCount) && m.activeCount <= 200
+        && natural(m.activeBytes) && m.activeBytes <= 524288 && m.revision is int && m.revision >= 1 && opId(m.lastOperationId);
+    }
+    function receiptShape(o, uid, workId, cloudKey, operationId) {
+      return o.keys().hasAll(['schemaVersion', 'operationId', 'uid', 'workId', 'cloudKey', 'kind', 'selectionRef', 'colorId', 'generation', 'baseRevision', 'resultGeneration', 'resultRevision', 'resultDeleted', 'resultColorId', 'resultPayloadBytes', 'metadataRevision', 'createdAt'])
+        && o.keys().hasOnly(['schemaVersion', 'operationId', 'uid', 'workId', 'cloudKey', 'kind', 'selectionRef', 'colorId', 'generation', 'baseRevision', 'resultGeneration', 'resultRevision', 'resultDeleted', 'resultColorId', 'resultPayloadBytes', 'metadataRevision', 'createdAt'])
+        && o.schemaVersion == 1 && o.operationId == operationId && o.uid == uid && o.workId == workId && o.cloudKey == cloudKey
+        && o.kind in ['create', 'recolor', 'delete', 'recreate'] && color(o.colorId)
+        && o.generation is int && o.generation >= 1 && natural(o.baseRevision)
+        && o.createdAt == request.time;
+    }
+    function transition(c, old, o) {
+      return c.selectionRef == old.selectionRef && c.createdAt == old.createdAt
+        && c.serverRevision == old.serverRevision + 1 && o.baseRevision <= old.serverRevision
+        && ((o.kind == 'recreate' && old.deleted && o.baseRevision == old.serverRevision && c.generation == old.generation + 1 && !c.deleted && c.colorId == o.colorId)
+          || (o.generation == old.generation && c.generation == old.generation
+            && ((o.kind == 'delete' && c.deleted && c.colorId == old.colorId)
+              || (o.kind in ['create', 'recolor'] && !old.deleted && !c.deleted && c.colorId == o.colorId
+                && (o.colorId == old.colorId || (o.kind == 'recolor' && o.baseRevision == old.serverRevision))))));
+    }
+    // Validation is distributed across three documents so the atomic write stays
+    // below Firestore's expression budget. Each requires the other two new states.
+    function cloudMutation(uid, workId, cloudKey) {
+      let c = request.resource.data;
+      let operationId = c.lastOperationId;
+      let receiptPath = /databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)/operations/$(operationId);
+      let o = getAfter(receiptPath).data;
+      let m = getAfter(/databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)).data;
+      return id(workId) && cloudShape(c, workId, cloudKey) && !exists(receiptPath)
+        && o.cloudKey == cloudKey && o.operationId == operationId && o.createdAt == request.time
+        && o.selectionRef == c.selectionRef && o.generation == c.generation
+        && o.resultGeneration == c.generation && o.resultRevision == c.serverRevision && o.resultDeleted == c.deleted
+        && o.resultColorId == c.colorId && o.resultPayloadBytes == c.payloadBytes
+        && o.metadataRevision == m.revision && m.lastOperationId == operationId;
+    }
+    function receiptMutation(uid, workId, operationId) {
+      let o = request.resource.data;
+      let cloudPath = /databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)/highlights/$(o.cloudKey);
+      let c = getAfter(cloudPath).data;
+      let m = getAfter(/databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)).data;
+      return opId(operationId) && receiptShape(o, uid, workId, o.cloudKey, operationId)
+        && c.lastOperationId == operationId && c.updatedAt == request.time && m.lastOperationId == operationId
+        && (exists(cloudPath) ? transition(c, get(cloudPath).data, o)
+          : (o.kind == 'create' && o.baseRevision == 0 && c.generation == 1 && c.serverRevision == 1 && !c.deleted && c.colorId == o.colorId && c.createdAt == request.time));
+    }
+    function metadataMutation(uid, workId) {
+      let m = request.resource.data;
+      let workPath = /databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId);
+      let receiptPath = /databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)/operations/$(m.lastOperationId);
+      let o = getAfter(receiptPath).data;
+      let cloudPath = /databases/$(database)/documents/users/$(uid)/highlightWorks/$(workId)/highlights/$(o.cloudKey);
+      let c = getAfter(cloudPath).data;
+      let oldActive = exists(cloudPath) && !get(cloudPath).data.deleted;
+      return metadataShape(m) && !exists(receiptPath) && o.createdAt == request.time
+        && o.metadataRevision == m.revision && c.lastOperationId == m.lastOperationId
+        && m.revision == (exists(workPath) ? get(workPath).data.revision + 1 : 1)
+        && m.activeCount == (exists(workPath) ? get(workPath).data.activeCount : 0) - (oldActive ? 1 : 0) + (c.deleted ? 0 : 1)
+        && m.activeBytes == (exists(workPath) ? get(workPath).data.activeBytes : 0) - (oldActive ? get(cloudPath).data.payloadBytes : 0) + (c.deleted ? 0 : c.payloadBytes);
+    }
+    match /users/{uid}/highlightWorks/{workId} {
+      allow get: if owned(uid);
+      allow list: if owned(uid) && request.query.limit != null && request.query.limit <= 1001;
+      allow create, update: if owned(uid) && metadataMutation(uid, workId);
+      allow delete: if false;
+      match /highlights/{cloudKey} {
+        allow get: if owned(uid);
+        allow list: if owned(uid) && request.query.limit != null && request.query.limit <= 1001;
+        allow create, update: if owned(uid) && cloudMutation(uid, workId, cloudKey);
+        allow delete: if false;
+      }
+      match /operations/{operationId} {
+        allow get: if owned(uid);
+        allow list: if false;
+        allow create: if owned(uid) && receiptMutation(uid, workId, operationId);
+        allow update, delete: if false;
+      }
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

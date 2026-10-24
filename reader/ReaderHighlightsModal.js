@@ -7,6 +7,8 @@ export default function ReaderHighlightsModal({
   visible, items = [], theme, loading = false, saving = false, painting = false, error, renderError,
   removingId, onRequestRemove, onCancelRemove, onConfirmRemove,
   onShow, onEdit, onRetry, onClose, onDismiss,
+  storageNotice = "Saved on this device. Highlights are not synced or guaranteed backed up.",
+  syncNotice, syncError, onRetrySync, onResolveSync,
 }) {
   const heading = useRef(null);
   const insets = useSafeAreaInsets();
@@ -25,7 +27,10 @@ export default function ReaderHighlightsModal({
         <View accessibilityViewIsModal onAccessibilityEscape={close} style={[styles.panel, { backgroundColor: theme.panel, borderColor: theme.border, paddingBottom: Math.max(16, insets.bottom) }]}>
           <Text ref={heading} accessible accessibilityRole="header" style={[styles.heading, { color: theme.text }]}>Highlights</Text>
           <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
-            <Text style={[styles.detail, { color: theme.secondary }]}>Saved on this device. Highlights are not synced or guaranteed backed up.</Text>
+            <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>
+            {!!syncNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{syncNotice}</Text>}
+            {!!syncError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{syncError}</Text>}
+            {!!onRetrySync && button("Retry synchronization", onRetrySync)}
             {loading && <ActivityIndicator accessibilityLabel="Loading highlights" color={theme.accent} />}
             {!!error && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{error}</Text>}
             {!!renderError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{renderError}</Text>}
@@ -34,17 +39,24 @@ export default function ReaderHighlightsModal({
             {items.map((item, index) => {
               const available = item.status === "resolved" && !error && !renderError;
               const confirming = item.id === removingId;
+              const overlapping = item.overlapConflict ?? (item.status === "conflict" && !item.syncConflict);
               return (
                 <View key={item.id} style={[styles.entry, { borderColor: theme.border }]}>
                   <Text style={[styles.location, { color: theme.secondary }]}>{item.locationLabel || "Highlight record"}</Text>
                   {item.status === "unreadable" ? <Text style={[styles.quote, { color: theme.text }]}>This saved record is unavailable. It has been retained on this device.</Text> : <Text style={[styles.quote, { color: theme.text }]}>{item.quotation}</Text>}
                   {!!item.detail && <Text style={[styles.detail, { color: theme.secondary }]}>{item.detail}</Text>}
                   {!!item.colorId && <Text style={[styles.detail, { color: theme.secondary }]}>{HIGHLIGHT_PALETTE[item.colorId]?.label || "Unknown color"}</Text>}
+                  {!!item.syncLabel && <Text style={[styles.detail, { color: theme.secondary }]}>{item.syncLabel}</Text>}
+                  {!!item.syncConflict && <View>
+                    <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>The cloud color differs. Your local choice is retained until you decide.</Text>
+                    {button(`Use cloud color ${index + 1}`, () => onResolveSync?.(item.id, "use-cloud"))}
+                    {button(`Reapply local color ${index + 1}`, () => onResolveSync?.(item.id, "reapply-local"))}
+                  </View>}
                   {item.status === "unresolved" && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation belongs to a different text version or could not be resolved. It has not been moved or painted.</Text>}
-                  {item.status === "conflict" && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation overlaps another saved highlight. Both records are retained; remove one to display the other.</Text>}
+                  {overlapping && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation overlaps another saved highlight. Both records are retained; remove one to display the other.</Text>}
                   {confirming ? (
                     <View>
-                      <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>Remove this highlight from this device? This cannot be undone.</Text>
+                      <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{onRetrySync ? "Remove this highlight locally and queue its deletion for synchronization?" : "Remove this highlight from this device? This cannot be undone."}</Text>
                       {button("Cancel removal", onCancelRemove)}
                       {button("Confirm remove highlight", onConfirmRemove, !!error)}
                     </View>

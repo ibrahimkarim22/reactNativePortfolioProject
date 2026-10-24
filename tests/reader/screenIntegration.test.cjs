@@ -28,7 +28,7 @@ const settle = () => new Promise(resolve => setImmediate(resolve));
 // Run the production screen, real document generator and real preference store.
 // React Native views/navigation/asset IO are the device boundaries; this host
 // preserves hook lifetimes and applies state-triggered renders between effects.
-async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
+async function host({ selectedEntry = fixture(), stored = defaults, createHighlight } = {}) {
   const storage = new Map([[PREFERENCE_KEY, JSON.stringify(stored)]]);
   const store = createReaderPreferenceStore({ getItem: async key => storage.get(key) ?? null, setItem: async (key, value) => storage.set(key, value) });
   await store.hydrate();
@@ -71,19 +71,23 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
   let focusCleanup;
   let highlightSnapshot;
   const highlightCalls = [];
+  const alerts = [];
   const highlightSession = {
     getSnapshot: () => highlightSnapshot,
-    create: async (...args) => { highlightCalls.push(['create', ...args]); return { kind: 'created', record: { id: 'new-highlight' } }; },
+    create: async (...args) => { highlightCalls.push(['create', ...args]); return createHighlight ? createHighlight(...args) : { kind: 'created', record: { id: 'new-highlight' } }; },
+    recreate: async (...args) => { highlightCalls.push(['recreate', ...args]); },
     recolor: async (...args) => { highlightCalls.push(['recolor', ...args]); },
     remove: async (...args) => { highlightCalls.push(['remove', ...args]); },
     show: async (...args) => { highlightCalls.push(['show', ...args]); },
     retry: async (...args) => { highlightCalls.push(['retry', ...args]); },
     cancelPending: async (...args) => { highlightCalls.push(['cancelPending', ...args]); },
+    resolveSyncConflict: async (...args) => { highlightCalls.push(['resolveSyncConflict', ...args]); },
   };
   const navigation = { setOptions: value => { options = value; }, goBack: () => backs++ };
   const usePreferences = () => ({ ...store.getSnapshot(), update: store.update, reset: store.reset, retry: store.retry, flush: store.flush });
   const native = Object.fromEntries(['Pressable', 'Text', 'View', 'ActivityIndicator'].map(name => [name, name]));
   Object.assign(native, {
+    Alert: { alert: (title, message, buttons, options) => alerts.push({ title, message, buttons, options }) },
     Platform: { OS: 'android' },
     StyleSheet: { create: styles => styles, absoluteFillObject: {}, hairlineWidth: 1 },
     AccessibilityInfo: { setAccessibilityFocus: target => focused.push(target) },
@@ -136,7 +140,7 @@ async function host({ selectedEntry = fixture(), stored = defaults } = {}) {
     () => {},
   );
   return {
-    store, storage, fonts, focused, lookups, highlightCalls,
+    store, storage, fonts, focused, lookups, highlightCalls, alerts,
     get highlightSnapshot() { return highlightSnapshot; },
     setHighlights(change) { highlightSnapshot = { ...highlightSnapshot, ...change }; },
     get options() { return options; },
@@ -294,7 +298,8 @@ test('highlight panel exposes only the current owner and keeps the same mounted 
 
 test('confirmed Remove uses the original scope and Show passage receives the actual record', async () => {
   const screen = await host(); let tree = screen.render();
-  const record = { id: 'saved', colorId: 'sage', revision: 1, selectionRef: { exact: 'passage', startRef: { sectionId: 'front' }, start: 1, end: 8 } };
+  const selectionRef = require('../../shared/contentText').createSelection(nodes(tree, 'ReaderSurface')[0].props.document.canonical, 1, 8);
+  const record = { id: 'saved', colorId: 'sage', revision: 1, selectionRef };
   screen.setHighlights({ records: [record] }); tree = screen.render();
   nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope); tree = screen.render();
   let panel = nodes(tree, 'ReaderHighlightsModal')[0];
@@ -360,7 +365,8 @@ test('duplicate capture edits the existing color and Cancel performs no storage 
 
 test('cancelling a failed removal abandons replay without hiding the storage error or deleting a record', async () => {
   const screen = await host(); let tree = screen.render();
-  const record = { id: 'saved', colorId: 'sage', selectionRef: { exact: 'passage', startRef: { sectionId: 'front' }, start: 1, end: 8 } };
+  const selectionRef = require('../../shared/contentText').createSelection(nodes(tree, 'ReaderSurface')[0].props.document.canonical, 1, 8);
+  const record = { id: 'saved', colorId: 'sage', selectionRef };
   screen.setHighlights({ records: [record] }); tree = screen.render();
   nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
   let panel = nodes(screen.render(), 'ReaderHighlightsModal')[0]; panel.props.onRequestRemove('saved');
@@ -378,4 +384,94 @@ test('unresolved versions never acquire a location label from the current text v
   const item = nodes(screen.render(), 'ReaderHighlightsModal')[0].props.items[0];
   assert.equal(item.status, 'unresolved'); assert.equal(item.quotation, 'Earlier quotation');
   assert.equal(item.locationLabel, 'Different text version');
+});
+
+test('isolated sync status reaches the existing panel and conflict decisions retain owner scope', async () => {
+  const screen = await host(); let tree = screen.render();
+  const selectionRef = require('../../shared/contentText').createSelection(nodes(tree, 'ReaderSurface')[0].props.document.canonical, 1, 8);
+  const record = { id: 'saved', colorId: 'sage', selectionRef };
+  screen.setHighlights({ records: [record], synchronizationEnabled: true, syncById: { saved: { status: 'conflict' } }, syncSummary: { pending: 1, deleted: 1 } });
+  tree = screen.render(); nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  const panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.match(panel.props.storageNotice, /Production synchronization is disabled/);
+  assert.equal(panel.props.items[0].syncLabel, 'Saved locally · synchronization conflict');
+  assert.equal(panel.props.items[0].syncConflict, true);
+  await panel.props.onResolveSync('saved', 'use-cloud');
+  assert.deepEqual(screen.highlightCalls, [['resolveSyncConflict', 'saved', 'use-cloud', screen.highlightSnapshot.scope]]);
+});
+
+test('cloud color conflicts are distinguished from canonical overlaps while both reasons can coexist', async () => {
+  const screen = await host(), document = nodes(screen.render(), 'ReaderSurface')[0].props.document;
+  const { createSelection } = require('../../shared/contentText');
+  const record = (id, start, end) => ({ id, colorId: 'sage', selectionRef: createSelection(document.canonical, start, end) });
+  screen.setHighlights({ records: [record('color-only', 0, 7)], conflicts: ['color-only'], synchronizationEnabled: true,
+    syncById: { 'color-only': { status: 'conflict' } } });
+  nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  let panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.items[0].syncConflict, true);
+  assert.equal(panel.props.items[0].overlapConflict, false);
+  screen.setHighlights({ records: [record('color-only', 0, 7), record('overlap', 4, 10)], conflicts: ['color-only', 'overlap'] });
+  panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.items[0].syncConflict, true);
+  assert.equal(panel.props.items[0].overlapConflict, true);
+  assert.equal(panel.props.items[1].syncConflict, false);
+  assert.equal(panel.props.items[1].overlapConflict, true);
+});
+
+async function recreationPrompt() {
+  const screen = await host({ createHighlight: async () => { throw Object.assign(new Error('Deleted passage'), { code: 'RECREATE_CONFIRMATION_REQUIRED', id: 'deleted-highlight' }); } });
+  const tree = screen.render(), document = nodes(tree, 'ReaderSurface')[0].props.document;
+  screen.setHighlights({ synchronizationEnabled: true });
+  const capture = (start = 0, end = 7) => {
+    const selection = require('../../shared/contentText').createSelection(document.canonical, start, end);
+    const snapshot = Object.freeze({ documentId: document.identity.documentId, selection });
+    nodes(screen.render(), 'ReaderHighlightControl')[0].props.onPicker(snapshot, screen.highlightSnapshot.scope);
+    return snapshot;
+  };
+  const snapshot = capture(), scope = screen.highlightSnapshot.scope;
+  nodes(screen.render(), 'ReaderHighlightPicker')[0].props.onColor('rose');
+  await nodes(screen.render(), 'ReaderHighlightPicker')[0].props.onSave();
+  assert.equal(screen.alerts.length, 1, 'a deleted passage requires an explicit confirmation');
+  const alert = screen.alerts[0];
+  assert.match(alert.message, /delet/i);
+  const cancel = alert.buttons.find(button => button.text === 'Cancel');
+  const confirm = alert.buttons.find(button => button.text === 'Save new highlight');
+  assert.ok(cancel && confirm, 'the user can cancel or explicitly save a new highlight');
+  return { screen, document, snapshot, scope, capture, cancel: cancel.onPress, confirm: confirm.onPress };
+}
+
+test('a deleted passage is recreated only after confirmation using the original color and owner scope once', async () => {
+  const h = await recreationPrompt();
+  assert.deepEqual(h.screen.highlightCalls, [['create', h.snapshot, 'rose', h.scope]]);
+  nodes(h.screen.render(), 'ReaderHighlightPicker')[0].props.onColor('blue');
+  await h.confirm(); await h.confirm();
+  assert.deepEqual(h.screen.highlightCalls, [['create', h.snapshot, 'rose', h.scope], ['recreate', 'deleted-highlight', 'rose', h.scope]]);
+  assert.equal(nodes(h.screen.render(), 'ReaderHighlightPicker')[0].props.visible, false);
+  assert.equal(nodes(h.screen.render(), 'ReaderSurface')[0].props.document, h.document);
+});
+
+test('cancelling recreation invalidates its saved confirmation without writing a new highlight', async () => {
+  const h = await recreationPrompt();
+  h.cancel(); await h.confirm();
+  assert.equal(h.screen.highlightCalls.length, 1);
+  assert.equal(nodes(h.screen.render(), 'ReaderHighlightPicker')[0].props.visible, true);
+});
+
+test('closing a picker or capturing another passage invalidates an earlier recreation confirmation immediately', async () => {
+  for (const action of ['close', 'new-draft', 'blur']) {
+    const h = await recreationPrompt();
+    if (action === 'close') nodes(h.screen.render(), 'ReaderHighlightPicker')[0].props.onClose();
+    else if (action === 'new-draft') h.capture(14, 21);
+    else h.screen.blur();
+    await h.confirm();
+    assert.equal(h.screen.highlightCalls.length, 1, action);
+  }
+});
+
+test('a recreation confirmation cannot act after A to B to A even before the new owner renders', async () => {
+  const h = await recreationPrompt();
+  h.screen.setHighlights({ scope: { ...h.scope, uid: 'other-account', ownerGeneration: h.scope.ownerGeneration + 1 } });
+  h.screen.setHighlights({ scope: { ...h.scope, ownerGeneration: h.scope.ownerGeneration + 2 } });
+  await h.confirm();
+  assert.equal(h.screen.highlightCalls.length, 1);
 });

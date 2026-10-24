@@ -14,6 +14,18 @@ function deferred() { let resolve, reject; const promise = new Promise((yes, no)
 const tick = async () => { for (let i = 0; i < 12; i++) await Promise.resolve(); };
 const rejection = code => Object.assign(new Error(code), { code });
 
+test('sync errors remain separate from local readiness and are cleared across owner generations', async () => {
+  const h = host(); await h.activate('a');
+  h.storeFor('a').update({ syncById: { one: { status: 'failed' } }, syncSummary: { pending: 1, failed: 1, deleted: 1 } });
+  assert.equal(h.session.getSnapshot().syncById.one.status, 'failed');
+  assert.equal(h.session.getSnapshot().enabled, true);
+  assert.equal(h.session.getSnapshot().error, null);
+  await h.session.setOwner('b');
+  assert.deepEqual(h.session.getSnapshot().syncById, {});
+  assert.equal(h.session.getSnapshot().syncSummary, null);
+  h.session.dispose();
+});
+
 // Store and native surface are the session's boundaries. The fake store models
 // the real shared per-work queue and confirmed-state subscription contract.
 function host({ deferPaint = false, seeds = {}, hydrateFailure = null } = {}) {

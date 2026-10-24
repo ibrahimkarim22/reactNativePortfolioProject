@@ -17,6 +17,7 @@ function createReaderHighlightSession({ manager, document, surface }) {
   const makeScope = uid => Object.freeze({ uid, workId: identity.workId, documentId: identity.documentId, ownerGeneration: ++nextOwnerGeneration });
   let scope = makeScope(null);
   const blank = () => ({ scope, records: EMPTY, unresolved: EMPTY, unreadable: EMPTY, conflicts: EMPTY,
+    syncById: Object.freeze({}), syncSummary: null,
     hydrated: false, loading: false, saving: false, rendering: false, error: null, renderError: null, privacyReady: false, enabled: false });
   let state = Object.freeze(blank());
 
@@ -67,7 +68,8 @@ function createReaderHighlightSession({ manager, document, surface }) {
     if (!owns(owner) || !state.privacyReady) return pendingRender;
     publish({ records: Object.freeze([...(source.records || EMPTY)]), unresolved: Object.freeze([...(source.unresolved || EMPTY)]),
       unreadable: Object.freeze([...(source.unreadable || EMPTY)]), conflicts: Object.freeze([...(source.conflicts || EMPTY)]),
-      hydrated: !!source.hydrated, loading: !!source.loading, saving: !!source.saving, error: source.error || null });
+      hydrated: !!source.hydrated, loading: !!source.loading, saving: !!source.saving, error: source.error || null,
+      syncById: source.syncById || Object.freeze({}), syncSummary: source.syncSummary || null });
     return paint(paintable(), owner);
   }
 
@@ -164,6 +166,8 @@ function createReaderHighlightSession({ manager, document, surface }) {
       return mutate('recolor', [id, colorId], expected);
     },
     remove(id, expected) { return mutate('remove', [id], expected); },
+    resolveSyncConflict(id, choice, expected) { return mutate('resolveConflict', [id, choice], expected); },
+    recreate(id, colorId, expected) { return mutate('recreate', [id, colorId], expected); },
     async cancelPending(expected) {
       // Cancelling a failed picker is allowed while storage remains blocked.
       // Validate ownership without requiring an error-free/hydrated store, and

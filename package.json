@@ -6,7 +6,10 @@
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test:highlight-sync": "node tests/firestore/run-emulators.cjs test",
+    "test:highlight-sync:clients": "node tests/firestore/run-clients.cjs",
+    "highlight-sync:emulators": "node tests/firestore/run-emulators.cjs start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -52,7 +55,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@firebase/rules-unit-testing": "5.0.0",
     "@types/react": "~19.0.10",
+    "firebase-tools": "14.12.1",
     "metro": "^0.82.0",
     "metro-cache": "0.80.9",
     "metro-config": "0.80.9",

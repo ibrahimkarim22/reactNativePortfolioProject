@@ -29,6 +29,38 @@ const items = [
   { id: 'c', quotation: 'Overlapping quotation', locationLabel: 'Act II', colorId: 'rose', status: 'conflict' },
   { id: 'd', status: 'unreadable' },
 ];
+
+test('sync states and deletion backlog stay visible without disabling local actions or claiming backup', () => {
+  const Panel = load(); let retried = 0, resolved;
+  const tree = Panel({ visible: true, items: [{ ...items[0], syncLabel: 'Saved locally · sync failed', syncConflict: true }], theme: THEMES.paper,
+    storageNotice: 'Emulator test only. Production synchronization is disabled.', syncNotice: '1 deletion pending sync',
+    syncError: 'Permission denied. Local data is retained.', onRetrySync: () => retried++, onResolveSync: (...args) => { resolved = args; } });
+  assert.match(texts(tree), /Production synchronization is disabled/);
+  assert.match(texts(tree), /1 deletion pending sync/);
+  assert.match(texts(tree), /Saved locally · sync failed/);
+  const buttons = nodes(tree, 'Pressable');
+  assert.equal(buttons.find(n => n.props.accessibilityLabel === 'Edit color 1').props.disabled, false);
+  buttons.find(n => n.props.accessibilityLabel === 'Retry synchronization').props.onPress(); assert.equal(retried, 1);
+  buttons.find(n => n.props.accessibilityLabel === 'Use cloud color 1').props.onPress(); assert.deepEqual(resolved, ['a', 'use-cloud']);
+});
+test('a cloud-only conflict offers color decisions without falsely reporting an overlapping quotation', () => {
+  const Panel = load();
+  const tree = Panel({ visible: true, items: [{ ...items[0], status: 'conflict', syncConflict: true, overlapConflict: false }], theme: THEMES.paper });
+  assert.match(texts(tree), /cloud color differs/);
+  assert.doesNotMatch(texts(tree), /overlaps another/);
+  const buttons = nodes(tree, 'Pressable');
+  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Use cloud color 1'));
+  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Reapply local color 1'));
+});
+test('combined conflicts show both explanations and legacy overlap records retain their warning', () => {
+  const Panel = load();
+  const combined = Panel({ visible: true, items: [{ ...items[0], status: 'conflict', syncConflict: true, overlapConflict: true }], theme: THEMES.paper });
+  assert.match(texts(combined), /cloud color differs/);
+  assert.match(texts(combined), /overlaps another/);
+  const legacy = Panel({ visible: true, items: [items[2]], theme: THEMES.paper });
+  assert.match(texts(legacy), /overlaps another/);
+  assert.doesNotMatch(texts(legacy), /cloud color differs/);
+});
 test('list displays exact quotations and local-only disclosure, with unavailable records retained and disabled', () => {
   const Panel = load(); const shown = [], edited = [], requested = [];
   const tree = Panel({ visible: true, items, theme: THEMES.paper, onShow: id => shown.push(id), onEdit: id => edited.push(id), onRequestRemove: id => requested.push(id) });

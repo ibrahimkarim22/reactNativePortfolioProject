@@ -11,7 +11,8 @@ import ReaderHighlightControl from "./ReaderHighlightControl";
 import ReaderHighlightPicker from "./ReaderHighlightPicker";
 import ReaderHighlightsModal from "./ReaderHighlightsModal";
 import useReaderHighlights from "./useReaderHighlights";
-import { errorMessage, findCreateConflict, validateSelectionRef } from "./readerHighlights";
+import { errorMessage, findCreateConflict, findStoredConflicts, validateSelectionRef } from "./readerHighlights";
+import { syncLabel, syncSummaryText, syncErrorText } from "./highlightSyncPresentation";
 import { createReaderDocument } from "./readerDocument";
 import { buildReaderNavigation } from "./readerNavigation";
 import { THEMES } from "./readerConstants";
@@ -23,9 +24,9 @@ import useReaderNavigation from "./useReaderNavigation";
 
 let nextDocumentId = 0;
 
-export default function ReaderScreen({ id }) {
+export default function ReaderScreen({ id, highlightRuntime }) {
   const navigation = useNavigation();
-  const settings = useReaderPreferences();
+  const settings = useReaderPreferences(highlightRuntime?.preferences);
   const { preferences, hydrated, update, reset, retry, flush } = settings;
   const [appearanceOpen, setAppearanceOpen] = useState(false);
   const [fontStatus, setFontStatus] = useState({ fontId: null, faces: undefined, loading: false, error: null });
@@ -48,7 +49,8 @@ export default function ReaderScreen({ id }) {
     }
   }, [entry, entry?.play?.contentVersion, entry?.play?.canonicalTextVersion]);
   const readerNavigation = useReaderNavigation(result);
-  const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready);
+  const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready, highlightRuntime);
+  const syncStorageNotice = highlights.synchronizationEnabled ? "Isolated emulator test. Saved locally first; check synchronization status below. Production synchronization is disabled." : undefined;
   const [highlightState, setHighlightState] = useState("none");
   const [surfaceFailure, setSurfaceFailure] = useState(false);
   const [highlightDraft, setHighlightDraft] = useState(null);
@@ -67,23 +69,28 @@ export default function ReaderScreen({ id }) {
   const highlightsOpen = !!highlightListScope && highlightListScope === highlightScope;
   const highlightFocus = useReaderModalFocus({ visible: !!activeDraft || highlightsOpen });
   const draftContext = useRef(null);
-  draftContext.current = { scope: highlightScope, error: highlights.error, session: highlights.session };
+  draftContext.current = { scope: highlightScope, draft: activeDraft, error: highlights.error, session: highlights.session };
   const abandonDraft = useCallback(() => {
+    highlightOperation.current++;
     const context = draftContext.current;
     if (context.scope && context.error) context.session?.cancelPending?.(context.scope)?.catch(() => {});
+    setHighlightSaving(false);
     setHighlightDraft(null);
   }, []);
   const highlightCount = highlights.records.length + highlights.unresolved.length + highlights.unreadable.length;
   const highlightItems = useMemo(() => {
     const sections = new Map((result.model?.items || []).map(item => [item.id, item.locationLabel]));
     const conflicts = new Set(highlights.conflicts);
+    const overlaps = new Set(result.document ? findStoredConflicts(highlights.records, result.document.canonical) : []);
     const item = (record, status) => ({ id: record.id, quotation: record.selectionRef.exact,
       locationLabel: status === "unresolved" ? "Different text version" : sections.get(record.selectionRef.startRef.sectionId) || "Saved quotation", colorId: record.colorId,
-      status, start: record.selectionRef.start });
+      status, start: record.selectionRef.start, overlapConflict: overlaps.has(record.id),
+      syncLabel: highlights.synchronizationEnabled ? syncLabel(highlights.syncById?.[record.id]) : undefined,
+      syncConflict: highlights.syncById?.[record.id]?.status === "conflict" });
     return [...highlights.records.map(record => item(record, conflicts.has(record.id) ? "conflict" : "resolved")),
       ...highlights.unresolved.map(({ record }) => item(record, "unresolved"))].sort((a, b) => a.start - b.start || a.id.localeCompare(b.id))
       .concat(highlights.unreadable.map(record => ({ id: record.id, status: "unreadable", detail: errorMessage(record.code) })));
-  }, [highlights.records, highlights.unresolved, highlights.unreadable, highlights.conflicts, result.model]);
+  }, [highlights.records, highlights.unresolved, highlights.unreadable, highlights.conflicts, highlights.syncById, highlights.synchronizationEnabled, result.model, result.document]);
   const highlightMessage = error => error ? errorMessage(error.code) : null;
   const onReaderMessage = useCallback(message => {
     readerNavigation.onMessage(message);
@@ -94,6 +101,7 @@ export default function ReaderScreen({ id }) {
   }, [readerNavigation.onMessage, result.document]);
   const openHighlights = scope => {
     if (!currentScope(scope)) return;
+    highlightOperation.current++;
     scope = highlights.session.getSnapshot().scope;
     readerNavigation.surfaceRef.current?.clearSelection?.("modal");
     cancelFocusReturn(); readerNavigation.dismissContents(); setAppearanceOpen(false);
@@ -111,7 +119,8 @@ export default function ReaderScreen({ id }) {
       Alert.alert("Unable to highlight passage", errorMessage(error.code), [{ text: "Cancel", style: "cancel" }, { text: "Open highlights", onPress: () => openHighlights(scope) }]);
       return;
     }
-    setHighlightDraft({ snapshot, scope, editingId: duplicate?.id });
+    highlightOperation.current++;
+    setHighlightDraft(Object.freeze({ snapshot, scope, editingId: duplicate?.id }));
     setHighlightColor(duplicate?.colorId || "yellow");
     setHighlightError(null);
     setHighlightListScope(null); setRemovingHighlight(null);
@@ -127,15 +136,38 @@ export default function ReaderScreen({ id }) {
     const draft = activeDraft;
     if (!draft || highlightSaving || !currentScope(draft.scope)) return;
     const operation = ++highlightOperation.current;
+    const color = highlightColor, session = highlights.session;
+    const stillCurrent = () => highlightOperation.current === operation && currentScope(draft.scope) && draftContext.current.draft === draft;
     setHighlightSaving(true); setHighlightError(null);
     try {
-      const saved = draft.editingId ? await highlights.session.recolor(draft.editingId, highlightColor, draft.scope)
-        : await highlights.session.create(draft.snapshot, highlightColor, draft.scope);
-      if (!currentScope(draft.scope)) return;
+      const saved = draft.editingId ? await session.recolor(draft.editingId, color, draft.scope)
+        : await session.create(draft.snapshot, color, draft.scope);
+      if (!stillCurrent()) return;
       if (saved?.kind === "duplicate") {
         setHighlightDraft({ ...draft, editingId: saved.record.id }); setHighlightColor(saved.record.colorId);
       } else { highlightFocus.restoreAfterClose(); setHighlightDraft(null); }
-    } catch (error) { if (currentScope(draft.scope)) setHighlightError(errorMessage(error.code)); }
+    } catch (error) {
+      if (!stillCurrent()) return;
+      if (!draft.editingId && error.code === "RECREATE_CONFIRMATION_REQUIRED" && typeof error.id === "string" && error.id.length) {
+        // A confirmation belongs to this captured passage, color and owner.
+        // Retire its token on every new draft/cancel and consume it only once.
+        const id = error.id;
+        Alert.alert("Save a new highlight?", "This passage was previously deleted. Saving it again creates a new highlight after that deletion.", [
+          { text: "Cancel", style: "cancel", onPress: () => { if (stillCurrent()) highlightOperation.current++; } },
+          { text: "Save new highlight", onPress: async () => {
+            if (!stillCurrent()) return;
+            const confirmation = ++highlightOperation.current;
+            const confirming = () => highlightOperation.current === confirmation && currentScope(draft.scope) && draftContext.current.draft === draft;
+            setHighlightSaving(true); setHighlightError(null);
+            try {
+              await session.recreate(id, color, draft.scope);
+              if (confirming()) { highlightFocus.restoreAfterClose(); setHighlightDraft(null); }
+            } catch (failure) { if (confirming()) setHighlightError(syncErrorText(failure)); }
+            finally { if (highlightOperation.current === confirmation) setHighlightSaving(false); }
+          } },
+        ], { cancelable: false });
+      } else setHighlightError(errorMessage(error.code));
+    }
     finally { if (highlightOperation.current === operation) setHighlightSaving(false); }
   };
   const retryHighlights = async () => {
@@ -158,6 +190,7 @@ export default function ReaderScreen({ id }) {
   const editHighlight = id => {
     const record = highlights.records.find(item => item.id === id);
     if (!record || highlights.conflicts.includes(id) || !currentScope(highlightScope)) return;
+    highlightOperation.current++;
     setHighlightDraft({ snapshot: { selection: record.selectionRef, documentId: highlightScope.documentId }, scope: highlightScope, editingId: id });
     setHighlightColor(record.colorId); setHighlightError(null); setHighlightListScope(null);
   };
@@ -177,6 +210,12 @@ export default function ReaderScreen({ id }) {
     try { await highlights.session.remove(id, scope); if (currentScope(scope)) setRemovingHighlight(null); }
     catch (error) { if (currentScope(scope)) setHighlightError(errorMessage(error.code)); }
     finally { if (highlightOperation.current === operation) setHighlightSaving(false); }
+  };
+  const resolveHighlightSync = async (id, choice) => {
+    const scope = highlightScope;
+    if (!currentScope(scope) || highlightSaving) return;
+    try { await highlights.session.resolveSyncConflict(id, choice, scope); }
+    catch (error) { if (currentScope(scope)) setHighlightError(syncErrorText(error)); }
   };
   useEffect(() => {
     highlightOperation.current++;
@@ -313,9 +352,13 @@ export default function ReaderScreen({ id }) {
       </View>
       <ReaderSelectionVerifier surfaceRef={readerNavigation.surfaceRef} documentId={result.document?.identity.documentId} theme={theme} />
       <ReaderHighlightPicker visible={!!activeDraft} snapshot={activeDraft?.snapshot} colorId={highlightColor} theme={theme}
+        storageNotice={syncStorageNotice}
         onColor={setHighlightColor} onClose={closeHighlight} onSave={saveHighlight} saving={highlightSaving || highlights.saving}
         error={highlightError || highlightMessage(highlights.error)} onRetry={highlights.error ? retryHighlights : undefined} onDismiss={highlightFocus.onDismiss} />
       <ReaderHighlightsModal visible={highlightsOpen} items={highlightsOpen ? highlightItems : []} theme={theme}
+        storageNotice={syncStorageNotice} syncNotice={highlights.synchronizationEnabled ? syncSummaryText(highlights.syncSummary) : undefined}
+        syncError={highlights.synchronizationEnabled ? syncErrorText(highlights.syncCoordinatorError) : undefined}
+        onRetrySync={highlights.synchronizationEnabled ? highlights.retrySync : undefined} onResolveSync={resolveHighlightSync}
         loading={highlights.loading} saving={highlightSaving || highlights.saving} painting={highlights.rendering} error={highlightsOpen ? highlightError || highlightMessage(highlights.error) : null}
         renderError={highlightsOpen ? highlightMessage(highlights.renderError) : null} onRetry={retryHighlights}
         removingId={removingHighlight} onRequestRemove={setRemovingHighlight} onCancelRemove={() => { abandonDraft(); setRemovingHighlight(null); setHighlightError(null); }} onConfirmRemove={removeHighlight}

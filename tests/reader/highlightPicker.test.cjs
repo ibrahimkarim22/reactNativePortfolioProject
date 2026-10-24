@@ -64,3 +64,11 @@ test('picker explains local-only persistence, reports safe errors and keeps quot
   assert.equal(nodes(tree, 'View').some(n => n.props.accessibilityViewIsModal), true);
   assert.equal(nodes(tree, 'iframe').length, 0);
 });
+
+test('isolated synchronization picker describes pending local saving without claiming cloud confirmation', () => {
+  const Picker = load();
+  const tree = Picker({ visible: true, snapshot, storageNotice: 'Emulator test only. Save confirms this device first; synchronization may remain pending.' });
+  assert.match(texts(tree), /Emulator test only/);
+  assert.match(texts(tree), /synchronization may remain pending/);
+  assert.doesNotMatch(texts(tree), /Highlights are not synced/);
+});

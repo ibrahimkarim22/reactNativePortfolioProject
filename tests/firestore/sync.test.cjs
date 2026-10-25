@@ -208,3 +208,43 @@ test('live rule-enforced listeners deliver another device edits into its indepen
     assert.equal(one.store.getSnapshot().records.length, 1); assert.equal(two.store.getSnapshot().records.length, 1);
   } finally { for (const unsubscribe of listeners) unsubscribe(); }
 });
+
+test('a fresh same-account client discovers multiple plays without canonical reads and observes tombstones and new works', async t => {
+  const email = 'discovery-' + Date.now() + '@bard-sync.test';
+  const a = await client(t, email, 'discoveryA'), b = await client(t, email, 'discoveryB');
+  const one = local(a), two = local(b);
+  const tempest = buildCanonicalDocument({ play: { id: 'tempest', contentVersion: 'c'.repeat(64), canonicalTextVersion: '1', sections: [{ id: 's' }] }, sections: [{ work: { id: 'tempest' }, contentVersion: 'c'.repeat(64), canonicalTextVersion: '1', section: { id: 's' }, content: [{ id: 'tempest/s/p@0', text: 'Now my charms are all oerthrown.', separatorAfter: '' }] }] });
+  await one.store.create(reference(), 'yellow'); await sync(a, one.store);
+  let canonicalReads = 0;
+  const coordinator = require('../../reader/highlightSyncCoordinator').createHighlightSyncCoordinator({ manager: two.manager, transport: b.transport,
+    resolveCanonical() { canonicalReads++; throw new Error('Account discovery cannot build full plays.'); } });
+  t.after(() => coordinator.dispose());
+  const waitFor = async predicate => {
+    if (predicate()) return;
+    await new Promise((resolve, reject) => {
+      const timer = setTimeout(() => { stop(); reject(new Error('Fresh-client discovery timed out')); }, 10000);
+      const inspect = () => {
+        const error = coordinator.getSnapshot().error || coordinator.getSnapshot().discoveryError;
+        if (error) { clearTimeout(timer); stop(); reject(new Error(error.code)); }
+        else if (predicate()) { clearTimeout(timer); stop(); resolve(); }
+      };
+      const stop = coordinator.subscribe(inspect); inspect();
+    });
+  };
+  await coordinator.setOwner(b.uid);
+  await waitFor(() => coordinator.getSnapshot().works.length === 1);
+  const second = one.manager.forWork({ uid: a.uid, canonical: tempest });
+  await second.create(createSelection(tempest, 0, 3), 'blue'); await sync(a, second);
+  await waitFor(() => coordinator.getSnapshot().works.length === 2);
+  assert.equal(canonicalReads, 0);
+  assert.deepEqual(coordinator.getSnapshot().works.map(row => [row.workId, row.metadata.activeCount]), [['hamlet', 1], ['tempest', 1]]);
+  const opened = await coordinator.openWork(tempest);
+  await waitFor(() => opened.getSnapshot().records.length === 1);
+  assert.equal(opened.getSnapshot().records[0].selectionRef.exact, 'Now');
+  await second.remove(second.getSnapshot().records[0].id); await sync(a, second);
+  await waitFor(() => coordinator.getSnapshot().works.find(row => row.workId === 'tempest')?.metadata.activeCount === 0 && opened.getSnapshot().records.length === 0);
+  assert.equal(opened.getSnapshot().tombstones.length, 1);
+  const restarted = local(b, memory(Object.fromEntries(two.data)));
+  assert.deepEqual(await restarted.manager.readWorkCatalogue(b.uid), coordinator.getSnapshot().works);
+  assert.equal(canonicalReads, 0);
+});

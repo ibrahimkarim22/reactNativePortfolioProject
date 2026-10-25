@@ -64,6 +64,7 @@ function host(relativeFile, overrides = {}) {
     './ReaderHighlightControl': 'ReaderHighlightControl',
     './ReaderHighlightPicker': 'ReaderHighlightPicker',
     './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useMyHighlightsReader': { __esModule: true, default: () => ({ cancel() {}, opening: false, error: null }) },
     './useReaderHighlights': { __esModule: true, default: document => React.useMemo(() => ({ scope: { uid: null, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: false }), [document]) },
     // These screen cases isolate surface/header lifetimes. Navigation's real
     // model and screen integration are exercised by their dedicated suites.

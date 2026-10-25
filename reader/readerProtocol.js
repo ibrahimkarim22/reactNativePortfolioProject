@@ -29,6 +29,10 @@ function parseReaderMessage(raw, identity, canonical) {
       || !IDENTITY_FIELDS.every(key => message[key] === identity[key])) return null;
   if (message.type === 'selectionChange' || message.type === 'selectionCapture') return parseSelectionMessage(raw, identity, canonical);
   if (message.type === 'highlightsApplied' || message.type === 'highlightShown') return parseHighlightMessage(raw, identity);
+  if (message.type === 'interaction') {
+    const allowed = [...IDENTITY_FIELDS, 'type', 'interactionSeq'];
+    return Object.keys(message).every(key => allowed.includes(key)) && Number.isSafeInteger(message.interactionSeq) && message.interactionSeq > 0 ? message : null;
+  }
   if (message.type === 'location' || message.type === 'jumped') {
     const sequence = message.type === 'location' ? 'locationSeq' : 'navigationId';
     const allowed = [...IDENTITY_FIELDS, 'type', 'sectionId', sequence];

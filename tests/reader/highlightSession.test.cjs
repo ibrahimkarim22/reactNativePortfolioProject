@@ -26,6 +26,17 @@ test('sync errors remain separate from local readiness and are cleared across ow
   h.session.dispose();
 });
 
+test('retained deletion conflicts reach management state without entering painted records and clear on owner change', async () => {
+  const h = host(); await h.activate('a');
+  const marker = { id: 'one', record: record(), sync: { status: 'conflict', conflict: { cloud: { deleted: false } } } };
+  h.storeFor('a').update({ tombstones: [marker] });
+  assert.equal(h.session.getSnapshot().tombstones[0], marker);
+  assert.equal(h.paints.at(-1).records.length, 0);
+  await h.session.setOwner('b');
+  assert.deepEqual(h.session.getSnapshot().tombstones, []);
+  h.session.dispose();
+});
+
 // Store and native surface are the session's boundaries. The fake store models
 // the real shared per-work queue and confirmed-state subscription contract.
 function host({ deferPaint = false, seeds = {}, hydrateFailure = null } = {}) {

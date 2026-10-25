@@ -33,6 +33,28 @@ function texts(tree) {
 }
 const snapshot = { documentId: 'doc', selection: { exact: 'CUE.\n  Café\u00a0and grief,\n\n' } };
 
+test('picker actions and selected choice use neutral tokens in all themes while retaining original color swatches', () => {
+  const Picker = load();
+  const palette = require('../../reader/readerHighlights').HIGHLIGHT_PALETTE;
+  for (const [id, theme] of Object.entries(THEMES)) {
+    for (const saving of [false, true]) {
+      const tree = Picker({ visible: true, snapshot, colorId: 'sage', theme, saving });
+      for (const label of ['Save highlight', 'Cancel highlight']) {
+        const action = nodes(tree, 'Pressable').find(node => node.props.accessibilityLabel === label);
+        assert.equal(nodes(action, 'Text')[0].props.style[1].color, saving ? theme.highlightActionDisabled : theme.highlightAction);
+        assert.equal(typeof action.props.style, 'function');
+        const style = Object.assign({}, ...action.props.style({ pressed: true }));
+        if (!saving) assert.equal(style.backgroundColor, theme.highlightPressed);
+        assert.equal(style.opacity, undefined);
+      }
+      const choices = nodes(tree, 'Pressable').filter(node => node.props.accessibilityRole === 'radio');
+      for (const [index, choice] of choices.entries()) {
+        assert.equal(nodes(choice, 'View')[0].props.style[1].backgroundColor, Object.values(palette)[index].background[id]);
+      }
+    }
+  }
+});
+
 test('picker shows exact full quotation and four named checked color choices without saving on color choice', () => {
   const Picker = load(); let saves = 0, selected;
   const tree = Picker({ visible: true, snapshot, colorId: 'sage', theme: THEMES.paper, onColor: id => { selected = id; }, onSave: () => saves++ });
@@ -56,10 +78,10 @@ test('Cancel and Android Back discard the draft through the same callback and sa
   assert.ok(nodes(tree, 'Pressable').filter(n => n.props.accessibilityRole === 'radio').every(n => n.props.disabled));
 });
 
-test('picker explains local-only persistence, reports safe errors and keeps quotation outside the source document', () => {
+test('picker omits repetitive storage prose, reports safe errors and keeps quotation outside the source document', () => {
   const Picker = load();
   const tree = Picker({ visible: true, snapshot, colorId: 'rose', theme: THEMES.sepia, error: 'Storage is full. Remove a highlight or free device space.' });
-  assert.match(texts(tree), /Saved on this device\. Highlights are not synced or guaranteed backed up\./);
+  assert.doesNotMatch(texts(tree), /not synced or guaranteed backed up/);
   assert.match(texts(tree), /Storage is full/);
   assert.equal(nodes(tree, 'View').some(n => n.props.accessibilityViewIsModal), true);
   assert.equal(nodes(tree, 'iframe').length, 0);

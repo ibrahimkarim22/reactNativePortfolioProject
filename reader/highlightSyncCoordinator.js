@@ -2,6 +2,7 @@ const MAX_AUTOMATIC_DELAY_MS = 60000;
 const MAX_WORKS = 128;
 const PERMANENT = new Set(['permission-denied', 'unauthenticated', 'invalid-argument', 'SYNC_CONFLICT', 'SYNC_DELETED', 'SYNC_COUNT_LIMIT', 'SYNC_WORK_LIMIT', 'SYNC_RECORD_LIMIT', 'SYNC_LISTENER_LIMIT', 'SYNC_INVALID_STATE', 'SYNC_INVALID_OPERATION', 'SYNC_RECEIPT_MISMATCH', 'INVALID_REMOTE']);
 const codeFor = error => typeof error?.code === 'string' ? error.code.replace(/^firestore\//, '') : 'unavailable';
+const { validateMetadata, syncError } = require('./highlightSyncProtocol');
 
 // One owner-scoped worker for the whole collection. No terminated-process or
 // background execution is promised: the durable store is the retry boundary.
@@ -9,12 +10,13 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
   if (!manager || typeof manager.forWork !== 'function' || !transport || typeof (transport.commit || transport.submit) !== 'function' || typeof transport.listen !== 'function' || typeof resolveCanonical !== 'function') throw new Error('Invalid highlight synchronization coordinator configuration.');
   let owner = null, generation = 0, disposed = false, timer = null, attempt = 0, nextRetryAt = null, lastError = null, runningGeneration = null, listenerUnsubscribe = null, listenerGeneration = 0, listenerNeedsRetry = false, openCanonical = null, microtaskQueued = false;
   const subscribers = new Set(), activeStores = new Map(), drains = new Map();
+  let works = Object.freeze([]), discoveryLoading = false, discoveryError = null, discoveryUnsubscribe = null, discoveryGeneration = 0, discoveryNeedsRetry = false;
   let ready = Promise.resolve(), snapshot;
   const isCurrent = (uid, epoch) => !disposed && owner === uid && generation === epoch;
   function publish() {
     let pending = 0;
     for (const { store } of activeStores.values()) pending += store.getSnapshot().syncSummary?.pendingOperations || 0;
-    snapshot = Object.freeze({ uid: owner, ownerGeneration: generation, running: runningGeneration === generation, pending, error: lastError, nextRetryAt });
+    snapshot = Object.freeze({ uid: owner, ownerGeneration: generation, running: runningGeneration === generation, pending, error: lastError, nextRetryAt, works, discoveryLoading, discoveryError });
     for (const observer of subscribers) { try { observer(); } catch (_) { /* Observers cannot interfere with worker ownership. */ } }
   }
   function errorState(error) { return Object.freeze({ code: codeFor(error), message: typeof error?.message === 'string' ? error.message : 'Highlight synchronization is unavailable.', retryable: !PERMANENT.has(codeFor(error)) }); }
@@ -26,6 +28,7 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
     timer = schedule(() => {
       timer = null; nextRetryAt = null;
       if (!isCurrent(uid, epoch)) return;
+      if (discoveryNeedsRetry) startDiscovery(uid, epoch);
       if (listenerNeedsRetry && openCanonical) {
         const entry = activeStores.get(openCanonical.workId);
         if (entry) startListening(openCanonical, entry.store, uid, epoch);
@@ -52,6 +55,57 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
     return store;
   }
   function stopListening() { listenerGeneration++; if (listenerUnsubscribe) listenerUnsubscribe(); listenerUnsubscribe = null; }
+  function stopDiscovery() { discoveryGeneration++; if (discoveryUnsubscribe) discoveryUnsubscribe(); discoveryUnsubscribe = null; }
+  async function mergeCatalogue(rows, uid, guard) {
+    if (!guard()) return;
+    if (!Array.isArray(rows) || rows.length > MAX_WORKS) throw syncError('SYNC_LISTENER_LIMIT');
+    const merged = new Map(works.map(row => [row.workId, row])), seen = new Set();
+    for (const row of rows) {
+      if (!row || typeof row.workId !== 'string' || !row.workId.length || row.workId.length > 128 || /[\/\u0000-\u001f]/.test(row.workId) || seen.has(row.workId)) throw syncError('SYNC_INVALID_STATE');
+      seen.add(row.workId);
+      const metadata = validateMetadata(row.metadata), previous = merged.get(row.workId)?.metadata;
+      if (previous && metadata.revision < previous.revision) continue;
+      if (previous && metadata.revision === previous.revision) {
+        if (['activeCount', 'activeBytes', 'lastOperationId'].some(key => metadata[key] !== previous[key])) throw syncError('SYNC_INVALID_STATE');
+        continue;
+      }
+      merged.set(row.workId, Object.freeze({ workId: row.workId, metadata }));
+    }
+    if (merged.size > MAX_WORKS) throw syncError('SYNC_LISTENER_LIMIT');
+    // Work documents cannot be hard-deleted by this protocol. Missing rows or
+    // older listener snapshots therefore cannot erase an acknowledged work.
+    works = Object.freeze([...merged.values()].sort((a, b) => a.workId.localeCompare(b.workId)));
+    publish();
+    // The manager serializes owner catalogue writes. Do not republish the
+    // returned earlier snapshot after a newer merge has advanced memory.
+    if (typeof manager.writeWorkCatalogue === 'function') {
+      try { await manager.writeWorkCatalogue(uid, works, { isCurrent: guard }); }
+      catch (error) { if (guard()) { discoveryError = errorState(error); publish(); } throw error; }
+    }
+  }
+  function startDiscovery(uid, epoch) {
+    stopDiscovery();
+    if (!isCurrent(uid, epoch) || typeof transport.listenWorks !== 'function') return;
+    const token = discoveryGeneration, guard = () => isCurrent(uid, epoch) && token === discoveryGeneration;
+    discoveryLoading = true; publish();
+    const fail = error => {
+      if (!guard() || ['CANCELLED', 'SYNC_CANCELLED'].includes(codeFor(error))) return;
+      discoveryLoading = false; discoveryError = errorState(error); discoveryNeedsRetry = discoveryError.retryable;
+      if (discoveryNeedsRetry) retryLater(uid, epoch); publish();
+    };
+    try {
+      discoveryUnsubscribe = transport.listenWorks(uid, async rows => {
+        if (!guard()) return;
+        try {
+          // The catalogue is metadata only. Discovering a remote work does not
+          // build its canonical document, hydrate its journal or migrate data.
+          await mergeCatalogue(rows, uid, guard);
+          if (!guard()) return;
+          discoveryLoading = false; discoveryError = null; discoveryNeedsRetry = false; publish();
+        } catch (error) { fail(error); }
+      }, fail, { isCurrent: guard });
+    } catch (error) { fail(error); }
+  }
   function startListening(canonical, store, uid, epoch) {
     stopListening(); if (!isCurrent(uid, epoch)) return;
     const listenerEpoch = listenerGeneration;
@@ -84,8 +138,14 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
           const submit = transport.commit || transport.submit;
           const result = await submit.call(transport, operation, { isCurrent: guard });
           if (!guard()) return;
-          await store.acknowledge(operation.operationId, result, { isCurrent: guard });
+          const acknowledged = await store.acknowledge(operation.operationId, result, { isCurrent: guard });
           if (!guard()) return;
+          if (acknowledged !== false && result.metadata) {
+            const metadata = validateMetadata(result.metadata);
+            if (metadata.revision < result.receipt.metadataRevision || metadata.revision === result.receipt.metadataRevision && metadata.lastOperationId !== operation.operationId) throw syncError('SYNC_RECEIPT_MISMATCH');
+            await mergeCatalogue([{ workId: operation.workId, metadata }], uid, guard);
+            if (!guard()) return;
+          }
           if (!listenerNeedsRetry) { attempt = 0; lastError = null; } processed++;
         } catch (error) {
           if (!guard() || codeFor(error) === 'CANCELLED') return;
@@ -124,17 +184,28 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
     if (disposed) return Promise.resolve();
     if (uid !== null && (typeof uid !== 'string' || !uid.length || uid.length > 128)) return Promise.reject(new Error('Invalid synchronization account.'));
     if (owner === uid) return ready;
-    generation++; owner = uid; clearTimer(); stopListening(); listenerNeedsRetry = false; attempt = 0; lastError = null; openCanonical = null;
+    generation++; owner = uid; clearTimer(); stopListening(); stopDiscovery(); listenerNeedsRetry = false; attempt = 0; lastError = null; openCanonical = null;
+    works = Object.freeze([]); discoveryLoading = !!uid && typeof transport.listenWorks === 'function'; discoveryError = null; discoveryNeedsRetry = false;
     for (const entry of activeStores.values()) entry.unsubscribe(); activeStores.clear();
     const epoch = generation; publish();
     ready = (async () => {
       if (!uid) return;
-      const workIds = typeof manager.discoverWorks === 'function' ? await manager.discoverWorks(uid) : [];
+      if (typeof manager.readWorkCatalogue === 'function') {
+        try { const cached = await manager.readWorkCatalogue(uid, { isCurrent: () => isCurrent(uid, epoch) }); if (isCurrent(uid, epoch)) { works = cached; publish(); } }
+        catch (error) { if (isCurrent(uid, epoch)) { discoveryError = errorState(error); publish(); } }
+      }
+      if (!isCurrent(uid, epoch)) return;
+      startDiscovery(uid, epoch);
+      const workIds = typeof manager.discoverPendingWorks === 'function' ? await manager.discoverPendingWorks(uid, { isCurrent: () => isCurrent(uid, epoch) })
+        : typeof manager.discoverWorks === 'function' ? await manager.discoverWorks(uid) : [];
       if (!isCurrent(uid, epoch)) return;
       if (workIds.length > MAX_WORKS) throw Object.assign(new Error('Too many highlight works are retained for automatic synchronization.'), { code: 'SYNC_LISTENER_LIMIT' });
       for (const workId of workIds) {
         const canonical = await resolveCanonical(workId); if (!isCurrent(uid, epoch)) return;
-        if (!canonical || canonical.workId !== workId) throw Object.assign(new Error('The bundled play needed for synchronization is unavailable.'), { code: 'SYNC_INVALID_STATE' });
+        // Unknown retained works stay in the metadata/raw catalogue. They have
+        // no canonical target and must not stop independent known-work queues.
+        if (!canonical) continue;
+        if (canonical.workId !== workId) throw Object.assign(new Error('The bundled play needed for synchronization is unavailable.'), { code: 'SYNC_INVALID_STATE' });
         await attach(canonical, uid, epoch);
       }
     })().catch(error => { if (isCurrent(uid, epoch) && codeFor(error) !== 'CANCELLED') { lastError = errorState(error); publish(); } });
@@ -152,12 +223,23 @@ function createHighlightSyncCoordinator({ manager, transport, resolveCanonical, 
     clearTimer(); attempt = 0; lastError = null; await ready;
     for (const { store } of activeStores.values()) { if (!isCurrent(uid, epoch)) return; await store.retry({ isCurrent: () => isCurrent(uid, epoch) }); }
     if (!isCurrent(uid, epoch)) return;
+    startDiscovery(uid, epoch);
     if (openCanonical) startListening(openCanonical, activeStores.get(openCanonical.workId).store, uid, epoch);
     await drain(uid, epoch);
   }
-  function dispose() { if (disposed) return; disposed = true; generation++; owner = null; clearTimer(); stopListening(); for (const entry of activeStores.values()) entry.unsubscribe(); activeStores.clear(); lastError = null; publish(); }
+  async function refreshReadOnly() {
+    const uid = owner, epoch = generation; await ready;
+    if (!uid || !isCurrent(uid, epoch)) return;
+    startDiscovery(uid, epoch);
+    for (const { store } of activeStores.values()) {
+      if (!isCurrent(uid, epoch)) return;
+      if (typeof store.refreshReadOnly === 'function') await store.refreshReadOnly({ isCurrent: () => isCurrent(uid, epoch) });
+    }
+    if (isCurrent(uid, epoch) && openCanonical) startListening(openCanonical, activeStores.get(openCanonical.workId).store, uid, epoch);
+  }
+  function dispose() { if (disposed) return; disposed = true; generation++; owner = null; clearTimer(); stopListening(); stopDiscovery(); for (const entry of activeStores.values()) entry.unsubscribe(); activeStores.clear(); works = Object.freeze([]); discoveryLoading = false; discoveryError = null; lastError = null; publish(); }
   publish();
-  return { setOwner, openWork, retry, foreground: retry, flush: async () => { await ready; await drain(); }, getSnapshot: () => snapshot, subscribe(listener) { subscribers.add(listener); return () => subscribers.delete(listener); }, dispose };
+  return { setOwner, openWork, retry, refreshReadOnly, foreground: retry, flush: async () => { await ready; await drain(); }, getSnapshot: () => snapshot, subscribe(listener) { subscribers.add(listener); return () => subscribers.delete(listener); }, dispose };
 }
 
 module.exports = { createHighlightSyncCoordinator, MAX_AUTOMATIC_DELAY_MS };

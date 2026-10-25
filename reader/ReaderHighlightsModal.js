@@ -1,92 +1,160 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AccessibilityInfo, ActivityIndicator, findNodeHandle, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { HIGHLIGHT_PALETTE } from "./readerHighlights";
+import HighlightEntry from "./HighlightEntry";
+import HighlightOptionsModal from "./HighlightOptionsModal";
+import useReaderModalFocus from "./useReaderModalFocus";
 
 export default function ReaderHighlightsModal({
   visible, items = [], theme, loading = false, saving = false, painting = false, error, renderError,
   removingId, onRequestRemove, onCancelRemove, onConfirmRemove,
-  onShow, onEdit, onRetry, onClose, onDismiss,
-  storageNotice = "Saved on this device. Highlights are not synced or guaranteed backed up.",
-  syncNotice, syncError, onRetrySync, onResolveSync,
+  onShow, onEdit, onRetry, onClose, onDismiss, fullQuotation = false,
+  retryLabel = "Retry highlights", onRetryPending,
+  storageNotice,
+  syncNotice, syncError, onRetrySync, onResolveSync, synchronizationEnabled = !!onRetrySync,
 }) {
   const heading = useRef(null);
   const insets = useSafeAreaInsets();
-  const close = () => { if (!saving) { if (removingId) onCancelRemove?.(); else onClose?.(); } };
-  const button = (label, action, disabled = false, key = label) => (
-    <Pressable key={key} accessibilityRole="button" accessibilityLabel={label} accessibilityState={{ disabled: disabled || saving }}
+  const [optionsId, setOptionsId] = useState(null);
+  const [expandedId, setExpandedId] = useState(null);
+  const optionItem = visible ? items.find(item => item.id === optionsId) : null;
+  const expandedItem = visible && !fullQuotation ? items.find(item => item.id === expandedId) : null;
+  const optionsFocus = useReaderModalFocus({ visible: !!optionItem });
+  const quoteFocus = useReaderModalFocus({ visible: !!expandedItem });
+  useEffect(() => {
+    if (!visible) {
+      optionsFocus.cancel(); quoteFocus.cancel();
+      setOptionsId(null); setExpandedId(null);
+    }
+  }, [visible]);
+  useEffect(() => {
+    if (optionsId && !optionItem) setOptionsId(null);
+    if (expandedId && !expandedItem) setExpandedId(null);
+  }, [optionsId, optionItem, expandedId, expandedItem]);
+  useEffect(() => { if (!expandedItem) quoteFocus.onDismiss(); }, [!!expandedItem]);
+  const closeQuote = () => { quoteFocus.restoreAfterClose(); setExpandedId(null); };
+  const closeOptions = () => {
+    optionsFocus.restoreAfterClose(); setOptionsId(null);
+  };
+  const close = () => {
+    if (optionItem) { closeOptions(); return; }
+    if (saving) return;
+    if (removingId) onCancelRemove?.();
+    else if (expandedItem) closeQuote();
+    else onClose?.();
+  };
+  const button = (label, action, disabled = false) => (
+    <Pressable key={label} accessibilityRole="button" accessibilityLabel={label} accessibilityState={{ disabled: disabled || saving }}
       disabled={disabled || saving} onPress={() => { if (!disabled && !saving) action?.(); }}
-      style={[styles.button, { borderColor: theme.border, opacity: disabled ? 0.55 : 1 }]}>
-      <Text style={[styles.buttonText, { color: theme.accent }]}>{label.replace(/ \d+$/, "")}</Text>
+      style={({ pressed }) => [styles.button, { borderColor: theme.border, backgroundColor: pressed && !disabled && !saving ? theme.highlightPressed : "transparent" }]}>
+      <Text style={[styles.buttonText, { color: disabled || saving ? theme.highlightActionDisabled : label === "Confirm remove highlight" ? theme.highlightDanger : theme.highlightAction }]}>{label.replace(/ \d+$/, "")}</Text>
     </Pressable>
   );
-  const focus = () => { const handle = findNodeHandle(heading.current); if (handle != null) AccessibilityInfo.setAccessibilityFocus(handle); };
-  return (
-    <Modal visible={!!visible} transparent animationType="none" onRequestClose={close} onShow={focus} onDismiss={onDismiss}>
+  const focusHeading = () => { const handle = findNodeHandle(heading.current); if (handle != null) AccessibilityInfo.setAccessibilityFocus(handle); };
+  useEffect(() => { if (visible && expandedItem) focusHeading(); }, [visible, !!expandedItem]);
+  const setTrigger = node => {
+    optionsFocus.triggerRef.current = node || heading.current;
+    // The full view's options node disappears on Back. Its original list
+    // trigger must survive options inspection inside the expanded quotation.
+    if (!expandedItem) quoteFocus.triggerRef.current = node || heading.current;
+  };
+  const openOptions = id => { if (!saving && !error && !renderError && items.some(item => item.id === id)) setOptionsId(id); };
+  const openQuote = id => { if (!saving && !fullQuotation && items.some(item => item.id === id && item.status !== "unreadable")) setExpandedId(id); };
+  const actOnOptions = action => {
+    const item = optionItem;
+    if (!item || saving || error || renderError) return;
+    optionsFocus.cancel(); setOptionsId(null);
+    action(item.id);
+  };
+  const show = id => {
+    const item = items.find(value => value.id === id);
+    if (!item || item.status !== "resolved" || saving || painting || error || renderError) return;
+    // Showing from a full quotation retires its local return-focus request.
+    quoteFocus.cancel();
+    onShow?.(id);
+  };
+  const renderEntry = (item, index, exact) => {
+    const confirming = item.id === removingId;
+    return <View key={item.id} style={[styles.entry, { borderColor: theme.border }]}>
+      <HighlightEntry item={item} index={index} theme={theme} fullQuotation={exact}
+        disabled={!!error || !!renderError || confirming} saving={saving} painting={painting}
+        onShow={confirming ? undefined : show} onOptions={confirming || item.retainedDeletion ? undefined : openOptions}
+        onFullQuote={exact || confirming ? undefined : openQuote} onTrigger={setTrigger} />
+      {!!item.syncConflict && <View>
+        <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{item.syncDeletion
+          ? "This highlight was removed on another device. Your local quotation is retained until you keep that deletion. Saving it again requires selecting the passage and confirming a new highlight."
+          : item.retainedDeletion ? "Your local removal conflicts with a newer cloud highlight. Keep the cloud highlight to review it; you can then remove it again with confirmation."
+            : "The cloud color differs. Your local choice is retained until you decide."}</Text>
+        {button((item.syncDeletion ? "Keep cloud deletion " : item.retainedDeletion ? "Keep cloud highlight " : "Use cloud color ") + (index + 1), () => onResolveSync?.(item.id, "use-cloud"))}
+        {!item.syncDeletion && !item.retainedDeletion && button("Reapply local color " + (index + 1), () => onResolveSync?.(item.id, "reapply-local"))}
+      </View>}
+      {confirming && <View>
+        <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{synchronizationEnabled ? "Remove this highlight locally and queue its deletion for synchronization?" : "Remove this highlight from this device? This cannot be undone."}</Text>
+        {button("Cancel removal", onCancelRemove)}
+        {button("Confirm remove highlight", onConfirmRemove, !!error)}
+      </View>}
+    </View>;
+  };
+  const renderStatus = () => <>
+    {!!syncNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{syncNotice}</Text>}
+    {!!syncError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{syncError}</Text>}
+    {!!onRetrySync && button("Retry synchronization", onRetrySync)}
+    {loading && <ActivityIndicator accessibilityLabel="Loading highlights" color={theme.highlightAction} />}
+    {!!error && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{error}</Text>}
+    {!!renderError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{renderError}</Text>}
+    {(!!error || !!renderError) && !!onRetry && button(retryLabel, onRetry)}
+    {!!onRetryPending && button("Retry pending highlight change", onRetryPending)}
+  </>;
+  return <>
+    <Modal visible={!!visible} transparent animationType="none" onRequestClose={close} onShow={focusHeading} onDismiss={onDismiss}>
       <View style={styles.backdrop}>
-        <View accessibilityViewIsModal onAccessibilityEscape={close} style={[styles.panel, { backgroundColor: theme.panel, borderColor: theme.border, paddingBottom: Math.max(16, insets.bottom) }]}>
-          <Text ref={heading} accessible accessibilityRole="header" style={[styles.heading, { color: theme.text }]}>Highlights</Text>
-          <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
-            <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>
-            {!!syncNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{syncNotice}</Text>}
-            {!!syncError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{syncError}</Text>}
-            {!!onRetrySync && button("Retry synchronization", onRetrySync)}
-            {loading && <ActivityIndicator accessibilityLabel="Loading highlights" color={theme.accent} />}
-            {!!error && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{error}</Text>}
-            {!!renderError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{renderError}</Text>}
-            {(!!error || !!renderError) && button("Retry highlights", onRetry)}
+        <View accessibilityViewIsModal onAccessibilityEscape={close} accessibilityElementsHidden={!!optionItem}
+          importantForAccessibility={optionItem ? "no-hide-descendants" : "auto"}
+          style={[styles.panel, { backgroundColor: theme.panel, borderColor: theme.border, paddingBottom: Math.max(16, insets.bottom) }]}>
+          <View style={[styles.header, { borderBottomColor: theme.border }]}>
+            {!!expandedItem && <Pressable accessibilityRole="button" accessibilityLabel="Back to highlights" disabled={saving}
+              accessibilityState={{ disabled: saving }} onPress={() => { if (!saving) closeQuote(); }}
+              style={({ pressed }) => [styles.close, { backgroundColor: pressed && !saving ? theme.highlightPressed : "transparent" }]}>
+              <Text style={[styles.backLabel, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>{"\u2039"}</Text>
+            </Pressable>}
+            <Text ref={heading} accessible accessibilityRole="header" style={[styles.heading, { color: theme.text }]}>{fullQuotation || expandedItem ? "Full quotation" : "Highlights"}</Text>
+            <Pressable accessibilityRole="button" accessibilityLabel="Close highlights" accessibilityState={{ disabled: saving }} disabled={saving}
+              onPress={close} style={({ pressed }) => [styles.close, { backgroundColor: pressed && !saving ? theme.highlightPressed : "transparent" }]}>
+              <Text accessibilityElementsHidden importantForAccessibility="no" style={[styles.closeLabel, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>{"\u00D7"}</Text>
+            </Pressable>
+          </View>
+          <ScrollView key="highlight-list" style={[styles.scroll, expandedItem && styles.hidden]}
+            accessibilityElementsHidden={!!expandedItem} importantForAccessibility={expandedItem ? "no-hide-descendants" : "auto"}
+            contentContainerStyle={styles.content}>
+            {!!storageNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>}
+            {renderStatus()}
             {!loading && !error && !items.length && <Text style={[styles.detail, { color: theme.secondary }]}>Select a passage in the play, then choose Highlight to save it here.</Text>}
-            {items.map((item, index) => {
-              const available = item.status === "resolved" && !error && !renderError;
-              const confirming = item.id === removingId;
-              const overlapping = item.overlapConflict ?? (item.status === "conflict" && !item.syncConflict);
-              return (
-                <View key={item.id} style={[styles.entry, { borderColor: theme.border }]}>
-                  <Text style={[styles.location, { color: theme.secondary }]}>{item.locationLabel || "Highlight record"}</Text>
-                  {item.status === "unreadable" ? <Text style={[styles.quote, { color: theme.text }]}>This saved record is unavailable. It has been retained on this device.</Text> : <Text style={[styles.quote, { color: theme.text }]}>{item.quotation}</Text>}
-                  {!!item.detail && <Text style={[styles.detail, { color: theme.secondary }]}>{item.detail}</Text>}
-                  {!!item.colorId && <Text style={[styles.detail, { color: theme.secondary }]}>{HIGHLIGHT_PALETTE[item.colorId]?.label || "Unknown color"}</Text>}
-                  {!!item.syncLabel && <Text style={[styles.detail, { color: theme.secondary }]}>{item.syncLabel}</Text>}
-                  {!!item.syncConflict && <View>
-                    <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>The cloud color differs. Your local choice is retained until you decide.</Text>
-                    {button(`Use cloud color ${index + 1}`, () => onResolveSync?.(item.id, "use-cloud"))}
-                    {button(`Reapply local color ${index + 1}`, () => onResolveSync?.(item.id, "reapply-local"))}
-                  </View>}
-                  {item.status === "unresolved" && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation belongs to a different text version or could not be resolved. It has not been moved or painted.</Text>}
-                  {overlapping && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation overlaps another saved highlight. Both records are retained; remove one to display the other.</Text>}
-                  {confirming ? (
-                    <View>
-                      <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{onRetrySync ? "Remove this highlight locally and queue its deletion for synchronization?" : "Remove this highlight from this device? This cannot be undone."}</Text>
-                      {button("Cancel removal", onCancelRemove)}
-                      {button("Confirm remove highlight", onConfirmRemove, !!error)}
-                    </View>
-                  ) : (
-                    <View style={styles.actions}>
-                      {item.status !== "unreadable" && button(`Show passage ${index + 1}`, () => onShow?.(item.id), !available || painting)}
-                      {item.status !== "unreadable" && button(`Edit color ${index + 1}`, () => onEdit?.(item.id), !available)}
-                      {button(`Remove highlight ${index + 1}`, () => onRequestRemove?.(item.id), !!error)}
-                    </View>
-                  )}
-                </View>
-              );
-            })}
+            {items.map((item, index) => renderEntry(item, index, fullQuotation))}
           </ScrollView>
-          {button(saving ? "Saving highlights" : "Close highlights", close)}
+          {!!expandedItem && <ScrollView key="full-quotation" style={styles.scroll} contentContainerStyle={styles.content}>
+            {renderStatus()}
+            {renderEntry(expandedItem, items.indexOf(expandedItem), true)}
+          </ScrollView>}
         </View>
       </View>
     </Modal>
-  );
+    <HighlightOptionsModal visible={!!optionItem} theme={theme}
+      canEdit={optionItem?.status === "resolved" && !error && !renderError} disabled={saving || !!error || !!renderError}
+      onEdit={() => { if (optionItem?.status === "resolved") actOnOptions(id => onEdit?.(id)); }}
+      onRemove={() => actOnOptions(id => onRequestRemove?.(id))}
+      onClose={closeOptions} onDismiss={optionsFocus.onDismiss} />
+  </>;
 }
 const styles = StyleSheet.create({
   backdrop: { flex: 1, backgroundColor: "rgba(0,0,0,0.42)", justifyContent: "center", padding: 16 },
-  panel: { borderRadius: 16, borderWidth: 1, maxHeight: "94%", flexShrink: 1, paddingTop: 20, paddingHorizontal: 16 },
-  heading: { fontSize: 22, lineHeight: 28, fontWeight: "700", marginBottom: 12 },
-  scroll: { flexShrink: 1 }, content: { paddingBottom: 8 },
+  panel: { borderRadius: 16, borderWidth: 1, maxHeight: "94%", flexShrink: 1 },
+  header: { flexDirection: "row", alignItems: "center", borderBottomWidth: StyleSheet.hairlineWidth, paddingLeft: 16, paddingRight: 6, paddingVertical: 6, flexShrink: 0 },
+  heading: { flex: 1, minWidth: 0, fontSize: 22, lineHeight: 28, fontWeight: "700", paddingVertical: 8 },
+  close: { minWidth: 48, minHeight: 48, alignItems: "center", justifyContent: "center", padding: 8, flexShrink: 0 },
+  closeLabel: { fontSize: 30, lineHeight: 34 }, backLabel: { fontSize: 32, lineHeight: 36 },
+  scroll: { flexShrink: 1 }, hidden: { display: "none" }, content: { paddingTop: 16, paddingHorizontal: 16, paddingBottom: 16 },
   detail: { fontSize: 14, lineHeight: 21, marginBottom: 12 },
-  location: { fontSize: 14, lineHeight: 21, marginBottom: 8, fontWeight: "600" },
-  quote: { fontSize: 17, lineHeight: 25, marginBottom: 12 },
-  entry: { paddingVertical: 16, borderTopWidth: 1 },
-  actions: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
+  entry: { paddingVertical: 12, borderTopWidth: 1 },
   button: { borderWidth: 1, borderRadius: 10, minHeight: 48, padding: 12, alignItems: "center", justifyContent: "center", marginBottom: 8 },
   buttonText: { fontSize: 15, lineHeight: 22, fontWeight: "600" },
 });

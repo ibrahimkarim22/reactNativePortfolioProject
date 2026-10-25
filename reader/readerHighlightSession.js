@@ -17,7 +17,7 @@ function createReaderHighlightSession({ manager, document, surface }) {
   const makeScope = uid => Object.freeze({ uid, workId: identity.workId, documentId: identity.documentId, ownerGeneration: ++nextOwnerGeneration });
   let scope = makeScope(null);
   const blank = () => ({ scope, records: EMPTY, unresolved: EMPTY, unreadable: EMPTY, conflicts: EMPTY,
-    syncById: Object.freeze({}), syncSummary: null,
+    syncById: Object.freeze({}), syncSummary: null, tombstones: EMPTY,
     hydrated: false, loading: false, saving: false, rendering: false, error: null, renderError: null, privacyReady: false, enabled: false });
   let state = Object.freeze(blank());
 
@@ -69,7 +69,8 @@ function createReaderHighlightSession({ manager, document, surface }) {
     publish({ records: Object.freeze([...(source.records || EMPTY)]), unresolved: Object.freeze([...(source.unresolved || EMPTY)]),
       unreadable: Object.freeze([...(source.unreadable || EMPTY)]), conflicts: Object.freeze([...(source.conflicts || EMPTY)]),
       hydrated: !!source.hydrated, loading: !!source.loading, saving: !!source.saving, error: source.error || null,
-      syncById: source.syncById || Object.freeze({}), syncSummary: source.syncSummary || null });
+      syncById: source.syncById || Object.freeze({}), syncSummary: source.syncSummary || null,
+      tombstones: Object.freeze([...(source.tombstones || EMPTY)]) });
     return paint(paintable(), owner);
   }
 

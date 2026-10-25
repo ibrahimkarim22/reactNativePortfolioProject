@@ -115,9 +115,9 @@ export default function ReaderHighlightControl({ mode = 'list', count = 0, disab
       onTouchCancel={cancel}
       onBlur={cancel}
       {...(Platform.OS === 'web' ? { onKeyDown: keyDown, onKeyUp: keyUp } : {})}
-      style={[styles.control, { width, height, minHeight: height }]}
+      style={({ pressed }) => [styles.control, { width, height, minHeight: height, backgroundColor: pressed && !disabled ? theme.highlightPressed : 'transparent' }]}
     >
-      <Text style={[styles.label, { color: disabled ? theme.secondary : theme.accent }]}>
+      <Text style={[styles.label, { color: disabled ? theme.highlightActionDisabled : theme.highlightAction }]}>
         {disabled ? 'Loading…' : label}
       </Text>
     </Pressable>

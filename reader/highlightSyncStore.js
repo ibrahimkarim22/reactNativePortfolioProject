@@ -33,28 +33,59 @@ const CLOUD_PERMANENT = new Set(['permission-denied', 'unauthenticated', 'invali
 
 function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultId, now = Date.now } = {}) {
   if (typeof namespace !== 'string' || !/^@bard(?:-test\/|\/reader-highlights-sync:isolated\/)[A-Za-z0-9._/-]+$/.test(namespace) || namespace.endsWith('/')) throw new Error('An explicit isolated namespace is required for highlight synchronization.');
+  return createHighlightSyncStoreManagerForNamespace(storage, { namespace, makeId, now });
+}
+// Internal shared implementation. The normal application supplies its namespace
+// and legacy prefix only after its separate activation boundary has allowed it.
+function createHighlightSyncStoreManagerForNamespace(storage, { namespace, makeId = defaultId, now = Date.now, legacyPrefixFor, migrateLegacy = true } = {}) {
+  if (typeof namespace !== 'string' || !namespace.length || namespace.endsWith('/') || (legacyPrefixFor !== undefined && typeof legacyPrefixFor !== 'function')) throw new Error('Invalid synchronization namespace configuration.');
   if (typeof makeId !== 'function' || typeof now !== 'function') throw new Error('Invalid highlight synchronization store configuration.');
-  const works = new Map();
+  const works = new Map(), catalogueTails = new Map(), catalogueListeners = new Map();
+  function notifyCatalogue(uid) { for (const listener of catalogueListeners.get(uid) || []) { try { listener(); } catch (_) { /* Observer only. */ } } }
   const segment = value => { if (typeof value !== 'string' || !value.length || value.length > 512) throw failure('INVALID_HIGHLIGHT'); return encodeURIComponent(value); };
   const prefixFor = (uid, workId, legacy = false) => namespace + (legacy ? '/legacy/' : '/v2/') + segment(uid) + '/' + segment(workId) + '/';
+  function sharedFor(uid, workId) {
+    return sharedAt(prefixFor(uid, workId));
+  }
+  function sharedAt(prefix) {
+    if (!works.has(prefix)) works.set(prefix, { tail: Promise.resolve(), values: new Map(), originals: new Map(), loaded: false, loading: false, saving: false, blocked: false, needsReload: false, migrationPending: false, error: null, readError: null, failedIntent: null, rawFailedIntent: null, views: new Map() });
+    return works.get(prefix);
+  }
+  function publishShared(uid, shared) {
+    for (const view of shared.views.values()) { view.snapshot = view.classify(); for (const listener of view.listeners) { try { listener(); } catch (_) { /* Observer only. */ } } }
+    notifyCatalogue(uid);
+  }
+  function requireRetryInteraction(uid, shared, field, options) {
+    const intent = shared[field];
+    if (!intent) return;
+    try { current(intent.options); }
+    catch (error) {
+      if (error.code !== 'CANCELLED') throw error;
+      // A fresh explicit Retry may reconcile a returning owner's bytes, but
+      // cannot revive the gesture captured in an earlier ownership epoch.
+      current(options);
+      shared[field] = null;
+      shared.blocked = !!(shared.failedIntent || shared.rawFailedIntent || shared.readError);
+      if (!shared.failedIntent && !shared.rawFailedIntent) shared.error = shared.readError;
+      publishShared(uid, shared);
+      throw error;
+    }
+  }
 
   function forWork({ uid, canonical }) {
     // Reuse the existing owner/work checks without changing their contract.
     policy.prefixFor(uid, canonical && canonical.workId);
     if (!canonical || typeof canonical.text !== 'string' || !Array.isArray(canonical.units)) throw failure('INVALID_HIGHLIGHT');
-    const prefix = prefixFor(uid, canonical.workId), legacyPrefix = prefixFor(uid, canonical.workId, true);
+    const prefix = prefixFor(uid, canonical.workId), legacyPrefix = legacyPrefixFor ? legacyPrefixFor(uid, canonical.workId) : prefixFor(uid, canonical.workId, true);
     const scope = { uid, workId: canonical.workId, canonical };
-    let shared = works.get(prefix);
-    if (!shared) {
-      shared = { tail: Promise.resolve(), values: new Map(), originals: new Map(), loaded: false, loading: false, saving: false, blocked: false, needsReload: false, error: null, failedIntent: null, views: new Map() };
-      works.set(prefix, shared);
-    }
+    const shared = sharedFor(uid, canonical.workId);
     const viewKey = JSON.stringify([canonical.contentVersion, canonical.canonicalTextVersion]);
     if (shared.views.has(viewKey)) return shared.views.get(viewKey).store;
     const view = { snapshot: null, listeners: new Set(), classify: null, store: null };
 
     function operationFor(record, kind, generation, baseRevision) {
-      return protocol().validateOperation({ schemaVersion: 1, operationId: makeId(), uid, workId: canonical.workId, cloudKey: protocol().cloudKeyFor(record.selectionRef, canonical), kind, selectionRef: record.selectionRef, colorId: record.colorId, generation, baseRevision }, { canonical });
+      const targetCanonical = kind === 'delete' ? undefined : canonical;
+      return protocol().validateOperation({ schemaVersion: 1, operationId: makeId(), uid, workId: canonical.workId, cloudKey: protocol().cloudKeyFor(record.selectionRef, targetCanonical), kind, selectionRef: record.selectionRef, colorId: record.colorId, generation, baseRevision }, { canonical: targetCanonical });
     }
     function validateEnvelope(value, key) {
       if (!exactKeys(value, ENVELOPE_KEYS) || value.schemaVersion !== 2 || typeof value.cloudKey !== 'string' || key !== prefix + value.cloudKey || !Array.isArray(value.localIds) || value.localIds.length < 1 || value.localIds.length > 32 || new Set(value.localIds).size !== value.localIds.length || typeof value.deleted !== 'boolean' || !Number.isSafeInteger(value.generation) || value.generation < 1 || !integer(value.serverRevision) || !Array.isArray(value.pending) || value.pending.length > SYNC_STORE_LIMITS.MAX_PENDING_PER_RECORD) throw failure('INVALID_HIGHLIGHT');
@@ -109,7 +140,7 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
           const status = envelope.conflict ? 'conflict' : envelope.syncError && !envelope.syncError.retryable ? 'failed' : envelope.pending.length ? 'pending' : envelope.serverRevision > 0 ? 'synced' : 'local';
           const sync = freeze({ status, pendingCount: envelope.pending.length, deleted: envelope.deleted, cloudKey: envelope.cloudKey, generation: envelope.generation, serverRevision: envelope.serverRevision, error: envelope.syncError, conflict: envelope.conflict });
           for (const id of envelope.localIds) syncById[id] = sync;
-          if (envelope.deleted) tombstones.push(freeze({ id: envelope.record.id, cloudKey: envelope.cloudKey, generation: envelope.generation, serverRevision: envelope.serverRevision, sync }));
+          if (envelope.deleted) tombstones.push(freeze({ id: envelope.record.id, record: result.record, cloudKey: envelope.cloudKey, generation: envelope.generation, serverRevision: envelope.serverRevision, sync }));
           else if (result.status === 'resolved') records.push(result.record);
           else unresolved.push(freeze({ record: result.record, code: result.code }));
         } catch (error) { unreadable.push(freeze({ id: 'unavailable:' + key, key, bytes: typeof raw === 'string' ? utf8Length(raw) : raw.bytes, code: error.code || 'INVALID_HIGHLIGHT' })); }
@@ -123,11 +154,12 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
       for (const [, envelope] of validEnvelopes()) { const status = syncById[envelope.record.id]?.status; if (status) summary[status]++; summary.pendingOperations += envelope.pending.length; }
       for (const marker of tombstones) { if (marker.sync.pendingCount) summary.pendingDeletions++; if (['failed', 'conflict'].includes(marker.sync.status)) summary.failedDeletions++; }
       const conflicts = [...new Set([...findStoredConflicts(records, canonical), ...records.filter(record => syncById[record.id]?.status === 'conflict').map(record => record.id)])];
-      return freeze({ hydrated: shared.loaded, loading: shared.loading, saving: shared.saving, records, unresolved, unreadable, conflicts, error: shared.error, syncById, syncSummary: summary, tombstones });
+      return freeze({ hydrated: shared.loaded, loading: shared.loading, saving: shared.saving, records, unresolved, unreadable, conflicts, error: shared.error, readError: shared.readError, writeBlocked: !!(shared.failedIntent || shared.rawFailedIntent), syncById, syncSummary: summary, tombstones });
     }
     view.classify = classify;
     function publish() {
       for (const other of shared.views.values()) { other.snapshot = other.classify(); for (const listener of other.listeners) { try { listener(); } catch (_) { /* Observers cannot interrupt confirmed write ordering. */ } } }
+      notifyCatalogue(uid);
     }
     function enqueue(run) { const promise = shared.tail.then(run); shared.tail = promise.catch(() => {}); return promise; }
     function storageAvailable() { if (!storage || ['getAllKeys', 'getItem', 'setItem'].some(name => typeof storage[name] !== 'function')) throw failure('STORAGE_UNAVAILABLE'); }
@@ -158,21 +190,24 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
       } finally { shared.saving = false; publish(); }
     }
     function newEnvelope(record, operation) { return { schemaVersion: 2, cloudKey: operation.cloudKey, localIds: [record.id], record, deleted: false, generation: operation.generation, serverRevision: 0, serverRecord: null, pending: [operation], syncError: null, conflict: null }; }
-    async function load(options) {
+    async function load(options, readOnly = false) {
+      const retainedError = shared.failedIntent || shared.rawFailedIntent ? shared.error : null;
       current(options); shared.loading = true; publish();
       try {
         storageAvailable(); const keys = await storage.getAllKeys(); current(options);
         if (!Array.isArray(keys) || keys.some(key => typeof key !== 'string')) throw failure('READ_FAILED');
         const values = new Map(), originals = new Map(); let retained = 0;
-        for (const key of [...new Set(keys)].filter(key => key.startsWith(prefix) && key.length > prefix.length).sort()) {
+        for (const key of [...new Set(keys)].filter(key => key === prefix.slice(0, -1) || key.startsWith(prefix)).sort()) {
           const raw = await storage.getItem(key); current(options); if (raw === null) continue;
+          if (await isRetired(uid, segment(canonical.workId), key, raw, options)) continue;
           if (typeof raw !== 'string') throw failure('READ_FAILED');
           const bytes = utf8Length(raw); retained += bytes;
           values.set(key, bytes > SYNC_STORE_LIMITS.MAX_ENVELOPE_BYTES || retained > SYNC_STORE_LIMITS.MAX_JOURNAL_BYTES ? freeze({ bytes, code: 'SYNC_BACKLOG_LIMIT' }) : raw);
         }
-        shared.values = values; shared.originals = originals;
-        for (const key of [...new Set(keys)].filter(key => key.startsWith(legacyPrefix) && key.length > legacyPrefix.length).sort()) {
+        shared.values = values; shared.originals = originals; shared.migrationPending = false;
+        for (const key of [...new Set(keys)].filter(key => key === legacyPrefix.slice(0, -1) || key.startsWith(legacyPrefix)).sort()) {
           const raw = await storage.getItem(key); current(options); if (raw === null) continue;
+          if (await isRetired(uid, segment(canonical.workId), key, raw, options)) continue;
           if (typeof raw !== 'string') throw failure('READ_FAILED'); const bytes = utf8Length(raw);
           let result;
           try {
@@ -188,22 +223,29 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
             // list retains legacy IDs without ever rewriting the source bytes.
             try {
               const existing = readEnvelope(destination, shared.values.get(destination));
-              if (!existing.localIds.includes(result.record.id)) await persist(destination, { ...existing, localIds: [...existing.localIds, result.record.id] }, options);
+              if (!existing.localIds.includes(result.record.id)) {
+                if (readOnly || !migrateLegacy) shared.migrationPending = migrateLegacy;
+                else await persist(destination, { ...existing, localIds: [...existing.localIds, result.record.id] }, options);
+              }
             } catch (error) { if (error.code === 'WRITE_FAILED') throw error; originals.set(key, freeze({ bytes, record: result.record, code: 'MIGRATION_CONFLICT' })); }
             continue;
           }
+          if (readOnly || !migrateLegacy) { shared.migrationPending = migrateLegacy; originals.set(key, freeze({ bytes, record: result.record, code: 'MIGRATION_PENDING' })); continue; }
           const operation = operationFor(result.record, 'create', 1, 0);
           await persist(destination, newEnvelope(result.record, operation), options);
         }
-        shared.loaded = true; shared.needsReload = false; shared.error = null; shared.blocked = false;
+        shared.loaded = true; shared.needsReload = false; shared.readError = null;
+        shared.error = readOnly && retainedError ? retainedError : null; shared.blocked = readOnly && !!(shared.failedIntent || shared.rawFailedIntent);
       } catch (cause) {
         try { current(options); } catch (cancelled) { shared.needsReload = true; throw cancelled; }
         if (cause.code === 'CANCELLED') throw cause;
         const error = failure(['WRITE_FAILED', 'STORAGE_UNAVAILABLE'].includes(cause.code) ? cause.code : 'READ_FAILED');
-        setLocalError(error); throw error;
+        shared.readError = freeze({ code: error.code, message: error.message, retryable: true });
+        if (readOnly && retainedError) { shared.error = retainedError; shared.blocked = true; publish(); } else setLocalError(error);
+        throw error;
       } finally { shared.loading = false; publish(); }
     }
-    async function ensureLoaded(options) { current(options); if (shared.blocked) throw failure('RETRY_REQUIRED'); if (!shared.loaded || shared.needsReload) await load(options); current(options); }
+    async function ensureLoaded(options) { current(options); if (shared.blocked) throw failure('RETRY_REQUIRED'); if (!shared.loaded || shared.needsReload || shared.migrationPending) await load(options); current(options); }
     function envelopeFor(id) { return validEnvelopes().find(([, envelope]) => envelope.localIds.includes(id)); }
     function nextRevision(envelope) { return envelope.pending.length ? Math.max(envelope.serverRevision, envelope.pending.at(-1).baseRevision + 1) : envelope.serverRevision; }
     function append(envelope, operation, record, deleted) {
@@ -238,7 +280,16 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
     }
     function remove(id, options) {
       return mutation(async () => {
-        const found = envelopeFor(id); if (!found) throw failure('NOT_FOUND'); const [key, envelope] = found;
+        const found = envelopeFor(id);
+        if (!found) {
+          const original = [...shared.originals].find(([key, value]) => value.record?.id === id || 'unavailable:' + key === id);
+          const unavailableKey = typeof id === 'string' && id.startsWith('unavailable:') ? id.slice('unavailable:'.length) : null;
+          const key = original?.[0] || (unavailableKey && shared.values.has(unavailableKey) ? unavailableKey : null);
+          if (!key) throw failure('NOT_FOUND');
+          const raw = await storage.getItem(key); current(options);
+          await persistRetirement({ uid, workKey: segment(canonical.workId), key, raw }, options, shared); return true;
+        }
+        const [key, envelope] = found;
         if (envelope.deleted) return true;
         const knownGeneration = envelope.serverRevision > 0 && envelope.serverRecord?.generation === envelope.generation;
         const operation = operationFor(envelope.record, 'delete', envelope.generation, knownGeneration ? envelope.serverRevision : nextRevision(envelope));
@@ -350,31 +401,216 @@ function createHighlightSyncStoreManager(storage, { namespace, makeId = defaultI
       getSnapshot: () => view.snapshot,
       subscribe(listener) { view.listeners.add(listener); return () => view.listeners.delete(listener); },
       hydrate: options => enqueue(async () => { await ensureLoaded(options); return view.snapshot; }),
+      refreshReadOnly: options => enqueue(async () => { await load(options, true); return view.snapshot; }),
       create, recolor, remove, pendingOperations, acknowledge, mergeRemote, syncFailed, resolveConflict, recreate,
       retry: options => enqueue(async () => {
-        const intent = shared.failedIntent; await load(options);
+        const intent = shared.failedIntent, rawIntent = shared.rawFailedIntent;
+        await load(options, !!(intent || rawIntent));
+        if (rawIntent && shared.rawFailedIntent === rawIntent) { requireRetryInteraction(uid, shared, 'rawFailedIntent', options); await persistRetirement(rawIntent.input, options, shared); }
         if (intent && shared.failedIntent === intent) {
-          current(intent.options); const actual = shared.values.get(intent.key) ?? null;
+          requireRetryInteraction(uid, shared, 'failedIntent', options); const actual = shared.values.get(intent.key) ?? null;
           if (actual !== intent.raw && actual !== intent.before) throw failure('WRITE_CONFLICT');
           if (actual !== intent.raw) await persist(intent.key, JSON.parse(intent.raw), intent.options);
           shared.failedIntent = null; shared.blocked = false; shared.error = null;
         }
+        if (intent || rawIntent) await load(options);
         for (const [key, envelope] of validEnvelopes()) if (envelope.syncError && !envelope.conflict) await persist(key, { ...envelope, syncError: null }, options);
         publish(); return view.snapshot;
       }),
-      abandonPendingIntent() { shared.failedIntent = null; },
+      abandonPendingIntent() { shared.failedIntent = null; shared.rawFailedIntent = null; },
       flush: () => shared.tail,
     };
     view.store = store; shared.views.set(viewKey, view); view.snapshot = classify(); return store;
   }
   async function discoverWorks(uid) {
     if (!storage || typeof storage.getAllKeys !== 'function') throw failure('STORAGE_UNAVAILABLE');
-    const prefixes = [namespace + '/v2/' + segment(uid) + '/', namespace + '/legacy/' + segment(uid) + '/'];
+    const prefixes = [namespace + '/v2/' + segment(uid) + '/', legacyOwnerPrefix(uid)];
     const ids = new Set();
     for (const key of await storage.getAllKeys()) for (const prefix of prefixes) if (key.startsWith(prefix)) { const encoded = key.slice(prefix.length).split('/')[0]; try { const id = decodeURIComponent(encoded); if (encodeURIComponent(id) === encoded) ids.add(id); } catch (_) { /* Invalid namespaces are not promoted into owner state. */ } }
     return [...ids].sort();
   }
-  return { forWork, discoverWorks, namespace };
+  function legacyOwnerPrefix(uid) {
+    if (!legacyPrefixFor) return namespace + '/legacy/' + segment(uid) + '/';
+    const prefix = legacyPrefixFor(uid, 'x');
+    if (typeof prefix !== 'string' || !prefix.endsWith('/x/')) throw failure('INVALID_HIGHLIGHT');
+    return prefix.slice(0, -2);
+  }
+  function rawScope({ uid, workKey }) {
+    segment(uid);
+    // Raw retained keys are opaque AsyncStorage segments. Match the catalogue
+    // policy even for empty/oversized malformed segments; canonical IDs retain
+    // their separate validation, and reads/retirement retain byte/count bounds.
+    if (typeof workKey !== 'string' || workKey.includes('/')) throw failure('INVALID_HIGHLIGHT');
+    let workId = null;
+    try { const decoded = decodeURIComponent(workKey); if (decoded.length && decoded.length <= 512 && encodeURIComponent(decoded) === workKey) workId = decoded; } catch (_) { /* Raw unavailable segment stays removable. */ }
+    const prefix = namespace + '/v2/' + segment(uid) + '/' + workKey + '/';
+    return { workId, shared: sharedAt(prefix), prefixes: [prefix, legacyOwnerPrefix(uid) + workKey + '/'] };
+  }
+  const retiredPrefix = (uid, workKey) => namespace + '/retired/' + segment(uid) + '/' + workKey + '/';
+  const retiredKey = (uid, workKey, key) => retiredPrefix(uid, workKey) + encodeURIComponent(key);
+  async function isRetired(uid, workKey, key, raw, options) {
+    const marker = await storage.getItem(retiredKey(uid, workKey, key)); current(options);
+    if (!marker) return false;
+    try { const parsed = JSON.parse(marker); return exactKeys(parsed, ['schemaVersion', 'key', 'raw']) && parsed.schemaVersion === 1 && parsed.key === key && parsed.raw === raw; } catch (_) { return false; }
+  }
+  function enqueueRaw(shared, run) { const promise = shared.tail.then(run); shared.tail = promise.catch(() => {}); return promise; }
+  async function persistRetirement(input, options, shared) {
+    const { uid, workKey, key, raw } = input, scope = rawScope(input);
+    if (typeof key !== 'string' || !scope.prefixes.some(prefix => key === prefix.slice(0, -1) || key.startsWith(prefix)) || typeof raw !== 'string') throw failure('INVALID_HIGHLIGHT');
+    current(options);
+    if (!storage || ['getAllKeys', 'getItem', 'setItem'].some(name => typeof storage[name] !== 'function')) throw failure('STORAGE_UNAVAILABLE');
+    if (await storage.getItem(key) !== raw) throw failure('WRITE_CONFLICT'); current(options);
+    const destination = retiredKey(uid, workKey, key), encoded = JSON.stringify({ schemaVersion: 1, key, raw });
+    const retained = (await storage.getAllKeys()).filter(value => value.startsWith(retiredPrefix(uid, workKey))); current(options);
+    if (!retained.includes(destination) && retained.length >= SYNC_STORE_LIMITS.MAX_ENVELOPES_PER_WORK) throw failure('SYNC_BACKLOG_LIMIT');
+    let bytes = utf8Length(encoded);
+    for (const markerKey of retained) if (markerKey !== destination) { const value = await storage.getItem(markerKey); current(options); if (typeof value === 'string') bytes += utf8Length(value); }
+    if (bytes > SYNC_STORE_LIMITS.MAX_JOURNAL_BYTES) throw failure('SYNC_BACKLOG_LIMIT');
+    shared.saving = true; publishShared(uid, shared);
+    try {
+      current(options); await storage.setItem(destination, encoded); current(options);
+      shared.values.delete(key); shared.originals.delete(key); shared.needsReload = true; shared.rawFailedIntent = null; shared.error = null; shared.blocked = false;
+    } catch (cause) {
+      current(options);
+      const error = failure('WRITE_FAILED'); shared.rawFailedIntent = { input: { ...input }, options }; shared.error = freeze({ code: error.code, message: error.message, retryable: true }); shared.blocked = true; throw error;
+    } finally { shared.saving = false; publishShared(uid, shared); }
+  }
+  function retireRawEntry(input, options) {
+    let scope;
+    try { scope = rawScope(input); } catch (error) { return Promise.reject(error); }
+    return enqueueRaw(scope.shared, async () => { if (scope.shared.failedIntent || scope.shared.rawFailedIntent) throw failure('RETRY_REQUIRED'); await persistRetirement(input, options, scope.shared); return true; });
+  }
+  function retryRawWork(input, options) {
+    const { shared } = rawScope(input);
+    return enqueueRaw(shared, async () => {
+      current(options);
+      if (shared.failedIntent) throw failure('RETRY_REQUIRED');
+      if (shared.rawFailedIntent) {
+        const { uid, workKey, key } = shared.rawFailedIntent.input;
+        // Read both exact original and marker before retiring an old gesture.
+        // An ambiguous successful marker remains authoritative; no rewrite is
+        // necessary or allowed when the old owner interaction has expired.
+        await storage.getItem(key); current(options);
+        await storage.getItem(retiredKey(uid, workKey, key)); current(options);
+        shared.readError = null;
+        requireRetryInteraction(uid, shared, 'rawFailedIntent', options);
+        await persistRetirement(shared.rawFailedIntent.input, options, shared);
+      }
+    });
+  }
+  function readRawWork(input, options) {
+    const { uid, workKey } = input, { shared, prefixes } = rawScope(input);
+    return enqueueRaw(shared, async () => {
+      current(options);
+      try {
+        const entries = [], keys = await storage.getAllKeys(); current(options);
+        if (!Array.isArray(keys) || keys.some(key => typeof key !== 'string')) throw failure('READ_FAILED');
+        let bytes = 0;
+        for (const key of [...new Set(keys)].sort()) {
+          const sourceIndex = prefixes.findIndex(prefix => key === prefix.slice(0, -1) || key.startsWith(prefix));
+          if (sourceIndex < 0) continue;
+          const raw = await storage.getItem(key); current(options); if (raw === null || await isRetired(uid, workKey, key, raw, options)) continue;
+          if (typeof raw !== 'string') throw failure('READ_FAILED');
+          bytes += utf8Length(raw);
+          if (entries.length >= SYNC_STORE_LIMITS.MAX_ENVELOPES_PER_WORK || bytes > SYNC_STORE_LIMITS.MAX_JOURNAL_BYTES) throw failure('SYNC_BACKLOG_LIMIT');
+          entries.push({ key, raw, source: sourceIndex === 0 ? 'v2' : 'legacy' });
+        }
+        shared.readError = null;
+        return freeze({ entries, saving: shared.saving, error: shared.error, readError: shared.readError, writeBlocked: !!(shared.failedIntent || shared.rawFailedIntent) });
+      } catch (cause) {
+        current(options); shared.readError = freeze({ code: cause.code || 'READ_FAILED', message: cause.message, retryable: true }); throw cause;
+      }
+    });
+  }
+  function summaryEnvelope(raw, uid, workId, cloudKey) {
+    if (typeof raw !== 'string' || utf8Length(raw) > SYNC_STORE_LIMITS.MAX_ENVELOPE_BYTES) throw failure('INVALID_HIGHLIGHT');
+    const value = JSON.parse(raw), record = value.record;
+    if (!exactKeys(value, ENVELOPE_KEYS) || value.schemaVersion !== 2 || value.cloudKey !== cloudKey || typeof value.deleted !== 'boolean'
+      || !Number.isSafeInteger(value.generation) || value.generation < 1 || !integer(value.serverRevision)
+      || !Array.isArray(value.localIds) || !value.localIds.length || value.localIds.length > 32 || new Set(value.localIds).size !== value.localIds.length
+      || value.localIds.some(id => typeof id !== 'string' || !id.length || id.length > 128)
+      || !exactKeys(record, ['schemaVersion', 'id', 'owner', 'workId', 'selectionRef', 'colorId', 'revision', 'createdAt', 'updatedAt'])
+      || record.schemaVersion !== 1 || record.id !== value.localIds[0] || !exactKeys(record.owner, ['kind', 'uid']) || record.owner.kind !== 'account' || record.owner.uid !== uid || record.workId !== workId
+      || !Number.isSafeInteger(record.revision) || record.revision < 1 || !integer(record.createdAt) || !integer(record.updatedAt) || record.updatedAt < record.createdAt
+      || !Array.isArray(value.pending) || value.pending.length > SYNC_STORE_LIMITS.MAX_PENDING_PER_RECORD) throw failure('INVALID_HIGHLIGHT');
+    protocol().validateOperation({ schemaVersion: 1, operationId: 'catalogue-validation', uid, workId, cloudKey, kind: 'create', selectionRef: record.selectionRef, colorId: record.colorId, generation: 1, baseRevision: 0 });
+    for (const operation of value.pending) {
+      protocol().validateOperation(operation);
+      if (operation.uid !== uid || operation.workId !== workId || operation.cloudKey !== cloudKey || !equal(operation.selectionRef, record.selectionRef)) throw failure('INVALID_HIGHLIGHT');
+    }
+    if (value.serverRecord) protocol().validateCloudRecord(value.serverRecord, { workId, cloudKey });
+    return value;
+  }
+  async function readLocalWorkCatalogue(uid, options) {
+    current(options);
+    if (!storage || typeof storage.getAllKeys !== 'function' || typeof storage.getItem !== 'function') throw failure('STORAGE_UNAVAILABLE');
+    const keys = await storage.getAllKeys(); current(options);
+    if (!Array.isArray(keys) || keys.some(key => typeof key !== 'string')) throw failure('READ_FAILED');
+    const v2 = namespace + '/v2/' + segment(uid) + '/', legacy = legacyOwnerPrefix(uid), rows = new Map();
+    const decoded = value => { try { const id = decodeURIComponent(value); return encodeURIComponent(id) === value && id.length > 0 && id.length <= 512 ? id : null; } catch (_) { return null; } };
+    for (const key of [...new Set(keys)].sort()) {
+      const base = key.startsWith(v2) ? v2 : key.startsWith(legacy) ? legacy : null;
+      if (!base) continue;
+      const suffix = key.slice(base.length), slash = suffix.indexOf('/');
+      const workKey = slash < 0 ? suffix : suffix.slice(0, slash), workId = decoded(workKey);
+      let row = rows.get(workKey);
+      if (!row) { if (rows.size >= 128) throw failure('SYNC_LISTENER_LIMIT'); row = { workId, workKey, count: 0, pendingCount: 0, unavailableCount: 0, localOnlyCount: 0, envelopes: [], originals: [] }; rows.set(workKey, row); }
+      const raw = await storage.getItem(key); current(options); if (raw == null) continue;
+      if (await isRetired(uid, workKey, key, raw, options)) continue;
+      if (base === legacy) { row.originals.push({ raw, id: slash < 0 ? null : decoded(suffix.slice(slash + 1)) }); continue; }
+      try {
+        const envelope = summaryEnvelope(raw, uid, workId, slash < 0 ? '' : suffix.slice(slash + 1)); row.envelopes.push(envelope);
+        if (!envelope.deleted) row.count++;
+        row.pendingCount += envelope.pending.length;
+      } catch (_) { row.count++; row.unavailableCount++; }
+    }
+    return freeze([...rows.values()].map(row => {
+      for (const original of row.originals) {
+        let matched = false, valid = false;
+        try {
+          const record = JSON.parse(original.raw);
+          valid = original.id === record.id && record.owner?.uid === uid && record.workId === row.workId;
+          if (valid) matched = row.envelopes.some(envelope => envelope.localIds.includes(record.id) && equal(envelope.record.selectionRef, record.selectionRef));
+        } catch (_) { /* Count retained unavailable originals. */ }
+        if (!matched) { row.count++; row.localOnlyCount++; if (!valid) row.unavailableCount++; }
+      }
+      const shared = works.get(v2 + row.workKey + '/');
+      return { workId: row.workId, workKey: row.workKey, count: row.count, pendingCount: row.pendingCount, unavailableCount: row.unavailableCount, localOnlyCount: row.localOnlyCount,
+        saving: !!shared?.saving, error: shared?.error || null, readError: shared?.readError || null, writeBlocked: !!(shared?.failedIntent || shared?.rawFailedIntent) };
+    }).sort((a, b) => a.workKey.localeCompare(b.workKey)));
+  }
+  async function discoverPendingWorks(uid, options) { return (await readLocalWorkCatalogue(uid, options)).filter(row => row.workId && (row.pendingCount || migrateLegacy && row.localOnlyCount)).map(row => row.workId); }
+  function catalogueRows(rows) {
+    if (!Array.isArray(rows) || rows.length > 128) throw failure('SYNC_LISTENER_LIMIT');
+    const seen = new Set();
+    return freeze(rows.map(row => {
+      if (!exactKeys(row, ['workId', 'metadata']) || typeof row.workId !== 'string' || !row.workId.length || row.workId.length > 128 || /[\/\u0000-\u001f]/.test(row.workId) || seen.has(row.workId)) throw failure('SYNC_INVALID_STATE');
+      seen.add(row.workId);
+      return { workId: row.workId, metadata: { ...protocol().validateMetadata(row.metadata) } };
+    }).sort((a, b) => a.workId.localeCompare(b.workId)));
+  }
+  const catalogueKey = uid => namespace + '/catalogue/' + segment(uid);
+  async function readWorkCatalogue(uid, options) {
+    current(options);
+    if (!storage || typeof storage.getItem !== 'function') throw failure('STORAGE_UNAVAILABLE');
+    const raw = await storage.getItem(catalogueKey(uid)); current(options);
+    if (raw == null) return freeze([]);
+    if (typeof raw !== 'string' || utf8Length(raw) > 131072) throw failure('READ_FAILED');
+    try { return catalogueRows(JSON.parse(raw)); } catch (_) { throw failure('READ_FAILED'); }
+  }
+  function writeWorkCatalogue(uid, rows, options) {
+    const before = catalogueTails.get(uid) || Promise.resolve();
+    const promise = before.then(async () => {
+      current(options); const validated = catalogueRows(rows);
+      if (!storage || typeof storage.setItem !== 'function') throw failure('STORAGE_UNAVAILABLE');
+      try { await storage.setItem(catalogueKey(uid), JSON.stringify(validated)); } catch (_) { current(options); throw failure('WRITE_FAILED'); }
+      current(options); return validated;
+    });
+    catalogueTails.set(uid, promise.catch(() => {})); return promise;
+  }
+  return { forWork, discoverWorks, discoverPendingWorks, readLocalWorkCatalogue, readWorkCatalogue, writeWorkCatalogue, readRawWork, retireRawEntry, retryRawWork, namespace,
+    abandonRawIntent(scope) { rawScope(scope).shared.rawFailedIntent = null; },
+    subscribeCatalogue(uid, listener) { let set = catalogueListeners.get(uid); if (!set) { set = new Set(); catalogueListeners.set(uid, set); } set.add(listener); return () => set.delete(listener); } };
 }
 
-module.exports = { createHighlightSyncStoreManager, SYNC_STORE_LIMITS };
+module.exports = { createHighlightSyncStoreManager, createHighlightSyncStoreManagerForNamespace, SYNC_STORE_LIMITS };

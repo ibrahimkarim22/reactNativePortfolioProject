@@ -2,10 +2,22 @@ const { assertIsolatedHighlightEnvironment } = require('./highlightSyncEnvironme
 const { validateOperation, validateCloudRecord, validateMetadata, validateReceipt, planServerMutation, syncError } = require('./highlightSyncProtocol');
 
 const MAX_LISTENER_DOCUMENTS = 1000;
+const MAX_DISCOVERED_WORKS = 128;
 const pathPart = value => typeof value === 'string' && value.length > 0 && value.length <= 128 && !/[\/\u0000-\u001f]/.test(value) && value !== '.' && value !== '..';
 
 function createFirestoreHighlightSyncTransport({ environment }) {
-  const env = assertIsolatedHighlightEnvironment(environment), sdk = env.sdk;
+  return createHighlightSyncTransportForEnvironment(assertIsolatedHighlightEnvironment(environment));
+}
+
+// Shared implementation accepts only a privately branded environment from one
+// of the two explicit factories. Calling this export cannot bypass activation.
+function createHighlightSyncTransportForEnvironment(env) {
+  try { assertIsolatedHighlightEnvironment(env); }
+  catch (_) {
+    try { require('./highlightProductionEnvironment').assertProductionHighlightEnvironment(env); }
+    catch (_) { throw syncError('SYNC_ENVIRONMENT_REQUIRED'); }
+  }
+  const sdk = env.sdk;
   function current(uid, isCurrent) {
     if (env.auth.currentUser?.uid !== uid || (isCurrent && isCurrent() !== true)) throw syncError('SYNC_CANCELLED');
   }
@@ -91,8 +103,9 @@ function createFirestoreHighlightSyncTransport({ environment }) {
     env.assertReady().then(() => {
       if (!active()) return;
       const query = sdk.query(sdk.collection(env.db, 'users', uid, 'highlightWorks', workId, 'highlights'), sdk.limit(MAX_LISTENER_DOCUMENTS + 1));
-      unsubscribe = sdk.onSnapshot(query, snapshot => {
+      unsubscribe = sdk.onSnapshot(query, { includeMetadataChanges: true }, snapshot => {
         if (!active()) return;
+        if (snapshot.metadata?.fromCache || snapshot.metadata?.hasPendingWrites) return;
         try {
           if (!Array.isArray(snapshot.docs) || snapshot.docs.length > MAX_LISTENER_DOCUMENTS) throw syncError('SYNC_LISTENER_LIMIT');
           const records = Object.freeze(snapshot.docs.map(document => Object.freeze({ cloudKey: document.id,
@@ -104,7 +117,35 @@ function createFirestoreHighlightSyncTransport({ environment }) {
     }).catch(fail);
     return () => { stopped = true; if (unsubscribe) unsubscribe(); };
   }
-  return Object.freeze({ commit, submit: commit, listen });
+  function listenWorks(uid, onWorks, onError, options = {}) {
+    if (!pathPart(uid) || typeof onWorks !== 'function' || typeof onError !== 'function') throw syncError('SYNC_INVALID_OPERATION');
+    let stopped = false, unsubscribe = null;
+    const active = () => !stopped && env.auth.currentUser?.uid === uid && (!options.isCurrent || options.isCurrent() === true);
+    const fail = error => { if (active()) onError(error); };
+    env.assertReady().then(() => {
+      if (!active()) return;
+      const query = sdk.query(sdk.collection(env.db, 'users', uid, 'highlightWorks'), sdk.limit(MAX_DISCOVERED_WORKS + 1));
+      unsubscribe = sdk.onSnapshot(query, { includeMetadataChanges: true }, snapshot => {
+        if (!active()) return;
+        // Our durable catalogue is the offline source. An SDK cache may be a
+        // partial query and pending writes are not confirmed work accounting.
+        if (snapshot.metadata?.fromCache || snapshot.metadata?.hasPendingWrites) return;
+        try {
+          if (!Array.isArray(snapshot.docs) || snapshot.docs.length > MAX_DISCOVERED_WORKS) throw syncError('SYNC_LISTENER_LIMIT');
+          const seen = new Set();
+          const rows = snapshot.docs.map(document => {
+            if (!pathPart(document.id) || seen.has(document.id)) throw syncError('SYNC_INVALID_STATE');
+            seen.add(document.id);
+            return Object.freeze({ workId: document.id, metadata: validateMetadata(document.data()) });
+          }).sort((a, b) => a.workId.localeCompare(b.workId));
+          if (active()) onWorks(Object.freeze(rows));
+        } catch (error) { fail(error); }
+      }, fail);
+      if (!active() && unsubscribe) unsubscribe();
+    }).catch(fail);
+    return () => { stopped = true; if (unsubscribe) unsubscribe(); };
+  }
+  return Object.freeze({ commit, submit: commit, listen, listenWorks });
 }
 
-module.exports = { createFirestoreHighlightSyncTransport, MAX_LISTENER_DOCUMENTS };
+module.exports = { createFirestoreHighlightSyncTransport, createHighlightSyncTransportForEnvironment, MAX_LISTENER_DOCUMENTS, MAX_DISCOVERED_WORKS };

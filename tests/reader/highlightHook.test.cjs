@@ -4,7 +4,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const test = require('node:test');
 const babel = require('@babel/core');
-function host({ runtime } = {}) {
+function host({ runtime, normalRuntime } = {}) {
   const file = path.resolve(__dirname, '../../reader/useReaderHighlights.js');
   assert.ok(fs.existsSync(file), 'production auth/session adapter exists');
   let cursor = 0, effects = [], authCallback, subscriptions = 0, normalReads = 0;
@@ -18,7 +18,7 @@ function host({ runtime } = {}) {
   const createSession = options => {
     const calls = []; let snapshot = { scope: { uid: null }, privacyReady: false }; const listeners = new Set();
     const session = { calls, options, getSnapshot: () => snapshot, subscribe: f => { listeners.add(f); return () => listeners.delete(f); },
-      setOwner: uid => { calls.push(['owner', uid]); snapshot = { ...snapshot, scope: { uid } }; listeners.forEach(f => f()); },
+      setOwner: uid => { calls.push(['owner', uid]); if(normalRuntime)calls.push(['runtime-owner',normalRuntime.getSnapshot().uid]);snapshot = { ...snapshot, scope: { uid } }; listeners.forEach(f => f()); },
       setReady: ready => calls.push(['ready', ready]), dispose: () => calls.push(['dispose']),
       create() {}, recolor() {}, remove() {}, retry() {}, show() {} };
     sessions.push(session); return session;
@@ -26,12 +26,12 @@ function host({ runtime } = {}) {
   const dependencies = {
     react: React, '@react-native-async-storage/async-storage': {}, '../firebaseConfig': { FIREBASE_AUTH: {} },
     'firebase/auth': { onAuthStateChanged: (_auth, callback, onError) => { seenAuth.push(_auth); subscriptions++; authCallback = callback; return () => subscriptions--; } },
-    './readerHighlightStore': { createHighlightStoreManager: () => ({}) }, './readerHighlightSession': { createReaderHighlightSession: createSession },
+    './normalHighlightStore': { normalHighlightManager: normalRuntime?.manager || {}, normalHighlightRuntime: normalRuntime }, './readerHighlightSession': { createReaderHighlightSession: createSession },
   };
   const module = { exports: {} };
   const code = babel.transformFileSync(file, { babelrc: false, configFile: false, plugins: ['@babel/plugin-transform-modules-commonjs'] }).code;
   vm.runInThisContext('(function(require,module,exports){' + code + '\n})', { filename: file })(name => { if (name === '../firebaseConfig') normalReads++; return dependencies[name]; }, module, module.exports);
-  return { sessions, seenAuth, get normalReads() { return normalReads; }, auth: uid => { const user = uid ? { uid } : null; if (runtime) runtime.auth.currentUser = user; authCallback(user); }, get subscriptions() { return subscriptions; },
+  return { sessions, seenAuth, get normalReads() { return normalReads; }, auth: uid => { const user = uid ? { uid } : null; if (runtime) runtime.auth.currentUser = user; else if (seenAuth.length) seenAuth.at(-1).currentUser=user; authCallback(user); }, get subscriptions() { return subscriptions; },
     render(document, ready = true) { cursor = 0; effects = []; const value = module.exports.default(document, { current: {} }, ready, runtime); effects.forEach(f => f()); return value; },
     replay() { const active = slots.filter(s => s?.f); active.forEach(s => s.cleanup?.()); active.forEach(s => { s.cleanup = s.f(); }); },
     unmount() { slots.forEach(s => s?.cleanup?.()); },
@@ -80,4 +80,20 @@ test('a replacement document retires only the old session; no document creates n
   h.render({}); const old = h.sessions[0]; h.render({}); await Promise.resolve();
   assert.ok(old.calls.some(x => x[0] === 'dispose')); assert.equal(h.sessions.length, 2);
   assert.equal(h.sessions[1].calls.some(x => x[0] === 'dispose'), false);
+});
+
+
+test('normal reader uses the same approved durable application adapter rather than the isolated harness path',async()=>{
+  const {canonical,legacyRecord,storageFixture,accepted}=require('./highlightSyncFixture.cjs');const f=storageFixture({'@bard/reader-highlights:v1/alice/hamlet/legacy-id':JSON.stringify(legacyRecord())});const calls=[];
+  const adapter=require('../../reader/normalHighlightRuntime').createNormalHighlightRuntime({storage:f.storage,configuration:{enabled:true,storageMode:'durable-v2',migrationApproved:true},resolveCanonical:()=>canonical,
+    createBackend:()=>({commit:async operation=>accepted(operation),listen:(uid,work,next)=>{calls.push(['listen',uid,work]);return()=>{};},listenWorks:(uid,next)=>{calls.push(['works',uid]);next([]);return()=>{};}}),coordinatorOptions:{schedule:()=>1,cancelSchedule(){}}});
+  const h=host({normalRuntime:adapter}),document={canonical};h.render(document);h.auth('alice');await new Promise(resolve=>setImmediate(resolve));await adapter.flush();await new Promise(resolve=>setImmediate(resolve));const state=h.render(document);
+  assert.equal(h.sessions[0].options.manager,adapter.manager);assert.equal(state.synchronizationEnabled,true);assert.equal(state.synchronizationMode,'production');assert.equal(typeof state.syncRunning,'boolean');assert.ok(calls.some(call=>call[0]==='works'&&call[1]==='alice'));assert.ok(calls.some(call=>call[0]==='listen'&&call[2]==='hamlet'));assert.equal(h.normalReads,1);h.unmount();adapter.dispose();
+});
+
+test('normal auth establishes the guarded runtime owner before reader hydration can begin',async()=>{
+  const {createNormalHighlightRuntime}=require('../../reader/normalHighlightRuntime');const {storageFixture,canonical}=require('./highlightSyncFixture.cjs');
+  const runtime=createNormalHighlightRuntime({storage:storageFixture().storage,configuration:{enabled:false,storageMode:'durable-v2',migrationApproved:false}});
+  const h=host({normalRuntime:runtime});h.render({canonical});h.auth('alice');
+  assert.deepEqual(h.sessions[0].calls.find(call=>call[0]==='runtime-owner'),['runtime-owner','alice']);h.unmount();runtime.dispose();
 });

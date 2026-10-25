@@ -14,6 +14,15 @@ const vm = require('node:vm');
 const identity = { documentId: 'doc-1', workId: 'hamlet', contentVersion: 'v1', canonicalTextVersion: '1' };
 const preferences = { schemaVersion: 1, fontId: 'literata', fontSize: 20, lineSpacing: 'comfortable', theme: 'paper' };
 
+test('deferred passage opening admits only bounded identity-scoped user interaction notifications', () => {
+  const { parseReaderMessage } = require('../../reader/readerProtocol');
+  const message = { ...identity, type: 'interaction', interactionSeq: 1 };
+  assert.deepEqual(parseReaderMessage(JSON.stringify(message), identity), message);
+  for (const change of [{ interactionSeq: 0 }, { interactionSeq: 1.5 }, { interactionSeq: Number.MAX_SAFE_INTEGER + 1 }, { documentId: 'old' }, { quotation: 'private' }]) {
+    assert.equal(parseReaderMessage(JSON.stringify({ ...message, ...change }), identity), null);
+  }
+});
+
 test('main bridge admits large validated captures without widening other message limits', () => {
   const { createSelection } = require('../../shared/contentText');
   const { parseReaderMessage } = require('../../reader/readerProtocol');

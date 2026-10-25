@@ -18,6 +18,16 @@ function loadAdapter() {
   loaded._compile(fs.readFileSync(adapterPath, 'utf8'), adapterPath); return loaded.exports;
 }
 const adapter = loadAdapter();
+
+test('shared transport builder rejects unbranded live or demo environments before accessing the SDK', () => {
+  const { createHighlightSyncTransportForEnvironment } = require('../../reader/highlightSyncFirestore');
+  let sdkReads = 0;
+  for (const projectId of ['shakespearenativeapp', 'demo-bard-highlights-sync']) {
+    const environment = { projectId, get sdk() { sdkReads++; return {}; }, auth: { currentUser: { uid: 'A' } }, db: {}, assertReady: async () => true };
+    assert.throws(() => createHighlightSyncTransportForEnvironment(environment), { code: 'SYNC_ENVIRONMENT_REQUIRED' });
+  }
+  assert.equal(sdkReads, 0);
+});
 const version = 'a'.repeat(64), selectionRef = { kind: 'text-range', workId: 'hamlet', contentVersion: version, canonicalTextVersion: '1', offsetUnit: 'utf16', start: 0, end: 4,
   startRef: { textId: 'a', sectionId: 's', offsetUtf16: 0 }, endRef: { textId: 'a', sectionId: 's', offsetUtf16: 4 }, exact: 'Echo', prefix: '', suffix: '' };
 const operation = { schemaVersion: 1, operationId: 'op-1', uid: 'A', workId: 'hamlet', cloudKey: `h1_${version}_1_0_4`, kind: 'create', selectionRef, colorId: 'sage', generation: 1, baseRevision: 0 };
@@ -48,7 +58,7 @@ function fixture() {
     },
     async getDocFromServer(key) { return snapshot(key); },
     query: (collection, ...constraints) => ({ collection, constraints }), limit: value => ({ limit: value }),
-    onSnapshot(query, next, error) { env.query = query; env.next = next; env.error = error; return () => { env.unsubscribed = true; }; },
+    onSnapshot(query, optionsOrNext, nextOrError, possibleError) { env.query = query; env.next = typeof optionsOrNext === 'function' ? optionsOrNext : nextOrError; env.error = typeof optionsOrNext === 'function' ? nextOrError : possibleError; return () => { env.unsubscribed = true; }; },
   };
   return { env, records, committed };
 }
@@ -96,6 +106,9 @@ test('bounded owner-scoped listener retains full tombstones and rejects oversize
   await new Promise(resolve => setImmediate(resolve));
   assert.deepEqual(env.query, { collection: 'users/A/highlightWorks/hamlet/highlights', constraints: [{ limit: 1001 }] });
   const result = require('../../reader/highlightSyncProtocol').planServerMutation({ operation, serverTimestamp: stamp });
+  env.next({ docs: [{ id: operation.cloudKey, data: () => result.cloud }], metadata: { fromCache: true, hasPendingWrites: false } });
+  env.next({ docs: [{ id: operation.cloudKey, data: () => result.cloud }], metadata: { fromCache: false, hasPendingWrites: true } });
+  assert.equal(values.length, 0, 'SDK cache and pending echoes cannot establish confirmed cloud records');
   env.next({ docs: [{ id: operation.cloudKey, data: () => result.cloud }] });
   assert.equal(values[0][0].cloud.selectionRef.exact, 'Echo'); assert.equal(values[0][0].cloudKey, operation.cloudKey);
   env.next({ docs: Array.from({ length: 1001 }, () => ({ id: operation.cloudKey, data: () => result.cloud })) });
@@ -147,4 +160,24 @@ test('continued state changes cannot turn guarded permission recovery into an un
   await assert.rejects(client.commit(operation), { code: 'permission-denied' });
   assert.equal(env.transactionCalls, 2); assert.equal(races, 2);
   assert.equal(records.has('users/A/highlightWorks/hamlet/operations/op-1'), false);
+});
+
+test('account discovery is bounded, validates metadata including zero-count tombstone works and cancels stale owners', async () => {
+  const { env } = fixture(), client = transport(env), values = [], errors = [];
+  const stop = client.listenWorks('A', rows => values.push(rows), error => errors.push(error));
+  await new Promise(resolve => setImmediate(resolve));
+  assert.deepEqual(env.query, { collection: 'users/A/highlightWorks', constraints: [{ limit: 129 }] });
+  const metadata = { schemaVersion: 1, activeCount: 0, activeBytes: 0, revision: 3, lastOperationId: 'delete-1' };
+  env.next({ docs: [], metadata: { fromCache: true, hasPendingWrites: false } });
+  assert.equal(values.length, 0, 'a partial/offline SDK cache cannot erase the durable catalogue');
+  env.next({ docs: [], metadata: { fromCache: false, hasPendingWrites: true } });
+  assert.equal(values.length, 0, 'pending metadata is not server-confirmed accounting');
+  env.next({ docs: [{ id: 'hamlet', data: () => metadata }, { id: 'tempest', data: () => ({ ...metadata, activeCount: 2, activeBytes: 100 }) }] });
+  assert.deepEqual(values[0].map(row => [row.workId, row.metadata.activeCount]), [['hamlet', 0], ['tempest', 2]]);
+  env.next({ docs: Array.from({ length: 129 }, (_, i) => ({ id: 'w' + i, data: () => metadata })) });
+  assert.equal(errors.at(-1).code, 'SYNC_LISTENER_LIMIT');
+  env.next({ docs: [{ id: 'hamlet', data: () => ({ ...metadata, activeCount: -1 }) }] });
+  assert.equal(errors.at(-1).code, 'SYNC_INVALID_STATE');
+  env.auth.currentUser = { uid: 'B' }; env.next({ docs: [] }); assert.equal(values.length, 1);
+  stop(); assert.equal(env.unsubscribed, true);
 });

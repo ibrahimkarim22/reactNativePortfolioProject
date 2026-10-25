@@ -11,6 +11,7 @@ import ReaderHighlightControl from "./ReaderHighlightControl";
 import ReaderHighlightPicker from "./ReaderHighlightPicker";
 import ReaderHighlightsModal from "./ReaderHighlightsModal";
 import useReaderHighlights from "./useReaderHighlights";
+import useMyHighlightsReader from "./useMyHighlightsReader";
 import { errorMessage, findCreateConflict, findStoredConflicts, validateSelectionRef } from "./readerHighlights";
 import { syncLabel, syncSummaryText, syncErrorText } from "./highlightSyncPresentation";
 import { createReaderDocument } from "./readerDocument";
@@ -24,7 +25,7 @@ import useReaderNavigation from "./useReaderNavigation";
 
 let nextDocumentId = 0;
 
-export default function ReaderScreen({ id, highlightRuntime }) {
+export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
   const navigation = useNavigation();
   const settings = useReaderPreferences(highlightRuntime?.preferences);
   const { preferences, hydrated, update, reset, retry, flush } = settings;
@@ -50,7 +51,8 @@ export default function ReaderScreen({ id, highlightRuntime }) {
   }, [entry, entry?.play?.contentVersion, entry?.play?.canonicalTextVersion]);
   const readerNavigation = useReaderNavigation(result);
   const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready, highlightRuntime);
-  const syncStorageNotice = highlights.synchronizationEnabled ? "Isolated emulator test. Saved locally first; check synchronization status below. Production synchronization is disabled." : undefined;
+  const passageOpening = useMyHighlightsReader({ request: highlightRuntime ? null : openHighlight, document: result.document, session: highlights.session });
+  const syncStorageNotice = highlights.synchronizationMode === "emulator" ? "Isolated emulator test. Saved locally first; check synchronization status below. Production synchronization is disabled." : undefined;
   const [highlightState, setHighlightState] = useState("none");
   const [surfaceFailure, setSurfaceFailure] = useState(false);
   const [highlightDraft, setHighlightDraft] = useState(null);
@@ -85,21 +87,27 @@ export default function ReaderScreen({ id, highlightRuntime }) {
     const item = (record, status) => ({ id: record.id, quotation: record.selectionRef.exact,
       locationLabel: status === "unresolved" ? "Different text version" : sections.get(record.selectionRef.startRef.sectionId) || "Saved quotation", colorId: record.colorId,
       status, start: record.selectionRef.start, overlapConflict: overlaps.has(record.id),
-      syncLabel: highlights.synchronizationEnabled ? syncLabel(highlights.syncById?.[record.id]) : undefined,
+      syncLabel: highlights.synchronizationEnabled ? syncLabel(highlights.syncById?.[record.id], { mode: highlights.synchronizationMode, syncing: highlights.syncRunning }) : undefined,
+      syncDeletion: !!highlights.syncById?.[record.id]?.conflict?.cloud?.deleted,
       syncConflict: highlights.syncById?.[record.id]?.status === "conflict" });
     return [...highlights.records.map(record => item(record, conflicts.has(record.id) ? "conflict" : "resolved")),
-      ...highlights.unresolved.map(({ record }) => item(record, "unresolved"))].sort((a, b) => a.start - b.start || a.id.localeCompare(b.id))
+      ...highlights.unresolved.map(({ record }) => item(record, "unresolved")),
+      ...(highlights.tombstones || []).filter(marker => marker.sync?.status === "conflict" && marker.record)
+        .map(marker => ({ ...item(marker.record, "conflict"), retainedDeletion: true, syncConflict: true }))]
+      .sort((a, b) => a.start - b.start || a.id.localeCompare(b.id))
       .concat(highlights.unreadable.map(record => ({ id: record.id, status: "unreadable", detail: errorMessage(record.code) })));
-  }, [highlights.records, highlights.unresolved, highlights.unreadable, highlights.conflicts, highlights.syncById, highlights.synchronizationEnabled, result.model, result.document]);
+  }, [highlights.records, highlights.unresolved, highlights.unreadable, highlights.conflicts, highlights.tombstones, highlights.syncById, highlights.synchronizationEnabled, highlights.synchronizationMode, highlights.syncRunning, result.model, result.document]);
   const highlightMessage = error => error ? errorMessage(error.code) : null;
   const onReaderMessage = useCallback(message => {
     readerNavigation.onMessage(message);
     if (message.documentId !== result.document?.identity.documentId) return;
+    if (message.type === "interaction" || (message.type === "selectionChange" && message.state === "range")) passageOpening.cancel();
     if (message.type === "ready") setSurfaceFailure(false);
     if (message.type === "error" && ["DOCUMENT_READY_TIMEOUT", "SURFACE_LOAD_FAILED"].includes(message.code)) setSurfaceFailure(true);
     if (message.type === "selectionChange" && message.documentId === result.document?.identity.documentId) setHighlightState(message.state);
   }, [readerNavigation.onMessage, result.document]);
   const openHighlights = scope => {
+    passageOpening.cancel();
     if (!currentScope(scope)) return;
     highlightOperation.current++;
     scope = highlights.session.getSnapshot().scope;
@@ -108,6 +116,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
     setHighlightDraft(null); setHighlightError(null); setRemovingHighlight(null); setHighlightListScope(scope);
   };
   const acceptHighlight = (snapshot, scope) => {
+    passageOpening.cancel();
     if (!currentScope(scope) || snapshot?.documentId !== scope.documentId || !highlights.enabled) return;
     scope = highlights.session.getSnapshot().scope;
     let duplicate;
@@ -217,6 +226,12 @@ export default function ReaderScreen({ id, highlightRuntime }) {
     try { await highlights.session.resolveSyncConflict(id, choice, scope); }
     catch (error) { if (currentScope(scope)) setHighlightError(syncErrorText(error)); }
   };
+  const retryHighlightSync = async () => {
+    const scope = highlightScope;
+    if (!currentScope(scope) || highlightSaving) return;
+    try { await highlights.retrySync?.(); }
+    catch (error) { if (currentScope(scope)) setHighlightError(syncErrorText(error)); }
+  };
   useEffect(() => {
     highlightOperation.current++;
     setHighlightSaving(false); setHighlightError(null); setHighlightDraft(null); setHighlightListScope(null); setRemovingHighlight(null);
@@ -232,6 +247,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
   }, [fontSelection, hydrated, result.document, preferences.fontId, fontRetry]);
 
   const openAppearance = useCallback(() => {
+    passageOpening.cancel();
     readerNavigation.surfaceRef.current?.clearSelection?.("modal");
     cancelFocusReturn();
     readerNavigation.dismissContents();
@@ -246,6 +262,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
     flush();
   }, [flush, restoreAfterClose]);
   const openContents = useCallback(() => {
+    passageOpening.cancel();
     cancelFocusReturn();
     setAppearanceOpen(false);
     abandonDraft(); setHighlightListScope(null); highlightFocus.cancel();
@@ -263,7 +280,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
         <Pressable
           accessibilityRole="button"
           accessibilityLabel="Back"
-          onPress={() => navigation.goBack()}
+          onPress={() => { passageOpening.cancel(); navigation.goBack(); }}
           style={styles.backButton}
         >
           <Text style={[styles.backIcon, { color: tintColor || theme.text }]}>{"‹"}</Text>
@@ -286,19 +303,25 @@ export default function ReaderScreen({ id, highlightRuntime }) {
 
   useFocusEffect(useCallback(() => {
     readerNavigation.activate();
-    const status = Platform.OS === "web" ? null : StatusBar.pushStackEntry({
-      barStyle: preferences.theme === "night" ? "light-content" : "dark-content",
-      backgroundColor: theme.background,
-    });
     return () => {
+      passageOpening.cancel();
       readerNavigation.surfaceRef.current?.clearSelection?.("document");
       abandonDraft();
       setHighlightListScope(null); highlightFocus.cancel();
       cancelFocusReturn();
       readerNavigation.deactivate();
-      if (status != null) StatusBar.popStackEntry(status);
     };
-  }, [preferences.theme, theme.background, cancelFocusReturn, readerNavigation.activate, readerNavigation.deactivate]));
+  }, [cancelFocusReturn, readerNavigation.activate, readerNavigation.deactivate, passageOpening.cancel]));
+
+  // Restoring a saved theme updates system chrome without retiring a pending
+  // passage request. Only a real focus departure runs the cancellation above.
+  useFocusEffect(useCallback(() => {
+    const status = Platform.OS === "web" ? null : StatusBar.pushStackEntry({
+      barStyle: preferences.theme === "night" ? "light-content" : "dark-content",
+      backgroundColor: theme.background,
+    });
+    return () => { if (status != null) StatusBar.popStackEntry(status); };
+  }, [preferences.theme, theme.background]));
 
   return (
     <SafeAreaView edges={["bottom"]} style={[styles.container, { backgroundColor: theme.background }]}>
@@ -312,7 +335,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
           accessibilityHint="Choose an act, scene or other section"
           accessibilityActions={readerNavigation.ready ? [{ name: "readCurrentSection", label: "Read from current section" }] : []}
           onAccessibilityAction={event => {
-            if (event.nativeEvent.actionName === "readCurrentSection") readerNavigation.jumpToSection(readerNavigation.currentSectionId);
+            if (event.nativeEvent.actionName === "readCurrentSection") { passageOpening.cancel(); readerNavigation.jumpToSection(readerNavigation.currentSectionId); }
           }}
           onPress={openContents}
           style={[styles.locationRow, { backgroundColor: theme.background, borderBottomColor: theme.border }]}
@@ -331,11 +354,14 @@ export default function ReaderScreen({ id, highlightRuntime }) {
       )}
       {result.document && hydrated ? (
         <View style={styles.container}>
+          {(passageOpening.opening || passageOpening.error) && <View pointerEvents="none" accessibilityLiveRegion="polite" style={[styles.passageStatus, { backgroundColor: theme.panel, borderColor: theme.border }]}>
+            <Text accessibilityRole={passageOpening.error ? "alert" : undefined} style={{ color: theme.text }}>{passageOpening.error || "Opening saved passage\u2026"}</Text>
+          </View>}
           <ReaderSurface ref={readerNavigation.surfaceRef} document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} onMessage={onReaderMessage} />
           {!highlights.privacyReady && <View accessibilityLabel="Preparing account highlights" style={[StyleSheet.absoluteFillObject, styles.loading, { backgroundColor: theme.background }]}>
-            {!surfaceFailure && <ActivityIndicator color={theme.accent} />}
+            {!surfaceFailure && <ActivityIndicator color={theme.highlightAction} />}
             <Text accessibilityRole={surfaceFailure ? "alert" : undefined} style={[styles.errorDetail, { color: theme.secondary }]}>{surfaceFailure ? "The reading document could not open. Go back and reopen this play." : highlights.renderError ? "Previous highlights could not be cleared." : "Preparing highlights\u2026"}</Text>
-            {!surfaceFailure && !!highlights.renderError && <Pressable accessibilityRole="button" onPress={retryHighlights} style={styles.backButton}><Text style={{ color: theme.accent }}>Retry highlights</Text></Pressable>}
+            {!surfaceFailure && !!highlights.renderError && <Pressable accessibilityRole="button" onPress={retryHighlights} style={styles.backButton}><Text style={{ color: theme.highlightAction }}>Retry highlights</Text></Pressable>}
           </View>}
         </View>
       ) : result.document ? (
@@ -356,9 +382,10 @@ export default function ReaderScreen({ id, highlightRuntime }) {
         onColor={setHighlightColor} onClose={closeHighlight} onSave={saveHighlight} saving={highlightSaving || highlights.saving}
         error={highlightError || highlightMessage(highlights.error)} onRetry={highlights.error ? retryHighlights : undefined} onDismiss={highlightFocus.onDismiss} />
       <ReaderHighlightsModal visible={highlightsOpen} items={highlightsOpen ? highlightItems : []} theme={theme}
-        storageNotice={syncStorageNotice} syncNotice={highlights.synchronizationEnabled ? syncSummaryText(highlights.syncSummary) : undefined}
+        storageNotice={syncStorageNotice} synchronizationEnabled={highlights.synchronizationEnabled}
+        syncNotice={highlights.synchronizationEnabled ? syncSummaryText(highlights.syncSummary, { running: highlights.syncRunning }) : undefined}
         syncError={highlights.synchronizationEnabled ? syncErrorText(highlights.syncCoordinatorError) : undefined}
-        onRetrySync={highlights.synchronizationEnabled ? highlights.retrySync : undefined} onResolveSync={resolveHighlightSync}
+        onRetrySync={highlights.synchronizationEnabled && (highlights.syncCoordinatorError || highlights.syncSummary?.failed || highlights.syncSummary?.pending && !highlights.syncRunning) ? retryHighlightSync : undefined} onResolveSync={resolveHighlightSync}
         loading={highlights.loading} saving={highlightSaving || highlights.saving} painting={highlights.rendering} error={highlightsOpen ? highlightError || highlightMessage(highlights.error) : null}
         renderError={highlightsOpen ? highlightMessage(highlights.renderError) : null} onRetry={retryHighlights}
         removingId={removingHighlight} onRequestRemove={setRemovingHighlight} onCancelRemove={() => { abandonDraft(); setRemovingHighlight(null); setHighlightError(null); }} onConfirmRemove={removeHighlight}
@@ -392,6 +419,7 @@ export default function ReaderScreen({ id, highlightRuntime }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
+  passageStatus: { position: "absolute", left: 12, right: 12, bottom: 12, zIndex: 1, padding: 12, borderRadius: 8, borderWidth: StyleSheet.hairlineWidth },
   backButton: { minWidth: 48, minHeight: 48, alignItems: "center", justifyContent: "center" },
   backIcon: { fontSize: 36, lineHeight: 40 },
   headerTitle: { fontSize: 17, lineHeight: 22, fontWeight: "600" },

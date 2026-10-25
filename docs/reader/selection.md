@@ -1,7 +1,5 @@
 # Reader selection
 
-Approved scope: native word/passage selection and exact canonical capture on `feature/reader-interactions`, starting at `b9eaeb5364bcfec582db8742830f5b57b951c7ff`. Preserve native handles and Copy; leave WebView `menuItems` unset. No annotation actions, persistence, content regeneration, dependency/configuration changes, staging or commits.
-
 ## Mapping contract
 
 A focused DOM adapter reads the current live Range, never its selected string. Text offsets count literal UTF-16 units through nested inline elements. Element offsets count preceding child nodes. Endpoints must lie in the owned `main` reading root or its mapped blocks. A block-end endpoint stops before its canonical separator; a root child boundary after that block includes the separator represented by layout. Crossing blocks includes exact canonical separators. No endpoint clamps, whitespace normalization, text search or reading-position fallbacks are permitted.

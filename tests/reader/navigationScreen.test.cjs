@@ -29,7 +29,8 @@ function fixture() {
 // native views, navigation, font IO, and the mounted surface are host boundaries.
 function host({ platform = 'android', selectedEntry = fixture() } = {}) {
   const slots = [];
-  let cursor = 0, effects = [], dirty = false, options, focusCleanup, backs = 0;
+  let cursor = 0, effects = [], dirty = false, options, backs = 0;
+  const focusCleanups = new Set(), cancelPassage = () => {};
   let preferences = { ...defaults };
   let preferenceWrites = 0;
   const frames = new Map(), focused = [], jumps = [], sectionFocus = [], selectionClears = [];
@@ -73,13 +74,14 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     react: React, 'react-native': native,
     '@react-navigation/native': {
       useNavigation: () => navigation,
-      useFocusEffect: callback => effect(() => { focusCleanup = callback(); return () => { focusCleanup?.(); focusCleanup = undefined; }; }, [callback]),
+      useFocusEffect: callback => effect(() => { const cleanup = callback(); focusCleanups.add(cleanup); return () => { cleanup?.(); focusCleanups.delete(cleanup); }; }, [callback]),
     },
     'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView', useSafeAreaInsets: () => ({ top: 24, bottom: 24 }) },
     '../shared/localPlayService': { getLocalPlayEntry: id => id === selectedEntry.slug ? selectedEntry : undefined },
     './ReaderSurface': 'ReaderSurface', './ReaderAppearanceModal': 'ReaderAppearanceModal', './ReaderContentsModal': 'ReaderContentsModal', './ReaderSelectionVerifier': 'ReaderSelectionVerifier',
     './ReaderHighlightControl': 'ReaderHighlightControl', './ReaderHighlightPicker': 'ReaderHighlightPicker',
     './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useMyHighlightsReader': { __esModule: true, default: () => ({ cancel: cancelPassage, opening: false, error: null }) },
     './useReaderHighlights': { __esModule: true, default: document => React.useMemo(() => {
       const state = { scope: { uid: 'test-account', workId: document?.identity.workId, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: true };
       return { ...state, session: { getSnapshot: () => state } };
@@ -125,7 +127,7 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
       page.props.onMessage({ ...page.props.document.identity, ...message });
     },
     frame() { for (const [id, callback] of [...frames]) { frames.delete(id); callback(); } },
-    blur() { focusCleanup?.(); focusCleanup = undefined; },
+    blur() { for (const cleanup of focusCleanups) cleanup?.(); focusCleanups.clear(); },
     unmount() { for (const slot of slots) slot?.cleanup?.(); },
     replay() { const active = slots.filter(slot => slot?.callback); active.forEach(slot => slot.cleanup?.()); active.forEach(slot => { slot.cleanup = slot.callback(); }); },
   };

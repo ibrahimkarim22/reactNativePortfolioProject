@@ -8,7 +8,7 @@ export default function ReaderHighlightPicker({
   visible, snapshot, colorId = "yellow", theme = THEMES.paper,
   saving = false, error, onColor, onSave, onClose, onDismiss,
   actionLabel = "Save", notice, onRetry,
-  storageNotice = "Saved on this device. Highlights are not synced or guaranteed backed up.",
+  storageNotice,
 }) {
   const heading = useRef(null);
   const insets = useSafeAreaInsets();
@@ -24,7 +24,7 @@ export default function ReaderHighlightPicker({
         <View accessibilityViewIsModal onAccessibilityEscape={close} style={[styles.panel, { backgroundColor: theme.panel, borderColor: theme.border, paddingBottom: Math.max(16, insets.bottom) }]}>
           <Text ref={heading} accessible accessibilityRole="header" style={[styles.heading, { color: theme.text }]}>Highlight passage</Text>
           <ScrollView style={styles.body} nestedScrollEnabled contentContainerStyle={styles.bodyContent}>
-          <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>
+          {!!storageNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>}
           {!!notice && <Text style={[styles.detail, { color: theme.secondary }]}>{notice}</Text>}
           <ScrollView style={styles.quotation} nestedScrollEnabled contentContainerStyle={styles.quotationContent}>
             <Text style={[styles.quoteText, { color: theme.text }]}>{snapshot?.selection?.exact || ""}</Text>
@@ -36,25 +36,28 @@ export default function ReaderHighlightPicker({
                 <Pressable key={id} accessibilityRole="radio" accessibilityLabel={choice.label}
                   accessibilityState={{ checked: selected, disabled: saving }} disabled={saving}
                   onPress={() => { if (!saving) onColor?.(id); }}
-                  style={[styles.choice, { borderColor: selected ? theme.accent : theme.border, backgroundColor: theme.background }]}>
-                  <View accessibilityElementsHidden importantForAccessibility="no" style={[styles.swatch, { backgroundColor: choice.background[themeId], borderColor: theme.accent }]} />
+                  style={({ pressed }) => [styles.choice, { borderColor: selected ? theme.highlightAction : theme.border, backgroundColor: pressed && !saving ? theme.highlightPressed : theme.background }]}>
+                  <View accessibilityElementsHidden importantForAccessibility="no" style={[styles.swatch, { backgroundColor: choice.background[themeId], borderColor: theme.highlightAction }]} />
                   <Text style={[styles.choiceLabel, { color: theme.text }]}>{choice.label}</Text>
-                  <Text style={[styles.selected, { color: theme.accent }]}>{selected ? "Selected" : ""}</Text>
+                  <Text style={[styles.selected, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>{selected ? "Selected" : ""}</Text>
                 </Pressable>
               );
             })}
           </View>
           {!!error && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{error}</Text>}
-          {!!error && !!onRetry && <Pressable accessibilityRole="button" accessibilityLabel="Retry saving highlight" disabled={saving} onPress={() => { if (!saving) onRetry(); }} style={styles.action}>
-            <Text style={[styles.actionLabel, { color: theme.accent }]}>Retry save</Text>
+          {!!error && !!onRetry && <Pressable accessibilityRole="button" accessibilityLabel="Retry saving highlight" disabled={saving} onPress={() => { if (!saving) onRetry(); }}
+            style={({ pressed }) => [styles.action, { backgroundColor: pressed && !saving ? theme.highlightPressed : "transparent" }]}>
+            <Text style={[styles.actionLabel, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>Retry save</Text>
           </Pressable>}
           </ScrollView>
           <View style={styles.actions}>
-            <Pressable accessibilityRole="button" accessibilityLabel="Cancel highlight" disabled={saving} accessibilityState={{ disabled: saving }} onPress={close} style={[styles.action, { borderColor: theme.border }]}>
-              <Text style={[styles.actionLabel, { color: theme.accent }]}>Cancel</Text>
+            <Pressable accessibilityRole="button" accessibilityLabel="Cancel highlight" disabled={saving} accessibilityState={{ disabled: saving }} onPress={close}
+              style={({ pressed }) => [styles.action, { borderColor: theme.border, backgroundColor: pressed && !saving ? theme.highlightPressed : "transparent" }]}>
+              <Text style={[styles.actionLabel, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>Cancel</Text>
             </Pressable>
-            <Pressable accessibilityRole="button" accessibilityLabel="Save highlight" disabled={saving} accessibilityState={{ disabled: saving, busy: saving }} onPress={() => { if (!saving) onSave?.(); }} style={[styles.action, { borderColor: theme.accent, backgroundColor: theme.background }]}>
-              <Text style={[styles.actionLabel, { color: theme.accent }]}>{saving ? "Saving…" : actionLabel}</Text>
+            <Pressable accessibilityRole="button" accessibilityLabel="Save highlight" disabled={saving} accessibilityState={{ disabled: saving, busy: saving }} onPress={() => { if (!saving) onSave?.(); }}
+              style={({ pressed }) => [styles.action, { borderColor: theme.highlightAction, backgroundColor: pressed && !saving ? theme.highlightPressed : theme.background }]}>
+              <Text style={[styles.actionLabel, { color: saving ? theme.highlightActionDisabled : theme.highlightAction }]}>{saving ? "Saving…" : actionLabel}</Text>
             </Pressable>
           </View>
         </View>

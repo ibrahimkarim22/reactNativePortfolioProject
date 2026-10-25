@@ -57,7 +57,21 @@ function nodes(tree, type) {
   return [...(tree.type === type ? [tree] : []), ...(tree.props?.children || []).flat(Infinity).flatMap(child => nodes(child, type))];
 }
 const button = tree => nodes(tree, 'Pressable')[0];
-const style = tree => Object.assign({}, ...[button(tree).props.style].flat(Infinity));
+const style = tree => Object.assign({}, ...[typeof button(tree).props.style === 'function' ? button(tree).props.style({ pressed: false }) : button(tree).props.style].flat(Infinity));
+
+test('top Highlight control uses neutral management tokens in each theme without opacity fading', () => {
+  const { THEMES } = require('../../reader/readerConstants');
+  const h = host();
+  for (const theme of Object.values(THEMES)) {
+    let tree = h.render({ mode: 'list', disabled: false, theme });
+    assert.equal(nodes(tree, 'Text')[0].props.style[1].color, theme.highlightAction);
+    assert.equal(typeof button(tree).props.style, 'function');
+    assert.equal(Object.assign({}, ...button(tree).props.style({ pressed: true })).backgroundColor, theme.highlightPressed);
+    tree = h.render({ disabled: true });
+    assert.equal(nodes(tree, 'Text')[0].props.style[1].color, theme.highlightActionDisabled);
+    assert.equal(style(tree).opacity, undefined);
+  }
+});
 
 test('one stable reserved button retains geometry across selection, counts, and loading at large system text', () => {
   const h = host(); const first = h.render({ mode: 'list', count: 200 });

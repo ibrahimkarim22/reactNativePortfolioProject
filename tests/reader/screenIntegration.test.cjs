@@ -28,10 +28,10 @@ const settle = () => new Promise(resolve => setImmediate(resolve));
 // Run the production screen, real document generator and real preference store.
 // React Native views/navigation/asset IO are the device boundaries; this host
 // preserves hook lifetimes and applies state-triggered renders between effects.
-async function host({ selectedEntry = fixture(), stored = defaults, createHighlight } = {}) {
+async function host({ selectedEntry = fixture(), stored = defaults, createHighlight, passageStatus = { opening: false, error: null }, delayPreferences = false } = {}) {
   const storage = new Map([[PREFERENCE_KEY, JSON.stringify(stored)]]);
   const store = createReaderPreferenceStore({ getItem: async key => storage.get(key) ?? null, setItem: async (key, value) => storage.set(key, value) });
-  await store.hydrate();
+  if (!delayPreferences) await store.hydrate();
   const file = path.join(root, 'reader/ReaderScreen.js');
   const slots = [];
   let cursor = 0;
@@ -68,10 +68,12 @@ async function host({ selectedEntry = fixture(), stored = defaults, createHighli
   const lookups = [];
   let options;
   let backs = 0;
-  let focusCleanup;
+  const focusCleanups = new Set();
   let highlightSnapshot;
   const highlightCalls = [];
   const alerts = [];
+  let passageCancellations = 0;
+  const cancelPassage = () => { passageCancellations++; };
   const highlightSession = {
     getSnapshot: () => highlightSnapshot,
     create: async (...args) => { highlightCalls.push(['create', ...args]); return createHighlight ? createHighlight(...args) : { kind: 'created', record: { id: 'new-highlight' } }; },
@@ -99,8 +101,8 @@ async function host({ selectedEntry = fixture(), stored = defaults, createHighli
     react: React,
     'react-native': native,
     '@react-navigation/native': { useNavigation: () => navigation, useFocusEffect: callback => effect(() => {
-      focusCleanup = callback();
-      return () => { focusCleanup?.(); focusCleanup = undefined; };
+      const cleanup = callback(); focusCleanups.add(cleanup);
+      return () => { cleanup?.(); focusCleanups.delete(cleanup); };
     }, [callback]) },
     'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView', useSafeAreaInsets: () => ({ top: 24, bottom: 24, left: 0, right: 0 }) },
     '../Componenets/Loader': 'Loader',
@@ -111,6 +113,7 @@ async function host({ selectedEntry = fixture(), stored = defaults, createHighli
     './ReaderHighlightControl': 'ReaderHighlightControl',
     './ReaderHighlightPicker': 'ReaderHighlightPicker',
     './ReaderHighlightsModal': 'ReaderHighlightsModal',
+    './useMyHighlightsReader': { __esModule: true, default: () => ({ cancel: cancelPassage, ...passageStatus }) },
     './useReaderHighlights': { __esModule: true, default: document => {
       if (!highlightSnapshot) highlightSnapshot = { scope: { uid: 'test-account', workId: document?.identity.workId, documentId: document?.identity.documentId, ownerGeneration: 1 }, records: [], unresolved: [], unreadable: [], conflicts: [], privacyReady: true, enabled: true };
       return { ...highlightSnapshot, session: highlightSession };
@@ -145,7 +148,8 @@ async function host({ selectedEntry = fixture(), stored = defaults, createHighli
     setHighlights(change) { highlightSnapshot = { ...highlightSnapshot, ...change }; },
     get options() { return options; },
     get backs() { return backs; },
-    blur() { focusCleanup?.(); focusCleanup = undefined; },
+    get passageCancellations() { return passageCancellations; },
+    blur() { for (const cleanup of focusCleanups) cleanup?.(); focusCleanups.clear(); },
     frames() { while (frames.length) frames.shift()(); },
     render(props = { id: 'small-play' }) {
       let tree;
@@ -175,6 +179,38 @@ function appearanceButton(screen) {
   assert.ok(buttonStyle.minHeight >= 48 && buttonStyle.minWidth >= 48, 'the header control has a usable touch target');
   return button;
 }
+
+test('restoring persisted Night or Sepia preferences cannot retire the initial saved-passage request', async () => {
+  for (const theme of ['night', 'sepia']) {
+    const screen = await host({ stored: { ...defaults, theme }, delayPreferences: true, passageStatus: { opening: true } });
+    screen.render(); const before = screen.passageCancellations;
+    await screen.store.hydrate();
+    const tree = screen.render();
+    assert.equal(nodes(tree, 'ReaderSurface')[0].props.preferences.theme, theme);
+    assert.equal(screen.passageCancellations, before, 'preference restoration is not a reader departure');
+    screen.blur(); assert.equal(screen.passageCancellations, before + 1, 'actual Back/blur still cancels');
+  }
+});
+
+test('direct accessibility section navigation retires deferred Show passage before the jump', async () => {
+  const screen = await host(); const tree = screen.render();
+  const location = nodes(tree, 'Pressable').find(node => typeof node.props.onAccessibilityAction === 'function');
+  const before = screen.passageCancellations;
+  location.props.onAccessibilityAction({ nativeEvent: { actionName: 'readCurrentSection' } });
+  assert.equal(screen.passageCancellations, before + 1);
+});
+
+test('opening or failed Show status uses an overlay so its removal cannot resize the reading surface', async () => {
+  for (const passageStatus of [{ opening: true, error: null }, { opening: false, error: 'Unavailable passage' }]) {
+    const screen = await host({ passageStatus }); const tree = screen.render();
+    const status = nodes(tree, 'View').find(node => node.props.accessibilityLiveRegion === 'polite');
+    assert.ok(status);
+    assert.equal(status.props.pointerEvents, 'none');
+    const style = Object.assign({}, ...[status.props.style].flat(Infinity).filter(Boolean));
+    assert.equal(style.position, 'absolute');
+    assert.ok(nodes(tree, 'ReaderSurface')[0], 'the source-generated document remains mounted');
+  }
+});
 
 test('appearance choices update the reading document in place and reset restores the page defaults', async () => {
   const screen = await host();
@@ -390,11 +426,11 @@ test('isolated sync status reaches the existing panel and conflict decisions ret
   const screen = await host(); let tree = screen.render();
   const selectionRef = require('../../shared/contentText').createSelection(nodes(tree, 'ReaderSurface')[0].props.document.canonical, 1, 8);
   const record = { id: 'saved', colorId: 'sage', selectionRef };
-  screen.setHighlights({ records: [record], synchronizationEnabled: true, syncById: { saved: { status: 'conflict' } }, syncSummary: { pending: 1, deleted: 1 } });
+  screen.setHighlights({ records: [record], synchronizationEnabled: true, synchronizationMode: 'emulator', syncById: { saved: { status: 'conflict' } }, syncSummary: { pending: 1, deleted: 1 } });
   tree = screen.render(); nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
   const panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
   assert.match(panel.props.storageNotice, /Production synchronization is disabled/);
-  assert.equal(panel.props.items[0].syncLabel, 'Saved locally · synchronization conflict');
+  assert.equal(panel.props.items[0].syncLabel, 'Saved on this device · Changes need review');
   assert.equal(panel.props.items[0].syncConflict, true);
   await panel.props.onResolveSync('saved', 'use-cloud');
   assert.deepEqual(screen.highlightCalls, [['resolveSyncConflict', 'saved', 'use-cloud', screen.highlightSnapshot.scope]]);
@@ -416,6 +452,63 @@ test('cloud color conflicts are distinguished from canonical overlaps while both
   assert.equal(panel.props.items[0].overlapConflict, true);
   assert.equal(panel.props.items[1].syncConflict, false);
   assert.equal(panel.props.items[1].overlapConflict, true);
+});
+
+test('normal sync presentation is quiet after acknowledgement and keeps isolated-backend labels explicit', async () => {
+  const screen = await host(), document = nodes(screen.render(), 'ReaderSurface')[0].props.document;
+  const record = { id: 'confirmed', colorId: 'sage', selectionRef: require('../../shared/contentText').createSelection(document.canonical, 0, 7) };
+  screen.setHighlights({ records: [record], synchronizationEnabled: true, synchronizationMode: 'production',
+    syncById: { confirmed: { status: 'synced' } }, syncSummary: { synced: 1, pending: 0 }, retrySync() {} });
+  nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  let panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.storageNotice, undefined);
+  assert.equal(panel.props.items[0].syncLabel, '');
+  assert.equal(panel.props.syncNotice, '');
+  assert.equal(panel.props.onRetrySync, undefined, 'quiet healthy state has no unnecessary Retry');
+  screen.setHighlights({ synchronizationMode: 'emulator' });
+  panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.match(panel.props.storageNotice, /Isolated emulator/);
+  assert.match(panel.props.items[0].syncLabel, /isolated test backend/);
+  screen.setHighlights({ synchronizationMode: 'production', syncById: { confirmed: { status: 'pending' } },
+    syncSummary: { pending: 1 }, syncRunning: true });
+  panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.syncNotice, 'Syncing…');
+  assert.equal(panel.props.items[0].syncLabel, 'Syncing…');
+});
+
+test('reader management exposes a retained deletion conflict without treating it as an active painted highlight', async () => {
+  const screen = await host(), document = nodes(screen.render(), 'ReaderSurface')[0].props.document;
+  const record = { id: 'retained-deletion', colorId: 'blue', selectionRef: require('../../shared/contentText').createSelection(document.canonical, 0, 7) };
+  const sync = { status: 'conflict', conflict: { cloud: { deleted: false } } };
+  screen.setHighlights({ synchronizationEnabled: true, tombstones: [{ id: record.id, record, sync }], syncById: { [record.id]: sync } });
+  const control = nodes(screen.render(), 'ReaderHighlightControl')[0];
+  assert.equal(control.props.count, 0);
+  control.props.onList(screen.highlightSnapshot.scope);
+  const panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.items.length, 1);
+  assert.equal(panel.props.items[0].quotation, record.selectionRef.exact);
+  assert.equal(panel.props.items[0].retainedDeletion, true);
+  assert.equal(panel.props.items[0].status, 'conflict');
+});
+
+test('account-highlight recovery uses the same neutral management token', async () => {
+  const screen = await host(); screen.render();
+  screen.setHighlights({ privacyReady: false, renderError: { code: 'HIGHLIGHT_APPLY_FAILED' } });
+  const tree = screen.render(), { THEMES } = require('../../reader/readerConstants');
+  const retry = nodes(tree, 'Pressable').find(node => nodes(node, 'Text').some(text => text.props.children.includes('Retry highlights')));
+  assert.ok(retry);
+  assert.equal(nodes(retry, 'Text')[0].props.style.color, THEMES.paper.highlightAction);
+});
+
+test('an old account panel cannot retry synchronization for a newer account', async () => {
+  const screen = await host(); screen.render(); let retries = 0;
+  screen.setHighlights({ synchronizationEnabled: true, syncCoordinatorError: { code: 'unavailable' }, retrySync: async () => { retries++; } });
+  nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  const oldPanel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(typeof oldPanel.props.onRetrySync, 'function');
+  await oldPanel.props.onRetrySync(); assert.equal(retries, 1);
+  screen.setHighlights({ scope: { ...screen.highlightSnapshot.scope, uid: 'different-account', ownerGeneration: 2 } }); screen.render();
+  await oldPanel.props.onRetrySync(); assert.equal(retries, 1, 'retired panel activation must not retry the new owner queue');
 });
 
 async function recreationPrompt() {

@@ -1,7 +1,5 @@
 # Highlight storage and rendering
 
-Approved design and clarifications: continue `feature/reader-interactions` at `6221f58881fe089c9de8a57ead686d770f43bc8a`. Preserve both milestone commits and unrelated work. No staging, commits, pushes, branch operations, content regeneration, dependency/configuration changes, auth persistence changes or course-progress mutations.
-
 ## Interaction contract
 
 Keep Contents/current location on the left of its existing row. A reserved, stable-size trailing control normally opens **Highlights (count)** and becomes **Highlight** for a live selection. Selection-state changes must not resize the WebView, clear selection through layout, or change the meaning of an in-progress press.

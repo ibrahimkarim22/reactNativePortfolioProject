@@ -14,6 +14,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
   // A burst of requests shares the point captured before its first reflow.
   let pendingPoint = null;
   let interactionVersion = 0;
+  let interactionSeq = 0;
   let observedScrollY = window.scrollY || window.pageYOffset || 0;
   let own = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   let blocks = Array.prototype.slice.call(document.querySelectorAll('[data-reader-block]'));
@@ -32,11 +33,16 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     if (highlights) highlights.cancel();
   }
 
+  function readingGesture() {
+    userInteraction();
+    send('interaction', { interactionSeq: ++interactionSeq });
+  }
+
   function observeScroll() {
     const position = window.scrollY || window.pageYOffset || 0;
     if (position !== observedScrollY) {
       observedScrollY = position;
-      userInteraction();
+      readingGesture();
     }
   }
 
@@ -267,7 +273,7 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
   if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', restoreHighlightLayout);
   if (typeof ResizeObserver !== 'undefined') new ResizeObserver(restoreHighlightLayout).observe(document.body);
   ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (type) {
-    window.addEventListener(type, userInteraction, { passive: true });
+    window.addEventListener(type, readingGesture, { passive: true });
   });
   document.addEventListener('click', function (event) {
     if (event.target && event.target.closest && event.target.closest('a')) event.preventDefault();

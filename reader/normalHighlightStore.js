@@ -4,7 +4,7 @@ import { PRODUCTION_HIGHLIGHT_SYNC, createProductionHighlightEnvironment, create
 import { createMyHighlightsHandoff } from "./myHighlightsHandoff";
 import { highlightOwner } from "./useHighlightOwner";
 
-// One normal application adapter. The source-controlled default remains v1;
+// One normal application adapter. Source-controlled activation chooses its mode;
 // production construction is lazy and separately guarded before Firebase IO.
 export const normalHighlightRuntime = createNormalHighlightRuntime({
   storage: AsyncStorage,

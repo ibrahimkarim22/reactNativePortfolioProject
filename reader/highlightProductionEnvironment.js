@@ -1,12 +1,12 @@
 // Deliberate source-controlled activation boundary. No environment/test flag
 // enables real writes. Deployment + activation + real migration need approval.
 const PRODUCTION_HIGHLIGHT_SYNC = Object.freeze({
-  enabled: false,
-  storageMode: 'legacy-v1',
-  migrationApproved: false,
+  enabled: true,
+  storageMode: 'durable-v2',
+  migrationApproved: true,
   projectId: 'shakespearenativeapp',
   databaseId: '(default)',
-  approvedRulesetName: null,
+  approvedRulesetName: 'projects/shakespearenativeapp/rulesets/77d48f22-3b40-4c5b-8db5-8c3d31c67242',
 });
 const environments = new WeakSet();
 const fail = code => Object.assign(new Error(code), { code });

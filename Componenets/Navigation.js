@@ -229,7 +229,6 @@ const Main = () => {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(FIREBASE_AUTH, (user) => {
-      console.log("user", user);
       if (user) {
         setUser(user);
       } else {

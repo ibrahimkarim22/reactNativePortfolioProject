@@ -1,7 +1,7 @@
 const policy = require('./readerHighlights');
 const { LIMITS, HIGHLIGHT_PALETTE, validateSelectionRef, validateHighlightRecord, classifyRecord, findCreateConflict, findStoredConflicts, utf8Length } = policy;
 
-// This store is deliberately opt-in. Production still uses readerHighlightStore.
+// This store is deliberately opt-in; legacy mode uses readerHighlightStore.
 const SYNC_STORE_LIMITS = Object.freeze({ MAX_PENDING_PER_RECORD: 16, MAX_PENDING_PER_WORK: 400, MAX_ENVELOPES_PER_WORK: 1000, MAX_ENVELOPE_BYTES: 1048576, MAX_JOURNAL_BYTES: 4194304 });
 const own = (value, key) => Object.prototype.hasOwnProperty.call(value, key);
 const plain = value => value !== null && typeof value === 'object' && !Array.isArray(value);

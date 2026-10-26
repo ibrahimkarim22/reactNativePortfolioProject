@@ -205,3 +205,125 @@ test('transient listener startup failure automatically reattaches with bounded d
   await h.listeners[1].onRecords([]); assert.equal(h.coordinator.getSnapshot().error, null);
   h.coordinator.dispose();
 });
+
+test('initial pending-work discovery read failure retries automatically without opening the work', async () => {
+  const h = setup(), scheduled = [], calls = [];
+  const discover = h.manager.discoverPendingWorks; let readable = false;
+  h.manager.discoverPendingWorks = async (...args) => { if (!readable) throw Object.assign(new Error('storage not ready'), { code: 'READ_FAILED' }); return discover(...args); };
+  await h.store.create(ref(), 'yellow'); const operation = h.store.pendingOperations()[0];
+  const coordinator = require('../../reader/highlightSyncCoordinator').createHighlightSyncCoordinator({ manager: h.manager,
+    transport: { async commit(value) { calls.push(value); return accepted(value); }, listen() { return () => {}; } }, resolveCanonical: () => canonical,
+    schedule(fn, delay) { scheduled.push({ fn, delay }); return fn; }, cancelSchedule() {}, random: () => 0.5 });
+  await coordinator.setOwner('alice'); await coordinator.flush();
+  assert.equal(coordinator.getSnapshot().error.code, 'READ_FAILED');
+  assert.equal(scheduled.length, 1, 'a transient catalogue read must have an automatic recovery');
+  assert.equal(scheduled[0].delay, 1000); readable = true; scheduled[0].fn(); await tick(); await coordinator.flush();
+  assert.equal(calls.length, 1); assert.equal(calls[0].operationId, operation.operationId);
+  assert.equal(h.store.getSnapshot().syncSummary.synced, 1); assert.equal(coordinator.getSnapshot().error, null);
+  coordinator.dispose();
+});
+
+test('successful pending-work rediscovery clears its read error even when no operations remain', async () => {
+  const h = setup(), scheduled = []; let readable = false;
+  h.manager.discoverPendingWorks = async () => { if (!readable) throw Object.assign(new Error('read'), { code: 'READ_FAILED' }); return []; };
+  const coordinator = require('../../reader/highlightSyncCoordinator').createHighlightSyncCoordinator({ manager: h.manager,
+    transport: { commit() { throw Error('No outgoing operation'); }, listen() { return () => {}; } }, resolveCanonical: () => canonical,
+    schedule(fn) { scheduled.push(fn); return fn; }, cancelSchedule() {} });
+  await coordinator.setOwner('alice'); readable = true; scheduled[0](); await tick(); await coordinator.flush();
+  assert.equal(coordinator.getSnapshot().error, null); coordinator.dispose();
+});
+
+test('foreground recovery keeps conflict, capacity and validation failures blocked without polling', async () => {
+  for (const code of ['SYNC_CONFLICT', 'SYNC_COUNT_LIMIT', 'invalid-argument']) {
+    const h = harness(undefined, { async commit(operation) { h.calls.push(operation); throw Object.assign(new Error(code), { code }); } });
+    await h.store.create(ref(), 'yellow'); await h.coordinator.setOwner('alice'); await h.coordinator.flush();
+    await h.coordinator.foreground(); await h.coordinator.foreground();
+    assert.equal(h.calls.length, 1, code); assert.equal(h.scheduled.length, 0, code);
+    assert.equal(h.store.pendingOperations().length, 0, code); h.coordinator.dispose();
+  }
+});
+
+test('pending-work discovery retry cannot attach or submit for a retired owner generation', async () => {
+  const h = setup(), scheduled = [], calls = [], gate = deferred(); let reads = 0;
+  await h.store.create(ref(), 'yellow');
+  const discover = h.manager.discoverPendingWorks;
+  h.manager.discoverPendingWorks = async (uid, options) => { if (uid === 'alice' && ++reads === 1) throw Object.assign(new Error('read'), { code: 'READ_FAILED' }); if (uid === 'alice') await gate.promise; return discover(uid, options); };
+  const coordinator = require('../../reader/highlightSyncCoordinator').createHighlightSyncCoordinator({ manager: h.manager,
+    transport: { async commit(value) { calls.push(value.uid); return accepted(value); }, listen() { return () => {}; } }, resolveCanonical: () => canonical,
+    schedule(fn) { scheduled.push(fn); return fn; }, cancelSchedule() {} });
+  await coordinator.setOwner('alice'); assert.equal(scheduled.length, 1);
+  scheduled[0](); await tick(); await coordinator.setOwner('bob'); gate.resolve(); await tick(); await coordinator.flush();
+  assert.deepEqual(calls, []); assert.equal(coordinator.getSnapshot().uid, 'bob'); coordinator.dispose();
+});
+
+test('a late cancelled retry cannot remove the current owner backoff', async () => {
+  const h = harness(undefined, { async commit(operation) { h.calls.push(operation); throw Object.assign(new Error('offline'), { code: 'unavailable' }); } });
+  await h.store.create(ref(), 'yellow'); const bob = h.manager.forWork({ uid: 'bob', canonical }); await bob.create(ref(), 'blue');
+  await h.coordinator.setOwner('alice'); await tick(); assert.equal(h.scheduled.length, 1); const old = h.scheduled[0];
+  await h.coordinator.setOwner('bob'); await tick(); assert.equal(h.scheduled.length, 2); assert.equal(old.cancelled, true);
+  old.fn(); await h.coordinator.openWork(canonical); await tick();
+  assert.equal(h.calls.filter(operation => operation.uid === 'bob').length, 1, 'old callback must preserve the new owner scheduled backoff');
+  assert.equal(h.scheduled.length, 2); h.coordinator.dispose();
+});
+
+for (const code of ['permission-denied', 'unauthenticated']) {
+  test('a fresh owner session retries durable ' + code + ' operations once without polling', async () => {
+    const original = setup(); await original.store.create(ref(), 'yellow'); const operation = original.store.pendingOperations()[0];
+    await original.store.syncFailed(operation.operationId, { code });
+    const h = harness(setup(Object.fromEntries(original.data)));
+    await h.coordinator.setOwner('alice'); await h.coordinator.flush();
+    assert.equal(h.calls.length, 1); assert.equal(h.calls[0].operationId, operation.operationId);
+    assert.equal(h.store.getSnapshot().syncSummary.synced, 1); assert.equal(h.scheduled.length, 0); h.coordinator.dispose();
+  });
+}
+
+test('foreground retries access failures once per event and coalesces simultaneous events', async () => {
+  const h = harness(); let allowed = false;
+  h.transport.commit = async operation => { h.calls.push(operation); if (!allowed) throw Object.assign(new Error('denied'), { code: 'permission-denied' }); return accepted(operation); };
+  await h.store.create(ref(), 'yellow'); const operation = h.store.pendingOperations()[0];
+  await h.coordinator.setOwner('alice'); await h.coordinator.flush();
+  await Promise.all([h.coordinator.foreground(), h.coordinator.foreground()]); await tick();
+  assert.equal(h.calls.length, 2, 'one foreground event does not loop on denied access'); assert.equal(h.scheduled.length, 0);
+  allowed = true; await h.coordinator.foreground();
+  assert.equal(h.calls.length, 3); assert.ok(h.calls.every(value => value.operationId === operation.operationId));
+  assert.equal(h.store.getSnapshot().syncSummary.synced, 1); h.coordinator.dispose();
+});
+
+test('automatic foreground never replays a failed local edit or raw retirement intent', async () => {
+  const h = harness(); await h.coordinator.setOwner('alice'); await h.coordinator.openWork(canonical);
+  const created = await h.store.create(ref(), 'yellow'); await h.coordinator.flush();
+  const rawKey = '@bard-test/client-a/legacy/alice/hamlet/broken'; h.data.set(rawKey, 'bad');
+  const set = h.storage.setItem; h.storage.setItem = async () => { throw new Error('disk'); };
+  await assert.rejects(h.store.recolor(created.record.id, 'blue'), { code: 'WRITE_FAILED' });
+  h.storage.setItem = set; const before = [...h.data.entries()]; await h.coordinator.foreground();
+  assert.deepEqual([...h.data.entries()], before); assert.equal(h.store.getSnapshot().records[0].colorId, 'yellow');
+  assert.equal(h.store.getSnapshot().writeBlocked, true); assert.equal(h.calls.length, 1);
+  h.store.abandonPendingIntent(); await h.store.refreshReadOnly();
+  h.storage.setItem = async () => { throw new Error('disk'); };
+  await assert.rejects(h.manager.retireRawEntry({ uid: 'alice', workKey: 'hamlet', key: rawKey, raw: 'bad' }), { code: 'WRITE_FAILED' });
+  h.storage.setItem = set; const rawBefore = [...h.data.entries()]; await h.coordinator.foreground();
+  assert.deepEqual([...h.data.entries()], rawBefore); assert.equal(h.data.get(rawKey), 'bad');
+  assert.equal(h.store.getSnapshot().writeBlocked, true); h.coordinator.dispose();
+});
+
+test('a failed local save cannot be submitted automatically or starve another retained work', async () => {
+  const h = setup(), { buildCanonicalDocument, createSelection } = require('../../shared/contentText');
+  const tempest = buildCanonicalDocument({ play: { id: 'tempest', contentVersion: 'b'.repeat(64), canonicalTextVersion: '1', sections: [{ id: 's' }] },
+    sections: [{ work: { id: 'tempest' }, contentVersion: 'b'.repeat(64), canonicalTextVersion: '1', section: { id: 's' }, content: [{ id: 't', text: 'Another play', separatorAfter: '' }] }] });
+  const second = h.manager.forWork({ uid: 'alice', canonical: tempest }), calls = [];
+  const made = await h.store.create(ref(), 'yellow');
+  const set = h.storage.setItem; h.storage.setItem = async () => { throw Error('disk'); };
+  await assert.rejects(h.store.recolor(made.record.id, 'blue'), { code: 'WRITE_FAILED' }); h.storage.setItem = set;
+  await second.create(createSelection(tempest, 0, 7), 'blue');
+  const coordinator = require('../../reader/highlightSyncCoordinator').createHighlightSyncCoordinator({ manager: h.manager,
+    transport: { async commit(operation) { calls.push(operation.workId); return accepted(operation); }, listen() { return () => {}; } },
+    resolveCanonical: id => id === 'hamlet' ? canonical : tempest });
+  let publications = 0;
+  const unsubscribe = coordinator.subscribe(() => { if (++publications === 100) coordinator.dispose(); });
+  await coordinator.setOwner('alice'); await coordinator.flush(); await coordinator.foreground(); await coordinator.flush();
+  await tick();
+  assert.deepEqual(calls, ['tempest']); assert.equal(second.getSnapshot().syncSummary.synced, 1);
+  assert.equal(h.store.getSnapshot().records[0].colorId, 'yellow'); assert.equal(h.store.getSnapshot().writeBlocked, true);
+  assert.ok(publications < 100, 'only blocked durable operations must not cause zero-progress drain loops');
+  unsubscribe(); coordinator.dispose();
+});

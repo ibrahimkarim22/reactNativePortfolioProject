@@ -231,6 +231,7 @@ function createNormalHighlightRuntime({ storage, configuration = DEFAULT_CONFIGU
   return { manager, coordinator, storageMode, enabled, setOwner, openWork,
     refreshReadOnly: () => coordinator?.refreshReadOnly?.() || Promise.resolve(),
     retry: () => coordinator?.retry() || Promise.resolve(),
+    foreground: () => coordinator?.foreground() || Promise.resolve(),
     flush: () => coordinator?.flush() || Promise.resolve(),
     getSnapshot: () => snapshot,
     subscribe(listener) { listeners.add(listener); return () => listeners.delete(listener); },

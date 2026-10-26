@@ -1,4 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { AppState } from "react-native";
 import { createNormalHighlightRuntime } from "./normalHighlightRuntime";
 import { PRODUCTION_HIGHLIGHT_SYNC, createProductionHighlightEnvironment, createProductionHighlightSyncTransport } from "./highlightProductionEnvironment";
 import { createMyHighlightsHandoff } from "./myHighlightsHandoff";
@@ -23,6 +24,9 @@ const updateOwner = () => {
 };
 highlightOwner.subscribe(updateOwner);
 updateOwner();
+AppState.addEventListener("change", state => {
+  if (state === "active") normalHighlightRuntime.foreground().catch(() => {});
+});
 export const normalHighlightManager = normalHighlightRuntime.manager;
 export const normalMyHighlightsHandoff = createMyHighlightsHandoff({
   getOwner: highlightOwner.getSnapshot,

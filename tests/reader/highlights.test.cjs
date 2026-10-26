@@ -1,6 +1,16 @@
 const assert = require('node:assert/strict');
 const test = require('node:test');
 const core = require('../../reader/readerHighlights');
+
+test('highlight errors are actionable without storage choices or false cloud confirmation', () => {
+  for (const code of ['HIGHLIGHT_COUNT_LIMIT', 'READ_FAILED', 'WRITE_FAILED', 'STORAGE_UNAVAILABLE', 'UNSUPPORTED']) {
+    const message = core.errorMessage(code);
+    assert.ok(message);
+    assert.doesNotMatch(message, /on this device|local.only|check storage|synced|backed up/i);
+  }
+  assert.match(core.errorMessage('WRITE_FAILED'), /could not.*save|could not be saved/i);
+  assert.match(core.errorMessage('HIGHLIGHT_COUNT_LIMIT'), /200/);
+});
 const canonical = {
   workId: 'work', contentVersion: 'v1', canonicalTextVersion: '1', text: 'Écho\u00a0😀\n\nÉcho\tfin',
   units: [{ id: 'a', sectionId: 's1', start: 0, textEnd: 7, end: 9 }, { id: 'b', sectionId: 's2', start: 9, textEnd: 13, end: 14 }, { id: 'c', sectionId: 's2', start: 14, textEnd: 17, end: 17 }],
@@ -107,9 +117,9 @@ test('capacity, read/write and overlap errors provide actionable messages withou
   assert.equal(typeof core.errorMessage, 'function');
   for (const [code, pattern] of [['HIGHLIGHT_COUNT_LIMIT', /200/], ['HIGHLIGHT_RECORD_TOO_LARGE', /128 KiB/], ['HIGHLIGHT_WORK_TOO_LARGE', /512 KiB/], ['HIGHLIGHT_READ_FAILED', /read|load/i], ['HIGHLIGHT_WRITE_FAILED', /sav|writ/i], ['HIGHLIGHT_OVERLAP', /overlap/i]]) assert.match(core.errorMessage(code), pattern);
   assert.match(core.errorMessage('untrusted arbitrary text'), /highlight/i);
-  assert.match(core.errorMessage('UNSUPPORTED'), /paint.*unavailable|painting.*unavailable/i);
-  assert.match(core.errorMessage('UNSUPPORTED'), /saved.*retain/i);
-  assert.match(core.errorMessage('HIGHLIGHTS_UNSUPPORTED'), /unavailable/i);
+  assert.match(core.errorMessage('UNSUPPORTED'), /cannot be displayed/i);
+  assert.doesNotMatch(core.errorMessage('UNSUPPORTED'), /deleted|lost|removed/i);
+  assert.equal(core.errorMessage('HIGHLIGHTS_UNSUPPORTED'), core.errorMessage('UNSUPPORTED'));
   assert.match(core.errorMessage('RETRY_REQUIRED'), /retry/i);
   assert.match(core.errorMessage('NOT_FOUND'), /no longer available/i);
 });

@@ -40,38 +40,62 @@ const items = [
   { id: 'd', status: 'unreadable' },
 ];
 
-test('sync states and deletion backlog stay visible without disabling local actions or claiming backup', () => {
+test('healthy full quotations never offer synchronization retry or storage setup', () => {
+  for (const fullQuotation of [false, true]) {
+    const Panel = load(); let retries = 0;
+    const tree = Panel({ visible: true, fullQuotation, items: [items[0]], theme: THEMES.paper,
+      onRetrySync: () => retries++, syncNotice: 'Saved on this device · Waiting to sync',
+      storageNotice: 'Choose local storage or migrate highlights.', syncError: null });
+    assert.equal(nodes(tree, 'Pressable').some(node => /synchronization/i.test(node.props.accessibilityLabel)), false);
+    assert.doesNotMatch(texts(tree), /Saved on this device|Waiting to sync|migrate highlights|local storage/i);
+    assert.equal(nodes(tree, 'HighlightEntry')[0].props.item.quotation, items[0].quotation);
+    assert.equal(retries, 0);
+  }
+});
+
+test('account save failure stays explicit in full quotation without a synchronization control', () => {
+  const Panel = load();
+  const tree = Panel({ visible: true, fullQuotation: true, items: [items[0]], theme: THEMES.night,
+    syncError: 'Your highlight changes could not be saved to your account.', onRetrySync() {} });
+  assert.match(texts(tree), /could not be saved to your account/);
+  assert.ok(nodes(tree, 'Text').some(node => node.props.accessibilityRole === 'alert'));
+  assert.equal(nodes(tree, 'Pressable').some(node => /synchronization/i.test(node.props.accessibilityLabel)), false);
+  assert.doesNotMatch(texts(tree), /synced|backed up/i);
+});
+
+test('genuine account failures stay visible without adding synchronization controls', () => {
   const Panel = load(); let retried = 0, resolved;
   const tree = Panel({ visible: true, items: [{ ...items[0], syncLabel: 'Saved locally · sync failed', syncConflict: true }], theme: THEMES.paper,
     storageNotice: 'Emulator test only. Production synchronization is disabled.', syncNotice: '1 deletion pending sync',
     syncError: 'Permission denied. Local data is retained.', onRetrySync: () => retried++, onResolveSync: (...args) => { resolved = args; } });
-  assert.match(texts(tree), /Production synchronization is disabled/);
-  assert.match(texts(tree), /1 deletion pending sync/);
+  assert.doesNotMatch(texts(tree), /Production synchronization is disabled/);
+  assert.doesNotMatch(texts(tree), /1 deletion pending sync/);
+  assert.match(texts(tree), /Permission denied/);
   assert.match(nodes(tree,'HighlightEntry')[0].props.item.syncLabel,/sync failed/);
   const buttons = nodes(tree, 'Pressable');
   nodes(tree,'HighlightEntry')[0].props.onOptions('a');const menu=nodes(Panel({visible:true,items:[{...items[0],syncConflict:true}],theme:THEMES.paper}),'HighlightOptionsModal')[0];assert.equal(menu.props.canEdit,true);
-  buttons.find(n => n.props.accessibilityLabel === 'Retry synchronization').props.onPress(); assert.equal(retried, 1);
-  buttons.find(n => n.props.accessibilityLabel === 'Use cloud color 1').props.onPress(); assert.deepEqual(resolved, ['a', 'use-cloud']);
+  assert.equal(buttons.some(n => n.props.accessibilityLabel === 'Retry synchronization'), false); assert.equal(retried, 0);
+  buttons.find(n => n.props.accessibilityLabel === 'Use other color 1').props.onPress(); assert.deepEqual(resolved, ['a', 'use-cloud']);
 });
 test('a cloud-only conflict offers color decisions without falsely reporting an overlapping quotation', () => {
   const Panel = load();
   const tree = Panel({ visible: true, items: [{ ...items[0], status: 'conflict', syncConflict: true, overlapConflict: false }], theme: THEMES.paper });
-  assert.match(texts(tree), /cloud color differs/);
+  assert.match(texts(tree), /different color on another device/);
   assert.doesNotMatch(texts(tree), /overlaps another/);
   const buttons = nodes(tree, 'Pressable');
-  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Use cloud color 1'));
-  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Reapply local color 1'));
+  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Use other color 1'));
+  assert.ok(buttons.some(n => n.props.accessibilityLabel === 'Keep this color 1'));
 });
 
 test('deletion conflicts offer an explicit cloud decision without a misleading recolor or silent recreation', () => {
-  for (const [flags, label] of [[{ syncDeletion: true }, 'Keep cloud deletion 1'], [{ retainedDeletion: true }, 'Keep cloud highlight 1']]) {
+  for (const [flags, label] of [[{ syncDeletion: true }, 'Keep removal 1'], [{ retainedDeletion: true }, 'Restore highlight 1']]) {
     const Panel = load(); let resolved;
     const tree = Panel({ visible: true, theme: THEMES.paper, items: [{ ...items[0], status: 'conflict', syncConflict: true, ...flags }],
       onResolveSync: (...args) => { resolved = args; } });
     const buttons = nodes(tree, 'Pressable');
     const decision = buttons.find(node => node.props.accessibilityLabel === label);
     assert.ok(decision);
-    assert.ok(!buttons.some(node => node.props.accessibilityLabel?.startsWith('Reapply local color')));
+    assert.ok(!buttons.some(node => node.props.accessibilityLabel?.startsWith('Keep this color')));
     decision.props.onPress(); assert.deepEqual(resolved, ['a', 'use-cloud']);
     if (flags.retainedDeletion) assert.equal(nodes(tree, 'HighlightEntry')[0].props.onOptions, undefined);
   }
@@ -79,11 +103,11 @@ test('deletion conflicts offer an explicit cloud decision without a misleading r
 test('combined conflicts show both explanations and legacy overlap records retain their warning', () => {
   const Panel = load();
   const combined = Panel({ visible: true, items: [{ ...items[0], status: 'conflict', syncConflict: true, overlapConflict: true }], theme: THEMES.paper });
-  assert.match(texts(combined), /cloud color differs/);
+  assert.match(texts(combined), /different color on another device/);
   assert.equal(nodes(combined,'HighlightEntry')[0].props.item.overlapConflict,true);
   const legacy = Panel({ visible: true, items: [items[2]], theme: THEMES.paper });
   assert.equal(nodes(legacy,'HighlightEntry')[0].props.item.status,'conflict');
-  assert.doesNotMatch(texts(legacy), /cloud color differs/);
+  assert.doesNotMatch(texts(legacy), /different color on another device/);
 });
 test('list retains exact quotations and unavailable entries without repeating a storage disclaimer', () => {
   const Panel = load(); const shown = [], edited = [], requested = [];
@@ -173,8 +197,8 @@ test('expanded quotation exposes live storage and paint failures with the existi
   let tree=Panel(props);nodes(tree,'HighlightEntry')[0].props.onFullQuote('a');
   props.error='The change could not be saved.';props.renderError='Current painting is unavailable.';props.syncNotice='One pending synchronization';props.syncError='Permission denied; local data retained.';props.loading=true;props.removingId='a';
   tree=Panel(props);const scrolls=nodes(tree,'ScrollView');assert.equal(scrolls.length,2);const full=scrolls[1];
-  assert.match(texts(full),/change could not be saved/);assert.match(texts(full),/Current painting is unavailable/);assert.match(texts(full),/One pending synchronization/);assert.match(texts(full),/Permission denied/);assert.equal(nodes(full,'ActivityIndicator').length,1);
+  assert.match(texts(full),/change could not be saved/);assert.match(texts(full),/Current painting is unavailable/);assert.doesNotMatch(texts(full),/One pending synchronization/);assert.match(texts(full),/Permission denied/);assert.equal(nodes(full,'ActivityIndicator').length,1);
   const controls=nodes(full,'Pressable');controls.find(n=>n.props.accessibilityLabel==='Retry highlights').props.onPress();assert.equal(read,1);assert.equal(write,0);assert.equal(sync,0);
-  controls.find(n=>n.props.accessibilityLabel==='Retry pending highlight change').props.onPress();controls.find(n=>n.props.accessibilityLabel==='Retry synchronization').props.onPress();assert.equal(read,1);assert.equal(write,1);assert.equal(sync,1);
+  controls.find(n=>n.props.accessibilityLabel==='Retry pending highlight change').props.onPress();assert.equal(controls.some(n=>n.props.accessibilityLabel==='Retry synchronization'),false);assert.equal(read,1);assert.equal(write,1);assert.equal(sync,0);
   assert.equal(controls.find(n=>n.props.accessibilityLabel==='Confirm remove highlight').props.disabled,true);assert.equal(Object.assign({},...scrolls[0].props.style.filter(Boolean)).display,'none');
 });

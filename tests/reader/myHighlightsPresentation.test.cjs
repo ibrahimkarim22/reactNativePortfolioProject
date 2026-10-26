@@ -46,7 +46,9 @@ test('sync rows retain deletion conflicts without treating them as active overla
   assert.equal(deleted[0].syncDeletion,true);assert.equal(deleted[0].syncConflict,true);
 });
 
-test('catalogue uses the measured local and remote description instead of a guessed merged count',()=>{
+test('catalogue avoids a guessed merged count or storage explanation while counts settle',()=>{
   const rows=presentation().catalogueRows([{workKey:'hamlet',workId:'hamlet',count:4,countDescription:'2 on this device; 4 last confirmed remotely'}],[{id:'hamlet',name:'Hamlet'}]);
-  assert.equal(rows[0].countLabel,'2 on this device; 4 last confirmed remotely');
+  assert.equal(rows[0].countLabel,'Saved passages');
+  assert.equal(rows[0].count,4);
+  assert.equal(rows[0].countDescription,'2 on this device; 4 last confirmed remotely');
 });

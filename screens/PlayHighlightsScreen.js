@@ -16,7 +16,7 @@ export default function PlayHighlightsScreen({ route }) {
   const navigation = useNavigation();
   const state = useMyHighlightsWork(route?.params);
   const { owner, validOwner, play, items, store, workId, snapshot, loading, error, refreshReadOnly, mutate, retryPending, isCurrent,
-    synchronizationEnabled, synchronizationError, syncSummary, retrySync, activateWork } = state;
+    synchronizationError, syncSummary, activateWork } = state;
   const [quotation, setQuotation] = useState(null);
   const [draft, setDraft] = useState(null);
   const [color, setColor] = useState('yellow');
@@ -36,6 +36,7 @@ export default function PlayHighlightsScreen({ route }) {
   const readFailure = error || snapshot.readError || (!snapshot.writeBlocked ? snapshot.error : null);
   const writeFailure = snapshot.writeBlocked ? snapshot.error : null;
   const message = validOwner && actionError?.generation === owner.generation ? actionError.message : null;
+  const accountError = syncErrorText(synchronizationError) || syncSummary;
   const blocked = !!storageError || busy || snapshot.saving || loading;
   const stillCurrent = token => focused.current && isCurrent() && operation.current === token;
   const abandonDraft = () => { if (snapshot.writeBlocked && (draft || removing)) store?.abandonPendingIntent?.(); };
@@ -84,17 +85,16 @@ export default function PlayHighlightsScreen({ route }) {
     onPress={() => { if (!disabled) { focus.triggerRef.current = buttonTargets.current.get(label) || heading.current; action(); } }}
     style={({pressed})=>[styles.button,{backgroundColor:pressed&&!disabled?THEMES.night.highlightPressed:'transparent'}]}><Text style={[styles.buttonLabel,{color:disabled?THEMES.night.highlightActionDisabled:THEMES.night.highlightAction}]}>{text}</Text></Pressable>;
   if (!owner.ready) return <View style={styles.state}><ActivityIndicator color={THEMES.night.highlightAction} /><Text style={styles.detail}>Loading sign-in…</Text></View>;
-  if (!owner.uid) return <View style={styles.state}><Text style={styles.title}>Sign in to see your highlights</Text><Text style={styles.detail}>Your saved entries remain on this device.</Text></View>;
+  if (!owner.uid) return <View style={styles.state}><Text style={styles.title}>Sign in to see your highlights</Text></View>;
   if (!validOwner) return <View style={styles.state}><Text accessibilityRole="alert" style={styles.detail}>This list belongs to an earlier sign-in. Return to My Highlights to open the current account’s saved passages.</Text>{button('Back to highlights', () => navigation.goBack())}</View>;
   return <View style={styles.screen}>
     <View style={styles.screen} accessibilityElementsHidden={!!selected || !!editing || !!optionsItem} importantForAccessibility={selected || editing || optionsItem ? 'no-hide-descendants' : 'auto'}>
     <FlatList data={items} keyExtractor={item => item.id} initialNumToRender={6} maxToRenderPerBatch={6} windowSize={5}
       contentContainerStyle={styles.content} maintainVisibleContentPosition={{ minIndexForVisible: 0 }}
       ListHeaderComponent={<View style={styles.header}>
-        {!!readFailure && <View><Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded completely. Your saved data has been retained.</Text>{button('Retry reading highlights', refreshReadOnly, busy, 'Retry reading')}</View>}
-        {!!writeFailure && <View><Text accessibilityRole="alert" style={styles.detail}>{errorMessage(writeFailure.code)} Reading Retry does not replay this pending change.</Text>{button('Retry pending highlight change', () => run(retryPending), busy || loading, 'Retry pending change')}</View>}
-        {!!syncSummary && <Text accessibilityLiveRegion="polite" style={styles.detail}>{syncSummary}</Text>}
-        {!!synchronizationError && <View><Text accessibilityRole="alert" style={styles.detail}>{syncErrorText(synchronizationError)}</Text>{retrySync && button('Retry highlight synchronization', () => run(retrySync), busy || loading, 'Retry synchronization')}</View>}
+        {!!readFailure && <View><Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded.</Text>{button('Retry reading highlights', refreshReadOnly, busy, 'Try again')}</View>}
+        {!!writeFailure && <View><Text accessibilityRole="alert" style={styles.detail}>{errorMessage(writeFailure.code)}</Text>{button('Retry pending highlight change', () => run(retryPending), busy || loading, 'Retry save')}</View>}
+        {!!accountError && <Text accessibilityRole="alert" style={styles.detail}>{accountError}</Text>}
         {!!message && <Text accessibilityRole="alert" style={styles.detail}>{message}</Text>}
       </View>}
       ListEmptyComponent={<View style={styles.state}>{loading ? <><ActivityIndicator color={THEMES.night.highlightAction} /><Text style={styles.detail}>Loading highlights…</Text></> : error ? <Text style={styles.detail}>Retry reading to load this play’s saved entries.</Text> : <Text style={styles.detail}>No saved highlights in this play. Select a passage in the reader, then choose Highlight.</Text>}</View>}
@@ -105,11 +105,11 @@ export default function PlayHighlightsScreen({ route }) {
           onFullQuote={() => { setQuotation({ id: item.id, generation: owner.generation }); setRemoving(null); setActionError(null); }}
           onOptions={item.retainedDeletion ? undefined : () => setOptions({ id: item.id, generation: owner.generation })} />
         {item.syncConflict && <View>
-          <Text accessibilityRole="alert" style={styles.detail}>{item.syncDeletion ? 'The cloud has a confirmed deletion. This local quotation is retained until you choose to keep that deletion.'
-            : item.retainedDeletion ? 'Your local removal conflicts with a newer cloud highlight. Keep the cloud highlight to review it; you can then remove it again with confirmation.'
-              : 'This device and the cloud have different colors. Choose which color to keep.'}</Text>
-          {button((item.syncDeletion ? 'Keep cloud deletion ' : item.retainedDeletion ? 'Keep cloud highlight ' : 'Use cloud color ') + (index + 1), () => run(() => mutate('resolveConflict', item.id, 'use-cloud')), blocked)}
-          {!item.syncDeletion && !item.retainedDeletion && button('Reapply local color ' + (index + 1), () => run(() => mutate('resolveConflict', item.id, 'reapply-local')), blocked)}
+          <Text accessibilityRole="alert" style={styles.detail}>{item.syncDeletion ? 'This highlight was removed on another device. Keep the removal, or select the passage again to save a new highlight.'
+            : item.retainedDeletion ? 'This highlight changed on another device after you removed it. Restore it to review the change before removing it again.'
+              : 'This highlight has a different color on another device. Choose which color to keep.'}</Text>
+          {button((item.syncDeletion ? 'Keep removal ' : item.retainedDeletion ? 'Restore highlight ' : 'Use other color ') + (index + 1), () => run(() => mutate('resolveConflict', item.id, 'use-cloud')), blocked)}
+          {!item.syncDeletion && !item.retainedDeletion && button('Keep this color ' + (index + 1), () => run(() => mutate('resolveConflict', item.id, 'reapply-local')), blocked)}
         </View>}
       </View>} />
     </View>
@@ -118,8 +118,7 @@ export default function PlayHighlightsScreen({ route }) {
       onEdit={() => { const item = optionsItem; optionsFocus.cancel(); setOptions(null); if (item) edit(item); }}
       onRemove={() => { const item = optionsItem; optionsFocus.cancel(); setOptions(null); if (item) requestRemove(item); }} />
     <ReaderHighlightsModal visible={!!selected} fullQuotation items={selected ? [selected] : []} theme={THEMES.night} saving={busy || snapshot.saving}
-      synchronizationEnabled={synchronizationEnabled} syncNotice={syncSummary} syncError={synchronizationError ? syncErrorText(synchronizationError) : null}
-      onRetrySync={retrySync ? () => run(retrySync) : undefined} onResolveSync={(id, choice) => run(() => mutate('resolveConflict', id, choice))}
+      syncError={accountError} onResolveSync={(id, choice) => run(() => mutate('resolveConflict', id, choice))}
       error={message || (storageError ? errorMessage(storageError.code) : null)}
       retryLabel="Retry reading highlights" onRetry={readFailure ? refreshReadOnly : undefined}
       onRetryPending={writeFailure ? () => run(retryPending) : undefined}
@@ -128,7 +127,7 @@ export default function PlayHighlightsScreen({ route }) {
       onShow={() => show(selected)} onEdit={() => edit(selected)} onClose={close} onDismiss={focus.onDismiss} />
     <ReaderHighlightPicker visible={!!editing} snapshot={editing ? { selection: editing.record.selectionRef } : undefined} colorId={color} theme={THEMES.night}
       saving={busy || snapshot.saving} error={message || (storageError ? errorMessage(storageError.code) : null)} onColor={setColor}
-      notice={readFailure ? 'Storage could not be read. Cancel and choose Retry reading to check saved data without replaying a pending change.' : undefined}
+      notice={readFailure ? 'Highlights could not be loaded. Close this view and try again.' : undefined}
       onSave={saveColor} onClose={close} onDismiss={focus.onDismiss} onRetry={writeFailure ? () => run(retryPending, () => { setDraft(null); focus.restoreAfterClose(); }) : undefined} />
   </View>;
 }

@@ -39,7 +39,7 @@ export default function HighlightEntry({
         </Pressable>
       </View>
       {item.status === "unreadable" ? (
-        <Text style={[styles.quote, { color: theme.text }]}>This saved record is unavailable. It has been retained on this device.</Text>
+        <Text style={[styles.quote, { color: theme.text }]}>This saved highlight is unavailable.</Text>
       ) : (
         <Text style={[styles.quote, { color: theme.text }]} numberOfLines={fullQuotation ? undefined : 4} ellipsizeMode="tail"
           onTextLayout={fullQuotation ? undefined : event => {
@@ -52,7 +52,7 @@ export default function HighlightEntry({
       )}
       {!!item.detail && <Text style={[styles.detail, { color: theme.secondary }]}>{item.detail}</Text>}
       {!!item.colorId && <Text style={[styles.detail, { color: theme.secondary }]}>{HIGHLIGHT_PALETTE[item.colorId]?.label || "Unknown color"}</Text>}
-      {!!item.syncLabel && <Text style={[styles.detail, { color: theme.secondary }]}>{item.syncLabel}</Text>}
+      {!!item.syncLabel && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.highlightDanger }]}>{item.syncLabel}</Text>}
       {item.status === "unresolved" && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation belongs to a different text version or could not be resolved. It has not been moved or painted.</Text>}
       {overlap && <Text style={[styles.detail, { color: theme.secondary }]}>This quotation overlaps another saved highlight. Both records are retained; remove one to display the other.</Text>}
       <View style={styles.actions}>

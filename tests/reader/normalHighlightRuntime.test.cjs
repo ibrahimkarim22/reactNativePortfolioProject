@@ -125,3 +125,37 @@ test('normal overview keeps acknowledged create and delete counts while the meta
   const confirmedCreate=runtime.getSnapshot().works[0];await work.remove(made.record.id);await runtime.flush();await account.refreshReadOnly();assert.equal(account.getSnapshot().works.length,0);
   b.emitWorks('alice',[confirmedCreate]);await tick();await account.refreshReadOnly();assert.equal(account.getSnapshot().works.length,0);runtime.dispose();
 });
+
+test('normal runtime foreground restores access without replaying a failed local save',async()=>{
+  const f=storageFixture(),b=backend();let allowed=false;
+  b.transport.commit=async operation=>{b.calls.push(['commit',operation.uid,operation.workId,operation.operationId]);if(!allowed)throw Object.assign(new Error('denied'),{code:'unauthenticated'});return accepted(operation);};
+  const runtime=create(f.storage,durable,b.transport);await runtime.setOwner('alice');const work=await runtime.openWork(canonical);
+  const made=await work.create(ref(),'yellow');await runtime.flush();const operationId=b.calls.find(call=>call[0]==='commit')[3];
+  assert.equal(work.getSnapshot().syncSummary.failed,1);assert.equal(typeof runtime.foreground,'function');
+  allowed=true;await runtime.foreground();assert.equal(work.getSnapshot().syncSummary.synced,1);
+  assert.ok(b.calls.filter(call=>call[0]==='commit').every(call=>call[3]===operationId));
+  const set=f.storage.setItem;f.storage.setItem=async()=>{throw Error('disk');};await assert.rejects(work.recolor(made.record.id,'blue'),{code:'WRITE_FAILED'});
+  f.storage.setItem=set;const before=[...f.data.entries()];await runtime.foreground();
+  assert.deepEqual([...f.data.entries()],before);assert.equal(work.getSnapshot().records[0].colorId,'yellow');assert.equal(work.getSnapshot().writeBlocked,true);runtime.dispose();
+});
+
+test('normal singleton resumes automatic synchronization only when the app becomes active',async()=>{
+  const fs=require('node:fs'),vm=require('node:vm'),babel=require('@babel/core'),path=require('node:path');
+  const f=storageFixture(),b=backend();let allowed=false,onAppState;
+  b.transport.commit=async operation=>{b.calls.push(['commit',operation.uid,operation.workId,operation.operationId]);if(!allowed)throw Object.assign(new Error('access'),{code:'permission-denied'});return accepted(operation);};
+  const deps={
+    '@react-native-async-storage/async-storage':{__esModule:true,default:f.storage},
+    'react-native':{AppState:{addEventListener(type,callback){assert.equal(type,'change');onAppState=callback;return{remove(){}};}}},
+    './normalHighlightRuntime':{createNormalHighlightRuntime:load()},
+    './highlightProductionEnvironment':{PRODUCTION_HIGHLIGHT_SYNC:durable,createProductionHighlightEnvironment:()=>({}),createProductionHighlightSyncTransport:()=>b.transport},
+    './myHighlightsHandoff':{createMyHighlightsHandoff:()=>({})},
+    './useHighlightOwner':{highlightOwner:{getSnapshot:()=>({ready:true,uid:'alice'}),subscribe:()=>()=>{},acquire:()=>()=>{}}},
+    '../shared/localPlayService':{getLocalPlayEntry:id=>({play:{id}})},'../shared/contentText':{buildCanonicalDocument:()=>canonical},
+  };
+  const code=babel.transformSync(fs.readFileSync(path.resolve(__dirname,'../../reader/normalHighlightStore.js'),'utf8'),{babelrc:false,configFile:false,plugins:['@babel/plugin-transform-modules-commonjs']}).code;
+  const module={exports:{}};vm.runInNewContext('(function(require,module,exports){'+code+'\n})')((name)=>{if(!(name in deps))throw Error('Unexpected import '+name);return deps[name];},module,module.exports);
+  const runtime=module.exports.normalHighlightRuntime;await runtime.flush();const work=await runtime.openWork(canonical);await work.create(ref(),'yellow');await runtime.flush();
+  assert.equal(work.getSnapshot().syncSummary.failed,1);assert.equal(typeof onAppState,'function');allowed=true;
+  onAppState('background');onAppState('inactive');await tick();assert.equal(work.getSnapshot().syncSummary.failed,1);
+  onAppState('active');await tick();await runtime.flush();assert.equal(work.getSnapshot().syncSummary.synced,1);assert.equal(b.calls.filter(call=>call[0]==='commit').length,2);runtime.dispose();
+});

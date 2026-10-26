@@ -87,10 +87,10 @@ test('picker omits repetitive storage prose, reports safe errors and keeps quota
   assert.equal(nodes(tree, 'iframe').length, 0);
 });
 
-test('isolated synchronization picker describes pending local saving without claiming cloud confirmation', () => {
+test('picker ignores obsolete storage messaging and never claims cloud confirmation', () => {
   const Picker = load();
   const tree = Picker({ visible: true, snapshot, storageNotice: 'Emulator test only. Save confirms this device first; synchronization may remain pending.' });
-  assert.match(texts(tree), /Emulator test only/);
-  assert.match(texts(tree), /synchronization may remain pending/);
+  assert.doesNotMatch(texts(tree), /Emulator test only/);
+  assert.doesNotMatch(texts(tree), /synchronization may remain pending/);
   assert.doesNotMatch(texts(tree), /Highlights are not synced/);
 });

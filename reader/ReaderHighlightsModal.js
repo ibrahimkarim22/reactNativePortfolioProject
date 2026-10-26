@@ -10,8 +10,7 @@ export default function ReaderHighlightsModal({
   removingId, onRequestRemove, onCancelRemove, onConfirmRemove,
   onShow, onEdit, onRetry, onClose, onDismiss, fullQuotation = false,
   retryLabel = "Retry highlights", onRetryPending,
-  storageNotice,
-  syncNotice, syncError, onRetrySync, onResolveSync, synchronizationEnabled = !!onRetrySync,
+  syncError, onResolveSync,
 }) {
   const heading = useRef(null);
   const insets = useSafeAreaInsets();
@@ -82,23 +81,21 @@ export default function ReaderHighlightsModal({
         onFullQuote={exact || confirming ? undefined : openQuote} onTrigger={setTrigger} />
       {!!item.syncConflict && <View>
         <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{item.syncDeletion
-          ? "This highlight was removed on another device. Your local quotation is retained until you keep that deletion. Saving it again requires selecting the passage and confirming a new highlight."
-          : item.retainedDeletion ? "Your local removal conflicts with a newer cloud highlight. Keep the cloud highlight to review it; you can then remove it again with confirmation."
-            : "The cloud color differs. Your local choice is retained until you decide."}</Text>
-        {button((item.syncDeletion ? "Keep cloud deletion " : item.retainedDeletion ? "Keep cloud highlight " : "Use cloud color ") + (index + 1), () => onResolveSync?.(item.id, "use-cloud"))}
-        {!item.syncDeletion && !item.retainedDeletion && button("Reapply local color " + (index + 1), () => onResolveSync?.(item.id, "reapply-local"))}
+          ? "This highlight was removed on another device. Keep the removal, or select the passage again to save a new highlight."
+          : item.retainedDeletion ? "This highlight changed on another device after you removed it. Restore it to review the change before removing it again."
+            : "This highlight has a different color on another device. Choose which color to keep."}</Text>
+        {button((item.syncDeletion ? "Keep removal " : item.retainedDeletion ? "Restore highlight " : "Use other color ") + (index + 1), () => onResolveSync?.(item.id, "use-cloud"))}
+        {!item.syncDeletion && !item.retainedDeletion && button("Keep this color " + (index + 1), () => onResolveSync?.(item.id, "reapply-local"))}
       </View>}
       {confirming && <View>
-        <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{synchronizationEnabled ? "Remove this highlight locally and queue its deletion for synchronization?" : "Remove this highlight from this device? This cannot be undone."}</Text>
+        <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>Remove this highlight? This cannot be undone.</Text>
         {button("Cancel removal", onCancelRemove)}
         {button("Confirm remove highlight", onConfirmRemove, !!error)}
       </View>}
     </View>;
   };
   const renderStatus = () => <>
-    {!!syncNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{syncNotice}</Text>}
     {!!syncError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{syncError}</Text>}
-    {!!onRetrySync && button("Retry synchronization", onRetrySync)}
     {loading && <ActivityIndicator accessibilityLabel="Loading highlights" color={theme.highlightAction} />}
     {!!error && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{error}</Text>}
     {!!renderError && <Text accessibilityRole="alert" style={[styles.detail, { color: theme.text }]}>{renderError}</Text>}
@@ -126,7 +123,6 @@ export default function ReaderHighlightsModal({
           <ScrollView key="highlight-list" style={[styles.scroll, expandedItem && styles.hidden]}
             accessibilityElementsHidden={!!expandedItem} importantForAccessibility={expandedItem ? "no-hide-descendants" : "auto"}
             contentContainerStyle={styles.content}>
-            {!!storageNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>}
             {renderStatus()}
             {!loading && !error && !items.length && <Text style={[styles.detail, { color: theme.secondary }]}>Select a passage in the play, then choose Highlight to save it here.</Text>}
             {items.map((item, index) => renderEntry(item, index, fullQuotation))}

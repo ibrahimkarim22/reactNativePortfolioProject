@@ -464,6 +464,22 @@ test('retired-owner acknowledgement write rejection cannot block a later owner h
   assert.equal(fixture.store.getSnapshot().error, null); assert.equal(fixture.store.pendingOperations().length, 1);
 });
 
+test('automatic access recovery clears only durable access failures and preserves operation identities', async () => {
+  const h = setup(), denied = await h.store.create(ref(), 'yellow'), invalid = await h.store.create(ref(17, 22), 'blue');
+  const operations = h.store.pendingOperations();
+  await h.store.syncFailed(operations[0].operationId, { code: 'permission-denied' });
+  await h.store.syncFailed(operations[1].operationId, { code: 'SYNC_COUNT_LIMIT' });
+  assert.equal(typeof h.store.retrySyncAccess, 'function');
+  await h.store.retrySyncAccess();
+  assert.equal(h.store.getSnapshot().syncById[denied.record.id].status, 'pending');
+  assert.equal(h.store.pendingOperations()[0].operationId, operations[0].operationId);
+  assert.equal(h.store.getSnapshot().syncById[invalid.record.id].status, 'failed');
+  const restored = setup(Object.fromEntries(h.data)); await restored.store.hydrate();
+  assert.equal(restored.store.pendingOperations()[0].operationId, operations[0].operationId);
+  const before = [...h.data.entries()]; await assert.rejects(h.store.retrySyncAccess({ isCurrent: () => false }), { code: 'CANCELLED' });
+  assert.deepEqual([...h.data.entries()], before);
+});
+
 test('deleting an unsent recreation retains its generation-advancing prerequisite before the deletion', async () => {
   const fixture = setup(), created = await fixture.store.create(ref(), 'yellow'), first = fixture.store.pendingOperations()[0];
   await fixture.store.acknowledge(first.operationId, accepted(first));

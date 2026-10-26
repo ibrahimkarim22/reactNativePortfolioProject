@@ -6,7 +6,9 @@ function catalogueRows(works, plays) {
     ...work,
     title: titles.get(work.workId) || 'Unavailable play',
     available: titles.has(work.workId),
-    countLabel: work.countDescription || `${work.count} saved ${work.count === 1 ? 'entry' : 'entries'}`,
+    // Different pending measurements cannot establish a single exact count.
+    // Keep those measurements internally without turning storage into a choice.
+    countLabel: work.countDescription ? 'Saved passages' : `${work.count} saved ${work.count === 1 ? 'entry' : 'entries'}`,
   })).sort((a, b) => a.title.localeCompare(b.title) || a.workKey.localeCompare(b.workKey));
 }
 

@@ -119,7 +119,7 @@ test('normal app offline restart reuses durable operations and different authent
   const reopened = restarted.runtime.manager.forWork({ uid: a.uid, canonical: hamlet }); await reopened.hydrate();
   assert.equal(reopened.pendingOperations()[0].operationId, operation.operationId);
   assert.equal(reopened.getSnapshot().records[0].id, created.record.id);
-  await a.environment.setNetworkEnabled(true); await restarted.runtime.retry(); await restarted.runtime.flush();
+  await a.environment.setNetworkEnabled(true); await restarted.runtime.foreground(); await restarted.runtime.flush();
   await waitFor(() => reopened.pendingOperations().length === 0 && bStore.getSnapshot().records[0]?.colorId === 'blue', 'reconnected normal runtime acknowledges same operation');
   const sdk = a.environment.sdk;
   const receipt = await sdk.getDocFromServer(sdk.doc(a.environment.db, 'users', a.uid, 'highlightWorks', 'hamlet', 'operations', operation.operationId));

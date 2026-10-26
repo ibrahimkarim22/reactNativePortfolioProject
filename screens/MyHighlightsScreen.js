@@ -9,10 +9,10 @@ export default function MyHighlightsScreen() {
   const navigation = useNavigation();
   const { owner, rows, loading, error, refreshReadOnly, storageStatus } = useMyHighlightsCatalogue();
   if (!owner.ready) return <View style={styles.state}><ActivityIndicator color={THEMES.night.highlightAction} /><Text style={styles.detail}>Loading sign-in…</Text></View>;
-  if (!owner.uid) return <View style={styles.state}><Text accessibilityRole="header" style={styles.title}>Sign in to see your highlights</Text><Text style={styles.detail}>Your saved highlights remain on this device when you sign out.</Text></View>;
+  if (!owner.uid) return <View style={styles.state}><Text accessibilityRole="header" style={styles.title}>Sign in to see your highlights</Text></View>;
   const empty = <View style={styles.state}>
     {loading ? <><ActivityIndicator color={THEMES.night.highlightAction} /><Text style={styles.detail}>Loading saved highlights…</Text></> :
-      error ? <Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded. Your saved data has been retained.</Text> :
+      error ? <Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded.</Text> :
         <><Text style={styles.title}>Your passages, together</Text><Text style={styles.detail}>Select a passage in a play, then choose Highlight. Saved passages will appear here.</Text></>}
   </View>;
   return <View style={styles.screen}>
@@ -20,15 +20,15 @@ export default function MyHighlightsScreen() {
       contentContainerStyle={styles.content} ListEmptyComponent={empty}
       ListHeaderComponent={<View style={styles.header}>
         <HighlightStorageStatus theme={THEMES.night} {...storageStatus} />
-        {!!error && <View><Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded completely. Retry reading without changing saved data.</Text><Pressable accessibilityRole="button" accessibilityLabel="Retry reading highlights" onPress={refreshReadOnly} style={({pressed})=>[styles.button,pressed&&styles.pressed]}><Text style={styles.buttonLabel}>Retry reading</Text></Pressable></View>}
+        {!!error && <View><Text accessibilityRole="alert" style={styles.detail}>Highlights could not be loaded.</Text><Pressable accessibilityRole="button" accessibilityLabel="Retry reading highlights" onPress={refreshReadOnly} style={({pressed})=>[styles.button,pressed&&styles.pressed]}><Text style={styles.buttonLabel}>Try again</Text></Pressable></View>}
       </View>}
       renderItem={({ item }) => <Pressable accessibilityRole="button" accessibilityLabel={`${item.title}, ${item.countLabel}${item.available ? '' : ', unavailable play'}`}
         accessibilityHint="Open saved passages for this play" style={({ pressed }) => [styles.card, pressed && styles.pressed]}
         onPress={() => navigation.push('PlayHighlights', { workKey: item.workKey, ownerGeneration: owner.generation })}>
         <Text style={styles.playTitle}>{item.title}</Text>
         <Text style={styles.count}>{item.countLabel}</Text>
-        {!item.available && <Text style={styles.detail}>Saved entries are retained. Their play is unavailable in the current local library.</Text>}
-        {!!(item.readError || item.error) && <Text style={styles.detail}>Storage needs attention. Open this play for details.</Text>}
+        {!item.available && <Text style={styles.detail}>This play is unavailable.</Text>}
+        {!!(item.readError || item.error) && <Text style={styles.detail}>Some highlights could not be loaded. Open this play for details.</Text>}
         <Text style={styles.open}>View passages ›</Text>
       </Pressable>} />
   </View>;

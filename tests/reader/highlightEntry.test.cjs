@@ -66,7 +66,8 @@ test('native wrapping reveals full-quote access, reflow may hide it and an obsol
 test('unavailable entries retain options without a Show action, while saving and painting cannot dispatch disabled controls', () => {
   const h = host(), calls = [];
   let tree = h.render({ item: { id: 'broken', status: 'unreadable' }, onShow: () => calls.push('show') });
-  assert.match(text(tree), /retained/); assert.ok(!nodes(tree, 'Pressable').some(node => /Show passage/.test(node.props.accessibilityLabel)));
+  assert.match(text(tree), /unavailable/); assert.ok(!nodes(tree, 'Pressable').some(node => /Show passage/.test(node.props.accessibilityLabel)));
+  assert.doesNotMatch(text(tree), /on this device|synced|backed up/);
   for (const props of [{ saving: true }, { disabled: true }, { painting: true }, { item: { ...item, status: 'unresolved' } }]) {
     tree = h.render({ item, onShow: () => calls.push('show'), ...props });
     const show = nodes(tree, 'Pressable').find(node => /Show passage/.test(node.props.accessibilityLabel));

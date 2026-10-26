@@ -24,21 +24,23 @@ function host() {
   return { render(props = {}) { cursor = 0; return module.exports.default({ theme: THEMES.night, ...props }); }, get restored() { return restored; } };
 }
 
-test('local status has no storage-warning popup or information action, including obsolete caller information', () => {
+test('routine storage and synchronization information never interrupts the overview', () => {
   const h = host();
   for (const props of [{}, { information: 'Saved on this device. Highlights are not synced or guaranteed backed up.' }]) {
     const tree = h.render(props);
-    assert.equal(text(tree), 'Saved on this device');
+    assert.equal(tree, null);
     assert.equal(nodes(tree, 'Modal').length, 0);
     assert.equal(nodes(tree, 'Pressable').length, 0);
     assert.doesNotMatch(text(tree), /not synced|backed up|Highlight storage/);
   }
 });
 
-test('status accepts actual state and explicit failure Retry without inventing a cloud confirmation', () => {
+test('genuine failure remains accessible without a synchronization control or false confirmation', () => {
   const h = host(); let retries = 0;
   let tree = h.render({ label: 'Saved on this device · Waiting to sync', error: 'Synchronization failed.', onRetry: () => retries++ });
-  assert.match(text(tree), /Waiting to sync/); assert.match(text(tree), /Synchronization failed/);
-  nodes(tree, 'Pressable').find(node => node.props.accessibilityLabel === 'Retry highlight synchronization').props.onPress(); assert.equal(retries, 1);
+  assert.doesNotMatch(text(tree), /Waiting to sync|Saved on this device/); assert.match(text(tree), /Synchronization failed/);
+  assert.equal(nodes(tree, 'Pressable').length, 0);
+  assert.equal(retries, 0);
+  assert.ok(nodes(tree, 'Text').some(node => node.props.accessibilityRole === 'alert'));
   tree = h.render({ label: null }); assert.equal(tree, null, 'confirmed quiet state is controlled by the caller');
 });

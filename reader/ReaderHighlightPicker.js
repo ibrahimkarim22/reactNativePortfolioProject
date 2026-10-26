@@ -8,7 +8,6 @@ export default function ReaderHighlightPicker({
   visible, snapshot, colorId = "yellow", theme = THEMES.paper,
   saving = false, error, onColor, onSave, onClose, onDismiss,
   actionLabel = "Save", notice, onRetry,
-  storageNotice,
 }) {
   const heading = useRef(null);
   const insets = useSafeAreaInsets();
@@ -24,7 +23,6 @@ export default function ReaderHighlightPicker({
         <View accessibilityViewIsModal onAccessibilityEscape={close} style={[styles.panel, { backgroundColor: theme.panel, borderColor: theme.border, paddingBottom: Math.max(16, insets.bottom) }]}>
           <Text ref={heading} accessible accessibilityRole="header" style={[styles.heading, { color: theme.text }]}>Highlight passage</Text>
           <ScrollView style={styles.body} nestedScrollEnabled contentContainerStyle={styles.bodyContent}>
-          {!!storageNotice && <Text style={[styles.detail, { color: theme.secondary }]}>{storageNotice}</Text>}
           {!!notice && <Text style={[styles.detail, { color: theme.secondary }]}>{notice}</Text>}
           <ScrollView style={styles.quotation} nestedScrollEnabled contentContainerStyle={styles.quotationContent}>
             <Text style={[styles.quoteText, { color: theme.text }]}>{snapshot?.selection?.exact || ""}</Text>

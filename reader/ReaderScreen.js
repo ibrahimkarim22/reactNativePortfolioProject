@@ -52,7 +52,8 @@ export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
   const readerNavigation = useReaderNavigation(result);
   const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready, highlightRuntime);
   const passageOpening = useMyHighlightsReader({ request: highlightRuntime ? null : openHighlight, document: result.document, session: highlights.session });
-  const syncStorageNotice = highlights.synchronizationMode === "emulator" ? "Isolated emulator test. Saved locally first; check synchronization status below. Production synchronization is disabled." : undefined;
+  const highlightAccountError = highlights.synchronizationEnabled
+    ? syncErrorText(highlights.syncCoordinatorError) || syncSummaryText(highlights.syncSummary) : null;
   const [highlightState, setHighlightState] = useState("none");
   const [surfaceFailure, setSurfaceFailure] = useState(false);
   const [highlightDraft, setHighlightDraft] = useState(null);
@@ -226,12 +227,6 @@ export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
     try { await highlights.session.resolveSyncConflict(id, choice, scope); }
     catch (error) { if (currentScope(scope)) setHighlightError(syncErrorText(error)); }
   };
-  const retryHighlightSync = async () => {
-    const scope = highlightScope;
-    if (!currentScope(scope) || highlightSaving) return;
-    try { await highlights.retrySync?.(); }
-    catch (error) { if (currentScope(scope)) setHighlightError(syncErrorText(error)); }
-  };
   useEffect(() => {
     highlightOperation.current++;
     setHighlightSaving(false); setHighlightError(null); setHighlightDraft(null); setHighlightListScope(null); setRemovingHighlight(null);
@@ -378,14 +373,10 @@ export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
       </View>
       <ReaderSelectionVerifier surfaceRef={readerNavigation.surfaceRef} documentId={result.document?.identity.documentId} theme={theme} />
       <ReaderHighlightPicker visible={!!activeDraft} snapshot={activeDraft?.snapshot} colorId={highlightColor} theme={theme}
-        storageNotice={syncStorageNotice}
         onColor={setHighlightColor} onClose={closeHighlight} onSave={saveHighlight} saving={highlightSaving || highlights.saving}
         error={highlightError || highlightMessage(highlights.error)} onRetry={highlights.error ? retryHighlights : undefined} onDismiss={highlightFocus.onDismiss} />
       <ReaderHighlightsModal visible={highlightsOpen} items={highlightsOpen ? highlightItems : []} theme={theme}
-        storageNotice={syncStorageNotice} synchronizationEnabled={highlights.synchronizationEnabled}
-        syncNotice={highlights.synchronizationEnabled ? syncSummaryText(highlights.syncSummary, { running: highlights.syncRunning }) : undefined}
-        syncError={highlights.synchronizationEnabled ? syncErrorText(highlights.syncCoordinatorError) : undefined}
-        onRetrySync={highlights.synchronizationEnabled && (highlights.syncCoordinatorError || highlights.syncSummary?.failed || highlights.syncSummary?.pending && !highlights.syncRunning) ? retryHighlightSync : undefined} onResolveSync={resolveHighlightSync}
+        syncError={highlightAccountError} onResolveSync={resolveHighlightSync}
         loading={highlights.loading} saving={highlightSaving || highlights.saving} painting={highlights.rendering} error={highlightsOpen ? highlightError || highlightMessage(highlights.error) : null}
         renderError={highlightsOpen ? highlightMessage(highlights.renderError) : null} onRetry={retryHighlights}
         removingId={removingHighlight} onRequestRemove={setRemovingHighlight} onCancelRemove={() => { abandonDraft(); setRemovingHighlight(null); setHighlightError(null); }} onConfirmRemove={removeHighlight}

@@ -332,6 +332,25 @@ test('highlight panel exposes only the current owner and keeps the same mounted 
   assert.ok(nodes(tree, 'View').some(n => n.props.accessibilityLabel === 'Preparing account highlights'));
 });
 
+test('reader keeps automatic account saving out of quotation controls without hiding genuine failures', async () => {
+  const screen = await host(); let tree = screen.render();
+  const document = nodes(tree, 'ReaderSurface')[0].props.document;
+  screen.setHighlights({ synchronizationEnabled: true, synchronizationMode: 'production', syncSummary: { pending: 1 }, syncRunning: false });
+  nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
+  tree = screen.render();
+  let panel = nodes(tree, 'ReaderHighlightsModal')[0];
+  assert.equal(panel.props.visible, true);
+  assert.equal(panel.props.onRetrySync, undefined);
+  assert.equal(panel.props.storageNotice, undefined);
+  assert.equal(panel.props.syncNotice, undefined);
+  assert.ok(!panel.props.syncError);
+  screen.setHighlights({ syncCoordinatorError: { code: 'permission-denied', retryable: false }, syncSummary: { failed: 1 } });
+  tree = screen.render(); panel = nodes(tree, 'ReaderHighlightsModal')[0];
+  assert.match(panel.props.syncError, /could not be saved to your account/);
+  assert.equal(panel.props.onRetrySync, undefined);
+  assert.equal(nodes(tree, 'ReaderSurface')[0].props.document, document);
+});
+
 test('confirmed Remove uses the original scope and Show passage receives the actual record', async () => {
   const screen = await host(); let tree = screen.render();
   const selectionRef = require('../../shared/contentText').createSelection(nodes(tree, 'ReaderSurface')[0].props.document.canonical, 1, 8);
@@ -429,8 +448,8 @@ test('isolated sync status reaches the existing panel and conflict decisions ret
   screen.setHighlights({ records: [record], synchronizationEnabled: true, synchronizationMode: 'emulator', syncById: { saved: { status: 'conflict' } }, syncSummary: { pending: 1, deleted: 1 } });
   tree = screen.render(); nodes(tree, 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
   const panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
-  assert.match(panel.props.storageNotice, /Production synchronization is disabled/);
-  assert.equal(panel.props.items[0].syncLabel, 'Saved on this device · Changes need review');
+  assert.equal(panel.props.storageNotice, undefined);
+  assert.equal(panel.props.items[0].syncLabel, '');
   assert.equal(panel.props.items[0].syncConflict, true);
   await panel.props.onResolveSync('saved', 'use-cloud');
   assert.deepEqual(screen.highlightCalls, [['resolveSyncConflict', 'saved', 'use-cloud', screen.highlightSnapshot.scope]]);
@@ -463,17 +482,17 @@ test('normal sync presentation is quiet after acknowledgement and keeps isolated
   let panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
   assert.equal(panel.props.storageNotice, undefined);
   assert.equal(panel.props.items[0].syncLabel, '');
-  assert.equal(panel.props.syncNotice, '');
+  assert.equal(panel.props.syncNotice, undefined);
   assert.equal(panel.props.onRetrySync, undefined, 'quiet healthy state has no unnecessary Retry');
   screen.setHighlights({ synchronizationMode: 'emulator' });
   panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
-  assert.match(panel.props.storageNotice, /Isolated emulator/);
+  assert.equal(panel.props.storageNotice, undefined);
   assert.match(panel.props.items[0].syncLabel, /isolated test backend/);
   screen.setHighlights({ synchronizationMode: 'production', syncById: { confirmed: { status: 'pending' } },
     syncSummary: { pending: 1 }, syncRunning: true });
   panel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
-  assert.equal(panel.props.syncNotice, 'Syncing…');
-  assert.equal(panel.props.items[0].syncLabel, 'Syncing…');
+  assert.equal(panel.props.syncNotice, undefined);
+  assert.equal(panel.props.items[0].syncLabel, '');
 });
 
 test('reader management exposes a retained deletion conflict without treating it as an active painted highlight', async () => {
@@ -500,15 +519,16 @@ test('account-highlight recovery uses the same neutral management token', async 
   assert.equal(nodes(retry, 'Text')[0].props.style.color, THEMES.paper.highlightAction);
 });
 
-test('an old account panel cannot retry synchronization for a newer account', async () => {
+test('neither a current nor a retired account panel can trigger synchronization', async () => {
   const screen = await host(); screen.render(); let retries = 0;
   screen.setHighlights({ synchronizationEnabled: true, syncCoordinatorError: { code: 'unavailable' }, retrySync: async () => { retries++; } });
   nodes(screen.render(), 'ReaderHighlightControl')[0].props.onList(screen.highlightSnapshot.scope);
   const oldPanel = nodes(screen.render(), 'ReaderHighlightsModal')[0];
-  assert.equal(typeof oldPanel.props.onRetrySync, 'function');
-  await oldPanel.props.onRetrySync(); assert.equal(retries, 1);
+  assert.equal(oldPanel.props.onRetrySync, undefined);
   screen.setHighlights({ scope: { ...screen.highlightSnapshot.scope, uid: 'different-account', ownerGeneration: 2 } }); screen.render();
-  await oldPanel.props.onRetrySync(); assert.equal(retries, 1, 'retired panel activation must not retry the new owner queue');
+  assert.equal(oldPanel.props.onRetrySync, undefined);
+  assert.equal(nodes(screen.render(), 'ReaderHighlightsModal')[0].props.visible, false);
+  assert.equal(retries, 0, 'retired reading controls cannot operate the new owner queue');
 });
 
 async function recreationPrompt() {

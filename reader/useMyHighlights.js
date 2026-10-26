@@ -61,9 +61,7 @@ function useSynchronization(owner) {
   const syncRunning = current && !!state.running;
   const syncPaused = enabled && !normalHighlightRuntime.enabled;
   const storageStatus = !enabled ? {} : {
-    label: syncPaused ? 'Saved on this device' : syncRunning ? 'Syncing\u2026' : state.pending ? 'Saved on this device \u00b7 Waiting to sync' : null,
     error: synchronizationError ? syncErrorText(synchronizationError) : null,
-    onRetry: synchronizationError && !syncPaused ? retrySync : undefined,
   };
   return { synchronizationEnabled: enabled, synchronizationMode: enabled ? 'production' : 'local', synchronizationError,
     syncRunning, syncPaused, retrySync: enabled && !syncPaused ? retrySync : undefined, storageStatus };

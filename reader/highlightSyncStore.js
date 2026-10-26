@@ -403,6 +403,18 @@ function createHighlightSyncStoreManagerForNamespace(storage, { namespace, makeI
       hydrate: options => enqueue(async () => { await ensureLoaded(options); return view.snapshot; }),
       refreshReadOnly: options => enqueue(async () => { await load(options, true); return view.snapshot; }),
       create, recolor, remove, pendingOperations, acknowledge, mergeRemote, syncFailed, resolveConflict, recreate,
+      retrySyncAccess: options => enqueue(async () => {
+        current(options);
+        // Automatic recovery may retry a confirmed journal operation, never a
+        // failed local gesture or raw retirement awaiting explicit interaction.
+        if (!shared.loaded || shared.blocked || shared.failedIntent || shared.rawFailedIntent) return view.snapshot;
+        for (const [key, envelope] of validEnvelopes()) {
+          if (!envelope.conflict && ['permission-denied', 'unauthenticated'].includes(envelope.syncError?.code)) {
+            await persist(key, { ...envelope, syncError: null }, options, { retryIntent: false });
+          }
+        }
+        return view.snapshot;
+      }),
       retry: options => enqueue(async () => {
         const intent = shared.failedIntent, rawIntent = shared.rawFailedIntent;
         await load(options, !!(intent || rawIntent));

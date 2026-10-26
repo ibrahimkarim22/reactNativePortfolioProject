@@ -132,12 +132,30 @@ test('normal overview passes actual synchronization status without repeating loc
   assert.equal(props.label,'Syncing');assert.equal(props.error,null);
 });
 
+test('play detail never turns a healthy quotation into a synchronization action', () => {
+  const item = { id: 'a', quotation: 'Exact saved passage.', colorId: 'sage', status: 'resolved', record: { id: 'a', revision: 1 } };
+  const state = { owner, validOwner: true, play: { name: 'Hamlet' }, workId: 'hamlet', items: [item],
+    snapshot: { saving: false, error: null }, synchronizationEnabled: true,
+    syncSummary: '', synchronizationError: null, retrySync() { throw new Error('Quotation reading must not retry synchronization'); }, isCurrent: () => true };
+  const h = host('PlayHighlightsScreen', state);
+  let list = nodes(h.render(), 'FlatList')[0];
+  nodes(list.props.renderItem({ item, index: 0 }), 'HighlightEntry')[0].props.onFullQuote();
+  let modal = nodes(h.render(), 'ReaderHighlightsModal')[0];
+  assert.equal(modal.props.visible, true);
+  assert.equal(modal.props.onRetrySync, undefined);
+  assert.equal(modal.props.items[0].quotation, item.quotation);
+  state.synchronizationError = { code: 'permission-denied', retryable: false };
+  modal = nodes(h.render(), 'ReaderHighlightsModal')[0];
+  assert.match(modal.props.syncError, /could not be saved/);
+  assert.equal(modal.props.onRetrySync, undefined);
+});
+
 test('detail exposes deletion conflict decisions through the existing mutation and full-quote handlers',async()=>{
   const calls=[];const item={id:'a',quotation:'Exact retained quote',locationLabel:'Act I',colorId:'blue',status:'conflict',syncConflict:true,retainedDeletion:true,record:{id:'a',revision:1}};
   const state={owner,validOwner:true,play:{name:'Hamlet'},workId:'hamlet',items:[item],loading:false,error:null,snapshot:{saving:false,error:null},isCurrent:()=>true,mutate:async(...args)=>calls.push(args),synchronizationEnabled:true};
   const h=host('PlayHighlightsScreen',state);const card=nodes(h.render(),'FlatList')[0].props.renderItem({item,index:0});
   assert.equal(nodes(card,'HighlightEntry')[0].props.onOptions,undefined);
-  assert.match(texts(card),/local removal/);const keep=nodes(card,'Pressable').find(node=>node.props.accessibilityLabel==='Keep cloud highlight 1');assert.ok(keep);await keep.props.onPress();
+  assert.match(texts(card),/after you removed it/);const keep=nodes(card,'Pressable').find(node=>node.props.accessibilityLabel==='Restore highlight 1');assert.ok(keep);await keep.props.onPress();
   assert.deepEqual(calls,[['resolveConflict','a','use-cloud']]);
-  nodes(card,'HighlightEntry')[0].props.onFullQuote('a');const modal=nodes(h.render(),'ReaderHighlightsModal')[0];assert.equal(modal.props.synchronizationEnabled,true);assert.equal(typeof modal.props.onResolveSync,'function');
+  nodes(card,'HighlightEntry')[0].props.onFullQuote('a');const modal=nodes(h.render(),'ReaderHighlightsModal')[0];assert.equal(modal.props.onRetrySync,undefined);assert.equal(typeof modal.props.onResolveSync,'function');
 });

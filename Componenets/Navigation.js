@@ -11,6 +11,8 @@ import QuizScreen from "../screens/QuizScreen";
 import Folger from "../screens/FolgerAPITest";
 import FreeFolger from "../screens/Folger";
 import ReadFolger from "../screens/Read";
+import MyHighlightsScreen from "../screens/MyHighlightsScreen";
+import PlayHighlightsScreen from "../screens/PlayHighlightsScreen";
 import MITFullPlayScreen from "../screens/MITFullPlayScreen";
 import CourseScreen from "../screens/CourseScreen";
 import AboutScreen from "../screens/AboutScreen";
@@ -74,6 +76,12 @@ const drawerItems = [
     label: "Performances",
     description: "Stage and screen",
     icon: faStar,
+  },
+  {
+    name: "MyHighlights",
+    label: "My Highlights",
+    description: "Your saved passages",
+    icon: faLightbulb,
   },
   {
     name: "HowTo",
@@ -221,7 +229,6 @@ const Main = () => {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(FIREBASE_AUTH, (user) => {
-      console.log("user", user);
       if (user) {
         setUser(user);
       } else {
@@ -319,6 +326,11 @@ const Main = () => {
               />
             ),
           }}
+        />
+        <Drawer.Screen
+          name="MyHighlights"
+          component={MyHighlightsScreen}
+          options={{ title: "My Highlights", drawerLabelStyle: { color: "white" } }}
         />
         <Drawer.Screen
           name="HowTo"
@@ -472,6 +484,11 @@ const Stacks = () => {
           name="ReadFolger"
           component={ReadFolger}
           options={{ headerShown: true }}
+        />
+        <Stack.Screen
+          name="PlayHighlights"
+          component={PlayHighlightsScreen}
+          options={{ title: "Saved highlights", headerShown: true }}
         />
         <Stack.Screen
           name="Synopsis"

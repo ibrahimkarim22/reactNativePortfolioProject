@@ -36,6 +36,17 @@ function harness(options = {}) {
   return { window, document, styles, messages, loads, registeredFaces, handlers, frames, async flush() { for (let i = 0; i < 8; i += 1) await Promise.resolve(); } };
 }
 
+test('actual reading gestures report cancellation intent while app-owned layout restoration does not', async () => {
+  const h = harness();
+  assert.equal(h.messages.filter(message => message.type === 'interaction').length, 0);
+  h.handlers.touchstart(); h.handlers.keydown();
+  h.window.scrollY = 40; h.handlers.scroll();
+  assert.deepEqual(h.messages.filter(message => message.type === 'interaction').map(message => message.interactionSeq), [1, 2, 3]);
+  await h.window.BardReader.applyAppearance({ ...identity, requestId: 1, preferences, fontScale: 1 });
+  h.handlers.scroll();
+  assert.equal(h.messages.filter(message => message.type === 'interaction').length, 3);
+});
+
 test('runtime scopes appearance to identity, preserves the visible text point and applies font scale once', async () => {
   const h = harness();
   assert.equal(h.messages[0].type, 'ready');

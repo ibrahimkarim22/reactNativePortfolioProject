@@ -1,4 +1,7 @@
 const { FONTS, THEMES, LINE_SPACING } = require('./readerConstants');
+const { resolveSectionReference } = require('../shared/contentText');
+const { parseSelectionMessage } = require('./readerSelectionProtocol');
+const { parseHighlightMessage } = require('./readerHighlightProtocol');
 
 const IDENTITY_FIELDS = ['documentId', 'workId', 'contentVersion', 'canonicalTextVersion'];
 const MAX_MESSAGE_LENGTH = 8192;
@@ -16,12 +19,28 @@ function validDiagnostics(value) {
   return Object.keys(value).every(key => allowed.includes(key) && Number.isFinite(value[key]) && Math.abs(value[key]) <= 1e9);
 }
 
-function parseReaderMessage(raw, identity) {
-  if (!isIdentity(identity) || typeof raw !== 'string' || raw.length === 0 || raw.length > MAX_MESSAGE_LENGTH) return null;
+function parseReaderMessage(raw, identity, canonical) {
+  if (!isIdentity(identity) || typeof raw !== 'string' || raw.length === 0) return null;
+  // Only a validated captured quotation may use the larger response envelope.
+  if (raw.length > MAX_MESSAGE_LENGTH) return parseSelectionMessage(raw, identity, canonical);
   let message;
   try { message = JSON.parse(raw); } catch (_) { return null; }
   if (!message || typeof message !== 'object' || Array.isArray(message)
       || !IDENTITY_FIELDS.every(key => message[key] === identity[key])) return null;
+  if (message.type === 'selectionChange' || message.type === 'selectionCapture') return parseSelectionMessage(raw, identity, canonical);
+  if (message.type === 'highlightsApplied' || message.type === 'highlightShown') return parseHighlightMessage(raw, identity);
+  if (message.type === 'interaction') {
+    const allowed = [...IDENTITY_FIELDS, 'type', 'interactionSeq'];
+    return Object.keys(message).every(key => allowed.includes(key)) && Number.isSafeInteger(message.interactionSeq) && message.interactionSeq > 0 ? message : null;
+  }
+  if (message.type === 'location' || message.type === 'jumped') {
+    const sequence = message.type === 'location' ? 'locationSeq' : 'navigationId';
+    const allowed = [...IDENTITY_FIELDS, 'type', 'sectionId', sequence];
+    if (Object.keys(message).some(key => !allowed.includes(key)) || !Number.isSafeInteger(message[sequence]) || message[sequence] < 1
+        || typeof message.sectionId !== 'string' || message.sectionId.length > 512
+        || !canonical || !Array.isArray(canonical.sections) || !canonical.sections.some(section => section.id === message.sectionId)) return null;
+    return message;
+  }
   const allowed = [...IDENTITY_FIELDS, 'type', 'requestId', 'diagnostics', 'code', 'message'];
   if (Object.keys(message).some(key => !allowed.includes(key)) || !['ready', 'applied', 'error'].includes(message.type)) return null;
   if (message.type === 'applied' && (!Number.isSafeInteger(message.requestId) || message.requestId < 1)) return null;
@@ -66,4 +85,19 @@ function buildAppearanceScript(identity, requestId, appearance) {
   return `if(window.BardReader){window.BardReader.applyAppearance(${scriptJson(payload)});}true;`;
 }
 
-module.exports = { parseReaderMessage, isAllowedReaderNavigation, buildAppearanceScript, scriptJson };
+function sectionCommandPayload(identity, navigationId, reference, canonical) {
+  if (!isIdentity(identity) || !Number.isSafeInteger(navigationId) || navigationId < 1 || !canonical
+      || ['workId', 'contentVersion', 'canonicalTextVersion'].some(key => canonical[key] !== identity[key])) throw new Error('Invalid section command identity.');
+  resolveSectionReference(canonical, reference);
+  if (typeof reference.sectionId !== 'string' || reference.sectionId.length > 512) throw new Error('Invalid section ID.');
+  return { ...identity, navigationId, sectionId: reference.sectionId };
+}
+
+function buildNavigationScript(identity, navigationId, reference, canonical) {
+  return `if(window.BardReader){window.BardReader.jumpToSection(${scriptJson(sectionCommandPayload(identity, navigationId, reference, canonical))});}true;`;
+}
+function buildSectionFocusScript(identity, navigationId, reference, canonical) {
+  return `if(window.BardReader){window.BardReader.focusSection(${scriptJson(sectionCommandPayload(identity, navigationId, reference, canonical))});}true;`;
+}
+
+module.exports = { parseReaderMessage, isAllowedReaderNavigation, buildAppearanceScript, scriptJson, buildNavigationScript, buildSectionFocusScript, sectionCommandPayload };

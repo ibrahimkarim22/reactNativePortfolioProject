@@ -21,11 +21,11 @@ function prepare(id) {
     try {
       const canonicalDocument = buildCanonicalDocument({ play: entry.play, sections: entry.sections });
       const quiz = validateQuiz({ ...play, quizContent: entry.quiz, canonicalDocument });
-      return quiz && { quiz, canonical: canonicalDocument, labels: Object.fromEntries(buildReaderNavigation(entry, canonicalDocument).items.map(item => [item.id, item.locationLabel])) };
+      return quiz && { quiz, play, canonical: canonicalDocument, labels: Object.fromEntries(buildReaderNavigation(entry, canonicalDocument).items.map(item => [item.id, item.locationLabel])) };
     } catch (_) { return null; }
   }
   const quiz = validateQuiz(play);
-  return quiz && { quiz, labels: {} };
+  return quiz && { quiz, play, labels: {} };
 }
 
 // Firebase is loaded only for the normal application. The isolated course
@@ -48,6 +48,8 @@ export default function QuizScreen({ quizRuntime } = {}) {
   useEffect(() => () => attempt.dispose(), [attempt]);
   const state = useSyncExternalStore(attempt.subscribe, attempt.getSnapshot, attempt.getSnapshot);
   const scroll = useRef(null);
+  const medalsOpening = useRef(false);
+  useEffect(() => navigation.addListener?.("focus", () => { medalsOpening.current = false; }), [navigation]);
   const [evidence, setEvidence] = useState(null);
   const [readerTransfer, setReaderTransfer] = useState(null);
   const pendingReader = useRef(null);
@@ -148,6 +150,13 @@ export default function QuizScreen({ quizRuntime } = {}) {
     return () => listener.remove();
   }, [attempt, state.attemptToken, state.index]);
   const returnToCourse = () => navigation.navigate("Main", { screen: "Course" });
+  const viewMedals = () => {
+    const current = attempt.getSnapshot();
+    if (medalsOpening.current || current.attemptToken !== state.attemptToken || current.result !== state.result
+        || current.phase !== "results" || !["saved", "replay"].includes(current.result?.outcome)) return;
+    medalsOpening.current = true;
+    navigation.push("Main", { screen: "Home", params: { tab: "Medals" } });
+  };
   if (!prepared || state.phase === "unavailable") return <CoursePage>
     <CourseHeading title="Quiz unavailable" />
     <CourseText tone="muted">This quiz is not ready yet. It cannot award progress or medals.</CourseText>
@@ -157,7 +166,8 @@ export default function QuizScreen({ quizRuntime } = {}) {
     return <CourseProgressNotice status={progress.status} onRetry={source.refresh} onBack={returnToCourse} />;
   }
   if (state.phase === "results") return <CoursePage scrollRef={scroll}>
-    <QuizResults quiz={prepared.quiz} result={state.result} saving={state.saving} attemptToken={state.attemptToken}
+    <QuizResults quiz={prepared.quiz} play={prepared.play} result={state.result} saving={state.saving} attemptToken={state.attemptToken}
+      onViewMedals={viewMedals} onReviewAnswers={y => scroll.current?.scrollTo?.({ y, animated: true })}
       attempt={attempt} returnToCourse={returnToCourse} sectionLabels={prepared.labels}
       nextAvailable={PLAYS.some(play => play.difficulty === prepared.quiz.level + 1)} />
   </CoursePage>;

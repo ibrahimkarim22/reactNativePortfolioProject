@@ -2,11 +2,13 @@
 // backend has no live-project fallback. The harness also requires __DEV__.
 const testMode = process.env.EXPO_PUBLIC_BARD_HIGHLIGHT_SYNC_TEST;
 const courseTestMode = process.env.EXPO_PUBLIC_BARD_COURSE_UI_TEST;
-if (courseTestMode && (courseTestMode !== "isolated" || typeof __DEV__ === "undefined" || !__DEV__ || testMode)) {
+if (courseTestMode && (!["isolated", "emulator"].includes(courseTestMode) || typeof __DEV__ === "undefined" || !__DEV__ || testMode)) {
   throw new Error("The isolated course preview requires development mode and cannot conflict with another test entry.");
 }
-const App = courseTestMode
-  ? require("./course/CoursePilotHarness").default
+const App = courseTestMode === "emulator"
+  ? require("./course/CourseRewardsEmulatorHarness").default
+  : courseTestMode === "isolated"
+    ? require("./course/CoursePilotHarness").default
   : testMode
     ? require("./reader/HighlightSyncEmulatorHarness").default
     : require("./NormalApp").default;

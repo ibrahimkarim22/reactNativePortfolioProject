@@ -19,6 +19,7 @@ function load(file) {
     if(name==='react')return React;
     if(name==='react-native')return native;
     if(name==='react-native-safe-area-context')return {SafeAreaView:'SafeAreaView'};
+    if(name==='@react-navigation/native')return {useIsFocused:()=>true};
     return name.startsWith('.') ? load(path.posix.join(path.posix.dirname(file),name+'.js')) : require(name);
   },module,module.exports);cache.set(file,module.exports);return module.exports;
 }

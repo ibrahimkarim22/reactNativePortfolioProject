@@ -28,6 +28,7 @@ function choiceOrderFor(quiz, random, previous) {
 
 function createQuizAttempt({ getQuiz, getOwner, getLevel, saveProgress, commitLevel, random = Math.random }) {
   const listeners = new Set();
+  const celebratedResults = new WeakSet();
   let disposed = false, scope = null, currentQuiz = null, currentOwner = null, inFlight = null;
   let snapshot;
 
@@ -152,6 +153,13 @@ function createQuizAttempt({ getQuiz, getOwner, getLevel, saveProgress, commitLe
       if (!synchronize() || !matchesToken(expectedToken) || snapshot.phase !== 'results' || snapshot.result?.outcome !== 'save-failed'
           || snapshot.saving || inFlight) return false;
       return persist(snapshot.result);
+    },
+    claimCelebration(result, expectedToken) {
+      if (!synchronize() || !matchesToken(expectedToken) || snapshot.phase !== 'results'
+          || snapshot.result !== result || result?.outcome !== 'saved' || !result.passed
+          || result.correct !== result.total || celebratedResults.has(result)) return false;
+      celebratedResults.add(result);
+      return true;
     },
     retake(expectedToken) {
       if (!synchronize() || !matchesToken(expectedToken)) return false;

@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Pressable, StyleSheet, View } from "react-native";
 import { COURSE_COLORS as colors, CourseButton, CourseHeading, CoursePanel, CourseText } from "./CourseUI";
+import MedalArtwork from "./MedalArtwork";
+import QuizCelebration from "./QuizCelebration";
 
 export function QuizQuestion({ quiz, state, attempt, onEvidence, evidenceButtonRef }) {
   const question = quiz.questions[state.index];
@@ -74,26 +76,41 @@ export function QuizEvidence({ question, sectionLabels = {}, onOpenPassage }) {
   </View>)}</>;
 }
 const outcomes = {
-  failed: ["Not passed yet", "Answer all questions correctly to complete this lesson. Review the passages, then try again."],
-  saved: ["Lesson completed", "Your progress is saved. You've earned a medal!"],
-  replay: ["Already completed", "You already completed this activity. No new medal or unlock was awarded."],
+  failed: ["Keep exploring", "Review the supporting passages, then try again when you're ready."],
+  saved: ["Play completed", "Medal added to your collection"],
+  replay: ["Already completed", "Already in your collection"],
   "sign-in": ["Sign in required", "Sign in to save course progress. No completion has been confirmed."],
   "invalid-progress": ["Progress unavailable", "Course progress could not be verified. Return to the course before trying again."],
   "save-failed": ["Progress not saved", "Progress could not be saved. Completion has not been confirmed. Retry the save without retaking the quiz."],
 };
 
-export function QuizResults({ quiz, result, saving, attempt, attemptToken, returnToCourse, sectionLabels = {}, nextAvailable }) {
+export function QuizResults({ quiz, play, result, saving, attempt, attemptToken, returnToCourse, onViewMedals, onReviewAnswers, sectionLabels = {}, nextAvailable }) {
+  const reviewPosition = useRef(0);
   const [title, detail] = outcomes[result.outcome];
+  const medal = result.passed && result.total > 0 && result.correct === result.total && ["saved", "replay"].includes(result.outcome);
+  const missed = Math.max(0, result.total - result.correct);
   return <>
     <CourseHeading eyebrow="Quiz results" title={title} subtitle={`${result.correct}/${result.total} correct`} />
+    {medal && <View style={styles.reward}>
+      <MedalArtwork play={play} size={216} />
+      <CourseText accessibilityRole="header" style={styles.medalName}>{play?.name || "Play medal"}</CourseText>
+      {result.outcome === "saved" && <QuizCelebration result={result} attempt={attempt} attemptToken={attemptToken} />}
+    </View>}
     <CourseText accessibilityRole={result.outcome === "save-failed" ? "alert" : undefined}
       tone={result.outcome === "saved" ? "success" : "body"}>{detail}</CourseText>
+    {result.outcome === "failed" && <CourseText style={styles.revisit}>{`${missed} ${missed === 1 ? "answer" : "answers"} to revisit`}</CourseText>}
     {result.outcome === "saved" && nextAvailable && <CourseText tone="success">Next Level Unlocked.</CourseText>}
     {result.outcome === "save-failed" && <CourseButton title="Retry save" busy={saving} onPress={() => attempt.retrySave(attemptToken)} />}
     <View style={styles.actions}>
-      <CourseButton title="Retake quiz" variant="secondary" disabled={saving} onPress={() => attempt.retake(attemptToken)} />
-      <CourseButton title="Back to course" variant="quiet" onPress={returnToCourse} />
+      {medal && <>
+        <CourseButton title="View medals" onPress={onViewMedals} />
+        <CourseButton title="Continue course" variant="secondary" onPress={returnToCourse} />
+      </>}
+      {result.outcome === "failed" && <CourseButton title="Review answers" onPress={() => onReviewAnswers?.(reviewPosition.current)} />}
+      <CourseButton title="Retake quiz" variant={medal ? "quiet" : "secondary"} disabled={saving} onPress={() => attempt.retake(attemptToken)} />
+      {!medal && <CourseButton title="Back to course" variant="quiet" onPress={returnToCourse} />}
     </View>
+    <View onLayout={event => { reviewPosition.current = event.nativeEvent.layout.y; }} style={styles.actions}>
     <CourseText accessibilityRole="header" style={styles.reviewTitle}>Answer review</CourseText>
     {quiz.questions.map((question, index) => {
       const chosen = result.answers[question.id];
@@ -107,6 +124,7 @@ export function QuizResults({ quiz, result, saving, attempt, attemptToken, retur
         <QuizEvidence question={question} sectionLabels={sectionLabels} />
       </CoursePanel>;
     })}
+    </View>
     <CourseButton title="Back to course" variant="secondary" onPress={returnToCourse} />
   </>;
 }
@@ -132,5 +150,8 @@ const styles = StyleSheet.create({
   feedbackIncorrect: { backgroundColor: "#29191b", borderColor: "#684047" },
   feedbackTitle: { fontSize: 23, lineHeight: 31, fontWeight: "700" },
   reviewTitle: { fontSize: 25, lineHeight: 33, fontWeight: "700" }, questionTitle: { fontWeight: "700" },
+  reward: { position: "relative", alignItems: "center", gap: 14, paddingVertical: 8 },
+  medalName: { textAlign: "center", fontSize: 21, lineHeight: 29, fontWeight: "700" },
+  revisit: { fontSize: 21, lineHeight: 29, fontWeight: "600" },
   evidence: { borderLeftWidth: 2, borderLeftColor: colors.gold, paddingLeft: 14, gap: 8 },
 });

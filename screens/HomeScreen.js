@@ -20,7 +20,6 @@ import {
   faChevronRight,
   faCrown,
   faImage,
-  faLock,
   faRightFromBracket,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
@@ -28,6 +27,8 @@ import { updateProfile } from "firebase/auth";
 import { doc, updateDoc } from "firebase/firestore";
 import { useAccountCourseProgress, retryAccountProgress } from "../course/AccountCourseProgress";
 import { CourseProgressNotice } from "../course/CourseProgressNotice";
+import MedalsCollection from "../course/MedalsCollection";
+import { getMedalCollection } from "../course/medalCollection";
 import * as ImageManipulator from "expo-image-manipulator";
 import * as ImagePicker from "expo-image-picker";
 import * as MediaLibrary from "expo-media-library";
@@ -40,8 +41,8 @@ const defaultProfileImage =
 
 const tabs = ["Overview", "Medals", "Certificate"];
 
-const HomeScreen = ({ navigation }) => {
-  const [activeTab, setActiveTab] = useState("Overview");
+const HomeScreen = ({ navigation, route }) => {
+  const [activeTab, setActiveTab] = useState(() => route?.params?.tab === "Medals" ? "Medals" : "Overview");
   const [imageUrl, setImageUrl] = useState("");
   const [imageLoading, setImageLoading] = useState(false);
   const [imageModalVisible, setImageModalVisible] = useState(false);
@@ -57,21 +58,24 @@ const HomeScreen = ({ navigation }) => {
     []
   );
 
-  const totalPlays = plays.length;
-  const completedPlays = Math.max(
-    0,
-    Math.min(totalPlays, Number(completedLevel) || 0)
-  );
-  const nextUnlockedLevel = Math.min(totalPlays, completedPlays + 1);
+  const collection = getMedalCollection(plays, completedLevel);
+  const totalPlays = collection.total;
+  const completedPlays = collection.earnedCount;
+  const confirmedLevel = Number.isSafeInteger(completedLevel) && completedLevel >= 0 ? completedLevel : 0;
+  const nextUnlockedLevel = Math.min(Math.max(...plays.map(play => play.difficulty)), confirmedLevel + 1);
   const medalCount = completedPlays;
-  const progress = totalPlays ? Math.min(1, completedPlays / totalPlays) : 0;
+  const progress = collection.completion;
   const nextPlay =
     plays.find((play) => play.difficulty === nextUnlockedLevel) || plays[0];
   const isCompact = width < 360;
   const horizontalPadding = isCompact ? 14 : 18;
   const avatarSize = isCompact ? 78 : 94;
-  const medalGap = 12;
-  const medalWidth = Math.floor((width - horizontalPadding * 2 - medalGap) / 2);
+
+  useEffect(() => {
+    if (route?.params?.tab !== "Medals") return;
+    setActiveTab("Medals");
+    navigation.setParams?.({ tab: undefined });
+  }, [route?.key, route?.params?.tab, navigation]);
 
   useEffect(() => {
     const user = FIREBASE_AUTH.currentUser;
@@ -186,31 +190,8 @@ const HomeScreen = ({ navigation }) => {
     </View>
   );
 
-  const renderMedals = () => (
-    <View style={[styles.medalGrid, { gap: medalGap, paddingHorizontal: horizontalPadding }]}>
-      {plays.map((play) => {
-        const unlocked = play.difficulty <= medalCount;
-        return (
-          <View key={play.id} style={[styles.medalItem, { width: medalWidth }]}>
-            <View style={styles.medalImageWrap}>
-              <Image
-                source={play.medalImage}
-                style={[styles.medalImage, !unlocked && styles.lockedMedal]}
-              />
-              {!unlocked && (
-                <View style={styles.lockedOverlay}>
-                  <FontAwesomeIcon icon={faLock} size={16} color="#d8bd73" />
-                </View>
-              )}
-            </View>
-            <Text style={styles.medalName} numberOfLines={2}>
-              {play.name}
-            </Text>
-          </View>
-        );
-      })}
-    </View>
-  );
+  const renderMedals = () => <MedalsCollection plays={plays} completedLevel={completedLevel}
+    onOpenLesson={play => navigation.navigate("Lesson", { id: play.id })} />;
 
   const renderCertificate = () => (
     <View style={[styles.section, { paddingHorizontal: horizontalPadding }]}>
@@ -294,6 +275,9 @@ const HomeScreen = ({ navigation }) => {
           {tabs.map((tab) => (
             <Pressable
               key={tab}
+              accessibilityRole="tab"
+              accessibilityLabel={tab}
+              accessibilityState={{ selected: activeTab === tab }}
               onPress={() => setActiveTab(tab)}
               style={[
                 styles.tabButton,
@@ -486,7 +470,9 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     flex: 1,
-    height: 42,
+    minHeight: 48,
+    paddingVertical: 10,
+    paddingHorizontal: 6,
     justifyContent: "center",
   },
   activeTabButton: {
@@ -590,49 +576,6 @@ const styles = StyleSheet.create({
   pressed: {
     opacity: 0.82,
     transform: [{ scale: 0.99 }],
-  },
-  medalGrid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    paddingTop: 16,
-  },
-  medalItem: {
-    backgroundColor: "#121212",
-    borderColor: "#292722",
-    borderRadius: 8,
-    borderWidth: 1,
-    minHeight: 172,
-    padding: 12,
-  },
-  medalImageWrap: {
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  medalImage: {
-    height: 104,
-    resizeMode: "contain",
-    width: "100%",
-  },
-  lockedMedal: {
-    opacity: 0.26,
-  },
-  lockedOverlay: {
-    alignItems: "center",
-    backgroundColor: "rgba(5, 5, 5, 0.62)",
-    borderRadius: 8,
-    height: 42,
-    justifyContent: "center",
-    position: "absolute",
-    width: 42,
-  },
-  medalName: {
-    color: "#e9e0d3",
-    fontSize: 12,
-    fontWeight: "700",
-    lineHeight: 16,
-    marginTop: 10,
-    minHeight: 34,
-    textAlign: "center",
   },
   certificatePanel: {
     alignItems: "center",

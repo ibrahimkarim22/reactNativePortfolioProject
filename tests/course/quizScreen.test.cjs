@@ -21,7 +21,7 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
 function deferred() { let resolve; const promise = new Promise(yes => { resolve = yes; }); return { promise, resolve }; }
 
 function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, level = 0, uid = 'fixture-owner', write = async () => {}, quizRuntime } = {}) {
-  const calls = [], actions = [], writes = [], slots = [], loaded = [], frames = [], focus = [], timers = new Map(), backListeners = new Set();
+  const calls = [], actions = [], writes = [], slots = [], loaded = [], frames = [], focus = [], scrollCalls = [], timers = new Map(), backListeners = new Set(), navigationFocus = new Set();
   let nativeTag = 0, timerId = 0;
   let cursor = 0, effects = [], dirty = false;
   const same = (a, b) => a && b && a.length === b.length && a.every((v, i) => Object.is(v, b[i]));
@@ -29,7 +29,7 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
   const effect = (factory, deps) => { const i = cursor++; if (!slots[i] || !same(slots[i].deps, deps)) effects.push(() => { slots[i]?.cleanup?.(); slots[i] = { deps, cleanup: factory() }; }); };
   const React = {
     createElement(type, props, ...children) {
-      if (type === 'ScrollView' && props?.ref) props.ref.current = { scrollTo() {} };
+      if (type === 'ScrollView' && props?.ref) props.ref.current = { scrollTo: value => scrollCalls.push(value) };
       else if (typeof type === 'string' && props?.ref) props.ref.current = { nativeTag: ++nativeTag };
       const next = { ...props, children };
       return typeof type === 'function' ? type(next) : { type, props: next };
@@ -92,11 +92,14 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
       return result;
     },
   };
-  const navigation = { navigate: (...args) => calls.push(['navigate', ...args]), push: (...args) => calls.push(['push', ...args]), goBack: () => calls.push(['back']) };
+  const navigation = { navigate: (...args) => calls.push(['navigate', ...args]), push: (...args) => calls.push(['push', ...args]), goBack: () => calls.push(['back']),
+    addListener: (event, listener) => { if (event === 'focus') navigationFocus.add(listener); return () => navigationFocus.delete(listener); } };
   const Card = Object.assign(function Card() {}, { Title: 'CardTitle' });
   const dispatch = action => { actions.push(action); return store.dispatch(action); };
   const native = { View: 'View', Text: 'Text', Button: 'Button', Pressable: 'Pressable', ScrollView: 'ScrollView', Modal: 'Modal', StatusBar: 'StatusBar', ActivityIndicator: 'ActivityIndicator',
-    findNodeHandle: value => value?.nativeTag, AccessibilityInfo: { setAccessibilityFocus: value => focus.push(value) },
+    Image: Object.assign(props => ({ type: 'Image', props }), { resolveAssetSource: source => source ? { uri: 'asset:' + source } : null }),
+    Animated: { View: 'AnimatedView', Value: class { setValue() {} interpolate(value) { return value; } }, timing: () => ({ start() {}, stop() {} }) },
+    findNodeHandle: value => value?.nativeTag, AccessibilityInfo: { setAccessibilityFocus: value => focus.push(value), isReduceMotionEnabled: async () => true, addEventListener: () => ({ remove() {} }) },
     useWindowDimensions: () => ({ width: 411, height: 914, fontScale: 1 }),
     BackHandler: { addEventListener: (event, callback) => { backListeners.add(callback); return { remove: () => backListeners.delete(callback) }; } },
     StyleSheet: { create: value => value }, Alert: { alert: (...args) => calls.push(['alert', ...args]) } };
@@ -104,14 +107,15 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
   const Screen = load(file, {
     react: React, 'react-native': native, 'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView' }, 'react-native-gesture-handler': { ScrollView: 'ScrollView' },
     'react-native-elements': { Card, Button: 'Button', Overlay: 'Overlay', Image: 'Image' },
-    '@react-navigation/native': { useRoute: () => route, useNavigation: () => navigation },
+    '@react-navigation/native': { useRoute: () => route, useNavigation: () => navigation, useIsFocused: () => true },
     'react-redux': { useSelector: select => select(store.getState()), useDispatch: () => dispatch },
     '../Progress/CourseSlice': slice, '../shared/localPlayService': { PLAYS: plays, getLocalPlayEntry: id => entries.find(entry => entry.slug === id) },
     '../firebaseConfig': { FIRESTORE_DB: 'fixture-db', FIREBASE_AUTH: auth },
     'firebase/firestore': firestore,
     'firebase/auth': { onAuthStateChanged: () => () => {} },
   }).default;
-  const h = { calls, actions, writes, store, route, auth, plays, loaded, frames, focus,
+  const h = { calls, actions, writes, store, route, auth, plays, loaded, frames, focus, scrollCalls,
+    returnFocus() { navigationFocus.forEach(listener => listener()); },
     hardwareBack() { return [...backListeners].reverse().some(callback => callback()); },
     render() {
       let tree, attempts = 0;
@@ -151,7 +155,7 @@ for (const [label, quiz] of malformed) test(label + ' quiz is unavailable and ca
   const h = host({ plays: [candidate] }); const tree = h.render();
   assert.match(text(tree), /quiz.*unavailable|quiz.*not.*ready/i);
   assert.equal(nodes(tree, 'Pressable').some(node => ['Check answer', 'Finish quiz'].includes(node.props.accessibilityLabel) && !node.props.disabled), false);
-  assert.doesNotMatch(text(tree), /0\/0|earned a medal|next level unlocked/i);
+  assert.doesNotMatch(text(tree), /0\/0|(?:earned a medal|medal added to your collection)|next level unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.deepEqual(h.actions, []); assert.deepEqual(h.writes, []);
   h.button('Back to course').props.onPress();
   assert.deepEqual(h.calls.at(-1), ['navigate', 'Main', { screen: 'Course' }]);
@@ -170,12 +174,12 @@ test('incomplete answers cannot submit even through the callback boundary', asyn
   assert.equal(h.button('Check answer').props.disabled, true); assert.equal(h.button('Check answer').props.onPress, undefined);
   assert.equal(h.button('Submit'), undefined);
   assert.equal(h.writes.length, 0); assert.equal(h.actions.length, 0);
-  assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
 });
 
 test('a complete failed quiz shows its real score and never awards progress', async () => {
   const h = host(); h.answerAll(false); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /0\/2/); assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.match(text(h.render()), /0\/2/); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
@@ -184,11 +188,11 @@ test('valid pass keeps the existing all-correct threshold and awards only after 
   const submit = h.button('Submit'); const pending = submit.props.onPress();
   await tick(); // The transaction reads the profile before attempting its write.
   assert.equal(h.writes.length, 1); assert.deepEqual(h.writes[0], [['fixture-db', 'users', 'fixture-owner'], { completedLevel: 1 }]);
-  assert.equal(h.actions.length, 0); assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.equal(h.actions.length, 0); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   await submit.props.onPress(); assert.equal(h.writes.length, 1, 'rapid duplicate submission must not write twice');
   gate.resolve(); await pending;
   assert.equal(h.store.getState().course.completedLevel, 1); assert.equal(h.actions.length, 1);
-  assert.match(text(h.render()), /2\/2/); assert.match(text(h.render()), /earned a medal/i);
+  assert.match(text(h.render()), /2\/2/); assert.match(text(h.render()), /medal added to your collection/i);
   await submit.props.onPress(); assert.equal(h.writes.length, 1);
   h.button('Retake Quiz').props.onPress(); assert.equal(h.button('Check answer').props.disabled, true);
 });
@@ -203,7 +207,7 @@ test('unchecked answers stay editable while checked review cannot unlock recorde
   const h = host();
   assert.equal(h.button('Wrong B'), undefined, 'only the current question is rendered');
   h.button('Wrong A').props.onPress();
-  assert.doesNotMatch(text(h.render()), /correct answer|incorrect|earned a medal/i);
+  assert.doesNotMatch(text(h.render()), /correct answer|incorrect|(?:earned a medal|medal added to your collection)/i);
   h.button('Correct A').props.onPress();
   h.check();
   h.button('Next').props.onPress();
@@ -221,14 +225,14 @@ test('unchecked answers stay editable while checked review cannot unlock recorde
 
 test('retaking completed work does not claim or write a new medal/unlock', async () => {
   const h = host({ level: 1 }); h.answerAll(); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /already completed/i); assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.match(text(h.render()), /already completed/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
 test('a final play or existing numbering gap cannot invent a next-play unlock', async () => {
   for (const plays of [[play()], [play('fixture-a', questions(), 33), play('fixture-b', questions(), 35)]]) {
     const h = host({ plays, level: plays[0].difficulty - 1 }); h.answerAll(); await h.button('Submit').props.onPress();
-    assert.match(text(h.render()), /earned a medal/i);
+    assert.match(text(h.render()), /medal added to your collection/i);
     assert.doesNotMatch(text(h.render()), /next level unlocked/i);
   }
 });
@@ -236,13 +240,13 @@ test('a final play or existing numbering gap cannot invent a next-play unlock', 
 test('missing authentication cannot change even local progress', async () => {
   const h = host({ uid: null });
   assert.equal(h.button('Correct A'), undefined);
-  assert.match(text(h.render()), /sign in/i); assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.match(text(h.render()), /sign in/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
 test('failed progress persistence never creates a local award or success claim', async () => {
   const h = host({ write: async () => { throw new Error('fixture offline'); } }); h.answerAll(); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /progress.*could not be saved/i); assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+  assert.match(text(h.render()), /progress.*could not be saved/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 1);
 });
 
@@ -251,7 +255,7 @@ test('submission revalidates content even when an earlier rendered callback surv
     const candidate = play(), h = host({ plays: [candidate] }); h.answerAll(); const stale = h.button('Submit');
     candidate.quiz = quiz; await stale.props.onPress();
     assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
-    assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+    assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   }
 });
 
@@ -271,7 +275,7 @@ test('late save results cannot award or display completion on a different play o
     else h.unmount();
     gate.resolve(); await pending; await tick();
     assert.equal(h.actions.length, 0); assert.equal(h.store.getState().course.completedLevel, 0);
-    if (change !== 'unmount') assert.doesNotMatch(text(h.render()), /earned a medal|next level unlocked/i);
+    if (change !== 'unmount') assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
   }
 });
 
@@ -283,7 +287,7 @@ test('retry save retains the submitted score and does not repeat quiz actions', 
   const retry = h.button('Retry save'); assert.ok(retry);
   await retry.props.onPress(); await retry.props.onPress();
   assert.equal(attempts, 2); assert.equal(h.actions.length, 1);
-  assert.match(text(h.render()), /progress is saved/i);
+  assert.match(text(h.render()), /medal added to your collection/i);
   assert.equal(h.button('Retry save'), undefined);
 });
 
@@ -470,4 +474,24 @@ test('Back during the modal-to-reader handoff cancels the jump and keeps the che
     h.button('Read supporting passage').props.onPress();
     assert.equal(nodes(h.render(), 'Modal').length, 1, 'supporting passages can be reopened normally');
   }
+});
+
+test('View medals pushes the existing Home collection once and can reopen after Back without another award', async () => {
+  const h = host(); h.answerAll(); await h.button('Finish quiz').props.onPress();
+  const tree = h.render(); assert.equal(nodes(tree, 'Image')[0].props.source, 1);
+  const open = h.button('View medals'); assert.ok(open);
+  open.props.onPress(); open.props.onPress();
+  assert.deepEqual(h.calls, [['push', 'Main', { screen: 'Home', params: { tab: 'Medals' } }]]);
+  h.returnFocus(); h.button('View medals').props.onPress();
+  assert.equal(h.calls.length, 2); assert.equal(h.writes.length, 1);
+  h.button('Retake quiz').props.onPress(); open.props.onPress(); assert.equal(h.calls.length, 2, 'a stale result cannot open the collection after Retake');
+});
+
+test('incorrect results prioritize the actual missed count and scroll Review answers without a reward', async () => {
+  const h = host(); h.answerAll(false); await h.button('Finish quiz').props.onPress();
+  const tree = h.render(); assert.match(text(tree), /2 answers to revisit/); assert.equal(nodes(tree, 'Image').length, 0); assert.equal(h.button('View medals'), undefined);
+  const reviewGroup = nodes(tree, 'View').find(n => n.props.onLayout);
+  reviewGroup.props.onLayout({ nativeEvent: { layout: { y: 420 } } });
+  h.button('Review answers').props.onPress(); assert.deepEqual(h.scrollCalls.at(-1), { y: 420, animated: true });
+  assert.deepEqual(h.writes, []); assert.deepEqual(h.actions, []);
 });

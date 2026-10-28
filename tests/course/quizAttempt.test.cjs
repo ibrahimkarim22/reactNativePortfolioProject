@@ -88,6 +88,48 @@ test('shuffled presentation scores original option IDs and save-only retry retai
   assert.equal(saves, 2); assert.deepEqual(h.commits, [1]);
 });
 
+test('only a current confirmed new completion can claim its one-shot celebration', async () => {
+  const gate = deferred(), h = host({ save: () => gate.promise });
+  h.answerAll();
+  const pending = h.attempt.submit();
+  assert.equal(typeof h.attempt.claimCelebration, 'function');
+  assert.equal(h.attempt.claimCelebration({ outcome: 'saved' }, h.attempt.getSnapshot().attemptToken), false);
+  gate.resolve(acknowledgement()); await pending;
+  const state = h.attempt.getSnapshot();
+  assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), true);
+  assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false, 'component remounts and repeated callbacks cannot replay it');
+  h.attempt.retake(state.attemptToken);
+  assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false);
+});
+
+test('failed, replay and unconfirmed outcomes cannot celebrate; a confirmed save-only retry can once', async () => {
+  for (const kind of ['failed', 'replay', 'sign-in', 'save-failed']) {
+    let saves = 0;
+    const h = host({ level: kind === 'replay' ? 1 : 0,
+      owner: Object.freeze({ uid: kind === 'sign-in' ? null : 'owner-a', generation: 0 }),
+      save: async () => { if (++saves === 1) throw new Error('fixture offline'); return acknowledgement(); } });
+    h.answerAll(kind !== 'failed'); await h.attempt.submit();
+    const state = h.attempt.getSnapshot();
+    assert.equal(typeof h.attempt.claimCelebration, 'function');
+    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false, kind);
+    if (kind === 'save-failed') {
+      await h.attempt.retrySave(state.attemptToken);
+      const saved = h.attempt.getSnapshot();
+      assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), true);
+      assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), false);
+      assert.equal(saved.result.correct, state.result.correct); assert.equal(saves, 2);
+    }
+  }
+});
+
+test('an account change retires a confirmed but not yet animated award', async () => {
+  const h = host(); h.answerAll(); await h.attempt.submit();
+  const state = h.attempt.getSnapshot();
+  h.owner = Object.freeze({ uid: 'owner-b', generation: 1 });
+  assert.equal(typeof h.attempt.claimCelebration, 'function');
+  assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false);
+});
+
 test('an attempt keeps immutable snapshots and choices editable only until deliberately checked', () => {
   const h = host(), { attempt } = h, first = attempt.getSnapshot();
   assert.equal(first, attempt.getSnapshot()); assert.equal(first.phase, 'answering'); assert.equal(first.index, 0);

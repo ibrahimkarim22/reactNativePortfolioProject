@@ -27,7 +27,7 @@ function fixture() {
 
 // Exercise the production screen and real document/navigation builders. Only
 // native views, navigation, font IO, and the mounted surface are host boundaries.
-function host({ platform = 'android', selectedEntry = fixture() } = {}) {
+function host({ platform = 'android', selectedEntry = fixture(), openPassage } = {}) {
   const slots = [];
   let cursor = 0, effects = [], dirty = false, options, backs = 0;
   const focusCleanups = new Set(), cancelPassage = () => {};
@@ -105,16 +105,19 @@ function host({ platform = 'android', selectedEntry = fixture() } = {}) {
     return module.exports;
   }
   const screen = load(path.join(root, 'reader/ReaderScreen.js')).default;
+  const passageJumps = [], passageFocus = [];
   const surface = { jumpToSection: reference => { jumps.push(reference); return jumps.length; }, focusSection: (reference, id) => { sectionFocus.push({ reference, id }); return true; }, clearSelection: reason => selectionClears.push(reason) };
+  surface.jumpToPassage = reference => { passageJumps.push(reference); return 100 + passageJumps.length; };
+  surface.focusPassage = (reference, id) => { passageFocus.push({ reference, id }); return true; };
   let latest;
   const api = {
-    focused, jumps, sectionFocus, update, selectionClears,
+    focused, jumps, sectionFocus, update, selectionClears, passageJumps, passageFocus,
     get options() { return options; }, get backs() { return backs; }, get preferenceWrites() { return preferenceWrites; },
     render() {
       let attempts = 0;
       do {
         if (++attempts > 20) throw new Error('Screen did not settle.');
-        cursor = 0; effects = []; dirty = false; latest = screen({ id: 'small-play' });
+        cursor = 0; effects = []; dirty = false; latest = screen({ id: 'small-play', openPassage });
         const page = nodes(latest, 'ReaderSurface')[0];
         if (page?.props.ref) page.props.ref.current = surface;
         for (const run of effects) run();
@@ -149,6 +152,55 @@ function ready(screen) {
 }
 function open(screen, tree) { contentsButton(tree).props.onPress(); return screen.render(); }
 function select(screen, tree, sectionId) { nodes(tree, 'ReaderContentsModal')[0].props.onSelect(sectionId); }
+
+function passageFixture() {
+  const entry = fixture();
+  const { buildCanonicalDocument, createSelection } = require('../../shared/contentText');
+  const canonical = buildCanonicalDocument({ play: entry.play, sections: entry.sections });
+  const unit = canonical.units.find(unit => unit.sectionId === 'scene-2');
+  return { entry, reference: createSelection(canonical, unit.start + 1, unit.textEnd) };
+}
+
+test('a source passage opens exactly once after reader readiness and focuses its actual range after acknowledgment', () => {
+  const { entry, reference } = passageFixture();
+  const screen = host({ selectedEntry: entry, openPassage: reference });
+  screen.render(); assert.deepEqual(screen.passageJumps, []);
+  let tree = ready(screen);
+  assert.deepEqual(screen.passageJumps, [reference]);
+  assert.deepEqual(screen.jumps, [], 'do not substitute the scene beginning');
+  assert.match(text(tree), /Opening supporting passage/);
+  screen.message({ type: 'jumped', navigationId: 100, sectionId: 'scene-2' }); screen.render();
+  assert.deepEqual(screen.passageFocus, []);
+  screen.message({ type: 'jumped', navigationId: 101, sectionId: 'scene-2' });
+  tree = screen.render();
+  assert.deepEqual(screen.passageFocus, [{ reference, id: 101 }]);
+  assert.doesNotMatch(text(tree), /Opening supporting passage/);
+  screen.update({ theme: 'night', fontSize: 24 }); screen.render(); screen.message({ type: 'ready' }); screen.render();
+  assert.equal(screen.passageJumps.length, 1, 'appearance changes and repeated ready events do not replay the route');
+});
+
+test('a stale or mismatched source passage reports unavailability instead of opening another place', () => {
+  const { entry, reference } = passageFixture();
+  for (const mutation of [{ contentVersion: 'old' }, { exact: 'Other text' }, { startRef: { ...reference.startRef, offsetUtf16: 0 } }]) {
+    const screen = host({ selectedEntry: entry, openPassage: { ...reference, ...mutation } });
+    const tree = ready(screen);
+    assert.deepEqual(screen.passageJumps, []);
+    assert.deepEqual(screen.jumps, []);
+    assert.match(text(tree), /supporting passage.*unavailable/i);
+  }
+});
+
+test('later reader interaction retires a pending passage focus without replaying the request', () => {
+  const { entry, reference } = passageFixture();
+  const screen = host({ selectedEntry: entry, openPassage: reference });
+  ready(screen);
+  screen.message({ type: 'interaction', interactionSeq: 1 });
+  screen.message({ type: 'jumped', navigationId: 101, sectionId: 'scene-2' });
+  const tree = screen.render();
+  assert.deepEqual(screen.passageFocus, []);
+  assert.doesNotMatch(text(tree), /Opening supporting passage/);
+  assert.equal(screen.passageJumps.length, 1);
+});
 
 test('the native location row wraps below the existing header and follows theme and validated location events', () => {
   const screen = host();

@@ -2,7 +2,7 @@ import React, { forwardRef, useCallback, useEffect, useImperativeHandle, useLayo
 import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
-import { parseReaderMessage, sectionCommandPayload } from "./readerProtocol";
+import { parseReaderMessage, sectionCommandPayload, passageCommandPayload } from "./readerProtocol";
 import { createReaderSelectionController } from "./readerSelectionController";
 import { selectionCommandPayload } from "./readerSelectionProtocol";
 import { createReaderHighlightController } from "./readerHighlightController";
@@ -114,6 +114,20 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       frame.current?.contentWindow?.postMessage({ type: "bard-reader-focus", payload: sectionCommandPayload(document.identity, expectedId, reference, document.canonical) }, "*");
       return true;
     },
+    jumpToPassage: reference => {
+      if (!surfaceActive.current || !ready.current || !frame.current?.contentWindow || activeDocument.current !== document.identity.documentId) return null;
+      const next = navigationId.current + 1;
+      const payload = passageCommandPayload(document.identity, next, reference, document.canonical);
+      selectionController.clear("navigation");
+      navigationId.current = next;
+      frame.current.contentWindow.postMessage({ type: "bard-reader-passage-jump", payload }, "*");
+      return next;
+    },
+    focusPassage: (reference, expectedId) => {
+      if (!surfaceActive.current || !ready.current || !frame.current?.contentWindow || expectedId !== navigationId.current || activeDocument.current !== document.identity.documentId) return false;
+      frame.current.contentWindow.postMessage({ type: "bard-reader-passage-focus", payload: passageCommandPayload(document.identity, expectedId, reference, document.canonical) }, "*");
+      return true;
+    },
   }), [applyAppearance, document.identity, document.canonical, selectionController, highlightController]);
 
   useLayoutEffect(() => {
@@ -181,6 +195,10 @@ const ReaderSurface = forwardRef(function ReaderSurface({
         if (message.navigationId === navigationId.current) report(message);
         return;
       }
+    if (message.type === "error" && message.navigationId != null) {
+      if (message.navigationId === navigationId.current) report(message);
+      return;
+    }
       if (message.requestId != null && message.requestId !== requestId.current) return;
       if (message.type === "error") {
         selectionController.clear("appearance");

@@ -25,7 +25,7 @@ import useReaderNavigation from "./useReaderNavigation";
 
 let nextDocumentId = 0;
 
-export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
+export default function ReaderScreen({ id, highlightRuntime, openHighlight, openPassage }) {
   const navigation = useNavigation();
   const settings = useReaderPreferences(highlightRuntime?.preferences);
   const { preferences, hydrated, update, reset, retry, flush } = settings;
@@ -49,7 +49,7 @@ export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
       return { error: "The local text could not be prepared. Go back and open this play again." };
     }
   }, [entry, entry?.play?.contentVersion, entry?.play?.canonicalTextVersion]);
-  const readerNavigation = useReaderNavigation(result);
+  const readerNavigation = useReaderNavigation({ ...result, openPassage });
   const highlights = useReaderHighlights(result.document, readerNavigation.surfaceRef, readerNavigation.ready, highlightRuntime);
   const passageOpening = useMyHighlightsReader({ request: highlightRuntime ? null : openHighlight, document: result.document, session: highlights.session });
   const highlightAccountError = highlights.synchronizationEnabled
@@ -349,8 +349,10 @@ export default function ReaderScreen({ id, highlightRuntime, openHighlight }) {
       )}
       {result.document && hydrated ? (
         <View style={styles.container}>
-          {(passageOpening.opening || passageOpening.error) && <View pointerEvents="none" accessibilityLiveRegion="polite" style={[styles.passageStatus, { backgroundColor: theme.panel, borderColor: theme.border }]}>
-            <Text accessibilityRole={passageOpening.error ? "alert" : undefined} style={{ color: theme.text }}>{passageOpening.error || "Opening saved passage\u2026"}</Text>
+          {(passageOpening.opening || passageOpening.error || readerNavigation.passageStatus) && <View pointerEvents="none" accessibilityLiveRegion="polite" style={[styles.passageStatus, { backgroundColor: theme.panel, borderColor: theme.border }]}>
+            <Text accessibilityRole={readerNavigation.passageStatus?.error || passageOpening.error ? "alert" : undefined} style={{ color: theme.text }}>{readerNavigation.passageStatus
+              ? readerNavigation.passageStatus.error || "Opening supporting passage\u2026"
+              : passageOpening.error || "Opening saved passage\u2026"}</Text>
           </View>}
           <ReaderSurface ref={readerNavigation.surfaceRef} document={result.document} preferences={preferences} fontFaces={fontStatus.fontId === preferences.fontId ? fontStatus.faces : undefined} onMessage={onReaderMessage} />
           {!highlights.privacyReady && <View accessibilityLabel="Preparing account highlights" style={[StyleSheet.absoluteFillObject, styles.loading, { backgroundColor: theme.background }]}>

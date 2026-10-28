@@ -4,5 +4,5 @@ import ReaderScreen from "../reader/ReaderScreen";
 
 export default function MITFullPlayScreen({ highlightRuntime } = {}) {
   const route = useRoute();
-  return <ReaderScreen id={route.params?.id} highlightRuntime={highlightRuntime} />;
+  return <ReaderScreen id={route.params?.id} highlightRuntime={highlightRuntime} openPassage={route.params?.openPassage} />;
 }

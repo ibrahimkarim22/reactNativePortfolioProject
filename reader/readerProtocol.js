@@ -1,5 +1,5 @@
 const { FONTS, THEMES, LINE_SPACING } = require('./readerConstants');
-const { resolveSectionReference } = require('../shared/contentText');
+const { resolveSectionReference, resolveSelection } = require('../shared/contentText');
 const { parseSelectionMessage } = require('./readerSelectionProtocol');
 const { parseHighlightMessage } = require('./readerHighlightProtocol');
 
@@ -40,6 +40,11 @@ function parseReaderMessage(raw, identity, canonical) {
         || typeof message.sectionId !== 'string' || message.sectionId.length > 512
         || !canonical || !Array.isArray(canonical.sections) || !canonical.sections.some(section => section.id === message.sectionId)) return null;
     return message;
+  }
+  if (message.type === 'error' && own(message, 'navigationId')) {
+    const allowed = [...IDENTITY_FIELDS, 'type', 'navigationId', 'code', 'message'];
+    return Object.keys(message).every(key => allowed.includes(key)) && Number.isSafeInteger(message.navigationId) && message.navigationId > 0
+      && message.code === 'PASSAGE_UNAVAILABLE' && typeof message.message === 'string' && message.message.length <= 512 ? message : null;
   }
   const allowed = [...IDENTITY_FIELDS, 'type', 'requestId', 'diagnostics', 'code', 'message'];
   if (Object.keys(message).some(key => !allowed.includes(key)) || !['ready', 'applied', 'error'].includes(message.type)) return null;
@@ -100,4 +105,20 @@ function buildSectionFocusScript(identity, navigationId, reference, canonical) {
   return `if(window.BardReader){window.BardReader.focusSection(${scriptJson(sectionCommandPayload(identity, navigationId, reference, canonical))});}true;`;
 }
 
-module.exports = { parseReaderMessage, isAllowedReaderNavigation, buildAppearanceScript, scriptJson, buildNavigationScript, buildSectionFocusScript, sectionCommandPayload };
+function passageCommandPayload(identity, navigationId, reference, canonical) {
+  if (!isIdentity(identity) || !Number.isSafeInteger(navigationId) || navigationId < 1 || !canonical
+      || ['workId', 'contentVersion', 'canonicalTextVersion'].some(key => canonical[key] !== identity[key])) throw new Error('Invalid passage command identity.');
+  const { start, end } = resolveSelection(canonical, reference);
+  if (typeof reference.startRef.sectionId !== 'string' || reference.startRef.sectionId.length > 512) throw new Error('Invalid passage section ID.');
+  return { ...identity, navigationId, sectionId: reference.startRef.sectionId, start, end };
+}
+
+function buildPassageNavigationScript(identity, navigationId, reference, canonical) {
+  return `if(window.BardReader){window.BardReader.jumpToPassage(${scriptJson(passageCommandPayload(identity, navigationId, reference, canonical))});}true;`;
+}
+function buildPassageFocusScript(identity, navigationId, reference, canonical) {
+  return `if(window.BardReader){window.BardReader.focusPassage(${scriptJson(passageCommandPayload(identity, navigationId, reference, canonical))});}true;`;
+}
+
+module.exports = { parseReaderMessage, isAllowedReaderNavigation, buildAppearanceScript, scriptJson, buildNavigationScript, buildSectionFocusScript, sectionCommandPayload,
+  passageCommandPayload, buildPassageNavigationScript, buildPassageFocusScript };

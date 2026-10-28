@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import { WebView } from "react-native-webview";
 import Loader from "../Componenets/Loader";
 import { DEFAULT_PREFERENCES, THEMES } from "./readerConstants";
-import { buildAppearanceScript, buildNavigationScript, buildSectionFocusScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
+import { buildAppearanceScript, buildNavigationScript, buildSectionFocusScript, buildPassageNavigationScript, buildPassageFocusScript, isAllowedReaderNavigation, parseReaderMessage } from "./readerProtocol";
 import { createReaderSelectionController } from "./readerSelectionController";
 import { buildSelectionScript } from "./readerSelectionProtocol";
 import { createReaderHighlightController } from "./readerHighlightController";
@@ -108,6 +108,20 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       webView.current?.injectJavaScript(buildSectionFocusScript(document.identity, expectedId, reference, document.canonical));
       return true;
     },
+    jumpToPassage: reference => {
+      if (!surfaceActive.current || !ready.current || !webView.current || activeDocument.current !== document.identity.documentId) return null;
+      const next = navigationId.current + 1;
+      const script = buildPassageNavigationScript(document.identity, next, reference, document.canonical);
+      selectionController.clear("navigation");
+      navigationId.current = next;
+      webView.current.injectJavaScript(script);
+      return next;
+    },
+    focusPassage: (reference, expectedId) => {
+      if (!surfaceActive.current || !ready.current || !webView.current || expectedId !== navigationId.current || activeDocument.current !== document.identity.documentId) return false;
+      webView.current.injectJavaScript(buildPassageFocusScript(document.identity, expectedId, reference, document.canonical));
+      return true;
+    },
   }), [applyAppearance, document.identity, document.canonical, selectionController, highlightController]);
 
   useLayoutEffect(() => {
@@ -175,6 +189,10 @@ const ReaderSurface = forwardRef(function ReaderSurface({
       return;
     }
     if (message.type === "jumped") {
+      if (message.navigationId === navigationId.current) report(message);
+      return;
+    }
+    if (message.type === "error" && message.navigationId != null) {
       if (message.navigationId === navigationId.current) report(message);
       return;
     }

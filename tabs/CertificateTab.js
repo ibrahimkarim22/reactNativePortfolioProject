@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { LinearProgress, Image } from "react-native-elements";
-import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useAccountCourseProgress, retryAccountProgress } from "../course/AccountCourseProgress";
+import { CourseProgressNotice } from "../course/CourseProgressNotice";
 import { PLAYS } from "../shared/localPlayService";
 
 const ProgressBar = ({ value = 0 }) => {
@@ -27,18 +27,10 @@ const ProgressBar = ({ value = 0 }) => {
 };
 
 const CertificateTab = () => {
-  const [progress, setProgress] = useState(0);
-  const completedLevel = useSelector((state) => state.course.completedLevel);
-
-  useEffect(() => {
-    const calculateProgress = () => {
-      const maxLevel = PLAYS.length || 38;
-      const completedCount = Math.max(0, Number(completedLevel) || 0);
-      const currentProgress = (completedCount / maxLevel) * 100;
-      setProgress(Math.min(currentProgress, 100));
-    };
-    calculateProgress();
-  }, [completedLevel]);
+  const accountProgress = useAccountCourseProgress();
+  const completedCount = Math.max(0, Number(accountProgress.completedLevel) || 0);
+  const progress = Math.min(completedCount / (PLAYS.length || 38) * 100, 100);
+  if (accountProgress.status !== "ready") return <CourseProgressNotice status={accountProgress.status} onRetry={retryAccountProgress} />;
   return (
     <View style={styles.main}>
       <View style={styles.lpContainer}>

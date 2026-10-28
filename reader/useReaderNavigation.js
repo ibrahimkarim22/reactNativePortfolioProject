@@ -1,11 +1,14 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { Platform } from "react-native";
+import { resolveSelection } from "../shared/contentText";
 import useReaderModalFocus from "./useReaderModalFocus";
 
-export default function useReaderNavigation({ document, model }) {
+export default function useReaderNavigation({ document, model, openPassage }) {
   const surfaceRef = useRef(null);
   const [contentsOpen, setContentsOpen] = useState(false);
   const [ready, setReady] = useState(false);
+  const [passageStatus, setPassageStatus] = useState(null);
+  const initialPassage = useRef(null);
   const [currentSectionId, setCurrentSectionId] = useState(model?.initialSectionId || null);
   const contentsFocus = useReaderModalFocus({ visible: contentsOpen });
   const itemsById = useMemo(() => new Map((model?.items || []).map(item => [item.id, item])), [model]);
@@ -23,6 +26,7 @@ export default function useReaderNavigation({ document, model }) {
 
   const cancel = useCallback(() => {
     pending.current = null;
+    setPassageStatus(previous => previous?.opening ? null : previous);
     if (frame.current != null) cancelAnimationFrame(frame.current);
     frame.current = null;
     contentsFocus.cancel();
@@ -32,7 +36,10 @@ export default function useReaderNavigation({ document, model }) {
     const intent = pending.current;
     if (!active.current || !intent?.acknowledged || !intent.dismissed || visible.current) return;
     pending.current = null;
-    surfaceRef.current?.focusSection(intent.reference, intent.navigationId);
+    if (intent.kind === "passage") {
+      surfaceRef.current?.focusPassage(intent.reference, intent.navigationId);
+      setPassageStatus(null);
+    } else surfaceRef.current?.focusSection(intent.reference, intent.navigationId);
   }, []);
 
   const scheduleDismissed = useCallback(function schedule(framesRemaining) {
@@ -60,6 +67,8 @@ export default function useReaderNavigation({ document, model }) {
     const identity = document?.identity.documentId;
     if (identity === initializedDocument.current) return;
     initializedDocument.current = identity;
+    initialPassage.current = null;
+    setPassageStatus(null);
     cancel();
     surfaceReady.current = false;
     locationSeq.current = 0;
@@ -67,6 +76,24 @@ export default function useReaderNavigation({ document, model }) {
     setCurrentSectionId(model?.initialSectionId || null);
     setContentsOpen(false);
   }, [document, model, cancel]);
+
+  useEffect(() => {
+    if (!active.current || !ready || !document || !openPassage) return;
+    if (initialPassage.current?.documentId === document.identity.documentId && initialPassage.current.reference === openPassage) return;
+    initialPassage.current = { documentId: document.identity.documentId, reference: openPassage };
+    try {
+      resolveSelection(document.canonical, openPassage);
+      const reference = Object.freeze({ ...openPassage, startRef: Object.freeze({ ...openPassage.startRef }), endRef: Object.freeze({ ...openPassage.endRef }) });
+      cancel();
+      const navigationId = surfaceRef.current?.jumpToPassage(reference);
+      if (navigationId == null) throw new Error("Passage unavailable");
+      pending.current = { kind: "passage", reference, sectionId: reference.startRef.sectionId,
+        navigationId, acknowledged: false, dismissed: true };
+      setPassageStatus({ opening: true, error: null });
+    } catch (_) {
+      setPassageStatus({ opening: false, error: "This supporting passage is unavailable in this text version. Go back to the quiz and try again." });
+    }
+  }, [document, openPassage, ready, cancel]);
 
   useEffect(() => {
     if (contentsOpen || !pending.current || pending.current.dismissed) return;
@@ -87,12 +114,16 @@ export default function useReaderNavigation({ document, model }) {
       setCurrentSectionId(message.sectionId);
     } else if (message.type === "jumped") {
       const intent = pending.current;
-      if (intent && message.navigationId === intent.navigationId && message.sectionId === intent.reference.sectionId) {
+      if (intent && message.navigationId === intent.navigationId && message.sectionId === (intent.sectionId || intent.reference.sectionId)) {
         intent.acknowledged = true;
         completeFocus();
       }
+    } else if (message.type === "interaction" || message.type === "selectionChange" && message.state === "range") {
+      if (pending.current?.kind === "passage") cancel();
     } else if (message.type === "error") {
+      const failedPassage = pending.current?.kind === "passage";
       cancel();
+      if (failedPassage) setPassageStatus({ opening: false, error: "This supporting passage could not be opened. Go back to the quiz and try again." });
       if (message.requestId == null && message.navigationId == null) {
         surfaceReady.current = false;
         setReady(false);
@@ -132,7 +163,7 @@ export default function useReaderNavigation({ document, model }) {
   const deactivate = useCallback(() => { active.current = false; cancel(); }, [cancel]);
 
   return {
-    surfaceRef, contentsOpen, ready, currentSectionId, current,
+    surfaceRef, contentsOpen, ready, currentSectionId, current, passageStatus,
     contentsButton: contentsFocus.triggerRef,
     openContents, closeContents, dismissContents, jumpToSection, onMessage, onDismiss, activate, deactivate,
   };

@@ -9,16 +9,19 @@ import { StatusBar } from "react-native";
 // import { Text } from "react-native-elements";
 
 import "./firebaseConfig";
+import { CourseProgressBridge } from "./course/AccountCourseProgress";
 
 const App = () => {
   return (
     <Provider store={store}>
       {/* <PersistGate loading={<Text>Loading...</Text>} persistor={persistor}> */}
       <PersistGate loading={null} persistor={persistor}>
+        <CourseProgressBridge>
         <NavigationContainer>
           <StatusBar backgroundColor="black" barStyle="light-content" />
           <Stacks />
         </NavigationContainer>
+        </CourseProgressBridge>
       </PersistGate>
     </Provider>
   );

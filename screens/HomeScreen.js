@@ -26,11 +26,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { updateProfile } from "firebase/auth";
 import { doc, updateDoc } from "firebase/firestore";
-import { useDispatch, useSelector } from "react-redux";
+import { useAccountCourseProgress, retryAccountProgress } from "../course/AccountCourseProgress";
+import { CourseProgressNotice } from "../course/CourseProgressNotice";
 import * as ImageManipulator from "expo-image-manipulator";
 import * as ImagePicker from "expo-image-picker";
 import * as MediaLibrary from "expo-media-library";
-import { resetState } from "../Progress/CourseSlice";
 import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
 import { PLAYS } from "../shared/localPlayService";
 import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
@@ -48,8 +48,8 @@ const HomeScreen = ({ navigation }) => {
   const { width } = useWindowDimensions();
   const insets = useSafeAreaInsets();
 
-  const completedLevel = useSelector((state) => state.course.completedLevel);
-  const dispatch = useDispatch();
+  const accountProgress = useAccountCourseProgress();
+  const completedLevel = accountProgress.completedLevel;
   const currentUser = FIREBASE_AUTH.currentUser;
 
   const plays = useMemo(
@@ -142,7 +142,6 @@ const HomeScreen = ({ navigation }) => {
   };
 
   const logout = () => {
-    dispatch(resetState());
     FIREBASE_AUTH.signOut()
       .then(() => navigation.navigate("Root"))
       .catch((error) => console.error("Error logging out: ", error));
@@ -233,6 +232,7 @@ const HomeScreen = ({ navigation }) => {
     </View>
   );
 
+  if (accountProgress.status !== "ready") return <CourseProgressNotice status={accountProgress.status} onRetry={retryAccountProgress} />;
   return (
     <SafeAreaView edges={["bottom"]} style={styles.screen}>
       <StatusBar barStyle="light-content" backgroundColor="#050505" />

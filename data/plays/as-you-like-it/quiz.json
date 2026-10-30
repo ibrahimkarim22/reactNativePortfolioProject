@@ -1,4 +1,534 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "as-you-like-it-comprehension",
+  "workId": "as-you-like-it",
+  "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "as-you-like-it-01",
+      "question": "What is Orlando's chief complaint about Oliver at the opening?",
+      "options": [
+        {
+          "id": "as-you-like-it-01.a",
+          "text": "Oliver denies him the upbringing due to a gentleman."
+        },
+        {
+          "id": "as-you-like-it-01.b",
+          "text": "Oliver forces him to marry before inheriting money."
+        },
+        {
+          "id": "as-you-like-it-01.c",
+          "text": "Oliver has banished their father from the court."
+        },
+        {
+          "id": "as-you-like-it-01.d",
+          "text": "Oliver makes him serve as Duke Frederick's wrestler."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-01.a",
+      "explanation": "Orlando says Oliver neglects his education and treats him like a servant despite their father's wishes.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 1867,
+          "end": 3102,
+          "startRef": {
+            "textId": "as-you-like-it/sceneI_4.1/p@4339",
+            "sectionId": "as-you-like-it-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneI_4.1/p@4339",
+            "sectionId": "as-you-like-it-1-1",
+            "offsetUtf16": 1235
+          },
+          "exact": "ORLANDO.\nAs I remember, Adam, it was upon this fashion bequeathed me by will but poor a thousand crowns, and, as thou sayst, charged my brother, on his blessing, to breed me well; and there begins my sadness. My brother Jaques he keeps at school, and report speaks goldenly of his profit. For my part, he keeps me rustically at home, or, to speak more properly, stays me here at home unkept; for call you that keeping, for a gentleman of my birth, that differs not from the stalling of an ox? His horses are bred better, for, besides that they are fair with their feeding, they are taught their manage and to that end riders dearly hired; but I, his brother, gain nothing under him but growth, for the which his animals on his dunghills are as much bound to him as I. Besides this nothing that he so plentifully gives me, the something that nature gave me his countenance seems to take from me. He lets me feed with his hinds, bars me the place of a brother, and as much as in him lies, mines my gentility with my education. This is it, Adam, that grieves me, and the spirit of my father, which I think is within me, begins to mutiny against this servitude. I will no longer endure it, though yet I know no wise remedy how to avoid it.",
+          "prefix": "house\n\nEnter Orlando and Adam.\n\n",
+          "suffix": "\n\nEnter Oliver.\n\nADAM.\nYonder co"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-02",
+      "question": "What does Celia decide when her father banishes Rosalind?",
+      "options": [
+        {
+          "id": "as-you-like-it-02.a",
+          "text": "To join Charles and pursue the banished Duke."
+        },
+        {
+          "id": "as-you-like-it-02.b",
+          "text": "To leave with Rosalind and seek the Forest of Arden."
+        },
+        {
+          "id": "as-you-like-it-02.c",
+          "text": "To remain at court and become Oliver's guardian."
+        },
+        {
+          "id": "as-you-like-it-02.d",
+          "text": "To persuade Rosalind to abandon her own father."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-02.b",
+      "explanation": "Celia refuses to be separated from Rosalind and proposes seeking her uncle in Arden.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 27521,
+          "end": 27568,
+          "startRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38480",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38480",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 47
+          },
+          "exact": "CELIA.\nTo seek my uncle in the Forest of Arden.",
+          "prefix": "IND.\nWhy, whither shall we go?\n\n",
+          "suffix": "\n\nROSALIND.\nAlas, what danger wi"
+        },
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 27036,
+          "end": 27482,
+          "startRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@37886",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@37886",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 446
+          },
+          "exact": "CELIA.\nNo, hath not? Rosalind lacks then the love\nWhich teacheth thee that thou and I am one.\nShall we be sundered? Shall we part, sweet girl?\nNo, let my father seek another heir.\nTherefore devise with me how we may fly,\nWhither to go, and what to bear with us,\nAnd do not seek to take your change upon you,\nTo bear your griefs yourself and leave me out.\nFor, by this heaven, now at our sorrows pale,\nSay what thou canst, I’ll go along with thee.",
+          "prefix": "?\n\nROSALIND.\nThat he hath not.\n\n",
+          "suffix": "\n\nROSALIND.\nWhy, whither shall w"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-03",
+      "question": "Why does Rosalind plan to travel disguised as a young man?",
+      "options": [
+        {
+          "id": "as-you-like-it-03.a",
+          "text": "She wants to claim Oliver's place as eldest son."
+        },
+        {
+          "id": "as-you-like-it-03.b",
+          "text": "She has been ordered to serve in Frederick's army."
+        },
+        {
+          "id": "as-you-like-it-03.c",
+          "text": "She hopes a martial appearance will discourage attackers."
+        },
+        {
+          "id": "as-you-like-it-03.d",
+          "text": "She needs to enter a wrestling match at court."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-03.c",
+      "explanation": "Rosalind fears the dangers facing two young women traveling alone and chooses a bold male appearance.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 27570,
+          "end": 27699,
+          "startRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38561",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38561",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 129
+          },
+          "exact": "ROSALIND.\nAlas, what danger will it be to us,\nMaids as we are, to travel forth so far?\nBeauty provoketh thieves sooner than gold.",
+          "prefix": " uncle in the Forest of Arden.\n\n",
+          "suffix": "\n\nCELIA.\nI’ll put myself in poor"
+        },
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 27858,
+          "end": 28216,
+          "startRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38938",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneI_4.3/p@38938",
+            "sectionId": "as-you-like-it-1-3",
+            "offsetUtf16": 358
+          },
+          "exact": "ROSALIND.\nWere it not better,\nBecause that I am more than common tall,\nThat I did suit me all points like a man?\nA gallant curtal-axe upon my thigh,\nA boar-spear in my hand, and in my heart\nLie there what hidden woman’s fear there will,\nWe’ll have a swashing and a martial outside,\nAs many other mannish cowards have\nThat do outface it with their semblances.",
+          "prefix": "ong\nAnd never stir assailants.\n\n",
+          "suffix": "\n\nCELIA.\nWhat shall I call thee "
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-04",
+      "question": "How does Adam help Orlando escape his dangerous home?",
+      "options": [
+        {
+          "id": "as-you-like-it-04.a",
+          "text": "He arranges a marriage between Orlando and Celia."
+        },
+        {
+          "id": "as-you-like-it-04.b",
+          "text": "He buys Oliver's estate and dismisses its servants."
+        },
+        {
+          "id": "as-you-like-it-04.c",
+          "text": "He challenges Duke Frederick to a wrestling match."
+        },
+        {
+          "id": "as-you-like-it-04.d",
+          "text": "He offers his savings and accompanies Orlando as a servant."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-04.d",
+      "explanation": "Adam gives Orlando the money saved for his old age and asks to serve him on the journey.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 34772,
+          "end": 35509,
+          "startRef": {
+            "textId": "as-you-like-it/sceneII_4.3/p@47860",
+            "sectionId": "as-you-like-it-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneII_4.3/p@47860",
+            "sectionId": "as-you-like-it-2-3",
+            "offsetUtf16": 737
+          },
+          "exact": "ADAM.\nBut do not so. I have five hundred crowns,\nThe thrifty hire I saved under your father,\nWhich I did store to be my foster-nurse,\nWhen service should in my old limbs lie lame,\nAnd unregarded age in corners thrown.\nTake that, and He that doth the ravens feed,\nYea, providently caters for the sparrow,\nBe comfort to my age. Here is the gold.\nAll this I give you. Let me be your servant.\nThough I look old, yet I am strong and lusty,\nFor in my youth I never did apply\nHot and rebellious liquors in my blood,\nNor did not with unbashful forehead woo\nThe means of weakness and debility.\nTherefore my age is as a lusty winter,\nFrosty but kindly. Let me go with you.\nI’ll do the service of a younger man\nIn all your business and necessities.",
+          "prefix": "rted blood and bloody brother.\n\n",
+          "suffix": "\n\nORLANDO.\nO good old man, how w"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-05",
+      "question": "How do Rosalind and Celia obtain a home and livelihood in Arden?",
+      "options": [
+        {
+          "id": "as-you-like-it-05.a",
+          "text": "They fund Corin's purchase of a cottage, pasture, and flock."
+        },
+        {
+          "id": "as-you-like-it-05.b",
+          "text": "They inherit Duke Frederick's palace and hunting grounds."
+        },
+        {
+          "id": "as-you-like-it-05.c",
+          "text": "They ask Oliver to build a new court in the forest."
+        },
+        {
+          "id": "as-you-like-it-05.d",
+          "text": "They exchange their jewels for Charles's wrestling school."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-05.a",
+      "explanation": "They supply the money for Corin to buy the pastoral property and continue tending it.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 40465,
+          "end": 40600,
+          "startRef": {
+            "textId": "as-you-like-it/sceneII_4.4/p@55397",
+            "sectionId": "as-you-like-it-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneII_4.4/p@55397",
+            "sectionId": "as-you-like-it-2-4",
+            "offsetUtf16": 135
+          },
+          "exact": "ROSALIND.\nI pray thee, if it stand with honesty,\nBuy thou the cottage, pasture, and the flock,\nAnd thou shalt have to pay for it of us.",
+          "prefix": "tle cares for buying anything.\n\n",
+          "suffix": "\n\nCELIA.\nAnd we will mend thy wa"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-06",
+      "question": "What does Ganymede ask Orlando to do as a supposed cure for love?",
+      "options": [
+        {
+          "id": "as-you-like-it-06.a",
+          "text": "Give Silvius his inheritance in exchange for advice."
+        },
+        {
+          "id": "as-you-like-it-06.b",
+          "text": "Call Ganymede Rosalind and practice wooing each day."
+        },
+        {
+          "id": "as-you-like-it-06.c",
+          "text": "Leave the forest and never mention Rosalind again."
+        },
+        {
+          "id": "as-you-like-it-06.d",
+          "text": "Ask Phoebe to deliver all his poems to the Duke."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-06.b",
+      "explanation": "Rosalind, still disguised, invites Orlando to woo her while imagining she is Rosalind.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 72941,
+          "end": 73044,
+          "startRef": {
+            "textId": "as-you-like-it/sceneIII_4.2/p@97781",
+            "sectionId": "as-you-like-it-3-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneIII_4.2/p@97781",
+            "sectionId": "as-you-like-it-3-2",
+            "offsetUtf16": 103
+          },
+          "exact": "ROSALIND.\nI would cure you, if you would but call me Rosalind and come every day to my cote and woo me.",
+          "prefix": ".\nI would not be cured, youth.\n\n",
+          "suffix": "\n\nORLANDO.\nNow, by the faith of "
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-07",
+      "question": "What changes Oliver's hostility toward Orlando?",
+      "options": [
+        {
+          "id": "as-you-like-it-07.a",
+          "text": "Orlando defeats Duke Senior in a public contest."
+        },
+        {
+          "id": "as-you-like-it-07.b",
+          "text": "Orlando persuades Adam to become Oliver's servant."
+        },
+        {
+          "id": "as-you-like-it-07.c",
+          "text": "Orlando risks his life to save him from a lioness."
+        },
+        {
+          "id": "as-you-like-it-07.d",
+          "text": "Orlando gives him money to return to the court."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-07.c",
+      "explanation": "Although Oliver has wronged him, Orlando fights the lioness rather than abandon his sleeping brother.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 103088,
+          "end": 103341,
+          "startRef": {
+            "textId": "as-you-like-it/sceneIV_4.3/p@137697",
+            "sectionId": "as-you-like-it-4-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneIV_4.3/p@137697",
+            "sectionId": "as-you-like-it-4-3",
+            "offsetUtf16": 253
+          },
+          "exact": "OLIVER.\nTwice did he turn his back and purposed so;\nBut kindness, nobler ever than revenge,\nAnd nature, stronger than his just occasion,\nMade him give battle to the lioness,\nWho quickly fell before him; in which hurtling\nFrom miserable slumber I awaked.",
+          "prefix": "the sucked and hungry lioness?\n\n",
+          "suffix": "\n\nCELIA.\nAre you his brother?\n\nR"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-08",
+      "question": "What does Oliver offer Orlando when he decides to marry Aliena?",
+      "options": [
+        {
+          "id": "as-you-like-it-08.a",
+          "text": "Duke Senior's title and all his followers."
+        },
+        {
+          "id": "as-you-like-it-08.b",
+          "text": "Corin's flock and the wages of his shepherds."
+        },
+        {
+          "id": "as-you-like-it-08.c",
+          "text": "The right to marry Phoebe in his place."
+        },
+        {
+          "id": "as-you-like-it-08.d",
+          "text": "Their father's house and its income."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-08.d",
+      "explanation": "Oliver plans to live as a shepherd with Aliena and transfer their father's property to Orlando.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 108619,
+          "end": 109026,
+          "startRef": {
+            "textId": "as-you-like-it/sceneV_4.2/p@145695",
+            "sectionId": "as-you-like-it-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneV_4.2/p@145695",
+            "sectionId": "as-you-like-it-5-2",
+            "offsetUtf16": 407
+          },
+          "exact": "OLIVER.\nNeither call the giddiness of it in question, the poverty of her, the small acquaintance, my sudden wooing, nor her sudden consenting. But say with me, I love Aliena; say with her that she loves me; consent with both that we may enjoy each other. It shall be to your good, for my father’s house and all the revenue that was old Sir Rowland’s will I estate upon you, and here live and die a shepherd.",
+          "prefix": "ill you persever to enjoy her?\n\n",
+          "suffix": "\n\nEnter Rosalind.\n\nORLANDO.\nYou "
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-09",
+      "question": "What agreement allows Phoebe's courtship to be resolved at the wedding?",
+      "options": [
+        {
+          "id": "as-you-like-it-09.a",
+          "text": "She will marry Silvius if she refuses to marry Ganymede."
+        },
+        {
+          "id": "as-you-like-it-09.b",
+          "text": "She will marry Orlando if Rosalind does not appear."
+        },
+        {
+          "id": "as-you-like-it-09.c",
+          "text": "She will abandon Silvius if Oliver returns to court."
+        },
+        {
+          "id": "as-you-like-it-09.d",
+          "text": "She will become Aliena's servant instead of marrying."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-09.a",
+      "explanation": "Phoebe accepts Ganymede's condition that refusing that marriage binds her to the faithful Silvius.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 116970,
+          "end": 117066,
+          "startRef": {
+            "textId": "as-you-like-it/sceneV_4.4/p@157081",
+            "sectionId": "as-you-like-it-5-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneV_4.4/p@157081",
+            "sectionId": "as-you-like-it-5-4",
+            "offsetUtf16": 96
+          },
+          "exact": "ROSALIND.\nBut if you do refuse to marry me,\nYou’ll give yourself to this most faithful shepherd?",
+          "prefix": ", should I die the hour after.\n\n",
+          "suffix": "\n\nPHOEBE.\nSo is the bargain.\n\nRO"
+        }
+      ]
+    },
+    {
+      "id": "as-you-like-it-10",
+      "question": "What happens to Duke Frederick's plans against his brother at the end?",
+      "options": [
+        {
+          "id": "as-you-like-it-10.a",
+          "text": "Celia persuades him to appoint Orlando his general."
+        },
+        {
+          "id": "as-you-like-it-10.b",
+          "text": "A religious conversion leads him to restore the dukedom."
+        },
+        {
+          "id": "as-you-like-it-10.c",
+          "text": "Oliver defeats him and claims the dukedom for himself."
+        },
+        {
+          "id": "as-you-like-it-10.d",
+          "text": "He captures Arden and imprisons every wedding guest."
+        }
+      ],
+      "correctOptionId": "as-you-like-it-10.b",
+      "explanation": "After meeting a religious man, Frederick abandons his attack and returns his brother's crown and the exiles' lands.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "as-you-like-it",
+          "contentVersion": "d6b627f880a30c3b81b530e2f2fd49134e6fed47a337998db78c81b5dbfe0540",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 123385,
+          "end": 124071,
+          "startRef": {
+            "textId": "as-you-like-it/sceneV_4.4/p@165331",
+            "sectionId": "as-you-like-it-5-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "as-you-like-it/sceneV_4.4/p@165331",
+            "sectionId": "as-you-like-it-5-4",
+            "offsetUtf16": 686
+          },
+          "exact": "JAQUES DE BOYS.\nLet me have audience for a word or two.\nI am the second son of old Sir Rowland,\nThat bring these tidings to this fair assembly.\nDuke Frederick, hearing how that every day\nMen of great worth resorted to this forest,\nAddressed a mighty power, which were on foot\nIn his own conduct, purposely to take\nHis brother here and put him to the sword;\nAnd to the skirts of this wild wood he came,\nWhere, meeting with an old religious man,\nAfter some question with him, was converted\nBoth from his enterprise and from the world,\nHis crown bequeathing to his banished brother,\nAnd all their lands restored to them again\nThat were with him exiled. This to be true\nI do engage my life.",
+          "prefix": "ombine.\n\nEnter Jaques de Boys.\n\n",
+          "suffix": "\n\nDUKE SENIOR.\nWelcome, young ma"
+        }
+      ]
+    }
+  ]
 }

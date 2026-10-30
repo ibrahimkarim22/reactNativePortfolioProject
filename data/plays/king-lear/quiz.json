@@ -1,4 +1,600 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "king-lear-comprehension",
+  "workId": "king-lear",
+  "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "king-lear-01",
+      "question": "Why does Lear disown Cordelia during the division of his kingdom?",
+      "options": [
+        {
+          "id": "king-lear-01.a",
+          "text": "She refuses to flatter him beyond her honest duty."
+        },
+        {
+          "id": "king-lear-01.b",
+          "text": "She asks him to surrender his hundred knights."
+        },
+        {
+          "id": "king-lear-01.c",
+          "text": "She accuses Gloucester of plotting against him."
+        },
+        {
+          "id": "king-lear-01.d",
+          "text": "She chooses Edmund as her husband."
+        }
+      ],
+      "correctOptionId": "king-lear-01.a",
+      "explanation": "Cordelia speaks of the love her bond requires; Lear treats her plainness as rejection.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 5974,
+          "end": 6101,
+          "startRef": {
+            "textId": "king-lear/sceneI_18.1/p@9849",
+            "sectionId": "king-lear-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneI_18.1/p@9849",
+            "sectionId": "king-lear-1-1",
+            "offsetUtf16": 127
+          },
+          "exact": "CORDELIA.\nUnhappy that I am, I cannot heave\nMy heart into my mouth: I love your majesty\nAccording to my bond; no more nor less.",
+          "prefix": " come of nothing: speak again.\n\n",
+          "suffix": "\n\nLEAR.\nHow, how, Cordelia? Mend"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 6727,
+          "end": 7247,
+          "startRef": {
+            "textId": "king-lear/sceneI_18.1/p@10886",
+            "sectionId": "king-lear-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneI_18.1/p@10886",
+            "sectionId": "king-lear-1-1",
+            "offsetUtf16": 520
+          },
+          "exact": "LEAR.\nLet it be so, thy truth then be thy dower:\nFor, by the sacred radiance of the sun,\nThe mysteries of Hecate and the night;\nBy all the operation of the orbs,\nFrom whom we do exist and cease to be;\nHere I disclaim all my paternal care,\nPropinquity and property of blood,\nAnd as a stranger to my heart and me\nHold thee from this for ever. The barbarous Scythian,\nOr he that makes his generation messes\nTo gorge his appetite, shall to my bosom\nBe as well neighbour’d, pitied, and reliev’d,\nAs thou my sometime daughter.",
+          "prefix": ".\nSo young, my lord, and true.\n\n",
+          "suffix": "\n\nKENT.\nGood my liege,—\n\nLEAR.\nP"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-02",
+      "question": "Why does the banished Kent return in disguise?",
+      "options": [
+        {
+          "id": "king-lear-02.a",
+          "text": "To help Edmund acquire Edgar’s inheritance."
+        },
+        {
+          "id": "king-lear-02.b",
+          "text": "To continue serving Lear without being recognized."
+        },
+        {
+          "id": "king-lear-02.c",
+          "text": "To persuade Cordelia to abandon the French army."
+        },
+        {
+          "id": "king-lear-02.d",
+          "text": "To arrange a marriage between Goneril and Edmund."
+        }
+      ],
+      "correctOptionId": "king-lear-02.b",
+      "explanation": "Kent changes his appearance and voice so he can still serve the master he loves.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 26199,
+          "end": 26513,
+          "startRef": {
+            "textId": "king-lear/sceneI_18.4/p@35943",
+            "sectionId": "king-lear-1-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneI_18.4/p@35943",
+            "sectionId": "king-lear-1-4",
+            "offsetUtf16": 314
+          },
+          "exact": "KENT.\nIf but as well I other accents borrow,\nThat can my speech defuse, my good intent\nMay carry through itself to that full issue\nFor which I rais’d my likeness. Now, banish’d Kent,\nIf thou canst serve where thou dost stand condemn’d,\nSo may it come, thy master, whom thou lov’st,\nShall find thee full of labours.",
+          "prefix": "Palace\n\nEnter Kent, disguised.\n\n",
+          "suffix": "\n\nHorns within. Enter King Lear,"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-03",
+      "question": "What is Edmund’s stated aim in his opening plot against Edgar?",
+      "options": [
+        {
+          "id": "king-lear-03.a",
+          "text": "To restore Cordelia’s lost share of the kingdom."
+        },
+        {
+          "id": "king-lear-03.b",
+          "text": "To prevent Gloucester from helping Lear."
+        },
+        {
+          "id": "king-lear-03.c",
+          "text": "To take the land reserved for his legitimate brother."
+        },
+        {
+          "id": "king-lear-03.d",
+          "text": "To preserve Edgar’s inheritance from Cornwall."
+        }
+      ],
+      "correctOptionId": "king-lear-03.c",
+      "explanation": "Edmund resents the disadvantage of his birth and declares that he must have Edgar’s land.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 16233,
+          "end": 17164,
+          "startRef": {
+            "textId": "king-lear/sceneI_18.2/p@23248",
+            "sectionId": "king-lear-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneI_18.2/p@23248",
+            "sectionId": "king-lear-1-2",
+            "offsetUtf16": 931
+          },
+          "exact": "EDMUND.\nThou, Nature, art my goddess; to thy law\nMy services are bound. Wherefore should I\nStand in the plague of custom, and permit\nThe curiosity of nations to deprive me?\nFor that I am some twelve or fourteen moonshines\nLag of a brother? Why bastard? Wherefore base?\nWhen my dimensions are as well compact,\nMy mind as generous, and my shape as true\nAs honest madam’s issue? Why brand they us\nWith base? With baseness? bastardy? Base, base?\nWho, in the lusty stealth of nature, take\nMore composition and fierce quality\nThan doth within a dull stale tired bed\nGo to the creating a whole tribe of fops\nGot ’tween asleep and wake? Well then,\nLegitimate Edgar, I must have your land:\nOur father’s love is to the bastard Edmund\nAs to the legitimate: fine word: legitimate!\nWell, my legitimate, if this letter speed,\nAnd my invention thrive, Edmund the base\nShall top the legitimate. I grow, I prosper.\nNow, gods, stand up for bastards!",
+          "prefix": "e\n\nEnter Edmund with a letter.\n\n",
+          "suffix": "\n\nEnter Gloucester.\n\nGLOUCESTER."
+        }
+      ]
+    },
+    {
+      "id": "king-lear-04",
+      "question": "Why does Edgar adopt the identity of Poor Tom?",
+      "options": [
+        {
+          "id": "king-lear-04.a",
+          "text": "To qualify as one of Lear’s hundred knights."
+        },
+        {
+          "id": "king-lear-04.b",
+          "text": "To collect a dowry from the King of France."
+        },
+        {
+          "id": "king-lear-04.c",
+          "text": "To conceal his service as Edmund’s messenger."
+        },
+        {
+          "id": "king-lear-04.d",
+          "text": "To escape capture by appearing to be a destitute beggar."
+        }
+      ],
+      "correctOptionId": "king-lear-04.d",
+      "explanation": "Hunted as a proclaimed fugitive, Edgar disguises himself in the lowest and poorest shape he can imagine.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 57467,
+          "end": 58371,
+          "startRef": {
+            "textId": "king-lear/sceneII_18.3/p@79619",
+            "sectionId": "king-lear-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneII_18.3/p@79619",
+            "sectionId": "king-lear-2-3",
+            "offsetUtf16": 904
+          },
+          "exact": "EDGAR.\nI heard myself proclaim’d,\nAnd by the happy hollow of a tree\nEscap’d the hunt. No port is free, no place\nThat guard and most unusual vigilance\nDoes not attend my taking. While I may scape\nI will preserve myself: and am bethought\nTo take the basest and most poorest shape\nThat ever penury in contempt of man,\nBrought near to beast: my face I’ll grime with filth,\nBlanket my loins; elf all my hair in knots,\nAnd with presented nakedness outface\nThe winds and persecutions of the sky.\nThe country gives me proof and precedent\nOf Bedlam beggars, who, with roaring voices,\nStrike in their numb’d and mortified bare arms\nPins, wooden pricks, nails, sprigs of rosemary;\nAnd with this horrible object, from low farms,\nPoor pelting villages, sheep-cotes, and mills,\nSometime with lunatic bans, sometime with prayers,\nEnforce their charity. Poor Turlygod! poor Tom,\nThat’s something yet: Edgar I nothing am.",
+          "prefix": "The open Country\n\nEnter Edgar.\n\n",
+          "suffix": "\n\n[Exit.]\n\nSCENE IV. Before Glou"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-05",
+      "question": "What issue brings Lear into renewed conflict with both Goneril and Regan before the storm?",
+      "options": [
+        {
+          "id": "king-lear-05.a",
+          "text": "Their demands that he reduce or surrender his attendants."
+        },
+        {
+          "id": "king-lear-05.b",
+          "text": "Their refusal to allow Cordelia to marry France."
+        },
+        {
+          "id": "king-lear-05.c",
+          "text": "Their wish to make Edgar heir to Gloucester."
+        },
+        {
+          "id": "king-lear-05.d",
+          "text": "Their decision to send Kent into battle at Dover."
+        }
+      ],
+      "correctOptionId": "king-lear-05.a",
+      "explanation": "The sisters progressively question the number and need of Lear’s followers, which he sees as an attack on his dignity.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 69560,
+          "end": 69774,
+          "startRef": {
+            "textId": "king-lear/sceneII_18.4/p@95889",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneII_18.4/p@95889",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 214
+          },
+          "exact": "REGAN.\nWhy not, my lord? If then they chanc’d to slack ye,\nWe could control them. If you will come to me,—\nFor now I spy a danger,—I entreat you\nTo bring but five-and-twenty: to no more\nWill I give place or notice.",
+          "prefix": " calls servants, or from mine?\n\n",
+          "suffix": "\n\nLEAR.\nI gave you all,—\n\nREGAN."
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 70445,
+          "end": 70466,
+          "startRef": {
+            "textId": "king-lear/sceneII_18.4/p@97080",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneII_18.4/p@97080",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 21
+          },
+          "exact": "REGAN.\nWhat need one?",
+          "prefix": "ny\nHave a command to tend you?\n\n",
+          "suffix": "\n\nLEAR.\nO, reason not the need: "
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 70468,
+          "end": 71498,
+          "startRef": {
+            "textId": "king-lear/sceneII_18.4/p@97135",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneII_18.4/p@97135",
+            "sectionId": "king-lear-2-4",
+            "offsetUtf16": 1030
+          },
+          "exact": "LEAR.\nO, reason not the need: our basest beggars\nAre in the poorest thing superfluous:\nAllow not nature more than nature needs,\nMan’s life is cheap as beast’s. Thou art a lady;\nIf only to go warm were gorgeous,\nWhy, nature needs not what thou gorgeous wear’st\nWhich scarcely keeps thee warm. But, for true need,—\nYou heavens, give me that patience, patience I need!\nYou see me here, you gods, a poor old man,\nAs full of grief as age; wretched in both!\nIf it be you that stirs these daughters’ hearts\nAgainst their father, fool me not so much\nTo bear it tamely; touch me with noble anger,\nAnd let not women’s weapons, water-drops,\nStain my man’s cheeks! No, you unnatural hags,\nI will have such revenges on you both\nThat all the world shall,—I will do such things,—\nWhat they are yet, I know not; but they shall be\nThe terrors of the earth. You think I’ll weep;\nNo, I’ll not weep:— [Storm and tempest.]\nI have full cause of weeping; but this heart\nShall break into a hundred thousand flaws\nOr ere I’ll weep.—O fool, I shall go mad!",
+          "prefix": "nd you?\n\nREGAN.\nWhat need one?\n\n",
+          "suffix": "\n\n[Exeunt Lear, Gloucester, Kent"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-06",
+      "question": "Why has Gloucester sent Lear to Dover when Cornwall and Regan interrogate him?",
+      "options": [
+        {
+          "id": "king-lear-06.a",
+          "text": "To deliver Lear to Edmund as a prisoner."
+        },
+        {
+          "id": "king-lear-06.b",
+          "text": "To protect Lear from his daughters’ cruelty."
+        },
+        {
+          "id": "king-lear-06.c",
+          "text": "To have Lear restore Cornwall’s lost title."
+        },
+        {
+          "id": "king-lear-06.d",
+          "text": "To stop Lear from meeting the French forces."
+        }
+      ],
+      "correctOptionId": "king-lear-06.b",
+      "explanation": "Gloucester says he wanted to spare Lear further cruelty from Regan and her sister.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 98347,
+          "end": 99145,
+          "startRef": {
+            "textId": "king-lear/sceneIII_18.7/p@134840",
+            "sectionId": "king-lear-3-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneIII_18.7/p@135315",
+            "sectionId": "king-lear-3-7",
+            "offsetUtf16": 515
+          },
+          "exact": "CORNWALL.\nWhere hast thou sent the King?\n\nGLOUCESTER.\nTo Dover.\n\nREGAN.\nWherefore to Dover? Wast thou not charg’d at peril,—\n\nCORNWALL.\nWherefore to Dover? Let him first answer that.\n\nGLOUCESTER.\nI am tied to the stake, and I must stand the course.\n\nREGAN.\nWherefore to Dover, sir?\n\nGLOUCESTER.\nBecause I would not see thy cruel nails\nPluck out his poor old eyes; nor thy fierce sister\nIn his anointed flesh stick boarish fangs.\nThe sea, with such a storm as his bare head\nIn hell-black night endur’d, would have buoy’d up,\nAnd quench’d the stelled fires;\nYet, poor old heart, he holp the heavens to rain.\nIf wolves had at thy gate howl’d that stern time,\nThou shouldst have said, ‘Good porter, turn the key.’\nAll cruels else subscrib’d: but I shall see\nThe winged vengeance overtake such children.",
+          "prefix": "L.\nCunning.\n\nREGAN.\nAnd false.\n\n",
+          "suffix": "\n\nCORNWALL.\nSee’t shalt thou nev"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-07",
+      "question": "What is Edgar’s purpose in pretending to guide Gloucester to a fatal cliff?",
+      "options": [
+        {
+          "id": "king-lear-07.a",
+          "text": "To help Gloucester carry out his wish to die."
+        },
+        {
+          "id": "king-lear-07.b",
+          "text": "To persuade Gloucester that Edmund is innocent."
+        },
+        {
+          "id": "king-lear-07.c",
+          "text": "To cure Gloucester’s despair through a staged survival."
+        },
+        {
+          "id": "king-lear-07.d",
+          "text": "To lead Gloucester into Cornwall’s custody."
+        }
+      ],
+      "correctOptionId": "king-lear-07.c",
+      "explanation": "Edgar explicitly says that his deception is intended to cure his father’s despair.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 117795,
+          "end": 117868,
+          "startRef": {
+            "textId": "king-lear/sceneIV_18.6/p@162379",
+            "sectionId": "king-lear-4-6",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneIV_18.6/p@162379",
+            "sectionId": "king-lear-4-6",
+            "offsetUtf16": 73
+          },
+          "exact": "EDGAR.\n[Aside.] Why I do trifle thus with his despair\nIs done to cure it.",
+          "prefix": "GLOUCESTER.\nWith all my heart.\n\n",
+          "suffix": "\n\nGLOUCESTER.\nO you mighty gods!"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-08",
+      "question": "How does Cordelia respond when Lear says she has reason to resent him?",
+      "options": [
+        {
+          "id": "king-lear-08.a",
+          "text": "She demands that he return her former dowry."
+        },
+        {
+          "id": "king-lear-08.b",
+          "text": "She sends him back to live with Goneril."
+        },
+        {
+          "id": "king-lear-08.c",
+          "text": "She asks Edmund to judge his conduct."
+        },
+        {
+          "id": "king-lear-08.d",
+          "text": "She denies that she has cause to hate him."
+        }
+      ],
+      "correctOptionId": "king-lear-08.d",
+      "explanation": "Cordelia answers “No cause” when Lear acknowledges the wrong he has done her.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 132965,
+          "end": 133181,
+          "startRef": {
+            "textId": "king-lear/sceneIV_18.7/p@182763",
+            "sectionId": "king-lear-4-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneIV_18.7/p@182763",
+            "sectionId": "king-lear-4-7",
+            "offsetUtf16": 216
+          },
+          "exact": "LEAR.\nBe your tears wet? Yes, faith. I pray weep not:\nIf you have poison for me, I will drink it.\nI know you do not love me; for your sisters\nHave, as I do remember, done me wrong.\nYou have some cause, they have not.",
+          "prefix": "\n\nCORDELIA.\nAnd so I am. I am.\n\n",
+          "suffix": "\n\nCORDELIA.\nNo cause, no cause.\n"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 133183,
+          "end": 133212,
+          "startRef": {
+            "textId": "king-lear/sceneIV_18.7/p@183033",
+            "sectionId": "king-lear-4-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneIV_18.7/p@183033",
+            "sectionId": "king-lear-4-7",
+            "offsetUtf16": 29
+          },
+          "exact": "CORDELIA.\nNo cause, no cause.",
+          "prefix": "ave some cause, they have not.\n\n",
+          "suffix": "\n\nLEAR.\nAm I in France?\n\nKENT.\nI"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-09",
+      "question": "What does the dying Edmund try to revoke?",
+      "options": [
+        {
+          "id": "king-lear-09.a",
+          "text": "His order to kill Lear and Cordelia."
+        },
+        {
+          "id": "king-lear-09.b",
+          "text": "Lear’s decree banishing Kent."
+        },
+        {
+          "id": "king-lear-09.c",
+          "text": "Gloucester’s decision to disinherit Edgar."
+        },
+        {
+          "id": "king-lear-09.d",
+          "text": "Cornwall’s order to put Kent in the stocks."
+        }
+      ],
+      "correctOptionId": "king-lear-09.a",
+      "explanation": "Edmund sends an urgent warning because his writ threatens the lives of Lear and Cordelia.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 150464,
+          "end": 150656,
+          "startRef": {
+            "textId": "king-lear/sceneV_18.3/p@207997",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneV_18.3/p@207997",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 192
+          },
+          "exact": "EDMUND.\nI pant for life. Some good I mean to do,\nDespite of mine own nature. Quickly send,\nBe brief in it, to the castle; for my writ\nIs on the life of Lear and on Cordelia;\nNay, send in time.",
+          "prefix": "Y.\nEven so. Cover their faces.\n\n",
+          "suffix": "\n\nALBANY.\nRun, run, O, run!\n\nEDG"
+        }
+      ]
+    },
+    {
+      "id": "king-lear-10",
+      "question": "What is the outcome for Lear and Cordelia at the end?",
+      "options": [
+        {
+          "id": "king-lear-10.a",
+          "text": "Cordelia survives to rule jointly with Lear."
+        },
+        {
+          "id": "king-lear-10.b",
+          "text": "Cordelia is dead, and Lear dies grieving over her."
+        },
+        {
+          "id": "king-lear-10.c",
+          "text": "Lear dies while Cordelia departs with France."
+        },
+        {
+          "id": "king-lear-10.d",
+          "text": "Lear survives and sends Cordelia back to prison."
+        }
+      ],
+      "correctOptionId": "king-lear-10.b",
+      "explanation": "Lear enters carrying Cordelia’s body and dies after lamenting that she has no breath.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 151094,
+          "end": 151173,
+          "startRef": {
+            "textId": "king-lear/sceneV_18.3/p@209017",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneV_18.3/p@209017",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 79
+          },
+          "exact": "Enter Lear with Cordelia dead in his arms; Edgar, Officer and others following.",
+          "prefix": "while.\n\n[Edmund is borne off.]\n\n",
+          "suffix": "\n\nLEAR.\nHowl, howl, howl, howl! "
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-lear",
+          "contentVersion": "2cc85a47b528b8e57cb57faad94296a1df1fb4468cc80e3a2ce7722e6d50021d",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 153565,
+          "end": 153868,
+          "startRef": {
+            "textId": "king-lear/sceneV_18.3/p@212647",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-lear/sceneV_18.3/p@213002",
+            "sectionId": "king-lear-5-3",
+            "offsetUtf16": 10
+          },
+          "exact": "LEAR.\nAnd my poor fool is hang’d! No, no, no life!\nWhy should a dog, a horse, a rat have life,\nAnd thou no breath at all? Thou’lt come no more,\nNever, never, never, never, never!\nPray you undo this button. Thank you, sir.\nDo you see this? Look on her: look, her lips,\nLook there, look there!\n\n[He dies.]",
+          "prefix": "their deservings. O, see, see!\n\n",
+          "suffix": "\n\nEDGAR.\nHe faints! My lord, my "
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,600 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "cymbeline-comprehension",
+  "workId": "cymbeline",
+  "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "cymbeline-01",
+      "question": "Why has Cymbeline banished Posthumus at the beginning?",
+      "options": [
+        {
+          "id": "cymbeline-01.a",
+          "text": "Imogen married him instead of the Queen's son Cloten."
+        },
+        {
+          "id": "cymbeline-01.b",
+          "text": "He refused to fight in Britain's army against Rome."
+        },
+        {
+          "id": "cymbeline-01.c",
+          "text": "He stole the King's missing sons from their nursery."
+        },
+        {
+          "id": "cymbeline-01.d",
+          "text": "He tried to poison the Queen with Cornelius's medicine."
+        }
+      ],
+      "correctOptionId": "cymbeline-01.a",
+      "explanation": "The King intended Imogen for his stepson, but she chose Posthumus and married him.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 2504,
+          "end": 2811,
+          "startRef": {
+            "textId": "cymbeline/sceneI_7.1/p@5358",
+            "sectionId": "cymbeline-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneI_7.1/p@5358",
+            "sectionId": "cymbeline-1-1",
+            "offsetUtf16": 307
+          },
+          "exact": "FIRST GENTLEMAN.\nHis daughter, and the heir of’s kingdom, whom\nHe purpos’d to his wife’s sole son—a widow\nThat late he married—hath referr’d herself\nUnto a poor but worthy gentleman. She’s wedded;\nHer husband banish’d; she imprison’d. All\nIs outward sorrow, though I think the King\nBe touch’d at very heart.",
+          "prefix": "TLEMAN.\nBut what’s the matter?\n\n",
+          "suffix": "\n\nSECOND GENTLEMAN.\nNone but the"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-02",
+      "question": "What does Iachimo undertake in his wager with Posthumus?",
+      "options": [
+        {
+          "id": "cymbeline-02.a",
+          "text": "To recover Cloten's stolen clothes from Pisanio."
+        },
+        {
+          "id": "cymbeline-02.b",
+          "text": "To produce proof that he has seduced Imogen."
+        },
+        {
+          "id": "cymbeline-02.c",
+          "text": "To rescue Cymbeline's sons from the Roman camp."
+        },
+        {
+          "id": "cymbeline-02.d",
+          "text": "To persuade Britain to pay its tribute to Rome."
+        }
+      ],
+      "correctOptionId": "cymbeline-02.b",
+      "explanation": "Iachimo stakes money against Posthumus's diamond on obtaining evidence of Imogen's unfaithfulness.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 21700,
+          "end": 22079,
+          "startRef": {
+            "textId": "cymbeline/sceneI_7.5/p@31382",
+            "sectionId": "cymbeline-1-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneI_7.5/p@31382",
+            "sectionId": "cymbeline-1-5",
+            "offsetUtf16": 379
+          },
+          "exact": "IACHIMO.\nBy the gods, it is one. If I bring you no sufficient testimony that I have enjoy’d the dearest bodily part of your mistress, my ten thousand ducats are yours; so is your diamond too. If I come off, and leave her in such honour as you have trust in, she your jewel, this your jewel, and my gold are yours: provided I have your commendation for my more free entertainment.",
+          "prefix": "ILARIO.\nI will have it no lay.\n\n",
+          "suffix": "\n\nPOSTHUMUS.\nI embrace these con"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-03",
+      "question": "How does Iachimo manufacture evidence against Imogen?",
+      "options": [
+        {
+          "id": "cymbeline-03.a",
+          "text": "He bribes Belarius to identify Imogen as his wife."
+        },
+        {
+          "id": "cymbeline-03.b",
+          "text": "He finds a letter proving Imogen has promised to marry Cloten."
+        },
+        {
+          "id": "cymbeline-03.c",
+          "text": "He hides in a trunk, observes her room, and steals her bracelet."
+        },
+        {
+          "id": "cymbeline-03.d",
+          "text": "He persuades Imogen to sign a confession before the King."
+        }
+      ],
+      "correctOptionId": "cymbeline-03.c",
+      "explanation": "Emerging from the trunk while Imogen sleeps, Iachimo records private details and takes her bracelet.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 40238,
+          "end": 40277,
+          "startRef": {
+            "textId": "cymbeline/sceneII_7.2/p@56620",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneII_7.2/p@56620",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 39
+          },
+          "exact": "[Sleeps. Iachimo comes from the trunk.]",
+          "prefix": "he night\nGuard me, beseech ye!\n\n",
+          "suffix": "\n\nIACHIMO.\nThe crickets sing, an"
+        },
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 41298,
+          "end": 41324,
+          "startRef": {
+            "textId": "cymbeline/sceneII_7.2/p@57853",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneII_7.2/p@57853",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 26
+          },
+          "exact": "[Taking off her bracelet.]",
+          "prefix": "pel lying! Come off, come off;\n\n",
+          "suffix": "\n\nAs slippery as the Gordian kno"
+        },
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 40279,
+          "end": 41296,
+          "startRef": {
+            "textId": "cymbeline/sceneII_7.2/p@56692",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneII_7.2/p@56692",
+            "sectionId": "cymbeline-2-2",
+            "offsetUtf16": 1017
+          },
+          "exact": "IACHIMO.\nThe crickets sing, and man’s o’er-labour’d sense\nRepairs itself by rest. Our Tarquin thus\nDid softly press the rushes ere he waken’d\nThe chastity he wounded. Cytherea,\nHow bravely thou becom’st thy bed! fresh lily,\nAnd whiter than the sheets! That I might touch!\nBut kiss; one kiss! Rubies unparagon’d,\nHow dearly they do’t! ’Tis her breathing that\nPerfumes the chamber thus. The flame o’ th’ taper\nBows toward her and would under-peep her lids\nTo see th’ enclosed lights, now canopied\nUnder these windows white and azure, lac’d\nWith blue of heaven’s own tinct. But my design\nTo note the chamber. I will write all down:\nSuch and such pictures; there the window; such\nTh’ adornment of her bed; the arras, figures,\nWhy, such and such; and the contents o’ th’ story.\nAh, but some natural notes about her body\nAbove ten thousand meaner movables\nWould testify, t’ enrich mine inventory.\nO sleep, thou ape of death, lie dull upon her!\nAnd be her sense but as a monument,\nThus in a chapel lying! Come off, come off;",
+          "prefix": "Iachimo comes from the trunk.]\n\n",
+          "suffix": "\n\n[Taking off her bracelet.]\n\nAs"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-04",
+      "question": "How does Pisanio respond to Posthumus's order to kill Imogen?",
+      "options": [
+        {
+          "id": "cymbeline-04.a",
+          "text": "He kills her immediately without showing her the letter."
+        },
+        {
+          "id": "cymbeline-04.b",
+          "text": "He asks Cloten to carry out the order for him."
+        },
+        {
+          "id": "cymbeline-04.c",
+          "text": "He sends her to Rome in chains to face execution."
+        },
+        {
+          "id": "cymbeline-04.d",
+          "text": "He delays the task and seeks a way to keep her alive."
+        }
+      ],
+      "correctOptionId": "cymbeline-04.d",
+      "explanation": "Pisanio refuses to complete the murderous errand and says he has used the journey to gain time for another course.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 76791,
+          "end": 76920,
+          "startRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@104089",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@104089",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 129
+          },
+          "exact": "PISANIO.\nBut to win time\nTo lose so bad employment, in the which\nI have consider’d of a course. Good lady,\nHear me with patience.",
+          "prefix": "\nTh’ elected deer before thee?\n\n",
+          "suffix": "\n\nIMOGEN.\nTalk thy tongue weary,"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-05",
+      "question": "What plan does Pisanio suggest so Imogen can live safely away from court?",
+      "options": [
+        {
+          "id": "cymbeline-05.a",
+          "text": "Disguise herself as a young man and seek service with Lucius."
+        },
+        {
+          "id": "cymbeline-05.b",
+          "text": "Marry Cloten secretly and ask the Queen's protection."
+        },
+        {
+          "id": "cymbeline-05.c",
+          "text": "Claim the throne of Britain before Cymbeline returns."
+        },
+        {
+          "id": "cymbeline-05.d",
+          "text": "Hide in Iachimo's trunk and wait in her own bedroom."
+        }
+      ],
+      "correctOptionId": "cymbeline-05.a",
+      "explanation": "Pisanio supplies male clothing and proposes that Imogen offer her services to the Roman ambassador.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 78845,
+          "end": 79363,
+          "startRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@106801",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@106801",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 518
+          },
+          "exact": "PISANIO.\nWell then, here’s the point:\nYou must forget to be a woman; change\nCommand into obedience; fear and niceness\n(The handmaids of all women, or, more truly,\nWoman it pretty self) into a waggish courage;\nReady in gibes, quick-answer’d, saucy, and\nAs quarrelous as the weasel. Nay, you must\nForget that rarest treasure of your cheek,\nExposing it (but, O, the harder heart!\nAlack, no remedy) to the greedy touch\nOf common-kissing Titan, and forget\nYour laboursome and dainty trims wherein\nYou made great Juno angry.",
+          "prefix": "death on’t,\nI would adventure.\n\n",
+          "suffix": "\n\nIMOGEN.\nNay, be brief;\nI see i"
+        },
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 79438,
+          "end": 80012,
+          "startRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@107528",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneIII_7.4/p@107528",
+            "sectionId": "cymbeline-3-4",
+            "offsetUtf16": 574
+          },
+          "exact": "PISANIO.\nFirst, make yourself but like one.\nFore-thinking this, I have already fit\n(’Tis in my cloak-bag) doublet, hat, hose, all\nThat answer to them. Would you, in their serving,\nAnd with what imitation you can borrow\nFrom youth of such a season, ’fore noble Lucius\nPresent yourself, desire his service, tell him\nWherein you’re happy; which will make him know\nIf that his head have ear in music; doubtless\nWith joy he will embrace you; for he’s honourable,\nAnd, doubling that, most holy. Your means abroad:\nYou have me, rich; and I will never fail\nBeginning nor supplyment.",
+          "prefix": ", and am almost\nA man already.\n\n",
+          "suffix": "\n\nIMOGEN.\nThou art all the comfo"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-06",
+      "question": "Why does the drug Imogen takes make her appear dead without killing her?",
+      "options": [
+        {
+          "id": "cymbeline-06.a",
+          "text": "The bracelet she wears protects her from every poison."
+        },
+        {
+          "id": "cymbeline-06.b",
+          "text": "Cornelius substituted a temporary sleeping drug for the Queen's poison."
+        },
+        {
+          "id": "cymbeline-06.c",
+          "text": "Pisanio secretly diluted a deadly poison with water."
+        },
+        {
+          "id": "cymbeline-06.d",
+          "text": "Belarius gives her an antidote before she drinks it."
+        }
+      ],
+      "correctOptionId": "cymbeline-06.b",
+      "explanation": "Cornelius distrusts the Queen and provides a drug that only suspends the senses for a time.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 24543,
+          "end": 25067,
+          "startRef": {
+            "textId": "cymbeline/sceneI_7.6/p@35352",
+            "sectionId": "cymbeline-1-6",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneI_7.6/p@35352",
+            "sectionId": "cymbeline-1-6",
+            "offsetUtf16": 524
+          },
+          "exact": "CORNELIUS.\n[Aside.] I do not like her. She doth think she has\nStrange ling’ring poisons. I do know her spirit,\nAnd will not trust one of her malice with\nA drug of such damn’d nature. Those she has\nWill stupefy and dull the sense awhile,\nWhich first perchance she’ll prove on cats and dogs,\nThen afterward up higher; but there is\nNo danger in what show of death it makes,\nMore than the locking up the spirits a time,\nTo be more fresh, reviving. She is fool’d\nWith a most false effect; and I the truer\nSo to be false with her.",
+          "prefix": "o Pisanio.] Hark thee, a word.\n\n",
+          "suffix": "\n\nQUEEN.\nNo further service, Doc"
+        },
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 97192,
+          "end": 97500,
+          "startRef": {
+            "textId": "cymbeline/sceneIV_7.2/p@131683",
+            "sectionId": "cymbeline-4-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneIV_7.2/p@131683",
+            "sectionId": "cymbeline-4-2",
+            "offsetUtf16": 308
+          },
+          "exact": "IMOGEN.\n[Aside.] These are kind creatures. Gods, what lies I\nhave heard!\nOur courtiers say all’s savage but at court.\nExperience, O, thou disprov’st report!\nTh’ imperious seas breed monsters; for the dish,\nPoor tributary rivers as sweet fish.\nI am sick still; heart-sick. Pisanio,\nI’ll now taste of thy drug.",
+          "prefix": "Belarius.] So please you, sir.\n\n",
+          "suffix": "\n\n[Swallows some.]\n\nGUIDERIUS.\nI"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-07",
+      "question": "Why does Imogen mistake Cloten's headless body for Posthumus?",
+      "options": [
+        {
+          "id": "cymbeline-07.a",
+          "text": "She finds Posthumus's written confession beside it."
+        },
+        {
+          "id": "cymbeline-07.b",
+          "text": "Cloten's face bears the same scars as her husband's."
+        },
+        {
+          "id": "cymbeline-07.c",
+          "text": "The body is wearing Posthumus's clothes."
+        },
+        {
+          "id": "cymbeline-07.d",
+          "text": "Guiderius tells her that he has killed Posthumus."
+        }
+      ],
+      "correctOptionId": "cymbeline-07.c",
+      "explanation": "Unable to see a head, Imogen identifies the body through the garments of Posthumus.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 110300,
+          "end": 111968,
+          "startRef": {
+            "textId": "cymbeline/sceneIV_7.2/p@150069",
+            "sectionId": "cymbeline-4-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneIV_7.2/p@150069",
+            "sectionId": "cymbeline-4-2",
+            "offsetUtf16": 1668
+          },
+          "exact": "These flow’rs are like the pleasures of the world;\nThis bloody man, the care on’t. I hope I dream;\nFor so I thought I was a cave-keeper,\nAnd cook to honest creatures. But ’tis not so;\n’Twas but a bolt of nothing, shot at nothing,\nWhich the brain makes of fumes. Our very eyes\nAre sometimes, like our judgements, blind. Good faith,\nI tremble still with fear; but if there be\nYet left in heaven as small a drop of pity\nAs a wren’s eye, fear’d gods, a part of it!\nThe dream’s here still. Even when I wake it is\nWithout me, as within me; not imagin’d, felt.\nA headless man? The garments of Posthumus?\nI know the shape of’s leg; this is his hand,\nHis foot Mercurial, his Martial thigh,\nThe brawns of Hercules; but his Jovial face—\nMurder in heaven! How! ’Tis gone. Pisanio,\nAll curses madded Hecuba gave the Greeks,\nAnd mine to boot, be darted on thee! Thou,\nConspir’d with that irregulous devil, Cloten,\nHath here cut off my lord. To write and read\nBe henceforth treacherous! Damn’d Pisanio\nHath with his forged letters (damn’d Pisanio)\nFrom this most bravest vessel of the world\nStruck the main-top. O Posthumus! alas,\nWhere is thy head? Where’s that? Ay me! where’s that?\nPisanio might have kill’d thee at the heart,\nAnd left this head on. How should this be? Pisanio?\n’Tis he and Cloten; malice and lucre in them\nHave laid this woe here. O, ’tis pregnant, pregnant!\nThe drug he gave me, which he said was precious\nAnd cordial to me, have I not found it\nMurd’rous to th’ senses? That confirms it home.\nThis is Pisanio’s deed, and Cloten. O!\nGive colour to my pale cheek with thy blood,\nThat we the horrider may seem to those\nWhich chance to find us. O, my lord, my lord!",
+          "prefix": "goddesses!\n\n[Seeing the body.]\n\n",
+          "suffix": "\n\n[Falls fainting on the body.]\n"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-08",
+      "question": "What does Belarius finally reveal about Guiderius and Arviragus?",
+      "options": [
+        {
+          "id": "cymbeline-08.a",
+          "text": "They are Roman captains who deserted Lucius's army."
+        },
+        {
+          "id": "cymbeline-08.b",
+          "text": "They are Posthumus's sons by a former marriage."
+        },
+        {
+          "id": "cymbeline-08.c",
+          "text": "They are Cloten's servants pretending to be princes."
+        },
+        {
+          "id": "cymbeline-08.d",
+          "text": "They are Cymbeline's stolen sons, raised under other names."
+        }
+      ],
+      "correctOptionId": "cymbeline-08.d",
+      "explanation": "Belarius explains that the young men who call him father are the King's own children.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 153207,
+          "end": 153502,
+          "startRef": {
+            "textId": "cymbeline/sceneV_7.5/p@206581",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneV_7.5/p@206581",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 295
+          },
+          "exact": "BELARIUS.\nI am too blunt and saucy: here’s my knee.\nEre I arise I will prefer my sons;\nThen spare not the old father. Mighty sir,\nThese two young gentlemen that call me father,\nAnd think they are my sons, are none of mine;\nThey are the issue of your loins, my liege,\nAnd blood of your begetting.",
+          "prefix": "CYMBELINE.\nNursing of my sons?\n\n",
+          "suffix": "\n\nCYMBELINE.\nHow? my issue?\n\nBEL"
+        },
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 154668,
+          "end": 154985,
+          "startRef": {
+            "textId": "cymbeline/sceneV_7.5/p@208320",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneV_7.5/p@208320",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 317
+          },
+          "exact": "BELARIUS.\nBe pleas’d awhile.\nThis gentleman, whom I call Polydore,\nMost worthy prince, as yours, is true Guiderius;\nThis gentleman, my Cadwal, Arviragus,\nYour younger princely son; he, sir, was lapp’d\nIn a most curious mantle, wrought by th’ hand\nOf his queen mother, which for more probation\nI can with ease produce.",
+          "prefix": " wish\nA pair of worthier sons.\n\n",
+          "suffix": "\n\nCYMBELINE.\nGuiderius had\nUpon "
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-09",
+      "question": "How does Posthumus treat Iachimo once the deception has been exposed?",
+      "options": [
+        {
+          "id": "cymbeline-09.a",
+          "text": "He spares him and tells him to treat others better."
+        },
+        {
+          "id": "cymbeline-09.b",
+          "text": "He demands that Cymbeline execute him that day."
+        },
+        {
+          "id": "cymbeline-09.c",
+          "text": "He sends him to kill Pisanio as compensation."
+        },
+        {
+          "id": "cymbeline-09.d",
+          "text": "He gives him command of Britain's victorious army."
+        }
+      ],
+      "correctOptionId": "cymbeline-09.a",
+      "explanation": "Posthumus chooses forgiveness rather than revenge, and Cymbeline extends the spirit of pardon.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 157570,
+          "end": 157717,
+          "startRef": {
+            "textId": "cymbeline/sceneV_7.5/p@212065",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneV_7.5/p@212065",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 147
+          },
+          "exact": "POSTHUMUS.\nKneel not to me.\nThe pow’r that I have on you is to spare you;\nThe malice towards you to forgive you. Live,\nAnd deal with others better.",
+          "prefix": "ess\nThat ever swore her faith.\n\n",
+          "suffix": "\n\nCYMBELINE.\nNobly doom’d!\nWe’ll"
+        }
+      ]
+    },
+    {
+      "id": "cymbeline-10",
+      "question": "What does Cymbeline decide about Rome after Britain's victory?",
+      "options": [
+        {
+          "id": "cymbeline-10.a",
+          "text": "To forbid any future contact between the two peoples."
+        },
+        {
+          "id": "cymbeline-10.b",
+          "text": "To make peace and resume paying the customary tribute."
+        },
+        {
+          "id": "cymbeline-10.c",
+          "text": "To conquer Rome and give its crown to Posthumus."
+        },
+        {
+          "id": "cymbeline-10.d",
+          "text": "To keep Lucius imprisoned until every Roman leaves Britain."
+        }
+      ],
+      "correctOptionId": "cymbeline-10.b",
+      "explanation": "Although victorious, Cymbeline restores the tribute and orders a peace between Britain and Rome.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "cymbeline",
+          "contentVersion": "bbb38f68c66ded268ea152fe5278a1685861e1b7c7f95cba053c54fda89eea75",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 159480,
+          "end": 159769,
+          "startRef": {
+            "textId": "cymbeline/sceneV_7.5/p@214499",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "cymbeline/sceneV_7.5/p@214499",
+            "sectionId": "cymbeline-5-5",
+            "offsetUtf16": 289
+          },
+          "exact": "CYMBELINE.\nWell,\nMy peace we will begin. And, Caius Lucius,\nAlthough the victor, we submit to Cæsar\nAnd to the Roman empire, promising\nTo pay our wonted tribute, from the which\nWe were dissuaded by our wicked queen,\nWhom heavens in justice, both on her and hers,\nHave laid most heavy hand.",
+          "prefix": "ises Britain peace and plenty.\n\n",
+          "suffix": "\n\nSOOTHSAYER.\nThe fingers of the"
+        }
+      ]
+    }
+  ]
 }

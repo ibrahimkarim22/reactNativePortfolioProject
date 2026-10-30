@@ -1,4 +1,556 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "the-merchant-of-venice-comprehension",
+  "workId": "the-merchant-of-venice",
+  "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "the-merchant-of-venice-01",
+      "question": "Why does Bassanio seek Antonio’s financial help at the beginning?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-01.a",
+          "text": "To compete with Portia’s wealthy suitors at Belmont."
+        },
+        {
+          "id": "the-merchant-of-venice-01.b",
+          "text": "To buy back Jessica’s stolen jewels from Tubal."
+        },
+        {
+          "id": "the-merchant-of-venice-01.c",
+          "text": "To pay the fine imposed on Shylock in court."
+        },
+        {
+          "id": "the-merchant-of-venice-01.d",
+          "text": "To finance Lorenzo’s return from Belmont."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-01.a",
+      "explanation": "Bassanio wants the means to present himself as a rival for Portia’s hand.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 8826,
+          "end": 9484,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.1/p@12865",
+            "sectionId": "the-merchant-of-venice-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.1/p@12865",
+            "sectionId": "the-merchant-of-venice-1-1",
+            "offsetUtf16": 658
+          },
+          "exact": "BASSANIO.\nIn Belmont is a lady richly left,\nAnd she is fair, and, fairer than that word,\nOf wondrous virtues. Sometimes from her eyes\nI did receive fair speechless messages:\nHer name is Portia, nothing undervalu’d\nTo Cato’s daughter, Brutus’ Portia.\nNor is the wide world ignorant of her worth,\nFor the four winds blow in from every coast\nRenowned suitors, and her sunny locks\nHang on her temples like a golden fleece,\nWhich makes her seat of Belmont Colchos’ strond,\nAnd many Jasons come in quest of her.\nO my Antonio, had I but the means\nTo hold a rival place with one of them,\nI have a mind presages me such thrift\nThat I should questionless be fortunate.",
+          "prefix": "est unto it. Therefore, speak.\n\n",
+          "suffix": "\n\nANTONIO.\nThou know’st that all"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-02",
+      "question": "What penalty does Shylock’s bond specify if Antonio fails to repay on time?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-02.a",
+          "text": "All of Bassanio’s inheritance."
+        },
+        {
+          "id": "the-merchant-of-venice-02.b",
+          "text": "A pound of Antonio’s flesh."
+        },
+        {
+          "id": "the-merchant-of-venice-02.c",
+          "text": "Portia’s marriage ring."
+        },
+        {
+          "id": "the-merchant-of-venice-02.d",
+          "text": "Half of Lorenzo’s estate."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-02.b",
+      "explanation": "The bond names a pound of Antonio’s flesh as the forfeit for nonpayment.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 22401,
+          "end": 22749,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.3/p@29696",
+            "sectionId": "the-merchant-of-venice-1-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.3/p@29696",
+            "sectionId": "the-merchant-of-venice-1-3",
+            "offsetUtf16": 348
+          },
+          "exact": "SHYLOCK.\nThis kindness will I show.\nGo with me to a notary, seal me there\nYour single bond; and in a merry sport,\nIf you repay me not on such a day,\nIn such a place, such sum or sums as are\nExpress’d in the condition, let the forfeit\nBe nominated for an equal pound\nOf your fair flesh, to be cut off and taken\nIn what part of your body pleaseth me.",
+          "prefix": "\nBASSANIO.\nThis were kindness.\n\n",
+          "suffix": "\n\nANTONIO.\nContent, in faith, I’"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-03",
+      "question": "What limits Portia’s freedom to choose a husband?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-03.a",
+          "text": "The Duke of Venice must approve every suitor."
+        },
+        {
+          "id": "the-merchant-of-venice-03.b",
+          "text": "Antonio must first repay the loan to Shylock."
+        },
+        {
+          "id": "the-merchant-of-venice-03.c",
+          "text": "Her father’s will requires the suitor to choose the right casket."
+        },
+        {
+          "id": "the-merchant-of-venice-03.d",
+          "text": "Nerissa has promised her to the Prince of Morocco."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-03.c",
+      "explanation": "Portia says her dead father’s will governs her choice, and Nerissa explains the three-casket test.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 10477,
+          "end": 11234,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.2/p@14988",
+            "sectionId": "the-merchant-of-venice-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.2/p@14988",
+            "sectionId": "the-merchant-of-venice-1-2",
+            "offsetUtf16": 757
+          },
+          "exact": "PORTIA.\nIf to do were as easy as to know what were good to do, chapels had been churches, and poor men’s cottages princes’ palaces. It is a good divine that follows his own instructions; I can easier teach twenty what were good to be done than to be one of the twenty to follow mine own teaching. The brain may devise laws for the blood, but a hot temper leaps o’er a cold decree; such a hare is madness the youth, to skip o’er the meshes of good counsel the cripple. But this reasoning is not in the fashion to choose me a husband. O me, the word “choose”! I may neither choose who I would nor refuse who I dislike, so is the will of a living daughter curb’d by the will of a dead father. Is it not hard, Nerissa, that I cannot choose one, nor refuse none?",
+          "prefix": "ld be better if well followed.\n\n",
+          "suffix": "\n\nNERISSA.\nYour father was ever "
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 11236,
+          "end": 11649,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.2/p@15789",
+            "sectionId": "the-merchant-of-venice-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneI_22.2/p@15789",
+            "sectionId": "the-merchant-of-venice-1-2",
+            "offsetUtf16": 413
+          },
+          "exact": "NERISSA.\nYour father was ever virtuous, and holy men at their death have good inspirations. Therefore the lott’ry that he hath devised in these three chests of gold, silver, and lead, whereof who chooses his meaning chooses you, will no doubt never be chosen by any rightly but one who you shall rightly love. But what warmth is there in your affection towards any of these princely suitors that are already come?",
+          "prefix": "t choose one, nor refuse none?\n\n",
+          "suffix": "\n\nPORTIA.\nI pray thee over-name "
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-04",
+      "question": "Why does Bassanio choose the lead casket?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-04.a",
+          "text": "He believes gold represents the plainest and most honest choice."
+        },
+        {
+          "id": "the-merchant-of-venice-04.b",
+          "text": "He thinks silver guarantees exactly what every suitor deserves."
+        },
+        {
+          "id": "the-merchant-of-venice-04.c",
+          "text": "He follows the choice already made by Morocco."
+        },
+        {
+          "id": "the-merchant-of-venice-04.d",
+          "text": "He distrusts attractive appearances and accepts lead’s unpromising exterior."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-04.d",
+      "explanation": "Bassanio rejects deceptive ornament and is moved by plain lead rather than gold or silver.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 64404,
+          "end": 65911,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIII_22.2/p@85281",
+            "sectionId": "the-merchant-of-venice-3-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIII_22.2/p@85281",
+            "sectionId": "the-merchant-of-venice-3-2",
+            "offsetUtf16": 1507
+          },
+          "exact": "BASSANIO.\nSo may the outward shows be least themselves.\nThe world is still deceiv’d with ornament.\nIn law, what plea so tainted and corrupt\nBut, being season’d with a gracious voice,\nObscures the show of evil? In religion,\nWhat damned error but some sober brow\nWill bless it, and approve it with a text,\nHiding the grossness with fair ornament?\nThere is no vice so simple but assumes\nSome mark of virtue on his outward parts.\nHow many cowards, whose hearts are all as false\nAs stairs of sand, wear yet upon their chins\nThe beards of Hercules and frowning Mars,\nWho inward search’d, have livers white as milk,\nAnd these assume but valour’s excrement\nTo render them redoubted. Look on beauty,\nAnd you shall see ’tis purchas’d by the weight,\nWhich therein works a miracle in nature,\nMaking them lightest that wear most of it:\nSo are those crisped snaky golden locks\nWhich make such wanton gambols with the wind\nUpon supposed fairness, often known\nTo be the dowry of a second head,\nThe skull that bred them in the sepulchre.\nThus ornament is but the guiled shore\nTo a most dangerous sea; the beauteous scarf\nVeiling an Indian beauty; in a word,\nThe seeming truth which cunning times put on\nTo entrap the wisest. Therefore thou gaudy gold,\nHard food for Midas, I will none of thee,\nNor none of thee, thou pale and common drudge\n’Tween man and man: but thou, thou meagre lead,\nWhich rather threaten’st than dost promise aught,\nThy palenness moves me more than eloquence,\nAnd here choose I, joy be the consequence!",
+          "prefix": ".\n\nALL.\n     Ding, dong, bell.\n\n",
+          "suffix": "\n\nPORTIA.\n[Aside.] How all the o"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-05",
+      "question": "What future does Jessica plan with Lorenzo?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-05.a",
+          "text": "Leave her father’s household, become Christian, and marry Lorenzo."
+        },
+        {
+          "id": "the-merchant-of-venice-05.b",
+          "text": "Remain with Shylock while Lorenzo marries Nerissa."
+        },
+        {
+          "id": "the-merchant-of-venice-05.c",
+          "text": "Travel to Padua to study law with Bellario."
+        },
+        {
+          "id": "the-merchant-of-venice-05.d",
+          "text": "Persuade Lorenzo to enforce Antonio’s bond."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-05.a",
+      "explanation": "Jessica anticipates ending her conflict with her father by becoming Lorenzo’s wife and adopting his faith.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 36751,
+          "end": 36989,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneII_22.3/p@48381",
+            "sectionId": "the-merchant-of-venice-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneII_22.3/p@48381",
+            "sectionId": "the-merchant-of-venice-2-3",
+            "offsetUtf16": 238
+          },
+          "exact": "Alack, what heinous sin is it in me\nTo be ashamed to be my father’s child!\nBut though I am a daughter to his blood,\nI am not to his manners. O Lorenzo,\nIf thou keep promise, I shall end this strife,\nBecome a Christian and thy loving wife.",
+          "prefix": " Launcelet.\n\n[Exit Launcelet.]\n\n",
+          "suffix": "\n\n[Exit.]\n\nSCENE IV. The same. A"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-06",
+      "question": "How does Shylock explain his desire to take Antonio’s flesh?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-06.a",
+          "text": "As a way to secure Portia’s choice of the silver casket."
+        },
+        {
+          "id": "the-merchant-of-venice-06.b",
+          "text": "As revenge for Antonio’s insults and injuries against him."
+        },
+        {
+          "id": "the-merchant-of-venice-06.c",
+          "text": "As repayment for Lorenzo’s purchase of a ship."
+        },
+        {
+          "id": "the-merchant-of-venice-06.d",
+          "text": "As a reward promised by Bellario for serving the court."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-06.b",
+      "explanation": "Shylock describes Antonio’s mistreatment and says the flesh will feed his revenge.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 57634,
+          "end": 58655,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIII_22.1/p@76796",
+            "sectionId": "the-merchant-of-venice-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIII_22.1/p@76796",
+            "sectionId": "the-merchant-of-venice-3-1",
+            "offsetUtf16": 1021
+          },
+          "exact": "SHYLOCK.\nTo bait fish withal; if it will feed nothing else, it will feed my revenge. He hath disgrac’d me and hind’red me half a million, laugh’d at my losses, mock’d at my gains, scorned my nation, thwarted my bargains, cooled my friends, heated mine enemies. And what’s his reason? I am a Jew. Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions? Fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge? If we are like you in the rest, we will resemble you in that. If a Jew wrong a Christian, what is his humility? Revenge. If a Christian wrong a Jew, what should his sufferance be by Christian example? Why, revenge! The villainy you teach me I will execute, and it shall go hard but I will better the instruction.",
+          "prefix": "s flesh! What’s that good for?\n\n",
+          "suffix": "\n\nEnter a man from Antonio.\n\nSER"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-07",
+      "question": "What role has Portia secretly performed before revealing herself at Belmont?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-07.a",
+          "text": "The Duke who presided over the Venetian court."
+        },
+        {
+          "id": "the-merchant-of-venice-07.b",
+          "text": "The messenger who brought news of Jessica’s flight."
+        },
+        {
+          "id": "the-merchant-of-venice-07.c",
+          "text": "The learned doctor who judged the bond dispute."
+        },
+        {
+          "id": "the-merchant-of-venice-07.d",
+          "text": "The clerk who accompanied Nerissa to court."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-07.c",
+      "explanation": "Bellario’s letter identifies Portia as the doctor and Nerissa as her clerk.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 119096,
+          "end": 119672,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneV_22.1/p@156944",
+            "sectionId": "the-merchant-of-venice-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneV_22.1/p@156944",
+            "sectionId": "the-merchant-of-venice-5-1",
+            "offsetUtf16": 576
+          },
+          "exact": "PORTIA.\nSpeak not so grossly. You are all amaz’d.\nHere is a letter; read it at your leisure.\nIt comes from Padua from Bellario.\nThere you shall find that Portia was the doctor,\nNerissa there, her clerk. Lorenzo here\nShall witness I set forth as soon as you,\nAnd even but now return’d. I have not yet\nEnter’d my house. Antonio, you are welcome,\nAnd I have better news in store for you\nThan you expect: unseal this letter soon.\nThere you shall find three of your argosies\nAre richly come to harbour suddenly.\nYou shall not know by what strange accident\nI chanced on this letter.",
+          "prefix": "kolds ere we have deserv’d it?\n\n",
+          "suffix": "\n\nANTONIO.\nI am dumb.\n\nBASSANIO."
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-08",
+      "question": "What distinction does Portia use to stop Shylock from taking the forfeited flesh?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-08.a",
+          "text": "The bond grants blood but no flesh."
+        },
+        {
+          "id": "the-merchant-of-venice-08.b",
+          "text": "The bond expires when Bassanio marries."
+        },
+        {
+          "id": "the-merchant-of-venice-08.c",
+          "text": "The bond binds Bassanio rather than Antonio."
+        },
+        {
+          "id": "the-merchant-of-venice-08.d",
+          "text": "The bond grants flesh but no blood."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-08.d",
+      "explanation": "Portia insists on the literal wording: a pound of flesh, with no right to shed blood.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 99024,
+          "end": 99368,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@129638",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@129638",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 344
+          },
+          "exact": "PORTIA.\nTarry a little, there is something else.\nThis bond doth give thee here no jot of blood.\nThe words expressly are “a pound of flesh”:\nTake then thy bond, take thou thy pound of flesh,\nBut in the cutting it, if thou dost shed\nOne drop of Christian blood, thy lands and goods\nAre, by the laws of Venice, confiscate\nUnto the state of Venice.",
+          "prefix": "ge! A sentence! Come, prepare.\n\n",
+          "suffix": "\n\nGRATIANO.\nO upright judge! Mar"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-09",
+      "question": "What two additional conditions does Antonio demand when Shylock is spared?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-09.a",
+          "text": "Conversion to Christianity and a recorded inheritance for Lorenzo and Jessica."
+        },
+        {
+          "id": "the-merchant-of-venice-09.b",
+          "text": "Marriage to Nerissa and repayment of Bassanio’s debts."
+        },
+        {
+          "id": "the-merchant-of-venice-09.c",
+          "text": "Exile from Venice and the sale of Portia’s estate."
+        },
+        {
+          "id": "the-merchant-of-venice-09.d",
+          "text": "Return of the ring and a pardon for Bellario."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-09.a",
+      "explanation": "Antonio requires immediate conversion and a legal gift of Shylock’s remaining estate to Lorenzo and Jessica at his death.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 102386,
+          "end": 102823,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@134092",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@134092",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 437
+          },
+          "exact": "ANTONIO.\nSo please my lord the Duke and all the court\nTo quit the fine for one half of his goods,\nI am content, so he will let me have\nThe other half in use, to render it\nUpon his death unto the gentleman\nThat lately stole his daughter.\nTwo things provided more, that for this favour,\nHe presently become a Christian;\nThe other, that he do record a gift,\nHere in the court, of all he dies possess’d\nUnto his son Lorenzo and his daughter.",
+          "prefix": " nothing else, for God’s sake!\n\n",
+          "suffix": "\n\nDUKE.\nHe shall do this, or els"
+        }
+      ]
+    },
+    {
+      "id": "the-merchant-of-venice-10",
+      "question": "Why does Bassanio finally give the doctor the ring he promised Portia to keep?",
+      "options": [
+        {
+          "id": "the-merchant-of-venice-10.a",
+          "text": "Portia openly releases him from the promise before the court."
+        },
+        {
+          "id": "the-merchant-of-venice-10.b",
+          "text": "Antonio urges him to value the doctor’s service and their friendship above the promise."
+        },
+        {
+          "id": "the-merchant-of-venice-10.c",
+          "text": "Shylock makes the ring a condition of abandoning the bond."
+        },
+        {
+          "id": "the-merchant-of-venice-10.d",
+          "text": "Lorenzo tells him the ring originally belonged to Jessica."
+        }
+      ],
+      "correctOptionId": "the-merchant-of-venice-10.b",
+      "explanation": "Bassanio first cites his promise, then yields after Antonio appeals to the doctor’s merits and his own love.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 105163,
+          "end": 105308,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@137859",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@137859",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 145
+          },
+          "exact": "BASSANIO.\nGood sir, this ring was given me by my wife,\nAnd when she put it on, she made me vow\nThat I should neither sell, nor give, nor lose it.",
+          "prefix": "w a beggar should be answer’d.\n\n",
+          "suffix": "\n\nPORTIA.\nThat ’scuse serves man"
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 105564,
+          "end": 105694,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@138445",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@138445",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 130
+          },
+          "exact": "ANTONIO.\nMy Lord Bassanio, let him have the ring.\nLet his deservings and my love withal\nBe valued ’gainst your wife’s commandment.",
+          "prefix": "\n\n[Exeunt Portia and Nerissa.]\n\n",
+          "suffix": "\n\nBASSANIO.\nGo, Gratiano, run an"
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-merchant-of-venice",
+          "contentVersion": "06738752610b6d31b6349a907f03ef72608919353faf0ff0d09a7a6e086faccc",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 105696,
+          "end": 105828,
+          "startRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@138619",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-merchant-of-venice/sceneIV_22.1/p@138619",
+            "sectionId": "the-merchant-of-venice-4-1",
+            "offsetUtf16": 132
+          },
+          "exact": "BASSANIO.\nGo, Gratiano, run and overtake him;\nGive him the ring, and bring him if thou canst\nUnto Antonio’s house. Away, make haste.",
+          "prefix": "ainst your wife’s commandment.\n\n",
+          "suffix": "\n\n[Exit Gratiano.]\n\nCome, you an"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,622 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "titus-andronicus-comprehension",
+  "workId": "titus-andronicus",
+  "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "titus-andronicus-01",
+      "question": "Whom does Titus recommend for the imperial crown?",
+      "options": [
+        {
+          "id": "titus-andronicus-01.a",
+          "text": "Bassianus, the late emperor’s younger son."
+        },
+        {
+          "id": "titus-andronicus-01.b",
+          "text": "Saturninus, the late emperor’s eldest son."
+        },
+        {
+          "id": "titus-andronicus-01.c",
+          "text": "Lucius, his own surviving son."
+        },
+        {
+          "id": "titus-andronicus-01.d",
+          "text": "Aaron, Tamora’s companion."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-01.b",
+      "explanation": "Titus asks the tribunes to crown the emperor’s eldest son, whom he calls Saturnine.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 12123,
+          "end": 12423,
+          "startRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@16910",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@16910",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 300
+          },
+          "exact": "TITUS.\nTribunes, I thank you; and this suit I make,\nThat you create your emperor’s eldest son,\nLord Saturnine; whose virtues will, I hope,\nReflect on Rome as Titan’s rays on earth,\nAnd ripen justice in this commonweal.\nThen, if you will elect by my advice,\nCrown him, and say “Long live our emperor!”",
+          "prefix": "le will accept whom he admits.\n\n",
+          "suffix": "\n\nMARCUS.\nWith voices and applau"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-02",
+      "question": "Why does Titus refuse Tamora’s plea to spare her son?",
+      "options": [
+        {
+          "id": "titus-andronicus-02.a",
+          "text": "He believes her son has murdered Bassianus."
+        },
+        {
+          "id": "titus-andronicus-02.b",
+          "text": "He has promised Aaron the boy’s inheritance."
+        },
+        {
+          "id": "titus-andronicus-02.c",
+          "text": "He accepts his sons’ demand for a sacrifice to their dead brothers."
+        },
+        {
+          "id": "titus-andronicus-02.d",
+          "text": "He wants Saturninus to adopt the prisoner."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-02.c",
+      "explanation": "Titus presents the sacrifice as an obligation to the spirits of his fallen sons.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 7368,
+          "end": 7635,
+          "startRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@10739",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@10739",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 267
+          },
+          "exact": "TITUS.\nPatient yourself, madam, and pardon me.\nThese are their brethren whom your Goths beheld\nAlive and dead, and for their brethren slain\nReligiously they ask a sacrifice.\nTo this your son is marked, and die he must,\nT’ appease their groaning shadows that are gone.",
+          "prefix": "itus, spare my first-born son.\n\n",
+          "suffix": "\n\nLUCIUS.\nAway with him, and mak"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-03",
+      "question": "What provokes Titus to strike Mutius during the dispute over Lavinia?",
+      "options": [
+        {
+          "id": "titus-andronicus-03.a",
+          "text": "Mutius bars his way as Lavinia is taken away."
+        },
+        {
+          "id": "titus-andronicus-03.b",
+          "text": "Mutius refuses to sacrifice Alarbus."
+        },
+        {
+          "id": "titus-andronicus-03.c",
+          "text": "Mutius asks Aaron to overthrow Saturninus."
+        },
+        {
+          "id": "titus-andronicus-03.d",
+          "text": "Mutius steals the crown intended for Bassianus."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-03.a",
+      "explanation": "Mutius guards the door and blocks Titus, who calls him a villain and stabs him.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 15176,
+          "end": 15268,
+          "startRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21064",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21064",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 92
+          },
+          "exact": "MUTIUS.\nBrothers, help to convey her hence away,\nAnd with my sword I’ll keep this door safe.",
+          "prefix": "anus and Marcus with Lavinia.]\n\n",
+          "suffix": "\n\n[Exeunt Lucius, Quintus and Ma"
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 15469,
+          "end": 15521,
+          "startRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21618",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21618",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 52
+          },
+          "exact": "TITUS.\nWhat, villain boy,\nBarr’st me my way in Rome?",
+          "prefix": "S.\nMy lord, you pass not here.\n\n",
+          "suffix": "\n\n[Stabbing Mutius.]\n\nMUTIUS.\nHe"
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 15523,
+          "end": 15541,
+          "startRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21709",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneI_34.1/p@21709",
+            "sectionId": "titus-andronicus-1-1",
+            "offsetUtf16": 18
+          },
+          "exact": "[Stabbing Mutius.]",
+          "prefix": "oy,\nBarr’st me my way in Rome?\n\n",
+          "suffix": "\n\nMUTIUS.\nHelp, Lucius, help!\n\n["
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-04",
+      "question": "How does Aaron help incriminate Titus’s sons in Bassianus’s murder?",
+      "options": [
+        {
+          "id": "titus-andronicus-04.a",
+          "text": "He persuades Lavinia to accuse them aloud."
+        },
+        {
+          "id": "titus-andronicus-04.b",
+          "text": "He disguises them as the emperor’s guards."
+        },
+        {
+          "id": "titus-andronicus-04.c",
+          "text": "He obtains their signed confession before the hunt."
+        },
+        {
+          "id": "titus-andronicus-04.d",
+          "text": "He lures them to the body and plants a letter and gold."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-04.d",
+      "explanation": "Aaron later admits leading the brothers to the pit, writing the letter, and hiding the named reward.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 98190,
+          "end": 99191,
+          "startRef": {
+            "textId": "titus-andronicus/sceneV_34.1/p@131538",
+            "sectionId": "titus-andronicus-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneV_34.1/p@131538",
+            "sectionId": "titus-andronicus-5-1",
+            "offsetUtf16": 1001
+          },
+          "exact": "AARON.\nIndeed, I was their tutor to instruct them.\nThat codding spirit had they from their mother,\nAs sure a card as ever won the set;\nThat bloody mind I think they learned of me,\nAs true a dog as ever fought at head.\nWell, let my deeds be witness of my worth.\nI trained thy brethren to that guileful hole\nWhere the dead corpse of Bassianus lay.\nI wrote the letter that thy father found,\nAnd hid the gold within that letter mentioned,\nConfederate with the queen and her two sons.\nAnd what not done, that thou hast cause to rue,\nWherein I had no stroke of mischief in’t?\nI played the cheater for thy father’s hand,\nAnd, when I had it, drew myself apart,\nAnd almost broke my heart with extreme laughter.\nI pried me through the crevice of a wall\nWhen, for his hand, he had his two sons’ heads;\nBeheld his tears, and laughed so heartily\nThat both mine eyes were rainy like to his.\nAnd when I told the empress of this sport,\nShe sounded almost at my pleasing tale,\nAnd for my tidings gave me twenty kisses.",
+          "prefix": "eastly villains, like thyself!\n\n",
+          "suffix": "\n\nGOTH.\nWhat, canst thou say all"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-05",
+      "question": "What are Chiron and Demetrius trying to prevent by mutilating Lavinia?",
+      "options": [
+        {
+          "id": "titus-andronicus-05.a",
+          "text": "Her identifying the men who assaulted her."
+        },
+        {
+          "id": "titus-andronicus-05.b",
+          "text": "Her marrying Saturninus after the hunt."
+        },
+        {
+          "id": "titus-andronicus-05.c",
+          "text": "Her leading the Goths against Rome."
+        },
+        {
+          "id": "titus-andronicus-05.d",
+          "text": "Her returning Aaron’s child to Tamora."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-05.a",
+      "explanation": "Their taunts about speaking and writing show the purpose of silencing her testimony.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 47295,
+          "end": 47399,
+          "startRef": {
+            "textId": "titus-andronicus/sceneII_34.4/p@64267",
+            "sectionId": "titus-andronicus-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneII_34.4/p@64267",
+            "sectionId": "titus-andronicus-2-4",
+            "offsetUtf16": 104
+          },
+          "exact": "DEMETRIUS.\nSo, now go tell, an if thy tongue can speak,\nWho ’twas that cut thy tongue and ravished thee.",
+          "prefix": " tongue cut out, and ravished.\n\n",
+          "suffix": "\n\nCHIRON.\nWrite down thy mind, b"
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 47401,
+          "end": 47500,
+          "startRef": {
+            "textId": "titus-andronicus/sceneII_34.4/p@64410",
+            "sectionId": "titus-andronicus-2-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneII_34.4/p@64410",
+            "sectionId": "titus-andronicus-2-4",
+            "offsetUtf16": 99
+          },
+          "exact": "CHIRON.\nWrite down thy mind, bewray thy meaning so,\nAn if thy stumps will let thee play the scribe.",
+          "prefix": " thy tongue and ravished thee.\n\n",
+          "suffix": "\n\nDEMETRIUS.\nSee how with signs "
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-06",
+      "question": "What does Titus receive after surrendering his hand in hope of saving his sons?",
+      "options": [
+        {
+          "id": "titus-andronicus-06.a",
+          "text": "His sons alive and an imperial pardon."
+        },
+        {
+          "id": "titus-andronicus-06.b",
+          "text": "The crown and a command over the Goths."
+        },
+        {
+          "id": "titus-andronicus-06.c",
+          "text": "A letter proving that Bassianus survived."
+        },
+        {
+          "id": "titus-andronicus-06.d",
+          "text": "His sons’ severed heads and his own returned hand."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-06.d",
+      "explanation": "Aaron promises living sons, but the messenger brings their heads and returns Titus’s hand in scorn.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 57005,
+          "end": 57311,
+          "startRef": {
+            "textId": "titus-andronicus/sceneIII_34.1/p@76708",
+            "sectionId": "titus-andronicus-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneIII_34.1/p@76708",
+            "sectionId": "titus-andronicus-3-1",
+            "offsetUtf16": 306
+          },
+          "exact": "AARON.\nTitus Andronicus, my lord the emperor\nSends thee this word, that, if thou love thy sons,\nLet Marcus, Lucius, or thyself, old Titus,\nOr any one of you, chop off your hand\nAnd send it to the king; he for the same\nWill send thee hither both thy sons alive,\nAnd that shall be the ransom for their fault.",
+          "prefix": "\n\nEnter Aaron the Moor, alone.\n\n",
+          "suffix": "\n\nTITUS.\nO gracious emperor! O g"
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 60949,
+          "end": 61264,
+          "startRef": {
+            "textId": "titus-andronicus/sceneIII_34.1/p@82030",
+            "sectionId": "titus-andronicus-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneIII_34.1/p@82030",
+            "sectionId": "titus-andronicus-3-1",
+            "offsetUtf16": 315
+          },
+          "exact": "MESSENGER.\nWorthy Andronicus, ill art thou repaid\nFor that good hand thou sent’st the emperor.\nHere are the heads of thy two noble sons,\nAnd here’s thy hand, in scorn to thee sent back.\nThy grief their sports, thy resolution mocked;\nThat woe is me to think upon thy woes,\nMore than remembrance of my father’s death.",
+          "prefix": "ger with two heads and a hand.\n\n",
+          "suffix": "\n\n[Exit.]\n\nMARCUS.\nNow let hot E"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-07",
+      "question": "How does Lavinia disclose the names of her attackers despite her injuries?",
+      "options": [
+        {
+          "id": "titus-andronicus-07.a",
+          "text": "She dictates their names to Tamora."
+        },
+        {
+          "id": "titus-andronicus-07.b",
+          "text": "She persuades Aaron to write a confession for her."
+        },
+        {
+          "id": "titus-andronicus-07.c",
+          "text": "She writes using a staff guided by her mouth and stumps."
+        },
+        {
+          "id": "titus-andronicus-07.d",
+          "text": "She points to portraits displayed by Saturninus."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-07.c",
+      "explanation": "The stage direction records her writing, and Titus reads the names Chiron and Demetrius.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 71612,
+          "end": 71689,
+          "startRef": {
+            "textId": "titus-andronicus/sceneIV_34.1/p@95919",
+            "sectionId": "titus-andronicus-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneIV_34.1/p@95919",
+            "sectionId": "titus-andronicus-4-1",
+            "offsetUtf16": 77
+          },
+          "exact": "[She takes the staff in her mouth, and guides it with her stumps and writes.]",
+          "prefix": "ow the traitors and the truth!\n\n",
+          "suffix": "\n\nO, do ye read, my lord, what s"
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 71736,
+          "end": 71772,
+          "startRef": {
+            "textId": "titus-andronicus/sceneIV_34.1/p@96101",
+            "sectionId": "titus-andronicus-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneIV_34.1/p@96101",
+            "sectionId": "titus-andronicus-4-1",
+            "offsetUtf16": 36
+          },
+          "exact": "TITUS.\n“Stuprum. Chiron. Demetrius.”",
+          "prefix": ", my lord, what she hath writ?\n\n",
+          "suffix": "\n\nMARCUS.\nWhat, what! The lustfu"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-08",
+      "question": "What revenge does Titus prepare for Tamora’s banquet?",
+      "options": [
+        {
+          "id": "titus-andronicus-08.a",
+          "text": "Serving the gold Aaron hid beside the pit."
+        },
+        {
+          "id": "titus-andronicus-08.b",
+          "text": "Serving her sons baked in a pie."
+        },
+        {
+          "id": "titus-andronicus-08.c",
+          "text": "Replacing the meal with water and refusing her entry."
+        },
+        {
+          "id": "titus-andronicus-08.d",
+          "text": "Offering her the imperial crown in return for confession."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-08.b",
+      "explanation": "Titus plans to turn Chiron and Demetrius into the food their mother will eat.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 108743,
+          "end": 110170,
+          "startRef": {
+            "textId": "titus-andronicus/sceneV_34.2/p@145441",
+            "sectionId": "titus-andronicus-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneV_34.2/p@145441",
+            "sectionId": "titus-andronicus-5-2",
+            "offsetUtf16": 1427
+          },
+          "exact": "TITUS.\nCome, come, Lavinia; look, thy foes are bound.\nSirs, stop their mouths, let them not speak to me,\nBut let them hear what fearful words I utter.\nO villains, Chiron and Demetrius!\nHere stands the spring whom you have stained with mud,\nThis goodly summer with your winter mixed.\nYou killed her husband, and for that vile fault\nTwo of her brothers were condemned to death,\nMy hand cut off and made a merry jest,\nBoth her sweet hands, her tongue, and that more dear\nThan hands or tongue, her spotless chastity,\nInhuman traitors, you constrained and forced.\nWhat would you say if I should let you speak?\nVillains, for shame you could not beg for grace.\nHark, wretches, how I mean to martyr you.\nThis one hand yet is left to cut your throats,\nWhiles that Lavinia ’tween her stumps doth hold\nThe basin that receives your guilty blood.\nYou know your mother means to feast with me,\nAnd calls herself Revenge, and thinks me mad.\nHark, villains! I will grind your bones to dust,\nAnd with your blood and it I’ll make a paste,\nAnd of the paste a coffin I will rear,\nAnd make two pasties of your shameful heads,\nAnd bid that strumpet, your unhallowed dam,\nLike to the earth swallow her own increase.\nThis is the feast that I have bid her to,\nAnd this the banquet she shall surfeit on;\nFor worse than Philomel you used my daughter,\nAnd worse than Procne I will be revenged.\nAnd now prepare your throats.—Lavinia, come\nReceive the blood.",
+          "prefix": "ife, and Lavinia with a basin.\n\n",
+          "suffix": "\n\n[He cuts their throats.]\n\nAnd "
+        },
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 113757,
+          "end": 113947,
+          "startRef": {
+            "textId": "titus-andronicus/sceneV_34.3/p@152367",
+            "sectionId": "titus-andronicus-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneV_34.3/p@152367",
+            "sectionId": "titus-andronicus-5-3",
+            "offsetUtf16": 190
+          },
+          "exact": "TITUS.\nWhy, there they are, both baked in that pie,\nWhereof their mother daintily hath fed,\nEating the flesh that she herself hath bred.\n’Tis true, ’tis true; witness my knife’s sharp point.",
+          "prefix": "h them hither to us presently.\n\n",
+          "suffix": "\n\n[He stabs the Empress.]\n\nSATUR"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-09",
+      "question": "What condition does Aaron demand before revealing his crimes to Lucius?",
+      "options": [
+        {
+          "id": "titus-andronicus-09.a",
+          "text": "A promise that he will become emperor."
+        },
+        {
+          "id": "titus-andronicus-09.b",
+          "text": "A pardon for Chiron and Demetrius."
+        },
+        {
+          "id": "titus-andronicus-09.c",
+          "text": "A promise that his child will live."
+        },
+        {
+          "id": "titus-andronicus-09.d",
+          "text": "The return of Titus’s severed hand."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-09.c",
+      "explanation": "Aaron offers information only if Lucius guarantees the child’s survival.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 96455,
+          "end": 96819,
+          "startRef": {
+            "textId": "titus-andronicus/sceneV_34.1/p@129294",
+            "sectionId": "titus-andronicus-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneV_34.1/p@129294",
+            "sectionId": "titus-andronicus-5-1",
+            "offsetUtf16": 364
+          },
+          "exact": "AARON.\nAnd if it please thee? Why, assure thee, Lucius,\n’Twill vex thy soul to hear what I shall speak;\nFor I must talk of murders, rapes, and massacres,\nActs of black night, abominable deeds,\nComplots of mischief, treason, villainies,\nRuthful to hear, yet piteously performed.\nAnd this shall all be buried in my death,\nUnless thou swear to me my child shall live.",
+          "prefix": ", and I will see it nourished.\n\n",
+          "suffix": "\n\nLUCIUS.\nTell on thy mind; I sa"
+        }
+      ]
+    },
+    {
+      "id": "titus-andronicus-10",
+      "question": "Who is acclaimed emperor after the final bloodshed?",
+      "options": [
+        {
+          "id": "titus-andronicus-10.a",
+          "text": "Lucius."
+        },
+        {
+          "id": "titus-andronicus-10.b",
+          "text": "Marcus."
+        },
+        {
+          "id": "titus-andronicus-10.c",
+          "text": "Aaron."
+        },
+        {
+          "id": "titus-andronicus-10.d",
+          "text": "Quintus."
+        }
+      ],
+      "correctOptionId": "titus-andronicus-10.a",
+      "explanation": "The Romans hail Lucius as their new emperor.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "titus-andronicus",
+          "contentVersion": "5ec3eecffbc2de7bdcaedb29f1c487cac45d692aaec4f066c7d3d4f9c64c5c74",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 117408,
+          "end": 117455,
+          "startRef": {
+            "textId": "titus-andronicus/sceneV_34.3/p@156856",
+            "sectionId": "titus-andronicus-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "titus-andronicus/sceneV_34.3/p@156856",
+            "sectionId": "titus-andronicus-5-3",
+            "offsetUtf16": 47
+          },
+          "exact": "ROMANS.\nLucius, all hail, Rome’s royal emperor!",
+          "prefix": "n voice do cry it shall be so.\n\n",
+          "suffix": "\n\nMARCUS.\nGo, go into old Titus’"
+        }
+      ]
+    }
+  ]
 }

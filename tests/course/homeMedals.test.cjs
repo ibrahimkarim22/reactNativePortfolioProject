@@ -10,10 +10,10 @@ const nodes = (tree, type) => !tree || typeof tree !== 'object' ? [] : [
 const text = tree => typeof tree === 'string' || typeof tree === 'number' ? String(tree) : !tree || typeof tree !== 'object'
   ? '' : (tree.props?.children || []).flat(Infinity).map(text).join(' ');
 
-function host({ tab, level = 1 } = {}) {
+function host({ tab, level = 1, initialProgress } = {}) {
   const route = { key: 'home-fixture', params: { tab } }, calls = [], writes = [], slots = [];
   let cursor = 0, effects = [], dirty = false;
-  let progress = { status: 'ready', completedLevel: level };
+  let progress = initialProgress || { status: 'ready', completedLevel: level };
   const equal = (a, b) => a && b && a.length === b.length && a.every((v, i) => Object.is(v, b[i]));
   const memo = (factory, deps) => { const i = cursor++; if (!slots[i] || !equal(slots[i].deps, deps)) slots[i] = { deps, value: factory() }; return slots[i].value; };
   const React = {
@@ -78,5 +78,33 @@ test('Home collection receives raw confirmed level 39 and earned actions use the
   assert.deepEqual(h.calls, [['Lesson', { id: 'henry-viii' }]]);
   h.setProgress({ status: 'loading', completedLevel: 0 });
   assert.equal(nodes(h.render(), 'MedalsCollection').length, 0, 'unconfirmed or changed-account progress cannot expose earned state');
+  assert.deepEqual(h.writes, []);
+});
+
+test('Home never renders medals from a non-ready account snapshot even when it contains a stale earned level', () => {
+  for (const status of ['loading', 'error', 'signed-out']) {
+    const h = host({ tab: 'Medals', initialProgress: { status, completedLevel: 39 } });
+    const tree = h.render();
+    assert.equal(nodes(tree, 'MedalsCollection').length, 0, `${status} cannot expose an earned collection`);
+    const notice = nodes(tree, 'CourseProgressNotice')[0];
+    assert.ok(notice, `${status} retains the existing account progress notice`);
+    assert.equal(notice.props.status, status);
+    assert.deepEqual(h.calls, []);
+    assert.deepEqual(h.writes, []);
+  }
+});
+
+test('switching accounts hides the old earned collection until the new account is ready', () => {
+  const h = host({ tab: 'Medals', level: 39 });
+  assert.equal(nodes(h.render(), 'MedalsCollection')[0].props.completedLevel, 39);
+  h.setProgress({ status: 'loading', completedLevel: 39 });
+  let tree = h.render();
+  assert.equal(nodes(tree, 'MedalsCollection').length, 0, 'a stale previous-account level cannot flash while loading');
+  assert.equal(nodes(tree, 'CourseProgressNotice')[0].props.status, 'loading');
+  h.setProgress({ status: 'ready', completedLevel: 0 });
+  tree = h.render();
+  assert.equal(nodes(tree, 'MedalsCollection').length, 1);
+  assert.equal(nodes(tree, 'MedalsCollection')[0].props.completedLevel, 0, 'only the newly confirmed account level reaches the collection');
+  assert.deepEqual(h.calls, []);
   assert.deepEqual(h.writes, []);
 });

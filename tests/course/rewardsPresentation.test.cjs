@@ -22,7 +22,7 @@ function celebrationProps(outcome='saved') {
     attempt:{claimCelebration:()=>{if(consumed)return false;consumed=true;return true;}}};
 }
 function host({ reduced = false, focused = true, motionQuery, appState = 'active' } = {}) {
-  const frames=new Map(), cache=new Map(), assets=new Map(), animations=[], motionListeners=new Set(), appListeners=new Set(); let frame,calls,effects=[],stateUpdates=0;
+  const frames=new Map(), cache=new Map(), assets=new Map(), assetDimensions=new Map(), animations=[], motionListeners=new Set(), appListeners=new Set(); let frame,calls,effects=[],stateUpdates=0;
   function invoke(type,props){const index=calls.get(type)||0;calls.set(type,index+1);if(!frames.has(type))frames.set(type,[]);const list=frames.get(type);const current=list[index]||(list[index]={slots:[],cursor:0});current.cursor=0;const parent=frame;frame=current;try{return type(props);}finally{frame=parent;}}
   const same=(a,b)=>a&&b&&a.length===b.length&&a.every((v,i)=>Object.is(v,b[i]));
   const memo=(fn,deps)=>{const {slots}=frame,i=frame.cursor++;if(!slots[i]||!same(slots[i].deps,deps))slots[i]={value:fn(),deps};return slots[i].value;};
@@ -30,7 +30,7 @@ function host({ reduced = false, focused = true, motionQuery, appState = 'active
     useMemo:memo,useRef:value=>memo(()=>({current:value}),[]),useState:initial=>{const s=memo(()=>({value:typeof initial==='function'?initial():initial}),[]);return[s.value,next=>{stateUpdates++;s.value=typeof next==='function'?next(s.value):next;}];},
     useCallback:(fn,deps)=>memo(()=>fn,deps),
     useEffect(fn,deps){const {slots}=frame,i=frame.cursor++;if(!slots[i]||!same(slots[i].deps,deps))effects.push(()=>{slots[i]?.cleanup?.();slots[i]={deps,setup:fn,cleanup:fn()};});}};
-  const Image=Object.assign(props=>({type:'Image',props}),{resolveAssetSource:source=>Number.isInteger(source)&&source>0?{uri:'asset:'+source}:null});
+  const Image=Object.assign(props=>({type:'Image',props}),{resolveAssetSource:source=>Number.isInteger(source)&&source>0?{uri:'asset:'+source,...assetDimensions.get(source)}:null});
   const native=Object.fromEntries(['Text','View','Pressable','ScrollView','StatusBar','ActivityIndicator'].map(n=>[n,n]));
   native.Image=Image;native.StyleSheet={create:v=>v,absoluteFillObject:{position:'absolute',top:0,left:0,right:0,bottom:0}};
   native.useWindowDimensions=()=>({width:411,height:914,fontScale:1});
@@ -38,9 +38,9 @@ function host({ reduced = false, focused = true, motionQuery, appState = 'active
   native.AppState={currentState:appState,addEventListener:(event,fn)=>{assert.equal(event,'change');appListeners.add(fn);return{remove:()=>appListeners.delete(fn)};}};
   native.Easing={linear:v=>v};
   native.Animated={View:'AnimatedView',Value:class{constructor(v){this.value=v;}setValue(v){this.value=v;}interpolate(config){const source=this;return{...config,get value(){const {inputRange:x,outputRange:y}=config;const n=Math.max(x[0],Math.min(x[x.length-1],source.value));let i=1;while(i<x.length-1&&n>x[i])i++;return typeof y[i]==='number'?y[i-1]+(y[i]-y[i-1])*(n-x[i-1])/(x[i]-x[i-1]):y[i];}};}},timing:(value,options)=>{const run={options,stopped:false,start(done){this.done=done;},stop(){this.stopped=true;},advance(milliseconds){value.setValue(milliseconds);},finish(){value.setValue(options.toValue);this.done?.({finished:true});}};animations.push(run);return run;}};
-  function load(file){if(cache.has(file))return cache.get(file);assert.ok(fs.existsSync(path.join(root,file)),file+' exists');if(file.endsWith('.png')){if(!assets.has(file))assets.set(file,1000+assets.size);return assets.get(file);}const code=babel.transformFileSync(path.join(root,file),{babelrc:false,configFile:false,plugins:['@babel/plugin-transform-react-jsx','@babel/plugin-transform-modules-commonjs']}).code;const module={exports:{}};
+  function load(file){if(cache.has(file))return cache.get(file);assert.ok(fs.existsSync(path.join(root,file)),file+' exists');if(file.endsWith('.png')){if(!assets.has(file)){const source=1000+assets.size,png=fs.readFileSync(path.join(root,file));assets.set(file,source);assetDimensions.set(source,{width:png.readUInt32BE(16),height:png.readUInt32BE(20)});}return assets.get(file);}const code=babel.transformFileSync(path.join(root,file),{babelrc:false,configFile:false,plugins:['@babel/plugin-transform-react-jsx','@babel/plugin-transform-modules-commonjs']}).code;const module={exports:{}};
     vm.runInThisContext('(function(require,module,exports){'+code+'\n})',{filename:file})(name=>name==='react'?React:name==='react-native'?native:name==='@react-navigation/native'?{useIsFocused:()=>focused}:name==='react-native-safe-area-context'?{SafeAreaView:'SafeAreaView'}:name.startsWith('.')?load(path.posix.join(path.posix.dirname(file),name.endsWith('.png')?name:name+'.js')):require(name),module,module.exports);cache.set(file,module.exports);return module.exports;}
-  return {animations,get stateUpdates(){return stateUpdates;},focus(value){focused=value;},background(value){native.AppState.currentState=value;appListeners.forEach(fn=>fn(value));},render(file,props,exportName='default'){calls=new Map();effects=[];const tree=invoke(load(file)[exportName],props);effects.forEach(fn=>fn());return tree;},unmount(){for(const list of frames.values())for(const frame of list)frame.slots.forEach(s=>s?.cleanup?.());},replayEffects(){const slots=[...frames.values()].flat().flatMap(frame=>frame.slots).filter(s=>s?.setup);slots.forEach(s=>s.cleanup?.());slots.forEach(s=>{s.cleanup=s.setup();});},motion(value){motionListeners.forEach(fn=>fn(value));}};
+  return {animations,asset:file=>load(file),get stateUpdates(){return stateUpdates;},focus(value){focused=value;},background(value){native.AppState.currentState=value;appListeners.forEach(fn=>fn(value));},render(file,props,exportName='default'){calls=new Map();effects=[];const tree=invoke(load(file)[exportName],props);effects.forEach(fn=>fn());return tree;},unmount(){for(const list of frames.values())for(const frame of list)frame.slots.forEach(s=>s?.cleanup?.());},replayEffects(){const slots=[...frames.values()].flat().flatMap(frame=>frame.slots).filter(s=>s?.setup);slots.forEach(s=>s.cleanup?.());slots.forEach(s=>{s.cleanup=s.setup();});},motion(value){motionListeners.forEach(fn=>fn(value));}};
 }
 const play={id:'fixture',name:'Fixture Play',medalImage:123};
 const question={id:'q',question:'Question?',choices:[{id:'a',text:'Correct'},{id:'b',text:'Other'}],correctAnswer:'a',evidence:[]};
@@ -60,6 +60,43 @@ test('perfect replay celebrates its performance around already-earned artwork',a
   const h=host(),p=props('replay');let tree=h.render('course/QuizViews.js',p,'QuizResults');measureViewport(tree);await tick();
   nodes(tree,'Image')[0].props.onLoad();h.render('course/QuizViews.js',p,'QuizResults');tree=h.render('course/QuizViews.js',p,'QuizResults');
   assert.match(text(tree),/Already in your collection/);assert.equal(nodes(tree,'Image').length,1);assert.doesNotMatch(text(tree),/Medal added|new medal|earned a medal/i);assert.equal(h.animations.length,1);h.unmount();
+});
+
+for(const [genre,filename,expected] of [
+  ['Comedy','mMND.png',{fill:'#275341',edge:'#4d7760',fold:'#3f6b53'}],
+  ['Tragedy','mHam.png',{fill:'#642d3c',edge:'#8c5360',fold:'#854455'}],
+  ['History','mH5.png',{fill:'#3e536a',edge:'#65798c',fold:'#536b82'}],
+  ['Romance','mTmp.png',{fill:'#644864',edge:'#896a89',fold:'#7b5c7b'}],
+  ['Problem Play','mMM.png',{fill:'#3b3f43',edge:'#61666b',fold:'#51565b'}],
+]) test(`${genre} saved and replay reward straps match the earned collection`,()=>{
+  const palette=tree=>{
+    const strap=style(nodes(tree,'View').find(node=>node.props.testID==='medal-strap'));
+    const fold=style(nodes(tree,'View').find(node=>node.props.testID==='medal-strap-fold'));
+    assert.equal(nodes(tree,'Image').length,1,'each surface contains the original mapped medal');
+    assert.equal(style(imageFrame(tree)).opacity,1,'compare visible straps after native artwork readiness');
+    return {fill:strap.backgroundColor,edge:strap.borderColor,fold:fold.backgroundColor};
+  };
+  const collectionHost=host(),collectionPlay={...play,genre,difficulty:1,
+    medalImage:collectionHost.asset('assets/medalCollection/'+filename)};
+  const collectionProps={plays:[collectionPlay],completedLevel:1,onOpenLesson(){}};
+  let collection=collectionHost.render('course/MedalsCollection.js',collectionProps);
+  assert.equal(nodes(collection,'Image')[0].props.source,collectionPlay.medalImage);
+  nodes(collection,'Image')[0].props.onLoad();
+  collection=collectionHost.render('course/MedalsCollection.js',collectionProps);
+  const collectionPalette=palette(collection);
+  assert.deepEqual(collectionPalette,expected,`${genre} collection uses its expected fabric palette`);
+  collectionHost.unmount();
+  for(const outcome of ['saved','replay']){
+    const h=host(),p={...props(outcome),play:{...collectionPlay,
+      medalImage:h.asset('assets/medalCollection/'+filename)}};
+    let tree=h.render('course/QuizViews.js',p,'QuizResults');
+    assert.equal(nodes(tree,'Image')[0].props.source,p.play.medalImage);
+    nodes(tree,'Image')[0].props.onLoad();
+    tree=h.render('course/QuizViews.js',p,'QuizResults');
+    assert.deepEqual(palette(tree),collectionPalette,`${outcome} preserves all three ${genre} strap colors`);
+    assert.match(text(tree),outcome==='saved'?/Medal added to your collection/:/Already in your collection/);
+    h.unmount();
+  }
 });
 
 test('unconfirmed perfect scores celebrate without showing earned artwork or collection actions',async()=>{

@@ -61,6 +61,7 @@ function artworkHost({ dimensions = {} } = {}) {
   vm.runInThisContext('(function(require,module,exports){' + code + '\n})', { filename: file })(name => {
     if (name === 'react') return React;
     if (name === 'react-native') return native;
+    if (name === './medalAppearance') return require('../../course/medalAppearance');
     if (name.startsWith('../assets/medalCollection/')) {
       const source = medalSources.get(path.basename(name));
       assert.notEqual(source, undefined, `only existing original medals may be mounted: ${name}`);
@@ -110,10 +111,10 @@ test('framing keeps the original artwork fully contained, labelled, and unobscur
   }
 });
 
-test('runtime artwork failures stay readable when locked and a different mapped source can recover', () => {
+test('runtime artwork failures stay readable and a different mapped source can recover', () => {
   const render = artworkHost();
-  nodes(render({ play, muted: true }), 'Image')[0].props.onError();
-  const unavailable = render({ play, muted: true });
+  nodes(render({ play }), 'Image')[0].props.onError();
+  const unavailable = render({ play });
   assert.equal(nodes(unavailable, 'Image').length, 0);
   const notice = nodes(unavailable, 'Text')[0];
   assert.equal(notice.props.accessibilityLabel, 'Fixture Play medal artwork unavailable');
@@ -161,7 +162,9 @@ test('every original medal has a short strap and finished cap covering its origi
     const strap = flatten(strapView.props.style);
     const fold = decoration(strapView, 'medal-strap-fold');
     assert.ok(fold, `${name} has a restrained fabric fold`);
-    assert.equal(strap.backgroundColor, '#642d3c', `${name} uses a visible oxblood tone`);
+    assert.equal(strap.backgroundColor, '#3b3f43', `${name} without a genre uses neutral fabric`);
+    assert.equal(strap.borderColor, '#61666b', `${name} without a genre uses a neutral fabric edge`);
+    assert.equal(flatten(fold.props.style).backgroundColor, '#51565b', `${name} without a genre uses a neutral fabric fold`);
     assert.equal(decoration(tree, 'medal-loop'), undefined, `${name} has no exposed oval through its hole`);
     assert.equal(decoration(tree, 'medal-pin'), undefined, `${name} has no extra pin`);
     assert.equal(nodes(mount, 'View').length, 5, `${name} has only the cap, connector, strap, and fold`);
@@ -225,6 +228,48 @@ test('every original medal has a short strap and finished cap covering its origi
   }
 });
 
+test('genre changes color only the fabric while preserving the loaded original artwork and hanger geometry', () => {
+  const fixtures = [
+    { genre: 'Comedy', fill: '#275341', edge: '#4d7760', fold: '#3f6b53' },
+    { genre: 'Tragedy', fill: '#642d3c', edge: '#8c5360', fold: '#854455' },
+    { genre: 'History', fill: '#3e536a', edge: '#65798c', fold: '#536b82' },
+    { genre: 'Romance', fill: '#644864', edge: '#896a89', fold: '#7b5c7b' },
+    { genre: 'Problem Play', fill: '#3b3f43', edge: '#61666b', fold: '#51565b' },
+  ];
+  const geometry = tree => ['medal-mount', 'medal-connector', 'medal-strap', 'medal-strap-fold', 'medal-cap'].map(id => {
+    const style = { ...flatten(decoration(tree, id).props.style) };
+    if (id === 'medal-strap') { delete style.backgroundColor; delete style.borderColor; }
+    if (id === 'medal-strap-fold') delete style.backgroundColor;
+    return [id, style];
+  });
+  for (const size of [140, 228]) {
+    const render = artworkHost(); let ready = 0;
+    const props = { play: { ...play, genre: 'Comedy' }, size, onReady: () => { ready++; } };
+    const pending = render(props);
+    assert.equal(flatten(pending.props.style).opacity, 0);
+    nodes(pending, 'Image')[0].props.onLoad();
+    const original = render(props);
+    for (const fixture of fixtures) {
+      const tree = render({ ...props, play: { ...play, genre: fixture.genre } });
+      const strap = flatten(decoration(tree, 'medal-strap').props.style);
+      const fold = flatten(decoration(tree, 'medal-strap-fold').props.style);
+      assert.equal(strap.backgroundColor, fixture.fill, fixture.genre);
+      assert.equal(strap.borderColor, fixture.edge, fixture.genre);
+      assert.equal(fold.backgroundColor, fixture.fold, fixture.genre);
+      assert.deepEqual(geometry(tree), geometry(original), `${fixture.genre} preserves the fastening geometry and gold hardware`);
+      assert.equal(flatten(tree.props.style).width, size);
+      assert.equal(flatten(tree.props.style).height, size);
+      assert.equal(flatten(tree.props.style).opacity, 1, 'loaded earned artwork stays fully visible');
+      const image = nodes(tree, 'Image')[0];
+      assert.equal(image.props.source, 123, `${fixture.genre} preserves the original artwork`);
+      assert.equal(image.key, '123');
+      assert.equal(image.props.resizeMode, 'contain');
+      assert.equal(ready, 1, 'genre metadata does not restart or repeat native readiness');
+    }
+    render.unmount();
+  }
+});
+
 test('unknown assets and mismatched original dimensions retain full artwork without a guessed hanger', () => {
   for (const fixture of [
     { source: 99999 },
@@ -270,7 +315,7 @@ test('metadata resolution keeps the hanger and image hidden until a native succe
 test('pending artwork and every terminal fallback reserve the full diameter square', () => {
   for (const size of [140, 228]) {
     const render = artworkHost(); let ready = 0;
-    const props = { play, size, muted: true, onReady: () => { ready++; } };
+    const props = { play, size, onReady: () => { ready++; } };
     const pending = render(props);
     nodes(pending, 'Image')[0].props.onError();
     const failed = render(props);
@@ -281,7 +326,7 @@ test('pending artwork and every terminal fallback reserve the full diameter squa
     assert.equal(ready, 1);
     assert.equal(nodes(failed, 'Image').length, 0);
     assert.ok(flatten(failed.props.style).opacity === undefined || flatten(failed.props.style).opacity === 1,
-      'locked fallback text remains readable');
+      'terminal fallback text remains readable');
     const missing = render({ ...props, play: { name: 'Missing Play' } });
     assert.equal(flatten(missing.props.style).width, size);
     assert.equal(flatten(missing.props.style).height, size);

@@ -1,7 +1,9 @@
 import React from "react";
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import MedalArtwork from "./MedalArtwork";
+import LockedMedal from "./LockedMedal";
 import { getMedalCollection } from "./medalCollection";
+import { getMedalAppearance } from "./medalAppearance";
 
 export default function MedalsCollection({ plays, completedLevel, onOpenLesson }) {
   const { width, fontScale } = useWindowDimensions();
@@ -13,13 +15,14 @@ export default function MedalsCollection({ plays, completedLevel, onOpenLesson }
     <Text allowFontScaling style={styles.count}>{`${collection.earnedCount} of ${collection.total} medals earned`}</Text>
     <View style={styles.grid}>
       {collection.items.map(({ play, earned }) => <Pressable key={play.id}
-        accessibilityRole="button" accessibilityLabel={`${play.name} medal, ${earned ? "Earned" : "Locked"}`}
+        accessibilityRole="button" accessibilityLabel={`${play.name} medal, ${earned ? `${getMedalAppearance(play.genre).genreLabel}, Earned` : "Locked"}`}
         accessibilityHint={earned ? "Open this play’s lesson." : "Complete this play to add its medal."}
         accessibilityState={{ disabled: !earned }} disabled={!earned}
         onPress={earned && onOpenLesson ? () => onOpenLesson(play) : undefined}
         style={[styles.card, { width: singleColumn ? "100%" : "48%" }, earned ? styles.earnedCard : styles.lockedCard]}>
-        <MedalArtwork play={play} size={artworkSize} muted={!earned} />
+        {earned ? <MedalArtwork play={play} size={artworkSize} /> : <LockedMedal source={play.medalImage} size={artworkSize} />}
         <Text allowFontScaling style={styles.name}>{play.name}</Text>
+        {earned && <Text allowFontScaling style={styles.genre}>{getMedalAppearance(play.genre).genreLabel}</Text>}
         <View style={[styles.stateBadge, earned && styles.earnedBadge]}>
           <Text allowFontScaling style={[styles.state, earned && styles.earnedState]}>{earned ? "Earned" : "Locked"}</Text>
         </View>
@@ -36,8 +39,9 @@ const styles = StyleSheet.create({
   card: { minHeight: 48, alignItems: "center", borderRadius: 18, borderWidth: 1,
     paddingHorizontal: 14, paddingTop: 20, paddingBottom: 16, gap: 14 },
   earnedCard: { backgroundColor: "#16181b", borderColor: "#766347" },
-  lockedCard: { backgroundColor: "#111316", borderColor: "#383329" },
+  lockedCard: { backgroundColor: "#111316", borderColor: "#383329", filter: "blur(10px)" },
   name: { alignSelf: "stretch", color: "#f3ecdf", fontSize: 16, lineHeight: 24, fontWeight: "500", textAlign: "center" },
+  genre: { color: "#b5ac9d", fontSize: 13, lineHeight: 20, textAlign: "center" },
   stateBadge: { borderWidth: 1, borderColor: "#383329", borderRadius: 20, paddingHorizontal: 12, paddingVertical: 3 },
   earnedBadge: { backgroundColor: "#25231e", borderColor: "#5c503d" },
   state: { color: "#b5ac9d", fontSize: 13, lineHeight: 21, textAlign: "center", letterSpacing: 1, textTransform: "uppercase" },

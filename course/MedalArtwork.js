@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
+import { getMedalAppearance } from "./medalAppearance";
 
 // Source-pixel measurements of the original artwork's fastening holes. The three
 // exceptions have different positions or proportions, even when canvas sizes match.
@@ -45,7 +46,7 @@ mounts.set(require("../assets/medalCollection/mAWW.png"), { ...commonMount, y: 1
 mounts.set(require("../assets/medalCollection/mMND.png"), { width: 400, height: 400, x: 200, y: 83, holeWidth: 39, holeHeight: 39 });
 mounts.set(require("../assets/medalCollection/mRom.png"), { width: 400, height: 400, x: 200, y: 81, holeWidth: 39, holeHeight: 39 });
 
-function MedalMount({ geometry, diameter }) {
+function MedalMount({ geometry, diameter, strap }) {
   const scale = Math.min(diameter / geometry.width, diameter / geometry.height);
   const x = (diameter - geometry.width * scale) / 2 + geometry.x * scale;
   const y = (diameter - geometry.height * scale) / 2 + geometry.y * scale;
@@ -60,8 +61,9 @@ function MedalMount({ geometry, diameter }) {
       borderRadius: holeHeight * 0.06 }]} />
     <View testID="medal-strap" style={[styles.strap, { left: x - strapWidth / 2,
       top: y - holeHeight * 1.03 - strapHeight, width: strapWidth, height: strapHeight,
-      borderRadius: Math.min(2, holeHeight * 0.08) }]}>
-      <View testID="medal-strap-fold" style={[styles.fold, { bottom: holeHeight * 0.1, height: Math.max(1, holeHeight * 0.1) }]} />
+      borderRadius: Math.min(2, holeHeight * 0.08), backgroundColor: strap.fill, borderColor: strap.edge }]}>
+      <View testID="medal-strap-fold" style={[styles.fold, { bottom: holeHeight * 0.1,
+        height: Math.max(1, holeHeight * 0.1), backgroundColor: strap.fold }]} />
     </View>
     <View testID="medal-cap" style={[styles.cap, { left: x - holeWidth * 0.675,
       top: y - holeHeight * 0.78, width: holeWidth * 1.35, height: holeHeight * 1.39,
@@ -70,8 +72,9 @@ function MedalMount({ geometry, diameter }) {
   </View>;
 }
 
-export default function MedalArtwork({ play, size = 228, muted = false, onReady }) {
+export default function MedalArtwork({ play, size = 228, onReady }) {
   const source = play?.medalImage;
+  const appearance = getMedalAppearance(play?.genre);
   const request = useMemo(() => {
     let available = false;
     let asset;
@@ -115,10 +118,10 @@ export default function MedalArtwork({ play, size = 228, muted = false, onReady 
   const geometry = mounts.get(source);
   const mounted = geometry && request.asset?.width === geometry.width && request.asset?.height === geometry.height;
   return <View accessibilityElementsHidden={pending} importantForAccessibility={pending ? "no-hide-descendants" : "auto"}
-    style={[styles.frame, footprint, { opacity: pending ? 0 : muted ? 0.38 : 1 }]}>
+    style={[styles.frame, footprint, { opacity: pending ? 0 : 1 }]}>
     <Image key={source} source={source} resizeMode="contain" fadeDuration={0} accessibilityLabel={label} accessible
       onLoad={() => settle("loaded")} onError={() => settle("failed")} style={styles.artwork} />
-    {mounted && <MedalMount geometry={geometry} diameter={diameter} />}
+    {mounted && <MedalMount geometry={geometry} diameter={diameter} strap={appearance.strap} />}
   </View>;
 }
 
@@ -129,8 +132,8 @@ const styles = StyleSheet.create({
   connector: { position: "absolute", backgroundColor: "#bca16b", borderColor: "#d1bb87", borderWidth: 0.6 },
   cap: { position: "absolute", backgroundColor: "#b59b65", borderWidth: 0.8, borderColor: "#bfa36c",
     borderTopColor: "#decba2", borderBottomColor: "#806a43" },
-  strap: { position: "absolute", backgroundColor: "#642d3c", borderColor: "#8c5360", borderWidth: 0.6 },
-  fold: { position: "absolute", left: 1, right: 1, backgroundColor: "#854455" },
+  strap: { position: "absolute", borderWidth: 0.6 },
+  fold: { position: "absolute", left: 1, right: 1 },
   unavailable: { alignSelf: "center", alignItems: "center", justifyContent: "center", padding: 12 },
   unavailableText: { color: "#b5ac9d", fontSize: 15, lineHeight: 23, textAlign: "center" },
 });

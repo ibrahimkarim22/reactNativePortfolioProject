@@ -107,3 +107,15 @@ test('collection uses a single readable column for narrow viewports or large sys
     assert.ok(flattened.minHeight >= 48);
   }
 });
+
+test('collection medals stay within 140 points across normal and enlarged text layouts', () => {
+  for (const dimensions of [{ width: 320, fontScale: 1 }, { width: 411, fontScale: 1 },
+    { width: 411, fontScale: 1.5 }, { width: 820, fontScale: 1 }]) {
+    const Collection = component('course/MedalsCollection.js', dimensions);
+    const tree = Collection({ plays, completedLevel: 1, onOpenLesson() {} });
+    for (const medal of nodes(tree, 'MedalArtwork')) {
+      assert.ok(medal.props.size >= 80 && medal.props.size <= 140, `${dimensions.width}/${dimensions.fontScale}`);
+      assert.equal(medal.props.muted, medal.props.play.difficulty > 1);
+    }
+  }
+});

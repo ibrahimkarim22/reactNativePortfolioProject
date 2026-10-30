@@ -28,7 +28,7 @@ function choiceOrderFor(quiz, random, previous) {
 
 function createQuizAttempt({ getQuiz, getOwner, getLevel, saveProgress, commitLevel, random = Math.random }) {
   const listeners = new Set();
-  const celebratedResults = new WeakSet();
+  const celebratedAttempts = new WeakSet();
   let disposed = false, scope = null, currentQuiz = null, currentOwner = null, inFlight = null;
   let snapshot;
 
@@ -155,10 +155,12 @@ function createQuizAttempt({ getQuiz, getOwner, getLevel, saveProgress, commitLe
       return persist(snapshot.result);
     },
     claimCelebration(result, expectedToken) {
-      if (!synchronize() || !matchesToken(expectedToken) || snapshot.phase !== 'results'
-          || snapshot.result !== result || result?.outcome !== 'saved' || !result.passed
-          || result.correct !== result.total || celebratedResults.has(result)) return false;
-      celebratedResults.add(result);
+      if (!synchronize() || expectedToken !== snapshot.attemptToken || snapshot.phase !== 'results'
+          || snapshot.result !== result || result?.passed !== true || result.total < 1
+          || result.correct !== result.total || celebratedAttempts.has(snapshot.attemptToken)) return false;
+      // Saving can replace the outcome without creating another performance.
+      // Retakes receive a new token, including when their score is a replay.
+      celebratedAttempts.add(snapshot.attemptToken);
       return true;
     },
     retake(expectedToken) {

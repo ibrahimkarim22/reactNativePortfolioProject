@@ -45,7 +45,7 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
       return [slot.value, next => { const value = typeof next === 'function' ? next(slot.value) : next; if (!Object.is(value, slot.value)) { slot.value = value; dirty = true; } }];
     },
   };
-  const cache = new Map();
+  const cache = new Map(), imageHandles = new Map();
   function load(file, deps) {
     if (cache.has(file)) return cache.get(file);
     const code = babel.transformFileSync(file, { babelrc: false, configFile: false,
@@ -54,6 +54,12 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
     vm.runInThisContext('(function(require,module,exports,console,React,requestAnimationFrame,setTimeout,clearTimeout){' + code + '\n})', { filename: file })(
       name => {
         loaded.push(name);
+        if (name.endsWith('.png')) {
+          const asset = path.resolve(path.dirname(file), name);
+          assert.ok(fs.existsSync(asset), 'the original artwork exists');
+          if (!imageHandles.has(asset)) imageHandles.set(asset, imageHandles.size + 100);
+          return imageHandles.get(asset);
+        }
         if (name === '../course/normalCourseProgress') {
           if (!normalSource) {
             const source = load(path.join(root, 'course/normalCourseProgress.js'), deps).normalCourseProgress;
@@ -99,6 +105,7 @@ function host({ plays = [play()], entries = [], params = { id: 'fixture-a' }, le
   const native = { View: 'View', Text: 'Text', Button: 'Button', Pressable: 'Pressable', ScrollView: 'ScrollView', Modal: 'Modal', StatusBar: 'StatusBar', ActivityIndicator: 'ActivityIndicator',
     Image: Object.assign(props => ({ type: 'Image', props }), { resolveAssetSource: source => source ? { uri: 'asset:' + source } : null }),
     Animated: { View: 'AnimatedView', Value: class { setValue() {} interpolate(value) { return value; } }, timing: () => ({ start() {}, stop() {} }) },
+    AppState: { currentState: 'active', addEventListener: () => ({ remove() {} }) },
     findNodeHandle: value => value?.nativeTag, AccessibilityInfo: { setAccessibilityFocus: value => focus.push(value), isReduceMotionEnabled: async () => true, addEventListener: () => ({ remove() {} }) },
     useWindowDimensions: () => ({ width: 411, height: 914, fontScale: 1 }),
     BackHandler: { addEventListener: (event, callback) => { backListeners.add(callback); return { remove: () => backListeners.delete(callback) }; } },
@@ -155,7 +162,7 @@ for (const [label, quiz] of malformed) test(label + ' quiz is unavailable and ca
   const h = host({ plays: [candidate] }); const tree = h.render();
   assert.match(text(tree), /quiz.*unavailable|quiz.*not.*ready/i);
   assert.equal(nodes(tree, 'Pressable').some(node => ['Check answer', 'Finish quiz'].includes(node.props.accessibilityLabel) && !node.props.disabled), false);
-  assert.doesNotMatch(text(tree), /0\/0|(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.doesNotMatch(text(tree), /0\/0|(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.deepEqual(h.actions, []); assert.deepEqual(h.writes, []);
   h.button('Back to course').props.onPress();
   assert.deepEqual(h.calls.at(-1), ['navigate', 'Main', { screen: 'Course' }]);
@@ -174,12 +181,12 @@ test('incomplete answers cannot submit even through the callback boundary', asyn
   assert.equal(h.button('Check answer').props.disabled, true); assert.equal(h.button('Check answer').props.onPress, undefined);
   assert.equal(h.button('Submit'), undefined);
   assert.equal(h.writes.length, 0); assert.equal(h.actions.length, 0);
-  assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
 });
 
 test('a complete failed quiz shows its real score and never awards progress', async () => {
   const h = host(); h.answerAll(false); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /0\/2/); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.match(text(h.render()), /0\/2/); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
@@ -188,7 +195,7 @@ test('valid pass keeps the existing all-correct threshold and awards only after 
   const submit = h.button('Submit'); const pending = submit.props.onPress();
   await tick(); // The transaction reads the profile before attempting its write.
   assert.equal(h.writes.length, 1); assert.deepEqual(h.writes[0], [['fixture-db', 'users', 'fixture-owner'], { completedLevel: 1 }]);
-  assert.equal(h.actions.length, 0); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.equal(h.actions.length, 0); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   await submit.props.onPress(); assert.equal(h.writes.length, 1, 'rapid duplicate submission must not write twice');
   gate.resolve(); await pending;
   assert.equal(h.store.getState().course.completedLevel, 1); assert.equal(h.actions.length, 1);
@@ -225,7 +232,7 @@ test('unchecked answers stay editable while checked review cannot unlock recorde
 
 test('retaking completed work does not claim or write a new medal/unlock', async () => {
   const h = host({ level: 1 }); h.answerAll(); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /already completed/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.match(text(h.render()), /Already in your collection/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
@@ -233,20 +240,20 @@ test('a final play or existing numbering gap cannot invent a next-play unlock', 
   for (const plays of [[play()], [play('fixture-a', questions(), 33), play('fixture-b', questions(), 35)]]) {
     const h = host({ plays, level: plays[0].difficulty - 1 }); h.answerAll(); await h.button('Submit').props.onPress();
     assert.match(text(h.render()), /medal added to your collection/i);
-    assert.doesNotMatch(text(h.render()), /next level unlocked/i);
+    assert.doesNotMatch(text(h.render()), /next (?:level|play) unlocked/i);
   }
 });
 
 test('missing authentication cannot change even local progress', async () => {
   const h = host({ uid: null });
   assert.equal(h.button('Correct A'), undefined);
-  assert.match(text(h.render()), /sign in/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.match(text(h.render()), /sign in/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
 });
 
 test('failed progress persistence never creates a local award or success claim', async () => {
   const h = host({ write: async () => { throw new Error('fixture offline'); } }); h.answerAll(); await h.button('Submit').props.onPress();
-  assert.match(text(h.render()), /progress.*could not be saved/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+  assert.match(text(h.render()), /progress.*could not be saved/i); assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   assert.equal(h.store.getState().course.completedLevel, 0); assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 1);
 });
 
@@ -255,7 +262,7 @@ test('submission revalidates content even when an earlier rendered callback surv
     const candidate = play(), h = host({ plays: [candidate] }); h.answerAll(); const stale = h.button('Submit');
     candidate.quiz = quiz; await stale.props.onPress();
     assert.equal(h.actions.length, 0); assert.equal(h.writes.length, 0);
-    assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+    assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   }
 });
 
@@ -275,7 +282,7 @@ test('late save results cannot award or display completion on a different play o
     else h.unmount();
     gate.resolve(); await pending; await tick();
     assert.equal(h.actions.length, 0); assert.equal(h.store.getState().course.completedLevel, 0);
-    if (change !== 'unmount') assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next level unlocked/i);
+    if (change !== 'unmount') assert.doesNotMatch(text(h.render()), /(?:earned a medal|medal added to your collection)|next (?:level|play) unlocked/i);
   }
 });
 
@@ -322,7 +329,8 @@ test('actual ten-question pilot reaches results with exact supporting quotations
     if (index < content.questions.length - 1) h.button('Next').props.onPress();
   }
   await h.button('Submit').props.onPress();
-  const tree = h.render(); assert.match(text(tree), /10\/10 correct/);
+  const tree = h.render(); assert.match(text(tree), /10\/10/);
+  assert.ok(nodes(tree, 'Text').some(node => node.props.accessibilityLabel === '10 of 10 correct'));
   assert.match(text(tree), /Act I \u00b7 Scene I/);
   const selectable = nodes(tree, 'Text').filter(node => node.props.selectable).map(text);
   assert.deepEqual(selectable, content.questions.flatMap(question => question.evidence.map(selection => selection.exact)));
@@ -485,6 +493,17 @@ test('View medals pushes the existing Home collection once and can reopen after 
   h.returnFocus(); h.button('View medals').props.onPress();
   assert.equal(h.calls.length, 2); assert.equal(h.writes.length, 1);
   h.button('Retake quiz').props.onPress(); open.props.onPress(); assert.equal(h.calls.length, 2, 'a stale result cannot open the collection after Retake');
+});
+
+test('perfect results keep the full-viewport shower outside the scrollable answer review', async () => {
+  const h = host(); h.answerAll(); await h.button('Finish quiz').props.onPress();
+  const tree = h.render();
+  const overlay = nodes(tree, 'View').find(node => node.props.testID === 'quiz-confetti-viewport');
+  assert.ok(overlay, 'the result receives the measured viewport overlay');
+  assert.equal(overlay.props.pointerEvents, 'none');
+  assert.ok(nodes(tree, 'ScrollView').every(scroll => !nodes(scroll, 'View').includes(overlay)));
+  assert.ok(h.button('View medals').props.onPress, 'controls stay usable before native image readiness');
+  assert.ok(h.button('Retake quiz').props.onPress);
 });
 
 test('incorrect results prioritize the actual missed count and scroll Review answers without a reward', async () => {

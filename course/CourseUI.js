@@ -11,18 +11,18 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export const COURSE_COLORS = Object.freeze({
-  background: "#050505",
-  panel: "#11110f",
-  border: "#302b22",
-  text: "#fff8ef",
-  muted: "#b5ab9b",
-  gold: "#d8bd73",
-  onGold: "#130f0b",
-  success: "#acd1ad",
-  danger: "#e9aba4",
+  background: "#0b0d10",
+  panel: "#16181b",
+  border: "#383329",
+  text: "#f3ecdf",
+  muted: "#b5ac9d",
+  gold: "#b9a177",
+  onGold: "#17140e",
+  success: "#b5c4ad",
+  danger: "#d3a69f",
 });
 
-export function CoursePage({ children, scrollRef, contentContainerStyle }) {
+export function CoursePage({ children, scrollRef, contentContainerStyle, overlay }) {
   return (
     <SafeAreaView style={styles.page} edges={["left", "right", "bottom"]}>
       <StatusBar barStyle="light-content" backgroundColor={COURSE_COLORS.background} />
@@ -34,6 +34,7 @@ export function CoursePage({ children, scrollRef, contentContainerStyle }) {
       >
         {children}
       </ScrollView>
+      {overlay}
     </SafeAreaView>
   );
 }
@@ -108,7 +109,7 @@ const styles = StyleSheet.create({
   content: { width: "100%", maxWidth: 720, alignSelf: "center", padding: 24, paddingBottom: 32, gap: 24 },
   activityContent: { width: "100%", maxWidth: 720, alignSelf: "center", padding: 20, paddingBottom: 24, gap: 16 },
   activityFooter: { width: "100%", maxWidth: 720, alignSelf: "center", paddingHorizontal: 20, paddingVertical: 12,
-    borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: "#333437", backgroundColor: COURSE_COLORS.background },
+    borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: COURSE_COLORS.border, backgroundColor: COURSE_COLORS.background },
   heading: { gap: 10 },
   title: { fontSize: 32, lineHeight: 41, fontWeight: "700" },
   eyebrow: { fontSize: 13, lineHeight: 20, fontWeight: "700", letterSpacing: 1 },
@@ -117,10 +118,10 @@ const styles = StyleSheet.create({
   accent: { color: COURSE_COLORS.gold },
   success: { color: COURSE_COLORS.success },
   danger: { color: COURSE_COLORS.danger },
-  panel: { backgroundColor: COURSE_COLORS.panel, borderColor: COURSE_COLORS.border, borderWidth: 1, borderRadius: 12, padding: 20, gap: 16 },
-  button: { minHeight: 50, paddingHorizontal: 18, paddingVertical: 13, borderRadius: 10, borderWidth: 1, alignItems: "center", justifyContent: "center", flexDirection: "row", gap: 10 },
-  primary: { backgroundColor: COURSE_COLORS.gold, borderColor: COURSE_COLORS.gold },
-  secondary: { backgroundColor: COURSE_COLORS.panel, borderColor: COURSE_COLORS.border },
+  panel: { backgroundColor: COURSE_COLORS.panel, borderColor: COURSE_COLORS.border, borderWidth: 1, borderRadius: 14, padding: 20, gap: 16 },
+  button: { minHeight: 52, paddingHorizontal: 20, paddingVertical: 14, borderRadius: 12, borderWidth: 1, alignItems: "center", justifyContent: "center", flexDirection: "row", gap: 10 },
+  primary: { backgroundColor: COURSE_COLORS.gold, borderColor: "#d0b88b" },
+  secondary: { backgroundColor: "#191a1c", borderColor: "#514735" },
   quiet: { backgroundColor: "transparent", borderColor: "transparent" },
   buttonLabel: { flexShrink: 1, fontSize: 16, lineHeight: 24, fontWeight: "700", textAlign: "center" },
   primaryLabel: { color: COURSE_COLORS.onGold },

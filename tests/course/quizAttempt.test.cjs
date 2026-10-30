@@ -88,7 +88,7 @@ test('shuffled presentation scores original option IDs and save-only retry retai
   assert.equal(saves, 2); assert.deepEqual(h.commits, [1]);
 });
 
-test('only a current confirmed new completion can claim its one-shot celebration', async () => {
+test('only the exact current completed result and attempt token can claim a celebration', async () => {
   const gate = deferred(), h = host({ save: () => gate.promise });
   h.answerAll();
   const pending = h.attempt.submit();
@@ -96,36 +96,96 @@ test('only a current confirmed new completion can claim its one-shot celebration
   assert.equal(h.attempt.claimCelebration({ outcome: 'saved' }, h.attempt.getSnapshot().attemptToken), false);
   gate.resolve(acknowledgement()); await pending;
   const state = h.attempt.getSnapshot();
+  assert.equal(h.attempt.claimCelebration(state.result), false, 'a missing token cannot consume the current attempt');
+  assert.equal(h.attempt.claimCelebration(state.result, Object.freeze({})), false);
+  assert.equal(h.attempt.claimCelebration(Object.freeze({ ...state.result }), state.attemptToken), false);
   assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), true);
   assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false, 'component remounts and repeated callbacks cannot replay it');
   h.attempt.retake(state.attemptToken);
   assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false);
 });
 
-test('failed, replay and unconfirmed outcomes cannot celebrate; a confirmed save-only retry can once', async () => {
-  for (const kind of ['failed', 'replay', 'sign-in', 'save-failed']) {
+test('every completed perfect attempt celebrates once, including replay and unconfirmed progress', async () => {
+  for (const kind of ['saved', 'replay', 'sign-in', 'save-failed', 'invalid-progress']) {
     let saves = 0;
-    const h = host({ level: kind === 'replay' ? 1 : 0,
+    const h = host({ level: kind === 'replay' ? 1 : kind === 'invalid-progress' ? null : 0,
       owner: Object.freeze({ uid: kind === 'sign-in' ? null : 'owner-a', generation: 0 }),
-      save: async () => { if (++saves === 1) throw new Error('fixture offline'); return acknowledgement(); } });
-    h.answerAll(kind !== 'failed'); await h.attempt.submit();
+      save: async () => { saves++; if (kind === 'save-failed') throw new Error('fixture offline'); return acknowledgement(); } });
+    h.answerAll(); await h.attempt.submit();
     const state = h.attempt.getSnapshot();
-    assert.equal(typeof h.attempt.claimCelebration, 'function');
-    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false, kind);
-    if (kind === 'save-failed') {
-      await h.attempt.retrySave(state.attemptToken);
-      const saved = h.attempt.getSnapshot();
-      assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), true);
-      assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), false);
-      assert.equal(saved.result.correct, state.result.correct); assert.equal(saves, 2);
-    }
+    assert.equal(state.result.outcome, kind);
+    const writes = h.writes.length, commits = h.commits.length;
+    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), true, kind);
+    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false, kind + ' is one shot');
+    assert.equal(h.writes.length, writes, 'claiming never saves progress');
+    assert.equal(h.commits.length, commits, 'claiming never awards a level');
   }
 });
 
-test('an account change retires a confirmed but not yet animated award', async () => {
+test('save-only result replacements cannot replay an already celebrated attempt', async () => {
+  let saves = 0;
+  const h = host({ save: async () => { if (++saves <= 2) throw new Error('fixture offline'); return acknowledgement(); } });
+  h.answerAll(); await h.attempt.submit();
+  const first = h.attempt.getSnapshot();
+  assert.equal(h.attempt.claimCelebration(first.result, first.attemptToken), true);
+  await h.attempt.retrySave(first.attemptToken);
+  const second = h.attempt.getSnapshot();
+  assert.notEqual(second.result, first.result);
+  assert.equal(h.attempt.claimCelebration(second.result, second.attemptToken), false, 'another failure is the same attempt');
+  await h.attempt.retrySave(second.attemptToken);
+  const saved = h.attempt.getSnapshot();
+  assert.equal(saved.result.outcome, 'saved');
+  assert.equal(saved.attemptToken, first.attemptToken);
+  assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), false, 'save success is the same attempt');
+  assert.equal(h.attempt.claimCelebration(first.result, first.attemptToken), false);
+  assert.equal(saved.result.answers, first.result.answers);
+  assert.equal(saved.result.correct, first.result.correct); assert.equal(saves, 3);
+  assert.deepEqual(h.commits, [1]);
+});
+
+test('a current save-only replacement may celebrate if that attempt has not yet been consumed', async () => {
+  let saves = 0;
+  const h = host({ save: async () => { if (++saves === 1) throw new Error('fixture offline'); return acknowledgement(); } });
+  h.answerAll(); await h.attempt.submit();
+  const failed = h.attempt.getSnapshot();
+  await h.attempt.retrySave(failed.attemptToken);
+  const saved = h.attempt.getSnapshot();
+  assert.equal(h.attempt.claimCelebration(failed.result, failed.attemptToken), false, 'the old outcome is retired');
+  assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), true);
+  assert.equal(h.attempt.claimCelebration(saved.result, saved.attemptToken), false);
+});
+
+test('each retake has a new celebration even when the medal is already in the collection', async () => {
+  const h = host();
+  for (let index = 0; index < 3; index++) {
+    h.answerAll(); await h.attempt.submit();
+    const state = h.attempt.getSnapshot();
+    assert.equal(state.result.outcome, index === 0 ? 'saved' : 'replay');
+    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), true);
+    assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false);
+    h.attempt.retake(state.attemptToken);
+  }
+  assert.deepEqual(h.writes, [['owner-a', 1]]); assert.deepEqual(h.commits, [1]);
+});
+
+test('failed and empty attempts never claim a perfect-score celebration', async () => {
+  const failed = host(); failed.answerAll(false); await failed.attempt.submit();
+  const state = failed.attempt.getSnapshot();
+  assert.equal(failed.attempt.claimCelebration(state.result, state.attemptToken), false);
+  const empty = host({ source: { ...quiz(), questions: [] } });
+  const initial = empty.attempt.getSnapshot();
+  assert.equal(empty.attempt.claimCelebration({ passed: true, correct: 0, total: 0 }, initial.attemptToken), false);
+  assert.deepEqual(failed.writes, []); assert.deepEqual(empty.writes, []);
+});
+
+for (const change of ['account', 'content', 'generation', 'dispose', 'retake']) test(change + ' retires a completed but not yet animated attempt', async () => {
   const h = host(); h.answerAll(); await h.attempt.submit();
   const state = h.attempt.getSnapshot();
-  h.owner = Object.freeze({ uid: 'owner-b', generation: 1 });
+  if (change === 'account') h.owner = Object.freeze({ uid: 'owner-b', generation: 1 });
+  else if (change === 'content') h.source = quiz('new-version');
+  else if (change === 'generation') h.owner = Object.freeze({ uid: 'owner-a', generation: 1 });
+  else if (change === 'dispose') h.attempt.dispose();
+  else h.attempt.retake(state.attemptToken);
   assert.equal(typeof h.attempt.claimCelebration, 'function');
   assert.equal(h.attempt.claimCelebration(state.result, state.attemptToken), false);
 });

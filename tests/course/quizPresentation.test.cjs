@@ -8,10 +8,16 @@ const native = Object.fromEntries(['Text','View','Pressable','ScrollView','Statu
 native.StyleSheet = { create: value => value };
 const React = { createElement(type, props, ...children) {
   const next = { ...props, children }; return typeof type === 'function' ? type(next) : { type, props: next };
-} };
+}, useRef: value => ({ current: value }), useMemo: fn => fn(), useCallback: fn => fn,
+useState: value => [value, () => {}] };
 const cache = new Map();
 function load(file) {
   if (cache.has(file)) return cache.get(file);
+  if (file === 'course/MedalArtwork.js') return { __esModule: true, default: ({ play }) => ({ type: 'Image', props: { source: play.medalImage, children: [] } }) };
+  if (file === 'course/QuizCelebration.js') return { __esModule: true, default: props => {
+    const presentation={ type: 'CurtainCall', props };
+    return props.renderResult ? props.renderResult(presentation,null) : presentation;
+  } };
   const code = babel.transformFileSync(path.join(root,file), { babelrc:false, configFile:false,
     plugins:['@babel/plugin-transform-react-jsx','@babel/plugin-transform-modules-commonjs'] }).code;
   const module = {exports:{}};
@@ -64,6 +70,16 @@ test('activity footer is outside scrolling content, with scalable untruncated te
  for(const n of nodes(tree,'Text')) {assert.notEqual(n.props.allowFontScaling,false);assert.equal(n.props.numberOfLines,undefined);assert.notEqual(n.props.adjustsFontSizeToFit,true);}
 });
 
+test('the result overlay stays outside the answer-review scroll view without changing page content',()=>{
+ const {CoursePage}=load('course/CourseUI.js');
+ const overlay={type:'ViewportOverlay',props:{children:[]}};
+ const content={type:'ResultContent',props:{children:[]}};
+ const tree=CoursePage({children:content,overlay});
+ assert.equal(nodes(tree,'ViewportOverlay').length,1);
+ assert.equal(nodes(nodes(tree,'ScrollView')[0],'ViewportOverlay').length,0);
+ assert.equal(nodes(nodes(tree,'ScrollView')[0],'ResultContent').length,1);
+});
+
 test('shared evidence renders full exact quotations and actual source locations',()=>{
  const {QuizEvidence}=load('course/QuizViews.js');
  assert.equal(typeof QuizEvidence,'function');
@@ -82,4 +98,39 @@ test('shuffled answer positions label the displayed order but select the origina
  rows[0].props.onPress();rows[2].props.onPress();
  assert.deepEqual(calls,[['q1','q1.d',base.attemptToken],['q1','q1.a',base.attemptToken]]);
  assert.equal(rows[2].props.accessibilityState.checked,true,'selection follows its option ID after moving to another letter');
+});
+
+function results(outcome, correct = 10) {
+ const questions=Array.from({length:10},(_,index)=>({...question,id:'q'+(index+1)}));
+ return load('course/QuizViews.js').QuizResults({quiz:{questions},play:{name:'Fixture play',medalImage:123},
+  result:{outcome,correct,total:10,passed:correct===10,answers:Object.fromEntries(questions.map(q=>[q.id,q.correctAnswer]))},
+  attempt:{retrySave(){},retake(){}},attemptToken:Object.freeze({}),returnToCourse(){},onViewMedals(){},onReviewAnswers(){}});
+}
+test('perfect-score presentation is distinct from a confirmed new medal and an existing collection entry',()=>{
+ for(const outcome of ['saved','replay']) {
+  const tree=results(outcome);
+  assert.match(text(tree),/Perfect performance/);assert.match(text(tree),/10\/10/);
+  assert.doesNotMatch(text(tree),/A flawless performance|Perfect score/);
+  assert.equal(nodes(tree,'Text').some(n=>text(n)==='correct'),false,'no redundant score caption');
+  assert.equal(text(nodes(tree,'Text').find(n=>n.props.accessibilityLabel==='10 of 10 correct')),'10/10');
+  assert.equal(nodes(tree,'CurtainCall').length,1);
+  assert.equal(nodes(tree,'Image').length,1);
+  if(outcome==='saved')assert.match(text(tree),/Medal added to your collection/);
+  else {assert.match(text(tree),/Already in your collection/);assert.doesNotMatch(text(tree),/Medal added to your collection/);}
+ }
+});
+test('an unconfirmed perfect score celebrates its performance while retaining the save error and no medal award',()=>{
+ const tree=results('save-failed');
+ assert.match(text(tree),/10\/10/);assert.equal(nodes(tree,'CurtainCall').length,1);
+ assert.equal(nodes(tree,'Image').length,0);assert.match(text(tree),/Progress not saved/);
+ assert.match(text(tree),/Completion has not been confirmed/);
+ assert.ok(nodes(tree,'Pressable').some(n=>n.props.accessibilityLabel==='Retry save'));
+ assert.ok(!nodes(tree,'Pressable').some(n=>n.props.accessibilityLabel==='View medals'));
+ assert.doesNotMatch(text(tree),/Medal added|Already in your collection/);
+});
+test('non-perfect results prioritize review and retake with their real score and no celebration',()=>{
+ const tree=results('failed',8),buttons=nodes(tree,'Pressable').map(n=>n.props.accessibilityLabel);
+ assert.match(text(tree),/8\/10/);assert.match(text(tree),/2 answers to revisit/);
+ assert.equal(nodes(tree,'CurtainCall').length,0);assert.equal(nodes(tree,'Image').length,0);
+ assert.ok(buttons.indexOf('Review answers')<buttons.indexOf('Retake quiz'));
 });

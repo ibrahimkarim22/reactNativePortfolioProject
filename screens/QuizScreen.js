@@ -165,12 +165,11 @@ export default function QuizScreen({ quizRuntime } = {}) {
   if (!quizRuntime && state.phase === "answering" && !state.saving && progress.status !== "ready") {
     return <CourseProgressNotice status={progress.status} onRetry={source.refresh} onBack={returnToCourse} />;
   }
-  if (state.phase === "results") return <CoursePage scrollRef={scroll}>
-    <QuizResults quiz={prepared.quiz} play={prepared.play} result={state.result} saving={state.saving} attemptToken={state.attemptToken}
+  if (state.phase === "results") return <QuizResults quiz={prepared.quiz} play={prepared.play} result={state.result} saving={state.saving} attemptToken={state.attemptToken}
+      renderPage={(content, overlay) => <CoursePage scrollRef={scroll} overlay={overlay}>{content}</CoursePage>}
       onViewMedals={viewMedals} onReviewAnswers={y => scroll.current?.scrollTo?.({ y, animated: true })}
       attempt={attempt} returnToCourse={returnToCourse} sectionLabels={prepared.labels}
-      nextAvailable={PLAYS.some(play => play.difficulty === prepared.quiz.level + 1)} />
-  </CoursePage>;
+      nextAvailable={PLAYS.some(play => play.difficulty === prepared.quiz.level + 1)} />;
   return <>
     <CourseActivityPage scrollRef={scroll} footer={<QuizFooter quiz={prepared.quiz} state={state} attempt={attempt}
       feedbackReady={feedbackReady} stacked={width < 360 || fontScale > 1.2} />}>

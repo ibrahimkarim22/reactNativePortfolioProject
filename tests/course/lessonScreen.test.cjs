@@ -49,9 +49,11 @@ function host(options = {}) {
   const navigation = { navigate: (...args) => calls.push(args) };
   const native = Object.fromEntries(['View', 'Text', 'Button', 'Pressable', 'ScrollView', 'ActivityIndicator', 'StatusBar'].map(name => [name, name]));
   native.StyleSheet = { create: value => value };
+  native.Platform = { OS: 'android' };
   const cache = new Map();
   const dependencies = {
     react: React, 'react-native': native,
+    'expo-font': { useFonts: () => [true, null] },
     'react-native-safe-area-context': { SafeAreaView: 'SafeAreaView' },
     'react-native-gesture-handler': { ScrollView: 'ScrollView' },
     'react-native-htmlview': { __esModule: true, default: 'HTMLView' },
@@ -70,6 +72,7 @@ function host(options = {}) {
   };
   function load(file) {
     if (cache.has(file)) return cache.get(file);
+    if (file.endsWith('.ttf')) return file;
     const code = babel.transformFileSync(file, { babelrc: false, configFile: false,
       plugins: ['@babel/plugin-transform-react-jsx', '@babel/plugin-transform-modules-commonjs'] }).code;
     const module = { exports: {} };
@@ -165,6 +168,40 @@ test('authored synopsis text is preserved and blank summary sections are omitted
   assert.match(text(tree), /The authored summary\./); assert.match(text(tree), /Act 1/);
   assert.match(text(tree), /The authored act summary\./); assert.match(text(tree), /The authored scene summary\./);
   assert.doesNotMatch(text(tree), /Act 2|Empty scene/);
+});
+
+test('structured lessons reuse only the introduction and link to the same full synopsis', () => {
+  const entry = authoredFixture();
+  entry.synopsis = JSON.parse(fs.readFileSync(path.join(root, 'data/plays', entry.slug, 'synopsis.json'), 'utf8'));
+  entry.synopsis.introduction = 'The shared brief introduction.';
+  const h = host({ entry }), tree = h.render();
+  assert.match(text(tree), /The shared brief introduction\./);
+  const introduction = nodes(tree, 'Text').find(node => text(node) === 'The shared brief introduction.');
+  const proseStyle = Object.assign({}, ...[introduction.props.style].flat(Infinity).filter(Boolean));
+  assert.equal(proseStyle.fontSize, 18);
+  assert.equal(proseStyle.fontFamily, 'BardSynopsisSerif');
+  assert.ok(!text(tree).includes(entry.synopsis.fullSynopsis[0].text));
+  assert.ok(!text(tree).includes(entry.synopsis.acts[0].summary));
+  h.button('Read full synopsis').props.onPress();
+  assert.deepEqual(h.calls, [['Synopsis', { id: entry.slug }]]);
+  assert.deepEqual(h.actions, [], 'reading the brief overview needs no network request');
+});
+
+test('lessons do not offer a synopsis that the shared detail contract rejects', () => {
+  for (const change of [
+    synopsis => { synopsis.fullSynopsis = []; },
+    synopsis => { synopsis.acts.pop(); },
+    synopsis => { synopsis.fullSynopsis[0].evidence[0].workId = 'another-play'; },
+    synopsis => { synopsis.contentVersion = 'stale'; },
+  ]) {
+    const entry = authoredFixture();
+    entry.synopsis = JSON.parse(fs.readFileSync(path.join(root, 'data/plays', entry.slug, 'synopsis.json'), 'utf8'));
+    change(entry.synopsis);
+    const h = host({ entry });
+    assert.equal(h.button('Read full synopsis'), undefined);
+    assert.ok(!text(h.render()).includes(entry.synopsis.introduction));
+    assert.equal(h.button('Start quiz').props.disabled, false, 'synopsis failure does not disable the independent quiz');
+  }
 });
 
 test('invalid or missing routes cannot silently open the first local play', () => {

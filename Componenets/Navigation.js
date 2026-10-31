@@ -285,6 +285,7 @@ const Main = () => {
           component={SynopsisList}
           options={{
             title: "Synopsis",
+            headerStatusBarHeight: 0,
             drawerLabelStyle: { color: "white" },
             drawerIcon: ({ focused }) => (
               <FontAwesomeIcon

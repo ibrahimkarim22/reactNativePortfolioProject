@@ -5,6 +5,8 @@ import { getLocalPlayEntry } from "../shared/localPlayService";
 import { validateQuiz } from "../Progress/quizSafety";
 import { buildCanonicalDocument } from "../shared/contentText";
 import { isSourceLinkedQuiz } from "../course/quizContent";
+import { getSynopsisContent } from "../shared/synopsisContent";
+import { SynopsisProse } from "../synopsis/SynopsisUI";
 import {
   CourseButton,
   CourseHeading,
@@ -42,6 +44,11 @@ export default function Lesson() {
   );
 
   const synopsis = entry.synopsis || {};
+  let structuredSynopsis;
+  if (synopsis.schemaVersion === "2.0.0") {
+    try { structuredSynopsis = getSynopsisContent(entry); }
+    catch (_) { structuredSynopsis = null; }
+  }
   const acts = Array.isArray(synopsis.acts) ? synopsis.acts.filter(act => nonblank(act?.summary)) : [];
   const scenes = Array.isArray(synopsis.scenes) ? synopsis.scenes.filter(scene => nonblank(scene?.summary)) : [];
   const quizAvailable = hasUsableQuiz(entry);
@@ -60,7 +67,12 @@ export default function Lesson() {
         subtitle={metadata}
       />
 
-      {(nonblank(synopsis.playSummary) || acts.length > 0 || scenes.length > 0) && (
+      {structuredSynopsis && <CoursePanel>
+        <SynopsisProse>{structuredSynopsis.introduction}</SynopsisProse>
+        <CourseButton title="Read full synopsis" variant="secondary"
+          onPress={() => navigation.navigate("Synopsis", { id: entry.slug })} />
+      </CoursePanel>}
+      {synopsis.schemaVersion !== "2.0.0" && (nonblank(synopsis.playSummary) || acts.length > 0 || scenes.length > 0) && (
         <CoursePanel>
           {nonblank(synopsis.playSummary) && <CourseText>{synopsis.playSummary}</CourseText>}
           {acts.map((act, index) => (

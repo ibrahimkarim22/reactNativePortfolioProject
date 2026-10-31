@@ -22,8 +22,9 @@ const editorialQuizPaths = new Set([
   'titus-andronicus', 'troilus-and-cressida', 'twelfth-night-or-what-you-will',
   'the-two-gentlemen-of-verona', 'the-two-noble-kinsmen',
 ].map(slug => `data/plays/${slug}/quiz.json`));
+const editorialSynopsisPaths = new Set([...editorialQuizPaths, quizPath].map(file => file.replace(/quiz\.json$/, 'synopsis.json')));
 
-test('only the explicitly authorized quiz paths replace historical raw content; Midsummer stays unchanged', () => {
+test('only the explicit quiz and synopsis editorial paths replace historical support content; Midsummer quiz stays unchanged', () => {
   const original = read('tests/fixtures/content-preservation.json');
   assert.equal(sha(original), '3f59ec945cd177441e9249ba6f7c181dbdb46d9d61a799038e354e38d8125cd8', 'the historical fixture must never be rebased');
   const baseline = JSON.parse(original);
@@ -38,9 +39,15 @@ test('only the explicitly authorized quiz paths replace historical raw content; 
   for (const file of editorialQuizPaths) assert.deepEqual(baseline.files.find(entry => entry.path === file), {
     path: file, bytes: 49, sha256: '3ee8d50b8a1570818558bc8e759f0fb27b281c7315d4352a1a990f6995d838a3',
   }, `the original empty-quiz baseline remains immutable: ${file}`);
-  const strict = baseline.files.filter(file => file.path !== quizPath && !editorialQuizPaths.has(file.path));
-  assert.equal(strict.length, 1248);
+  assert.equal(editorialSynopsisPaths.size, 38);
+  for (const file of editorialSynopsisPaths) assert.deepEqual(baseline.files.find(entry => entry.path === file), {
+    path: file, bytes: 81, sha256: '049df8d1cbd540ec00ac4e687e3289225654c2ea947a011eeaaa74ae1e5b7cb5',
+  }, `the original empty-synopsis baseline remains immutable: ${file}`);
+  const strict = baseline.files.filter(file => file.path !== quizPath
+    && !editorialQuizPaths.has(file.path) && !editorialSynopsisPaths.has(file.path));
+  assert.equal(strict.length, 1210);
   assert.equal(strict.filter(file => /\/quiz\.json$/.test(file.path)).length, 0);
+  assert.equal(strict.filter(file => /\/synopsis\.json$/.test(file.path)).length, 0);
   for (const file of strict) {
     const bytes = read(file.path);
     assert.equal(bytes.length, file.bytes, `preserved byte count: ${file.path}`);
@@ -61,4 +68,7 @@ test('only the explicitly authorized quiz paths replace historical raw content; 
     assert.equal(result.questions, 10, file);
     assert.deepEqual(result.errors, [], file);
   }
+  const synopses = require('../../scripts/validateSynopsisCollection.cjs').validateSynopsisCollection({ root });
+  assert.equal(synopses.plays.length, editorialSynopsisPaths.size);
+  assert.deepEqual(synopses.errors, [], 'all 38 authorized synopsis replacements require canonical-reference validation');
 });

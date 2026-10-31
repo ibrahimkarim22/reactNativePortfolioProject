@@ -1,4 +1,5 @@
 import LOCAL_PLAY_DATA from "./localPlayRegistry";
+const { getSynopsisContent, renderSynopsisHtml } = require("./synopsisContent");
 
 const htmlEscape = (value) =>
   String(value ?? "")
@@ -92,14 +93,27 @@ export const getCharactersHtml = (id) => {
   ].join("");
 };
 
+export const getLocalSynopsis = (id) => {
+  const validId = (typeof id === "string" && id.trim().length > 0) || Number.isSafeInteger(id);
+  const entry = validId ? getLocalPlayEntry(id) : undefined;
+  if (!entry) throw new Error("Synopsis unavailable for this play.");
+  return getSynopsisContent(entry);
+};
+
 export const getSynopsisHtml = (id) => {
-  const entry = getLocalPlayEntry(id);
+  const validId = (typeof id === "string" && id.trim().length > 0) || Number.isSafeInteger(id);
+  const entry = validId ? getLocalPlayEntry(id) : undefined;
 
   if (!entry) {
-    throw new Error(`Play not found: ${id}`);
+    throw new Error("Synopsis unavailable for this play.");
   }
 
   const synopsis = entry.synopsis || {};
+
+  if (synopsis.schemaVersion === "2.0.0") {
+    getSynopsisContent(entry);
+    return renderSynopsisHtml(synopsis, entry.name, entry.play);
+  }
 
   if (synopsis.playSummary || synopsis.acts?.length || synopsis.scenes?.length) {
     return [
@@ -117,7 +131,7 @@ export const getSynopsisHtml = (id) => {
   return [
     `<h2>${htmlEscape(entry.name)}</h2>`,
     `<p>${htmlEscape(entry.play?.fullTitle || entry.play?.title || entry.name)}</p>`,
-    `<p>Local synopsis data has not been written yet.</p>`,
+    `<p>Synopsis unavailable for this play.</p>`,
   ].join("");
 };
 

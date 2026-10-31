@@ -1,4 +1,600 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "hamlet-prince-of-denmark-comprehension",
+  "workId": "hamlet-prince-of-denmark",
+  "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "hamlet-prince-of-denmark-01",
+      "question": "What does the Ghost reveal about the old King's death?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-01.a",
+          "text": "Claudius murdered him and took his crown."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-01.b",
+          "text": "Fortinbras killed him in a second public duel."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-01.c",
+          "text": "Gertrude accidentally gave him a sleeping drug."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-01.d",
+          "text": "Polonius ordered his execution for treason."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-01.a",
+      "explanation": "The Ghost identifies the man who now wears the crown, Hamlet's uncle, as his murderer.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 33547,
+          "end": 33944,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@47713",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@47713",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 397
+          },
+          "exact": "GHOST.\nI find thee apt;\nAnd duller shouldst thou be than the fat weed\nThat rots itself in ease on Lethe wharf,\nWouldst thou not stir in this. Now, Hamlet, hear.\n’Tis given out that, sleeping in my orchard,\nA serpent stung me; so the whole ear of Denmark\nIs by a forged process of my death\nRankly abus’d; but know, thou noble youth,\nThe serpent that did sting thy father’s life\nNow wears his crown.",
+          "prefix": "love\nMay sweep to my revenge.\n\n\n",
+          "suffix": "\n\n\nHAMLET.\nO my prophetic soul!\n"
+        },
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 33947,
+          "end": 33987,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@48193",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@48193",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 40
+          },
+          "exact": "HAMLET.\nO my prophetic soul!\nMine uncle!",
+          "prefix": "r’s life\nNow wears his crown.\n\n\n",
+          "suffix": "\n\n\nGHOST.\nAy, that incestuous, t"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-02",
+      "question": "What change in his behavior does Hamlet warn his friends they may see after meeting the Ghost?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-02.a",
+          "text": "He will join Fortinbras's soldiers as a captain."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-02.b",
+          "text": "He may deliberately put on an appearance of madness."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-02.c",
+          "text": "He will publicly renounce his claim to the throne."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-02.d",
+          "text": "He will pretend not to recognize his mother."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-02.b",
+      "explanation": "Hamlet tells his companions not to reveal what they know if he adopts an odd or mad manner.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 39500,
+          "end": 40195,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@55956",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneI_8.5/p@55956",
+            "sectionId": "hamlet-prince-of-denmark-1-5",
+            "offsetUtf16": 695
+          },
+          "exact": "HAMLET.\nAnd therefore as a stranger give it welcome.\nThere are more things in heaven and earth, Horatio,\nThan are dreamt of in your philosophy. But come,\nHere, as before, never, so help you mercy,\nHow strange or odd soe’er I bear myself,—\nAs I perchance hereafter shall think meet\nTo put an antic disposition on—\nThat you, at such times seeing me, never shall,\nWith arms encumber’d thus, or this head-shake,\nOr by pronouncing of some doubtful phrase,\nAs ‘Well, we know’, or ‘We could and if we would’,\nOr ‘If we list to speak’; or ‘There be and if they might’,\nOr such ambiguous giving out, to note\nThat you know aught of me:—this not to do.\nSo grace and mercy at your most need help you,\nSwear.",
+          "prefix": "but this is wondrous strange.\n\n\n",
+          "suffix": "\n\n\nGHOST.\n[Beneath.] Swear.\n\n\nHA"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-03",
+      "question": "Why does Hamlet arrange a play resembling his father's murder?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-03.a",
+          "text": "To announce his planned invasion of Norway to the court."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-03.b",
+          "text": "To make Rosencrantz confess that he killed the old King."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-03.c",
+          "text": "To observe Claudius's reaction and test the Ghost's accusation."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-03.d",
+          "text": "To persuade Gertrude to marry Polonius instead of Claudius."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-03.c",
+      "explanation": "Hamlet doubts whether the spirit can be trusted and seeks stronger grounds in Claudius's response.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 71362,
+          "end": 73807,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneII_8.2/p@98569",
+            "sectionId": "hamlet-prince-of-denmark-2-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneII_8.2/p@98569",
+            "sectionId": "hamlet-prince-of-denmark-2-2",
+            "offsetUtf16": 2445
+          },
+          "exact": "HAMLET.\nAy, so, God b’ wi’ ye. Now I am alone.\nO what a rogue and peasant slave am I!\nIs it not monstrous that this player here,\nBut in a fiction, in a dream of passion,\nCould force his soul so to his own conceit\nThat from her working all his visage wan’d;\nTears in his eyes, distraction in’s aspect,\nA broken voice, and his whole function suiting\nWith forms to his conceit? And all for nothing!\nFor Hecuba?\nWhat’s Hecuba to him, or he to Hecuba,\nThat he should weep for her? What would he do,\nHad he the motive and the cue for passion\nThat I have? He would drown the stage with tears\nAnd cleave the general ear with horrid speech;\nMake mad the guilty, and appal the free,\nConfound the ignorant, and amaze indeed,\nThe very faculties of eyes and ears. Yet I,\nA dull and muddy-mettled rascal, peak\nLike John-a-dreams, unpregnant of my cause,\nAnd can say nothing. No, not for a king\nUpon whose property and most dear life\nA damn’d defeat was made. Am I a coward?\nWho calls me villain, breaks my pate across?\nPlucks off my beard and blows it in my face?\nTweaks me by the nose, gives me the lie i’ th’ throat\nAs deep as to the lungs? Who does me this?\nHa! ’Swounds, I should take it: for it cannot be\nBut I am pigeon-liver’d, and lack gall\nTo make oppression bitter, or ere this\nI should have fatted all the region kites\nWith this slave’s offal. Bloody, bawdy villain!\nRemorseless, treacherous, lecherous, kindless villain!\nOh vengeance!\nWhy, what an ass am I! This is most brave,\nThat I, the son of a dear father murder’d,\nPrompted to my revenge by heaven and hell,\nMust, like a whore, unpack my heart with words\nAnd fall a-cursing like a very drab,\nA scullion! Fie upon’t! Foh!\nAbout, my brain! I have heard\nThat guilty creatures sitting at a play,\nHave by the very cunning of the scene,\nBeen struck so to the soul that presently\nThey have proclaim’d their malefactions.\nFor murder, though it have no tongue, will speak\nWith most miraculous organ. I’ll have these players\nPlay something like the murder of my father\nBefore mine uncle. I’ll observe his looks;\nI’ll tent him to the quick. If he but blench,\nI know my course. The spirit that I have seen\nMay be the devil, and the devil hath power\nT’assume a pleasing shape, yea, and perhaps\nOut of my weakness and my melancholy,\nAs he is very potent with such spirits,\nAbuses me to damn me. I’ll have grounds\nMore relative than this. The play’s the thing\nWherein I’ll catch the conscience of the King.",
+          "prefix": "Rosencrantz and Guildenstern.]\n\n",
+          "suffix": "\n\n\n[Exit.]\n\nACT III\n\nSCENE I. A "
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-04",
+      "question": "Why does Hamlet refrain from killing Claudius when he finds him kneeling in prayer?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-04.a",
+          "text": "He has promised Polonius never to draw his sword in the castle."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-04.b",
+          "text": "He realizes the kneeling man is Horatio rather than Claudius."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-04.c",
+          "text": "He believes Claudius has surrendered the crown to Fortinbras."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-04.d",
+          "text": "He fears that killing him at prayer would send him to heaven."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-04.d",
+      "explanation": "Hamlet decides that death during prayer would reward rather than punish his father's killer.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 104508,
+          "end": 105488,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.3/p@143202",
+            "sectionId": "hamlet-prince-of-denmark-3-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.3/p@143202",
+            "sectionId": "hamlet-prince-of-denmark-3-3",
+            "offsetUtf16": 980
+          },
+          "exact": "HAMLET.\nNow might I do it pat, now he is praying.\nAnd now I’ll do’t. And so he goes to heaven;\nAnd so am I reveng’d. That would be scann’d:\nA villain kills my father, and for that\nI, his sole son, do this same villain send\nTo heaven. O, this is hire and salary, not revenge.\nHe took my father grossly, full of bread,\nWith all his crimes broad blown, as flush as May;\nAnd how his audit stands, who knows save heaven?\nBut in our circumstance and course of thought,\n’Tis heavy with him. And am I then reveng’d,\nTo take him in the purging of his soul,\nWhen he is fit and season’d for his passage? No.\nUp, sword, and know thou a more horrid hent:\nWhen he is drunk asleep; or in his rage,\nOr in th’incestuous pleasure of his bed,\nAt gaming, swearing; or about some act\nThat has no relish of salvation in’t,\nThen trip him, that his heels may kick at heaven,\nAnd that his soul may be as damn’d and black\nAs hell, whereto it goes. My mother stays.\nThis physic but prolongs thy sickly days.",
+          "prefix": "es and kneels.]\n\nEnter Hamlet.\n\n",
+          "suffix": "\n\n\n[Exit.]\n\nThe King rises and a"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-05",
+      "question": "How does Polonius die in Gertrude's chamber?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-05.a",
+          "text": "Hamlet stabs through the arras without seeing who is hidden there."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-05.b",
+          "text": "Claudius poisons him after hearing his report on Ophelia."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-05.c",
+          "text": "Laertes kills him while trying to defend the Queen."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-05.d",
+          "text": "Gertrude pushes him into the brook outside the castle."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-05.a",
+      "explanation": "Hearing a cry behind the arras, Hamlet thrusts through it and discovers that he has killed Polonius.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 106954,
+          "end": 106987,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.4/p@146886",
+            "sectionId": "hamlet-prince-of-denmark-3-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.4/p@146886",
+            "sectionId": "hamlet-prince-of-denmark-3-4",
+            "offsetUtf16": 33
+          },
+          "exact": "[Makes a pass through the arras.]",
+          "prefix": "aws.]\nDead for a ducat, dead!\n\n\n",
+          "suffix": "\n\nPOLONIUS.\n[Behind.] O, I am sl"
+        },
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 107124,
+          "end": 107147,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.4/p@147236",
+            "sectionId": "hamlet-prince-of-denmark-3-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIII_8.4/p@147236",
+            "sectionId": "hamlet-prince-of-denmark-3-4",
+            "offsetUtf16": 23
+          },
+          "exact": "[Draws forth Polonius.]",
+          "prefix": ", I know not. Is it the King?\n\n\n",
+          "suffix": "\n\nQUEEN.\nO what a rash and blood"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-06",
+      "question": "How does Hamlet turn the secret order for his execution against Rosencrantz and Guildenstern?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-06.a",
+          "text": "He sends it to Fortinbras as proof of Gertrude's guilt."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-06.b",
+          "text": "He replaces it with an order to execute its bearers."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-06.c",
+          "text": "He persuades Claudius to sign a public pardon for them."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-06.d",
+          "text": "He hides it in Ophelia's grave before leaving Denmark."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-06.b",
+      "explanation": "Hamlet writes and seals a substitute commission directing England to put the messengers to death.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 161343,
+          "end": 161765,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@221955",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@221955",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 422
+          },
+          "exact": "HAMLET.\nAn earnest conjuration from the King,\nAs England was his faithful tributary,\nAs love between them like the palm might flourish,\nAs peace should still her wheaten garland wear\nAnd stand a comma ’tween their amities,\nAnd many such-like ‘as’es of great charge,\nThat on the view and know of these contents,\nWithout debatement further, more or less,\nHe should the bearers put to sudden death,\nNot shriving-time allow’d.",
+          "prefix": "\n\n\nHORATIO.\nAy, good my lord.\n\n\n",
+          "suffix": "\n\n\nHORATIO.\nHow was this seal’d?"
+        },
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 162144,
+          "end": 162193,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@222941",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@222941",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 49
+          },
+          "exact": "HORATIO.\nSo Guildenstern and Rosencrantz go to’t.",
+          "prefix": "sequent\nThou know’st already.\n\n\n",
+          "suffix": "\n\n\nHAMLET.\nWhy, man, they did ma"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-07",
+      "question": "How does Gertrude describe Ophelia's death to Laertes?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-07.a",
+          "text": "She drinks from a cup Claudius prepared for the fencing match."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-07.b",
+          "text": "She is drowned by sailors during Hamlet's voyage to England."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-07.c",
+          "text": "A branch breaks while she hangs flowers, and she falls into a brook."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-07.d",
+          "text": "She is struck by a poisoned sword while defending Hamlet."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-07.c",
+      "explanation": "In Gertrude's account, Ophelia falls with her garlands and her waterlogged clothes eventually pull her under.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 144499,
+          "end": 145290,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@198855",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@198855",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 791
+          },
+          "exact": "QUEEN.\nThere is a willow grows aslant a brook,\nThat shows his hoary leaves in the glassy stream.\nThere with fantastic garlands did she make\nOf crow-flowers, nettles, daisies, and long purples,\nThat liberal shepherds give a grosser name,\nBut our cold maids do dead men’s fingers call them.\nThere on the pendant boughs her coronet weeds\nClamb’ring to hang, an envious sliver broke,\nWhen down her weedy trophies and herself\nFell in the weeping brook. Her clothes spread wide,\nAnd mermaid-like, awhile they bore her up,\nWhich time she chaunted snatches of old tunes,\nAs one incapable of her own distress,\nOr like a creature native and indued\nUnto that element. But long it could not be\nTill that her garments, heavy with their drink,\nPull’d the poor wretch from her melodious lay\nTo muddy death.",
+          "prefix": "\n\nLAERTES.\nDrown’d! O, where?\n\n\n",
+          "suffix": "\n\n\nLAERTES.\nAlas, then she is dr"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-08",
+      "question": "What makes the planned fencing match deadly for Hamlet?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-08.a",
+          "text": "Osric plans to replace Hamlet's foil with a heavy battle-axe."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-08.b",
+          "text": "Fortinbras plans to shoot Hamlet when the trumpets sound."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-08.c",
+          "text": "Horatio plans to attack Laertes before the first exchange."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-08.d",
+          "text": "Laertes plans a poisoned blade, with a poisoned drink as backup."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-08.d",
+      "explanation": "Laertes prepares poison for his sword, and Claudius adds a poisoned chalice in case the blade fails.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 143306,
+          "end": 143695,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@197319",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@197319",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 389
+          },
+          "exact": "LAERTES.\nI will do’t.\nAnd for that purpose I’ll anoint my sword.\nI bought an unction of a mountebank\nSo mortal that, but dip a knife in it,\nWhere it draws blood no cataplasm so rare,\nCollected from all simples that have virtue\nUnder the moon, can save the thing from death\nThis is but scratch’d withal. I’ll touch my point\nWith this contagion, that if I gall him slightly,\nIt may be death.",
+          "prefix": "\nRequite him for your father.\n\n\n",
+          "suffix": "\n\n\nKING.\nLet’s further think of "
+        },
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 143698,
+          "end": 144327,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@197791",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneIV_8.7/p@197791",
+            "sectionId": "hamlet-prince-of-denmark-4-7",
+            "offsetUtf16": 629
+          },
+          "exact": "KING.\nLet’s further think of this,\nWeigh what convenience both of time and means\nMay fit us to our shape. If this should fail,\nAnd that our drift look through our bad performance.\n’Twere better not assay’d. Therefore this project\nShould have a back or second, that might hold\nIf this did blast in proof. Soft, let me see.\nWe’ll make a solemn wager on your cunnings,—\nI ha’t! When in your motion you are hot and dry,\nAs make your bouts more violent to that end,\nAnd that he calls for drink, I’ll have prepar’d him\nA chalice for the nonce; whereon but sipping,\nIf he by chance escape your venom’d stuck,\nOur purpose may hold there.",
+          "prefix": "im slightly,\nIt may be death.\n\n\n",
+          "suffix": "\n\n\nEnter Queen.\n\nHow now, sweet "
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-09",
+      "question": "Why does Gertrude die during the fencing match?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-09.a",
+          "text": "She drinks from the poisoned cup intended for Hamlet."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-09.b",
+          "text": "Laertes deliberately stabs her with his poisoned blade."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-09.c",
+          "text": "She takes the poison Hamlet has brought for Claudius."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-09.d",
+          "text": "Claudius strikes her after she reveals the murder order."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-09.a",
+      "explanation": "Gertrude drinks a toast despite Claudius's warning and then identifies the drink as the poison killing her.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 172879,
+          "end": 172908,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@237961",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@237961",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 29
+          },
+          "exact": "KING.\nGertrude, do not drink.",
+          "prefix": "Hamlet.\n\n\nHAMLET.\nGood madam.\n\n\n",
+          "suffix": "\n\n\nQUEEN.\nI will, my lord; I pra"
+        },
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 173939,
+          "end": 174030,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@240003",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@240003",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 91
+          },
+          "exact": "QUEEN.\nNo, no, the drink, the drink! O my dear Hamlet!\nThe drink, the drink! I am poison’d.",
+          "prefix": "She swoons to see them bleed.\n\n\n",
+          "suffix": "\n\n\n[Dies.]\n\nHAMLET.\nO villany! H"
+        }
+      ]
+    },
+    {
+      "id": "hamlet-prince-of-denmark-10",
+      "question": "Whom does Hamlet support as Denmark's next ruler with his dying voice?",
+      "options": [
+        {
+          "id": "hamlet-prince-of-denmark-10.a",
+          "text": "Osric."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-10.b",
+          "text": "Fortinbras."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-10.c",
+          "text": "Horatio."
+        },
+        {
+          "id": "hamlet-prince-of-denmark-10.d",
+          "text": "Laertes."
+        }
+      ],
+      "correctOptionId": "hamlet-prince-of-denmark-10.b",
+      "explanation": "As he dies, Hamlet predicts Fortinbras's election and gives him his support.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "hamlet-prince-of-denmark",
+          "contentVersion": "7c006a576f3ca873bf6d1a0b85e792c05bf5e4b36722f4095b613ffc937be8a6",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 175937,
+          "end": 176220,
+          "startRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@242917",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "hamlet-prince-of-denmark/sceneV_8.2/p@242917",
+            "sectionId": "hamlet-prince-of-denmark-5-2",
+            "offsetUtf16": 283
+          },
+          "exact": "HAMLET.\nO, I die, Horatio.\nThe potent poison quite o’er-crows my spirit:\nI cannot live to hear the news from England,\nBut I do prophesy th’election lights\nOn Fortinbras. He has my dying voice.\nSo tell him, with the occurrents more and less,\nWhich have solicited. The rest is silence.",
+          "prefix": "nd gives\nThis warlike volley.\n\n\n",
+          "suffix": "\n\n\n[Dies.]\n\nHORATIO.\nNow cracks "
+        }
+      ]
+    }
+  ]
 }

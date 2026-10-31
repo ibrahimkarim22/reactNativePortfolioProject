@@ -1,4 +1,534 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "romeo-and-juliet-comprehension",
+  "workId": "romeo-and-juliet",
+  "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "romeo-and-juliet-01",
+      "question": "What does Juliet discover about the man she has fallen in love with at the feast?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-01.a",
+          "text": "He has been chosen by her father as her husband."
+        },
+        {
+          "id": "romeo-and-juliet-01.b",
+          "text": "He belongs to the family her own family hates."
+        },
+        {
+          "id": "romeo-and-juliet-01.c",
+          "text": "He is Tybalt’s brother and lives in her household."
+        },
+        {
+          "id": "romeo-and-juliet-01.d",
+          "text": "He is a friar visiting from Mantua."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-01.b",
+      "explanation": "Juliet laments that her love has sprung from her family’s hatred.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 35020,
+          "end": 35182,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneI_30.5/p@49881",
+            "sectionId": "romeo-and-juliet-1-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneI_30.5/p@49881",
+            "sectionId": "romeo-and-juliet-1-5",
+            "offsetUtf16": 162
+          },
+          "exact": "JULIET.\nMy only love sprung from my only hate!\nToo early seen unknown, and known too late!\nProdigious birth of love it is to me,\nThat I must love a loathed enemy.",
+          "prefix": " only son of your great enemy.\n\n",
+          "suffix": "\n\nNURSE.\nWhat’s this? What’s thi"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-02",
+      "question": "Why does Friar Lawrence agree to help Romeo marry Juliet?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-02.a",
+          "text": "He hopes the marriage will reconcile the households."
+        },
+        {
+          "id": "romeo-and-juliet-02.b",
+          "text": "He wants to help Paris inherit the Capulet estate."
+        },
+        {
+          "id": "romeo-and-juliet-02.c",
+          "text": "He has been ordered to do so by the Prince."
+        },
+        {
+          "id": "romeo-and-juliet-02.d",
+          "text": "He thinks Juliet has already obtained her parents’ consent."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-02.a",
+      "explanation": "The friar hopes their alliance can turn the families’ rancour into love.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 50956,
+          "end": 51201,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneII_30.3/p@71088",
+            "sectionId": "romeo-and-juliet-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneII_30.3/p@71088",
+            "sectionId": "romeo-and-juliet-2-3",
+            "offsetUtf16": 245
+          },
+          "exact": "FRIAR LAWRENCE.\nO, she knew well\nThy love did read by rote, that could not spell.\nBut come young waverer, come go with me,\nIn one respect I’ll thy assistant be;\nFor this alliance may so happy prove,\nTo turn your households’ rancour to pure love.",
+          "prefix": "e allow.\nThe other did not so.\n\n",
+          "suffix": "\n\nROMEO.\nO let us hence; I stand"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-03",
+      "question": "Why is Mercutio angry with Romeo after being wounded?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-03.a",
+          "text": "Romeo refused to let him visit Juliet."
+        },
+        {
+          "id": "romeo-and-juliet-03.b",
+          "text": "Romeo secretly gave Tybalt a poisoned sword."
+        },
+        {
+          "id": "romeo-and-juliet-03.c",
+          "text": "Romeo persuaded the Prince to banish him."
+        },
+        {
+          "id": "romeo-and-juliet-03.d",
+          "text": "Romeo came between the fighters, and Mercutio was hurt under his arm."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-03.d",
+      "explanation": "Mercutio directly blames Romeo’s intervention for the opening through which he was hurt.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 70613,
+          "end": 71041,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@98042",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@98042",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 428
+          },
+          "exact": "MERCUTIO.\nNo, ’tis not so deep as a well, nor so wide as a church door, but ’tis enough, ’twill serve. Ask for me tomorrow, and you shall find me a grave man. I am peppered, I warrant, for this world. A plague o’ both your houses. Zounds, a dog, a rat, a mouse, a cat, to scratch a man to death. A braggart, a rogue, a villain, that fights by the book of arithmetic!—Why the devil came you between us? I was hurt under your arm.",
+          "prefix": " man; the hurt cannot be much.\n\n",
+          "suffix": "\n\nROMEO.\nI thought all for the b"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-04",
+      "question": "What punishment follows Romeo’s killing of Tybalt?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-04.a",
+          "text": "Immediate execution by the Prince."
+        },
+        {
+          "id": "romeo-and-juliet-04.b",
+          "text": "Marriage to Lady Capulet’s chosen bride."
+        },
+        {
+          "id": "romeo-and-juliet-04.c",
+          "text": "Banishment from Verona."
+        },
+        {
+          "id": "romeo-and-juliet-04.d",
+          "text": "Permanent confinement in Friar Lawrence’s cell."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-04.c",
+      "explanation": "The Prince orders Romeo into exile and threatens death if he remains.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 73369,
+          "end": 74423,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@102104",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@102104",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 1054
+          },
+          "exact": "BENVOLIO.\nTybalt, here slain, whom Romeo’s hand did slay;\nRomeo, that spoke him fair, bid him bethink\nHow nice the quarrel was, and urg’d withal\nYour high displeasure. All this uttered\nWith gentle breath, calm look, knees humbly bow’d\nCould not take truce with the unruly spleen\nOf Tybalt, deaf to peace, but that he tilts\nWith piercing steel at bold Mercutio’s breast,\nWho, all as hot, turns deadly point to point,\nAnd, with a martial scorn, with one hand beats\nCold death aside, and with the other sends\nIt back to Tybalt, whose dexterity\nRetorts it. Romeo he cries aloud,\n‘Hold, friends! Friends, part!’ and swifter than his tongue,\nHis agile arm beats down their fatal points,\nAnd ’twixt them rushes; underneath whose arm\nAn envious thrust from Tybalt hit the life\nOf stout Mercutio, and then Tybalt fled.\nBut by and by comes back to Romeo,\nWho had but newly entertain’d revenge,\nAnd to’t they go like lightning; for, ere I\nCould draw to part them was stout Tybalt slain;\nAnd as he fell did Romeo turn and fly.\nThis is the truth, or let Benvolio die.",
+          "prefix": "o, who began this bloody fray?\n\n",
+          "suffix": "\n\nLADY CAPULET.\nHe is a kinsman "
+        },
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 74919,
+          "end": 75436,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@103937",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.1/p@103937",
+            "sectionId": "romeo-and-juliet-3-1",
+            "offsetUtf16": 517
+          },
+          "exact": "PRINCE.\nAnd for that offence\nImmediately we do exile him hence.\nI have an interest in your hate’s proceeding,\nMy blood for your rude brawls doth lie a-bleeding.\nBut I’ll amerce you with so strong a fine\nThat you shall all repent the loss of mine.\nI will be deaf to pleading and excuses;\nNor tears nor prayers shall purchase out abuses.\nTherefore use none. Let Romeo hence in haste,\nElse, when he is found, that hour is his last.\nBear hence this body, and attend our will.\nMercy but murders, pardoning those that kill.",
+          "prefix": "hould end,\nThe life of Tybalt.\n\n",
+          "suffix": "\n\n[Exeunt.]\n\nSCENE II. A Room in"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-05",
+      "question": "What marriage does Capulet demand Juliet accept after Tybalt’s death?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-05.a",
+          "text": "Marriage to Benvolio."
+        },
+        {
+          "id": "romeo-and-juliet-05.b",
+          "text": "Marriage to Mercutio."
+        },
+        {
+          "id": "romeo-and-juliet-05.c",
+          "text": "Marriage to Paris."
+        },
+        {
+          "id": "romeo-and-juliet-05.d",
+          "text": "Marriage to Friar John."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-05.c",
+      "explanation": "Capulet threatens to force Juliet to church with Paris.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 98576,
+          "end": 98965,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.5/p@134671",
+            "sectionId": "romeo-and-juliet-3-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneIII_30.5/p@134671",
+            "sectionId": "romeo-and-juliet-3-5",
+            "offsetUtf16": 389
+          },
+          "exact": "CAPULET.\nHow now, how now, chopp’d logic? What is this?\nProud, and, I thank you, and I thank you not;\nAnd yet not proud. Mistress minion you,\nThank me no thankings, nor proud me no prouds,\nBut fettle your fine joints ’gainst Thursday next\nTo go with Paris to Saint Peter’s Church,\nOr I will drag thee on a hurdle thither.\nOut, you green-sickness carrion! Out, you baggage!\nYou tallow-face!",
+          "prefix": "n for hate that is meant love.\n\n",
+          "suffix": "\n\nLADY CAPULET.\nFie, fie! What, "
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-06",
+      "question": "What is the intended effect of the vial Friar Lawrence gives Juliet?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-06.a",
+          "text": "Make her seem dead temporarily, then awaken."
+        },
+        {
+          "id": "romeo-and-juliet-06.b",
+          "text": "Kill Paris while leaving Juliet unharmed."
+        },
+        {
+          "id": "romeo-and-juliet-06.c",
+          "text": "Make Romeo forget his love for her."
+        },
+        {
+          "id": "romeo-and-juliet-06.d",
+          "text": "Keep her permanently asleep in Mantua."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-06.a",
+      "explanation": "The friar describes a borrowed appearance of death that will end in waking.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 106984,
+          "end": 108374,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneIV_30.1/p@145856",
+            "sectionId": "romeo-and-juliet-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneIV_30.1/p@145856",
+            "sectionId": "romeo-and-juliet-4-1",
+            "offsetUtf16": 1390
+          },
+          "exact": "FRIAR LAWRENCE.\nHold then. Go home, be merry, give consent\nTo marry Paris. Wednesday is tomorrow;\nTomorrow night look that thou lie alone,\nLet not thy Nurse lie with thee in thy chamber.\nTake thou this vial, being then in bed,\nAnd this distilled liquor drink thou off,\nWhen presently through all thy veins shall run\nA cold and drowsy humour; for no pulse\nShall keep his native progress, but surcease.\nNo warmth, no breath shall testify thou livest,\nThe roses in thy lips and cheeks shall fade\nTo paly ashes; thy eyes’ windows fall,\nLike death when he shuts up the day of life.\nEach part depriv’d of supple government,\nShall stiff and stark and cold appear like death.\nAnd in this borrow’d likeness of shrunk death\nThou shalt continue two and forty hours,\nAnd then awake as from a pleasant sleep.\nNow when the bridegroom in the morning comes\nTo rouse thee from thy bed, there art thou dead.\nThen as the manner of our country is,\nIn thy best robes, uncover’d, on the bier,\nThou shalt be borne to that same ancient vault\nWhere all the kindred of the Capulets lie.\nIn the meantime, against thou shalt awake,\nShall Romeo by my letters know our drift,\nAnd hither shall he come, and he and I\nWill watch thy waking, and that very night\nShall Romeo bear thee hence to Mantua.\nAnd this shall free thee from this present shame,\nIf no inconstant toy nor womanish fear\nAbate thy valour in the acting it.",
+          "prefix": "stain’d wife to my sweet love.\n\n",
+          "suffix": "\n\nJULIET.\nGive me, give me! O te"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-07",
+      "question": "Why does Friar John fail to deliver Lawrence’s message to Romeo?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-07.a",
+          "text": "The Nurse destroys the letter before he leaves."
+        },
+        {
+          "id": "romeo-and-juliet-07.b",
+          "text": "Officials confine him because they suspect infection."
+        },
+        {
+          "id": "romeo-and-juliet-07.c",
+          "text": "Paris bribes him to return without delivering it."
+        },
+        {
+          "id": "romeo-and-juliet-07.d",
+          "text": "Romeo refuses to receive any messenger."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-07.b",
+      "explanation": "Friar John reports being shut inside a suspected plague house, delaying the journey to Mantua.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 126016,
+          "end": 126358,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneV_30.2/p@172292",
+            "sectionId": "romeo-and-juliet-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneV_30.2/p@172292",
+            "sectionId": "romeo-and-juliet-5-2",
+            "offsetUtf16": 342
+          },
+          "exact": "FRIAR JOHN.\nGoing to find a barefoot brother out,\nOne of our order, to associate me,\nHere in this city visiting the sick,\nAnd finding him, the searchers of the town,\nSuspecting that we both were in a house\nWhere the infectious pestilence did reign,\nSeal’d up the doors, and would not let us forth,\nSo that my speed to Mantua there was stay’d.",
+          "prefix": "d be writ, give me his letter.\n\n",
+          "suffix": "\n\nFRIAR LAWRENCE.\nWho bare my le"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-08",
+      "question": "What does Romeo do beside Juliet when he believes her dead?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-08.a",
+          "text": "He waits for Friar John to wake her."
+        },
+        {
+          "id": "romeo-and-juliet-08.b",
+          "text": "He asks Paris to take her to Mantua."
+        },
+        {
+          "id": "romeo-and-juliet-08.c",
+          "text": "He uses the friar’s vial to imitate death."
+        },
+        {
+          "id": "romeo-and-juliet-08.d",
+          "text": "He drinks poison and dies."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-08.d",
+      "explanation": "Romeo drinks the apothecary’s drug as a final act beside Juliet.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 131342,
+          "end": 132750,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@179471",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@179471",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 1408
+          },
+          "exact": "How oft when men are at the point of death\nHave they been merry! Which their keepers call\nA lightning before death. O, how may I\nCall this a lightning? O my love, my wife,\nDeath that hath suck’d the honey of thy breath,\nHath had no power yet upon thy beauty.\nThou art not conquer’d. Beauty’s ensign yet\nIs crimson in thy lips and in thy cheeks,\nAnd death’s pale flag is not advanced there.\nTybalt, liest thou there in thy bloody sheet?\nO, what more favour can I do to thee\nThan with that hand that cut thy youth in twain\nTo sunder his that was thine enemy?\nForgive me, cousin. Ah, dear Juliet,\nWhy art thou yet so fair? Shall I believe\nThat unsubstantial death is amorous;\nAnd that the lean abhorred monster keeps\nThee here in dark to be his paramour?\nFor fear of that I still will stay with thee,\nAnd never from this palace of dim night\nDepart again. Here, here will I remain\nWith worms that are thy chambermaids. O, here\nWill I set up my everlasting rest;\nAnd shake the yoke of inauspicious stars\nFrom this world-wearied flesh. Eyes, look your last.\nArms, take your last embrace! And, lips, O you\nThe doors of breath, seal with a righteous kiss\nA dateless bargain to engrossing death.\nCome, bitter conduct, come, unsavoury guide.\nThou desperate pilot, now at once run on\nThe dashing rocks thy sea-sick weary bark.\nHere’s to my love! [Drinks.] O true apothecary!\nThy drugs are quick. Thus with a kiss I die.",
+          "prefix": "Laying Paris in the monument.]\n\n",
+          "suffix": "\n\n[Dies.]\n\nEnter, at the other e"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-09",
+      "question": "How does Juliet end her life after awakening in the tomb?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-09.a",
+          "text": "She drinks the rest of the sleeping vial."
+        },
+        {
+          "id": "romeo-and-juliet-09.b",
+          "text": "She stabs herself with a dagger."
+        },
+        {
+          "id": "romeo-and-juliet-09.c",
+          "text": "She asks Capulet to execute her."
+        },
+        {
+          "id": "romeo-and-juliet-09.d",
+          "text": "She jumps from the balcony into the street."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-09.b",
+      "explanation": "Juliet names the dagger and the stage direction records her stabbing herself.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 135215,
+          "end": 135270,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@184641",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@184641",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 55
+          },
+          "exact": "JULIET.\nYea, noise? Then I’ll be brief. O happy dagger.",
+          "prefix": "Within.] Lead, boy. Which way?\n\n",
+          "suffix": "\n\n[Snatching Romeo’s dagger.]\n\nT"
+        },
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 135301,
+          "end": 135364,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@184820",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@184820",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 63
+          },
+          "exact": "This is thy sheath. [stabs herself] There rest, and let me die.",
+          "prefix": ".\n\n[Snatching Romeo’s dagger.]\n\n",
+          "suffix": "\n\n[Falls on Romeo’s body and die"
+        }
+      ]
+    },
+    {
+      "id": "romeo-and-juliet-10",
+      "question": "How does Capulet address Montague after the lovers’ deaths?",
+      "options": [
+        {
+          "id": "romeo-and-juliet-10.a",
+          "text": "As a brother, offering his hand in reconciliation."
+        },
+        {
+          "id": "romeo-and-juliet-10.b",
+          "text": "As the man he challenges to a duel."
+        },
+        {
+          "id": "romeo-and-juliet-10.c",
+          "text": "As the new ruler of Verona."
+        },
+        {
+          "id": "romeo-and-juliet-10.d",
+          "text": "As the man he orders into exile."
+        }
+      ],
+      "correctOptionId": "romeo-and-juliet-10.a",
+      "explanation": "Capulet’s offered hand marks the end of the family hostility that destroyed the lovers.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "romeo-and-juliet",
+          "contentVersion": "63bc83e9b3b39a575caeac11bed4fafd384d4f46d971bdee064e65b379da49f8",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 141324,
+          "end": 141428,
+          "startRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@192940",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "romeo-and-juliet/sceneV_30.3/p@192940",
+            "sectionId": "romeo-and-juliet-5-3",
+            "offsetUtf16": 104
+          },
+          "exact": "CAPULET.\nO brother Montague, give me thy hand.\nThis is my daughter’s jointure, for no more\nCan I demand.",
+          "prefix": " of kinsmen. All are punish’d.\n\n",
+          "suffix": "\n\nMONTAGUE.\nBut I can give thee "
+        }
+      ]
+    }
+  ]
 }

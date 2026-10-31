@@ -240,10 +240,10 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     }
   }
 
-  navigation = installNavigation({ identity: identity, blocks: blocks, send: send, layout: layout,
+  navigation = installNavigation({ identity: identity, blocks: blocks, root: document.querySelector('main'), send: send, layout: layout,
     observeScroll: observeScroll,
     newIntent: userInteraction, interactionVersion: function () { return interactionVersion; },
-    markOwnScroll: function () { observedScrollY = window.scrollY || window.pageYOffset || 0; } });
+    markOwnScroll: function () { observedScrollY = window.scrollY || window.pageYOffset || 0; } }, createSelectionDom);
   function jumpToSection(payload) {
     const jumped = navigation.jumpToSection(payload);
     if (jumped) selection.invalidate('navigation');
@@ -254,7 +254,13 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     if (shown) selection.invalidate('navigation');
     return shown;
   }
+  function jumpToPassage(payload) {
+    const jumped = navigation.jumpToPassage(payload);
+    if (jumped) selection.invalidate('navigation');
+    return jumped;
+  }
   window.BardReader = Object.freeze({ applyAppearance: applyAppearance, jumpToSection: jumpToSection, focusSection: navigation.focusSection,
+    jumpToPassage: jumpToPassage, focusPassage: navigation.focusPassage,
     captureSelection: selection.captureSelection, clearSelection: selection.clearSelection,
     updateHighlights: highlights.update, showHighlight: showHighlight });
   window.addEventListener('message', function (event) {
@@ -262,6 +268,8 @@ const READER_RUNTIME_SOURCE = String.raw`function installReader(identity, themes
     if (event.data.type === 'bard-reader-appearance') applyAppearance(event.data.payload);
     else if (event.data.type === 'bard-reader-jump') jumpToSection(event.data.payload);
     else if (event.data.type === 'bard-reader-focus') navigation.focusSection(event.data.payload);
+    else if (event.data.type === 'bard-reader-passage-jump') jumpToPassage(event.data.payload);
+    else if (event.data.type === 'bard-reader-passage-focus') navigation.focusPassage(event.data.payload);
     else if (event.data.type === 'bard-reader-selection-capture') selection.captureSelection(event.data.payload);
     else if (event.data.type === 'bard-reader-selection-clear') selection.clearSelection(event.data.payload);
     else if (event.data.type === 'bard-reader-highlights') highlights.update(event.data.payload);

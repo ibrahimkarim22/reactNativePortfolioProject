@@ -1,4 +1,534 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "coriolanus-comprehension",
+  "workId": "coriolanus",
+  "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "coriolanus-01",
+      "question": "What grievance drives the citizens' unrest at the opening?",
+      "options": [
+        {
+          "id": "coriolanus-01.a",
+          "text": "Hunger and the belief that the powerful are withholding corn."
+        },
+        {
+          "id": "coriolanus-01.b",
+          "text": "A demand that Rome abandon every war against the Volscians."
+        },
+        {
+          "id": "coriolanus-01.c",
+          "text": "The loss of the city's temples to Aufidius's soldiers."
+        },
+        {
+          "id": "coriolanus-01.d",
+          "text": "A law requiring every citizen to leave Rome that day."
+        }
+      ],
+      "correctOptionId": "coriolanus-01.a",
+      "explanation": "The citizens contrast their hunger with patrician abundance and demand corn at an affordable price.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 2306,
+          "end": 2391,
+          "startRef": {
+            "textId": "coriolanus/sceneI_6.1/p@5223",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneI_6.1/p@5223",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 85
+          },
+          "exact": "FIRST CITIZEN.\nLet us kill him, and we’ll have corn at our own price. Is’t a verdict?",
+          "prefix": "e.\n\nALL.\nWe know’t, we know’t!\n\n",
+          "suffix": "\n\nALL.\nNo more talking on’t; let"
+        },
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 2491,
+          "end": 3024,
+          "startRef": {
+            "textId": "coriolanus/sceneI_6.1/p@5504",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneI_6.1/p@5504",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 533
+          },
+          "exact": "FIRST CITIZEN.\nWe are accounted poor citizens, the patricians good. What authority surfeits on would relieve us. If they would yield us but the superfluity while it were wholesome, we might guess they relieved us humanely. But they think we are too dear. The leanness that afflicts us, the object of our misery, is as an inventory to particularize their abundance; our sufferance is a gain to them. Let us revenge this with our pikes ere we become rakes; for the gods know I speak this in hunger for bread, not in thirst for revenge.",
+          "prefix": "IZEN.\nOne word, good citizens.\n\n",
+          "suffix": "\n\nSECOND CITIZEN.\nWould you proc"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-02",
+      "question": "What point does Menenius make with his fable of the belly and the body's members?",
+      "options": [
+        {
+          "id": "coriolanus-02.a",
+          "text": "The city's hunger proves that Rome has no useful leaders."
+        },
+        {
+          "id": "coriolanus-02.b",
+          "text": "The Senate serves the whole city by distributing benefits."
+        },
+        {
+          "id": "coriolanus-02.c",
+          "text": "The citizens must replace the Senate with foreign rulers."
+        },
+        {
+          "id": "coriolanus-02.d",
+          "text": "Soldiers should refuse food until the tribunes surrender."
+        }
+      ],
+      "correctOptionId": "coriolanus-02.b",
+      "explanation": "Menenius identifies the Senate with the belly and argues that its work nourishes the rest of the state.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 8613,
+          "end": 8970,
+          "startRef": {
+            "textId": "coriolanus/sceneI_6.1/p@13149",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneI_6.1/p@13149",
+            "sectionId": "coriolanus-1-1",
+            "offsetUtf16": 357
+          },
+          "exact": "MENENIUS.\nThe senators of Rome are this good belly,\nAnd you the mutinous members. For examine\nTheir counsels and their cares, digest things rightly\nTouching the weal o’ th’ common, you shall find\nNo public benefit which you receive\nBut it proceeds or comes from them to you\nAnd no way from yourselves. What do you think,\nYou, the great toe of this assembly?",
+          "prefix": "an answer. How apply you this?\n\n",
+          "suffix": "\n\nFIRST CITIZEN.\nI the great toe"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-03",
+      "question": "Why is Caius Martius given the name Coriolanus?",
+      "options": [
+        {
+          "id": "coriolanus-03.a",
+          "text": "To celebrate his marriage into Aufidius's family."
+        },
+        {
+          "id": "coriolanus-03.b",
+          "text": "To reward his decision to distribute free corn."
+        },
+        {
+          "id": "coriolanus-03.c",
+          "text": "To honor his deeds in the fighting at Corioles."
+        },
+        {
+          "id": "coriolanus-03.d",
+          "text": "To mark his appointment as Rome's sole tribune."
+        }
+      ],
+      "correctOptionId": "coriolanus-03.c",
+      "explanation": "Cominius grants the added name in recognition of Martius's service at Corioles.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 36595,
+          "end": 37204,
+          "startRef": {
+            "textId": "coriolanus/sceneI_6.9/p@52026",
+            "sectionId": "coriolanus-1-9",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneI_6.9/p@52026",
+            "sectionId": "coriolanus-1-9",
+            "offsetUtf16": 609
+          },
+          "exact": "COMINIUS.\nToo modest are you,\nMore cruel to your good report than grateful\nTo us that give you truly. By your patience,\nIf ’gainst yourself you be incensed, we’ll put you,\nLike one that means his proper harm, in manacles,\nThen reason safely with you. Therefore be it known,\nAs to us to all the world, that Caius Martius\nWears this war’s garland, in token of the which\nMy noble steed, known to the camp, I give him,\nWith all his trim belonging. And from this time,\nFor what he did before Corioles, call him,\nWith all th’ applause and clamour of the host,\nCaius Martius Coriolanus! Bear\nTh’ addition nobly ever!",
+          "prefix": "d\nIn praises sauced with lies.\n\n",
+          "suffix": "\n\n[Flourish. Trumpets sound, and"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-04",
+      "question": "What does Coriolanus refuse to do while asking the citizens to support him as consul?",
+      "options": [
+        {
+          "id": "coriolanus-04.a",
+          "text": "Acknowledge that he has fought for Rome."
+        },
+        {
+          "id": "coriolanus-04.b",
+          "text": "Wear the customary gown when approaching them."
+        },
+        {
+          "id": "coriolanus-04.c",
+          "text": "Accept any votes from citizens who praise him."
+        },
+        {
+          "id": "coriolanus-04.d",
+          "text": "Display his wounds as proof of his service."
+        }
+      ],
+      "correctOptionId": "coriolanus-04.d",
+      "explanation": "Although he requests their votes, Coriolanus refuses to show the wounds they mention.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 66171,
+          "end": 66295,
+          "startRef": {
+            "textId": "coriolanus/sceneII_6.3/p@91609",
+            "sectionId": "coriolanus-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneII_6.3/p@91609",
+            "sectionId": "coriolanus-2-3",
+            "offsetUtf16": 124
+          },
+          "exact": "CORIOLANUS.\nI will not seal your knowledge with showing them. I will make much of your voices and so trouble you no farther.",
+          "prefix": " many wounds for your country.\n\n",
+          "suffix": "\n\nBOTH CITIZENS.\nThe gods give y"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-05",
+      "question": "How do Sicinius and Brutus turn the citizens against Coriolanus's election?",
+      "options": [
+        {
+          "id": "coriolanus-05.a",
+          "text": "They stress his contempt and urge the citizens to revoke their votes."
+        },
+        {
+          "id": "coriolanus-05.b",
+          "text": "They announce that he has already accepted the Volscian crown."
+        },
+        {
+          "id": "coriolanus-05.c",
+          "text": "They reveal that he has never served in the Roman army."
+        },
+        {
+          "id": "coriolanus-05.d",
+          "text": "They promise to crown Volumnia if the citizens support her son."
+        }
+      ],
+      "correctOptionId": "coriolanus-05.a",
+      "explanation": "The tribunes argue that his pride threatens the people's liberties and tell them to undo their election.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 71454,
+          "end": 71870,
+          "startRef": {
+            "textId": "coriolanus/sceneII_6.3/p@98881",
+            "sectionId": "coriolanus-2-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneII_6.3/p@98881",
+            "sectionId": "coriolanus-2-3",
+            "offsetUtf16": 416
+          },
+          "exact": "SICINIUS.\nLet them assemble\nAnd, on a safer judgment, all revoke\nYour ignorant election. Enforce his pride\nAnd his old hate unto you. Besides, forget not\nWith what contempt he wore the humble weed,\nHow in his suit he scorned you; but your loves,\nThinking upon his services, took from you\nTh’ apprehension of his present portance,\nWhich most gibingly, ungravely, he did fashion\nAfter the inveterate hate he bears you.",
+          "prefix": "ng\nAs therefore kept to do so.\n\n",
+          "suffix": "\n\nBRUTUS.\nLay\nA fault on us, you"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-06",
+      "question": "How does Coriolanus answer Rome when he is sentenced to banishment?",
+      "options": [
+        {
+          "id": "coriolanus-06.a",
+          "text": "He asks Menenius to take the blame and leave in his place."
+        },
+        {
+          "id": "coriolanus-06.b",
+          "text": "He declares that he banishes the citizens and turns his back on the city."
+        },
+        {
+          "id": "coriolanus-06.c",
+          "text": "He begs the tribunes to let him remain as their servant."
+        },
+        {
+          "id": "coriolanus-06.d",
+          "text": "He agrees to retire quietly and never bear arms again."
+        }
+      ],
+      "correctOptionId": "coriolanus-06.b",
+      "explanation": "Coriolanus answers exile with contempt, declaring that there is a world elsewhere.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 103175,
+          "end": 103825,
+          "startRef": {
+            "textId": "coriolanus/sceneIII_6.3/p@143655",
+            "sectionId": "coriolanus-3-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneIII_6.3/p@143655",
+            "sectionId": "coriolanus-3-3",
+            "offsetUtf16": 650
+          },
+          "exact": "CORIOLANUS.\nYou common cry of curs, whose breath I hate\nAs reek o’ th’ rotten fens, whose loves I prize\nAs the dead carcasses of unburied men\nThat do corrupt my air, I banish you!\nAnd here remain with your uncertainty;\nLet every feeble rumour shake your hearts;\nYour enemies, with nodding of their plumes,\nFan you into despair! Have the power still\nTo banish your defenders, till at length\nYour ignorance—which finds not till it feels,\nMaking but reservation of yourselves,\nStill your own foes—deliver you,\nAs most abated captives to some nation\nThat won you without blows! Despising\nFor you the city, thus I turn my back.\nThere is a world elsewhere.",
+          "prefix": "t shall be so, it shall be so!\n\n",
+          "suffix": "\n\n[Exeunt Coriolanus, Cominius, "
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-07",
+      "question": "Why does Coriolanus offer his service to his former enemy Aufidius?",
+      "options": [
+        {
+          "id": "coriolanus-07.a",
+          "text": "He wants Aufidius to help him distribute grain in Rome."
+        },
+        {
+          "id": "coriolanus-07.b",
+          "text": "He hopes to replace Volumnia as a Roman diplomat."
+        },
+        {
+          "id": "coriolanus-07.c",
+          "text": "He wants revenge on the Romans who banished him."
+        },
+        {
+          "id": "coriolanus-07.d",
+          "text": "He has been sent to negotiate a Roman marriage alliance."
+        }
+      ],
+      "correctOptionId": "coriolanus-07.c",
+      "explanation": "Coriolanus offers to fight his own country so that his personal wrong can serve the Volscians.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 116875,
+          "end": 118481,
+          "startRef": {
+            "textId": "coriolanus/sceneIV_6.5/p@163760",
+            "sectionId": "coriolanus-4-5",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneIV_6.5/p@163760",
+            "sectionId": "coriolanus-4-5",
+            "offsetUtf16": 1606
+          },
+          "exact": "CORIOLANUS.\nMy name is Caius Martius, who hath done\nTo thee particularly and to all the Volsces\nGreat hurt and mischief; thereto witness may\nMy surname Coriolanus. The painful service,\nThe extreme dangers, and the drops of blood\nShed for my thankless country are requited\nBut with that surname, a good memory\nAnd witness of the malice and displeasure\nWhich thou shouldst bear me. Only that name remains.\nThe cruelty and envy of the people,\nPermitted by our dastard nobles, who\nHave all forsook me, hath devoured the rest,\nAnd suffered me by th’ voice of slaves to be\nWhooped out of Rome. Now this extremity\nHath brought me to thy hearth, not out of hope—\nMistake me not—to save my life; for if\nI had feared death, of all the men i’ th’ world\nI would have ’voided thee, but in mere spite,\nTo be full quit of those my banishers,\nStand I before thee here. Then if thou hast\nA heart of wreak in thee, that wilt revenge\nThine own particular wrongs and stop those maims\nOf shame seen through thy country, speed thee straight\nAnd make my misery serve thy turn. So use it\nThat my revengeful services may prove\nAs benefits to thee, for I will fight\nAgainst my cankered country with the spleen\nOf all the under fiends. But if so be\nThou dar’st not this, and that to prove more fortunes\nThou ’rt tired, then, in a word, I also am\nLonger to live most weary, and present\nMy throat to thee and to thy ancient malice,\nWhich not to cut would show thee but a fool,\nSince I have ever followed thee with hate,\nDrawn tuns of blood out of thy country’s breast,\nAnd cannot live but to thy shame, unless\nIt be to do thee service.",
+          "prefix": "US.\nI know thee not. Thy name?\n\n",
+          "suffix": "\n\nAUFIDIUS.\nO Martius, Martius,\n"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-08",
+      "question": "How does Coriolanus respond to Menenius's appeal to spare Rome?",
+      "options": [
+        {
+          "id": "coriolanus-08.a",
+          "text": "He immediately dismisses the Volscian army."
+        },
+        {
+          "id": "coriolanus-08.b",
+          "text": "He returns to Rome and asks to become consul again."
+        },
+        {
+          "id": "coriolanus-08.c",
+          "text": "He allows Menenius to command the attack in his place."
+        },
+        {
+          "id": "coriolanus-08.d",
+          "text": "He rejects the appeal despite their former friendship."
+        }
+      ],
+      "correctOptionId": "coriolanus-08.d",
+      "explanation": "Coriolanus tells Menenius that his ears are closed to Rome's petitions and refuses further speech.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 142827,
+          "end": 143233,
+          "startRef": {
+            "textId": "coriolanus/sceneV_6.2/p@198502",
+            "sectionId": "coriolanus-5-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneV_6.2/p@198502",
+            "sectionId": "coriolanus-5-2",
+            "offsetUtf16": 406
+          },
+          "exact": "CORIOLANUS.\nWife, mother, child, I know not. My affairs\nAre servanted to others. Though I owe\nMy revenge properly, my remission lies\nIn Volscian breasts. That we have been familiar,\nIngrate forgetfulness shall poison rather\nThan pity note how much. Therefore begone.\nMine ears against your suits are stronger than\nYour gates against my force. Yet, for I loved thee,\nTake this along; I writ it for thy sake,",
+          "prefix": "S.\nAway!\n\nMENENIUS.\nHow? Away?\n\n",
+          "suffix": "\n\n[He gives Menenius a paper.]\n\n"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-09",
+      "question": "What effect does Volumnia's appeal have on Coriolanus?",
+      "options": [
+        {
+          "id": "coriolanus-09.a",
+          "text": "He agrees to arrange peace rather than destroy Rome."
+        },
+        {
+          "id": "coriolanus-09.b",
+          "text": "He orders her to lead the Volscian assault herself."
+        },
+        {
+          "id": "coriolanus-09.c",
+          "text": "He abandons Aufidius and crowns himself king of Rome."
+        },
+        {
+          "id": "coriolanus-09.d",
+          "text": "He refuses to speak with his wife or child again."
+        }
+      ],
+      "correctOptionId": "coriolanus-09.a",
+      "explanation": "Moved by his mother, Coriolanus acknowledges Rome's victory and undertakes to frame a peace.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 152829,
+          "end": 153341,
+          "startRef": {
+            "textId": "coriolanus/sceneV_6.3/p@211556",
+            "sectionId": "coriolanus-5-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneV_6.3/p@211556",
+            "sectionId": "coriolanus-5-3",
+            "offsetUtf16": 512
+          },
+          "exact": "CORIOLANUS.\nO mother, mother!\nWhat have you done? Behold, the heavens do ope,\nThe gods look down, and this unnatural scene\nThey laugh at. O my mother, mother, O!\nYou have won a happy victory to Rome,\nBut, for your son—believe it, O, believe it!—\nMost dangerously you have with him prevailed,\nIf not most mortal to him. But let it come.—\nAufidius, though I cannot make true wars,\nI’ll frame convenient peace. Now, good Aufidius,\nWere you in my stead, would you have heard\nA mother less? Or granted less, Aufidius?",
+          "prefix": "olds her by the hand, silent.]\n\n",
+          "suffix": "\n\nAUFIDIUS.\nI was moved withal.\n"
+        }
+      ]
+    },
+    {
+      "id": "coriolanus-10",
+      "question": "What charge does Aufidius use against Coriolanus after the campaign?",
+      "options": [
+        {
+          "id": "coriolanus-10.a",
+          "text": "They discover that he has ordered Volumnia's execution."
+        },
+        {
+          "id": "coriolanus-10.b",
+          "text": "They accuse him of surrendering their victory by making peace."
+        },
+        {
+          "id": "coriolanus-10.c",
+          "text": "They learn that he secretly gave Rome all their grain."
+        },
+        {
+          "id": "coriolanus-10.d",
+          "text": "They blame him for refusing to leave the Roman Senate."
+        }
+      ],
+      "correctOptionId": "coriolanus-10.b",
+      "explanation": "Aufidius treats Coriolanus's mercy toward Rome as betrayal, and his conspirators kill him.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 162333,
+          "end": 162872,
+          "startRef": {
+            "textId": "coriolanus/sceneV_6.6/p@224563",
+            "sectionId": "coriolanus-5-6",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneV_6.6/p@224563",
+            "sectionId": "coriolanus-5-6",
+            "offsetUtf16": 539
+          },
+          "exact": "AUFIDIUS.\nAy, Martius, Caius Martius. Dost thou think\nI’ll grace thee with that robbery, thy stol’n name\nCoriolanus, in Corioles?\nYou lords and heads o’ th’ state, perfidiously\nHe has betrayed your business and given up\nFor certain drops of salt your city Rome—\nI say your city—to his wife and mother,\nBreaking his oath and resolution like\nA twist of rotten silk, never admitting\nCounsel o’ th’ war, but at his nurse’s tears\nHe whined and roared away your victory,\nThat pages blushed at him and men of heart\nLooked wond’ring each at other.",
+          "prefix": "Martius.\n\nCORIOLANUS.\nMartius?\n\n",
+          "suffix": "\n\nCORIOLANUS.\nHear’st thou, Mars"
+        },
+        {
+          "kind": "text-range",
+          "workId": "coriolanus",
+          "contentVersion": "c67320e7c5db3fb0960f6868f94ce52dfbe7b054dbc6d845d0e37da812ca8b40",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 164359,
+          "end": 164437,
+          "startRef": {
+            "textId": "coriolanus/sceneV_6.6/p@227237",
+            "sectionId": "coriolanus-5-6",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "coriolanus/sceneV_6.6/p@227237",
+            "sectionId": "coriolanus-5-6",
+            "offsetUtf16": 78
+          },
+          "exact": "[Draw the Conspirators, and kills Martius, who falls. Aufidius stands on him.]",
+          "prefix": "l, kill, kill, kill, kill him!\n\n",
+          "suffix": "\n\nLORDS.\nHold, hold, hold, hold!"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,622 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "king-henry-the-fifth-comprehension",
+  "workId": "king-henry-the-fifth",
+  "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "king-henry-the-fifth-01",
+      "question": "What does Henry ask Canterbury to establish before pursuing his claim to France?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-01.a",
+          "text": "Whether France will pay his army."
+        },
+        {
+          "id": "king-henry-the-fifth-01.b",
+          "text": "Whether Salic law bars his claim."
+        },
+        {
+          "id": "king-henry-the-fifth-01.c",
+          "text": "Whether the Dauphin will release prisoners."
+        },
+        {
+          "id": "king-henry-the-fifth-01.d",
+          "text": "Whether Burgundy can inherit England."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-01.b",
+      "explanation": "Henry asks for a truthful explanation of whether French Salic law prevents his claim.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 8796,
+          "end": 8917,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@13123",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 72
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@13123",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 193
+          },
+          "exact": "And justly and religiously unfold\nWhy the law Salic that they have in France\nOr should or should not bar us in our claim.",
+          "prefix": "ed lord, we pray you to proceed\n",
+          "suffix": "\nAnd God forbid, my dear and fai"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-02",
+      "question": "What insult is conveyed by the Dauphin’s gift of tennis balls?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-02.a",
+          "text": "Henry must win a match before receiving a ransom."
+        },
+        {
+          "id": "king-henry-the-fifth-02.b",
+          "text": "Henry has refused an invitation to a tournament."
+        },
+        {
+          "id": "king-henry-the-fifth-02.c",
+          "text": "Henry is fit for youthful games rather than French conquests."
+        },
+        {
+          "id": "king-henry-the-fifth-02.d",
+          "text": "Henry’s soldiers have stolen the Dauphin’s property."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-02.c",
+      "explanation": "The ambassador links the gift to Henry’s youthful revelry and rejects his claims to French territory.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 19255,
+          "end": 19426,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@24937",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 219
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@24937",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 390
+          },
+          "exact": "Says that you savour too much of your youth,\nAnd bids you be advis’d there’s nought in France\nThat can be with a nimble galliard won.\nYou cannot revel into dukedoms there.",
+          "prefix": "ch claim, the prince our master\n",
+          "suffix": "\nHe therefore sends you, meeter "
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 19653,
+          "end": 19676,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@25638",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 8
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneI_11.2/p@25638",
+            "sectionId": "king-henry-the-fifth-1-2",
+            "offsetUtf16": 31
+          },
+          "exact": "Tennis-balls, my liege.",
+          "prefix": "\nWhat treasure, uncle?\n\nEXETER.\n",
+          "suffix": "\n\nKING HENRY.\nWe are glad the Da"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-03",
+      "question": "What does Henry order after exposing Cambridge, Scroop, and Grey’s conspiracy?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-03.a",
+          "text": "Their exchange for English prisoners."
+        },
+        {
+          "id": "king-henry-the-fifth-03.b",
+          "text": "Their release on a promise of loyalty."
+        },
+        {
+          "id": "king-henry-the-fifth-03.c",
+          "text": "Their appointment as envoys to France."
+        },
+        {
+          "id": "king-henry-the-fifth-03.d",
+          "text": "Their execution under the kingdom’s laws."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-03.d",
+      "explanation": "Henry condemns the conspirators to death after their plot against him is discovered.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 37525,
+          "end": 37608,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneII_11.2/p@46664",
+            "sectionId": "king-henry-the-fifth-2-2",
+            "offsetUtf16": 501
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneII_11.2/p@46664",
+            "sectionId": "king-henry-the-fifth-2-2",
+            "offsetUtf16": 584
+          },
+          "exact": "We do deliver you. Get you therefore hence,\nPoor miserable wretches, to your death,",
+          "prefix": "u have sought, that to her laws\n",
+          "suffix": "\nThe taste whereof God of his me"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 37738,
+          "end": 37783,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneII_11.2/p@47469",
+            "sectionId": "king-henry-the-fifth-2-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneII_11.2/p@47469",
+            "sectionId": "king-henry-the-fifth-2-2",
+            "offsetUtf16": 45
+          },
+          "exact": "[Exeunt Cambridge, Scroop and Grey, guarded.]",
+          "prefix": "ear offences! Bear them hence.\n\n",
+          "suffix": "\n\nNow, lords, for France; the en"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-04",
+      "question": "What does Henry order Exeter to do after Harfleur surrenders?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-04.a",
+          "text": "Fortify the town and show mercy to its people."
+        },
+        {
+          "id": "king-henry-the-fifth-04.b",
+          "text": "Burn the town and abandon its defenses."
+        },
+        {
+          "id": "king-henry-the-fifth-04.c",
+          "text": "Send its governor to command the English army."
+        },
+        {
+          "id": "king-henry-the-fifth-04.d",
+          "text": "Return the town immediately to the Dauphin."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-04.a",
+      "explanation": "Henry tells Exeter to secure Harfleur while treating its inhabitants mercifully.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 60090,
+          "end": 60197,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.3/p@74400",
+            "sectionId": "king-henry-the-fifth-3-3",
+            "offsetUtf16": 49
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.3/p@74400",
+            "sectionId": "king-henry-the-fifth-3-3",
+            "offsetUtf16": 156
+          },
+          "exact": "Go you and enter Harfleur; there remain,\nAnd fortify it strongly ’gainst the French.\nUse mercy to them all.",
+          "prefix": "your gates. Come, uncle Exeter,\n",
+          "suffix": " For us, dear uncle,\nThe winter "
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-05",
+      "question": "Why does Henry approve the punishment facing Bardolph?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-05.a",
+          "text": "Bardolph has deserted to the French."
+        },
+        {
+          "id": "king-henry-the-fifth-05.b",
+          "text": "Bardolph has robbed a church."
+        },
+        {
+          "id": "king-henry-the-fifth-05.c",
+          "text": "Bardolph has challenged the king to fight."
+        },
+        {
+          "id": "king-henry-the-fifth-05.d",
+          "text": "Bardolph has betrayed the army’s route."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-05.b",
+      "explanation": "Fluellen reports Bardolph’s church robbery, and Henry orders that such offenders be punished.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 70887,
+          "end": 70984,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.6/p@87739",
+            "sectionId": "king-henry-the-fifth-3-6",
+            "offsetUtf16": 146
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.6/p@87739",
+            "sectionId": "king-henry-the-fifth-3-6",
+            "offsetUtf16": 243
+          },
+          "exact": "one that is like to be executed for robbing a church, one Bardolph, if your Majesty know the man.",
+          "prefix": "Duke hath lost never a man, but ",
+          "suffix": " His face is all bubukles, and w"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 71210,
+          "end": 71254,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.6/p@88217",
+            "sectionId": "king-henry-the-fifth-3-6",
+            "offsetUtf16": 12
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIII_11.6/p@88217",
+            "sectionId": "king-henry-the-fifth-3-6",
+            "offsetUtf16": 56
+          },
+          "exact": "We would have all such offenders so cut off;",
+          "prefix": "nd his fire’s out.\n\nKING HENRY.\n",
+          "suffix": " and we give express charge, tha"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-06",
+      "question": "Why do Williams and the disguised Henry exchange gloves?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-06.a",
+          "text": "To mark a secret change of military orders."
+        },
+        {
+          "id": "king-henry-the-fifth-06.b",
+          "text": "To arrange the release of French prisoners."
+        },
+        {
+          "id": "king-henry-the-fifth-06.c",
+          "text": "To recognize each other for a later quarrel."
+        },
+        {
+          "id": "king-henry-the-fifth-06.d",
+          "text": "To pledge that neither will leave the army."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-06.c",
+      "explanation": "Williams will wear the glove in his cap and threatens to strike its owner if challenged after the battle.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 93496,
+          "end": 93538,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.1/p@114850",
+            "sectionId": "king-henry-the-fifth-4-1",
+            "offsetUtf16": 10
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.1/p@114850",
+            "sectionId": "king-henry-the-fifth-4-1",
+            "offsetUtf16": 52
+          },
+          "exact": "Here’s my glove; give me another of thine.",
+          "prefix": " make it my quarrel.\n\nWILLIAMS.\n",
+          "suffix": "\n\nKING HENRY.\nThere.\n\nWILLIAMS.\n"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 93570,
+          "end": 93719,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.1/p@114956",
+            "sectionId": "king-henry-the-fifth-4-1",
+            "offsetUtf16": 10
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.1/p@114956",
+            "sectionId": "king-henry-the-fifth-4-1",
+            "offsetUtf16": 159
+          },
+          "exact": "This will I also wear in my cap. If ever thou come to me and say, after tomorrow, “This is my glove,” by this hand I will take thee a box on the ear.",
+          "prefix": "\n\nKING HENRY.\nThere.\n\nWILLIAMS.\n",
+          "suffix": "\n\nKING HENRY.\nIf ever I live to "
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-07",
+      "question": "How does Henry answer Westmorland’s wish for more English soldiers before Agincourt?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-07.a",
+          "text": "He asks Montjoy to delay the battle for recruits."
+        },
+        {
+          "id": "king-henry-the-fifth-07.b",
+          "text": "He orders an immediate retreat to Calais."
+        },
+        {
+          "id": "king-henry-the-fifth-07.c",
+          "text": "He promises that French allies will join them."
+        },
+        {
+          "id": "king-henry-the-fifth-07.d",
+          "text": "He says fewer men will share greater honor if they live."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-07.d",
+      "explanation": "Henry turns the army’s small numbers into an argument that victory will bring each man a larger share of honor.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 101899,
+          "end": 102069,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.3/p@125335",
+            "sectionId": "king-henry-the-fifth-4-3",
+            "offsetUtf16": 75
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneIV_11.3/p@125335",
+            "sectionId": "king-henry-the-fifth-4-3",
+            "offsetUtf16": 245
+          },
+          "exact": "If we are mark’d to die, we are enough\nTo do our country loss; and if to live,\nThe fewer men, the greater share of honour.\nGod’s will! I pray thee, wish not one man more.",
+          "prefix": "estmorland? No, my fair cousin.\n",
+          "suffix": "\nBy Jove, I am not covetous for "
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-08",
+      "question": "Why does Fluellen force Pistol to eat a leek?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-08.a",
+          "text": "Pistol has mocked him and the Welsh leek tradition."
+        },
+        {
+          "id": "king-henry-the-fifth-08.b",
+          "text": "Pistol has stolen food from the king’s table."
+        },
+        {
+          "id": "king-henry-the-fifth-08.c",
+          "text": "Pistol has refused to treat a wounded soldier."
+        },
+        {
+          "id": "king-henry-the-fifth-08.d",
+          "text": "Pistol has secretly surrendered a French town."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-08.a",
+      "explanation": "Fluellen punishes Pistol’s insults by making him eat the emblem he mocked.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 131716,
+          "end": 131871,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.1/p@161759",
+            "sectionId": "king-henry-the-fifth-5-1",
+            "offsetUtf16": 173
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.1/p@161759",
+            "sectionId": "king-henry-the-fifth-5-1",
+            "offsetUtf16": 328
+          },
+          "exact": "You call’d me yesterday mountain-squire; but I will make you today a squire of low degree. I pray you, fall to; if you can mock a leek, you can eat a leek.",
+          "prefix": "is sauce for it. [Strikes him.] ",
+          "suffix": "\n\nGOWER.\nEnough, captain; you ha"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 133194,
+          "end": 133320,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.1/p@163664",
+            "sectionId": "king-henry-the-fifth-5-1",
+            "offsetUtf16": 52
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.1/p@163664",
+            "sectionId": "king-henry-the-fifth-5-1",
+            "offsetUtf16": 178
+          },
+          "exact": "Will you mock at an ancient tradition, begun upon an honourable respect, and worn as a memorable trophy of predeceased valour,",
+          "prefix": "re a couterfeit cowardly knave. ",
+          "suffix": " and dare not avouch in your dee"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-09",
+      "question": "Whom does Henry seek to marry as part of the peace with France?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-09.a",
+          "text": "Alice, Katharine’s attendant."
+        },
+        {
+          "id": "king-henry-the-fifth-09.b",
+          "text": "Katharine, the French king’s daughter."
+        },
+        {
+          "id": "king-henry-the-fifth-09.c",
+          "text": "Isabel, the French queen."
+        },
+        {
+          "id": "king-henry-the-fifth-09.d",
+          "text": "Mistress Quickly, Pistol’s wife."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-09.b",
+      "explanation": "Henry asks for the French king’s daughter, and welcomes Katharine as his queen when her father agrees.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 150737,
+          "end": 150773,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.2/p@183644",
+            "sectionId": "king-henry-the-fifth-5-2",
+            "offsetUtf16": 97
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.2/p@183644",
+            "sectionId": "king-henry-the-fifth-5-2",
+            "offsetUtf16": 133
+          },
+          "exact": "And thereupon give me your daughter.",
+          "prefix": "one article rank with the rest;\n",
+          "suffix": "\n\nFRENCH KING.\nTake her, fair so"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 151186,
+          "end": 151274,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.2/p@184271",
+            "sectionId": "king-henry-the-fifth-5-2",
+            "offsetUtf16": 12
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.2/p@184271",
+            "sectionId": "king-henry-the-fifth-5-2",
+            "offsetUtf16": 100
+          },
+          "exact": "Now, welcome, Kate; and bear me witness all,\nThat here I kiss her as my sovereign queen.",
+          "prefix": "nce.\n\nLORDS.\nAmen!\n\nKING HENRY.\n",
+          "suffix": "\n\n[Flourish.]\n\nQUEEN ISABEL.\nGod"
+        }
+      ]
+    },
+    {
+      "id": "king-henry-the-fifth-10",
+      "question": "How does the Chorus qualify Henry’s victories in the epilogue?",
+      "options": [
+        {
+          "id": "king-henry-the-fifth-10.a",
+          "text": "Henry’s brothers divide England into kingdoms."
+        },
+        {
+          "id": "king-henry-the-fifth-10.b",
+          "text": "Henry’s son inherits a peace that never ends."
+        },
+        {
+          "id": "king-henry-the-fifth-10.c",
+          "text": "England later loses France during Henry VI’s reign."
+        },
+        {
+          "id": "king-henry-the-fifth-10.d",
+          "text": "The Dauphin retakes France before Henry dies."
+        }
+      ],
+      "correctOptionId": "king-henry-the-fifth-10.c",
+      "explanation": "The epilogue looks ahead to the rule of Henry’s infant son, under whose governors France is lost and England suffers war.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-henry-the-fifth",
+          "contentVersion": "cc1f5fddd5f7b20fcd98fab91d7e35d719330fd6b4ae5155e6364d1d0d3880b4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 152411,
+          "end": 152590,
+          "startRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.3/p@185446",
+            "sectionId": "king-henry-the-fifth-epilogue-185319",
+            "offsetUtf16": 359
+          },
+          "endRef": {
+            "textId": "king-henry-the-fifth/sceneV_11.3/p@185446",
+            "sectionId": "king-henry-the-fifth-epilogue-185319",
+            "offsetUtf16": 538
+          },
+          "exact": "Henry the Sixth, in infant bands crown’d King\nOf France and England, did this king succeed;\nWhose state so many had the managing,\nThat they lost France and made his England bleed:",
+          "prefix": " it left his son imperial lord.\n",
+          "suffix": "\nWhich oft our stage hath shown;"
+        }
+      ]
+    }
+  ]
 }

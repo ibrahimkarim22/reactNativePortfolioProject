@@ -19,7 +19,8 @@ import {
   faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigation } from "@react-navigation/native";
-import { useSelector } from "react-redux";
+import { useAccountCourseProgress, retryAccountProgress } from "../course/AccountCourseProgress";
+import { CourseProgressNotice } from "../course/CourseProgressNotice";
 import { PLAYS } from "../shared/localPlayService";
 import Loader from "../Componenets/Loader";
 
@@ -73,7 +74,8 @@ const CourseScreen = () => {
   const [selectedGenre, setSelectedGenre] = useState("All");
   const [heroLoaded, setHeroLoaded] = useState(false);
 
-  const completed = useSelector((state) => state.course.completedLevel);
+  const accountProgress = useAccountCourseProgress();
+  const completed = accountProgress.completedLevel;
   const plays = useMemo(
     () => PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty),
     []
@@ -104,6 +106,8 @@ const CourseScreen = () => {
     if (play.difficulty > completedCount + 1) return;
     navigation.navigate("Lesson", { id: play.id });
   };
+
+  if (accountProgress.status !== "ready") return <CourseProgressNotice status={accountProgress.status} onRetry={retryAccountProgress} />;
 
   return (
     <View style={styles.screen}>

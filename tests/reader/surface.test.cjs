@@ -383,7 +383,7 @@ function selectionBoundary(platform, onMessage) {
   else view.props.ref.current = {
     requestFocus() { focusRequests++; },
     injectJavaScript(script) {
-      const methods = { applyAppearance: 'appearance', jumpToSection: 'jump', focusSection: 'focus', captureSelection: 'selection-capture', clearSelection: 'selection-clear', updateHighlights: 'highlights', showHighlight: 'highlight-show' };
+      const methods = { applyAppearance: 'appearance', jumpToSection: 'jump', focusSection: 'focus', jumpToPassage: 'passage-jump', focusPassage: 'passage-focus', captureSelection: 'selection-capture', clearSelection: 'selection-clear', updateHighlights: 'highlights', showHighlight: 'highlight-show' };
       const BardReader = Object.fromEntries(Object.entries(methods).map(([method, kind]) => [method, payload => commands.push({ type: `bard-reader-${kind}`, payload: JSON.parse(JSON.stringify(payload)) })]));
       vm.runInNewContext(script, { window: { BardReader } });
     },
@@ -407,6 +407,51 @@ function captureReply(command, changes = {}) {
 }
 
 for (const platform of ['native', 'web']) {
+  test(`${platform} exact-passage navigation validates complete references and shares the section navigation sequence`, async () => {
+    const received = [], boundary = selectionBoundary(platform, message => received.push(message));
+    try {
+      const { ref, commands } = boundary;
+      assert.equal(typeof ref.current.jumpToPassage, 'function');
+      assert.equal(typeof ref.current.focusPassage, 'function');
+      assert.equal(ref.current.jumpToPassage(selection), null, 'wait for the mounted source handshake');
+      boundary.send({ type: 'ready' });
+      const source = boundary.view.props.source || boundary.view.props.srcDoc;
+      const pending = ref.current.captureSelection();
+      const rejected = assert.rejects(pending, { code: 'CANCELLED' });
+      assert.throws(() => ref.current.jumpToPassage({ ...selection, exact: 'forged' }));
+      assert.equal(ref.current.jumpToPassage(selection), 1);
+      await rejected;
+      const command = commands.at(-1);
+      assert.equal(command.type, 'bard-reader-passage-jump');
+      assert.deepEqual(command.payload, { ...identity, navigationId: 1, sectionId: 'scene-one', start: 0, end: 5 });
+      assert.equal(ref.current.focusPassage(selection, 0), false);
+      assert.equal(ref.current.focusPassage(selection, 1), true);
+      assert.equal(commands.at(-1).type, 'bard-reader-passage-focus');
+      const section = { kind: 'section', workId: 'hamlet', contentVersion: 'fixture-1', canonicalTextVersion: '1', sectionId: 'scene-one' };
+      assert.equal(ref.current.jumpToSection(section), 2);
+      assert.equal(ref.current.focusPassage(selection, 1), false);
+      assert.equal(ref.current.jumpToPassage(selection), 3);
+      boundary.send({ type: 'jumped', navigationId: 1, sectionId: 'scene-one' });
+      assert.equal(received.filter(message => message.type === 'jumped').length, 0);
+      if (platform === 'web') {
+        boundary.send({ type: 'jumped', navigationId: 3, sectionId: 'scene-one' }, {});
+        assert.equal(received.filter(message => message.type === 'jumped').length, 0);
+      }
+      boundary.send({ type: 'jumped', navigationId: 3, sectionId: 'scene-one' });
+      assert.equal(received.filter(message => message.type === 'jumped').length, 1);
+      const failure = { type: 'error', navigationId: 3, code: 'PASSAGE_UNAVAILABLE', message: 'The supporting passage could not be located in this play.' };
+      boundary.send({ ...failure, navigationId: 1 });
+      assert.equal(received.filter(message => message.navigationId === 1 && message.type === 'error').length, 0);
+      boundary.send(failure);
+      assert.equal(received.filter(message => message.navigationId === 3 && message.type === 'error').length, 1);
+      boundary.render({ preferences: { ...preferences, fontSize: 24 } });
+      assert.equal(boundary.view.props.source || boundary.view.props.srcDoc, source);
+      boundary.surface.unmount();
+      assert.equal(ref.current.jumpToPassage(selection), null);
+      assert.equal(ref.current.focusPassage(selection, 3), false);
+    } finally { boundary.close(); }
+  });
+
   test(`${platform} effect replay retires pending work while keeping live typed controllers and document readiness`, async () => {
     const boundary = selectionBoundary(platform);
     try {

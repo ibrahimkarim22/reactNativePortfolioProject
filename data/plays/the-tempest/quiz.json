@@ -1,4 +1,556 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "the-tempest-comprehension",
+  "workId": "the-tempest",
+  "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "the-tempest-01",
+      "question": "How did Antonio gain Prospero’s dukedom?",
+      "options": [
+        {
+          "id": "the-tempest-01.a",
+          "text": "He inherited it after Prospero’s death."
+        },
+        {
+          "id": "the-tempest-01.b",
+          "text": "He won it from Caliban in a battle on the island."
+        },
+        {
+          "id": "the-tempest-01.c",
+          "text": "He received it as a wedding gift from Miranda."
+        },
+        {
+          "id": "the-tempest-01.d",
+          "text": "He allied with Naples and had Prospero and Miranda expelled."
+        }
+      ],
+      "correctOptionId": "the-tempest-01.d",
+      "explanation": "Prospero describes Antonio opening Milan’s gates to the plot backed by the king of Naples.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 10186,
+          "end": 10708,
+          "startRef": {
+            "textId": "the-tempest/sceneI_32.2/p@14938",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneI_32.2/p@14938",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 522
+          },
+          "exact": "PROSPERO.\nNow the condition.\nThis King of Naples, being an enemy\nTo me inveterate, hearkens my brother’s suit;\nWhich was, that he, in lieu o’ th’ premises\nOf homage and I know not how much tribute,\nShould presently extirpate me and mine\nOut of the dukedom, and confer fair Milan,\nWith all the honours on my brother: whereon,\nA treacherous army levied, one midnight\nFated to th’ purpose, did Antonio open\nThe gates of Milan; and, i’ th’ dead of darkness,\nThe ministers for th’ purpose hurried thence\nMe and thy crying self.",
+          "prefix": "ood wombs have borne bad sons.\n\n",
+          "suffix": "\n\nMIRANDA.\nAlack, for pity!\nI, n"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-02",
+      "question": "What does Ariel report about Alonso and his fellow passengers after the tempest?",
+      "options": [
+        {
+          "id": "the-tempest-02.a",
+          "text": "They have all drowned except Ferdinand."
+        },
+        {
+          "id": "the-tempest-02.b",
+          "text": "They are unharmed and dispersed around the island."
+        },
+        {
+          "id": "the-tempest-02.c",
+          "text": "They have been carried straight back to Naples."
+        },
+        {
+          "id": "the-tempest-02.d",
+          "text": "They have joined Caliban in attacking Prospero."
+        }
+      ],
+      "correctOptionId": "the-tempest-02.b",
+      "explanation": "Ariel says that not a hair has perished and that he has separated the survivors.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 14688,
+          "end": 15008,
+          "startRef": {
+            "textId": "the-tempest/sceneI_32.2/p@20714",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneI_32.2/p@20714",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 320
+          },
+          "exact": "ARIEL.\nNot a hair perish’d;\nOn their sustaining garments not a blemish,\nBut fresher than before: and, as thou bad’st me,\nIn troops I have dispers’d them ’bout the isle.\nThe King’s son have I landed by himself,\nWhom I left cooling of the air with sighs\nIn an odd angle of the isle, and sitting,\nHis arms in this sad knot.",
+          "prefix": "RO.\nBut are they, Ariel, safe?\n\n",
+          "suffix": "\n\nPROSPERO.\nOf the King’s ship\nT"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-03",
+      "question": "Who confined Ariel in the pine before Prospero’s arrival?",
+      "options": [
+        {
+          "id": "the-tempest-03.a",
+          "text": "Miranda."
+        },
+        {
+          "id": "the-tempest-03.b",
+          "text": "Alonso."
+        },
+        {
+          "id": "the-tempest-03.c",
+          "text": "Sycorax."
+        },
+        {
+          "id": "the-tempest-03.d",
+          "text": "Gonzalo."
+        }
+      ],
+      "correctOptionId": "the-tempest-03.c",
+      "explanation": "Prospero recalls Sycorax imprisoning Ariel for refusing her commands.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 16579,
+          "end": 16725,
+          "startRef": {
+            "textId": "the-tempest/sceneI_32.2/p@23260",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneI_32.2/p@23260",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 146
+          },
+          "exact": "PROSPERO.\nThou liest, malignant thing! Hast thou forgot\nThe foul witch Sycorax, who with age and envy\nWas grown into a hoop? Hast thou forgot her?",
+          "prefix": " frost.\n\nARIEL.\nI do not, sir.\n\n",
+          "suffix": "\n\nARIEL.\nNo, sir.\n\nPROSPERO.\nTho"
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 17152,
+          "end": 17845,
+          "startRef": {
+            "textId": "the-tempest/sceneI_32.2/p@24065",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneI_32.2/p@24065",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 693
+          },
+          "exact": "PROSPERO.\nThis blue-ey’d hag was hither brought with child,\nAnd here was left by th’ sailors. Thou, my slave,\nAs thou report’st thyself, wast then her servant;\nAnd, for thou wast a spirit too delicate\nTo act her earthy and abhorr’d commands,\nRefusing her grand hests, she did confine thee,\nBy help of her more potent ministers,\nAnd in her most unmitigable rage,\nInto a cloven pine; within which rift\nImprison’d, thou didst painfully remain\nA dozen years; within which space she died,\nAnd left thee there, where thou didst vent thy groans\nAs fast as mill-wheels strike. Then was this island—\nSave for the son that she did litter here,\nA freckl’d whelp, hag-born—not honour’d with\nA human shape.",
+          "prefix": "ot this true?\n\nARIEL.\nAy, sir.\n\n",
+          "suffix": "\n\nARIEL.\nYes, Caliban her son.\n\n"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-04",
+      "question": "On what basis does Caliban claim the island as his own?",
+      "options": [
+        {
+          "id": "the-tempest-04.a",
+          "text": "He inherited it from his mother, Sycorax."
+        },
+        {
+          "id": "the-tempest-04.b",
+          "text": "Alonso gave it to him after the tempest."
+        },
+        {
+          "id": "the-tempest-04.c",
+          "text": "Antonio promised it as payment for military aid."
+        },
+        {
+          "id": "the-tempest-04.d",
+          "text": "Miranda sold it to him for books."
+        }
+      ],
+      "correctOptionId": "the-tempest-04.a",
+      "explanation": "Caliban says the island was his through his mother and accuses Prospero of taking it.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 20129,
+          "end": 20799,
+          "startRef": {
+            "textId": "the-tempest/sceneI_32.2/p@28187",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneI_32.2/p@28187",
+            "sectionId": "the-tempest-1-2",
+            "offsetUtf16": 670
+          },
+          "exact": "CALIBAN.\nI must eat my dinner.\nThis island’s mine, by Sycorax my mother,\nWhich thou tak’st from me. When thou cam’st first,\nThou strok’st me and made much of me; wouldst give me\nWater with berries in ’t; and teach me how\nTo name the bigger light, and how the less,\nThat burn by day and night: and then I lov’d thee,\nAnd show’d thee all the qualities o’ th’ isle,\nThe fresh springs, brine-pits, barren place, and fertile.\nCurs’d be I that did so! All the charms\nOf Sycorax, toads, beetles, bats, light on you!\nFor I am all the subjects that you have,\nWhich first was mine own King; and here you sty me\nIn this hard rock, whiles you do keep from me\nThe rest o’ th’ island.",
+          "prefix": "ging\nThan bees that made them.\n\n",
+          "suffix": "\n\nPROSPERO.\nThou most lying slav"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-05",
+      "question": "How does Prospero later explain the hardships he imposed on Ferdinand?",
+      "options": [
+        {
+          "id": "the-tempest-05.a",
+          "text": "They were tests of Ferdinand’s love."
+        },
+        {
+          "id": "the-tempest-05.b",
+          "text": "They were payment for sinking the king’s ship."
+        },
+        {
+          "id": "the-tempest-05.c",
+          "text": "They were punishment for helping Antonio seize Milan."
+        },
+        {
+          "id": "the-tempest-05.d",
+          "text": "They were preparations for making Ferdinand Caliban’s servant."
+        }
+      ],
+      "correctOptionId": "the-tempest-05.a",
+      "explanation": "When granting Miranda to Ferdinand, Prospero calls the vexations trials of love.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 69551,
+          "end": 70016,
+          "startRef": {
+            "textId": "the-tempest/sceneIV_32.1/p@95829",
+            "sectionId": "the-tempest-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneIV_32.1/p@95829",
+            "sectionId": "the-tempest-4-1",
+            "offsetUtf16": 465
+          },
+          "exact": "PROSPERO.\nIf I have too austerely punish’d you,\nYour compensation makes amends: for I\nHave given you here a third of mine own life,\nOr that for which I live; who once again\nI tender to thy hand: all thy vexations\nWere but my trials of thy love, and thou\nHast strangely stood the test: here, afore Heaven,\nI ratify this my rich gift. O Ferdinand,\nDo not smile at me that I boast her off,\nFor thou shalt find she will outstrip all praise,\nAnd make it halt behind her.",
+          "prefix": "ospero, Ferdinand and Miranda.\n\n",
+          "suffix": "\n\nFERDINAND.\nI do believe it\nAga"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-06",
+      "question": "What opportunity does Antonio urge Sebastian to see in Alonso’s sleep?",
+      "options": [
+        {
+          "id": "the-tempest-06.a",
+          "text": "A chance to restore Prospero secretly to Milan."
+        },
+        {
+          "id": "the-tempest-06.b",
+          "text": "A chance to rescue Ferdinand from Caliban."
+        },
+        {
+          "id": "the-tempest-06.c",
+          "text": "A chance to remove Alonso and rule Naples."
+        },
+        {
+          "id": "the-tempest-06.d",
+          "text": "A chance to abandon the island without the crown."
+        }
+      ],
+      "correctOptionId": "the-tempest-06.c",
+      "explanation": "Antonio imagines the king’s sleep as death and presents Sebastian’s advancement as the result.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 39834,
+          "end": 40339,
+          "startRef": {
+            "textId": "the-tempest/sceneII_32.1/p@55916",
+            "sectionId": "the-tempest-2-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneII_32.1/p@55916",
+            "sectionId": "the-tempest-2-1",
+            "offsetUtf16": 505
+          },
+          "exact": "ANTONIO.\nA space whose ev’ry cubit\nSeems to cry out “How shall that Claribel\nMeasure us back to Naples? Keep in Tunis,\nAnd let Sebastian wake.” Say this were death\nThat now hath seiz’d them; why, they were no worse\nThan now they are. There be that can rule Naples\nAs well as he that sleeps; lords that can prate\nAs amply and unnecessarily\nAs this Gonzalo. I myself could make\nA chough of as deep chat. O, that you bore\nThe mind that I do! What a sleep were this\nFor your advancement! Do you understand me?",
+          "prefix": "h regions\nThere is some space.\n\n",
+          "suffix": "\n\nSEBASTIAN.\nMethinks I do.\n\nANT"
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 40684,
+          "end": 41359,
+          "startRef": {
+            "textId": "the-tempest/sceneII_32.1/p@57038",
+            "sectionId": "the-tempest-2-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneII_32.1/p@57038",
+            "sectionId": "the-tempest-2-1",
+            "offsetUtf16": 675
+          },
+          "exact": "ANTONIO.\nAy, sir; where lies that? If ’twere a kibe,\n’Twould put me to my slipper: but I feel not\nThis deity in my bosom: twenty consciences\nThat stand ’twixt me and Milan, candied be they\nAnd melt ere they molest! Here lies your brother,\nNo better than the earth he lies upon,\nIf he were that which now he’s like, that’s dead;\nWhom I, with this obedient steel, three inches of it,\nCan lay to bed for ever; whiles you, doing thus,\nTo the perpetual wink for aye might put\nThis ancient morsel, this Sir Prudence, who\nShould not upbraid our course. For all the rest,\nThey’ll take suggestion as a cat laps milk.\nThey’ll tell the clock to any business that\nWe say befits the hour.",
+          "prefix": "IAN.\nBut, for your conscience.\n\n",
+          "suffix": "\n\nSEBASTIAN.\nThy case, dear frie"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-07",
+      "question": "Why does Caliban insist that Stephano first seize Prospero’s books?",
+      "options": [
+        {
+          "id": "the-tempest-07.a",
+          "text": "He wants to sell the books to Alonso."
+        },
+        {
+          "id": "the-tempest-07.b",
+          "text": "He believes the books enable Prospero to command spirits."
+        },
+        {
+          "id": "the-tempest-07.c",
+          "text": "He believes they contain Miranda’s marriage contract."
+        },
+        {
+          "id": "the-tempest-07.d",
+          "text": "He wants Gonzalo to copy them before they leave."
+        }
+      ],
+      "correctOptionId": "the-tempest-07.b",
+      "explanation": "Caliban connects Prospero’s control of spirits to possession of the books in the murder plan.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 60544,
+          "end": 61252,
+          "startRef": {
+            "textId": "the-tempest/sceneIII_32.2/p@83466",
+            "sectionId": "the-tempest-3-2",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneIII_32.2/p@83466",
+            "sectionId": "the-tempest-3-2",
+            "offsetUtf16": 708
+          },
+          "exact": "CALIBAN.\nWhy, as I told thee, ’tis a custom with him\nI’ th’ afternoon to sleep: there thou mayst brain him,\nHaving first seiz’d his books; or with a log\nBatter his skull, or paunch him with a stake,\nOr cut his wezand with thy knife. Remember\nFirst to possess his books; for without them\nHe’s but a sot, as I am, nor hath not\nOne spirit to command: they all do hate him\nAs rootedly as I. Burn but his books.\nHe has brave utensils,—for so he calls them,—\nWhich, when he has a house, he’ll deck withal.\nAnd that most deeply to consider is\nThe beauty of his daughter; he himself\nCalls her a nonpareil: I never saw a woman\nBut only Sycorax my dam and she;\nBut she as far surpasseth Sycorax\nAs great’st does least.",
+          "prefix": "\nStand farther.—Come, proceed.\n\n",
+          "suffix": "\n\nSTEPHANO.\nIs it so brave a las"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-08",
+      "question": "What choice does Prospero make about revenge when his enemies are in his power?",
+      "options": [
+        {
+          "id": "the-tempest-08.a",
+          "text": "He orders Ariel to drown them."
+        },
+        {
+          "id": "the-tempest-08.b",
+          "text": "He gives them to Caliban for execution."
+        },
+        {
+          "id": "the-tempest-08.c",
+          "text": "He leaves them permanently deprived of their senses."
+        },
+        {
+          "id": "the-tempest-08.d",
+          "text": "He chooses mercy and orders their release."
+        }
+      ],
+      "correctOptionId": "the-tempest-08.d",
+      "explanation": "Prospero calls virtue rarer than vengeance and instructs Ariel to restore the captives.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 83179,
+          "end": 83742,
+          "startRef": {
+            "textId": "the-tempest/sceneV_32.1/p@114491",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneV_32.1/p@114491",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 563
+          },
+          "exact": "PROSPERO.\nAnd mine shall.\nHast thou, which art but air, a touch, a feeling\nOf their afflictions, and shall not myself,\nOne of their kind, that relish all as sharply\nPassion as they, be kindlier mov’d than thou art?\nThough with their high wrongs I am struck to th’ quick,\nYet with my nobler reason ’gainst my fury\nDo I take part: the rarer action is\nIn virtue than in vengeance: they being penitent,\nThe sole drift of my purpose doth extend\nNot a frown further. Go release them, Ariel.\nMy charms I’ll break, their senses I’ll restore,\nAnd they shall be themselves.",
+          "prefix": "Mine would, sir, were I human.\n\n",
+          "suffix": "\n\nARIEL.\nI’ll fetch them, sir.\n\n"
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-09",
+      "question": "What does Prospero reveal to Alonso inside his dwelling?",
+      "options": [
+        {
+          "id": "the-tempest-09.a",
+          "text": "Ferdinand and Miranda playing chess."
+        },
+        {
+          "id": "the-tempest-09.b",
+          "text": "Antonio and Sebastian dividing the crown."
+        },
+        {
+          "id": "the-tempest-09.c",
+          "text": "Caliban crowned as king of Naples."
+        },
+        {
+          "id": "the-tempest-09.d",
+          "text": "Ariel imprisoned again in a pine tree."
+        }
+      ],
+      "correctOptionId": "the-tempest-09.a",
+      "explanation": "The discovery shows Alonso that the son he believed lost is alive with Miranda.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 88610,
+          "end": 88850,
+          "startRef": {
+            "textId": "the-tempest/sceneV_32.1/p@121501",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneV_32.1/p@121501",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 240
+          },
+          "exact": "ALONSO.\nIf thou beest Prospero,\nGive us particulars of thy preservation;\nHow thou hast met us here, whom three hours since\nWere wrack’d upon this shore; where I have lost,—\nHow sharp the point of this remembrance is!—\nMy dear son Ferdinand.",
+          "prefix": "orce I know\nThou must restore.\n\n",
+          "suffix": "\n\nPROSPERO.\nI am woe for ’t, sir"
+        },
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 90329,
+          "end": 90392,
+          "startRef": {
+            "textId": "the-tempest/sceneV_32.1/p@123646",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneV_32.1/p@123646",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 63
+          },
+          "exact": "Here Prospero discovers Ferdinand and Miranda playing at chess.",
+          "prefix": "t ye\nAs much as me my dukedom.\n\n",
+          "suffix": "\n\nMIRANDA.\nSweet lord, you play "
+        }
+      ]
+    },
+    {
+      "id": "the-tempest-10",
+      "question": "How does Prospero describe his intended renunciation of magic?",
+      "options": [
+        {
+          "id": "the-tempest-10.a",
+          "text": "He will give his staff to Antonio and crown him again."
+        },
+        {
+          "id": "the-tempest-10.b",
+          "text": "He will break his staff and drown his book."
+        },
+        {
+          "id": "the-tempest-10.c",
+          "text": "He will teach Caliban to command every spirit."
+        },
+        {
+          "id": "the-tempest-10.d",
+          "text": "He will preserve his spells to conquer Naples."
+        }
+      ],
+      "correctOptionId": "the-tempest-10.b",
+      "explanation": "Prospero abjures his magic and specifies the destruction or burial of its instruments.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "the-tempest",
+          "contentVersion": "fcfbdbbb660d5ffc3d87f2c09a0709f73f7bf1f367a7fafb6d96999388b5014b",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 83783,
+          "end": 84886,
+          "startRef": {
+            "textId": "the-tempest/sceneV_32.1/p@115250",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "the-tempest/sceneV_32.1/p@115250",
+            "sectionId": "the-tempest-5-1",
+            "offsetUtf16": 1103
+          },
+          "exact": "PROSPERO.\nYe elves of hills, brooks, standing lakes, and\ngroves;\nAnd ye that on the sands with printless foot\nDo chase the ebbing Neptune, and do fly him\nWhen he comes back; you demi-puppets that\nBy moonshine do the green sour ringlets make,\nWhereof the ewe not bites; and you whose pastime\nIs to make midnight mushrooms, that rejoice\nTo hear the solemn curfew; by whose aid,\nWeak masters though ye be, I have bedimm’d\nThe noontide sun, call’d forth the mutinous winds,\nAnd ’twixt the green sea and the azur’d vault\nSet roaring war: to the dread rattling thunder\nHave I given fire, and rifted Jove’s stout oak\nWith his own bolt; the strong-bas’d promontory\nHave I made shake, and by the spurs pluck’d up\nThe pine and cedar: graves at my command\nHave wak’d their sleepers, op’d, and let ’em forth\nBy my so potent art. But this rough magic\nI here abjure; and, when I have requir’d\nSome heavenly music,—which even now I do,—\nTo work mine end upon their senses that\nThis airy charm is for, I’ll break my staff,\nBury it certain fathoms in the earth,\nAnd deeper than did ever plummet sound\nI’ll drown my book.",
+          "prefix": "I’ll fetch them, sir.\n\n[Exit.]\n\n",
+          "suffix": "\n\n[Solemn music.]\n\nRe-enter Arie"
+        }
+      ]
+    }
+  ]
 }

@@ -21,11 +21,8 @@ import {
   faLock,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
-import { FIREBASE_AUTH, FIRESTORE_DB } from "../firebaseConfig";
+import { FIREBASE_AUTH } from "../firebaseConfig";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { doc, getDoc } from "firebase/firestore";
-import { useDispatch } from "react-redux";
-import { setLevel } from "../Progress/CourseSlice";
 import * as SecureStore from "expo-secure-store";
 import FolgerMidsummer from "../assets/images/FolgerMidsummer.jpg";
 
@@ -50,7 +47,6 @@ const AuthLoginScreen = ({ navigation }) => {
   const [remember, setRemember] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
-  const dispatch = useDispatch();
 
   useEffect(() => {
     SecureStore.getItemAsync("userinfo").then((userdata) => {
@@ -87,13 +83,7 @@ const AuthLoginScreen = ({ navigation }) => {
     setLoading(true);
     try {
       const response = await signInWithEmailAndPassword(auth, email, password);
-      const userRef = doc(FIRESTORE_DB, "users", response.user.uid);
-      const userSnap = await getDoc(userRef);
-      const userData = userSnap.data();
-      const savedCompletedLevel = Number(userData?.completedLevel ?? 0);
-
-      dispatch(setLevel(Number.isFinite(savedCompletedLevel) ? savedCompletedLevel : 0));
-
+      if (auth.currentUser?.uid !== response.user.uid) return;
       navigation.navigate("Main");
     } catch (error) {
       console.error(error);

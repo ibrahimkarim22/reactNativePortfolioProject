@@ -1,4 +1,578 @@
 {
-  "schemaVersion": "1.0.0",
-  "questions": []
+  "schemaVersion": "2.0.0",
+  "id": "king-john-comprehension",
+  "workId": "king-john",
+  "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+  "canonicalTextVersion": "1",
+  "quizContentVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "king-john-01",
+      "question": "Whose claim does France demand that John recognize at the start?",
+      "options": [
+        {
+          "id": "king-john-01.a",
+          "text": "Arthur, the son of John’s deceased brother Geoffrey."
+        },
+        {
+          "id": "king-john-01.b",
+          "text": "Louis, the son of King Philip of France."
+        },
+        {
+          "id": "king-john-01.c",
+          "text": "The Bastard, the son of King Richard."
+        },
+        {
+          "id": "king-john-01.d",
+          "text": "Henry, the son of King John."
+        }
+      ],
+      "correctOptionId": "king-john-01.a",
+      "explanation": "Chatillion demands that John surrender his titles to his nephew Arthur.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 2350,
+          "end": 2737,
+          "startRef": {
+            "textId": "king-john/sceneI_16.1/p@4429",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneI_16.1/p@4429",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 387
+          },
+          "exact": "CHATILLION.\nPhilip of France, in right and true behalf\nOf thy deceased brother Geoffrey’s son,\nArthur Plantagenet, lays most lawful claim\nTo this fair island and the territories,\nTo Ireland, Poitiers, Anjou, Touraine, Maine,\nDesiring thee to lay aside the sword\nWhich sways usurpingly these several titles,\nAnd put the same into young Arthur’s hand,\nThy nephew and right royal sovereign.",
+          "prefix": "good mother; hear the embassy.\n\n",
+          "suffix": "\n\nKING JOHN.\nWhat follows if we "
+        }
+      ]
+    },
+    {
+      "id": "king-john-02",
+      "question": "What choice does the Bastard make in the dispute over the Faulconbridge inheritance?",
+      "options": [
+        {
+          "id": "king-john-02.a",
+          "text": "Keep the land and refuse all connection to the royal family."
+        },
+        {
+          "id": "king-john-02.b",
+          "text": "Give up the land and follow Eleanor in pursuit of honor."
+        },
+        {
+          "id": "king-john-02.c",
+          "text": "Give the land to Arthur and join the French army."
+        },
+        {
+          "id": "king-john-02.d",
+          "text": "Ask Hubert to imprison his brother until John dies."
+        }
+      ],
+      "correctOptionId": "king-john-02.b",
+      "explanation": "He tells his brother to take the land and chooses to follow Eleanor, receiving the name and status of Plantagenet.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 9026,
+          "end": 9216,
+          "startRef": {
+            "textId": "king-john/sceneI_16.1/p@13092",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneI_16.1/p@13092",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 190
+          },
+          "exact": "BASTARD.\nBrother, take you my land, I’ll take my chance.\nYour face hath got five hundred pound a year,\nYet sell your face for five pence and ’tis dear.\nMadam, I’ll follow you unto the death.",
+          "prefix": "ldier and now bound to France.\n\n",
+          "suffix": "\n\nQUEEN ELEANOR.\nNay, I would ha"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 9458,
+          "end": 9603,
+          "startRef": {
+            "textId": "king-john/sceneI_16.1/p@13704",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneI_16.1/p@13704",
+            "sectionId": "king-john-1-1",
+            "offsetUtf16": 145
+          },
+          "exact": "KING JOHN.\nFrom henceforth bear his name whose form thou bearest.\nKneel thou down Philip, but rise more great,\nArise Sir Richard and Plantagenet.",
+          "prefix": "ir Robert’s wife’s eldest son.\n\n",
+          "suffix": "\n\nBASTARD.\nBrother by th’ mother"
+        }
+      ]
+    },
+    {
+      "id": "king-john-03",
+      "question": "Why do the citizens of Angiers refuse to open their gates to either side at first?",
+      "options": [
+        {
+          "id": "king-john-03.a",
+          "text": "They have already sworn exclusive loyalty to Louis."
+        },
+        {
+          "id": "king-john-03.b",
+          "text": "They will recognize only the Pope as their secular ruler."
+        },
+        {
+          "id": "king-john-03.c",
+          "text": "They will admit only the claimant who proves himself King of England."
+        },
+        {
+          "id": "king-john-03.d",
+          "text": "They want the Bastard to replace both claimants."
+        }
+      ],
+      "correctOptionId": "king-john-03.c",
+      "explanation": "The citizens profess loyalty to England’s king while withholding recognition from either rival.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 27303,
+          "end": 27447,
+          "startRef": {
+            "textId": "king-john/sceneII_16.1/p@36241",
+            "sectionId": "king-john-2-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneII_16.1/p@36241",
+            "sectionId": "king-john-2-1",
+            "offsetUtf16": 144
+          },
+          "exact": "CITIZEN.\nThat can we not; but he that proves the King,\nTo him will we prove loyal. Till that time\nHave we ramm’d up our gates against the world.",
+          "prefix": " then the King, and let me in.\n\n",
+          "suffix": "\n\nKING JOHN.\nDoth not the crown "
+        }
+      ]
+    },
+    {
+      "id": "king-john-04",
+      "question": "What marriage is proposed to reconcile John and Philip over Angiers?",
+      "options": [
+        {
+          "id": "king-john-04.a",
+          "text": "Arthur and John’s niece Blanche."
+        },
+        {
+          "id": "king-john-04.b",
+          "text": "The Bastard and John’s niece Blanche."
+        },
+        {
+          "id": "king-john-04.c",
+          "text": "Robert Faulconbridge and John’s niece Blanche."
+        },
+        {
+          "id": "king-john-04.d",
+          "text": "Louis and John’s niece Blanche."
+        }
+      ],
+      "correctOptionId": "king-john-04.d",
+      "explanation": "The citizens propose joining Louis and Blanche so that a dynastic union can end the siege.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 34653,
+          "end": 36063,
+          "startRef": {
+            "textId": "king-john/sceneII_16.1/p@45633",
+            "sectionId": "king-john-2-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneII_16.1/p@45633",
+            "sectionId": "king-john-2-1",
+            "offsetUtf16": 1410
+          },
+          "exact": "FIRST CITIZEN.\nThat daughter there of Spain, the Lady Blanche,\nIs niece to England. Look upon the years\nOf Louis the Dauphin and that lovely maid.\nIf lusty love should go in quest of beauty,\nWhere should he find it fairer than in Blanche?\nIf zealous love should go in search of virtue,\nWhere should he find it purer than in Blanche?\nIf love ambitious sought a match of birth,\nWhose veins bound richer blood than Lady Blanche?\nSuch as she is, in beauty, virtue, birth,\nIs the young Dauphin every way complete.\nIf not complete of, say he is not she;\nAnd she again wants nothing, to name want,\nIf want it be not that she is not he:\nHe is the half part of a blessed man,\nLeft to be finished by such a she;\nAnd she a fair divided excellence,\nWhose fulness of perfection lies in him.\nO, two such silver currents, when they join\nDo glorify the banks that bound them in;\nAnd two such shores to two such streams made one,\nTwo such controlling bounds shall you be, kings,\nTo these two princes, if you marry them.\nThis union shall do more than battery can\nTo our fast-closed gates; for at this match,\nWith swifter spleen than powder can enforce,\nThe mouth of passage shall we fling wide ope,\nAnd give you entrance. But without this match,\nThe sea enraged is not half so deaf,\nLions more confident, mountains and rocks\nMore free from motion; no, not Death himself\nIn mortal fury half so peremptory\nAs we to keep this city.",
+          "prefix": "h favour; we are bent to hear.\n\n",
+          "suffix": "\n\nBASTARD.\nHere’s a stay\nThat sh"
+        }
+      ]
+    },
+    {
+      "id": "king-john-05",
+      "question": "What does Pandulph demand that Philip do after John defies Rome?",
+      "options": [
+        {
+          "id": "king-john-05.a",
+          "text": "Break with John and use French power against him unless he submits."
+        },
+        {
+          "id": "king-john-05.b",
+          "text": "Surrender Louis to Hubert as a hostage."
+        },
+        {
+          "id": "king-john-05.c",
+          "text": "Recognize the Bastard as Pope’s deputy in England."
+        },
+        {
+          "id": "king-john-05.d",
+          "text": "Send Arthur into permanent exile at Swinstead."
+        }
+      ],
+      "correctOptionId": "king-john-05.a",
+      "explanation": "Pandulph threatens a curse unless Philip abandons John and turns France against him.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 51163,
+          "end": 51331,
+          "startRef": {
+            "textId": "king-john/sceneIII_16.1/p@65882",
+            "sectionId": "king-john-3-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneIII_16.1/p@65882",
+            "sectionId": "king-john-3-1",
+            "offsetUtf16": 168
+          },
+          "exact": "PANDULPH.\nPhilip of France, on peril of a curse,\nLet go the hand of that arch-heretic,\nAnd raise the power of France upon his head,\nUnless he do submit himself to Rome.",
+          "prefix": "law forbid my tongue to curse?\n\n",
+          "suffix": "\n\nQUEEN ELEANOR.\nLook’st thou pa"
+        }
+      ]
+    },
+    {
+      "id": "king-john-06",
+      "question": "Why does John suggest Arthur’s death to Hubert?",
+      "options": [
+        {
+          "id": "king-john-06.a",
+          "text": "He believes Arthur has poisoned Queen Eleanor."
+        },
+        {
+          "id": "king-john-06.b",
+          "text": "He sees the captive boy as an obstacle threatening his own rule."
+        },
+        {
+          "id": "king-john-06.c",
+          "text": "He wants to punish Arthur for refusing to marry Blanche."
+        },
+        {
+          "id": "king-john-06.d",
+          "text": "He has promised Arthur’s lands to Robert Faulconbridge."
+        }
+      ],
+      "correctOptionId": "king-john-06.b",
+      "explanation": "John calls Arthur a serpent in his path and accepts Hubert’s promise that the boy will not live.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 61804,
+          "end": 62373,
+          "startRef": {
+            "textId": "king-john/sceneIII_16.3/p@79925",
+            "sectionId": "king-john-3-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneIII_16.3/p@80585",
+            "sectionId": "king-john-3-3",
+            "offsetUtf16": 136
+          },
+          "exact": "KING JOHN.\nDo not I know thou wouldst?\nGood Hubert, Hubert, Hubert, throw thine eye\nOn yon young boy. I’ll tell thee what, my friend,\nHe is a very serpent in my way;\nAnd wheresoe’er this foot of mine doth tread,\nHe lies before me. Dost thou understand me?\nThou art his keeper.\n\nHUBERT.\nAnd I’ll keep him so\nThat he shall not offend your majesty.\n\nKING JOHN.\nDeath.\n\nHUBERT.\nMy lord?\n\nKING JOHN.\nA grave.\n\nHUBERT.\nHe shall not live.\n\nKING JOHN.\nEnough.\nI could be merry now. Hubert, I love thee.\nWell, I’ll not say what I intend for thee.\nRemember. Madam, fare you well.",
+          "prefix": "act,\nBy heaven, I would do it.\n\n",
+          "suffix": "\nI’ll send those powers o’er to "
+        }
+      ]
+    },
+    {
+      "id": "king-john-07",
+      "question": "What does Hubert finally decide when faced with blinding Arthur?",
+      "options": [
+        {
+          "id": "king-john-07.a",
+          "text": "Blind Arthur but send him safely to France."
+        },
+        {
+          "id": "king-john-07.b",
+          "text": "Have the executioners kill Arthur immediately."
+        },
+        {
+          "id": "king-john-07.c",
+          "text": "Spare Arthur’s eyes and conceal his survival from John."
+        },
+        {
+          "id": "king-john-07.d",
+          "text": "Exchange Arthur for Louis before obeying the order."
+        }
+      ],
+      "correctOptionId": "king-john-07.c",
+      "explanation": "Arthur’s appeal moves Hubert to abandon the blinding while allowing John to believe the boy dead.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 76659,
+          "end": 76839,
+          "startRef": {
+            "textId": "king-john/sceneIV_16.1/p@99458",
+            "sectionId": "king-john-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneIV_16.1/p@99458",
+            "sectionId": "king-john-4-1",
+            "offsetUtf16": 180
+          },
+          "exact": "HUBERT.\nWell, see to live; I will not touch thine eye\nFor all the treasure that thine uncle owes.\nYet I am sworn, and I did purpose, boy,\nWith this same very iron to burn them out.",
+          "prefix": "f note for mercy-lacking uses.\n\n",
+          "suffix": "\n\nARTHUR.\nO, now you look like H"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 76914,
+          "end": 77150,
+          "startRef": {
+            "textId": "king-john/sceneIV_16.1/p@99797",
+            "sectionId": "king-john-4-1",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneIV_16.1/p@99797",
+            "sectionId": "king-john-4-1",
+            "offsetUtf16": 236
+          },
+          "exact": "HUBERT.\nPeace; no more. Adieu.\nYour uncle must not know but you are dead.\nI’ll fill these dogged spies with false reports.\nAnd, pretty child, sleep doubtless and secure\nThat Hubert, for the wealth of all the world,\nWill not offend thee.",
+          "prefix": "this while\nYou were disguised.\n\n",
+          "suffix": "\n\nARTHUR.\nO heaven! I thank you,"
+        }
+      ]
+    },
+    {
+      "id": "king-john-08",
+      "question": "How does Arthur actually die?",
+      "options": [
+        {
+          "id": "king-john-08.a",
+          "text": "Hubert burns out his eyes with the heated irons."
+        },
+        {
+          "id": "king-john-08.b",
+          "text": "John kills him during the marriage ceremony."
+        },
+        {
+          "id": "king-john-08.c",
+          "text": "Melun stabs him after the French army retreats."
+        },
+        {
+          "id": "king-john-08.d",
+          "text": "He leaps from the castle wall while trying to escape."
+        }
+      ],
+      "correctOptionId": "king-john-08.d",
+      "explanation": "Arthur hopes to escape in disguise but dies after jumping down from the wall.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 89666,
+          "end": 90132,
+          "startRef": {
+            "textId": "king-john/sceneIV_16.3/p@116446",
+            "sectionId": "king-john-4-3",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneIV_16.3/p@117034",
+            "sectionId": "king-john-4-3",
+            "offsetUtf16": 7
+          },
+          "exact": "ARTHUR.\nThe wall is high, and yet will I leap down.\nGood ground, be pitiful and hurt me not!\nThere’s few or none do know me, If they did,\nThis ship-boy’s semblance hath disguis’d me quite.\nI am afraid; and yet I’ll venture it.\nIf I get down, and do not break my limbs,\nI’ll find a thousand shifts to get away.\nAs good to die and go, as die and stay.\n\n[Leaps down.]\n\nO me, my uncle’s spirit is in these stones.\nHeaven take my soul, and England keep my bones!\n\n[Dies.]",
+          "prefix": "e.\n\nEnter Arthur on the walls.\n\n",
+          "suffix": "\n\nEnter Pembroke, Salisbury and "
+        }
+      ]
+    },
+    {
+      "id": "king-john-09",
+      "question": "Why do the English lords serving Louis decide to return to John?",
+      "options": [
+        {
+          "id": "king-john-09.a",
+          "text": "Melun warns that Louis plans to execute them if he wins."
+        },
+        {
+          "id": "king-john-09.b",
+          "text": "Louis orders them to accept the Bastard as king."
+        },
+        {
+          "id": "king-john-09.c",
+          "text": "Arthur returns alive and pardons all their offenses."
+        },
+        {
+          "id": "king-john-09.d",
+          "text": "Pandulph promises to give their estates to France."
+        }
+      ],
+      "correctOptionId": "king-john-09.a",
+      "explanation": "The dying Melun reveals the planned betrayal, and Salisbury resolves to resume obedience to John.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 110161,
+          "end": 110616,
+          "startRef": {
+            "textId": "king-john/sceneV_16.4/p@143336",
+            "sectionId": "king-john-5-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneV_16.4/p@143336",
+            "sectionId": "king-john-5-4",
+            "offsetUtf16": 455
+          },
+          "exact": "MELUN.\nFly, noble English, you are bought and sold;\nUnthread the rude eye of rebellion\nAnd welcome home again discarded faith.\nSeek out King John and fall before his feet;\nFor if the French be lords of this loud day,\nHe means to recompense the pains you take\nBy cutting off your heads. Thus hath he sworn,\nAnd I with him, and many more with me,\nUpon the altar at Saint Edmundsbury;\nEven on that altar where we swore to you\nDear amity and everlasting love.",
+          "prefix": "\n\nSALISBURY.\nWounded to death.\n\n",
+          "suffix": "\n\nSALISBURY.\nMay this be possibl"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 111821,
+          "end": 112376,
+          "startRef": {
+            "textId": "king-john/sceneV_16.4/p@145272",
+            "sectionId": "king-john-5-4",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneV_16.4/p@145272",
+            "sectionId": "king-john-5-4",
+            "offsetUtf16": 555
+          },
+          "exact": "SALISBURY.\nWe do believe thee, and beshrew my soul\nBut I do love the favour and the form\nOf this most fair occasion, by the which\nWe will untread the steps of damned flight,\nAnd like a bated and retired flood,\nLeaving our rankness and irregular course,\nStoop low within those bounds we have o’erlook’d,\nAnd calmly run on in obedience\nEven to our ocean, to our great King John.\nMy arm shall give thee help to bear thee hence;\nFor I do see the cruel pangs of death\nRight in thine eye.—Away, my friends! New flight,\nAnd happy newness, that intends old right.",
+          "prefix": "templation and devout desires.\n\n",
+          "suffix": "\n\n[Exeunt, leading off Melun.]\n\n"
+        }
+      ]
+    },
+    {
+      "id": "king-john-10",
+      "question": "To whom do the Bastard and Salisbury pledge loyalty after John’s death?",
+      "options": [
+        {
+          "id": "king-john-10.a",
+          "text": "Louis, the French Dauphin."
+        },
+        {
+          "id": "king-john-10.b",
+          "text": "Prince Henry, John’s son."
+        },
+        {
+          "id": "king-john-10.c",
+          "text": "Hubert, John’s chamberlain."
+        },
+        {
+          "id": "king-john-10.d",
+          "text": "Philip, the King of France."
+        }
+      ],
+      "correctOptionId": "king-john-10.b",
+      "explanation": "The Bastard offers service to the prince’s lineal claim, and Salisbury joins the pledge.",
+      "evidence": [
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 120405,
+          "end": 120628,
+          "startRef": {
+            "textId": "king-john/sceneV_16.7/p@157003",
+            "sectionId": "king-john-5-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneV_16.7/p@157003",
+            "sectionId": "king-john-5-7",
+            "offsetUtf16": 223
+          },
+          "exact": "BASTARD.\nThither shall it, then,\nAnd happily may your sweet self put on\nThe lineal state and glory of the land!\nTo whom, with all submission, on my knee,\nI do bequeath my faithful services\nAnd true subjection everlastingly.",
+          "prefix": "interr’d;\nFor so he will’d it.\n\n",
+          "suffix": "\n\nSALISBURY.\nAnd the like tender"
+        },
+        {
+          "kind": "text-range",
+          "workId": "king-john",
+          "contentVersion": "f2e4842ab1f41e5c2b34eaee65e32d8cb1a77a46d2df501ca471738f92e181a4",
+          "canonicalTextVersion": "1",
+          "offsetUnit": "utf16",
+          "start": 120630,
+          "end": 120718,
+          "startRef": {
+            "textId": "king-john/sceneV_16.7/p@157285",
+            "sectionId": "king-john-5-7",
+            "offsetUtf16": 0
+          },
+          "endRef": {
+            "textId": "king-john/sceneV_16.7/p@157285",
+            "sectionId": "king-john-5-7",
+            "offsetUtf16": 88
+          },
+          "exact": "SALISBURY.\nAnd the like tender of our love we make,\nTo rest without a spot for evermore.",
+          "prefix": "true subjection everlastingly.\n\n",
+          "suffix": "\n\nPRINCE HENRY.\nI have a kind so"
+        }
+      ]
+    }
+  ]
 }

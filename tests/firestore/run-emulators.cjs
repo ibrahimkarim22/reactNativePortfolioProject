@@ -7,12 +7,26 @@ const { spawn } = require('node:child_process');
 const root = path.resolve(__dirname, '../..');
 const mode = process.argv[2] || 'test';
 if (!['start', 'test'].includes(mode)) throw new Error('Use only start or test');
-const configPath = path.join(__dirname, 'firebase.demo.json');
-const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+const variant = process.argv[3] || 'highlights';
+if (!['highlights', 'course'].includes(variant) || process.argv.length > 4) throw new Error('Use only the fixed highlights or course emulator fixture');
+const fixturePath = path.join(__dirname, variant === 'course' ? 'firebase.course.demo.json' : 'firebase.demo.json');
+const config = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
 if (config.emulators.auth.port !== 9199 || config.emulators.firestore.port !== 8180
     || config.emulators.auth.host !== '127.0.0.1' || config.emulators.firestore.host !== '127.0.0.1') throw new Error('Unexpected emulator configuration');
 const temporaryRoot = fs.realpathSync(os.tmpdir());
 const cwd = fs.mkdtempSync(path.join(temporaryRoot, 'bard-firestore-'));
+let configPath = fixturePath;
+if (variant === 'course') {
+  const approvedRules = path.join(root, 'docs/reader/production/firestore.rules');
+  if (fs.realpathSync(path.resolve(__dirname, config.firestore.rules)) !== fs.realpathSync(approvedRules)) {
+    throw new Error('The course emulator must use the reviewed merged rules');
+  }
+  // Firebase rejects a rules path outside the configuration's project folder.
+  // Keep only this necessary fixture in the existing temporary test directory.
+  fs.writeFileSync(path.join(cwd, 'firestore.rules'), fs.readFileSync(approvedRules));
+  configPath = path.join(cwd, 'firebase.course.demo.json');
+  fs.writeFileSync(configPath, JSON.stringify({ ...config, firestore: { rules: 'firestore.rules' } }));
+}
 let cleaned = false;
 function cleanup() {
   if (cleaned) return;

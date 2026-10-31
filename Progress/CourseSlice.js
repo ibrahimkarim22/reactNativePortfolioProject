@@ -2,6 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   completedLevel: 0,
+  ownerId: null,
+  generation: 0,
+  status: "loading",
+  error: null,
 };
 
 const courseSlice = createSlice({
@@ -10,12 +14,19 @@ const courseSlice = createSlice({
   reducers: {
     setLevel(state, action) {
       state.completedLevel = action.payload;
-      console.log("completedLevel REDUX STATE: " + state.completedLevel);
     },
     resetState(state) {
       state.completedLevel = initialState.completedLevel;
     },
+    receiveAccountProgress(state, action) {
+      const progress = action.payload;
+      state.ownerId = progress.owner.uid;
+      state.generation = progress.owner.generation;
+      state.status = progress.status;
+      state.error = progress.error;
+      state.completedLevel = progress.status === "ready" ? progress.completedLevel : 0;
+    },
   },
 });
-export const { setLevel, resetState } = courseSlice.actions;
+export const { setLevel, resetState, receiveAccountProgress } = courseSlice.actions;
 export const courseReducer = courseSlice.reducer;

@@ -2,13 +2,16 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Image } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
 import { PLAYS } from "../shared/localPlayService";
-import { useSelector } from "react-redux";
+import { useAccountCourseProgress, retryAccountProgress } from "../course/AccountCourseProgress";
+import { CourseProgressNotice } from "../course/CourseProgressNotice";
 
 const MedalsTab = () => {
-  const completedLevel = useSelector((state) => state.course.completedLevel);
+  const accountProgress = useAccountCourseProgress();
+  const completedLevel = accountProgress.completedLevel;
   const completedCount = Math.max(0, Number(completedLevel) || 0);
 
   const plays = PLAYS.slice().sort((a, b) => a.difficulty - b.difficulty);
+  if (accountProgress.status !== "ready") return <CourseProgressNotice status={accountProgress.status} onRetry={retryAccountProgress} />;
 
   return (
     <ScrollView style={styles.main}>

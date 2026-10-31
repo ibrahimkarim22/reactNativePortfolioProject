@@ -1,111 +1,101 @@
-import { View, Text, StyleSheet, Button } from "react-native";
-import HTMLView from "react-native-htmlview";
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useNavigation } from "@react-navigation/native";
-import { fetchFolger } from "../folgerLibrary/folgerSlice";
-import { fetchMIT } from "../completeWorks/MITShakespeareSlice";
-import { fetchFolgerCharacter } from "../charactersList/FolgerCharacterList";
-import { ScrollView } from "react-native-gesture-handler";
-import { useRoute } from "@react-navigation/native";
-import Loader from "../Componenets/Loader";
+import React from "react";
+import { StyleSheet, View } from "react-native";
+import { useNavigation, useRoute } from "@react-navigation/native";
+import { getLocalPlayEntry } from "../shared/localPlayService";
+import { validateQuiz } from "../Progress/quizSafety";
+import { buildCanonicalDocument } from "../shared/contentText";
+import { isSourceLinkedQuiz } from "../course/quizContent";
+import {
+  CourseButton,
+  CourseHeading,
+  CoursePage,
+  CoursePanel,
+  CourseText,
+} from "../course/CourseUI";
 
-const Lesson = () => {
-  const route = useRoute();
+const nonblank = value => typeof value === "string" && value.trim().length > 0;
+
+function hasUsableQuiz(entry) {
+  const play = { id: entry.slug, difficulty: entry.difficulty };
+  if (isSourceLinkedQuiz(entry.quiz)) {
+    try {
+      const canonicalDocument = buildCanonicalDocument({ play: entry.play, sections: entry.sections });
+      return !!validateQuiz({ ...play, quizContent: entry.quiz, canonicalDocument });
+    } catch (_) { return false; }
+  }
+  const quiz = Array.isArray(entry.quiz) ? entry.quiz : entry.quiz?.questions;
+  return !!validateQuiz({ ...play, quiz });
+}
+
+export default function Lesson() {
   const navigation = useNavigation();
-  const { id } = route.params;
-  const dispatch = useDispatch();
-  const folger = useSelector((state) => state.folger);
+  const id = useRoute()?.params?.id;
+  const validId = nonblank(id) || Number.isSafeInteger(id);
+  const entry = validId ? getLocalPlayEntry(id) : undefined;
+  const returnToCourse = () => navigation.navigate("Main", { screen: "Course" });
 
-  const handleReadPlay = () => {
-    dispatch(fetchMIT(id));
-    dispatch(fetchFolgerCharacter(id));
-    navigation.navigate("MIT", { id: id });
-  };
+  if (!entry) return (
+    <CoursePage>
+      <CourseHeading title="Lesson unavailable" />
+      <CourseButton title="Back to course" onPress={returnToCourse} variant="secondary" />
+    </CoursePage>
+  );
 
-  const handleQuiz = () => {
-    navigation.navigate("Quiz", { id: id });
-  };
-
-  useEffect(() => {
-    dispatch(fetchFolger(id));
-  }, [dispatch, id]);
+  const synopsis = entry.synopsis || {};
+  const acts = Array.isArray(synopsis.acts) ? synopsis.acts.filter(act => nonblank(act?.summary)) : [];
+  const scenes = Array.isArray(synopsis.scenes) ? synopsis.scenes.filter(scene => nonblank(scene?.summary)) : [];
+  const quizAvailable = hasUsableQuiz(entry);
+  const actCount = Array.isArray(entry.play?.acts) ? entry.play.acts.length : 0;
+  const metadata = [
+    entry.play?.author,
+    entry.play?.genre || entry.genre,
+    actCount ? `${actCount} ${actCount === 1 ? "act" : "acts"}` : null,
+  ].filter(nonblank).join(" · ");
 
   return (
-    <ScrollView style={styles.container}>
-      {folger.isLoading ? (
-        <Loader
-          label="Opening lesson"
-          detail="Preparing the synopsis and course activity"
-        />
-      ) : folger.errMess ? (
-        <Text>Error: {folger.errMess}</Text>
-      ) : (
-        <HTMLView value={folger.htmlContent} stylesheet={htmlStyles} />
-      )}
-      <View style={styles.readPlayBtn}>
-        <Button
-          title="Read Play"
-          onPress={handleReadPlay}
-          color={"rgba(124, 252, 0, .7)"}
-        />
-      </View>
-      <View style={styles.quizBtn}>
-        <Button
-          title="Quiz"
-          onPress={handleQuiz}
-          color={"rgba(75, 0, 130, .9)"}
-        />
-        <View style={styles.menuBtn}>
-          <Button
-            title="Course Menu"
-            onPress={() => navigation.navigate("Course")}
-            color={"rgba(255, 192, 283, .7)"}
-          />
-        </View>
-      </View>
-    </ScrollView>
-  );
-};
+    <CoursePage>
+      <CourseHeading
+        eyebrow={Number.isSafeInteger(entry.difficulty) ? `Lesson ${entry.difficulty}` : undefined}
+        title={entry.name || entry.play?.title}
+        subtitle={metadata}
+      />
 
-const htmlStyles = StyleSheet.create({
-  h2: {
-    color: "steelblue",
-    fontSize: 22,
-    fontFamily: "sans-serif-light",
-    marginTop: 12,
-  },
-  i: {
-    fontFamily: "sans-serif-light",
-  },
-  p: {
-    color: "snow",
-    margin: 3,
-    paddingBottom: 0,
-    marginBottom: -88,
-    fontFamily: "sans-serif-light",
-    fontSize: 22,
-  },
-});
+      {(nonblank(synopsis.playSummary) || acts.length > 0 || scenes.length > 0) && (
+        <CoursePanel>
+          {nonblank(synopsis.playSummary) && <CourseText>{synopsis.playSummary}</CourseText>}
+          {acts.map((act, index) => (
+            <View style={styles.summarySection} key={`act-${act.act}-${index}`}>
+              {act.act != null && <CourseText accessibilityRole="header" style={styles.sectionTitle}>Act {act.act}</CourseText>}
+              <CourseText>{act.summary}</CourseText>
+            </View>
+          ))}
+          {scenes.map((scene, index) => (
+            <View style={styles.summarySection} key={`scene-${scene.id || index}`}>
+              {nonblank(scene.label) && <CourseText accessibilityRole="header" style={styles.sectionTitle}>{scene.label}</CourseText>}
+              <CourseText>{scene.summary}</CourseText>
+            </View>
+          ))}
+        </CoursePanel>
+      )}
+
+      <View style={styles.actions}>
+        <CourseButton title="Read play" onPress={() => navigation.navigate("MIT", { id: entry.slug })} />
+        <CourseButton
+          title="Start quiz"
+          onPress={() => navigation.navigate("Quiz", { id: entry.slug })}
+          variant="secondary"
+          disabled={!quizAvailable}
+        />
+        {!quizAvailable && <CourseText tone="muted" style={styles.availability}>Quiz unavailable</CourseText>}
+        <CourseButton title="Back to course" onPress={returnToCourse} variant="quiet" />
+      </View>
+    </CoursePage>
+  );
+}
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "black",
-    flex: 1,
-    padding: 20,
-  },
-  readPlayBtn: {
-    marginBottom: 11,
-    marginTop: 22,
-  },
-  quizBtn: {
-    marginBottom: 11,
-    marginTop: 11,
-  },
-  menuBtn: {
-    marginBottom: 122,
-    marginTop: 22,
-  },
+  summarySection: { gap: 8 },
+  sectionTitle: { fontSize: 21, lineHeight: 29, fontWeight: "700" },
+  actions: { gap: 12 },
+  availability: { textAlign: "center", fontSize: 14, lineHeight: 22 },
 });
-
-export default Lesson;
